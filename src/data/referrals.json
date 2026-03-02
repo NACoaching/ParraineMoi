@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "name": "Winamax",
+    "slug": "winamax",
+    "category": "Paris Sportifs & Poker",
+    "code": "NOLYUN",
+    "link": "https://www.winamax.fr/registration/new?friend=NOLYUN",
+    "advantage": "Bonus de parrainage",
+    "description": "Inscrivez-vous sur Winamax avec mon code NOLYUN pour bénéficier du bonus de parrainage sur l'une des meilleures plateformes de poker et de paris sportifs en France.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=winamax.fr&sz=128"
+  },
+  {
+    "id": "2",
+    "name": "VOGGT",
+    "slug": "voggt",
+    "category": "Shopping",
+    "code": "WENSAN10918109",
+    "link": "https://voggt.com/",
+    "advantage": "Bonus de bienvenue",
+    "description": "Découvrez VOGGT, l'application d'achat/revente en direct pour les cartes à collectionner et plus. Entrez le code WENSAN10918109 lors de votre inscription.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=voggt.com&sz=128"
+  },
+  {
+    "id": "3",
+    "name": "Fortuneo",
+    "slug": "fortuneo",
+    "category": "Banque & Finance",
+    "code": "13649945",
+    "link": "https://mabanque.fortuneo.fr/fr/offres-parrainage/offres-parrainage.jsp?origine=PARRAINAGE&codeParrain=13649945",
+    "advantage": "Prime de bienvenue",
+    "description": "Ouvrez un compte Fortuneo, une excellente banque en ligne sans frais à l'étranger, avec mon code 13649945 pour profiter de la prime de bienvenue.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=fortuneo.fr&sz=128"
+  },
+  {
+    "id": "4",
+    "name": "Whatnot",
+    "slug": "whatnot",
+    "category": "Shopping",
+    "code": "https://whatnot.com/invite/wensan10",
+    "link": "https://whatnot.com/invite/wensan10",
+    "advantage": "Crédit d'achat offert",
+    "description": "Achetez et vendez sur Whatnot, la plateforme d'enchères en direct incontournable. Utilisez mon lien pour obtenir un crédit offert sur votre premier achat.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=whatnot.com&sz=128"
+  },
+  {
+    "id": "5",
+    "name": "Pawns App",
+    "slug": "pawns-app",
+    "category": "Revenus passifs",
+    "code": "7328575",
+    "link": "https://pawns.app/?r=7328575",
+    "advantage": "Bonus de démarrage",
+    "description": "Gagnez de l'argent de façon passive en partageant votre connexion internet ou en répondant à des sondages. Démarrez avec un bonus via mon lien !",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=pawns.app&sz=128"
+  },
+  {
+    "id": "6",
+    "name": "PayPal",
+    "slug": "paypal",
+    "category": "Paiement & Finance",
+    "code": "https://py.pl/1cPkc4",
+    "link": "https://py.pl/1cPkc4",
+    "advantage": "10€ offerts",
+    "description": "Inscrivez-vous sur PayPal avec mon lien, dépensez ou envoyez au moins 5€ et recevez 10€ en cadeau. Le portefeuille électronique indispensable.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=paypal.com&sz=128"
+  },
+  {
+    "id": "7",
+    "name": "Bitstack",
+    "slug": "bitstack",
+    "category": "Crypto & Investissement",
+    "code": "2zJdvWnVNpanigOU2pFSHtWmV6H",
+    "link": "https://bitstack-app.com/referral/2zJdvWnVNpanigOU2pFSHtWmV6H",
+    "advantage": "Bonus en Bitcoin",
+    "description": "Bitstack vous permet d'arrondir vos dépenses pour épargner automatiquement en Bitcoin. L'application parfaite et 100% française pour débuter en crypto dans la simplicité !",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=bitstack-app.com&sz=128"
+  },
+  {
+    "id": "8",
+    "name": "Scrambly",
+    "slug": "scrambly",
+    "category": "Jeux & Gains",
+    "code": "qeKBFa",
+    "link": "https://go.scrambly.io/qeKBFa",
+    "advantage": "Bonus de parrainage",
+    "description": "Gagnez de l'argent en testant des jeux et applications ! Utilisez mon lien pour obtenir un bonus de démarrage sur Scrambly et commencez à cumuler vos gains tout en vous amusant.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=scrambly.io&sz=128"
+  }
+]
