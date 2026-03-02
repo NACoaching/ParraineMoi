@@ -1,9 +1,10 @@
 import { Navbar } from "@/components/Navbar";
 import "./globals.css";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "ParraineMoi - Codes de Parrainage, Bons Plans & Crédits Offerts",
-  description: "Découvrez mes codes promo et liens de parrainage validés pour bénéficier des meilleures offres de bienvenue sur les banques, la crypto, le shopping et plus encore.",
+export const metadata: Metadata = {
+  title: "Codes de Parrainages - Bons Plans & Crédits Offerts",
+  description: "Découvrez ma sélection des meilleurs codes de parrainage et offres de bienvenue pour Fortuneo, Revolut, Binance et bien d'autres (banques, shopping, crypto). Profitez de réductions immédiates et de crédits offerts à l'inscription en utilisant mes invitations exclusives.",
 };
 
 export default function RootLayout({

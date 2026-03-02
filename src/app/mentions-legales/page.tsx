@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Mentions Légales - ParraineMoi',
-    description: 'Mentions légales du site ParraineMoi.',
+    title: 'Mentions Légales - Codes de Parrainages',
+    description: 'Mentions légales du site Codes de Parrainages.',
 };
 
 export default function MentionsLegalesPage() {

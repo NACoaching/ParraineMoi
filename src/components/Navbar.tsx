@@ -9,9 +9,12 @@ export function Navbar() {
                     <span className="p-1.5 bg-primary/10 rounded-lg text-primary">
                         <Gift size={20} />
                     </span>
-                    ParraineMoi
+                    Codes de Parrainage
                 </Link>
                 <div className="flex items-center gap-6 text-sm font-medium">
+                    <Link href="/guides" className="text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 transition-colors">
+                        Bons Plans & Guides
+                    </Link>
                     <Link href="/mentions-legales" className="text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 transition-colors">
                         Mentions Légales
                     </Link>
