@@ -280,5 +280,26 @@
         "answer": "Absolument ! L'avantage d'être filleul (comme la livraison VIP offerte pendant 3 mois) est lié à votre compte fraîchement créé, et n'empêche absolument pas d'utiliser les nombreux codes promotionnels que MyProtein affiche en page d'accueil (souvent de -30% à -50%) lors de la constitution de votre panier."
       }
     ]
+  },
+  {
+    "id": "15",
+    "name": "Dott",
+    "slug": "dott",
+    "category": "Shopping",
+    "code": "VQ9DK6X",
+    "link": "https://referral.ridedott.com/VQ9DK6X",
+    "advantage": "1 trajet gratuit",
+    "description": "L'un des meilleurs opérateurs de trottinettes et vélos électriques en libre-service en Europe. L'application est fiable, les véhicules sont bien entretenus et disponibles dans de nombreuses grandes villes. Si vous avez besoin d'un trajet d'appoint rapidement, utilisez mon code promo dans la section dédiée de l'application pour vous déplacer gratuitement lors de votre première course.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ridedott.com&sz=128",
+    "faqs": [
+      {
+        "question": "Où entrer le code promo Dott VQ9DK6X ?",
+        "answer": "Une fois l'application Dott téléchargée sur votre smartphone, ouvrez le menu latéral et cliquez sur la section 'Promos'. Vous pourrez y renseigner le code d'invitation 'VQ9DK6X'. Le trajet gratuit sera automatiquement déduit lors de la fin de votre première location de trottinette ou de vélo."
+      },
+      {
+        "question": "Le bon d'achat de parrainage Dott a-t-il une durée de validité ?",
+        "answer": "Oui, comme la plupart des bonus de mobilité, le trajet offert de bienvenue possède une date d'expiration (généralement 15 jours à compter du moment où vous entrez le code dans l'application). Nous vous conseillons de le rentrer juste avant d'avoir besoin de votre premier véhicule."
+      }
+    ]
   }
 ]
