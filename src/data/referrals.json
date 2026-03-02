@@ -8,7 +8,17 @@
     "link": "https://www.winamax.fr/registration/new?friend=NOLYUN",
     "advantage": "Bonus de parrainage",
     "description": "Je parie régulièrement sur le tennis et le foot depuis quelques années, et c'est honnêtement l'application la plus fluide que j'ai pu tester. Les cotes sont souvent parmi les meilleures du marché français, et les tickets 'MyMatch' sont pratiques. En passant par mon lien, ils vous recréditent votre 1er pari s'il est perdant.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=winamax.fr&sz=128"
+    "logoUrl": "https://www.google.com/s2/favicons?domain=winamax.fr&sz=128",
+    "faqs": [
+      {
+        "question": "Comment activer le code promo Winamax NOLYUN en 2026 ?",
+        "answer": "Pour activer le code parrainage NOLYUN, il vous suffit de cliquer sur le lien d'invitation ou de renseigner manuellement le code lors de la création de votre compte Winamax, dans le champ dédié au parrainage. Le bonus sera crédité automatiquement après la validation définitive de votre compte (envoi de la pièce d'identité)."
+      },
+      {
+        "question": "Le bonus de bienvenue Winamax est-il retirable en cash ?",
+        "answer": "Le fonctionnement du bonus paris sportifs de Winamax est très avantageux : si votre premier pari est perdant (jusqu'à 100€), il vous est remboursé en Freebets (paris gratuits). Vous devez rejouer ces Freebets, et les gains nets issus de ces paris gratuits seront alors retirables vers votre compte bancaire."
+      }
+    ]
   },
   {
     "id": "2",
@@ -19,7 +29,17 @@
     "link": "https://voggt.com/",
     "advantage": "Bonus de bienvenue",
     "description": "C'est devenu mon QG pour dénicher des cartes Pokémon et Lorcana en direct. Le concept des ventes aux enchères en live (avec le chat et l'animateur) rend l'expérience vraiment sympa. Pas de fausses cartes à l'horizon ! Code à rentrer à la création du compte pour avoir un bonus.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=voggt.com&sz=128"
+    "logoUrl": "https://www.google.com/s2/favicons?domain=voggt.com&sz=128",
+    "faqs": [
+      {
+        "question": "Où entrer le code de parrainage VOGGT WENSAN10918109 ?",
+        "answer": "Le code VOGGT doit être saisi lors de votre inscription sur l'application mobile ou le site web. Cherchez l'encart 'J'ai un code de parrainage / code promo' avant de finaliser la création de votre profil. Cela appliquera immédiatement la réduction sur votre premier achat lors d'un live."
+      },
+      {
+        "question": "Peut-on utiliser le crédit parrainage sur l'achat de n'importe quelles cartes ?",
+        "answer": "Oui, le crédit offert avec notre code VOGGT est valable sur l'ensemble de l'application. Que vous enchérissiez sur des cartes Pokémon, Yu-Gi-Oh!, du sport, ou même des vêtements vintage pendant les shows en direct, la réduction s'appliquera sur votre panier final."
+      }
+    ]
   },
   {
     "id": "3",
@@ -30,7 +50,17 @@
     "link": "https://mabanque.fortuneo.fr/fr/offres-parrainage/offres-parrainage.jsp?origine=PARRAINAGE&codeParrain=13649945",
     "advantage": "Prime de bienvenue",
     "description": "Ma banque principale depuis 2 ans. Zéro frais sur les paiements quand je voyage à l'étranger, et l'appli est super claire, sans fioritures. Il y a souvent d'énormes offres de bienvenue (parfois plus de 130€), n'hésitez pas à utiliser le lien pour voir ce qu'ils proposent ce mois-ci.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=fortuneo.fr&sz=128"
+    "logoUrl": "https://www.google.com/s2/favicons?domain=fortuneo.fr&sz=128",
+    "faqs": [
+      {
+        "question": "Quelles sont les conditions pour toucher la prime Fortuneo avec le code 13649945 ?",
+        "answer": "Pour débloquer la prime de parrainage Fortuneo, il faut généralement ouvrir un compte courant avec une carte Gold CB Mastercard (sous réserve d'acceptation) et réaliser un minimum de 5 paiements avec cette carte dans les 90 jours. Les conditions exactes varient selon l'offre du mois, vérifiez bien le site officiel via notre lien."
+      },
+      {
+        "question": "Fortuneo est-elle vraiment sans frais à l'étranger ?",
+        "answer": "Absolument. C'est l'un des plus grands avantages de Fortuneo (avec les cartes Gold et Fosfo) : aucuns frais sur les paiements et les retraits par carte bancaire partout dans le monde, peu importe la devise. C'est idéal pour voyager sans se soucier du taux de change."
+      }
+    ]
   },
   {
     "id": "4",
@@ -41,7 +71,13 @@
     "link": "https://whatnot.com/invite/wensan10",
     "advantage": "Crédit d'achat offert",
     "description": "Même délire que Voggt mais avec une vibe encore plus démesurée typiquement américaine. C'est l'endroit parfait si vous cherchez du rétro-gaming très spécifique ou des objets de collection introuvables en France. Vous récupérez direct un crédit pour chiner votre premier objet.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=whatnot.com&sz=128"
+    "logoUrl": "https://www.google.com/s2/favicons?domain=whatnot.com&sz=128",
+    "faqs": [
+      {
+        "question": "Comment obtenir les crédits gratuits sur Whatnot ?",
+        "answer": "L'obtention des crédits est automatique si vous vous inscrivez exclusivement via un lien d'invitation valide comme le nôtre. Une fois le compte créé via le lien, le crédit promo (souvent entre 10$ et 15$) est crédité directement dans votre portefeuille, prêt à être déduit de votre première enchère remportée."
+      }
+    ]
   },
   {
     "id": "5",
@@ -52,7 +88,17 @@
     "link": "https://pawns.app/?r=7328575",
     "advantage": "Bonus de démarrage",
     "description": "Je laisse tourner ça en fond sur mon ordi depuis des mois. Ça partage juste le surplus de votre bande passante internet non utilisée, sans que ça ne ralentisse quoi que ce soit. Parfait pour se payer quelques cafés à la fin du mois sans rien faire. Bonus offert au départ avec mon lien.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=pawns.app&sz=128"
+    "logoUrl": "https://www.google.com/s2/favicons?domain=pawns.app&sz=128",
+    "faqs": [
+      {
+        "question": "Pawns App est-elle une application sécurisée ?",
+        "answer": "Oui, Pawns App se contente d'utiliser la bande passante internet inactive. Elle n'a aucun accès à vos fichiers personnels, vos données de navigation ou vos mots de passe. C'est une méthode de revenu passif transparente qui alimente des réseaux proxy d'entreprise sécurisés."
+      },
+      {
+        "question": "À partir de quel montant peut-on retirer ses gains sur Pawns App ?",
+        "answer": "Le seuil de paiement sur Pawns App est très bas, fixé à seulement 5$. Une fois ce montant atteint, vous pouvez retirer votre argent via PayPal, crypto-monnaies (Bitcoin) ou obtenir des cartes cadeaux virtuelles. L'utilisation du code d'invitation 7328575 vous donne une avance dès l'inscription."
+      }
+    ]
   },
   {
     "id": "6",
@@ -63,7 +109,13 @@
     "link": "https://py.pl/1cPkc4",
     "advantage": "10€ offerts",
     "description": "C'est la base, tout simplement. Si vous n'avez pas encore de compte, c'est le moment : vous le liez à votre carte, vous effectuez votre premier achat de 5€ sur n'importe quel site internet (ou vous transférez 5€ à un ami), et vous récupérez 10€ cash. Vite fait bien fait.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=paypal.com&sz=128"
+    "logoUrl": "https://www.google.com/s2/favicons?domain=paypal.com&sz=128",
+    "faqs": [
+      {
+        "question": "Combien de temps faut-il pour recevoir la prime de parrainage PayPal de 10€ ?",
+        "answer": "Après avoir créé votre compte via le lien d'invitation, vous devez effectuer une transaction éligible de 5€ minimum (un achat en ligne ou un envoi d'argent à un proche). PayPal crédite généralement les 10€ de récompense dans un délai de quelques jours ouvrés suivant cette transaction."
+      }
+    ]
   },
   {
     "id": "7",
@@ -74,7 +126,17 @@
     "link": "https://bitstack-app.com/referral/2zJdvWnVNpanigOU2pFSHtWmV6H",
     "advantage": "Bonus en Bitcoin",
     "description": "J'avais du mal à commencer dans la crypto, et cette appli a changé la donne. J'ai connecté ma banque, et chaque fois que je m'achète un café à 2,50€, elle arrondit à 3€ et met les 0,50€ en Bitcoin. Pas besoin de réfléchir, l'épargne se constitue toute seule et la plateforme est française !",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=bitstack-app.com&sz=128"
+    "logoUrl": "https://www.google.com/s2/favicons?domain=bitstack-app.com&sz=128",
+    "faqs": [
+      {
+        "question": "La connexion de Bitstack avec ma banque est-elle risquée ?",
+        "answer": "Pas du tout. Bitstack utilise des partenaires technologiques certifiés par la Banque de France (comme Tink ou Powens) pour lire vos transactions afin de calculer les arrondis. Ils ne peuvent en aucun cas initier des virements ou posséder vos identifiants bancaires. C'est un accès en lecture seule."
+      },
+      {
+        "question": "Que se passe-t-il une fois le code parrain Bitstack renseigné ?",
+        "answer": "Une fois le code '2zJdvWnVNpanigOU2pFSHtWmV6H' validé, vous devez connecter votre compte bancaire et activer l'arrondi automatique. Le bonus en Bitcoin (généralement 5€) sera ensuite crédité sur votre portefeuille Bitstack et vous pourrez le conserver ou le transférer."
+      }
+    ]
   },
   {
     "id": "8",
@@ -85,6 +147,12 @@
     "link": "https://go.scrambly.io/qeKBFa",
     "advantage": "Bonus de parrainage",
     "description": "Parmi toutes les applis du style, c'est celle qui paie le plus rapidement. Il suffit de télécharger et tester des jeux mobiles une vingtaine de minutes et l'argent monte assez vite sur la cagnotte. Plutôt utile quand on s'ennuie dans une salle d'attente ou dans les transports ! Mon code rajoute un petit boost.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=scrambly.io&sz=128"
+    "logoUrl": "https://www.google.com/s2/favicons?domain=scrambly.io&sz=128",
+    "faqs": [
+      {
+        "question": "Les gains sur Scrambly sont-ils transférables sur PayPal ?",
+        "answer": "Totalement. Scrambly se démarque par ses virements très rapides. Dès que vous atteignez le montant minimum requis, vous pouvez demander un paiement qui arrive instantanément sur votre compte PayPal, sans frais cachés. Pensez à utiliser le lien contenant 'qeKBFa' pour démarrer avec un léger avantage."
+      }
+    ]
   }
 ]

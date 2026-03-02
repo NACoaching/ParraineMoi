@@ -12,6 +12,7 @@ export interface Referral {
   advantage: string;
   description: string;
   logoUrl: string;
+  faqs?: { question: string; answer: string }[];
 }
 
 export function ReferralCard({ referral }: { referral: Referral }) {

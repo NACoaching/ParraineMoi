@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
 import { CopyButton } from '@/components/CopyButton';
 import { CompanyLogo } from '@/components/CompanyLogo';
+import { FaqAccordion } from '@/components/FaqAccordion';
 import referralsData from '@/data/referrals.json';
 import { Referral } from '@/components/ReferralCard';
 
@@ -130,6 +131,11 @@ export default async function ReferralPage({
                         En utilisant ce lien/code, je pourrais percevoir une commission de la part de {referral.name}. Merci à vous ! 🙏
                     </p>
                 </section>
+
+                {/* FAQ SEO */}
+                {referral.faqs && referral.faqs.length > 0 && (
+                    <FaqAccordion faqs={referral.faqs} title={`Vos questions sur l'offre ${referral.name}`} />
+                )}
             </article>
         </main>
     );
