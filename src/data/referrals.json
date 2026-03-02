@@ -154,5 +154,26 @@
         "answer": "Totalement. Scrambly se démarque par ses virements très rapides. Dès que vous atteignez le montant minimum requis, vous pouvez demander un paiement qui arrive instantanément sur votre compte PayPal, sans frais cachés. Pensez à utiliser le lien contenant 'qeKBFa' pour démarrer avec un léger avantage."
       }
     ]
+  },
+  {
+    "id": "9",
+    "name": "Trade Republic",
+    "slug": "trade-republic",
+    "category": "Banque & Finance",
+    "code": "4z09q742",
+    "link": "https://refnocode.trade.re/4z09q742",
+    "advantage": "Bonus en actions",
+    "description": "C'est l'application que j'utilise pour placer mon épargne sans prise de tête. Oubliez les livrets A qui ne rapportent rien : l'argent qui dort sur votre compte Trade Republic génère des intérêts tous les mois ! En plus, l'interface pour acheter des petites fractions d'actions est géniale pour les débutants. Utilisez mon lien pour recevoir votre première action gratuite.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=traderepublic.com&sz=128",
+    "faqs": [
+      {
+        "question": "Comment recevoir l'action gratuite Trade Republic ?",
+        "answer": "Pour valider le parrainage et recevoir votre bonus de bienvenue (une fraction d'action offerte), vous devez ouvrir votre compte via notre lien d'invitation '4z09q742', y déposer de l'argent et effectuer au moins deux transactions boursières dans votre premier mois."
+      },
+      {
+        "question": "L'argent laissé sur Trade Republic est-il sécurisé et rémunéré ?",
+        "answer": "Oui, Trade Republic possède désormais une licence bancaire complète en Allemagne. Vos fonds non investis sont garantis jusqu'à 100 000€ et, surtout, ils génèrent automatiquement des intérêts versés chaque mois (actuellement l'un des meilleurs taux du marché européen)."
+      }
+    ]
   }
 ]
