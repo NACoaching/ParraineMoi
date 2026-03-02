@@ -217,5 +217,26 @@
         "answer": "Absolument, et c'est même la stratégie la plus rentable ! Étant donné que les deux applications utilisent les capteurs de santé natifs de votre téléphone (Apple Health ou Google Fit) pour compter vos pas, vous pouvez 'valider' vos kilomètres sur les deux plateformes de manière totalement indépendante et ainsi doubler vos gains."
       }
     ]
+  },
+  {
+    "id": "12",
+    "name": "Moonwalk",
+    "slug": "moonwalk",
+    "category": "Jeux & Gains",
+    "code": "64D2YYEC",
+    "link": "https://moonwalkapp.onelink.me/BanJ/xfxyqy5x",
+    "advantage": "600 Mooncoins offerts",
+    "description": "Le petit nouveau dans la catégorie des applications qui paient pour marcher ! Le concept de Moonwalk est de vous récompenser en 'Mooncoins' que vous pouvez ensuite transférer sur votre compte bancaire. Le seuil de retrait est super bas (10€). Comme ils sont en pleine phase de lancement, le bonus de parrainage actuel de 600 Mooncoins est ultra généreux, c'est le moment d'en profiter !",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=moonwalk.app&sz=128",
+    "faqs": [
+      {
+        "question": "Où entrer le code d'invitation Moonwalk 64D2YYEC ?",
+        "answer": "Après avoir téléchargé l'application Moonwalk et créé votre compte, allez dans l'onglet 'Profil' (en bas à droite), puis cliquez sur 'Parrainage'. Vous pourrez alors entrer le code '64D2YYEC' pour que vos 600 Mooncoins soient immédiatement crédités sur votre solde."
+      },
+      {
+        "question": "Moonwalk paie-t-il vraiment ses utilisateurs ?",
+        "answer": "Oui, Moonwalk est une application française très sérieuse. Dès que vous atteignez l'équivalent de 10 euros en Mooncoins en marchant tous les jours, vous pouvez demander un virement bancaire classique (SEPA) qui arrive généralement sous 48 à 72 heures."
+      }
+    ]
   }
 ]

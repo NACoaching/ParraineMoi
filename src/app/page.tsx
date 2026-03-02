@@ -33,7 +33,12 @@ export default function Home() {
 
         <ReferralGrid referrals={referrals} />
 
-        <div className="max-w-3xl mx-auto mt-20 px-6 py-8 bg-slate-50 dark:bg-slate-800/50 rounded-3xl border border-slate-200 dark:border-slate-800 text-left">
+      </section>
+
+      <FaqAccordion faqs={generalFaqs} />
+
+      <section className="w-full max-w-5xl px-4 sm:px-6 pb-20 mt-12">
+        <div className="max-w-3xl mx-auto px-6 py-8 bg-slate-50 dark:bg-slate-800/50 rounded-3xl border border-slate-200 dark:border-slate-800 text-left">
           <div className="flex flex-col sm:flex-row gap-6 items-start sm:items-center">
             <div className="h-20 w-20 shrink-0 rounded-full bg-primary/10 text-primary flex items-center justify-center text-2xl font-bold">
               👋
@@ -48,8 +53,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <FaqAccordion faqs={generalFaqs} />
     </main>
   );
 }
