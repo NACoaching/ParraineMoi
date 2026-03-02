@@ -238,5 +238,26 @@
         "answer": "Oui, Moonwalk est une application française très sérieuse. Dès que vous atteignez l'équivalent de 10 euros en Mooncoins en marchant tous les jours, vous pouvez demander un virement bancaire classique (SEPA) qui arrive généralement sous 48 à 72 heures."
       }
     ]
+  },
+  {
+    "id": "13",
+    "name": "Finary",
+    "slug": "finary",
+    "category": "Banque & Finance",
+    "code": "YXY7MG",
+    "link": "https://finary.com/referral/YXY7MG",
+    "advantage": "Jusqu'à 60€ en crypto",
+    "description": "Si vous avez des comptes dans plusieurs banques, de la crypto à droite à gauche et peut-être un peu d'immobilier, Finary est l'application ultime dont vous avez besoin. Elle synchronise absolument tout votre patrimoine sur un seul tableau de bord de pointe. Leur offre Finary Invest permet aussi d'investir avec des frais planchers. Le bonus d'inscription offert grâce au lien est distribué de façon aléatoire (jusqu'à 60€ équivalent en crypto).",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=finary.com&sz=128",
+    "faqs": [
+      {
+        "question": "Est-ce sécurisé de connecter ses banques à Finary ?",
+        "answer": "Absolument. Finary ne stocke pas vos identifiants bancaires et utilise les agrégateurs leader du marché (Budget Insight, Powens) qui sont hautement sécurisés et régulés par la Banque de France. L'application possède un accès strictement en lecture seule : il est impossible d'effectuer la moindre transaction depuis votre tableau de bord."
+      },
+      {
+        "question": "Comment débloquer la prime de parrainage Finary d'une valeur maximale de 60€ ?",
+        "answer": "Pour obtenir le bonus crypto, vous devez créer votre compte Finary via le lien contenant le code 'YXY7MG', puis réaliser un premier dépôt de 100€ minimum sur la partie Finary Invest. Le montant exact de votre prime est tiré aléatoirement et déposé directement sur votre portefeuille Finary quelques jours après votre premier investissement."
+      }
+    ]
   }
 ]
