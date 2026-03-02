@@ -53,7 +53,7 @@ export function ReferralCard({ referral }: { referral: Referral }) {
               {referral.code}
             </span>
           </div>
-          <CopyButton code={referral.code} className="shrink-0 h-8 w-8 !p-0" />
+          <CopyButton code={referral.code} showText={true} className="shrink-0 h-10 px-3" />
         </div>
 
         <Link

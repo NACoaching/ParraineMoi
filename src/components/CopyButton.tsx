@@ -6,9 +6,10 @@ import { Check, Copy } from "lucide-react";
 interface CopyButtonProps {
     code: string;
     className?: string;
+    showText?: boolean;
 }
 
-export function CopyButton({ code, className = "" }: CopyButtonProps) {
+export function CopyButton({ code, className = "", showText = true }: CopyButtonProps) {
     const [copied, setCopied] = useState(false);
 
     const handleCopy = async () => {
@@ -25,20 +26,20 @@ export function CopyButton({ code, className = "" }: CopyButtonProps) {
         <button
             onClick={handleCopy}
             className={`flex items-center justify-center gap-2 h-10 px-4 rounded-xl font-semibold text-sm transition-all active:scale-95 ${copied
-                    ? "bg-emerald-500 text-white hover:bg-emerald-600"
-                    : "bg-primary text-white hover:bg-blue-700"
+                ? "bg-emerald-500 text-white hover:bg-emerald-600"
+                : "bg-primary text-white hover:bg-blue-700"
                 } ${className}`}
             aria-label="Copier le code"
         >
             {copied ? (
                 <>
                     <Check size={16} />
-                    <span className="truncate">Copié !</span>
+                    {showText && <span className="truncate">Copié !</span>}
                 </>
             ) : (
                 <>
                     <Copy size={16} />
-                    <span className="truncate">Copier : {code}</span>
+                    {showText && <span className="truncate">Copier</span>}
                 </>
             )}
         </button>

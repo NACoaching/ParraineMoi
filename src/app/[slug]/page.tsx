@@ -117,15 +117,17 @@ export default async function ReferralPage({
                             <CopyButton code={referral.code} className="shrink-0 h-10 px-4 text-sm" />
                         </div>
 
-                        <a
-                            href={referral.link}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center justify-center gap-2 h-[60px] sm:h-auto px-8 rounded-xl bg-slate-900 text-white dark:bg-white dark:text-slate-900 font-bold hover:bg-slate-800 dark:hover:bg-slate-100 transition-all shadow-sm active:scale-95"
-                        >
-                            S'inscrire
-                            <ExternalLink size={18} />
-                        </a>
+                        {referral.link && referral.link !== "" && (
+                            <a
+                                href={referral.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center justify-center gap-2 h-[60px] sm:h-auto px-8 rounded-xl bg-slate-900 text-white dark:bg-white dark:text-slate-900 font-bold hover:bg-slate-800 dark:hover:bg-slate-100 transition-all shadow-sm active:scale-95"
+                            >
+                                S'inscrire
+                                <ExternalLink size={18} />
+                            </a>
+                        )}
                     </div>
                     <p className="text-xs text-slate-400 dark:text-slate-500 mt-6 max-w-md mx-auto">
                         En utilisant ce lien/code, je pourrais percevoir une commission de la part de {referral.name}. Merci à vous ! 🙏

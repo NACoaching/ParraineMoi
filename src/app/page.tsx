@@ -12,7 +12,7 @@ export default function Home() {
       answer: "Les codes et liens de parrainage listés sur ce site vous permettent de bénéficier d'avantages exclusifs (crédit offert, prime en euros, réductions) lors de l'ouverture d'un nouveau compte sur des applications partenaires (banque en ligne, applications crypto, shopping). Il vous suffit de cliquer sur nos liens ou de renseigner le code indiqué à l'inscription pour que le bonus s'applique automatiquement."
     },
     {
-      question: "Les offres de bienvenue ParraineMoi sont-elles cumulables ?",
+      question: "Les offres de bienvenue sont-elles cumulables ?",
       answer: "Oui, la magie du parrainage est que vous pouvez cumuler les offres de différents services ! Par exemple, vous pouvez obtenir une prime d'ouverture de compte chez Fortuneo, tout en profitant le même jour d'une offre cash chez PayPal ou d'un bonus d'inscription en crypto chez Bitstack. Seule règle : être un nouveau client de l'application."
     },
     {
