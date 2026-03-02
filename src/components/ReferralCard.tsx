@@ -14,7 +14,6 @@ export interface Referral {
   logoUrl: string;
   review?: {
     pros: string[];
-    cons: string[];
     longReview: string;
   };
   steps?: { title: string; description: string }[];

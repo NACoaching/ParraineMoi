@@ -173,45 +173,25 @@ export default async function ReferralPage({
                             )}
                         </div>
 
-                        {/* Pros & Cons */}
-                        {referral.review && (referral.review.pros.length > 0 || referral.review.cons.length > 0) && (
-                            <div className="grid md:grid-cols-2 gap-6">
-                                {referral.review.pros.length > 0 && (
-                                    <div className="bg-emerald-50/50 dark:bg-emerald-900/10 border border-emerald-100 dark:border-emerald-800/30 rounded-[1.5rem] p-6 shadow-sm">
-                                        <h3 className="text-lg font-bold text-emerald-800 dark:text-emerald-400 mb-4 flex items-center gap-2">
-                                            <span className="flex items-center justify-center p-1 bg-emerald-100 dark:bg-emerald-800/50 rounded-full">
-                                                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
-                                            </span>
-                                            Les points forts
-                                        </h3>
-                                        <ul className="space-y-3">
-                                            {referral.review.pros.map((pro, index) => (
-                                                <li key={index} className="flex items-start gap-3 text-slate-700 dark:text-slate-300">
-                                                    <span className="text-emerald-500 mt-1 shrink-0">•</span>
-                                                    <span>{pro}</span>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                )}
-                                {referral.review.cons.length > 0 && (
-                                    <div className="bg-rose-50/50 dark:bg-rose-900/10 border border-rose-100 dark:border-rose-800/30 rounded-[1.5rem] p-6 shadow-sm">
-                                        <h3 className="text-lg font-bold text-rose-800 dark:text-rose-400 mb-4 flex items-center gap-2">
-                                            <span className="flex items-center justify-center p-1 bg-rose-100 dark:bg-rose-800/50 rounded-full">
-                                                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M6 18L18 6M6 6l12 12" /></svg>
-                                            </span>
-                                            Les points faibles
-                                        </h3>
-                                        <ul className="space-y-3">
-                                            {referral.review.cons.map((con, index) => (
-                                                <li key={index} className="flex items-start gap-3 text-slate-700 dark:text-slate-300">
-                                                    <span className="text-rose-500 mt-1 shrink-0">•</span>
-                                                    <span>{con}</span>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                )}
+                        {/* Pros */}
+                        {referral.review && referral.review.pros && referral.review.pros.length > 0 && (
+                            <div className="mb-8">
+                                <div className="bg-emerald-50/50 dark:bg-emerald-900/10 border border-emerald-100 dark:border-emerald-800/30 rounded-[1.5rem] p-6 shadow-sm">
+                                    <h3 className="text-lg font-bold text-emerald-800 dark:text-emerald-400 mb-4 flex items-center gap-2">
+                                        <span className="flex items-center justify-center p-1 bg-emerald-100 dark:bg-emerald-800/50 rounded-full">
+                                            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
+                                        </span>
+                                        Les points forts
+                                    </h3>
+                                    <ul className="space-y-3">
+                                        {referral.review.pros.map((pro, index) => (
+                                            <li key={index} className="flex items-start gap-3 text-slate-700 dark:text-slate-300">
+                                                <span className="text-emerald-500 mt-1 shrink-0">•</span>
+                                                <span>{pro}</span>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
                             </div>
                         )}
                     </div>
