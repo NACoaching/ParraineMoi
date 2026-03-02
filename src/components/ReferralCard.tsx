@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { CopyButton } from "./CopyButton";
 import { CompanyLogo } from "./CompanyLogo";
+import { Coins } from "lucide-react";
 
 export interface Referral {
   id: string;
@@ -12,12 +13,19 @@ export interface Referral {
   advantage: string;
   description: string;
   logoUrl: string;
+  cashback?: string;
   faqs?: { question: string; answer: string }[];
 }
 
 export function ReferralCard({ referral }: { referral: Referral }) {
   return (
     <div className="group relative flex flex-col justify-between overflow-hidden rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm transition-all hover:shadow-md hover:-translate-y-1">
+      {referral.cashback && (
+        <div className="absolute top-0 right-0 z-10 bg-rose-500 rounded-bl-2xl text-white text-xs font-bold px-3 py-1.5 flex items-center gap-1 shadow-sm">
+          <Coins size={14} /> {referral.cashback}
+        </div>
+      )}
+
       <div className="p-5 flex-1 flex flex-col items-start text-left">
         <div className="flex items-center gap-4 mb-4">
           <div className="h-12 w-12 shrink-0 overflow-hidden rounded-xl border border-slate-100 dark:border-slate-800 bg-white shadow-sm ring-1 ring-slate-900/5 dark:ring-white/5 relative p-2 flex items-center justify-center">
@@ -37,7 +45,7 @@ export function ReferralCard({ referral }: { referral: Referral }) {
           </p>
         </div>
 
-        <p className="text-sm text-slate-500 dark:text-slate-400 line-clamp-2 mb-4">
+        <p className="text-sm text-slate-500 dark:text-slate-400 line-clamp-2 mb-4 pr-2">
           {referral.description}
         </p>
       </div>
@@ -58,9 +66,9 @@ export function ReferralCard({ referral }: { referral: Referral }) {
 
         <Link
           href={`/parrainage-${referral.slug}`}
-          className="w-full flex items-center justify-center h-10 px-4 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white font-medium hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors text-sm"
+          className={`w-full flex items-center justify-center h-10 px-4 rounded-xl font-medium transition-colors text-sm ${referral.cashback ? 'bg-rose-50 hover:bg-rose-100 text-rose-700 dark:bg-rose-500/10 dark:text-rose-400 dark:hover:bg-rose-500/20' : 'bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white hover:bg-slate-200 dark:hover:bg-slate-700'}`}
         >
-          Voir l'offre
+          {referral.cashback ? "Voir l'offre VIP" : "Voir l'offre"}
         </Link>
       </div>
     </div>
