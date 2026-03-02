@@ -196,5 +196,26 @@
         "answer": "Oui, tout à fait ! Plus vous marchez, plus vous accumulez des paliers de Wards chaque jour. Vous pouvez également augmenter vos gains en répondant à des sondages ou en validant des défis sur l'application. Une fois un certain seuil de Wards atteint, vous pouvez demander un véritable virement en euros sur votre compte bancaire."
       }
     ]
+  },
+  {
+    "id": "11",
+    "name": "Macadam",
+    "slug": "macadam",
+    "category": "Jeux & Gains",
+    "code": "md2za4",
+    "link": "https://macadam.app/i/md2za4?v=1",
+    "advantage": "1000 Coins offerts",
+    "description": "L'alternative parfaite à WeWard. Macadam vous récompense également pour marcher, mais avec une approche plus ludique (des petits podomètres amusants). Le gros avantage, c'est que vous pouvez utiliser les deux applications en même temps pour cumuler vos gains sur les mêmes trajets ! Rentrez le code de parrainage lors de l'inscription pour démarrer avec un joli bonus de Coins.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=macadam.app&sz=128",
+    "faqs": [
+      {
+        "question": "Où entrer le code de parrainage Macadam md2za4 ?",
+        "answer": "Contrairement à d'autres applications, il est conseillé de renseigner le code d'invitation 'md2za4' dès la création de votre compte Macadam. Si vous avez oublié, vous pouvez toujours vous rendre dans l'onglet 'Réglages' (la petite roue crantée) dans les 48 heures suivant l'installation pour l'ajouter et recevoir vos 1000 Coins."
+      },
+      {
+        "question": "Peut-on utiliser Macadam et WeWard en même temps ?",
+        "answer": "Absolument, et c'est même la stratégie la plus rentable ! Étant donné que les deux applications utilisent les capteurs de santé natifs de votre téléphone (Apple Health ou Google Fit) pour compter vos pas, vous pouvez 'valider' vos kilomètres sur les deux plateformes de manière totalement indépendante et ainsi doubler vos gains."
+      }
+    ]
   }
 ]
