@@ -175,5 +175,26 @@
         "answer": "Oui, Trade Republic possède désormais une licence bancaire complète en Allemagne. Vos fonds non investis sont garantis jusqu'à 100 000€ et, surtout, ils génèrent automatiquement des intérêts versés chaque mois (actuellement l'un des meilleurs taux du marché européen)."
       }
     ]
+  },
+  {
+    "id": "10",
+    "name": "WeWard",
+    "slug": "weward",
+    "category": "Jeux & Gains",
+    "code": "AncienIguane5070",
+    "link": "https://wewardapp.go.link/jrcOH?adj_label=AncienIguane5070",
+    "advantage": "50 Wards offerts",
+    "description": "C'est l'application parfaite pour se motiver à aller marcher ! WeWard compte vos pas quotidiens et vous récompense avec une monnaie virtuelle (les Wards) que vous pouvez ensuite échanger contre des virements bancaires, des cadeaux ou des dons à des associations. C'est 100% gratuit et ça fonctionne en arrière-plan. Commencez avec 50 Wards dans votre cagnotte grâce à mon code.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=weward.fr&sz=128",
+    "faqs": [
+      {
+        "question": "Où faut-il rentrer le code de parrainage WeWard AncienIguane5070 ?",
+        "answer": "Une fois l'application WeWard téléchargée et votre compte créé, rendez-vous dans les paramètres de votre profil (l'icône engrenage). Vous y trouverez une section 'Entrer un code de parrainage'. Saisissez-y le code 'AncienIguane5070' pour recevoir instantanément vos 50 Wards de bienvenue gratuits."
+      },
+      {
+        "question": "WeWard permet-il vraiment de gagner de l'argent en marchant ?",
+        "answer": "Oui, tout à fait ! Plus vous marchez, plus vous accumulez des paliers de Wards chaque jour. Vous pouvez également augmenter vos gains en répondant à des sondages ou en validant des défis sur l'application. Une fois un certain seuil de Wards atteint, vous pouvez demander un véritable virement en euros sur votre compte bancaire."
+      }
+    ]
   }
 ]
