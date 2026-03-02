@@ -15,7 +15,9 @@ export default function Home() {
           Des offres testées et approuvées. Utilisez mes codes pour bénéficier d'avantages exclusifs lors de votre inscription.
         </p>
 
-        <div className="max-w-3xl mx-auto mb-16 px-6 py-8 bg-slate-50 dark:bg-slate-800/50 rounded-3xl border border-slate-200 dark:border-slate-800 text-left">
+        <ReferralGrid referrals={referrals} />
+
+        <div className="max-w-3xl mx-auto mt-20 px-6 py-8 bg-slate-50 dark:bg-slate-800/50 rounded-3xl border border-slate-200 dark:border-slate-800 text-left">
           <div className="flex flex-col sm:flex-row gap-6 items-start sm:items-center">
             <div className="h-20 w-20 shrink-0 rounded-full bg-primary/10 text-primary flex items-center justify-center text-2xl font-bold">
               👋
@@ -29,8 +31,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        <ReferralGrid referrals={referrals} />
       </section>
     </main>
   );
