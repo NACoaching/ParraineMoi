@@ -99,10 +99,6 @@ export default async function ReferralPage({
                                 <ShieldCheck size={16} />
                                 Code vérifié {currentYear}
                             </span>
-                            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-50 dark:bg-amber-500/10 text-amber-700 dark:text-amber-400 text-xs sm:text-sm font-medium border border-amber-200 dark:border-amber-500/20">
-                                <Star size={16} className="fill-current" />
-                                4.9/5 Excellent
-                            </span>
                             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-500/10 text-blue-700 dark:text-blue-400 text-xs sm:text-sm font-medium border border-blue-200 dark:border-blue-500/20">
                                 <Clock size={16} />
                                 Actif immédiatement
