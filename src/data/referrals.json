@@ -259,5 +259,26 @@
         "answer": "Pour obtenir le bonus crypto, vous devez créer votre compte Finary via le lien contenant le code 'YXY7MG', puis réaliser un premier dépôt de 100€ minimum sur la partie Finary Invest. Le montant exact de votre prime est tiré aléatoirement et déposé directement sur votre portefeuille Finary quelques jours après votre premier investissement."
       }
     ]
+  },
+  {
+    "id": "14",
+    "name": "MyProtein",
+    "slug": "myprotein",
+    "category": "Shopping",
+    "code": "NOLWEN-R10",
+    "link": "https://fr.myprotein.com/referrals.list?applyCode=NOLWEN-R10",
+    "advantage": "Livraison gratuite pendant 3 mois VIP",
+    "description": "C'est la marque incontournable pour les compléments alimentaires (whey, créatine) et les vêtements de sport de bonne qualité. Leurs prix de base sont déjà agressifs, mais avec les codes de réduction quasi-constants, c'est imbattable. Utilisez le code d'invitation lors de la création de votre compte pour débloquer 3 mois de livraison gratuite (statut VIP) dès votre première commande.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=myprotein.com&sz=128",
+    "faqs": [
+      {
+        "question": "Ce code de parrainage fonctionne-t-il sur l'application MyProtein ?",
+        "answer": "Oui, le code 'NOLWEN-R10' est valable aussi bien sur le site web traditionnel que sur l'application mobile iOS ou Android. Pensez simplement à bien le renseigner dans la case 'Code de Parrainage' présente sur le formulaire d'inscription avant de le valider."
+      },
+      {
+        "question": "Puis-je cumuler le parrainage avec les soldes régulières ?",
+        "answer": "Absolument ! L'avantage d'être filleul (comme la livraison VIP offerte pendant 3 mois) est lié à votre compte fraîchement créé, et n'empêche absolument pas d'utiliser les nombreux codes promotionnels que MyProtein affiche en page d'accueil (souvent de -30% à -50%) lors de la constitution de votre panier."
+      }
+    ]
   }
 ]
