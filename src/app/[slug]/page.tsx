@@ -33,9 +33,11 @@ export async function generateMetadata({
         return {};
     }
 
+    const currentYear = new Date().getFullYear();
+
     return {
-        title: `Code parrainage ${referral.name} : ${referral.advantage} en 2024`,
-        description: `Profitez de ${referral.advantage} de bonus sur ${referral.name} avec mon code de parrainage ${referral.code}. Offre vérifiée.`,
+        title: `Code parrainage ${referral.name} : ${referral.advantage} en ${currentYear}`,
+        description: `Profitez de ${referral.advantage} de bonus sur ${referral.name} avec mon code de parrainage ${referral.code} vérifié en ${currentYear}.`,
     };
 }
 
