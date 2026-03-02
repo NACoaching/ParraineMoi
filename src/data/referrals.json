@@ -9,6 +9,33 @@
     "advantage": "Bonus de parrainage",
     "description": "Je parie régulièrement sur le tennis et le foot depuis quelques années, et c'est honnêtement l'application la plus fluide que j'ai pu tester. Les cotes sont souvent parmi les meilleures du marché français, et les tickets 'MyMatch' sont pratiques. En passant par mon lien, ils vous recréditent votre 1er pari s'il est perdant.",
     "logoUrl": "https://www.google.com/s2/favicons?domain=winamax.fr&sz=128",
+    "review": {
+      "pros": [
+        "Meilleures cotes globales du marché français",
+        "Application mobile extrêmement fluide",
+        "Bonus de bienvenue clair et facile à réclamer",
+        "Retraits bancaires très rapides"
+      ],
+      "cons": [
+        "Service client par email uniquement",
+        "Design parfois un peu sombre/chargé pour les débutants"
+      ],
+      "longReview": "<p>Winamax s'est imposé comme le leader incontesté des paris sportifs et du poker en France, et ce n'est pas par hasard. J'utilise cette plateforme depuis plusieurs années, principalement pour le tennis et le football, et je dois avouer que <strong>l'expérience utilisateur est nettement supérieure</strong> à la concurrence.</p><br/><p>Ce qui fait vraiment la différence, ce sont <strong>les cotes proposées</strong>. Que ce soit sur la Ligue 1 ou les tournois du Grand Chelem, Winamax se positionne presque toujours sur la fourchette haute du marché. De plus, la fonctionnalité <em>MyMatch</em>, qui permet de combiner plusieurs paris sur une même rencontre (par exemple : victoire du PSG + but de Mbappé + plus de 2,5 buts) est extrêmement bien conçue et intuitive.</p><br/><p>Au niveau de la fiabilité, l’application mobile ne souffre d’aucun ralentissement, même lors des gros événements en direct. Les retraits vers le compte bancaire sont traités avec une rapidité exemplaire (souvent en moins de 48h). <strong>Le bonus de bienvenue</strong> est également l'un des plus clairs du marché : votre premier pari est remboursé en paris gratuits (Freebets) s'il est perdant. C'est idéal pour tenter un gros coup sans risque lors de l'inscription !</p>"
+    },
+    "steps": [
+      {
+        "title": "Inscrivez-vous via le lien",
+        "description": "Cliquez sur notre lien partenaire pour être redirigé vers la page d'inscription officielle de Winamax. Le code de parrainage NOLYUN sera automatiquement appliqué."
+      },
+      {
+        "title": "Validez votre identité",
+        "description": "Remplissez vos informations personnelles et envoyez un justificatif d'identité et un RIB (obligatoire en France pour les paris sportifs) pour finaliser la création du compte."
+      },
+      {
+        "title": "Faites votre premier dépôt",
+        "description": "Déposez le montant de votre choix et réalisez votre premier pari sportif. Si celui-ci est perdant, Winamax vous le rembourse intégralement en paris gratuits !"
+      }
+    ],
     "faqs": [
       {
         "question": "Comment activer le code promo Winamax NOLYUN en 2026 ?",
@@ -17,6 +44,10 @@
       {
         "question": "Le bonus de bienvenue Winamax est-il retirable en cash ?",
         "answer": "Le fonctionnement du bonus paris sportifs de Winamax est très avantageux : si votre premier pari est perdant (jusqu'à 100€), il vous est remboursé en Freebets (paris gratuits). Vous devez rejouer ces Freebets, et les gains nets issus de ces paris gratuits seront alors retirables vers votre compte bancaire."
+      },
+      {
+        "question": "Puis-je jouer au poker et parier sur le sport avec le même compte ?",
+        "answer": "Oui, tout à fait. Votre compte Winamax est unique et centralisé. Vous pouvez utiliser la même cagnotte (bankroll) pour jouer à des tournois de poker, des Sit & Go, ou pour placer des paris sportifs."
       }
     ]
   },
@@ -51,6 +82,34 @@
     "advantage": "Prime de bienvenue",
     "description": "Ma banque principale depuis 2 ans. Zéro frais sur les paiements quand je voyage à l'étranger, et l'appli est super claire, sans fioritures. Il y a souvent d'énormes offres de bienvenue (parfois plus de 130€), n'hésitez pas à utiliser le lien pour voir ce qu'ils proposent ce mois-ci.",
     "logoUrl": "https://www.google.com/s2/favicons?domain=fortuneo.fr&sz=128",
+    "review": {
+      "pros": [
+        "0 frais sur paiements et retraits partout dans le monde",
+        "Cartes Fosfo et Gold Mastercard gratuites (sous conditions)",
+        "Génération de cartes virtuelles éphémères gratuites",
+        "Application super claire et réactive"
+      ],
+      "cons": [
+        "Le service client téléphonique complexe à joindre aux heures de pointe",
+        "Pas de dépôt d'espèces possible (100% en ligne)",
+        "Conditions de revenus exigées pour avoir la Gold Mastercard (1800€/mois)"
+      ],
+      "longReview": "<p>Après avoir testé de nombreuses banques en ligne (Boursorama, Monabanq...), <strong>Fortuneo est devenue ma banque principale</strong> depuis plus de deux ans. Pourquoi ? Tout simplement parce qu'elle fait parfaitement ce qu'on attend d'elle : être fiable, gratuite et totalement transparente sur ses tarifs.</p><br/><p>L'atout majeur de Fortuneo réside dans ses <strong>cartes bancaires gratuites</strong> (Fosfo ou Gold Mastercard) et surtout dans sa politique tarifaire à l'étranger. <strong>Il n'y a absolument aucun frais sur les paiements et les retraits</strong> effectués hors zone Euro. C'est un avantage colossal par rapport aux banques traditionnelles qui prennent souvent des commissions fixes + un pourcentage sur chaque transaction. Lorsque je voyage, je n'emmène plus que ma carte Fortuneo.</p><br/><p>L'application mobile est simple, claire et va à l'essentiel. Vous pouvez bloquer/débloquer votre carte en un clic, modifier vos plafonds en temps réel, ou générer des <em>cartes virtuelles éphémères</em> pour payer en ligne en toute sécurité sans donner votre vrai numéro de carte. Enfin, <strong>les primes de parrainage</strong> sont parmi les plus généreuses du marché français (régulièrement au-dessus de 100€ pour les filleuls selon les périodes promotionnelles).</p>"
+    },
+    "steps": [
+      {
+        "title": "Commencez l'ouverture",
+        "description": "Cliquez sur notre bouton et remplissez le formulaire de souscription en ligne. N'oubliez pas de bien vérifier que le code parrain 13649945 est bien présent dans la case 'Code Opération'."
+      },
+      {
+        "title": "Déposez vos justificatifs",
+        "description": "Prenez en photo ou téléchargez vos documents (pièce d'identité, justificatif de domicile, RIB) directement depuis l'interface sécurisée de Fortuneo."
+      },
+      {
+        "title": "Activez votre compte",
+        "description": "Une fois votre dossier accepté (généralement 48-72h), effectuez le premier virement initial pour valider l'ouverture du compte et déclencher l'envoi de votre carte bancaire ainsi que le versement de votre belle prime !"
+      }
+    ],
     "faqs": [
       {
         "question": "Quelles sont les conditions pour toucher la prime Fortuneo avec le code 13649945 ?",
@@ -59,6 +118,10 @@
       {
         "question": "Fortuneo est-elle vraiment sans frais à l'étranger ?",
         "answer": "Absolument. C'est l'un des plus grands avantages de Fortuneo (avec les cartes Gold et Fosfo) : aucuns frais sur les paiements et les retraits par carte bancaire partout dans le monde, peu importe la devise. C'est idéal pour voyager sans se soucier du taux de change."
+      },
+      {
+        "question": "Comment fonctionnent les cartes virtuelles Fortuneo ?",
+        "answer": "Depuis l'application, vous pouvez générer gratuitement un numéro de carte temporaire. Vous choisissez le montant maximum et la durée de validité de cette carte. Idéal pour faire un achat sur un site inconnu sans jamais transmettre vos véritables identifiants bancaires !"
       }
     ]
   },
@@ -165,6 +228,33 @@
     "advantage": "Bonus en actions",
     "description": "C'est l'application que j'utilise pour placer mon épargne sans prise de tête. Oubliez les livrets A qui ne rapportent rien : l'argent qui dort sur votre compte Trade Republic génère des intérêts tous les mois ! En plus, l'interface pour acheter des petites fractions d'actions est géniale pour les débutants. Utilisez mon lien pour recevoir votre première action gratuite.",
     "logoUrl": "https://www.google.com/s2/favicons?domain=traderepublic.com&sz=128",
+    "review": {
+      "pros": [
+        "Interface ultra intuitive pour les débutants",
+        "Rémunération de l'argent non investi très attractive",
+        "Achat d'actions et ETF programmés sans frais",
+        "Licence bancaire allemande complète"
+      ],
+      "cons": [
+        "Moins d'outils d'analyse poussés pour les traders experts",
+        "Pas de PEA disponible (uniquement compte-titres)"
+      ],
+      "longReview": "<p>Trade Republic est aujourd'hui l'un des meilleurs courtiers en ligne en Europe, et c'est véritablement <strong>l'application idéale pour débuter en bourse</strong>. Son interface minimaliste et fluide désacralise l'investissement : vous pouvez acheter des fractions d'actions ou d'ETF d'entreprises mondiales en trois clics depuis votre canapé.</p><br/><p>Le point fort incontournable de Trade Republic réside dans sa fonction <em>d'épargne programmée</em>. Vous pouvez investir automatiquement une petite somme (par exemple 50€ par mois) dans un ETF monde, <strong>le tout sans aucun frais de courtage</strong>. C'est la méthode parfaite pour se créer un capital sur le long terme de façon totalement passive et indolore.</p><br/><p>Mais l'avantage numéro un à l'heure actuelle, c'est la rémunération du cash ! <strong>Tout l'argent déposé sur l'application qui n'est pas investi dans des actions génère un intérêt annuel versé mensuellement</strong> (actuellement l'un des meilleurs taux du marché de l'épargne). Avec sa licence bancaire allemande et la garantie des dépôts à 100 000€, c'est devenu une alternative redoutable aux livrets bancaires traditionnels.</p>"
+    },
+    "steps": [
+      {
+        "title": "Téléchargez l'application",
+        "description": "Passez obligatoirement par notre lien d'invitation '4z09q742' pour atterrir sur la page de parrainage officielle Trade Republic et lancer l'inscription."
+      },
+      {
+        "title": "Finalisez votre profil",
+        "description": "Le processus prend 5 minutes : confirmez votre identité avec votre carte d'identité ou passeport, puis ajoutez un compte bancaire de dépôt."
+      },
+      {
+        "title": "Déposez et investissez",
+        "description": "Pour débloquer votre fraction d'action offerte, effectuez un dépôt par virement ou carte bancaire, et réalisez 2 petites transactions (achat d'action de votre choix) dans les 30 jours."
+      }
+    ],
     "faqs": [
       {
         "question": "Comment recevoir l'action gratuite Trade Republic ?",
@@ -240,7 +330,7 @@
     ]
   },
   {
-    "id": "13",
+    "id": "14",
     "name": "Finary",
     "slug": "finary",
     "category": "Banque & Finance",
@@ -249,6 +339,33 @@
     "advantage": "Jusqu'à 60€ en crypto",
     "description": "Si vous avez des comptes dans plusieurs banques, de la crypto à droite à gauche et peut-être un peu d'immobilier, Finary est l'application ultime dont vous avez besoin. Elle synchronise absolument tout votre patrimoine sur un seul tableau de bord de pointe. Leur offre Finary Invest permet aussi d'investir avec des frais planchers. Le bonus d'inscription offert grâce au lien est distribué de façon aléatoire (jusqu'à 60€ équivalent en crypto).",
     "logoUrl": "https://www.google.com/s2/favicons?domain=finary.com&sz=128",
+    "review": {
+      "pros": [
+        "Synchronisation automatique de toutes vos banques et brokers",
+        "Interface et graphiques de suivi patrimoine exceptionnels",
+        "Offre 'Finary Invest' avec des frais très bas",
+        "Communauté d'utilisateurs et forum très actifs"
+      ],
+      "cons": [
+        "Certaines fonctionnalités pointues (Live prices...) réservées à la version payante 'Finary Plus'",
+        "Parfois quelques déconnexions avec les banques traditionnelles dues aux API"
+      ],
+      "longReview": "<p>Si vous commencez à avoir des livrets dans une banque, un compte-titres ailleurs, et un peu de crypto, le suivi de votre patrimoine peut vite devenir un cauchemar sur Excel. C'est là que <strong>Finary intervient comme l'outil ultime de gestion de patrimoine en ligne</strong>. Ce tableau de bord permet de connecter tous vos comptes et d'avoir une vision claire et globale de votre argent, de votre allocation, et de vos dividendes.</p><br/><p>Ce qui frappe dès l'inscription, c'est le design. L'application est somptueuse, intuitive, et <strong>les graphiques de projection de patrimoine</strong> vous aident littéralement à planifier votre retraite ou vos projets financiers. Le niveau d'analyse des frais cachés sur vos assurances-vie est une vraie prise de conscience.</p><br/><p>Outre l'aspect \"suivi\", Finary a lancé la fonction <em>Finary Invest</em> qui permet d'acheter de la crypto (comme du Bitcoin) ou d'autres actifs de manière ultra simplifiée avec des frais réellement compétitifs. La connexion est sécurisée par le leader européen de l'agrégation, garantissant que vos informations ne sont accessibles qu'en lecture seule. Le <strong>bonus crypto aléatoire</strong> offert aux nouveaux utilisateurs est la cerise sur le gâteau !</p>"
+    },
+    "steps": [
+      {
+        "title": "Création de compte",
+        "description": "Utilisez notre code exclusif 'YXY7MG' lors de la création de votre compte Finary via notre lien. L'interface Web ou l'application mobile fonctionnent parfaitement."
+      },
+      {
+        "title": "Connectez vos comptes",
+        "description": "Synchronisez votre banque principale, ou explorez l'onglet 'Invest' de l'application. Cette étape permet de configurer votre profil investisseur."
+      },
+      {
+        "title": "Investissez pour débloquer",
+        "description": "Pour déclencher la réception de la prime de parrainage aléatoire (allant jusqu'à 60€), un premier investissement de 100€ est requis sur Finary Invest. Le bonus tombera dans votre portefeuille crypto quelques jours plus tard !"
+      }
+    ],
     "faqs": [
       {
         "question": "Est-ce sécurisé de connecter ses banques à Finary ?",
@@ -303,7 +420,7 @@
     ]
   },
   {
-    "id": "16",
+    "id": "17",
     "name": "Uber Eats",
     "slug": "uber-eats",
     "category": "Shopping",
@@ -312,6 +429,33 @@
     "advantage": "10€ offerts",
     "description": "Est-il encore nécessaire de présenter Uber Eats ? L'application de livraison de repas à domicile numéro 1 en France. Que ce soit pour une soirée pizza, des sushis improvisés ou même pour faire vos courses de dernière minute au supermarché du coin, le service est ultrarapide. Bonne nouvelle si vous n'avez pas encore de compte : notre code parrain vous offre une très belle réduction de 10€ sur votre toute première commande !",
     "logoUrl": "https://www.google.com/s2/favicons?domain=ubereats.com&sz=128",
+    "review": {
+      "pros": [
+        "Catalogue de restaurants gargantuesque, y compris les petits commerces locaux",
+        "Livraison extrêmement rapide dans les grandes agglomérations",
+        "Possibilité de se faire livrer des courses de supermarché",
+        "Interface fluide avec suivi GPS du livreur en direct"
+      ],
+      "cons": [
+        "Frais de service et de livraison qui font vite grimper l'addition finale",
+        "Les prix des plats sont souvent majorés par rapport à un achat sur place"
+      ],
+      "longReview": "<p>On ne présente presque plus Uber Eats, l'acteur hégémonique de la livraison de repas à domicile en France. Qu'il s'agisse d'une envie de sushis un dimanche soir pluvieux, de burgers à la pause déjeuner au bureau, ou même de courses d'appoint un jour férié, <strong>Uber Eats possède de loin la plus grande variété d'offres</strong> grâce à ses dizaines de milliers de restaurants partenaires.</p><br/><p>L'expérience utilisateur frôle la perfection : votre position est détectée, les temps estimés d'arrivée sont généralement précis, et <strong>le suivi en temps réel du livreur sur la carte</strong> apporte un confort évident. La fonctionnalité de livraison à la porte (pratique en télétravail ou sans contact) est aussi très appréciable.</p><br/><p>Cependant, le service a un coût notable (frais de livraison + frais de service + éventuelle majoration des prix initiaux). C'est pourquoi <strong>profiter d'un code de parrainage de 10€ pour sa première commande</strong> est essentiel. Cela permet d'absorber intégralement ces frais annexes et de savourer un bon plat chez soi, souvent pour moins cher que si l'on s'était déplacé au restaurant !</p>"
+    },
+    "steps": [
+      {
+        "title": "Installation de l'app",
+        "description": "Téléchargez l'application Uber Eats sur l'App Store ou Google Play, ou inscrivez-vous directement sur leur site web."
+      },
+      {
+        "title": "Saisie du code promo",
+        "description": "Avant même de choisir votre restaurant, allez dans votre compte, rubrique 'Promotions' et saisissez le code de parrainage eats-zl6yno. La pastille -10€ apparaîtra instantanément."
+      },
+      {
+        "title": "Passez votre première commande",
+        "description": "Faites votre choix de repas ! Au moment du paiement, assurez-vous que la promotion de 10€ de bienvenue soit bien cochée et appliquée sur le total de votre panier."
+      }
+    ],
     "faqs": [
       {
         "question": "Comment utiliser le code promo Uber Eats eats-zl6yno ?",

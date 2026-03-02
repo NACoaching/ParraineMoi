@@ -12,6 +12,12 @@ export interface Referral {
   advantage: string;
   description: string;
   logoUrl: string;
+  review?: {
+    pros: string[];
+    cons: string[];
+    longReview: string;
+  };
+  steps?: { title: string; description: string }[];
   faqs?: { question: string; answer: string }[];
 }
 

@@ -152,17 +152,93 @@ export default async function ReferralPage({
                     </div>
                 </section>
 
-                {/* Structured Avis Section */}
-                <section className="mb-16">
-                    <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
-                        <TrendingUp className="text-primary" size={28} />
-                        Notre avis détaillé sur {referral.name}
-                    </h2>
-                    <div className="bg-white dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 rounded-[2rem] p-8 shadow-sm">
-                        <div className="prose prose-lg prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-400">
-                            <p className="leading-relaxed">{referral.description}</p>
+                {/* Structured Avis & Guide Section */}
+                <section className="mb-16 space-y-12">
+                    <div>
+                        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
+                            <TrendingUp className="text-primary" size={28} />
+                            Notre avis détaillé sur {referral.name}
+                        </h2>
+
+                        <div className="bg-white dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 rounded-[2rem] p-8 shadow-sm mb-8">
+                            {referral.review ? (
+                                <div
+                                    className="prose prose-lg prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 leading-relaxed"
+                                    dangerouslySetInnerHTML={{ __html: referral.review.longReview }}
+                                />
+                            ) : (
+                                <div className="prose prose-lg prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-400">
+                                    <p className="leading-relaxed">{referral.description}</p>
+                                </div>
+                            )}
                         </div>
+
+                        {/* Pros & Cons */}
+                        {referral.review && (referral.review.pros.length > 0 || referral.review.cons.length > 0) && (
+                            <div className="grid md:grid-cols-2 gap-6">
+                                {referral.review.pros.length > 0 && (
+                                    <div className="bg-emerald-50/50 dark:bg-emerald-900/10 border border-emerald-100 dark:border-emerald-800/30 rounded-[1.5rem] p-6 shadow-sm">
+                                        <h3 className="text-lg font-bold text-emerald-800 dark:text-emerald-400 mb-4 flex items-center gap-2">
+                                            <span className="flex items-center justify-center p-1 bg-emerald-100 dark:bg-emerald-800/50 rounded-full">
+                                                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
+                                            </span>
+                                            Les points forts
+                                        </h3>
+                                        <ul className="space-y-3">
+                                            {referral.review.pros.map((pro, index) => (
+                                                <li key={index} className="flex items-start gap-3 text-slate-700 dark:text-slate-300">
+                                                    <span className="text-emerald-500 mt-1 shrink-0">•</span>
+                                                    <span>{pro}</span>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                )}
+                                {referral.review.cons.length > 0 && (
+                                    <div className="bg-rose-50/50 dark:bg-rose-900/10 border border-rose-100 dark:border-rose-800/30 rounded-[1.5rem] p-6 shadow-sm">
+                                        <h3 className="text-lg font-bold text-rose-800 dark:text-rose-400 mb-4 flex items-center gap-2">
+                                            <span className="flex items-center justify-center p-1 bg-rose-100 dark:bg-rose-800/50 rounded-full">
+                                                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M6 18L18 6M6 6l12 12" /></svg>
+                                            </span>
+                                            Les points faibles
+                                        </h3>
+                                        <ul className="space-y-3">
+                                            {referral.review.cons.map((con, index) => (
+                                                <li key={index} className="flex items-start gap-3 text-slate-700 dark:text-slate-300">
+                                                    <span className="text-rose-500 mt-1 shrink-0">•</span>
+                                                    <span>{con}</span>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                )}
+                            </div>
+                        )}
                     </div>
+
+                    {/* Step by step guide */}
+                    {referral.steps && referral.steps.length > 0 && (
+                        <div>
+                            <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-8 flex items-center gap-3">
+                                <span className="flex items-center justify-center w-8 h-8 rounded-xl bg-primary/10 text-primary">
+                                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                                </span>
+                                Comment ça marche ? (Tutoriel)
+                            </h2>
+                            <div className="grid md:grid-cols-3 gap-6 relative">
+                                <div className="hidden md:block absolute top-8 left-10 right-10 h-0.5 bg-slate-200 dark:bg-slate-800 z-0"></div>
+                                {referral.steps.map((step, index) => (
+                                    <div key={index} className="relative z-10 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 shadow-sm flex flex-col pt-8 mt-4 md:mt-0">
+                                        <div className="absolute -top-5 left-6 w-10 h-10 bg-slate-900 text-white dark:bg-white dark:text-slate-900 rounded-xl flex items-center justify-center font-bold text-lg shadow-sm border border-slate-100 dark:border-slate-800">
+                                            {index + 1}
+                                        </div>
+                                        <h4 className="font-bold text-lg text-slate-900 dark:text-white mb-2">{step.title}</h4>
+                                        <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">{step.description}</p>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
                 </section>
 
                 {/* FAQ SEO */}
