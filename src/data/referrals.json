@@ -301,5 +301,26 @@
         "answer": "Oui, comme la plupart des bonus de mobilité, le trajet offert de bienvenue possède une date d'expiration (généralement 15 jours à compter du moment où vous entrez le code dans l'application). Nous vous conseillons de le rentrer juste avant d'avoir besoin de votre premier véhicule."
       }
     ]
+  },
+  {
+    "id": "16",
+    "name": "Uber Eats",
+    "slug": "uber-eats",
+    "category": "Shopping",
+    "code": "eats-zl6yno",
+    "link": "https://ubereats.com/feed?promoCode=eats-zl6yno",
+    "advantage": "10€ offerts",
+    "description": "Est-il encore nécessaire de présenter Uber Eats ? L'application de livraison de repas à domicile numéro 1 en France. Que ce soit pour une soirée pizza, des sushis improvisés ou même pour faire vos courses de dernière minute au supermarché du coin, le service est ultrarapide. Bonne nouvelle si vous n'avez pas encore de compte : notre code parrain vous offre une très belle réduction de 10€ sur votre toute première commande !",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ubereats.com&sz=128",
+    "faqs": [
+      {
+        "question": "Comment utiliser le code promo Uber Eats eats-zl6yno ?",
+        "answer": "Pour profiter des 10€ de réduction, téléchargez l'application Uber Eats et créez un nouveau profil. Au moment de valider votre première commande (dans le panier), cherchez la section 'Ajouter un code promo' et saisissez 'eats-zl6yno'. La réduction s'appliquera instantanément sur le montant total."
+      },
+      {
+        "question": "Le code de parrainage Uber Eats est-il cumulable avec d'autres offres ?",
+        "answer": "Généralement, le bonus de 10€ réservé aux nouveaux utilisateurs (filleuls) ne peut pas être cumulé avec un autre code promotionnel classique sur la même commande. Cependant, il fonctionne très bien sur les restaurants proposant déjà des offres internes du type '1 acheté = 1 offert'."
+      }
+    ]
   }
 ]
