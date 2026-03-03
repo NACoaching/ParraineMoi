@@ -2,7 +2,9 @@ import { ReferralGrid } from "@/components/ReferralGrid";
 import referralsData from "@/data/referrals.json";
 import { Referral } from "@/components/ReferralCard";
 import { FaqAccordion } from "@/components/FaqAccordion";
-
+import guidesData from "@/data/guides.json";
+import Link from "next/link";
+import { ArrowRight, Search, Gift, Wallet } from "lucide-react";
 export default function Home() {
   const referrals = referralsData as Referral[];
 
@@ -31,8 +33,69 @@ export default function Home() {
           Des offres testées et approuvées. Utilisez mes codes pour bénéficier d'avantages exclusifs lors de votre inscription.
         </p>
 
+        {/* Comment ça marche */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 w-full max-w-4xl mx-auto text-left">
+          <div className="flex flex-col items-center md:items-start text-center md:text-left bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
+            <div className="h-12 w-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4">
+              <Search className="h-6 w-6" />
+            </div>
+            <h3 className="font-bold text-slate-900 dark:text-white mb-2 text-lg">1. Cherchez une offre</h3>
+            <p className="text-slate-600 dark:text-slate-400 text-sm">Parcourez notre catalogue et filtrez par catégorie (Banque, Shopping...) pour trouver le bon plan idéal.</p>
+          </div>
+          <div className="flex flex-col items-center md:items-start text-center md:text-left bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
+            <div className="h-12 w-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4">
+              <Gift className="h-6 w-6" />
+            </div>
+            <h3 className="font-bold text-slate-900 dark:text-white mb-2 text-lg">2. Utilisez le code</h3>
+            <p className="text-slate-600 dark:text-slate-400 text-sm">Copiez le code promo ou cliquez sur le lien de parrainage lors de votre inscription sur l'application.</p>
+          </div>
+          <div className="flex flex-col items-center md:items-start text-center md:text-left bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
+            <div className="h-12 w-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4">
+              <Wallet className="h-6 w-6" />
+            </div>
+            <h3 className="font-bold text-slate-900 dark:text-white mb-2 text-lg">3. Gagnez votre prime</h3>
+            <p className="text-slate-600 dark:text-slate-400 text-sm">Une fois votre compte validé, la prime de bienvenue ou la réduction s'applique automatiquement.</p>
+          </div>
+        </div>
+
         <ReferralGrid referrals={referrals} />
 
+      </section>
+
+      {/* Guides Section */}
+      <section className="w-full max-w-5xl px-4 sm:px-6 pb-12">
+        <div className="flex items-center justify-between mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white">
+            Guides & Astuces
+          </h2>
+          <Link href="/guides" className="text-primary hover:text-primary/80 font-medium flex items-center gap-1">
+            Tous les guides <ArrowRight className="h-4 w-4" />
+          </Link>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {guidesData.slice(0, 3).map((guide) => (
+            <Link key={guide.id} href={`/guides/${guide.slug}`} className="group flex flex-col h-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl overflow-hidden hover:shadow-lg hover:border-primary/50 transition-all duration-300">
+              <div className="p-6 flex flex-col h-full">
+                <div className="flex items-center gap-2 mb-4">
+                  <span className="text-xs font-semibold text-primary bg-primary/10 px-2.5 py-1 rounded-full">{guide.category}</span>
+                  <span className="text-xs text-slate-500 dark:text-slate-400">{guide.readingTime}</span>
+                </div>
+                <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-3 group-hover:text-primary transition-colors line-clamp-2">
+                  {guide.title}
+                </h3>
+                <p className="text-sm text-slate-600 dark:text-slate-400 line-clamp-3 mb-4 flex-grow">
+                  {guide.excerpt}
+                </p>
+                <div className="flex justify-between items-center mt-auto pt-4 border-t border-slate-100 dark:border-slate-800">
+                  <span className="text-sm font-medium text-slate-900 dark:text-white">Lire la suite</span>
+                  <div className="h-8 w-8 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-colors">
+                    <ArrowRight className="h-4 w-4" />
+                  </div>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
       </section>
 
       <FaqAccordion faqs={generalFaqs} />
