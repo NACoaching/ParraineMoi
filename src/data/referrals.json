@@ -1159,5 +1159,57 @@
         "description": "Allez dans la section récompenses et grattez votre ticket pour découvrir votre bonus allant de 2€ à 100€ en Bitcoin ou CHSB."
       }
     ]
+  },
+  {
+    "id": "23",
+    "name": "Meria",
+    "slug": "meria",
+    "category": "Crypto",
+    "code": "nF5BGyev",
+    "link": "https://meria.onelink.me/ktU9?af_xp=referral&pid=invite_friend_mobile&c=Affiliation&deep_link_value=nF5BGyev",
+    "advantage": "Bonus exclusifs & Réductions",
+    "description": "Meria (anciennement Just Mining) est la pépite française des revenus passifs en crypto. Fondée par Owen Simonin (Hasheur), la plateforme simplifie l'accès au Staking, aux Masternodes et aux investissements thématiques. C'est l'outil parfait pour ceux qui veulent faire travailler leurs cryptos sans avoir à gérer la complexité technique.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=meria.com&sz=128",
+    "review": {
+      "pros": [
+        "Plateforme française enregistrée PSAN auprès de l'AMF",
+        "Expertise reconnue sur le Staking et les Masternodes",
+        "Interface claire et pédagogique pour les investisseurs",
+        "Support client français ultra-réactif"
+      ],
+      "cons": [
+        "Frais de gestion sur certains services de staking",
+        "Moins de tokens disponibles que sur les bourses mondiales"
+      ],
+      "longReview": "<p>Dans l'écosystème crypto, il y a ceux qui spéculent et ceux qui construisent. <strong>Meria appartient à la deuxième catégorie</strong>. Leur mission est de rendre les technologies de validation de blocs (comme le Proof of Stake) accessibles à tous. Au lieu de laisser vos cryptos dormir sur un portefeuille, Meria vous permet de les 'staker' pour participer à la sécurité du réseau et recevoir des récompenses régulières.</p><br/><p>La grande force de Meria, c'est son <strong>ancrage local et sa conformité</strong>. En tant que prestataire de services sur actifs numériques (PSAN) en France, ils offrent un niveau de garantie et de transparence que l'on ne retrouve pas toujours sur les plateformes offshore. C'est particulièrement rassurant lorsqu'on commence à investir des sommes significatives dans des Masternodes ou des solutions de rendement complexes.</p><br/><p>En vous inscrivant avec le <strong>code parrainage 'nF5BGyev'</strong>, vous bénéficiez de conditions préférentielles sur vos premiers investissements. Meria n'est pas qu'une plateforme d'achat, c'est un véritable gestionnaire de patrimoine numérique qui vous accompagne dans la durée pour générer des intérêts composés sur vos actifs préférés.</p>"
+    },
+    "faqs": [
+      {
+        "question": "Comment activer le parrainage Meria ?",
+        "answer": "Utilisez le lien de parrainage pour créer votre compte ou saisissez le code 'nF5BGyev' lors de votre inscription. Le bonus s'active automatiquement sur vos premières opérations de staking ou d'investissement."
+      },
+      {
+        "question": "Qu'est-ce que le Staking chez Meria ?",
+        "answer": "Le staking consiste à immobiliser une partie de vos cryptos pour soutenir le fonctionnement d'une blockchain. En échange, vous recevez des récompenses régulières, un peu comme les intérêts d'un compte épargne, mais souvent avec des taux bien plus attractifs."
+      },
+      {
+        "question": "Meria est-elle sécurisée ?",
+        "answer": "Oui, Meria est l'un des acteurs les plus respectés en France. Elle est enregistrée auprès de l'Autorité des Marchés Financiers (AMF) et utilise des standards de sécurité bancaire pour protéger les actifs de ses clients."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Inscription Intelligente",
+        "description": "Créez votre compte Meria en vérifiant que le code parrainage est bien appliqué pour bénéficier des bonus."
+      },
+      {
+        "title": "Choisissez votre stratégie",
+        "description": "Explorez les sections Staking ou Masternodes pour trouver le projet qui correspond à votre profil de risque."
+      },
+      {
+        "title": "Générez des revenus",
+        "description": "Déposez vos fonds et activez le staking. Vous verrez vos premières récompenses tomber directement sur votre tableau de bord."
+      }
+    ]
   }
 ]
