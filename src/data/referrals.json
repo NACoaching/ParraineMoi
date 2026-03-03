@@ -1107,5 +1107,57 @@
         "description": "Activez les fonctionnalités de sécurité et commencez à payer sans frais pour profiter pleinement de votre nouvelle néo-banque."
       }
     ]
+  },
+  {
+    "id": "22",
+    "name": "SwissBorg",
+    "slug": "swissborg",
+    "category": "Crypto",
+    "code": "nolwenPV3C",
+    "link": "https://swissborg.com/fr/r/nolwenPV3C",
+    "advantage": "Jusqu'à 100€ offerts",
+    "description": "SwissBorg est la plateforme crypto leader en Europe, basée en Suisse. Elle se distingue par son 'Smart Engine' qui analyse les meilleurs prix sur plusieurs plateformes pour vous offrir les transactions les plus optimisées. Très sécurisée et conforme aux régulations, c'est l'alternative parfaite pour ceux qui cherchent la fiabilité suisse dans le monde de la blockchain.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=swissborg.com&sz=128",
+    "review": {
+      "pros": [
+        "Sécurité et régulation suisse de haut niveau",
+        "Smart Engine pour des meilleurs prix d'achat/vente",
+        "Interface épurée et très simple pour les débutants",
+        "Programme de Yield (rendements passifs) très performant"
+      ],
+      "cons": [
+        "Frais de retrait un peu élevés sur certains jetons",
+        "Bonus de parrainage aléatoire (système de ticket)"
+      ],
+      "longReview": "<p>La Suisse est réputée pour sa rigueur financière et <strong>SwissBorg transpose cette excellence dans l'univers des crypto-monnaies</strong>. Là où d'autres plateformes peuvent paraître complexes ou peu fiables, SwissBorg rassure par son interface soignée et son cadre régulatoire strict. C'est l'application idéale pour ceux qui veulent investir sur le long terme sans se soucier du bruit du marché.</p><br/><p>Leur innovation majeure, le <strong>Smart Engine</strong>, connecte votre compte à d'autres bourses mondiales (Binance, Kraken...) pour trouver le meilleur prix disponible en temps réel. C'est comme avoir un courtier personnel qui travaille pour vous. De plus, leur fonction 'Earn' permet de générer des intérêts quotidiens sur vos cryptos de manière très intuitive.</p><br/><p>En utilisant notre <strong>lien de parrainage ('nolwenPV3C')</strong>, vous recevez un 'Reward Ticket'. C'est un ticket à gratter digital qui vous offre un bonus aléatoire en crypto pouvant aller jusqu'à <strong>100€</strong> dès que vous effectuez votre premier dépôt de 50€ ou plus. C'est un excellent moyen de booster votre capital de départ avec une dose de chance !</p>"
+    },
+    "faqs": [
+      {
+        "question": "Comment obtenir mon bonus SwissBorg ?",
+        "answer": "Utilisez notre lien pour télécharger l'app, créez votre compte et validez votre identité (KYC). Dès que vous effectuez un premier dépôt (par carte ou virement) d'un montant égal ou supérieur à 50€, vous recevez un 'Reward Ticket' à gratter dans l'application."
+      },
+      {
+        "question": "Qu'est-ce que le Smart Engine ?",
+        "answer": "C'est une technologie propriétaire qui compare les prix de vente et d'achat sur les plus grandes bourses mondiales en quelques millisecondes pour vous garantir le meilleur taux possible au moment de votre transaction."
+      },
+      {
+        "question": "Est-ce que l'application est en français ?",
+        "answer": "Oui, SwissBorg est entièrement traduit en français et possède une équipe de support très efficace qui répond dans notre langue, ce qui est un gros plus par rapport aux plateformes américaines."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Téléchargement et KYC",
+        "description": "Passez par notre lien pour installer l'application et validez votre compte avec une pièce d'identité."
+      },
+      {
+        "title": "Déposez 50€",
+        "description": "Faites un premier dépôt de 50€ minimum (par virement bancaire c'est gratuit) pour activer le parrainage."
+      },
+      {
+        "title": "Grattez votre Ticket",
+        "description": "Allez dans la section récompenses et grattez votre ticket pour découvrir votre bonus allant de 2€ à 100€ en Bitcoin ou CHSB."
+      }
+    ]
   }
 ]
