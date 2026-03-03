@@ -81,5 +81,18 @@
             "bitstack"
         ],
         "category": "Banque & Finance"
+    },
+    {
+        "id": "7",
+        "slug": "guide-cashback-economiser-achats-igraal",
+        "title": "Le Guide du Cashback : Comment se faire rembourser ses achats avec iGraal ?",
+        "excerpt": "Et si vous récupériez de l'argent sur chaque achat en ligne ? Découvrez le fonctionnement du cashback et comment maximiser vos gains avec iGraal.",
+        "content": "## Le cashback : Le pouvoir d'achat retrouvé\n\nLe concept de cashback est simple mais redoutable : au lieu de chercher désespérément un code promo qui ne fonctionne souvent pas, vous passez par une plateforme qui vous reverse une commission sur votre achat. C'est comme une carte de fidélité universelle qui vous rendrait de l'argent réel.\n\n## Pourquoi choisir iGraal en 2026 ?\n\nIl existe de nombreuses plateformes, mais **iGraal** reste la référence absolue en France pour trois raisons :\n\n- **Le catalogue :** Avec plus de 1700 marchands (Amazon, Cdiscount, Booking, SNCF...), il est quasiment impossible de faire un achat sans qu'iGraal ne vous propose un remboursement.\n- **La simplicité :** Grâce à leur extension navigateur, vous n'avez même plus besoin d'y penser. L'extension clignote dès qu'un gain est possible.\n- **La fiabilité :** C'est une entreprise française historique du groupe M6, les paiements sont carrés et le service client est réactif.\n\n## Comment cumuler codes promo et cashback ?\n\nC'est l'astuce pour les vrais chasseurs de prix. Beaucoup pensent qu'on ne peut pas utiliser de code promo ET avoir du cashback. C'est faux ! iGraal liste les codes compatibles. En les utilisant, vous réduisez le prix immédiatement dans votre panier ET vous recevez un remboursement calculé sur le montant final. C'est le combo gagnant.\n\n## Quelques conseils pour ne jamais rater un gain\n\nPour que votre cashback soit bien tracé par les marchands, voici les règles d'or :\n\n1.  **Videz votre panier** avant de passer par iGraal.\n2.  **Désactivez votre AdBlocker** le temps de l'achat.\n3.  **Acceptez les cookies** sur le site marchand.\n4.  **Utilisez l'extension** pour plus de sécurité.\n\n## Le parrainage : Votre premier virement plus rapide\n\nLe seuil de paiement d'iGraal est de 20€. Pour l'atteindre plus vite, passer par un lien de parrainage est crucial. En vous inscrivant avec notre code, vous commencez avec **3€ directement dans votre cagnotte**. Ajoutez à cela le bonus de l'installation de l'extension (souvent 1€) et vous avez déjà fait 20% du chemin sans avoir dépensé un centime !",
+        "date": "2026-03-03",
+        "readingTime": "5 min",
+        "referralSlugs": [
+            "igraal"
+        ],
+        "category": "Shopping"
     }
 ]

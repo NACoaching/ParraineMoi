@@ -899,5 +899,57 @@
         "answer": "Généralement, le bonus de 10€ réservé aux nouveaux utilisateurs (filleuls) ne peut pas être cumulé avec un autre code promotionnel classique sur la même commande. Cependant, il fonctionne très bien sur les restaurants proposant déjà des offres internes du type '1 acheté = 1 offert'."
       }
     ]
+  },
+  {
+    "id": "18",
+    "name": "iGraal",
+    "slug": "igraal",
+    "category": "Shopping",
+    "code": "AG_60be4aa258228",
+    "link": "https://fr.igraal.com/parrainage?parrain=AG_60be4aa258228&utm_medium=raf&utm_source=refer_friend",
+    "advantage": "3€ offerts à l'inscription",
+    "description": "iGraal est le leader du cashback en France. Le principe est simple : à chaque fois que vous achetez sur internet (Cdiscount, ASOS, Nike, Booking...), iGraal vous reverse une partie du montant de votre commande directement sur votre cagnotte. C'est de l'argent réel que vous pouvez ensuite virer sur votre compte bancaire ou PayPal dès 20€ cumulés.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=igraal.com&sz=128",
+    "review": {
+      "pros": [
+        "Plus de 1700 marchands partenaires dans tous les domaines (Mode, Voyage, High-tech...)",
+        "Extension navigateur très pratique qui vous alerte quand un cashback est disponible",
+        "Bonus de bienvenue de 3€ crédité instantanément avec notre lien de parrainage",
+        "Système de coupons de réduction cumulables avec le cashback pour doubler les économies"
+      ],
+      "cons": [
+        "Seuil de paiement fixé à 20€ minimum",
+        "Délai de validation du cashback par les marchands parfois long (plusieurs semaines)"
+      ],
+      "longReview": "<p>Dans l'univers des bons plans en ligne, <strong>iGraal s'impose comme l'outil indispensable pour quiconque souhaite réduire ses dépenses quotidiennes</strong>. Que vous fassiez vos courses, réserviez vos vacances ou renouveliez votre garde-robe, cette plateforme agit comme un véritable porte-monnaie virtuel qui se remplit à chaque clic. L'interface est intuitive et le catalogue de marchands est tout simplement le plus complet du marché français.</p><br/><p>Le point fort d'iGraal reste son <strong>extension pour navigateur</strong>. Elle vous évite d'oublier d'activer votre cashback : dès que vous arrivez sur un site partenaire, un petit bouton apparaît pour valider votre remboursement en un clic. C'est simple, sécurisé et totalement gratuit. Les gains s'accumulent sans effort et le virement vers PayPal ou votre banque est d'une fiabilité exemplaire une fois le seuil des 20€ atteint.</p><br/><p>Pour bien démarrer, n'oubliez pas d'utiliser notre <strong>lien de parrainage exclusif ('AG_60be4aa258228')</strong>. Il vous permet de débloquer immédiatement un bonus de 3€ dans votre cagnotte, vous rapprochant ainsi très vite de votre premier paiement. C'est l'astuce fondamentale pour transformer vos dépenses subies en une source de revenus bienvenue !</p>"
+    },
+    "faqs": [
+      {
+        "question": "Comment activer mon cashback iGraal ?",
+        "answer": "Pour que votre achat soit pris en compte, vous devez cliquer sur le bouton 'En profiter' depuis le site iGraal ou activer l'extension navigateur avant de mettre vos articles au panier. Assurez-vous d'avoir accepté les cookies sur le site du marchand pour que la traçabilité de votre achat soit garantie."
+      },
+      {
+        "question": "Est-ce que iGraal propose des codes promo ?",
+        "answer": "Oui ! En plus du cashback, iGraal répertorie tous les codes promotionnels valides chez les marchands. La plupart sont cumulables avec le cashback, ce qui vous permet de payer moins cher à la commande tout en recevant un remboursement après coup."
+      },
+      {
+        "question": "Quand vais-je recevoir mon argent ?",
+        "answer": "Une fois l'achat effectué, le cashback apparaît en statut 'En attente' dans un délai de 24h à 7 jours. Le marchand doit ensuite confirmer que vous n'avez pas retourné l'article. Cette validation prend généralement entre 1 et 3 mois selon les partenaires."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Inscription et Bonus",
+        "description": "Créez votre compte via notre lien de parrainage pour empocher vos 3€ de bienvenue instantanément."
+      },
+      {
+        "title": "Installez l'Extension",
+        "description": "Ajoutez l'extension iGraal à votre navigateur pour ne jamais rater un remboursement lors de vos achats."
+      },
+      {
+        "title": "Achetez et Cumulez",
+        "description": "Faites vos achats normalement. Votre cagnotte grimpe toute seule et vous pouvez retirer votre argent dès 20€ accumulés."
+      }
+    ]
   }
 ]
