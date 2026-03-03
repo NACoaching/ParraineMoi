@@ -32,15 +32,38 @@ export function ReferralGrid({ referrals }: { referrals: Referral[] }) {
         return result;
     }, [searchTerm, activeCategory, referrals]);
 
-    const isDefaultState = !searchTerm && activeCategory === "Toutes";
-    // Spotlight offer (Fortuneo for instance, or first if not found)
-    const spotlightIndex = filteredReferrals.findIndex(r => r.slug === 'fortuneo');
-    const spotlightOffer = isDefaultState && spotlightIndex !== -1 ? filteredReferrals[spotlightIndex] : null;
+    const spotlightIndex = referrals.findIndex(r => r.slug === 'fortuneo');
+    const spotlightOfferRaw = spotlightIndex !== -1 ? referrals[spotlightIndex] : null;
 
-    // The rest of the grid
-    const gridOffers = isDefaultState && spotlightIndex !== -1
-        ? filteredReferrals.filter((_, idx) => idx !== spotlightIndex)
-        : filteredReferrals;
+    const { filteredGridOffers, spotlightOffer } = useMemo(() => {
+        // First, ensure uniqueness by ID to prevent any data-side duplication issues
+        const uniqueReferrals = Array.from(new Map(referrals.map(item => [item.id, item])).values());
+        let result = uniqueReferrals;
+
+        if (activeCategory !== "Toutes") {
+            result = result.filter(ref => ref.category === activeCategory);
+        }
+
+        if (searchTerm) {
+            const lowerSearch = searchTerm.toLowerCase();
+            result = result.filter(
+                (ref) =>
+                    ref.name.toLowerCase().includes(lowerSearch) ||
+                    ref.category.toLowerCase().includes(lowerSearch) ||
+                    ref.description.toLowerCase().includes(lowerSearch)
+            );
+        }
+
+        const isDefault = !searchTerm && activeCategory === "Toutes";
+        const currentSpotlight = isDefault ? spotlightOfferRaw : null;
+
+        // Final grid offers: exclude spotlight if it's being shown separately
+        const gridResults = currentSpotlight
+            ? result.filter(ref => ref.id !== currentSpotlight.id)
+            : result;
+
+        return { filteredGridOffers: gridResults, spotlightOffer: currentSpotlight };
+    }, [searchTerm, activeCategory, referrals, spotlightOfferRaw]);
 
     return (
         <div className="w-full">
@@ -64,8 +87,8 @@ export function ReferralGrid({ referrals }: { referrals: Referral[] }) {
                         key={cat}
                         onClick={() => setActiveCategory(cat)}
                         className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${activeCategory === cat
-                                ? "bg-slate-900 text-white dark:bg-white dark:text-slate-900 shadow-md"
-                                : "bg-white text-slate-600 border border-slate-200 hover:bg-slate-50 dark:bg-slate-900/50 dark:text-slate-400 dark:border-slate-800 dark:hover:bg-slate-800"
+                            ? "bg-slate-900 text-white dark:bg-white dark:text-slate-900 shadow-md"
+                            : "bg-white text-slate-600 border border-slate-200 hover:bg-slate-50 dark:bg-slate-900/50 dark:text-slate-400 dark:border-slate-800 dark:hover:bg-slate-800"
                             }`}
                     >
                         {cat}
@@ -82,10 +105,10 @@ export function ReferralGrid({ referrals }: { referrals: Referral[] }) {
                 </div>
             )}
 
-            {gridOffers.length > 0 ? (
+            {filteredGridOffers.length > 0 ? (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {gridOffers.map((referral) => (
-                        <ReferralCard key={referral.id} referral={referral} />
+                    {filteredGridOffers.map((referral) => (
+                        <ReferralCard key={referral.slug} referral={referral} />
                     ))}
                 </div>
             ) : (
