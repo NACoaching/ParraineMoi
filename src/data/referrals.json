@@ -951,5 +951,57 @@
         "description": "Faites vos achats normalement. Votre cagnotte grimpe toute seule et vous pouvez retirer votre argent dès 20€ accumulés."
       }
     ]
+  },
+  {
+    "id": "19",
+    "name": "Coinbase",
+    "slug": "coinbase",
+    "category": "Crypto",
+    "code": "92UZVUP",
+    "link": "https://coinbase.com/join/92UZVUP?src=ios-link",
+    "advantage": "Bonus en Bitcoin à l'inscription",
+    "description": "Coinbase est la plateforme de référence pour faire ses premiers pas dans le monde des crypto-monnaies. Cotée en bourse au NASDAQ, c'est l'une des plateformes les plus sécurisées et les plus simples d'utilisation pour acheter, vendre et stocker vos premiers Bitcoins, Ethereum et des centaines d'autres jetons. Leur interface 'Apprentissage' vous permet même de gagner des cryptos gratuitement en répondant à de simples quiz.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=coinbase.com&sz=128",
+    "review": {
+      "pros": [
+        "Interface extrêmement simple, idéale pour les débutants castrés par la technique",
+        "Sécurité de niveau institutionnel et régulation stricte (cotations en bourse US)",
+        "Programme 'Learn and Earn' pour gagner de la crypto gratuitement en apprenant",
+        "Carte bancaire Visa Coinbase pour dépenser ses cryptos dans la vie réelle"
+      ],
+      "cons": [
+        "Frais de transaction un peu plus élevés que sur des plateformes 'Pro'",
+        "Processus de vérification d'identité (KYC) obligatoire et complet"
+      ],
+      "longReview": "<p>S'il existe une porte d'entrée royale pour découvrir l'économie numérique, c'est incontestablement <strong>Coinbase</strong>. Là où d'autres plateformes perdent l'utilisateur sous des graphiques complexes, Coinbase mise sur une expérience épurée, proche d'une application bancaire classique. C'est l'outil parfait pour acheter ses premiers 10€ de Bitcoin sans stress.</p><br/><p>Le véritable génie de la plateforme réside dans son programme <strong>Coinbase Learning</strong>. Imaginez être payé pour apprendre ! En regardant de courtes vidéos sur de nouvelles technologies crypto, vous recevez directement des jetons dans votre portefeuille. C'est la méthode idéale pour amorcer son capital sans injecter d'argent personnel au début.</p><br/><p>En utilisant notre <strong>lien de parrainage exclusif ('92UZVUP')</strong>, vous bénéficiez d'un bonus de bienvenue en Bitcoin dès votre premier achat. C'est un coup de pouce immédiat qui vient s'ajouter à la sécurité d'une plateforme mondialement reconnue. Avec Coinbase, vous n'achetez pas seulement de la crypto, vous investissez sereinement dans l'avenir financier.</p>"
+    },
+    "faqs": [
+      {
+        "question": "Est-ce que Coinbase est adapté aux débutants ?",
+        "answer": "Oui, c'est sa force principale. L'application est conçue pour être aussi simple qu'une application de banque en ligne. Vous pouvez acheter vos premières cryptos par carte bancaire ou virement SEPA en quelques minutes seulement."
+      },
+      {
+        "question": "Comment gagner de la crypto gratuite sur Coinbase ?",
+        "answer": "Une fois votre compte validé, rendez-vous dans la section 'Apprentissage et gains'. Vous y trouverez des quiz rapides sur différents projets crypto. Chaque quiz réussi vous rapporte quelques dollars de la crypto concernée, que vous pouvez conserver ou échanger contre du Bitcoin."
+      },
+      {
+        "question": "Puis-je retirer mon argent sur mon compte bancaire ?",
+        "answer": "Tout à fait. Coinbase permet de revendre vos cryptomonnaies à tout moment et de virer les euros obtenus directement vers votre compte bancaire (virement SEPA instantané supporté) ou votre compte PayPal."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Inscription sécurisée",
+        "description": "Utilisez notre lien pour créer votre compte et bénéficier du bonus de bienvenue."
+      },
+      {
+        "title": "Vérification d'identité",
+        "description": "Préparez une pièce d'identité pour valider votre compte. C'est une étape obligatoire pour la sécurité et la régulation."
+      },
+      {
+        "title": "Premier achat et Bonus",
+        "description": "Achetez pour le montant minimal requis et recevez vos Bitcoins gratuits directement dans votre portefeuille."
+      }
+    ]
   }
 ]
