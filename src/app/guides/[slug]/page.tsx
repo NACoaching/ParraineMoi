@@ -25,6 +25,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return {
         title: `${guide.title} - Astuces & Bons Plans`,
         description: guide.excerpt,
+        alternates: {
+            canonical: `/guides/${guide.slug}`,
+        }
     };
 }
 
@@ -78,8 +81,26 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         });
     };
 
+    const articleJsonLd = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": guide.title,
+        "description": guide.excerpt,
+        "datePublished": guide.date,
+        "author": {
+            "@type": "Person",
+            "name": "Nolwen Albanesi",
+            "url": "https://codes-de-parrainages.com"
+        },
+        "image": "https://codes-de-parrainages.com/og-image.png"
+    };
+
     return (
         <main className="min-h-screen py-10 px-4">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+            />
             <article className="max-w-3xl mx-auto">
                 <Link
                     href="/guides"

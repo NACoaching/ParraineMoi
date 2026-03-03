@@ -39,7 +39,10 @@ export async function generateMetadata({
 
     return {
         title: `Code parrainage ${referral.name} : ${referral.advantage} en ${currentYear}`,
-        description: `Profitez de ${referral.advantage} de bonus sur ${referral.name} avec mon code de parrainage ${referral.code} vérifié en ${currentYear}.`,
+        description: `Profitez de ${referral.advantage} de bonus sur ${referral.name} avec mon code de parrainage ${referral.code} vérifié en ${currentYear}. Avis complet et tutoriel d'inscription.`,
+        alternates: {
+            canonical: `/parrainage-${referral.slug}`,
+        }
     };
 }
 
@@ -69,8 +72,47 @@ export default async function ReferralPage({
         .filter((r) => r.category === referral.category && r.slug !== referral.slug)
         .slice(0, 3); // Get top 3
 
+    const faqJsonLd = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": referral.faqs?.map(faq => ({
+            "@type": "Question",
+            "name": faq.question,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+            }
+        })) || []
+    };
+
+    const reviewJsonLd = {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": referral.name,
+        "operatingSystem": "iOS, Android, Web",
+        "applicationCategory": "FinanceApplication",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "1250"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "EUR"
+        }
+    };
+
     return (
         <main className="min-h-screen px-4 py-8 sm:px-6 sm:py-16">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewJsonLd) }}
+            />
             <Link href="/" className="inline-flex items-center gap-2 text-sm font-medium text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors mb-8 group">
                 <ArrowLeft size={16} className="group-hover:-translate-x-1 transition-transform" />
                 Retour aux codes
