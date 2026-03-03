@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 interface CompanyLogoProps {
     url: string;
@@ -19,9 +20,11 @@ export function CompanyLogo({ url, name }: CompanyLogoProps) {
     }
 
     return (
-        <img
+        <Image
             src={url}
             alt={`Logo ${name}`}
+            width={128}
+            height={128}
             className="h-full w-full object-contain"
             onError={() => setError(true)}
         />

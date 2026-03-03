@@ -155,6 +155,35 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                         </div>
                     </section>
                 )}
+
+                {/* Related Guides / Internal Linking */}
+                <section className="mt-16 pt-10 border-t border-slate-200 dark:border-slate-800">
+                    <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-8">
+                        À lire aussi sur le même sujet
+                    </h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {guidesData
+                            .filter(g => g.slug !== guide.slug && (g.category === guide.category))
+                            .slice(0, 2)
+                            .map((relatedGuide) => (
+                                <Link
+                                    key={relatedGuide.id}
+                                    href={`/guides/${relatedGuide.slug}`}
+                                    className="group flex flex-col p-6 bg-slate-50 dark:bg-slate-900/50 border border-slate-100 dark:border-slate-800 rounded-3xl hover:border-primary/50 transition-all"
+                                >
+                                    <span className="text-xs font-bold text-primary mb-2 uppercase tracking-wide">
+                                        {relatedGuide.category}
+                                    </span>
+                                    <h4 className="text-lg font-bold text-slate-900 dark:text-white mb-2 group-hover:text-primary transition-colors">
+                                        {relatedGuide.title}
+                                    </h4>
+                                    <p className="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+                                        {relatedGuide.excerpt}
+                                    </p>
+                                </Link>
+                            ))}
+                    </div>
+                </section>
             </article>
         </main>
     );

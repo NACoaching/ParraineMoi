@@ -180,7 +180,7 @@ export default async function ReferralPage({
                                 <a
                                     href={referral.link}
                                     target="_blank"
-                                    rel="noopener noreferrer"
+                                    rel="noopener noreferrer sponsored"
                                     className="flex items-center justify-center gap-3 h-[72px] md:h-auto px-10 rounded-2xl bg-primary text-white font-bold text-lg hover:bg-primary/90 transition-all shadow-md hover:shadow-lg active:scale-95"
                                 >
                                     Ouvrir {referral.name}
