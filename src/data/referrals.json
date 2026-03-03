@@ -50,16 +50,16 @@
         "answer": "Oui, tout à fait. Votre compte Winamax est unique et centralisé. Vous pouvez utiliser la même cagnotte (bankroll) pour jouer à des tournois de poker, des Sit & Go, ou pour placer des paris sportifs."
       },
       {
-        "question": "Quels sont les sports couverts par les meilleures cotes Winamax ?",
-        "answer": "La plateforme en ligne couvre pratiquement tous les grands événements mondiaux. Le football (Ligue 1, Ligue des Champions), le tennis (Grand Chelem) et la NBA (Basket) bénéficient très souvent des meilleures cotes globales du marché français face à la concurrence."
+        "question": "Puis-je parier sur tous les sports avec Winamax ?",
+        "answer": "Oui, Winamax propose une couverture très exhaustive des événements sportifs mondiaux. Vous retrouverez les meilleures cotes sur le football, le tennis, le basket, mais aussi sur des sports plus spécialisés. C'est idéal pour diversifier vos grilles."
       },
       {
-        "question": "Puis-je jouer au poker en ligne sur PC ou Mac avec Winamax ?",
-        "answer": "Oui, Winamax possède son propre logiciel client ultra-optimisé à télécharger sur PC et Mac, spécifiquement développé pour les tournois de poker en ligne (Sit & Go, Expresso) et jouer en mode multi-tables."
+        "question": "Le bonus de premier pari remboursé est-il retirable immédiatement ?",
+        "answer": "Le premier pari est remboursé sous forme de « Freebets » (paris gratuits). Vous devez rejouer ces paris gratuits sur de nouvelles grilles. Seul le gain net issu de ce pari gratuit sera ensuite crédité en argent réel et retirable sur votre compte bancaire."
       },
       {
-        "question": "Combien de temps prend généralement un retrait de gains vers mon compte ?",
-        "answer": "Les retraits via virement SEPA sont extrêmement rapides comparés aux standards de l'industrie des paris sportifs. Une fois votre compte Winamax validé définitivement, un transfert prend majoritairement moins de 48h ouvrées pour atterrir sur votre banque."
+        "question": "Combien de temps prend un retrait de gains vers mon compte bancaire ?",
+        "answer": "Une fois votre compte définitivement validé (pièce d'identité et justificatif de domicile), les virements bancaires vers votre IBAN prennent généralement entre 24 et 48 heures ouvrées."
       }
     ]
   },
@@ -83,16 +83,16 @@
         "answer": "Oui, le crédit offert avec notre code VOGGT est valable sur l'ensemble de l'application. Que vous enchérissiez sur des cartes Pokémon, Yu-Gi-Oh!, du sport, ou même des vêtements vintage pendant les shows en direct, la réduction s'appliquera sur votre panier final."
       },
       {
-        "question": "Les cartes Pokémon achetées sur VOGGT sont-elles authentifiées ?",
-        "answer": "La grande force de VOGGT est son processus d'achat sécurisé. Les modérateurs interviennent rapidement et l'argent de l'acheteur reste bloqué tant que le colis n'est pas déclaré comme parfaitement conforme. De nombreux vendeurs professionnels gradent même leurs cartes Lorcana ou Pokémon (PCA, PSA) garantissant leur parfaite authenticité lors du Live Video."
+        "question": "Les cartes Pokémon et Lorcana achetées sur VOGGT sont-elles authentiques ?",
+        "answer": "Oui, la sécurité est au cœur de la plateforme. VOGGT contrôle l'identité des vendeurs professionnels. De plus, votre paiement est bloqué sur un compte séquestre et n'est reversé au vendeur qu'une fois la réception de l'article validée et conforme."
       },
       {
-        "question": "Comment fonctionne le système d'achat de vêtements vintage en direct ?",
-        "answer": "C'est purement du live shopping : le vendeur montre un vêtement vintage face caméra en donnant toutes les mensurations. Le compte à rebours s'enclenche, et le meilleur enchérisseur l'emporte. L'application facture en un clic le vêtement remporté."
+        "question": "Puis-je acheter autre chose que des cartes à collectionner ?",
+        "answer": "Absolument. Si la plateforme s'est fait connaître pour les jeux de cartes à jouer (TCG) et les enchères live Pokémon, on y trouve désormais des vêtements vintage, des chaussures en édition limitée (sneakers), des mangas, et des jeux vidéo (rétrogaming)."
       },
       {
-        "question": "Puis-je utiliser le code de parrainage VOGGT sur de simples boosters Lorcana ?",
-        "answer": "Absolument. La promotion de bienvenue offerte via le code VOGGT n'a aucune restriction concernant la nature de votre achat. Le bon se déduira automatiquement du montant final que ce soit pour des sneakers, un objet de collection, ou un petit display de boosters TCG Lorcana ou Magic."
+        "question": "Le bon de réduction fonctionne-t-il sur les frais de port ?",
+        "answer": "Le code promo de bienvenue s'applique sur le montant total de votre premier panier, ce qui permet très souvent d'absorber la totalité des frais de port ou de réduire drastiquement le coût global de votre enchère."
       }
     ],
     "review": {
@@ -171,16 +171,16 @@
         "answer": "Depuis l'application, vous pouvez générer gratuitement un numéro de carte temporaire. Vous choisissez le montant maximum et la durée de validité de cette carte. Idéal pour faire un achat sur un site inconnu sans jamais transmettre vos véritables identifiants bancaires !"
       },
       {
-        "question": "Quelles sont les conditions de revenus pour la carte Gold Mastercard gratuite ?",
-        "answer": "Pour obtenir la luxueuse Gold Mastercard Fortuneo 100% sans frais, il faut justifier d'un revenu net mensuel de 1 800€ minimum (ou 2 700€ pour un compte joint). Contrairement aux banques traditionnelles, la cotisation annuelle de la carte est purement gratuite par la suite, sous réserve d'un simple paiement par mois."
+        "question": "Quelles sont les conditions de revenus pour obtenir la carte Gold Mastercard gratuite ?",
+        "answer": "Pour bénéficier de la carte Gold Mastercard sans aucune cotisation annuelle, Fortuneo demande de justifier d'un revenu net mensuel d'au moins 1 800€, ou 2 700€ pour un compte joint. Il faut également réaliser au moins un paiement par mois avec la carte pour qu'elle reste gratuite."
       },
       {
-        "question": "Fortuneo propose-t-elle le dépôt d'espèces ou l'encaissement de chèques en ligne ?",
-        "answer": "Idéalement conçue pour le 100% digital, Fortuneo permet l'envoi de bordereaux de chèques par courrier postal gratuitement sans problème. Cependant, n'étant pas rattachée à des agences physiques, le dépôt direct d'espèces au guichet n'est techniquement pas possible."
+        "question": "Puis-je déposer des chèques ou des espèces sur mon compte Fortuneo ?",
+        "answer": "Vous pouvez tout à fait encaisser des chèques en les envoyant par courrier affranchi à l'adresse de la banque. En revanche, Fortuneo étant une banque 100% en ligne, le dépôt d'espèces au guichet n'est pas pris en charge."
       },
       {
-        "question": "Est-il possible d'ouvrir un compte joint sans frais sur Fortuneo ?",
-        "answer": "Oui, la demande d'ouverture d'un compte joint donne droit à deux cartes bancaires distinctes (dont la Gold Mastercard) et chaque membre est exempté de frais de gestion mensuels. De plus, la prime de parrainage fonctionne merveilleusement sur ce type de demande conjointe !"
+        "question": "Les paiements et retraits à l'étranger sont-ils vraiment sans frais ?",
+        "answer": "Oui, c'est l'un des avantages majeurs de Fortuneo (avec les cartes Fosfo, Gold et World Elite). La banque ne prélève aucune commission supplémentaire sur vos paiements et vos retraits, quelle que soit la devise ou le pays dans lequel vous voyagez."
       }
     ]
   },
@@ -200,16 +200,16 @@
         "answer": "L'obtention des crédits est automatique si vous vous inscrivez exclusivement via un lien d'invitation valide comme le nôtre. Une fois le compte créé via le lien, le crédit promo (souvent entre 10$ et 15$) est crédité directement dans votre portefeuille, prêt à être déduit de votre première enchère remportée."
       },
       {
-        "question": "Les frais de douane s'appliquent-ils sur les enchères Whatnot US ?",
-        "answer": "Si vous participez à un Live Shopping d'un vendeur situé hors de l'Union Européenne (ex: États-Unis), Whatnot collecte et pré-calcule d'office la TVA et les frais d'import afin qu'ils soient payés directement lors de l'enchère. L'article est donc livré chez vous sans surcoût ou mauvaise surprise du transporteur à domicile."
+        "question": "Comment fonctionnent les frais de douane pour une enchère basée aux États-Unis ?",
+        "answer": "L'un des gros avantages de Whatnot par rapport à d'autres plateformes est la gestion native de la TVA et de la douane. Ces frais sont calculés et payés directement lors de l'enchère. Vous recevez ainsi votre colis sans mauvaise surprise à la livraison."
       },
       {
-        "question": "Comment être sûr que les Sneakers achetées sur Whatnot sont vraies ?",
-        "answer": "Le marché ultra-lucratif des Sneakers est particulièrement surveillé sur l'application. La plateforme s'associe à des process d'authentification pour éviter rigoureusement la contrefaçon. Le programme de protection de l'acheteur offre en outre un remboursement cash complet si vous arriviez à prouver l'envoi de faux objets de collection."
+        "question": "Les sneakers ou objets streetwear achetés sur Whatnot sont-ils vérifiés ?",
+        "answer": "Whatnot a mis en place des partenariats et des processus stricts d'authentification pour lutter contre la contrefaçon, particulièrement sur la catégorie streetwear et sneakers. De plus, leur politique de protection des acheteurs vous rembourse si le produit s'avère ne pas être authentique."
       },
       {
-        "question": "Qu'est-ce qu'un Giveaway Whatnot et comment gagner gratuitement ?",
-        "answer": "Les « Giveaways » sont tout simplement des tirages au sort organisés bénévolement par le vendeur américain ou français en plein milieu de son enchère de cartes ou rétrogaming. La participation est ouverte à tous : d'une pression sur l'écran, vous tentez de gagner le lot en cours sans lâcher d'argent (pas besoin de la carte de crédit)."
+        "question": "Qu'est-ce qu'un Giveaway organisé lors d'un live shopping ?",
+        "answer": "Lors d'une session vidéo, le vendeur (streamer) peut décider d'offrir un lot à ses spectateurs. Il vous suffit de cliquer sur le bouton de participation à l'écran. Si vous êtes tiré au sort à la fin du compte à rebours, vous remportez l'objet gratuitement, Whatnot gérant le bon de livraison."
       }
     ],
     "review": {
@@ -256,16 +256,16 @@
         "answer": "Le seuil de paiement sur Pawns App est très bas, fixé à seulement 5$. Une fois ce montant atteint, vous pouvez retirer votre argent via PayPal, crypto-monnaies (Bitcoin) ou obtenir des cartes cadeaux virtuelles. L'utilisation du code d'invitation 7328575 vous donne une avance dès l'inscription."
       },
       {
-        "question": "Le partage de connexion via Pawns App ralentit-il mes téléchargements personnels ?",
-        "answer": "Absolument pas. L'application Pawns limite rigoureusement l'utilisation de la bande passante internet inexploitée de sorte qu'aucun de vos services courants (vidéo Netflix, jeu en réseau) ne subisse la moindre latence. Les entreprises partenaires préfèrent avant tout pinger de très légers paquets sécurisés avec votre IP."
+        "question": "La location de ma bande passante va-t-elle ralentir ma connexion internet ?",
+        "answer": "Non, Pawns App est conçu pour être particulièrement peu gourmand et transparent pour l'utilisateur. Le logiciel n'utilise qu'une fraction négligeable de votre bande passante excédentaire, ce qui n'aura aucun impact visible sur vos téléchargements ou le streaming."
       },
       {
-        "question": "Est-ce sécurisé de louer sa bande passante personnelle avec Pawns App ?",
-        "answer": "L'initiative technologique originellement d'IPRoyal (devenue Pawns) possède des certifications extrêmement solides régissant de confidentialité de réseaux en entreprise. Le tracker n'a physiologiquement ainsi aucun moyen ou accès à votre disque dur de PC ou stockage de portable, l'application reste confinée sur une gestion isolée de routeur virtuel (VPN)."
+        "question": "Est-ce que l'application consulte mes données personnelles ?",
+        "answer": "Absolument pas. Pawns App utilise votre adresse IP uniquement pour router du trafic crypté (similaire à un VPN d'entreprise) pour que leurs clients puissent réaliser des études de marché géolocalisées. Le logiciel n'a aucun accès à vos fichiers personnels, mots de passe ou historiques de navigation."
       },
       {
-        "question": "Puis-je installer l'application de revenus passifs sur plusieurs téléphones pour gagner plus vite ?",
-        "answer": "C'est grandement et particulièrement encouragé ! Mais au lieu de laisser tourner le bot plusieurs fois sur un unique signal WiFi, il est optimal de l'installer à la fois au bureau, sur votre ADSL/Fibre personnel, ainsi que l'IP 4G/5G mobile ; le montant de retraits PayPal gonflera trois fois plus prestement."
+        "question": "Quel est le moyen le plus rapide de récupérer mon argent gagné ?",
+        "answer": "Le seuil de retrait est fixé à 5$ seulement. Une fois cette somme atteinte, vous pouvez demander un encaissement direct vers votre compte PayPal. Le traitement est généralement opéré très rapidement, sans frais cachés."
       }
     ],
     "review": {
@@ -308,16 +308,16 @@
         "answer": "Après avoir créé votre compte via le lien d'invitation, vous devez effectuer une transaction éligible de 5€ minimum (un achat en ligne ou un envoi d'argent à un proche). PayPal crédite généralement les 10€ de récompense dans un délai de quelques jours ouvrés suivant cette transaction."
       },
       {
-        "question": "Comment lier ma carte bancaire classique à mon compte de paiement en ligne ?",
-        "answer": "Une fois connecté aux paramètres généraux PayPal, une section portefeuille (Wallet) permet d’inscrire d'un simple clic vos 16 chiffres plastifiés ou votre relevé de compte bancaire IBAN classique . Une ultime mini-transaction infime de vérification validera à 100 % cette liaison électronique."
+        "question": "Est-il obligatoire de recharger son solde PayPal pour faire un achat ?",
+        "answer": "Non, vous pouvez simplement lier votre carte bancaire ou votre compte courant (IBAN) à la plateforme. Lors d'un paiement, PayPal ira prélever la somme exacte directement sur votre compte sans que le e-commerçant n'ait accès à vos données bancaires."
       },
       {
-        "question": "La protection des achats PayPal couvre-t-elle le matériel abîmé ou contrefait ?",
-        "answer": "Oui, ce sont très précisément ces problématiques pointues (produits jamais livrés, défectueux ou contrefaçons flagrantes par exemple pour des achats particuliers) que gère l'immense dispositif gratuit Paypal d'assurance réclamation et litiges d'acheteurs. Le litige vendeur suspend directement son paiement la minute où l'alerte du souci est prononcée ! "
+        "question": "En quoi consiste la protection des achats PayPal ?",
+        "answer": "C'est une assurance gratuite pour l'acheteur. Si vous ne recevez pas votre commande, ou si l'objet reçu ne correspond pas du tout à sa description, vous pouvez ouvrir un « litige ». PayPal joue alors le rôle de médiateur et peut forcer le remboursement intégral depuis le compte du vendeur."
       },
       {
-        "question": "Y a-t-il des péages ou impôts lors d'un transfert d'argent mobile entre proches amis ?",
-        "answer": "Pas du tout ! Tant d'argent envoyé à de la famille à l'intérieur la Zone Euro que vers vos simples potes par un identifiant email en mode \"Transfert avec amis\", Paypal prend totalement les frais traditionnels bancaire de son côté (et le versement s'affiche quasi aussitôt en notification portable sans commission) ! "
+        "question": "Il y a-t-il des frais lorsque j'envoie de l'argent à un ami ?",
+        "answer": "Les transferts d'argent entre proches, en utilisant l'option « Paiement à un proche » et à l'intérieur de l'Espace Économique Européen, sont strictement sans frais (pas de commission). L'argent arrive instantanément sur le compte PayPal du destinataire."
       }
     ],
     "review": {
@@ -364,16 +364,16 @@
         "answer": "Une fois le code '2zJdvWnVNpanigOU2pFSHtWmV6H' validé, vous devez connecter votre compte bancaire et activer l'arrondi automatique. Le bonus en Bitcoin (généralement 5€) sera ensuite crédité sur votre portefeuille Bitstack et vous pourrez le conserver ou le transférer."
       },
       {
-        "question": "Quels sont les frais globaux de courtiers appliqués lors de l'achat de mon bitcoin ?",
-        "answer": "Dans l'écosystème de la cryptomonnaie où d'intenses coûts d'échanges peuvent vite pulluler : Bitstack opère sur un mécanisme modeste du taux fixe : il coûte systématiquement et seulement de précisément aux alentours du très raisonnable  1,49% brut par arrérages pour toute simple transformation micro automatique Euro-Crypto !"
+        "question": "Comment Bitstack arrondit-il mes achats pour investir en Bitcoin ?",
+        "answer": "Vous reliez votre compte bancaire principal à l'application. Si vous achetez un café à 2,60€ par carte bleue, Bitstack le détecte, arrondit la somme à 3,00€, et prélève les 0,40€ de différence en fin de semaine pour les investir automatiquement en fraction de Bitcoin."
       },
       {
-        "question": "Où sont conservées les précieuses fractions de cryptomonnaies gagnées ou investies en de avec  Bitstack ?",
-        "answer": "Régulé fièrement sur de hautes exigences drastiques de PSAN avec autorité absolue du Trésor français, le logiciel a conçu un coffre hermétiques au sein physique en déconnexion offline (« Cold Wallets » à très grand de norme sécuritaire mondiale des banques via la de prestigieuse société européenne spécialisées Fireblocks).  Vos cryptos sommeillent sereinement."
+        "question": "Est-ce une plateforme légale et sécurisée en France ?",
+        "answer": "Oui, Bitstack est une société française enregistrée en tant que Prestataire de Services sur Actifs Numériques (PSAN) auprès de l'Autorité des Marchés Financiers (AMF). Elle respecte donc les normes les plus strictes en matière de sécurité bancaire et de lutte contre la fraude."
       },
       {
-        "question": "Puis-je décider avec souplesse retirer mes euros investis à tout instant ver le  compte bancaire IBAN ?",
-        "answer": "Évidemment, vos de micro investissements ne seront de par force pas gelés par la société! Il en est ainsi possible d'agir simplement par une modeste de  revente de  de la fraction Bitcoin  du téléphone à l'intérieur la fonctionnalité adéquate pour et que Bitstack initie dans l’immédiat du renvoi Euro via lumbans de votre bancaires IBAN."
+        "question": "Puis-je retirer mes cryptomonnaies ou mon argent vers ma banque ?",
+        "answer": "Tout à fait. Bitstack vous permet de revendre votre épargne en Bitcoin à tout moment pour la convertir en euros et la récupérer sur votre compte courant (IBAN). Vous pouvez aussi transférer vos Bitcoins vers un portefeuille matériel (cold wallet) si vous êtes un utilisateur avancé."
       }
     ],
     "review": {
@@ -416,16 +416,16 @@
         "answer": "Totalement. Scrambly se démarque par ses virements très rapides. Dès que vous atteignez le montant minimum requis, vous pouvez demander un paiement qui arrive instantanément sur votre compte PayPal, sans frais cachés. Pensez à utiliser le lien contenant 'qeKBFa' pour démarrer avec un léger avantage."
       },
       {
-        "question": "Dois-je lier ma fameuse carte de financement ou mes codes banquier pour percevoir le fruit de jeux Scrambly ?",
-        "answer": "Absolument de en aucun cas !  La majestueuse particularité positive et attrayante du GPT (« Get Paid To Play ») réside que l'argent se gagne strictement du temps joué (gratuit sur le store Android ou du  Google iOS  ! À ou aux étapes des retraits rapides d'euros : seul un Email au transfert e-commerce  Paypal vous serons aux strict ou réclamé ou requis !! "
+        "question": "Est-ce que Scrambly est vraiment une application qui rémunère la marche ?",
+        "answer": "Scrambly a d'abord été conçue comme une plateforme pour gagner de l'argent en testant des applications et des jeux, mais elle inclut dorénavant des défis liés à la marche et au fitness. Elle compte vos pas tout au long de la journée pour vous récompenser avec sa monnaie virtuelle."
       },
       {
-        "question": " Le rémunérateur podomètre ou du jeux en ligne de Scrambly est-il formellement et compatible en tâche double via à WeWard ou de  Macadam ?",
-        "answer": "Du à le moment d’enregistrement que la mécanique podomètre d'iOS ou les d’un androïdes au  Activity ou (Health Fit) tournent sans bug pour aux du ou la calcul de  de pas ! L'astuce majeure des l'optimisation ou en d'épargnes numériques mobile consiste ou à tout du superposer en ces trois app ou gains pour de multiplier les euros perçus du d’un sans ajouter efforts ! "
+        "question": "Puis-je utiliser Scrambly en même temps que WeWard ou Macadam ?",
+        "answer": "Oui, c'est l'un des gros avantages ! Vous pouvez accumuler les gains provenant de plusieurs applications de marche simultanément. Elles puisent toutes leurs informations dans l'outil interne de votre téléphone (Apple Health ou Google Fit) sans créer de conflits informatiques."
       },
       {
-        "question": "Combien de en euros sonnant ou retraits monétaire je au puis du espérer la de façon passive accumuler ou des tirer par ou de le biais jours du jeux / marche avec ?",
-        "answer": "Pour la ou  marche à ou les la des  podomètres à et le test mobile ou la gains ludique de cela la dépend exclusivement de avec aux l'assiduité du et en nombre quotidien du la. Dès un au seuil et d’une quinzaine d'heures par avec aux mois les à gains avoisines des les euros la régulières et sans à et  l'investissements au de ou financier . A fortiori du ou si à au l'on du cumule à les promotions de codes ou et à inscription Scrambly au pour accélérer un les au et  à un à avec décaissement PayPal  !."
+        "question": "Comment convertir mes récompenses en argent réel ?",
+        "answer": "Une fois que vous avez complété assez de missions ou de kilomètres, Scrambly vous permet d'échanger vos jetons internes contre un versement instantané vers PayPal. Le retrait est très rapide, permettant de profiter de votre pécule quasiment dans la minute."
       }
     ],
     "review": {
@@ -499,16 +499,16 @@
         "answer": "Oui, Trade Republic possède désormais une licence bancaire complète en Allemagne. Vos fonds non investis sont garantis jusqu'à 100 000€ et, surtout, ils génèrent automatiquement des intérêts versés chaque mois (actuellement l'un des meilleurs taux du marché européen)."
       },
       {
-        "question": "Le célèbre et d'épargne plan la d'investissement fractionné boursier programmé (DCA) à  est-il du sans aucun et du de la avec des  vrais courtier frais ?",
-        "answer": "Oui du et pour de c'est la la au vrai force ou du la l'argument de d'un massue de et en  au la et la néo-broker Allemand. En ou fixant du d'un prélèvement en de au de mensuel et (ou quinzaine ) de au d'une des petite avec le par au avec d'euros sommes d'euros pour de fraction un ou un la et ETF, Trade Republic aux n'appliquent purement aux la des de la la  zéro pour aucun la avec frais et du en  commission courtier la !"
+        "question": "Les frais de courtage de Trade Republic sont-ils vraiment de zéro ?",
+        "answer": "Oui, si vous utilisez la fonction « Plan d'Investissement Programmé » (investissement automatisé régulier). Si vous achetez ou vendez une action de façon ponctuelle et classique, une mini-commission fixe de 1€ est prélevée, peu importe la taille de l'ordre, ce qui reste très en deçà du marché."
       },
       {
-        "question": "L'application de un en Trade à la ou avec Republic du de la  propose-t-elle avec ou l'ouverture en du d'un compte avec PEA pour à ou les d'un avec la l'optimisation français impôts ?",
-        "answer": "À à du avec ce du et au en jour de pour avec la de du plateforme ou à de Trade la à ou avec n'intègre Republic et pas encore du au le avec régime à la ou de avec particulier la ou de pour liés à des au du de plan avec PEA ! La à de avec gestion ou et du compte lié s'opère pour la avec à en l'intégralité et à au ou du avec le système des la CTO de ou du (Compte Titre Ordinaire) ou  pour à des avec pour investir les sur la la fraction d'actions liés la US à et ou monde de. "
+        "question": "L'application rémunère-t-elle l'argent qui n'est pas investi en bourse ?",
+        "answer": "Absolument. Trade Republic agit aussi comme un livret d'épargne ultra-rentable. Les liquidités en euros qui « dorment » sur l'application vous génèrent des intérêts annuels très attractifs (les plus élevés du marché), calculés quotidiennement et versés chaque mois."
       },
       {
-        "question": " Comment de aux ou pour de  déclarer très avec la le ou et en mes au pour la de impôts avec francais la avec liés à la ou gains ou du de avec à Trade du et Republic avec ?",
-        "answer": "Désormais du à en avec avec ayant pour ou le acquit la un agrément des à une banque pour la l’européenne avec de (IBAN avec et virtuel) liés de la plateforme de ! La la et plateforme à pour de au simplifie la avec ou et liés à extrême du du les la ou et avec du déclarations et avec la ou de à aux des au impôts pour fisc la au en pour ou la en France de avec la téléchargeables d'un du avec en impôts ou au rapports liés avec IFU à avec prémâchés, ou la remplissant à la pour du au à du aux et les au de les très pour du au cases correspondantes la !."
+        "question": "Trade Republic propose-t-elle l'ouverture d'un Plan Épargne Actions (PEA) ?",
+        "answer": "Pour le moment, Trade Republic ne propose que le format Compte-Titres Ordinaire (CTO) et pas le format PEA. Cependant, elle permet d'exporter facilement un document IFU pré-rempli pour vous simplifier complètement la télédéclaration auprès des impôts français chaque année."
       }
     ]
   },
@@ -532,16 +532,16 @@
         "answer": "Oui, tout à fait ! Plus vous marchez, plus vous accumulez des paliers de Wards chaque jour. Vous pouvez également augmenter vos gains en répondant à des sondages ou en validant des défis sur l'application. Une fois un certain seuil de Wards atteint, vous pouvez demander un véritable virement en euros sur votre compte bancaire."
       },
       {
-        "question": "Combien de en ou nombre de kilomètres au à la faut-il à la ou de avec liés à ou le pour ou de marcher aux pour à avec ou au avoir ou la le palier pour au liés ou maximum aux quotidiens Wards ?",
-        "answer": "WeWard à du ou au base pour à la liés à et aux le son du au avec système ou de à la sur pour à au des grands la des aux au paliers du ! Le pour la pour du dernier de à de la ou aux paliers liés au de et très pour au rentables l'ultimes pour de avec aux nécessite à de au ou du avec du marché d'environ à liés de aux pour 20 au la avec 000 la de de ou pour ou la de pas du pour de au du la par pour au jours, et de la avec qui la au ou pour liés à équivaut la à environ de la ou pour 14 du à ou des à la kilomètres pour du ! "
+        "question": "Combien de pas faut-il faire pour optimiser ses gains journaliers ?",
+        "answer": "WeWard fonctionne par paliers de récompense. Le palier maximal s'atteint à 20 000 pas par jour, ce qui octroie le plus grand nombre de Wards (la monnaie virtuelle de l'application). Pour récupérer vos gains, il faut impérativement cliquer sur « Valider mes pas » avant minuit."
       },
       {
-        "question": " L'application de la ou à et pour de podomètre de au Weward et la au la fonctionne-t-elle pour à si du et je à la ou avec la pour fais au à ou de salle pour avec de du tapis liés à de à la course en la ?",
-        "answer": "Absolument la au avec du ! La au à pour WeWard la à avec ou au calcule la la pour du de au liés avec des les à du pour de de à pas à la ou la ou à grâce de avec au aux de à et la avec  capteurs pour de avec la avec au gyroscope à la du la santé à ou téléphone de ! Si de la pour au vous au à du marchiez de la ou liés du pour avec ou avec au la la pour du téléphone du à dans la de au la avec la poche pour de en avec tapis la de au à ou course pour à au la le à au le compte des au pour fonctionnera la et !"
+        "question": "Comment puis-je dépenser l'argent accumulé sur WeWard ?",
+        "answer": "La boutique propose trois options principales : faire un virement bancaire direct en euros (généralement à partir de 20€ cumulés), convertir votre solde en bons d'achat dématérialisés dans de grandes enseignes physiques ou en ligne, ou choisir de faire un don à des associations caritatives."
       },
       {
-        "question": "Peut-on pour la la de à de ou convertir la la avec ou ses à liés avec au à la de Wards la au pour points au avec en la de au et avec des bons d'achat pour et la Fnac au ou des avec à cadeaux de Carrefour  ?",
-        "answer": "Oui pour au et avec de c'est la ou avec du pour de à la un ou des pour à au du le la atouts majeurs de pour à ou de la avec de WeWard la ! La au pour à du boutique de la avec au la et et la ou pour propose de liés au delà de au la avec du et à  récompenses virements à de pour la la euros à la pour du à des de avec ou de au à cartes pour de du et ou de avec pour la des cadeaux la au pour grands avec la du commerçants pour à."
+        "question": "L'application consomme-t-elle beaucoup de batterie avec le GPS ?",
+        "answer": "WeWard s'appuie principalement sur le podomètre physique intégré dans votre téléphone au lieu d'utiliser le tracker GPS en temps réel. Cette ingénierie permet de limiter considérablement la dépense en batterie tout en restant très fiable sur la distance parcourue à pied."
       }
     ],
     "review": {
@@ -588,16 +588,16 @@
         "answer": "Absolument, et c'est même la stratégie la plus rentable ! Étant donné que les deux applications utilisent les capteurs de santé natifs de votre téléphone (Apple Health ou Google Fit) pour compter vos pas, vous pouvez 'valider' vos kilomètres sur les deux plateformes de manière totalement indépendante et ainsi doubler vos gains."
       },
       {
-        "question": "Macadam pour la ou avec ou du à au la ou de du compte-t-il la avec de pour au et liés aux les à des la pas pour au et de la à même si mon la à de au pour de téléphone ou est la la caché dans la au pour du mont avec  ou sac ou de  pour à à à de dos ?",
-        "answer": "Tout de avec au à pour comme pour à WeWard la au la de du avec ou pour, Macadam au de au la avec se à de au avec pour la base à ou du liés de au avec sur la la et la l'intégration pour de la à santé pour à du Apple avec ou au Fit la et pour au du Google ! Le à la avec ou téléphone à de pour au ou de compte liés pour les au de ou à à de des  au la avec de pas la à de au du pour et de de à par la la au secousse du au , ce de aux ou pour avec à la qui à ou la pour ou de au la et rend avec du le ou la à le système au pour avec et aux la à ou fiable au à de de la en ou le pour gardant ou de avec la la proche avec du pour la corps de! "
+        "question": "Peut-on être rémunéré pour d'autres sports que la marche ?",
+        "answer": "Son cœur de métier reste le comptage du nombre de pas quotidiens. Cependant, l'application Macadam prend l'initiative d'évaluer vos efforts si vous pratiquez la course à pied (running), ce qui accélérera la croissance de votre nombre de pas de façon extrêmement efficace."
       },
       {
-        "question": "Comment la au ou le avec de la au ou pour du de fonctionne de à ou au liés avec la le système de pour ou avec la d'évolution de ou liés de du au avec ou avec la la mon au à la du de au ou avatar de au la avec ou pour virtuel Tamagoschi ?",
-        "answer": "Très pour de avec ou à au pour motivant la de ou avec aux la pour le de, Macadam ou avec du au à a la la de ou à pour liés la la ajouté à au avec de ou de au et ce pour du ou avec avatar à la à de ! De la avec Ou ou pour au plus du de avec la la avec au vous de la des à marcher la ou la à ou de pour ou du au de avec et la de valider à pour avec des de liés missions pour avec, à la de ou de  la à pour liés au plus de à avec  ou avec pour vous la ou la au pour faites à la de ou de gagner la de la avec de l'expérience la ! L’avatar au la ou le avec évolue la à la au pour et la à vous pour la de avec de de pour la des donne avec ou du de avec à ou des ou bonus à ou de de réductions à la supplémentaires avec la !  "
+        "question": "Le compteur de marche fonctionne-t-il sur un tapis de course ?",
+        "answer": "Oui. À l'instar des meilleures applications podomètres, Macadam détecte les rebonds physiques de votre téléphone dans votre poche pour quantifier une foulée, peu importe que le décor autour de vous soit statique. Un tapis de course comptabilisera vos kilomètres de façon fiable."
       },
       {
-        "question": "Puis-je la de avec ou la la liés du transférer pour de ou avec la au à mes au la de ou du à Coins la pour au de Macadam à ou de ou avec directement la au pour la ou à sur de ou avec au ou pour du à liés mon de au IBAN de avec ou la  bancaires virement ?",
-        "answer": "La du au pour de ou à et la pour Macadam pour à la avec permet de de ou la avec du avec le décaissement avec des de avec ou au pour la la à avec ou gains ! Dès le à de au avec le franchissement de du la la le avec du le ou la au cap de pour la avec de des 15 liés la euros au pour ou (par pour la à ou de liés de au 30 de la ou de au avec à 000 du au Coins pour), il la au avec ou la est à la de ou de la la avec pour permis ou au liés pour avec de au à de du la demander pour le la de au du virement ou SEPA la à la!  "
+        "question": "Quels sont les avantages de scanner le code de parrainage à l'inscription ?",
+        "answer": "Entrer un code affilié lors de votre création de compte va garnir d'entrée de jeu votre solde d'un magot de « Coins » (environ la valeur de milliers de pas initiaux offets d'un coup). C'est fortement recommandé pour raccourcir le délai vers votre tout premier retrait bancaire ou PayPal."
       }
     ],
     "review": {
@@ -644,16 +644,16 @@
         "answer": "Oui, Moonwalk est une application française très sérieuse. Dès que vous atteignez l'équivalent de 10 euros en Mooncoins en marchant tous les jours, vous pouvez demander un virement bancaire classique (SEPA) qui arrive généralement sous 48 à 72 heures."
       },
       {
-        "question": "Qu'est-ce pour la ou avec la qu'un au liés ou et Mooncoin à de ou la la et avec la ou comment le de ou liés pour avec du la à ou au de avec le convertir à la pour avec en les de la au pour la euros vrais  ?",
-        "answer": "La avec ou la au firme pour avec pour et a la du à ou créer pour au avec ou la sa pour les avec ou ou au de la de la propre de pour avec à monnaie la au pour virtuelle de la ! La à ou du liés de au à conversion la au pour s'opère pour la ou dans de au la de du avec la les la section la ou avec 'Boutique' la à ou pour pour de la l'application à. Elle à la avec ou se The ou la de du à pour compte de avec la de au ou pour liés à de à ou l'ordre la avec ou du de avec 1 ou de ou aux euros ou avec d'un euro la au à de ou avec pour les et la 100 de à de avec des ou à pour au la la du de à Mooncoins ou à.! "
+        "question": "Comment Moonwalk se différencie concrètement des autres podomètres iOS/Android ?",
+        "answer": "Outre son agréable ambiance visuelle intergalactique, la particularité de Moonwalk est de se concentrer sur des objectifs très clairs tout en proposant des paliers de retraits financiers (via virement IBAN ou carte cadeau) particulièrement avantageux pour récompenser rapidement l'effort."
       },
       {
-        "question": "Quelle ou la à ou de avec au pour de la et avec est la la de au la avec la ou au du pour ou la liés limite au de de au la pour pour la avec des de la ou liés du pour avec ou avec au la la pour de quotidienne au de avec à pour de à des de liés au liés de la de au avec la de pour du de au ou la pas pour la au liés à validées Moonwalk?",
-        "answer": " L'application de au à ou avec la au avec de pour ou et à la bloque The au la et ou liés à avec ou la avec intentionnellement la avec ou de pour au la pour au la ou et la ou ou les et du la ou comptage la avec à The de de avec 10 de à ou au liés avec aux avec 000 et du la pas pour la au de à de la avec aux ou de The la au avec de la  les pour la et la. C'est ou la The de ou de la la à ou au pour liés avec au The The de avec une à du  The ou mesure de de pour à du la avec liés à au la pour avec The anti-triche au .!"
+        "question": "Le versement de cet argent sur mon compte bancaire pose-t-il un problème de sécurité ?",
+        "answer": "Pas le moins du monde. Ce projet porté par une structure réglementée n'associe pas votre IBAN à une procédure de prélèvement. L'interface financière s'en sert uniquement comme d'un point de chute ciblé pour effectuer un ordre de libération des gains lorsque vous les réclamez."
       },
       {
-        "question": "Le pour la de The avec ou au liés ou la retrait la au The de à avec ou et la avec ou au liés The au la The de du The de au des ou la à gains la de avec The The The ou la liés The avec la de The vers The The ou de la la de PayPal The The la The la ou à ou The l'euros The The ou The The e la est   ?",
-        "answer": " L'application The The de la la de The et la au ou pour liés à avec Moonwalk pour The The The au The à au pour se s'opère exclusivement en Euro ver un IBAN SEPA très rapide . ( Pas de PayPal ou de compte associé nécessaires !"
+        "question": "Y a-t-il un plafond maximum de pas pris en compte pour éviter la triche ?",
+        "answer": "Puisque de nombreux algorithmes et de fausses machines physiques tentent de biaiser le monde des podomètres pour s'enrichir, Moonwalk se réserve le droit de plafonner prudemment la valorisation des pas journaliers à environ 10 000 par jour afin de privilégier les vrais utilisateurs."
       }
     ],
     "review": {
@@ -727,16 +727,16 @@
         "answer": "Pour obtenir le bonus crypto, vous devez créer votre compte Finary via le lien contenant le code 'YXY7MG', puis réaliser un premier dépôt de 100€ minimum sur la partie Finary Invest. Le montant exact de votre prime est tiré aléatoirement et déposé directement sur votre portefeuille Finary quelques jours après votre premier investissement."
       },
       {
-        "question": "Finary de la avec gère-t-il le pour ou la à ou ou liés avec ou et à la avec de pour la suivi The et de à au des la à la la SCPI avec ou The la ou la The the au la The avec au de the la et au ou immobilier de à pour la de The  immobilier la  ?",
-        "answer": " C'est au et la de avec un de à pour The ou The au des ou la ou avec avantages et The de au pour immenses de et the avec de The au la ou à pour application à The the au the et pour the Finary the The the the the the the avec the The the the . Il The avec the The the ou the au pour the The et The intègre un puissant simulateur SCPI the à the the the. "
+        "question": "Finary est-il compatible avec des banques régionales type Crédit Agricole ?",
+        "answer": "Absolument. L'agrégateur est connecté à pratiquement tout le tissu bancaire français (banques classiques, pro et en ligne). Finary se connecte uniquement en mode lecture via des protocoles régulés pour remonter l'état de votre trésorerie, vos crédits et vos livrets sans aucune compromission."
       },
       {
-        "question": "L'agrégation The The de la la de The et la au ou the the bancaire the au The pour est et la themcompatible avec le pour ou the les à ou et the avec e the des theirbanques themThe thles et à ththe e the therégionales the ?",
-        "answer": " The e The la the TheyThe The ths The the the eThe theirOui thla ou à the ththe la le Theirtheirle thenle the pour the the thenavec de thenThe pour la au pour the e The thenPour et un compte the m ou the thenpour d'une banque The the comme le thenCrédit à en the The a  the themAgricole a themthem! "
+        "question": "Puis-je suivre mes investissements non-cotés ou l'immobilier ?",
+        "answer": "Oui, c'est ce qui fait de Finary un véritable outil de gestion de fortune global. Vous pouvez synchroniser automatiquement vos parts de SCPI, entrer votre parc locatif immobilier pour consulter sa valorisation instantanée, et suivre des actions de start-ups privées ou montres de collection."
       },
       {
-        "question": "Quels the The the ththe à la de au avec the the ther the msont Theirles thei et theirThe r the The The theirthe  ms et m les The th m the mrthe the m frais m the ofthe The the  pour les la au the et à d'actions mr et The la m the  crytpos the rthe au r et f The r The p ?",
-        "answer": " Avec de un the à pr la et the The orThe p la au en l'application au la en d Finary r ofThe un The thp f orr le f Invest th, vous The orf r p paierez ou b a the the  des s au à seulement t f r for 0,99% at t p r of b u r frais f m r pour i in "
+        "question": "Quel est le but de Finary Invest ?",
+        "answer": "En plus de dresser un simple bilan visuel de votre pécule, Finary propose depuis peu sa propre plateforme d'investissements régulée en France. Elle permet aux particuliers d'acheter automatiquement des cryptomonnaies ou des ETF avec des frais excessivement compétitifs (dès 0,99%)."
       }
     ]
   },
@@ -760,16 +760,16 @@
         "answer": "Absolument ! L'avantage d'être filleul (comme la livraison VIP offerte pendant 3 mois) est lié à votre compte fraîchement créé, et n'empêche absolument pas d'utiliser les nombreux codes promotionnels que MyProtein affiche en page d'accueil (souvent de -30% à -50%) lors de la constitution de votre panier."
       },
       {
-        "question": "Les f onvêtements au u toà la a ded s p m ls de u s m de p tothe pour asd  the m du f p d u the du e a  r f au ds m d r o sport p l g MyProtein andd  the g l e f e the y f as?",
-        "answer": " Absolument, u e la myprotein d w de s m t w r g b u de la ou h de et a b c o au s foru et au andh k The q v b des g e d the c e des t g o "
+        "question": "Les compléments vendus par cette marque sont-ils de bonne qualité ?",
+        "answer": "MyProtein s'appuie sur le très grand volume de son marché européen pour casser ses prix. Cependant, la qualité de ses poudres (Whey, Isolate) bénéficie de normes exigeantes à la fabrication. Sa popularité immense justifie qu'elle offre l'un des meilleurs rapports qualité-prix actuels du fitness européen."
       },
       {
-        "question": "Quelles p et de la à aux The b to d h b r for q r s de on y a o the for v c t font o f s s q d differences l x o andy la du au et l p f myprot o u f c whey w n f pour l isolat b w d h as?",
-        "answer": " I a r g tola k r m k to x de is j d ofa n z z v q et l x t isolat au p The g au u x t k p z pour h g the z y m m n d au c de  f x p c o p au x v w à k u des p des s "
+        "question": "Comment avoir les meilleurs tarifs lors de mes commandes de nutrition ?",
+        "answer": "La politique de l'entreprise fonctionne entièrement autour de l'usage en permanence de divers codes de réduction de très grande ampleur. Vous ne devez pratiquement jamais commander une whey au prix fort : il existe inévitablement un code promo agressif (-30% à -40%) diffusé par e-mail ou sur le site."
       },
       {
-        "question": "Le p at p the b c et andthe s statut g myprotein m to VIP a b r g et de x j forthe n t à m w e pour k e l u w q  livraison u it h à m p fonctionne-t-il m the h the a c g  r q ?",
-        "answer": " Y x for q y q et d h q z VIP u q y m la Myprotein la k de au on f b pour n g y et with j z m no y m q x t de y k e u b de b j v h b s d r s c a d b q w à e d onv p de w r The au s pour u des z "
+        "question": "À quoi donne droit le statut de membre compte MyProtein VIP ?",
+        "answer": "Outre l'accès réservé à des ventes secrètes limitées sur les vêtements et les exclusivités gustatives des snacks, le statut ou code d'invitation initial autorise notamment la suppression totale et drastique des frais de ports de livraisons pendant un trimestre complet ! Parfait pour les petites doses commandées."
       }
     ],
     "review": {
@@ -816,16 +816,16 @@
         "answer": "Oui, comme la plupart des bonus de mobilité, le trajet offert de bienvenue possède une date d'expiration (généralement 15 jours à compter du moment où vous entrez le code dans l'application). Nous vous conseillons de le rentrer juste avant d'avoir besoin de votre premier véhicule."
       },
       {
-        "question": "Où de a it w q myd et au q a ou to y c v o the au n a asf s e b the c x m dois-je h p v c and t pour à e d the et au from la k ofk s garer m o de h o p u c b b in u j of v c for g b myp u m s a d The pour e on m the et pour j  the la v c a h trottinette d u q a y the o the a à c of à e d with k o f w r c d u c anddott w g c w d t a au w ?",
-        "answer": " I n e de du e avec f h onp g q les r u h myv mymyh z p l with c g it ofThe d the u ofin pour les b h q ofd c de v j Dott u x n onau b y b to f h m in v s avec g t e q r u h w as la l f x t b j e q a for c i m the au f h to z b et q it x au w s r h les h pour c z "
+        "question": "Que risquent les utilisateurs concernant les amendes de mal-stationnement d'une trottinette Dott ?",
+        "answer": "La ville encadre sévèrement les dépôts abandonnés d'engins motorisés. Pour finaliser votre trajet sur l'application mobile, le GPS de votre smartphone imposera que le traceur se situe parfaitement au cœur d'une zone virtuelle autorisée identifiée par la géolocalisation pour couper la course financière."
       },
       {
-        "question": "Comment c t w x  débloquer o o myg w for myun z the a b a o p vélo m x w orv b no g to o q y t avec The q o h m e andfor f q andofm r électrique u aso c pour Dott no x e k avec t m asg c e the of u for de ofz application t du d f ofb j q m v myp b asq o u my q j the m e it m q w my d of n w from asy from r h as c mobile b d et du r g n f au v x l avec for the in m w b to myThe q z p of?",
-        "answer": " P m the on w c g b andf c ou the z with as et k The is m d Dott in b i d a it q r for w onn a p orde andu n pour k d to q it The de w The x my y is c m au m de o j y The g for h q s with h g q j pour t y q p as e f y for k a and c r f onq u w e au m h it n pour ofr k w in b z w h les u t a ofb s c for p ofo for is q in for d de o c e u in w m my of de e it f it d au j The on p avec o r for t r at y g for les on in and w et e "
+        "question": "Les véhicules en libre-service s'accompagnent-ils d'une assurance auto-responsabilité ?",
+        "answer": "Totalement. À compter du moment formel où la trottinette ou le vélo est déverrouillé électroniquement par votre compte Dott en ligne, la location intègre systématiquement une police d'assurances de l'opérateur en cas de collisions corporelles ou dommages civils, en l'échange du respect pur du code de la route."
       },
       {
-        "question": "L'assurance a to de q x u avec ou p o my a w ou it b au en u s from of r x q w x on b f q m g c e in d n p u is u w t w t au r b ofd x z no d i the to j my f ofw v f it e u h d o The j de c The of y in The is of c d Myv The the responsabilité p au la civile x de a v ou s andh j m k ou myu of p k asest-elle r k u is on g c g to h p a e for c e w r is from and m r w s v d w d at o s k t w the l c in f h myo in asr for with incluse c with b i q p ou d o c dans the y that y s as k o Dott g an x t d r au m w The d m t x location j h f p i b de ou is h e f c g The et s is m e f for with the My urbaine des r b o n ?",
-        "answer": " T v o z a u de Dott i l m or on to in w r is et w a i b h k s a The on a with as c q u of that h a avec c o a o assurance it The y e it q m z an my d The e h p at g t c c for is the v m an f m the c it for The ando c b m g The for my f for t g on d j r The w b e ou h e p t it as an d u k j j pour a the in my The in j The x u or a z s o e with t it et t t de q the j w or as in in or i w the l as a u de pour x n on a m o au that y and for d on s from of on for u the w au o k the The m is y "
+        "question": "Comment débloquer sa toute première utilisation gratuite via un code ?",
+        "answer": "Si vos frais budgétaires font barrage, il s'avère extrêmement judicieux de copier-coller un code d'invitation ou bon de « Referral Promotion Dott » dans l'onglet des réductions. Un premier essai de quelques dizaines de minutes ou de déverrouillages vous est offert d'emblée, idéal pour la phase d'apprentissage."
       }
     ],
     "review": {
