@@ -1003,5 +1003,57 @@
         "description": "Achetez pour le montant minimal requis et recevez vos Bitcoins gratuits directement dans votre portefeuille."
       }
     ]
+  },
+  {
+    "id": "20",
+    "name": "eBuyClub",
+    "slug": "ebuyclub",
+    "category": "Shopping",
+    "code": "contactnacoaching",
+    "link": "https://www.ebuyclub.com/inscription?parrain=contactnacoaching",
+    "advantage": "3€ offerts à l'inscription",
+    "description": "eBuyClub est le challenger historique d'iGraal. Souvent plus généreux sur certains marchands spécifiques, il propose également un système unique de 'Cashback en magasin' grâce à sa carte bancaire connectée. C'est l'outil indispensable pour maximiser ses remboursements en complément des autres plateformes.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ebuyclub.com&sz=128",
+    "review": {
+      "pros": [
+        "Taux de cashback souvent supérieurs à la concurrence sur les grandes marques",
+        "Cashback en magasin (Retail) très développé avec des bons d'achat immédiats",
+        "Paiement ultra-rapide par virement, PayPal ou chèques cadeaux (dès 10€ parfois)",
+        "Bonus de bienvenue de 3€ cumulable avec des offres 'Flash' régulières"
+      ],
+      "cons": [
+        "Interface web un peu moins moderne qu'iGraal",
+        "Extension navigateur parfois un peu moins intuitive"
+      ],
+      "longReview": "<p>Si iGraal est le leader par la taille, <strong>eBuyClub est souvent le leader par la générosité</strong>. Cette plateforme française se bat sur chaque taux pour offrir souvent quelques centimes ou quelques euros de plus que ses concurrents. C'est la raison pour laquelle les 'pros du cashback' utilisent toujours les deux en parallèle pour comparer avant chaque achat.</p><br/><p>La grande force d'eBuyClub, c'est son innovation sur le <strong>cashback physique</strong>. Grâce à leur application, vous pouvez acheter des bons d'achat pour vos courses alimentaires (Carrefour, Auchan...) et recevoir du cashback instantanément. C'est une révolution pour le pouvoir d'achat au quotidien, car cela s'applique sur des dépenses obligatoires et non seulement sur le plaisir en ligne.</p><br/><p>En vous inscrivant avec notre lien <strong>'contactnacoaching'</strong>, vous sécurisez votre bonus de 3€ et accédez à une communauté de chasseurs de bons plans très active. eBuyClub n'est pas juste un site de plus, c'est votre allié numéro 1 pour faire baisser la facture de vos courses hebdomadaires.</p>"
+    },
+    "faqs": [
+      {
+        "question": "Puis-je utiliser iGraal et eBuyClub en même temps ?",
+        "answer": "Vous pouvez avoir des comptes sur les deux, mais pour un achat précis, vous ne pouvez activer qu'un seul cashback. L'astuce est de comparer les taux via leurs extensions respectives et de choisir le plus élevé au moment de payer."
+      },
+      {
+        "question": "Comment fonctionne le cashback en magasin eBuyClub ?",
+        "answer": "Il suffit d'acheter un bon d'achat pour l'enseigne de votre choix (par exemple une carte cadeau Carrefour de 100€) sur eBuyClub. Vous recevez immédiatement votre cashback (ex: 3€) dans votre cagnotte et vous payez vos courses en caisse avec le code barre du bon d'achat reçu."
+      },
+      {
+        "question": "Quel est le seuil de retrait sur eBuyClub ?",
+        "answer": "Le seuil classique est de 10€ pour les chèques cadeaux et souvent 10€ à 20€ pour les virements bancaires ou PayPal, ce qui le rend plus accessible que certains concurrents."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Création du compte",
+        "description": "Inscrivez-vous via notre lien pour activer votre bonus de 3€ immédiatement."
+      },
+      {
+        "title": "Testez le Cashback Magasin",
+        "description": "Essayez d'acheter un bon d'achat pour vos prochaines courses : c'est le gain le plus rapide."
+      },
+      {
+        "title": "Enclenchez l'alerte",
+        "description": "Installez l'extension pour comparer les taux en temps réel avec iGraal lors de votre navigation."
+      }
+    ]
   }
 ]
