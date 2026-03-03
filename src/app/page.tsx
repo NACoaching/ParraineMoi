@@ -44,10 +44,10 @@ export default function Home() {
               👋
             </div>
             <div>
-              <h2 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Qui suis-je et pourquoi ces codes ?</h2>
+              <h2 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Qui suis-je et pourquoi ces codes vérifiés ?</h2>
               <p className="text-sm text-slate-600 dark:text-slate-400">
-                L'idée de ce site est très simple : plutôt que de laisser expirer mes invitations pour les supers services que j'utilise au quotidien, je les centralise ici. <br className="hidden sm:block" />
-                Je vous rassure, je **teste personnellement** chaque plateforme (banque, shopping, utilitaire) pendant plusieurs mois avant de la lister ici. Les encarts "Mon avis / Expérience" reflètent mon usage réel. Si vous gagnez de l'argent grâce à ces bons plans, dites-vous que j'y gagne un pourcentage symbolique aussi pour payer l'hébergement du site ! Gagnant-gagnant. 🤝
+                L'idée de ce répertoire est très simple : plutôt que de laisser expirer mes invitations pour les excellents services que j'utilise au quotidien, je centralise ici les meilleurs bons plans. <br className="hidden sm:block" />
+                Je vous rassure, je <strong>teste personnellement</strong> chaque plateforme (banque en ligne, application crypto, shopping) pendant plusieurs mois avant de la lister ici. Mes avis partagés reflètent une expérience utilisateur 100% authentique. Si vous gagnez de l'argent de bienvenue grâce à ces affiliations, dites-vous que je touche également une petite prime transparente pour payer l'hébergement du site. Gagnant-gagnant ! 🤝
               </p>
             </div>
           </div>
