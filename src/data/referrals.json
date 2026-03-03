@@ -1055,5 +1055,57 @@
         "description": "Installez l'extension pour comparer les taux en temps réel avec iGraal lors de votre navigation."
       }
     ]
+  },
+  {
+    "id": "21",
+    "name": "Revolut",
+    "slug": "revolut",
+    "category": "Banque & Finance",
+    "code": "nalbanesi!FEB2-26-VR-FR-AE",
+    "link": "https://revolut.com/referral/?referral-code=nalbanesi!FEB2-26-VR-FR-AE&geo-redirect",
+    "advantage": "Prime de parrainage offerte",
+    "description": "Revolut est l'application financière leader en Europe avec plus de 70 millions de clients. Elle permet d'ouvrir un compte en quelques minutes, de gérer son budget avec précision et surtout de payer à l'étranger sans frais de change cachés. C'est le compagnon idéal des voyageurs et des digital nomads.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=revolut.com&sz=128",
+    "review": {
+      "pros": [
+        "Ouverture de compte ultra-rapide (moins de 5 minutes)",
+        "Paiements et retraits gratuits dans plus de 150 devises aux taux interbancaires",
+        "Cartes virtuelles éphémères pour des achats en ligne 100% sécurisés",
+        "Fonctionnalités avancées : cryptomonnaies, coffres-forts, cashback et assurances voyage"
+      ],
+      "cons": [
+        "Support client principalement via chat in-app",
+        "Limites de retraits gratuits selon le forfait choisi"
+      ],
+      "longReview": "<p>Dans le paysage des néo-banques, <strong>Revolut a révolutionné notre manière de consommer l'argent</strong>. Ce n'est pas seulement un compte bancaire, c'est un véritable couteau suisse financier. Son succès fulgurant (70 millions de clients) s'explique par une philosophie simple : supprimer les barrières et les frais inutiles, particulièrement lors des déplacements internationaux.</p><br/><p>Le point fort absolu de Revolut est sa <strong>gestion des devises</strong>. Vous pouvez détenir plusieurs monnaies simultanément et convertir vos euros en dollars, livres ou yens en un instant, au taux réel du marché. Fini les commissions opaques des bureaux de change à l'aéroport ! C'est l'économie réalisée sur ces transactions qui paye souvent vos petites folies en vacances.</p><br/><p>En utilisant notre <strong>lien de parrainage ('nalbanesi!FEB2-26-VR-FR-AE')</strong>, vous rejoignez une communauté mondiale de financiers malins. Revolut ne se contente pas de gérer votre argent, il vous aide à le faire fructifier via ses options d'investissement simples et ses récompenses de cashback quotidiennes. C'est l'outil indispensable pour quiconque veut reprendre le contrôle de ses finances en 2026.</p>"
+    },
+    "faqs": [
+      {
+        "question": "Comment profiter du parrainage Revolut ?",
+        "answer": "Utilisez notre lien exclusif pour télécharger l'application, créez votre compte, vérifiez votre identité et commandez une carte physique. Une fois ces étapes remplies et vos premiers achats effectués, la prime de parrainage (selon l'offre en cours) est activée."
+      },
+      {
+        "question": "Revolut est-elle une vraie banque ?",
+        "answer": "Oui, Revolut possède une licence bancaire européenne complète. Vos fonds sont protégés par le système de garantie des dépôts européen jusqu'à 100 000€, vous offrant la même sécurité qu'une banque traditionnelle avec la flexibilité d'une application moderne."
+      },
+      {
+        "question": "Quels sont les frais pour les retraits à l'étranger ?",
+        "answer": "Sur le plan standard, les retraits d'espèces sont gratuits jusqu'à 200€ par mois. Au-delà, une commission de 2% est appliquée. Pour les paiements directs par carte, il n'y a aucuns frais de change dans la limite des plafonds de votre forfait."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Inscription Standard",
+        "description": "Utilisez le lien de parrainage pour vous enregistrer sur l'application en quelques clics."
+      },
+      {
+        "title": "Commande de Carte",
+        "description": "Commandez votre carte physique Revolut (souvent gratuite via parrainage) pour retirer de l'argent partout dans le monde."
+      },
+      {
+        "title": "Explorez l'App",
+        "description": "Activez les fonctionnalités de sécurité et commencez à payer sans frais pour profiter pleinement de votre nouvelle néo-banque."
+      }
+    ]
   }
 ]
