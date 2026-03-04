@@ -1,126 +1,6 @@
 [
   {
     "id": "1",
-    "name": "Winamax",
-    "slug": "winamax",
-    "category": "Paris Sportifs & Poker",
-    "code": "NOLYUN",
-    "link": "",
-    "advantage": "Jusqu'à 100€ de freebets",
-    "description": "Pour vos paris sportifs ou le poker en ligne, c'est l'application de référence en France. Les cotes sportives y sont très souvent les meilleures du marché, idéal pour rentabiliser vos pronostics Ligue 1 ou NBA. Profitez de notre lien exclusif : votre premier pari gratuit est crédité s'il est perdant (jusqu'à 100€ de freebets).",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=winamax.fr&sz=128",
-    "review": {
-      "pros": [
-        "Meilleures cotes globales du marché français sur les paris sportifs majeurs",
-        "Application mobile extrêmement fluide pour les paris en direct (Direct Betting)",
-        "Prime de bienvenue claire : 1er pari remboursé en paris gratuits (Freebets)",
-        "Retraits bancaires garantis très rapides (souvent moins de 48h)"
-      ],
-      "cons": [
-        "Service client par email uniquement",
-        "Design parfois un peu sombre/chargé pour les débutants"
-      ],
-      "longReview": "<p>Winamax s'est imposé comme le leader incontesté des <strong>paris sportifs et du poker en ligne en France</strong>. J'utilise cette plateforme depuis plusieurs années pour mes pronostics foot, et je dois avouer que l'expérience utilisateur est nettement supérieure à la concurrence. Que vous cherchiez à sécuriser des paris simples ou à vibrer sur des grilles combinées, l'ergonomie ne fait aucun défaut.</p><br/><p>Ce qui fait massivement la différence pour optimiser vos gains, ce sont assurément <strong>les cotes sportives proposées</strong>, historiquement parmi les meilleures du marché. De plus, la fonctionnalité propre à la plateforme, le fameux <em>MyMatch</em>, permet de construire des paris complexes combinant plusieurs faits de jeu sur une même rencontre (victoire + buteur + score exact), ouvrant la voie à des rentabilités immenses.</p><br/><p>Niveau confiance : l’application mobile ne souffre d’aucun bug pendant les gros rushs du week-end. Les retraits vers le compte sont traités par virement avec une fiabilité exemplaire. Enfin, <strong>le bonus pari sportif de bienvenue</strong> est très transparent : si votre première tentative échoue, la mise vous est intégralement recréditée sous forme de paris gratuits pour vous refaire immédiatement.</p>"
-    },
-    "steps": [
-      {
-        "title": "Inscrivez-vous via le lien",
-        "description": "Cliquez sur notre lien partenaire pour être redirigé vers la page d'inscription officielle de Winamax. Le code de parrainage NOLYUN sera automatiquement appliqué."
-      },
-      {
-        "title": "Validez votre identité",
-        "description": "Remplissez vos informations personnelles et envoyez un justificatif d'identité et un RIB (obligatoire en France pour les paris sportifs) pour finaliser la création du compte."
-      },
-      {
-        "title": "Faites votre premier dépôt",
-        "description": "Déposez le montant de votre choix et réalisez votre premier pari sportif. Si celui-ci est perdant, Winamax vous le rembourse intégralement en paris gratuits !"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "Comment activer le code promo Winamax NOLYUN en 2026 ?",
-        "answer": "Pour activer le code parrainage NOLYUN, il vous suffit de cliquer sur le lien d'invitation ou de renseigner manuellement le code lors de la création de votre compte Winamax, dans le champ dédié au parrainage. Le bonus sera crédité automatiquement après la validation définitive de votre compte (envoi de la pièce d'identité)."
-      },
-      {
-        "question": "Le bonus de bienvenue Winamax est-il retirable en cash ?",
-        "answer": "Le fonctionnement du bonus paris sportifs de Winamax est très avantageux : si votre premier pari est perdant (jusqu'à 100€), il vous est remboursé en Freebets (paris gratuits). Vous devez rejouer ces Freebets, et les gains nets issus de ces paris gratuits seront alors retirables vers votre compte bancaire."
-      },
-      {
-        "question": "Puis-je jouer au poker et parier sur le sport avec le même compte ?",
-        "answer": "Oui, tout à fait. Votre compte Winamax est unique et centralisé. Vous pouvez utiliser la même cagnotte (bankroll) pour jouer à des tournois de poker, des Sit & Go, ou pour placer des paris sportifs."
-      },
-      {
-        "question": "Puis-je parier sur tous les sports avec Winamax ?",
-        "answer": "Oui, Winamax propose une couverture très exhaustive des événements sportifs mondiaux. Vous retrouverez les meilleures cotes sur le football, le tennis, le basket, mais aussi sur des sports plus spécialisés. C'est idéal pour diversifier vos grilles."
-      },
-      {
-        "question": "Le bonus de premier pari remboursé est-il retirable immédiatement ?",
-        "answer": "Le premier pari est remboursé sous forme de « Freebets » (paris gratuits). Vous devez rejouer ces paris gratuits sur de nouvelles grilles. Seul le gain net issu de ce pari gratuit sera ensuite crédité en argent réel et retirable sur votre compte bancaire."
-      },
-      {
-        "question": "Combien de temps prend un retrait de gains vers mon compte bancaire ?",
-        "answer": "Une fois votre compte définitivement validé (pièce d'identité et justificatif de domicile), les virements bancaires vers votre IBAN prennent généralement entre 24 et 48 heures ouvrées."
-      }
-    ]
-  },
-  {
-    "id": "2",
-    "name": "VOGGT",
-    "slug": "voggt",
-    "category": "Shopping",
-    "code": "WENSAN10918109",
-    "link": "",
-    "advantage": "10€ de réduction offerts",
-    "description": "La plateforme révolutionnaire pour les achats de cartes Pokémon rares, boosters Lorcana et vêtements vintage aux enchères en direct. Connectez-vous sur les lives vidéos pour dénicher vos items préférés en interagissant avec la communauté. Le code VOGGT ci-dessous offre un bon de réduction immédiat très généreux valable sur votre premier panier d'achat.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=voggt.com&sz=128",
-    "faqs": [
-      {
-        "question": "Où entrer le code de parrainage VOGGT WENSAN10918109 ?",
-        "answer": "Le code VOGGT doit être saisi lors de votre inscription sur l'application mobile ou le site web. Cherchez l'encart 'J'ai un code de parrainage / code promo' avant de finaliser la création de votre profil. Cela appliquera immédiatement la réduction sur votre premier achat lors d'un live."
-      },
-      {
-        "question": "Peut-on utiliser le crédit parrainage sur l'achat de n'importe quelles cartes ?",
-        "answer": "Oui, le crédit offert avec notre code VOGGT est valable sur l'ensemble de l'application. Que vous enchérissiez sur des cartes Pokémon, Yu-Gi-Oh!, du sport, ou même des vêtements vintage pendant les shows en direct, la réduction s'appliquera sur votre panier final."
-      },
-      {
-        "question": "Les cartes Pokémon et Lorcana achetées sur VOGGT sont-elles authentiques ?",
-        "answer": "Oui, la sécurité est au cœur de la plateforme. VOGGT contrôle l'identité des vendeurs professionnels. De plus, votre paiement est bloqué sur un compte séquestre et n'est reversé au vendeur qu'une fois la réception de l'article validée et conforme."
-      },
-      {
-        "question": "Puis-je acheter autre chose que des cartes à collectionner ?",
-        "answer": "Absolument. Si la plateforme s'est fait connaître pour les jeux de cartes à jouer (TCG) et les enchères live Pokémon, on y trouve désormais des vêtements vintage, des chaussures en édition limitée (sneakers), des mangas, et des jeux vidéo (rétrogaming)."
-      },
-      {
-        "question": "Le bon de réduction fonctionne-t-il sur les frais de port ?",
-        "answer": "Le code promo de bienvenue s'applique sur le montant total de votre premier panier, ce qui permet très souvent d'absorber la totalité des frais de port ou de réduire drastiquement le coût global de votre enchère."
-      }
-    ],
-    "review": {
-      "pros": [
-        "Enchères en direct spécialisées (Cartes Pokémon, TCG Lorcana, Yu-Gi-Oh!, Sneakers, Vintage)",
-        "Paiements 100% sécurisés : le vendeur n'est payé qu'à réception de vos achats",
-        "Une communauté de collectionneurs de Pop et Rétrogaming extrêmement active",
-        "Achats groupés (box breaks) permettant de diluer les frais de port"
-      ],
-      "longReview": "<p><strong>VOGGT bouleverse profondément le marché de la collection et de l'achat de cartes à collectionner</strong> (TCG) en démocratisant le live shopping et les enchères vidéo interactives. Oubliez les recherches fastidieuses sur les sites de petites annonces avec la peur de tomber sur des fausses cartes. Sur VOGGT, vous assistez à de véritables shows vidéo dédiés spécifiquement à vos niches : ouvertures de boosters <strong>Lorcana</strong>, enchères de display <strong>cartes Pokémon rares</strong>, Magic The Gathering, ou encore friperie et vêtements vintage.</p><br/><p>La valeur cardinale de l'application repose indubitablement sur <strong>la sécurité totale de l'acheteur imposée par l'encadrement</strong>. Le système de paiement intégré garantit le blocage strict des fonds lors de l'acquisition d'un lot rare : le vendeur n'est rémunéré que si la marchandise réceptionnée est parfaitement conforme. C'est l'ultime argument qui éloigne les contrefaçons du réseau.</p><br/><p>L'aspect social renforce également l'addiction : l'interface mobile permet d'<em>enchérir du bout du doigt lors du décompte en chattant avec les streamers</em>. N'attendez plus pour vous lancer sereinement dans votre première chasse aux trésors en profitant du <strong>code promo VOGGT spécialement prévu pour les nouveaux comptes</strong> : il permet d'absorber grandement les frais de dossier ou de financer l'achat de vos tous premiers paquets de cartes !</p>"
-    },
-    "steps": [
-      {
-        "title": "Téléchargez VOGGT",
-        "description": "Rendez-vous sur l'App Store ou le Google Play Store pour télécharger gratuitement l'application mobile VOGGT sur votre smartphone."
-      },
-      {
-        "title": "Inscription et code bonus",
-        "description": "Créez votre compte en quelques clics. Lors de l'inscription, cherchez l'encart relatif au parrainage et rentrez le code promo 'WENSAN10918109' pour valider votre avantage de bienvenue."
-      },
-      {
-        "title": "Rejoignez un live",
-        "description": "Trouvez un show en direct qui vous plaît (cartes, sneakers, ou mode vintage) et placez votre première enchère. La réduction fonctionnera automatiquement lors du paiement final !"
-      }
-    ]
-  },
-  {
-    "id": "3",
     "name": "Fortuneo",
     "slug": "fortuneo",
     "category": "Banque & Finance",
@@ -185,502 +65,235 @@
     ]
   },
   {
-    "id": "4",
-    "name": "Whatnot",
-    "slug": "whatnot",
-    "category": "Shopping",
-    "code": "https://whatnot.com/invite/wensan10",
-    "link": "https://whatnot.com/invite/wensan10",
-    "advantage": "Crédit d'achat offert",
-    "description": "La référence américaine du live shopping pour collectionneurs avertis (cartes Pokémon japonaises, sneakers limitées, rétrogaming introuvable, Lego et Funko Pops). Si l'article de collection rare n'est pas en France, il est probablement vendu aux enchères sur Whatnot. Bénéficiez d'un crédit d'achat cash offert via le lien d'invitation ci-dessous.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=whatnot.com&sz=128",
-    "faqs": [
-      {
-        "question": "Comment obtenir les crédits gratuits sur Whatnot ?",
-        "answer": "L'obtention des crédits est automatique si vous vous inscrivez exclusivement via un lien d'invitation valide comme le nôtre. Une fois le compte créé via le lien, le crédit promo (souvent entre 10$ et 15$) est crédité directement dans votre portefeuille, prêt à être déduit de votre première enchère remportée."
-      },
-      {
-        "question": "Comment fonctionnent les frais de douane pour une enchère basée aux États-Unis ?",
-        "answer": "L'un des gros avantages de Whatnot par rapport à d'autres plateformes est la gestion native de la TVA et de la douane. Ces frais sont calculés et payés directement lors de l'enchère. Vous recevez ainsi votre colis sans mauvaise surprise à la livraison."
-      },
-      {
-        "question": "Les sneakers ou objets streetwear achetés sur Whatnot sont-ils vérifiés ?",
-        "answer": "Whatnot a mis en place des partenariats et des processus stricts d'authentification pour lutter contre la contrefaçon, particulièrement sur la catégorie streetwear et sneakers. De plus, leur politique de protection des acheteurs vous rembourse si le produit s'avère ne pas être authentique."
-      },
-      {
-        "question": "Qu'est-ce qu'un Giveaway organisé lors d'un live shopping ?",
-        "answer": "Lors d'une session vidéo, le vendeur (streamer) peut décider d'offrir un lot à ses spectateurs. Il vous suffit de cliquer sur le bouton de participation à l'écran. Si vous êtes tiré au sort à la fin du compte à rebours, vous remportez l'objet gratuitement, Whatnot gérant le bon de livraison."
-      }
-    ],
+    "id": "2",
+    "name": "Revolut",
+    "slug": "revolut",
+    "category": "Banque & Finance",
+    "code": "nalbanesi!FEB2-26-VR-FR-AE",
+    "link": "https://revolut.com/referral/?referral-code=nalbanesi!FEB2-26-VR-FR-AE&geo-redirect",
+    "advantage": "Entre 10€ et 200€ offerts",
+    "description": "Revolut est l'application financière leader en Europe avec plus de 70 millions de clients. Elle permet d'ouvrir un compte en quelques minutes, de gérer son budget avec précision et surtout de payer à l'étranger sans frais de change cachés. C'est le compagnon idéal des voyageurs et des digital nomads.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=revolut.com&sz=128",
     "review": {
       "pros": [
-        "Accès monumental aux marchés américain et international des ventes aux enchères Live Shopping",
-        "Inventaire intarissable pour dénicher des objets rares : Cartes Pokémon, Pop! , Sneakers, TCG Lorcana, Rétrogaming et Figurines",
-        "Participation à des loteries gratuites (Giveaways) organisées par les gros vendeurs de la plateforme",
-        "Législation de suivi strict pour la protection de l'acheteur (garantie d'authenticité)"
+        "Ouverture de compte ultra-rapide (moins de 5 minutes)",
+        "Paiements et retraits gratuits dans plus de 150 devises aux taux interbancaires",
+        "Cartes virtuelles éphémères pour des achats en ligne 100% sécurisés",
+        "Fonctionnalités avancées : cryptomonnaies, coffres-forts, cashback et assurances voyage"
       ],
-      "longReview": "<p>Totalement hégémonique sur le sol nord américain, <strong>l'application Whatnot est la figure de proue de l'achat-revente et des enchères vidéo live shopping dédiés aux mondes grouillants des collectionneurs</strong>. Si vous écumez vainement les salons ou les brocantes locales pour traquer des pépites introuvables (éditions limitées de cartes Pokémon Wizard, boîtes et displays scellés Lorcana, Sneakers rares en édition très restreinte, ou tout l'écosystème du Rétrogaming et jouets Vintage), l'immensité de son flux d'enchères constantes changera clairement la donne pour acquérir de telles merveilles.</p><br/><p>Bien que particulièrement réputée pour son flux impressionnant de streamers vendeurs venant outre-atlantique (qui ouvrent d'incroyables opportunités d'imports pour la revente spéculative), une scène foisonnante de marchands professionnels européens sérieux est désormais redoutablement implantée et livre très rapidement. De plus, son ergonomie propose de façon très régulière <strong>des participations gratuites aux fameux \"Giveaways\" </strong>, autorisant ainsi de rafler des cartes Magic ou Yu-Gi-Oh! avec un brin de chance chance au tirage sans débourser un seul et unique centime !</p><br/><p>Face aux frais de ports logiquement plus impliquant lors d'importations lointaines américaines (sujettes parfois aux frais de douanes), il est judicieusement impératif de se plier à une petite astuce d'origine d'enregistrement : <strong>pensez foncièrement à opérer la démarche de création du compte affilié via un bon lien de parrainage (Whatnot promo referral)</strong>, un joli montant d’achat gratuit – souvent très généreux et libellé en devise étrangère (environ dix à quinze dollars offerts) – viendra opportunément alléger considérablement l'enveloppe finale financière pesant sur votre tout premier encan ou enchère fracassante.</p>"
+      "cons": [
+        "Support client principalement via chat in-app",
+        "Limites de retraits gratuits selon le forfait choisi"
+      ],
+      "longReview": "<p>Dans le paysage des néo-banques, <strong>Revolut a révolutionné notre manière de consommer l'argent</strong>. Ce n'est pas seulement un compte bancaire, c'est un véritable couteau suisse financier. Son succès fulgurant (70 millions de clients) s'explique par une philosophie simple : supprimer les barrières et les frais inutiles, particulièrement lors des déplacements internationaux.</p><br/><p>Le point fort absolu de Revolut est sa <strong>gestion des devises</strong>. Vous pouvez détenir plusieurs monnaies simultanément et convertir vos euros en dollars, livres ou yens en un instant, au taux réel du marché. Fini les commissions opaques des bureaux de change à l'aéroport ! C'est l'économie réalisée sur ces transactions qui paye souvent vos petites folies en vacances.</p><br/><p>En utilisant notre <strong>lien de parrainage ('nalbanesi!FEB2-26-VR-FR-AE')</strong>, vous rejoignez une communauté mondiale de financiers malins. Revolut ne se contente pas de gérer votre argent, il vous aide à le faire fructifier via ses options d'investissement simples et ses récompenses de cashback quotidiennes. C'est l'outil indispensable pour quiconque veut reprendre le contrôle de ses finances en 2026.</p>"
+    },
+    "faqs": [
+      {
+        "question": "Comment profiter du parrainage Revolut ?",
+        "answer": "Utilisez notre lien exclusif pour télécharger l'application, créez votre compte, vérifiez votre identité et commandez une carte physique. Une fois ces étapes remplies et vos premiers achats effectués, la prime de parrainage (selon l'offre en cours) est activée."
+      },
+      {
+        "question": "Revolut est-elle une vraie banque ?",
+        "answer": "Oui, Revolut possède une licence bancaire européenne complète. Vos fonds sont protégés par le système de garantie des dépôts européen jusqu'à 100 000€, vous offrant la même sécurité qu'une banque traditionnelle avec la flexibilité d'une application moderne."
+      },
+      {
+        "question": "Quels sont les frais pour les retraits à l'étranger ?",
+        "answer": "Sur le plan standard, les retraits d'espèces sont gratuits jusqu'à 200€ par mois. Au-delà, une commission de 2% est appliquée. Pour les paiements directs par carte, il n'y a aucuns frais de change dans la limite des plafonds de votre forfait."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Inscription Standard",
+        "description": "Utilisez le lien de parrainage pour vous enregistrer sur l'application en quelques clics."
+      },
+      {
+        "title": "Commande de Carte",
+        "description": "Commandez votre carte physique Revolut (souvent gratuite via parrainage) pour retirer de l'argent partout dans le monde."
+      },
+      {
+        "title": "Explorez l'App",
+        "description": "Activez les fonctionnalités de sécurité et commencez à payer sans frais pour profiter pleinement de votre nouvelle néo-banque."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Winamax",
+    "slug": "winamax",
+    "category": "Paris Sportifs & Poker",
+    "code": "NOLYUN",
+    "link": "",
+    "advantage": "Jusqu'à 100€ de freebets",
+    "description": "Pour vos paris sportifs ou le poker en ligne, c'est l'application de référence en France. Les cotes sportives y sont très souvent les meilleures du marché, idéal pour rentabiliser vos pronostics Ligue 1 ou NBA. Profitez de notre lien exclusif : votre premier pari gratuit est crédité s'il est perdant (jusqu'à 100€ de freebets).",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=winamax.fr&sz=128",
+    "review": {
+      "pros": [
+        "Meilleures cotes globales du marché français sur les paris sportifs majeurs",
+        "Application mobile extrêmement fluide pour les paris en direct (Direct Betting)",
+        "Prime de bienvenue claire : 1er pari remboursé en paris gratuits (Freebets)",
+        "Retraits bancaires garantis très rapides (souvent moins de 48h)"
+      ],
+      "cons": [
+        "Service client par email uniquement",
+        "Design parfois un peu sombre/chargé pour les débutants"
+      ],
+      "longReview": "<p>Winamax s'est imposé comme le leader incontesté des <strong>paris sportifs et du poker en ligne en France</strong>. J'utilise cette plateforme depuis plusieurs années pour mes pronostics foot, et je dois avouer que l'expérience utilisateur est nettement supérieure à la concurrence. Que vous cherchiez à sécuriser des paris simples ou à vibrer sur des grilles combinées, l'ergonomie ne fait aucun défaut.</p><br/><p>Ce qui fait massivement la différence pour optimiser vos gains, ce sont assurément <strong>les cotes sportives proposées</strong>, historiquement parmi les meilleures du marché. De plus, la fonctionnalité propre à la plateforme, le fameux <em>MyMatch</em>, permet de construire des paris complexes combinant plusieurs faits de jeu sur une même rencontre (victoire + buteur + score exact), ouvrant la voie à des rentabilités immenses.</p><br/><p>Niveau confiance : l’application mobile ne souffre d’aucun bug pendant les gros rushs du week-end. Les retraits vers le compte sont traités par virement avec une fiabilité exemplaire. Enfin, <strong>le bonus pari sportif de bienvenue</strong> est très transparent : si votre première tentative échoue, la mise vous est intégralement recréditée sous forme de paris gratuits pour vous refaire immédiatement.</p>"
     },
     "steps": [
       {
-        "title": "Passez par le lien",
-        "description": "Pour obtenir le bonus d'inscription sans encombre, il est primordial de cliquer sur notre lien d'invitation depuis votre téléphone. Cela garantit le suivi de la promotion."
+        "title": "Inscrivez-vous via le lien",
+        "description": "Cliquez sur notre lien partenaire pour être redirigé vers la page d'inscription officielle de Winamax. Le code de parrainage NOLYUN sera automatiquement appliqué."
       },
       {
-        "title": "Créez votre profil",
-        "description": "Renseignez vos informations de base et choisissez vos centres d'intérêts principaux (ex: Pokémon, Sneakers, etc.) pour que l'algorithme vous guide vers les bons marchands."
+        "title": "Validez votre identité",
+        "description": "Remplissez vos informations personnelles et envoyez un justificatif d'identité et un RIB (obligatoire en France pour les paris sportifs) pour finaliser la création du compte."
       },
       {
-        "title": "Utilisez votre crédit gratuit",
-        "description": "Vérifiez que le crédit (par exemple, 10$ ou 15€ selon les périodes) est bien visible dans votre portefeuille électronique Whatnot et dépensez-le sur la diffusion en direct de votre choix !"
+        "title": "Faites votre premier dépôt",
+        "description": "Déposez le montant de votre choix et réalisez votre premier pari sportif. Si celui-ci est perdant, Winamax vous le rembourse intégralement en paris gratuits !"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment activer le code promo Winamax NOLYUN en 2026 ?",
+        "answer": "Pour activer le code parrainage NOLYUN, il vous suffit de cliquer sur le lien d'invitation ou de renseigner manuellement le code lors de la création de votre compte Winamax, dans le champ dédié au parrainage. Le bonus sera crédité automatiquement après la validation définitive de votre compte (envoi de la pièce d'identité)."
+      },
+      {
+        "question": "Le bonus de bienvenue Winamax est-il retirable en cash ?",
+        "answer": "Le fonctionnement du bonus paris sportifs de Winamax est très avantageux : si votre premier pari est perdant (jusqu'à 100€), il vous est remboursé en Freebets (paris gratuits). Vous devez rejouer ces Freebets, et les gains nets issus de ces paris gratuits seront alors retirables vers votre compte bancaire."
+      },
+      {
+        "question": "Puis-je jouer au poker et parier sur le sport avec le même compte ?",
+        "answer": "Oui, tout à fait. Votre compte Winamax est unique et centralisé. Vous pouvez utiliser la même cagnotte (bankroll) pour jouer à des tournois de poker, des Sit & Go, ou pour placer des paris sportifs."
+      },
+      {
+        "question": "Puis-je parier sur tous les sports avec Winamax ?",
+        "answer": "Oui, Winamax propose une couverture très exhaustive des événements sportifs mondiaux. Vous retrouverez les meilleures cotes sur le football, le tennis, le basket, mais aussi sur des sports plus spécialisés. C'est idéal pour diversifier vos grilles."
+      },
+      {
+        "question": "Le bonus de premier pari remboursé est-il retirable immédiatement ?",
+        "answer": "Le premier pari est remboursé sous forme de « Freebets » (paris gratuits). Vous devez rejouer ces paris gratuits sur de nouvelles grilles. Seul le gain net issu de ce pari gratuit sera ensuite crédité en argent réel et retirable sur votre compte bancaire."
+      },
+      {
+        "question": "Combien de temps prend un retrait de gains vers mon compte bancaire ?",
+        "answer": "Une fois votre compte définitivement validé (pièce d'identité et justificatif de domicile), les virements bancaires vers votre IBAN prennent généralement entre 24 et 48 heures ouvrées."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "SwissBorg",
+    "slug": "swissborg",
+    "category": "Crypto",
+    "code": "nolwenPV3C",
+    "link": "https://swissborg.com/fr/r/nolwenPV3C",
+    "advantage": "Jusqu'à 100€ offerts",
+    "description": "SwissBorg est la plateforme crypto leader en Europe, basée en Suisse. Elle se distingue par son 'Smart Engine' qui analyse les meilleurs prix sur plusieurs plateformes pour vous offrir les transactions les plus optimisées. Très sécurisée et conforme aux régulations, c'est l'alternative parfaite pour ceux qui cherchent la fiabilité suisse dans le monde de la blockchain.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=swissborg.com&sz=128",
+    "review": {
+      "pros": [
+        "Sécurité et régulation suisse de haut niveau",
+        "Smart Engine pour des meilleurs prix d'achat/vente",
+        "Interface épurée et très simple pour les débutants",
+        "Programme de Yield (rendements passifs) très performant"
+      ],
+      "cons": [
+        "Frais de retrait un peu élevés sur certains jetons",
+        "Bonus de parrainage aléatoire (système de ticket)"
+      ],
+      "longReview": "<p>La Suisse est réputée pour sa rigueur financière et <strong>SwissBorg transpose cette excellence dans l'univers des crypto-monnaies</strong>. Là où d'autres plateformes peuvent paraître complexes ou peu fiables, SwissBorg rassure par son interface soignée et son cadre régulatoire strict. C'est l'application idéale pour ceux qui veulent investir sur le long terme sans se soucier du bruit du marché.</p><br/><p>Leur innovation majeure, le <strong>Smart Engine</strong>, connecte votre compte à d'autres bourses mondiales (Binance, Kraken...) pour trouver le meilleur prix disponible en temps réel. C'est comme avoir un courtier personnel qui travaille pour vous. De plus, leur fonction 'Earn' permet de générer des intérêts quotidiens sur vos cryptos de manière très intuitive.</p><br/><p>En utilisant notre <strong>lien de parrainage ('nolwenPV3C')</strong>, vous recevez un 'Reward Ticket'. C'est un ticket à gratter digital qui vous offre un bonus aléatoire en crypto pouvant aller jusqu'à <strong>100€</strong> dès que vous effectuez votre premier dépôt de 50€ ou plus. C'est un excellent moyen de booster votre capital de départ avec une dose de chance !</p>"
+    },
+    "faqs": [
+      {
+        "question": "Comment obtenir mon bonus SwissBorg ?",
+        "answer": "Utilisez notre lien pour télécharger l'app, créez votre compte et validez votre identité (KYC). Dès que vous effectuez un premier dépôt (par carte ou virement) d'un montant égal ou supérieur à 50€, vous recevez un 'Reward Ticket' à gratter dans l'application."
+      },
+      {
+        "question": "Qu'est-ce que le Smart Engine ?",
+        "answer": "C'est une technologie propriétaire qui compare les prix de vente et d'achat sur les plus grandes bourses mondiales en quelques millisecondes pour vous garantir le meilleur taux possible au moment de votre transaction."
+      },
+      {
+        "question": "Est-ce que l'application est en français ?",
+        "answer": "Oui, SwissBorg est entièrement traduit en français et possède une équipe de support très efficace qui répond dans notre langue, ce qui est un gros plus par rapport aux plateformes américaines."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Téléchargement et KYC",
+        "description": "Passez par notre lien pour installer l'application et validez votre compte avec une pièce d'identité."
+      },
+      {
+        "title": "Déposez 50€",
+        "description": "Faites un premier dépôt de 50€ minimum (par virement bancaire c'est gratuit) pour activer le parrainage."
+      },
+      {
+        "title": "Grattez votre Ticket",
+        "description": "Allez dans la section récompenses et grattez votre ticket pour découvrir votre bonus allant de 2€ à 100€ en Bitcoin ou CHSB."
       }
     ]
   },
   {
     "id": "5",
-    "name": "Pawns App",
-    "slug": "pawns-app",
-    "category": "Jeux & Gains",
-    "code": "7328575",
-    "link": "https://pawns.app/?r=7328575",
-    "advantage": "3$ offerts au démarrage",
-    "description": "Transformez votre connexion internet dormante en véritables euros ou coupons cadeaux. Avec Pawns App (ancienne connue sous IPRoyal), vous gagnez de l'argent sur internet de manière 100% passive et sécurisée. Possibilité de répondre à des sondages rémunérés pour atteindre plus vite le seuil de retrait extra-rapide fixé à 5$ (via versement PayPal).",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=pawns.app&sz=128",
-    "faqs": [
-      {
-        "question": "Pawns App est-elle une application sécurisée ?",
-        "answer": "Oui, Pawns App se contente d'utiliser la bande passante internet inactive. Elle n'a aucun accès à vos fichiers personnels, vos données de navigation ou vos mots de passe. C'est une méthode de revenu passif transparente qui alimente des réseaux proxy d'entreprise sécurisés."
-      },
-      {
-        "question": "À partir de quel montant peut-on retirer ses gains sur Pawns App ?",
-        "answer": "Le seuil de paiement sur Pawns App est très bas, fixé à seulement 5$. Une fois ce montant atteint, vous pouvez retirer votre argent via PayPal, crypto-monnaies (Bitcoin) ou obtenir des cartes cadeaux virtuelles. L'utilisation du code d'invitation 7328575 vous donne une avance dès l'inscription."
-      },
-      {
-        "question": "La location de ma bande passante va-t-elle ralentir ma connexion internet ?",
-        "answer": "Non, Pawns App est conçu pour être particulièrement peu gourmand et transparent pour l'utilisateur. Le logiciel n'utilise qu'une fraction négligeable de votre bande passante excédentaire, ce qui n'aura aucun impact visible sur vos téléchargements ou le streaming."
-      },
-      {
-        "question": "Est-ce que l'application consulte mes données personnelles ?",
-        "answer": "Absolument pas. Pawns App utilise votre adresse IP uniquement pour router du trafic crypté (similaire à un VPN d'entreprise) pour que leurs clients puissent réaliser des études de marché géolocalisées. Le logiciel n'a aucun accès à vos fichiers personnels, mots de passe ou historiques de navigation."
-      },
-      {
-        "question": "Quel est le moyen le plus rapide de récupérer mon argent gagné ?",
-        "answer": "Le seuil de retrait est fixé à 5$ seulement. Une fois cette somme atteinte, vous pouvez demander un encaissement direct vers votre compte PayPal. Le traitement est généralement opéré très rapidement, sans frais cachés."
-      }
-    ],
+    "name": "N26",
+    "slug": "n26",
+    "category": "Banque & Finance",
+    "code": "nolwenfa38970c",
+    "link": "https://n26.com/r/nolwenfa38970c?p=1601036b-185f-4cd9-8961-bac802addb94",
+    "advantage": "Jusqu'à 75€ offerts",
+    "description": "N26 est la néo-banque européenne qui a séduit plus de 8 millions de clients grâce à une gestion 100% mobile, sans frais cachés et avec une ouverture de compte en 8 minutes. Idéale pour le quotidien et les voyages, elle propose des paiements gratuits dans toutes les devises et des sous-comptes intelligents pour gérer votre budget. Profitez de notre lien pour recevoir un bonus généreux après votre premier achat.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=n26.com&sz=128",
     "review": {
       "pros": [
-        "Un moyen de gagner de l'argent sur internet 100 % passif de rémunération garantit silencieusement par simple location de votre bande passante internet inexploitée",
-        "Retrait quasi-immédiat grâce à un seuil à débloquer extrêmement bas (Payout à hauteur de 5$ très faciles à récolter)",
-        "Complétez vos confortables gains avec des sondages rémunérés ludiques pour maximiser le montant de vos cash-out de pécules virtuels",
-        "Multi-appareils total : installez le bot sans danger et légalement sur vos différents téléphones mobiles, et vos PC maison/travail sur des IP variées distinctes"
+        "Ouverture de compte 100% mobile en moins de 8 minutes",
+        "Paiements par carte gratuits dans toutes les devises du monde",
+        "Sous-comptes 'Espaces' pour organiser son budget et épargner automatiquement",
+        "Notifications instantanées à chaque transaction pour un contrôle total"
       ],
-      "longReview": "<p>La promesse mirobolante d'un revenu véritablement inactif ou d'un apport monétaire gratuit circule en permanence aux détours des vidéos web aguicheuses sur les astuces pécuniaires pour gagner de l’argent, pourtant, <strong>Pawns App (qui a brillamment succédée au système très novateur IPRoyal Pawns) figure au sein du très sélect giron de plateformes fiables délivrant de façon réelle et concrète des dividendes sonnants sous format financier</strong> pour simplement avoir laissé ce micro logiciel de tâche de fond mouliner !</p><br/><p>L'utilisation ingénieuse du programme louant simplement une portion dormante de votre accès internet au profit et service exclusif d’infrastructures web des entreprises majeures cherchant à établir un routage d'identification d’études ou de streaming, cette fameuse manne s’annonce complètement anonyme, et indolore au niveau performance pour qui utilise l'installation d’arrière plan que les navigateurs. Pensez astucieusement et massivement à <strong>étendre de la base d'installation en implantant Pawns App légalement sur autant d’équipements que disponibles comportant leur propres abonnements IP internet</strong> afin d'orchestrer la spectaculaire évolution de la croissance de solde numérique passive de ce bot.</p><br/><p>On accordera une acclamation pour l’extrême souplesse et simplicité logistique quantifiée vis-à-vis des transferts pécuniaires inhérente à cette organisation très lucrative (cash-out minime limité à seuil inébranlable frôlant les 5 minuscules Dollars atteignables !). L'option très pragmatique et judicieuse consistera indubitablement, au grand démarrage des hostilités, d'employer <strong>notre robuste code de l’invitation (parrainage) qui octroiera illico une dot ou base pécule dès l’amorce</strong> permettant de précipiter ardemment l’encaissement d’enveloppe via virement Paypal ou du réseau Bitcoin crypto.</p>"
+      "cons": [
+        "Pas de chéquier ni de dépôt d'espèces (banque 100% digitale)",
+        "Retraits gratuits limités selon le forfait (3 à 8 par mois)"
+      ],
+      "longReview": "<p>N26 a redéfini ce qu'une banque moderne devrait être. Née en Allemagne et détentrice d'une <strong>licence bancaire européenne complète</strong>, cette néo-banque a conquis plus de 8 millions de clients grâce à une philosophie radicale : simplicité, transparence et zéro paperasse. L'ouverture de compte se fait entièrement depuis votre smartphone en quelques minutes, sans jamais mettre les pieds dans une agence.</p><br/><p>L'un des atouts majeurs de N26 est sa <strong>gestion budgétaire intelligente</strong>. Les 'Espaces' (sous-comptes virtuels) vous permettent de compartimenter votre argent par objectif : vacances, épargne de précaution, projet immobilier. Couplés aux notifications push instantanées à chaque dépense, vous gardez un contrôle absolu sur vos finances au quotidien.</p><br/><p>Pour les voyageurs, N26 est un allié de taille : <strong>les paiements par carte sont gratuits dans toutes les devises</strong>, sans commission de change cachée. En utilisant notre <strong>lien de parrainage</strong>, vous bénéficiez d'un bonus pouvant atteindre 75€ après avoir effectué votre premier achat qualifiant avec votre nouvelle carte N26.</p>"
     },
     "steps": [
       {
-        "title": "Installation de l'application",
-        "description": "Utilisez le lien d'invitation et téléchargez le logiciel léger Pawns App sur votre ordinateur (Windows/Mac) ou l'application sur votre smartphone (Android/iOS)."
+        "title": "Inscrivez-vous via le lien",
+        "description": "Cliquez sur notre lien de parrainage pour accéder à l'inscription N26. Téléchargez l'application et créez votre compte en quelques minutes avec votre pièce d'identité."
       },
       {
-        "title": "Saisie de votre code boost",
-        "description": "Lors de la création de votre compte, assurez-vous d'entrer le code '7328575' (s'il n'est pas déjà pré-rempli grâce au lien d'affiliation) afin de recevoir immédiatement un bonus financier de départ."
+        "title": "Vérifiez votre identité",
+        "description": "Complétez la vérification vidéo (quelques minutes) directement depuis l'application. Votre compte sera activé dans la foulée."
       },
       {
-        "title": "Laissez la magie opérer",
-        "description": "Activez le partage dans les réglages et laissez simplement l'application tourner en tâche de fond. Vous pouvez également remplir quelques de formulaires courts (sondages) disponibles dans l'app pour débloquer votre retrait PayPal plus vite."
+        "title": "Effectuez un achat qualifiant",
+        "description": "Réalisez un achat avec votre carte N26 (physique ou virtuelle) d'un montant suffisant pour valider le parrainage. Votre bonus sera crédité sous 60 jours maximum."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment recevoir le bonus de parrainage N26 ?",
+        "answer": "Pour toucher le bonus, vous devez ouvrir votre compte via le lien de parrainage, vérifier votre identité et effectuer un achat qualifiant avec votre carte N26. Le montant du bonus (jusqu'à 75€) est crédité directement sur votre compte N26 dans un délai pouvant aller jusqu'à 60 jours."
+      },
+      {
+        "question": "N26 est-elle une vraie banque sécurisée ?",
+        "answer": "Oui, N26 détient une licence bancaire allemande complète et est supervisée par la BCE et la BaFin. Vos dépôts sont garantis jusqu'à 100 000€ par le Fonds de garantie des dépôts européen, exactement comme dans une banque traditionnelle."
+      },
+      {
+        "question": "Quels sont les frais de la carte N26 ?",
+        "answer": "Le compte N26 Standard est entièrement gratuit : pas de frais de tenue de compte ni de cotisation carte. Il inclut une carte virtuelle Mastercard, les paiements gratuits partout dans le monde et 3 retraits gratuits par mois. Des forfaits premium (Smart, You, Metal) existent pour des avantages supplémentaires."
+      },
+      {
+        "question": "Peut-on utiliser N26 comme banque principale ?",
+        "answer": "Absolument. N26 dispose d'un IBAN français (ou allemand selon l'ouverture), accepte les virements SEPA, permet de domicilier ses revenus et de mettre en place des prélèvements automatiques. Des millions de clients l'utilisent comme banque unique au quotidien."
+      },
+      {
+        "question": "Les paiements à l'étranger sont-ils vraiment gratuits ?",
+        "answer": "Oui, tous les paiements par carte N26 sont gratuits quelle que soit la devise, même sur le compte Standard. Seul le taux de change appliqué est celui de Mastercard (très proche du taux interbancaire). Pour les retraits en devises étrangères, des frais de 1,7% peuvent s'appliquer selon votre forfait."
       }
     ]
   },
   {
     "id": "6",
-    "name": "PayPal",
-    "slug": "paypal",
-    "category": "Banque & Finance",
-    "code": "https://py.pl/1cPkc4",
-    "link": "https://py.pl/1cPkc4",
-    "advantage": "10€ offerts",
-    "description": "PayPal est la solution de paiement en ligne la plus utilisée au monde. Elle permet de payer en toute sécurité vos achats sur des milliers de sites sans jamais partager vos coordonnées bancaires avec les marchands. Très pratique pour les virements entre amis et bénéficiant d'une protection des achats très efficace.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=paypal.com&sz=128",
-    "faqs": [
-      {
-        "question": "Combien de temps faut-il pour recevoir la prime de parrainage PayPal de 10€ ?",
-        "answer": "Après avoir créé votre compte via le lien d'invitation, vous devez effectuer une transaction éligible de 5€ minimum (un achat en ligne ou un envoi d'argent à un proche). PayPal crédite généralement les 10€ de récompense dans un délai de quelques jours ouvrés suivant cette transaction."
-      },
-      {
-        "question": "Est-il obligatoire de recharger son solde PayPal pour faire un achat ?",
-        "answer": "Non, vous pouvez simplement lier votre carte bancaire ou votre compte courant (IBAN) à la plateforme. Lors d'un paiement, PayPal ira prélever la somme exacte directement sur votre compte sans que le e-commerçant n'ait accès à vos données bancaires."
-      },
-      {
-        "question": "En quoi consiste la protection des achats PayPal ?",
-        "answer": "C'est une assurance gratuite pour l'acheteur. Si vous ne recevez pas votre commande, ou si l'objet reçu ne correspond pas du tout à sa description, vous pouvez ouvrir un « litige ». PayPal joue alors le rôle de médiateur et peut forcer le remboursement intégral depuis le compte du vendeur."
-      },
-      {
-        "question": "Il y a-t-il des frais lorsque j'envoie de l'argent à un ami ?",
-        "answer": "Les transferts d'argent entre proches, en utilisant l'option « Paiement à un proche » et à l'intérieur de l'Espace Économique Européen, sont strictement sans frais (pas de commission). L'argent arrive instantanément sur le compte PayPal du destinataire."
-      }
-    ],
-    "review": {
-      "pros": [
-        "Sécurité absolue : vos coordonnées bancaires ne sont jamais partagées avec les vendeurs",
-        "Protection des achats extrêmement efficace en cas de litige ou non-réception",
-        "Envois d'argent entre proches gratuits et instantanés",
-        "Interface mobile intuitive et acceptée sur quasiment tous les sites e-commerce"
-      ],
-      "longReview": "<p>PayPal reste la référence absolue du paiement numérique sécurisé. En liant simplement votre carte ou votre compte bancaire à votre profil PayPal, vous profitez d'un <strong>bouclier de sécurité unique</strong> : lors d'un achat, le marchand reçoit le paiement mais n'a jamais accès à vos numéros de carte. C'est l'outil indispensable pour commander sur des sites internationaux en toute sérénité.</p><br/><p>L'autre grande force de PayPal est sa fonction de <strong>transfert d'argent entre proches</strong>. Fini les RIB complexes, une simple adresse e-mail ou un numéro de téléphone suffit pour rembourser un ami instantanément et sans frais. En utilisant notre lien de parrainage exclusif, vous bénéficiez de 10€ offerts sur votre première transaction, un bonus simple et efficace pour découvrir le service.</p>"
-    },
-    "steps": [
-      {
-        "title": "Utilisez un lien qualifié",
-        "description": "Cliquez sans attendre sur le lien d'invitation que nous fournissons (ex: https://py.pl/1cPkc4). Il vous redirigera vers la procédure d'inscription officielle PayPal tout en validant votre éligibilité à la promotion de bienvenue."
-      },
-      {
-        "title": "Associez votre bancaire",
-        "description": "Suivez les étapes classiques : renseignez votre identité, et liez en toute sécurité votre compte courant (au moyen d'un RIB ou de votre numéro de carte de crédit traditionnelle)."
-      },
-      {
-        "title": "Faites un achat initial de 5€",
-        "description": "Le bonus gratuit de 10 euros est déclenché par une seule condition très facile : utilisez votre compte PayPal flambant neuf pour régler un achat de minimum 5€ sur internet, ou bien envoyez simplement 5€ à vos proches !"
-      }
-    ]
-  },
-  {
-    "id": "7",
-    "name": "Bitstack",
-    "slug": "bitstack",
-    "category": "Crypto",
-    "code": "2zJdvWnVNpanigOU2pFSHtWmV6H",
-    "link": "https://bitstack-app.com/referral/2zJdvWnVNpanigOU2pFSHtWmV6H",
-    "advantage": "5€ offerts en Bitcoin",
-    "description": "Vous voulez épargner et investir en crypto sans vous ruiner ni vous prendre la tête ? Bitstack, startup française enregistrée PSAN auprès de l'AMF, arrondit vos achats bancaires classiques et convertit ce surplus automatiquement en Bitcoin. C'est l'investissement programmé le plus facile de France pour les débutants. Entrez votre code parrain pour démarrer avec des cryptos offertes à l'inscription !",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=bitstack-app.com&sz=128",
-    "faqs": [
-      {
-        "question": "La connexion de Bitstack avec ma banque est-elle risquée ?",
-        "answer": "Pas du tout. Bitstack utilise des partenaires technologiques certifiés par la Banque de France (comme Tink ou Powens) pour lire vos transactions afin de calculer les arrondis. Ils ne peuvent en aucun cas initier des virements ou posséder vos identifiants bancaires. C'est un accès en lecture seule."
-      },
-      {
-        "question": "Que se passe-t-il une fois le code parrain Bitstack renseigné ?",
-        "answer": "Une fois le code '2zJdvWnVNpanigOU2pFSHtWmV6H' validé, vous devez connecter votre compte bancaire et activer l'arrondi automatique. Le bonus en Bitcoin (généralement 5€) sera ensuite crédité sur votre portefeuille Bitstack et vous pourrez le conserver ou le transférer."
-      },
-      {
-        "question": "Comment Bitstack arrondit-il mes achats pour investir en Bitcoin ?",
-        "answer": "Vous reliez votre compte bancaire principal à l'application. Si vous achetez un café à 2,60€ par carte bleue, Bitstack le détecte, arrondit la somme à 3,00€, et prélève les 0,40€ de différence en fin de semaine pour les investir automatiquement en fraction de Bitcoin."
-      },
-      {
-        "question": "Est-ce une plateforme légale et sécurisée en France ?",
-        "answer": "Oui, Bitstack est une société française enregistrée en tant que Prestataire de Services sur Actifs Numériques (PSAN) auprès de l'Autorité des Marchés Financiers (AMF). Elle respecte donc les normes les plus strictes en matière de sécurité bancaire et de lutte contre la fraude."
-      },
-      {
-        "question": "Puis-je retirer mes cryptomonnaies ou mon argent vers ma banque ?",
-        "answer": "Tout à fait. Bitstack vous permet de revendre votre épargne en Bitcoin à tout moment pour la convertir en euros et la récupérer sur votre compte courant (IBAN). Vous pouvez aussi transférer vos Bitcoins vers un portefeuille matériel (cold wallet) si vous êtes un utilisateur avancé."
-      }
-    ],
-    "review": {
-      "pros": [
-        "Investissement en Bitcoin totalement passif via les arrondis de vos achats quotidiens",
-        "Application française enregistrée PSAN auprès de l'AMF pour une sécurité maximale",
-        "Interface épurée et pédagogique pour les débutants en cryptomonnaies",
-        "Possibilité de programmer des achats récurrents (DCA) à partir de quelques euros"
-      ],
-      "longReview": "<p>Bitstack est sans doute la solution la plus simple pour ceux qui souhaitent investir dans le Bitcoin sans y passer des heures. Le concept de <strong>l'arrondi automatique</strong> est brillant : si vous achetez un café à 2,60€, Bitstack arrondit à 3€ et investit les 40 centimes restants pour vous. C'est une méthode indolore qui permet de se constituer un capital au fil du temps.</p><br/><p>En tant qu'acteur français régulé (PSAN), Bitstack offre une <strong>sérénité absolue</strong> quant à la conservation de vos actifs. L'application est conçue pour simplifier au maximum l'expérience utilisateur, loin de la complexité technique des bourses d'échange traditionnelles. En utilisant notre code parrainage lors de votre inscription, vous recevez un bonus de bienvenue directement en Bitcoin pour amorcer votre épargne.</p>"
-    },
-    "steps": [
-      {
-        "title": "Téléchargement de Bitstack",
-        "description": "Allez sur l'application iOS ou sur le Play Store pour récupérer l'appli. Vous pouvez également cliquer sur notre lien d'affiliation depuis votre smartphone."
-      },
-      {
-        "title": "Renseignez le code",
-        "description": "Lors des étapes d'enregistrement de votre numéro et de vos données, restez vigilant : collez le code parrain '2zJdvWnVNpanigOU2pFSHtWmV6H' dans la case adéquate pour valider votre éligibilité à la récompense en euros déposée en Bitcoin."
-      },
-      {
-        "title": "Liez votre banque et activez l'arrondi",
-        "description": "Terminez l'obligation réglementaire standard liée aux KYC (identité), puis connectez votre banque principale via l'agrégateur sécurisé. Cochez l'option d'arrondi sur vos achats et obtenez les primes prévues !"
-      }
-    ]
-  },
-  {
-    "id": "8",
-    "name": "Scrambly",
-    "slug": "scrambly",
-    "category": "Jeux & Gains",
-    "code": "qeKBFa",
-    "link": "https://go.scrambly.io/qeKBFa",
-    "advantage": "Bonus cash immédiat",
-    "description": "Transformez vos pas quotidiens en revenus réels avec Scrambly. Oubliez les processus compliqués : cette application ludique agit comme un podomètre rémunérateur qui convertit votre marche en argent cash retiré instantanément vers PayPal. Inscrivez-vous avec notre code bonus pour un coup de boost immédiat.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=scrambly.io&sz=128",
-    "faqs": [
-      {
-        "question": "Les gains sur Scrambly sont-ils transférables sur PayPal ?",
-        "answer": "Totalement. Scrambly se démarque par ses virements très rapides. Dès que vous atteignez le montant minimum requis, vous pouvez demander un paiement qui arrive instantanément sur votre compte PayPal, sans frais cachés. Pensez à utiliser le lien contenant 'qeKBFa' pour démarrer avec un léger avantage."
-      },
-      {
-        "question": "Est-ce que Scrambly est vraiment une application qui rémunère la marche ?",
-        "answer": "Scrambly a d'abord été conçue comme une plateforme pour gagner de l'argent en testant des applications et des jeux, mais elle inclut dorénavant des défis liés à la marche et au fitness. Elle compte vos pas tout au long de la journée pour vous récompenser avec sa monnaie virtuelle."
-      },
-      {
-        "question": "Puis-je utiliser Scrambly en même temps que WeWard ou Macadam ?",
-        "answer": "Oui, c'est l'un des gros avantages ! Vous pouvez accumuler les gains provenant de plusieurs applications de marche simultanément. Elles puisent toutes leurs informations dans l'outil interne de votre téléphone (Apple Health ou Google Fit) sans créer de conflits informatiques."
-      },
-      {
-        "question": "Comment convertir mes récompenses en argent réel ?",
-        "answer": "Une fois que vous avez complété assez de missions ou de kilomètres, Scrambly vous permet d'échanger vos jetons internes contre un versement instantané vers PayPal. Le retrait est très rapide, permettant de profiter de votre pécule quasiment dans la minute."
-      }
-    ],
-    "review": {
-      "pros": [
-        "Gagnez de l'argent en marchant grâce à un compteur de pas natif, fiable et économe en batterie",
-        "Seuil de paiement extrêmement bas et retraits PayPal d'une rapidité redoutable (traitement en minutes)",
-        "Complètement cumulable avec d'autres applications de marche (WeWard, Macadam) pour doubler vos gains de kilomètres",
-        "Options et missions secondaires lucratives disponibles directement via le navigateur web mobile sans installation lourde"
-      ],
-      "longReview": "<p>Dans le domaine très convoité des applications qui rémunèrent l'activité physique, <strong>Scrambly s'affirme brillamment comme une solution extrêmement rapide pour gagner de l'argent en marchant</strong>. Si vous cherchez un podomètre rémunérateur fiable qui ne vide pas la batterie de votre téléphone avec le GPS, l'interface sécurisée de Scrambly convertit vos pas quotidiens et vos kilomètres arpentés en monnaie sonnante et trébuchante de manière totalement transparente.</p><br/><p>Le véritable tour de force de l'écosystème Scrambly réside incontestablement dans <strong>la vélocité hallucinante de ses paiements par virement PayPal</strong>. Fini les attentes interminables de plusieurs semaines ou mois pour récupérer vos gains d'effort : dès que le petit seuil de retrait est coché, l'argent est transféré sur votre compte quasiment en temps réel. De plus, <em>le compteur de pas en arrière-plan se cumule sans aucune interférence avec vos autres applications de santé ou podomètres concurrents</em>, doublant méticuleusement vos revenus sur un seul et même trajet !</p><br/><p>Pour optimiser au maximum vos efforts et raccourcir drastiquement le temps nécessaire avant votre déblocage de premier retrait d'argent cash, inscrivez-vous impérativement <strong>via le lien de parrainage Scrambly ('qeKBFa') ou le code promo d'invitation initial</strong>. Cette astuce ajoute instantanément un véritable pécule bonus de bienvenue à votre solde vierge, vous offrant un formidable avantage d'avance avant même d'avoir enfilé vos chaussures de marche et entamé votre foulée !</p>"
-    },
-    "steps": [
-      {
-        "title": "Créer un profil Scrambly",
-        "description": "Suivez notre lien d'invitation 'qeKBFa'. Étant donné qu'il n'y a pas d'application native partout, la simple connexion web depuis le navigateur de votre smarphone suffit (Chrome, Safari)."
-      },
-      {
-        "title": "Autorisez le suivi d'activité",
-        "description": "Pour que Scrambly puisse constater avec certitude que vous avez bien installé et essayé les jeux, il est crucial d'activer l'option 'Autoriser le suivi' que vos appareils mobiles demandent au démarrage des nouvelles applications."
-      },
-      {
-        "title": "Lancez votre 1er jeu et encaissez",
-        "description": "Parmi la liste proposée (triée par affinités), appuyez sur 'Earn'. Installez le jeu imposé. Jouez une simple dizaine de minutes jusqu'au palier requis, revenez sur Scrambly et demandez immédiatement votre premier paiement express validé vers Paypal !"
-      }
-    ]
-  },
-  {
-    "id": "9",
-    "name": "Trade Republic",
-    "slug": "trade-republic",
-    "category": "Banque & Finance",
-    "code": "4z09q742",
-    "link": "https://refnocode.trade.re/4z09q742",
-    "advantage": "Bonus en actions",
-    "description": "Trade Republic est le courtier leader en Europe pour investir simplement dans les actions et les ETF. Avec plus de 4 millions de clients, l'application permet d'investir par mois ou à la volée avec des frais extrêmement réduits (1€ par ordre). De plus, vos liquidités non investies sont rémunérées à un taux très attractif, garanties par une licence bancaire complète.",
-    "review": {
-      "pros": [
-        "Interface extrêmement simple et épurée, idéale pour les débutants castrés par la technique",
-        "Rémunération élevée sur les liquidités non investies (intérêts versés mensuellement)",
-        "Plans d'investissement programmés (DCA) sans frais sur les actions et ETF",
-        "Sécurité bancaire allemande : fonds garantis jusqu'à 100 000€"
-      ],
-      "cons": [
-        "Moins d'outils d'analyse poussés pour les traders experts",
-        "Pas de PEA disponible (uniquement compte-titres)"
-      ],
-      "longReview": "<p>Trade Republic a révolutionné l'accès à la bourse en Europe en supprimant les barrières à l'entrée. Que vous souhaitiez acheter une fraction d'action Apple ou programmer une épargne automatique sur un ETF Monde, tout se fait en quelques clics depuis votre smartphone. C'est l'outil parfait pour se constituer un patrimoine sur le long terme sans subir les frais élevés des banques traditionnelles.</p><br/><p>Le gros avantage actuel de Trade Republic est sa <strong>rémunération sur le cash</strong>. Votre argent qui n'est pas investi travaille tout de même pour vous en générant des intérêts quotidiens. En utilisant notre lien de parrainage exclusif lors de votre inscription, vous recevez un bonus de bienvenue sous forme d'une fraction d'action offerte après votre premier dépôt.</p>"
-    },
-    "steps": [
-      {
-        "title": "Téléchargez l'application",
-        "description": "Passez obligatoirement par notre lien d'invitation '4z09q742' pour atterrir sur la page de parrainage officielle Trade Republic et lancer l'inscription."
-      },
-      {
-        "title": "Finalisez votre profil",
-        "description": "Le processus prend 5 minutes : confirmez votre identité avec votre carte d'identité ou passeport, puis ajoutez un compte bancaire de dépôt."
-      },
-      {
-        "title": "Déposez et investissez",
-        "description": "Pour débloquer votre fraction d'action offerte, effectuez un dépôt par virement ou carte bancaire, et réalisez 2 petites transactions (achat d'action de votre choix) dans les 30 jours."
-      }
-    ],
-    "faqs": [
-      {
-        "question": "Comment recevoir l'action gratuite Trade Republic ?",
-        "answer": "Pour valider le parrainage et recevoir votre bonus de bienvenue (une fraction d'action offerte), vous devez ouvrir votre compte via notre lien d'invitation '4z09q742', y déposer de l'argent et effectuer au moins deux transactions boursières dans votre premier mois."
-      },
-      {
-        "question": "L'argent laissé sur Trade Republic est-il sécurisé et rémunéré ?",
-        "answer": "Oui, Trade Republic possède désormais une licence bancaire complète en Allemagne. Vos fonds non investis sont garantis jusqu'à 100 000€ et, surtout, ils génèrent automatiquement des intérêts versés chaque mois (actuellement l'un des meilleurs taux du marché européen)."
-      },
-      {
-        "question": "Les frais de courtage de Trade Republic sont-ils vraiment de zéro ?",
-        "answer": "Oui, si vous utilisez la fonction « Plan d'Investissement Programmé » (investissement automatisé régulier). Si vous achetez ou vendez une action de façon ponctuelle et classique, une mini-commission fixe de 1€ est prélevée, peu importe la taille de l'ordre, ce qui reste très en deçà du marché."
-      },
-      {
-        "question": "L'application rémunère-t-elle l'argent qui n'est pas investi en bourse ?",
-        "answer": "Absolument. Trade Republic agit aussi comme un livret d'épargne ultra-rentable. Les liquidités en euros qui « dorment » sur l'application vous génèrent des intérêts annuels très attractifs (les plus élevés du marché), calculés quotidiennement et versés chaque mois."
-      },
-      {
-        "question": "Trade Republic propose-t-elle l'ouverture d'un Plan Épargne Actions (PEA) ?",
-        "answer": "Pour le moment, Trade Republic ne propose que le format Compte-Titres Ordinaire (CTO) et pas le format PEA. Cependant, elle permet d'exporter facilement un document IFU pré-rempli pour vous simplifier complètement la télédéclaration auprès des impôts français chaque année."
-      }
-    ]
-  },
-  {
-    "id": "10",
-    "name": "WeWard",
-    "slug": "weward",
-    "category": "Jeux & Gains",
-    "code": "AncienIguane5070",
-    "link": "https://wewardapp.go.link/jrcOH?adj_label=AncienIguane5070",
-    "advantage": "50 Wards offerts",
-    "description": "WeWard est l'application numéro 1 en France qui vous récompense pour marcher ! Le principe est simple : plus vous marchez, plus vous accumulez des 'Wards' que vous pouvez ensuite convertir en argent réel par virement bancaire, en cadeaux ou en dons à des associations. Un excellent moyen de rester motivé et de prendre soin de sa santé tout en gagnant de l'argent.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=weward.fr&sz=128",
-    "faqs": [
-      {
-        "question": "Où faut-il rentrer le code de parrainage WeWard AncienIguane5070 ?",
-        "answer": "Une fois l'application WeWard téléchargée et votre compte créé, rendez-vous dans les paramètres de votre profil (l'icône engrenage). Vous y trouverez une section 'Entrer un code de parrainage'. Saisissez-y le code 'AncienIguane5070' pour recevoir instantanément vos 50 Wards de bienvenue gratuits."
-      },
-      {
-        "question": "WeWard permet-il vraiment de gagner de l'argent en marchant ?",
-        "answer": "Oui, tout à fait ! Plus vous marchez, plus vous accumulez des paliers de Wards chaque jour. Vous pouvez également augmenter vos gains en répondant à des sondages ou en validant des défis sur l'application. Une fois un certain seuil de Wards atteint, vous pouvez demander un véritable virement en euros sur votre compte bancaire."
-      },
-      {
-        "question": "Combien de pas faut-il faire pour optimiser ses gains journaliers ?",
-        "answer": "WeWard fonctionne par paliers de récompense. Le palier maximal s'atteint à 20 000 pas par jour, ce qui octroie le plus grand nombre de Wards (la monnaie virtuelle de l'application). Pour récupérer vos gains, il faut impérativement cliquer sur « Valider mes pas » avant minuit."
-      },
-      {
-        "question": "Comment puis-je dépenser l'argent accumulé sur WeWard ?",
-        "answer": "La boutique propose trois options principales : faire un virement bancaire direct en euros (généralement à partir de 20€ cumulés), convertir votre solde en bons d'achat dématérialisés dans de grandes enseignes physiques ou en ligne, ou choisir de faire un don à des associations caritatives."
-      },
-      {
-        "question": "L'application consomme-t-elle beaucoup de batterie avec le GPS ?",
-        "answer": "WeWard s'appuie principalement sur le podomètre physique intégré dans votre téléphone au lieu d'utiliser le tracker GPS en temps réel. Cette ingénierie permet de limiter considérablement la dépense en batterie tout en restant très fiable sur la distance parcourue à pied."
-      }
-    ],
-    "review": {
-      "pros": [
-        "Concept motivant qui encourage l'activité physique quotidienne de manière ludique",
-        "Possibilité de convertir ses gains en virement bancaire direct (cash)",
-        "Défis et challenges réguliers pour booster son solde de Wards",
-        "Application française avec une grande communauté et des partenaires prestigieux"
-      ],
-      "longReview": "<p>WeWard a réussi le pari de transformer une activité banale comme la marche en une source de revenus complémentaire. L'application utilise les capteurs de votre téléphone pour compter vos pas et les valide chaque soir. C'est un <strong>système gagnant-gagnant</strong> : vous améliorez votre santé et vous cumulez un pécule qui grandit jour après jour.</p><br/><p>L'interface est très agréable et propose de nombreuses façons d'accélérer ses gains, que ce soit en visitant des lieux partenaires, en répondant à des sondages ou en relevant des défis sportifs. En utilisant notre code de parrainage exclusif <strong>AncienIguane5070</strong> lors de votre inscription, vous commencez votre aventure avec un bonus de 50 Wards offerts immédiatement !</p>"
-    },
-    "steps": [
-      {
-        "title": "Installez et ouvrez WeWard",
-        "description": "Trouvez et lancez gratuitement la version officielle de WeWard sur la boutique de logiciels mobiles correspondant à votre constructeur (iOS, Android). Créez un profil avec Google ou Apple."
-      },
-      {
-        "title": "Liez le compteur de pas",
-        "description": "Donnez impérativement à l'application fraîchement lancée l'accès à vos données « Santé / Activité Physique » gérées par le téléphone pour détecter mécaniquement la secousse de la marche et les distances parcourues."
-      },
-      {
-        "title": "Insérez le code manuellement",
-        "description": "Dirigez-vous maintenant vers le menu (engrenage) en haut de l'index central de l'écran principal, cliquez spécifiquement l'option 'Saisir un de code de parrainage' et insérez la suite AncienIguane5070. Vos Wards d'encouragement surgiront illico !"
-      }
-    ]
-  },
-  {
-    "id": "11",
-    "name": "Macadam",
-    "slug": "macadam",
-    "category": "Jeux & Gains",
-    "code": "md2za4",
-    "link": "https://macadam.app/i/md2za4?v=1",
-    "advantage": "1000 Coins offerts",
-    "description": "En concurrence formelle ou d’alternative logique à très en aux mastodontes aux marcher argent, ce joli podomètre ludique et d'esprit amusant (qui donne l'argent en pour vos nombre marcher du pas) s’érige majestueusement en véritable poule ou en aux du de oeufs d'or ! S'allie parfaitement de au coude avec d’autre concurrent : utilisez la et d’ensemble aux sur du même temps l’ efforts pour gagner un d’Euro et par de double parcours très avec sans s’efforts en puces. Utilisez à et ou code macadam  Md2za4 en d'entrées d'app ou gagne de d'abord grand cadeau de dot à et et Coins l'activation !",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=macadam.app&sz=128",
-    "faqs": [
-      {
-        "question": "Où entrer le code de parrainage Macadam md2za4 ?",
-        "answer": "Contrairement à d'autres applications, il est conseillé de renseigner le code d'invitation 'md2za4' dès la création de votre compte Macadam. Si vous avez oublié, vous pouvez toujours vous rendre dans l'onglet 'Réglages' (la petite roue crantée) dans les 48 heures suivant l'installation pour l'ajouter et recevoir vos 1000 Coins."
-      },
-      {
-        "question": "Peut-on utiliser Macadam et WeWard en même temps ?",
-        "answer": "Absolument, et c'est même la stratégie la plus rentable ! Étant donné que les deux applications utilisent les capteurs de santé natifs de votre téléphone (Apple Health ou Google Fit) pour compter vos pas, vous pouvez 'valider' vos kilomètres sur les deux plateformes de manière totalement indépendante et ainsi doubler vos gains."
-      },
-      {
-        "question": "Peut-on être rémunéré pour d'autres sports que la marche ?",
-        "answer": "Son cœur de métier reste le comptage du nombre de pas quotidiens. Cependant, l'application Macadam prend l'initiative d'évaluer vos efforts si vous pratiquez la course à pied (running), ce qui accélérera la croissance de votre nombre de pas de façon extrêmement efficace."
-      },
-      {
-        "question": "Le compteur de marche fonctionne-t-il sur un tapis de course ?",
-        "answer": "Oui. À l'instar des meilleures applications podomètres, Macadam détecte les rebonds physiques de votre téléphone dans votre poche pour quantifier une foulée, peu importe que le décor autour de vous soit statique. Un tapis de course comptabilisera vos kilomètres de façon fiable."
-      },
-      {
-        "question": "Quels sont les avantages de scanner le code de parrainage à l'inscription ?",
-        "answer": "Entrer un code affilié lors de votre création de compte va garnir d'entrée de jeu votre solde d'un magot de « Coins » (environ la valeur de milliers de pas initiaux offets d'un coup). C'est fortement recommandé pour raccourcir le délai vers votre tout premier retrait bancaire ou PayPal."
-      }
-    ],
-    "review": {
-      "pros": [
-        "Interface fluide et ludique avec un système de progression motivant",
-        "Défis communautaires pour gagner des bonus de Coins",
-        "Seuil de paiement accessible et virements bancaires fiables",
-        "Totalement compatible avec les autres applications de marche (cumul de gains)"
-      ],
-      "longReview": "<p>Macadam s'est rapidement imposée comme une alternative sérieuse aux leaders du marché de la marche rémunérée. L'application mise sur un aspect social et ludique très réussi, où chaque kilomètre parcouru vous rapproche d'un gain concret. C'est l'outil parfait pour transformer vos trajets quotidiens ou vos promenades dominicales en une petite cagnotte qui grandit sans effort.</p><br/><p>Le fonctionnement est transparent et sécurisé. L'application récupère vos pas via Google Fit ou Apple Health sans jamais vider votre batterie. En utilisant notre code de parrainage exclusif <strong>md2za4</strong> lors de votre inscription, vous recevez un bonus de 1000 Coins offerts immédiatement, vous projetant directement vers votre premier retrait bancaire.</p>"
-    },
-    "steps": [
-      {
-        "title": "Obtenir l'application gratuite",
-        "description": "Passez virtuellement par la logithèque (Apple Store, Google Play) afin d'importer localement Macadam sur l'écran d'accueil principal, et procédez prudemment aux formalités classiques et usuelles d’identification."
-      },
-      {
-        "title": "Autorisations de lectures biométriques",
-        "description": "La pop-up de consentement va s'entrouvrir pour réclamer expressément un accord clair pour consulter l'APIs du capteur d'accélération. Validez ces clauses nécessaires sans le moindre compromis, la captation des points est corrélée à cette technique !"
-      },
-      {
-        "title": "Saisie formelle aux réglages",
-        "description": "Cliquez au bas du menu principal ou l'icône évoquant un rouage/réglage. Insérez soigneusement l'indicateur alpha-numérique officiel ('md2za4') du bonus affilié. Bravo, 1000 formidables Coins viendront instantanément renflouer d'office les caisses de l'avatar."
-      }
-    ]
-  },
-  {
-    "id": "12",
-    "name": "Moonwalk",
-    "slug": "moonwalk",
-    "category": "Jeux & Gains",
-    "code": "64D2YYEC",
-    "link": "https://moonwalkapp.onelink.me/BanJ/xfxyqy5x",
-    "advantage": "600 Mooncoins offerts",
-    "description": "Moonwalk est une application innovante qui allie activité physique et avantages concrets. En marchant quotidiennement, vous accumulez des 'Mooncoins' que vous pouvez échanger contre des virements bancaires ou des cartes cadeaux. Avec son interface soignée et ses défis motivants, Moonwalk est l'outil idéal pour rester actif et être récompensé pour ses efforts.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=moonwalk.app&sz=128",
-    "faqs": [
-      {
-        "question": "Où entrer le code d'invitation Moonwalk 64D2YYEC ?",
-        "answer": "Après avoir téléchargé l'application Moonwalk et créé votre compte, allez dans l'onglet 'Profil' (en bas à droite), puis cliquez sur 'Parrainage'. Vous pourrez alors entrer le code '64D2YYEC' pour que vos 600 Mooncoins soient immédiatement crédités sur votre solde."
-      },
-      {
-        "question": "Moonwalk paie-t-il vraiment ses utilisateurs ?",
-        "answer": "Oui, Moonwalk est une application française très sérieuse. Dès que vous atteignez l'équivalent de 10 euros en Mooncoins en marchant tous les jours, vous pouvez demander un virement bancaire classique (SEPA) qui arrive généralement sous 48 à 72 heures."
-      },
-      {
-        "question": "Comment Moonwalk se différencie concrètement des autres podomètres iOS/Android ?",
-        "answer": "Outre son agréable ambiance visuelle intergalactique, la particularité de Moonwalk est de se concentrer sur des objectifs très clairs tout en proposant des paliers de retraits financiers (via virement IBAN ou carte cadeau) particulièrement avantageux pour récompenser rapidement l'effort."
-      },
-      {
-        "question": "Le versement de cet argent sur mon compte bancaire pose-t-il un problème de sécurité ?",
-        "answer": "Pas le moins du monde. Ce projet porté par une structure réglementée n'associe pas votre IBAN à une procédure de prélèvement. L'interface financière s'en sert uniquement comme d'un point de chute ciblé pour effectuer un ordre de libération des gains lorsque vous les réclamez."
-      },
-      {
-        "question": "Y a-t-il un plafond maximum de pas pris en compte pour éviter la triche ?",
-        "answer": "Puisque de nombreux algorithmes et de fausses machines physiques tentent de biaiser le monde des podomètres pour s'enrichir, Moonwalk se réserve le droit de plafonner prudemment la valorisation des pas journaliers à environ 10 000 par jour afin de privilégier les vrais utilisateurs."
-      }
-    ],
-    "review": {
-      "pros": [
-        "Interface moderne et futuriste très plaisante à utiliser au quotidien",
-        "Objectifs de pas clairs et système de récompense gratifiant",
-        "Paiements rapides et transparents via virement bancaire",
-        "Application développée par une équipe française dynamique"
-      ],
-      "longReview": "<p>Moonwalk apporte une touche de fraîcheur au segment des podomètres rémunérés. Avec son ambiance visuelle 'spatiale', l'application transforme vos objectifs de santé en une véritable mission intergalactique. C'est une application sérieuse, éditée en France, qui respecte ses engagements de paiement et offre une expérience utilisateur premium loin des clones publicitaires.</p><br/><p>Le système de parrainage de Moonwalk est particulièrement avantageux pour les nouveaux explorateurs. En renseignant le code <strong>64D2YYEC</strong> lors de la création de votre compte, vous recevez un bonus de 600 Mooncoins. C'est un coup de pouce immédiat qui vous rapproche significativement de votre premier retrait d'argent réel tout en vous motivant à franchir vos premiers 10 000 pas.</p>"
-    },
-    "steps": [
-      {
-        "title": "En route vers Moonwalk",
-        "description": "Employez sagement le lien ou l'accès aux boutiques (les fameux AppStore Apple/Google Play) pour rapatrier sur vos écrans personnels les toutes premières implémentation mobiles officielles logicielles estampillées Moonwalk."
-      },
-      {
-        "title": "Connexion sécurisée en soute",
-        "description": "Effectuez paisiblement une banale routine obligatoire d’inscription logicielle : adressez une adresse valide pour héberger son porte-monnaie spatial ou souscrivez avec vos identités virtuelles sécurisées. Activez inéluctablement le partage de géodonnées de base (pas)."
-      },
-      {
-        "title": "Injection massive des réacteurs",
-        "description": "Saisissez rapidement un petit laps de navigation en tapotant le pavé 'Profil' en base de navigation droite. Cherchez avec attention le panel 'Parrainage'. Dégainez promptement cette suite magique '64D2YYEC', validez fermement : 600 jolis Mooncoins explosent prodigieusement votre tableau de bord."
-      }
-    ]
-  },
-  {
-    "id": "13",
     "name": "Finary",
     "slug": "finary",
     "category": "Banque & Finance",
@@ -740,7 +353,902 @@
     ]
   },
   {
+    "id": "7",
+    "name": "Robinhood",
+    "slug": "robinhood",
+    "category": "Crypto",
+    "code": "nolwena-12ee49",
+    "link": "https://join.robinhood.com/eu_crypto/nolwena-12ee49/",
+    "advantage": "40€ en cryptomonnaie",
+    "description": "Vous recevrez 40 € en cryptomonnaie en créant un compte Robinhood via mon lien et en déposant 20 € pour commencer à trader. Profitez de l'un des courtiers les plus célèbres au monde qui propose désormais son offre Crypto en Europe.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=robinhood.com&sz=128",
+    "review": {
+      "pros": [
+        "Réputation mondiale et interface extrêmement intuitive",
+        "Achat de crypto à partir de seulement 1€",
+        "Bonus de bienvenue généreux de 40€ pour seulement 20€ déposés",
+        "Zéro commission sur les trades crypto en Europe"
+      ],
+      "cons": [
+        "Moins de tokens disponibles que sur les bourses spécialisées",
+        "Interface parfois trop simplifiée pour les traders experts"
+      ],
+      "longReview": "<p>Robinhood a révolutionné l'investissement aux États-Unis et arrive maintenant en force sur le marché européen avec une offre Crypto particulièrement agressive. Son point fort ? <strong>Une simplicité d'utilisation inégalée</strong> qui rend l'achat de Bitcoin ou d'Ethereum aussi facile que l'envoi d'un message.</p><br/><p>L'offre actuelle est l'one des plus rentables du marché pour les nouveaux utilisateurs. En créant votre compte via le lien de parrainage et en <strong>déposant seulement 20€</strong>, vous recevez un bonus substantiel de <strong>40€ en cryptomonnaie</strong>. C'est un retour sur investissement immédiat de 200% simplement pour tester la plateforme.</p><br/><p>Que vous soyez un débutant total ou que vous cherchiez une plateforme secondaire pour vos achats récurrents, Robinhood offre une expérience fluide, sécurisée et désormais très accessible pour les résidents européens.</p>"
+    },
+    "faqs": [
+      {
+        "question": "Comment obtenir les 40€ de bonus Robinhood ?",
+        "answer": "Vous devez vous inscrire via le lien de parrainage, valider votre identité (KYC) et effectuer un dépôt initial de 20€ minimum sur votre compte Robinhood Crypto."
+      },
+      {
+        "question": "Puis-je retirer le bonus immédiatement ?",
+        "answer": "Le bonus est généralement crédité sous forme de cryptomonnaie. Vous pouvez le convertir en euros, mais une période de détention minimale peut être requise avant le retrait vers votre banque (consultez les conditions générales dans l'app)."
+      },
+      {
+        "question": "Robinhood Crypto est-il disponible dans toute l'Europe ?",
+        "answer": "Oui, Robinhood a lancé son application spécifique pour les résidents de l'Union Européenne, permettant d'acheter des dizaines de cryptomonnaies sans commission de trading."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Téléchargement & Inscription",
+        "description": "Utilisez le lien de parrainage pour télécharger l'application Robinhood Crypto et créez votre profil."
+      },
+      {
+        "title": "Validation d'identité",
+        "description": "Complétez la vérification d'identité rapide requise par la réglementation européenne."
+      },
+      {
+        "title": "Dépôt & Récompense",
+        "description": "Déposez 20€ (par virement ou carte). Une fois le dépôt validé, vos 40€ de bonus crypto seront ajoutés à votre portefeuille."
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Trade Republic",
+    "slug": "trade-republic",
+    "category": "Banque & Finance",
+    "code": "4z09q742",
+    "link": "https://refnocode.trade.re/4z09q742",
+    "advantage": "Bonus en actions",
+    "description": "Trade Republic est le courtier leader en Europe pour investir simplement dans les actions et les ETF. Avec plus de 4 millions de clients, l'application permet d'investir par mois ou à la volée avec des frais extrêmement réduits (1€ par ordre). De plus, vos liquidités non investies sont rémunérées à un taux très attractif, garanties par une licence bancaire complète.",
+    "review": {
+      "pros": [
+        "Interface extrêmement simple et épurée, idéale pour les débutants castrés par la technique",
+        "Rémunération élevée sur les liquidités non investies (intérêts versés mensuellement)",
+        "Plans d'investissement programmés (DCA) sans frais sur les actions et ETF",
+        "Sécurité bancaire allemande : fonds garantis jusqu'à 100 000€"
+      ],
+      "cons": [
+        "Moins d'outils d'analyse poussés pour les traders experts",
+        "Pas de PEA disponible (uniquement compte-titres)"
+      ],
+      "longReview": "<p>Trade Republic a révolutionné l'accès à la bourse en Europe en supprimant les barrières à l'entrée. Que vous souhaitiez acheter une fraction d'action Apple ou programmer une épargne automatique sur un ETF Monde, tout se fait en quelques clics depuis votre smartphone. C'est l'outil parfait pour se constituer un patrimoine sur le long terme sans subir les frais élevés des banques traditionnelles.</p><br/><p>Le gros avantage actuel de Trade Republic est sa <strong>rémunération sur le cash</strong>. Votre argent qui n'est pas investi travaille tout de même pour vous en générant des intérêts quotidiens. En utilisant notre lien de parrainage exclusif lors de votre inscription, vous recevez un bonus de bienvenue sous forme d'une fraction d'action offerte après votre premier dépôt.</p>"
+    },
+    "steps": [
+      {
+        "title": "Téléchargez l'application",
+        "description": "Passez obligatoirement par notre lien d'invitation '4z09q742' pour atterrir sur la page de parrainage officielle Trade Republic et lancer l'inscription."
+      },
+      {
+        "title": "Finalisez votre profil",
+        "description": "Le processus prend 5 minutes : confirmez votre identité avec votre carte d'identité ou passeport, puis ajoutez un compte bancaire de dépôt."
+      },
+      {
+        "title": "Déposez et investissez",
+        "description": "Pour débloquer votre fraction d'action offerte, effectuez un dépôt par virement ou carte bancaire, et réalisez 2 petites transactions (achat d'action de votre choix) dans les 30 jours."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment recevoir l'action gratuite Trade Republic ?",
+        "answer": "Pour valider le parrainage et recevoir votre bonus de bienvenue (une fraction d'action offerte), vous devez ouvrir votre compte via notre lien d'invitation '4z09q742', y déposer de l'argent et effectuer au moins deux transactions boursières dans votre premier mois."
+      },
+      {
+        "question": "L'argent laissé sur Trade Republic est-il sécurisé et rémunéré ?",
+        "answer": "Oui, Trade Republic possède désormais une licence bancaire complète en Allemagne. Vos fonds non investis sont garantis jusqu'à 100 000€ et, surtout, ils génèrent automatiquement des intérêts versés chaque mois (actuellement l'un des meilleurs taux du marché européen)."
+      },
+      {
+        "question": "Les frais de courtage de Trade Republic sont-ils vraiment de zéro ?",
+        "answer": "Oui, si vous utilisez la fonction « Plan d'Investissement Programmé » (investissement automatisé régulier). Si vous achetez ou vendez une action de façon ponctuelle et classique, une mini-commission fixe de 1€ est prélevée, peu importe la taille de l'ordre, ce qui reste très en deçà du marché."
+      },
+      {
+        "question": "L'application rémunère-t-elle l'argent qui n'est pas investi en bourse ?",
+        "answer": "Absolument. Trade Republic agit aussi comme un livret d'épargne ultra-rentable. Les liquidités en euros qui « dorment » sur l'application vous génèrent des intérêts annuels très attractifs (les plus élevés du marché), calculés quotidiennement et versés chaque mois."
+      },
+      {
+        "question": "Trade Republic propose-t-elle l'ouverture d'un Plan Épargne Actions (PEA) ?",
+        "answer": "Pour le moment, Trade Republic ne propose que le format Compte-Titres Ordinaire (CTO) et pas le format PEA. Cependant, elle permet d'exporter facilement un document IFU pré-rempli pour vous simplifier complètement la télédéclaration auprès des impôts français chaque année."
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "PayPal",
+    "slug": "paypal",
+    "category": "Banque & Finance",
+    "code": "https://py.pl/1cPkc4",
+    "link": "https://py.pl/1cPkc4",
+    "advantage": "10€ offerts",
+    "description": "PayPal est la solution de paiement en ligne la plus utilisée au monde. Elle permet de payer en toute sécurité vos achats sur des milliers de sites sans jamais partager vos coordonnées bancaires avec les marchands. Très pratique pour les virements entre amis et bénéficiant d'une protection des achats très efficace.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=paypal.com&sz=128",
+    "faqs": [
+      {
+        "question": "Combien de temps faut-il pour recevoir la prime de parrainage PayPal de 10€ ?",
+        "answer": "Après avoir créé votre compte via le lien d'invitation, vous devez effectuer une transaction éligible de 5€ minimum (un achat en ligne ou un envoi d'argent à un proche). PayPal crédite généralement les 10€ de récompense dans un délai de quelques jours ouvrés suivant cette transaction."
+      },
+      {
+        "question": "Est-il obligatoire de recharger son solde PayPal pour faire un achat ?",
+        "answer": "Non, vous pouvez simplement lier votre carte bancaire ou votre compte courant (IBAN) à la plateforme. Lors d'un paiement, PayPal ira prélever la somme exacte directement sur votre compte sans que le e-commerçant n'ait accès à vos données bancaires."
+      },
+      {
+        "question": "En quoi consiste la protection des achats PayPal ?",
+        "answer": "C'est une assurance gratuite pour l'acheteur. Si vous ne recevez pas votre commande, ou si l'objet reçu ne correspond pas du tout à sa description, vous pouvez ouvrir un « litige ». PayPal joue alors le rôle de médiateur et peut forcer le remboursement intégral depuis le compte du vendeur."
+      },
+      {
+        "question": "Il y a-t-il des frais lorsque j'envoie de l'argent à un ami ?",
+        "answer": "Les transferts d'argent entre proches, en utilisant l'option « Paiement à un proche » et à l'intérieur de l'Espace Économique Européen, sont strictement sans frais (pas de commission). L'argent arrive instantanément sur le compte PayPal du destinataire."
+      }
+    ],
+    "review": {
+      "pros": [
+        "Sécurité absolue : vos coordonnées bancaires ne sont jamais partagées avec les vendeurs",
+        "Protection des achats extrêmement efficace en cas de litige ou non-réception",
+        "Envois d'argent entre proches gratuits et instantanés",
+        "Interface mobile intuitive et acceptée sur quasiment tous les sites e-commerce"
+      ],
+      "longReview": "<p>PayPal reste la référence absolue du paiement numérique sécurisé. En liant simplement votre carte ou votre compte bancaire à votre profil PayPal, vous profitez d'un <strong>bouclier de sécurité unique</strong> : lors d'un achat, le marchand reçoit le paiement mais n'a jamais accès à vos numéros de carte. C'est l'outil indispensable pour commander sur des sites internationaux en toute sérénité.</p><br/><p>L'autre grande force de PayPal est sa fonction de <strong>transfert d'argent entre proches</strong>. Fini les RIB complexes, une simple adresse e-mail ou un numéro de téléphone suffit pour rembourser un ami instantanément et sans frais. En utilisant notre lien de parrainage exclusif, vous bénéficiez de 10€ offerts sur votre première transaction, un bonus simple et efficace pour découvrir le service.</p>"
+    },
+    "steps": [
+      {
+        "title": "Utilisez un lien qualifié",
+        "description": "Cliquez sans attendre sur le lien d'invitation que nous fournissons (ex: https://py.pl/1cPkc4). Il vous redirigera vers la procédure d'inscription officielle PayPal tout en validant votre éligibilité à la promotion de bienvenue."
+      },
+      {
+        "title": "Associez votre bancaire",
+        "description": "Suivez les étapes classiques : renseignez votre identité, et liez en toute sécurité votre compte courant (au moyen d'un RIB ou de votre numéro de carte de crédit traditionnelle)."
+      },
+      {
+        "title": "Faites un achat initial de 5€",
+        "description": "Le bonus gratuit de 10 euros est déclenché par une seule condition très facile : utilisez votre compte PayPal flambant neuf pour régler un achat de minimum 5€ sur internet, ou bien envoyez simplement 5€ à vos proches !"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Uber Eats",
+    "slug": "uber-eats",
+    "category": "Shopping",
+    "code": "eats-zl6yno",
+    "link": "https://ubereats.com/feed?promoCode=eats-zl6yno",
+    "advantage": "10€ offerts",
+    "description": "Est-il encore nécessaire de présenter Uber Eats ? L'application de livraison de repas à domicile numéro 1 en France. Que ce soit pour une soirée pizza, des sushis improvisés ou même pour faire vos courses de dernière minute au supermarché du coin, le service est ultrarapide. Bonne nouvelle si vous n'avez pas encore de compte : notre code parrain vous offre une très belle réduction de 10€ sur votre toute première commande !",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ubereats.com&sz=128",
+    "review": {
+      "pros": [
+        "Catalogue de restaurants gargantuesque, y compris les petits commerces locaux",
+        "Livraison extrêmement rapide dans les grandes agglomérations",
+        "Possibilité de se faire livrer des courses de supermarché",
+        "Interface fluide avec suivi GPS du livreur en direct"
+      ],
+      "cons": [
+        "Frais de service et de livraison qui font vite grimper l'addition finale",
+        "Les prix des plats sont souvent majorés par rapport à un achat sur place"
+      ],
+      "longReview": "<p>On ne présente presque plus Uber Eats, l'acteur hégémonique de la livraison de repas à domicile en France. Qu'il s'agisse d'une envie de sushis un dimanche soir pluvieux, de burgers à la pause déjeuner au bureau, ou même de courses d'appoint un jour férié, <strong>Uber Eats possède de loin la plus grande variété d'offres</strong> grâce à ses dizaines de milliers de restaurants partenaires.</p><br/><p>L'expérience utilisateur frôle la perfection : votre position est détectée, les temps estimés d'arrivée sont généralement précis, et <strong>le suivi en temps réel du livreur sur la carte</strong> apporte un confort évident. La fonctionnalité de livraison à la porte (pratique en télétravail ou sans contact) est aussi très appréciable.</p><br/><p>Cependant, le service a un coût notable (frais de livraison + frais de service + éventuelle majoration des prix initiaux). C'est pourquoi <strong>profiter d'un code de parrainage de 10€ pour sa première commande</strong> est essentiel. Cela permet d'absorber intégralement ces frais annexes et de savourer un bon plat chez soi, souvent pour moins cher que si l'on s'était déplacé au restaurant !</p>"
+    },
+    "steps": [
+      {
+        "title": "Installation de l'app",
+        "description": "Téléchargez l'application Uber Eats sur l'App Store ou Google Play, ou inscrivez-vous directement sur leur site web."
+      },
+      {
+        "title": "Saisie du code promo",
+        "description": "Avant même de choisir votre restaurant, allez dans votre compte, rubrique 'Promotions' et saisissez le code de parrainage eats-zl6yno. La pastille -10€ apparaîtra instantanément."
+      },
+      {
+        "title": "Passez votre première commande",
+        "description": "Faites votre choix de repas ! Au moment du paiement, assurez-vous que la promotion de 10€ de bienvenue soit bien cochée et appliquée sur le total de votre panier."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment utiliser le code promo Uber Eats eats-zl6yno ?",
+        "answer": "Pour profiter des 10€ de réduction, téléchargez l'application Uber Eats et créez un nouveau profil. Au moment de valider votre première commande (dans le panier), cherchez la section 'Ajouter un code promo' et saisissez 'eats-zl6yno'. La réduction s'appliquera instantanément sur le montant total."
+      },
+      {
+        "question": "Le code de parrainage Uber Eats est-il cumulable avec d'autres offres ?",
+        "answer": "Généralement, le bonus de 10€ réservé aux nouveaux utilisateurs (filleuls) ne peut pas être cumulé avec un autre code promotionnel classique sur la même commande. Cependant, il fonctionne très bien sur les restaurants proposant déjà des offres internes du type '1 acheté = 1 offert'."
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "VOGGT",
+    "slug": "voggt",
+    "category": "Shopping",
+    "code": "WENSAN10918109",
+    "link": "",
+    "advantage": "10€ de réduction offerts",
+    "description": "La plateforme révolutionnaire pour les achats de cartes Pokémon rares, boosters Lorcana et vêtements vintage aux enchères en direct. Connectez-vous sur les lives vidéos pour dénicher vos items préférés en interagissant avec la communauté. Le code VOGGT ci-dessous offre un bon de réduction immédiat très généreux valable sur votre premier panier d'achat.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=voggt.com&sz=128",
+    "faqs": [
+      {
+        "question": "Où entrer le code de parrainage VOGGT WENSAN10918109 ?",
+        "answer": "Le code VOGGT doit être saisi lors de votre inscription sur l'application mobile ou le site web. Cherchez l'encart 'J'ai un code de parrainage / code promo' avant de finaliser la création de votre profil. Cela appliquera immédiatement la réduction sur votre premier achat lors d'un live."
+      },
+      {
+        "question": "Peut-on utiliser le crédit parrainage sur l'achat de n'importe quelles cartes ?",
+        "answer": "Oui, le crédit offert avec notre code VOGGT est valable sur l'ensemble de l'application. Que vous enchérissiez sur des cartes Pokémon, Yu-Gi-Oh!, du sport, ou même des vêtements vintage pendant les shows en direct, la réduction s'appliquera sur votre panier final."
+      },
+      {
+        "question": "Les cartes Pokémon et Lorcana achetées sur VOGGT sont-elles authentiques ?",
+        "answer": "Oui, la sécurité est au cœur de la plateforme. VOGGT contrôle l'identité des vendeurs professionnels. De plus, votre paiement est bloqué sur un compte séquestre et n'est reversé au vendeur qu'une fois la réception de l'article validée et conforme."
+      },
+      {
+        "question": "Puis-je acheter autre chose que des cartes à collectionner ?",
+        "answer": "Absolument. Si la plateforme s'est fait connaître pour les jeux de cartes à jouer (TCG) et les enchères live Pokémon, on y trouve désormais des vêtements vintage, des chaussures en édition limitée (sneakers), des mangas, et des jeux vidéo (rétrogaming)."
+      },
+      {
+        "question": "Le bon de réduction fonctionne-t-il sur les frais de port ?",
+        "answer": "Le code promo de bienvenue s'applique sur le montant total de votre premier panier, ce qui permet très souvent d'absorber la totalité des frais de port ou de réduire drastiquement le coût global de votre enchère."
+      }
+    ],
+    "review": {
+      "pros": [
+        "Enchères en direct spécialisées (Cartes Pokémon, TCG Lorcana, Yu-Gi-Oh!, Sneakers, Vintage)",
+        "Paiements 100% sécurisés : le vendeur n'est payé qu'à réception de vos achats",
+        "Une communauté de collectionneurs de Pop et Rétrogaming extrêmement active",
+        "Achats groupés (box breaks) permettant de diluer les frais de port"
+      ],
+      "longReview": "<p><strong>VOGGT bouleverse profondément le marché de la collection et de l'achat de cartes à collectionner</strong> (TCG) en démocratisant le live shopping et les enchères vidéo interactives. Oubliez les recherches fastidieuses sur les sites de petites annonces avec la peur de tomber sur des fausses cartes. Sur VOGGT, vous assistez à de véritables shows vidéo dédiés spécifiquement à vos niches : ouvertures de boosters <strong>Lorcana</strong>, enchères de display <strong>cartes Pokémon rares</strong>, Magic The Gathering, ou encore friperie et vêtements vintage.</p><br/><p>La valeur cardinale de l'application repose indubitablement sur <strong>la sécurité totale de l'acheteur imposée par l'encadrement</strong>. Le système de paiement intégré garantit le blocage strict des fonds lors de l'acquisition d'un lot rare : le vendeur n'est rémunéré que si la marchandise réceptionnée est parfaitement conforme. C'est l'ultime argument qui éloigne les contrefaçons du réseau.</p><br/><p>L'aspect social renforce également l'addiction : l'interface mobile permet d'<em>enchérir du bout du doigt lors du décompte en chattant avec les streamers</em>. N'attendez plus pour vous lancer sereinement dans votre première chasse aux trésors en profitant du <strong>code promo VOGGT spécialement prévu pour les nouveaux comptes</strong> : il permet d'absorber grandement les frais de dossier ou de financer l'achat de vos tous premiers paquets de cartes !</p>"
+    },
+    "steps": [
+      {
+        "title": "Téléchargez VOGGT",
+        "description": "Rendez-vous sur l'App Store ou le Google Play Store pour télécharger gratuitement l'application mobile VOGGT sur votre smartphone."
+      },
+      {
+        "title": "Inscription et code bonus",
+        "description": "Créez votre compte en quelques clics. Lors de l'inscription, cherchez l'encart relatif au parrainage et rentrez le code promo 'WENSAN10918109' pour valider votre avantage de bienvenue."
+      },
+      {
+        "title": "Rejoignez un live",
+        "description": "Trouvez un show en direct qui vous plaît (cartes, sneakers, ou mode vintage) et placez votre première enchère. La réduction fonctionnera automatiquement lors du paiement final !"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Coinbase",
+    "slug": "coinbase",
+    "category": "Crypto",
+    "code": "92UZVUP",
+    "link": "https://coinbase.com/join/92UZVUP?src=ios-link",
+    "advantage": "10€ en Bitcoin offerts",
+    "description": "Coinbase est la plateforme de référence pour faire ses premiers pas dans le monde des crypto-monnaies. Cotée en bourse au NASDAQ, c'est l'une des plateformes les plus sécurisées et les plus simples d'utilisation pour acheter, vendre et stocker vos premiers Bitcoins, Ethereum et des centaines d'autres jetons. Leur interface 'Apprentissage' vous permet même de gagner des cryptos gratuitement en répondant à de simples quiz.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=coinbase.com&sz=128",
+    "review": {
+      "pros": [
+        "Interface extrêmement simple, idéale pour les débutants castrés par la technique",
+        "Sécurité de niveau institutionnel et régulation stricte (cotations en bourse US)",
+        "Programme 'Learn and Earn' pour gagner de la crypto gratuitement en apprenant",
+        "Carte bancaire Visa Coinbase pour dépenser ses cryptos dans la vie réelle"
+      ],
+      "cons": [
+        "Frais de transaction un peu plus élevés que sur des plateformes 'Pro'",
+        "Processus de vérification d'identité (KYC) obligatoire et complet"
+      ],
+      "longReview": "<p>S'il existe une porte d'entrée royale pour découvrir l'économie numérique, c'est incontestablement <strong>Coinbase</strong>. Là où d'autres plateformes perdent l'utilisateur sous des graphiques complexes, Coinbase mise sur une expérience épurée, proche d'une application bancaire classique. C'est l'outil parfait pour acheter ses premiers 10€ de Bitcoin sans stress.</p><br/><p>Le véritable génie de la plateforme réside dans son programme <strong>Coinbase Learning</strong>. Imaginez être payé pour apprendre ! En regardant de courtes vidéos sur de nouvelles technologies crypto, vous recevez directement des jetons dans votre portefeuille. C'est la méthode idéale pour amorcer son capital sans injecter d'argent personnel au début.</p><br/><p>En utilisant notre <strong>lien de parrainage exclusif ('92UZVUP')</strong>, vous bénéficiez d'un bonus de bienvenue en Bitcoin dès votre premier achat. C'est un coup de pouce immédiat qui vient s'ajouter à la sécurité d'une plateforme mondialement reconnue. Avec Coinbase, vous n'achetez pas seulement de la crypto, vous investissez sereinement dans l'avenir financier.</p>"
+    },
+    "faqs": [
+      {
+        "question": "Est-ce que Coinbase est adapté aux débutants ?",
+        "answer": "Oui, c'est sa force principale. L'application est conçue pour être aussi simple qu'une application de banque en ligne. Vous pouvez acheter vos premières cryptos par carte bancaire ou virement SEPA en quelques minutes seulement."
+      },
+      {
+        "question": "Comment gagner de la crypto gratuite sur Coinbase ?",
+        "answer": "Une fois votre compte validé, rendez-vous dans la section 'Apprentissage et gains'. Vous y trouverez des quiz rapides sur différents projets crypto. Chaque quiz réussi vous rapporte quelques dollars de la crypto concernée, que vous pouvez conserver ou échanger contre du Bitcoin."
+      },
+      {
+        "question": "Puis-je retirer mon argent sur mon compte bancaire ?",
+        "answer": "Tout à fait. Coinbase permet de revendre vos cryptomonnaies à tout moment et de virer les euros obtenus directement vers votre compte bancaire (virement SEPA instantané supporté) ou votre compte PayPal."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Inscription sécurisée",
+        "description": "Utilisez notre lien pour créer votre compte et bénéficier du bonus de bienvenue."
+      },
+      {
+        "title": "Vérification d'identité",
+        "description": "Préparez une pièce d'identité pour valider votre compte. C'est une étape obligatoire pour la sécurité et la régulation."
+      },
+      {
+        "title": "Premier achat et Bonus",
+        "description": "Achetez pour le montant minimal requis et recevez vos Bitcoins gratuits directement dans votre portefeuille."
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Whatnot",
+    "slug": "whatnot",
+    "category": "Shopping",
+    "code": "https://whatnot.com/invite/wensan10",
+    "link": "https://whatnot.com/invite/wensan10",
+    "advantage": "Crédit d'achat offert",
+    "description": "La référence américaine du live shopping pour collectionneurs avertis (cartes Pokémon japonaises, sneakers limitées, rétrogaming introuvable, Lego et Funko Pops). Si l'article de collection rare n'est pas en France, il est probablement vendu aux enchères sur Whatnot. Bénéficiez d'un crédit d'achat cash offert via le lien d'invitation ci-dessous.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=whatnot.com&sz=128",
+    "faqs": [
+      {
+        "question": "Comment obtenir les crédits gratuits sur Whatnot ?",
+        "answer": "L'obtention des crédits est automatique si vous vous inscrivez exclusivement via un lien d'invitation valide comme le nôtre. Une fois le compte créé via le lien, le crédit promo (souvent entre 10$ et 15$) est crédité directement dans votre portefeuille, prêt à être déduit de votre première enchère remportée."
+      },
+      {
+        "question": "Comment fonctionnent les frais de douane pour une enchère basée aux États-Unis ?",
+        "answer": "L'un des gros avantages de Whatnot par rapport à d'autres plateformes est la gestion native de la TVA et de la douane. Ces frais sont calculés et payés directement lors de l'enchère. Vous recevez ainsi votre colis sans mauvaise surprise à la livraison."
+      },
+      {
+        "question": "Les sneakers ou objets streetwear achetés sur Whatnot sont-ils vérifiés ?",
+        "answer": "Whatnot a mis en place des partenariats et des processus stricts d'authentification pour lutter contre la contrefaçon, particulièrement sur la catégorie streetwear et sneakers. De plus, leur politique de protection des acheteurs vous rembourse si le produit s'avère ne pas être authentique."
+      },
+      {
+        "question": "Qu'est-ce qu'un Giveaway organisé lors d'un live shopping ?",
+        "answer": "Lors d'une session vidéo, le vendeur (streamer) peut décider d'offrir un lot à ses spectateurs. Il vous suffit de cliquer sur le bouton de participation à l'écran. Si vous êtes tiré au sort à la fin du compte à rebours, vous remportez l'objet gratuitement, Whatnot gérant le bon de livraison."
+      }
+    ],
+    "review": {
+      "pros": [
+        "Accès monumental aux marchés américain et international des ventes aux enchères Live Shopping",
+        "Inventaire intarissable pour dénicher des objets rares : Cartes Pokémon, Pop! , Sneakers, TCG Lorcana, Rétrogaming et Figurines",
+        "Participation à des loteries gratuites (Giveaways) organisées par les gros vendeurs de la plateforme",
+        "Législation de suivi strict pour la protection de l'acheteur (garantie d'authenticité)"
+      ],
+      "longReview": "<p>Totalement hégémonique sur le sol nord américain, <strong>l'application Whatnot est la figure de proue de l'achat-revente et des enchères vidéo live shopping dédiés aux mondes grouillants des collectionneurs</strong>. Si vous écumez vainement les salons ou les brocantes locales pour traquer des pépites introuvables (éditions limitées de cartes Pokémon Wizard, boîtes et displays scellés Lorcana, Sneakers rares en édition très restreinte, ou tout l'écosystème du Rétrogaming et jouets Vintage), l'immensité de son flux d'enchères constantes changera clairement la donne pour acquérir de telles merveilles.</p><br/><p>Bien que particulièrement réputée pour son flux impressionnant de streamers vendeurs venant outre-atlantique (qui ouvrent d'incroyables opportunités d'imports pour la revente spéculative), une scène foisonnante de marchands professionnels européens sérieux est désormais redoutablement implantée et livre très rapidement. De plus, son ergonomie propose de façon très régulière <strong>des participations gratuites aux fameux \"Giveaways\" </strong>, autorisant ainsi de rafler des cartes Magic ou Yu-Gi-Oh! avec un brin de chance chance au tirage sans débourser un seul et unique centime !</p><br/><p>Face aux frais de ports logiquement plus impliquant lors d'importations lointaines américaines (sujettes parfois aux frais de douanes), il est judicieusement impératif de se plier à une petite astuce d'origine d'enregistrement : <strong>pensez foncièrement à opérer la démarche de création du compte affilié via un bon lien de parrainage (Whatnot promo referral)</strong>, un joli montant d’achat gratuit – souvent très généreux et libellé en devise étrangère (environ dix à quinze dollars offerts) – viendra opportunément alléger considérablement l'enveloppe finale financière pesant sur votre tout premier encan ou enchère fracassante.</p>"
+    },
+    "steps": [
+      {
+        "title": "Passez par le lien",
+        "description": "Pour obtenir le bonus d'inscription sans encombre, il est primordial de cliquer sur notre lien d'invitation depuis votre téléphone. Cela garantit le suivi de la promotion."
+      },
+      {
+        "title": "Créez votre profil",
+        "description": "Renseignez vos informations de base et choisissez vos centres d'intérêts principaux (ex: Pokémon, Sneakers, etc.) pour que l'algorithme vous guide vers les bons marchands."
+      },
+      {
+        "title": "Utilisez votre crédit gratuit",
+        "description": "Vérifiez que le crédit (par exemple, 10$ ou 15€ selon les périodes) est bien visible dans votre portefeuille électronique Whatnot et dépensez-le sur la diffusion en direct de votre choix !"
+      }
+    ]
+  },
+  {
     "id": "14",
+    "name": "Bitstack",
+    "slug": "bitstack",
+    "category": "Crypto",
+    "code": "2zJdvWnVNpanigOU2pFSHtWmV6H",
+    "link": "https://bitstack-app.com/referral/2zJdvWnVNpanigOU2pFSHtWmV6H",
+    "advantage": "5€ offerts en Bitcoin",
+    "description": "Vous voulez épargner et investir en crypto sans vous ruiner ni vous prendre la tête ? Bitstack, startup française enregistrée PSAN auprès de l'AMF, arrondit vos achats bancaires classiques et convertit ce surplus automatiquement en Bitcoin. C'est l'investissement programmé le plus facile de France pour les débutants. Entrez votre code parrain pour démarrer avec des cryptos offertes à l'inscription !",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=bitstack-app.com&sz=128",
+    "faqs": [
+      {
+        "question": "La connexion de Bitstack avec ma banque est-elle risquée ?",
+        "answer": "Pas du tout. Bitstack utilise des partenaires technologiques certifiés par la Banque de France (comme Tink ou Powens) pour lire vos transactions afin de calculer les arrondis. Ils ne peuvent en aucun cas initier des virements ou posséder vos identifiants bancaires. C'est un accès en lecture seule."
+      },
+      {
+        "question": "Que se passe-t-il une fois le code parrain Bitstack renseigné ?",
+        "answer": "Une fois le code '2zJdvWnVNpanigOU2pFSHtWmV6H' validé, vous devez connecter votre compte bancaire et activer l'arrondi automatique. Le bonus en Bitcoin (généralement 5€) sera ensuite crédité sur votre portefeuille Bitstack et vous pourrez le conserver ou le transférer."
+      },
+      {
+        "question": "Comment Bitstack arrondit-il mes achats pour investir en Bitcoin ?",
+        "answer": "Vous reliez votre compte bancaire principal à l'application. Si vous achetez un café à 2,60€ par carte bleue, Bitstack le détecte, arrondit la somme à 3,00€, et prélève les 0,40€ de différence en fin de semaine pour les investir automatiquement en fraction de Bitcoin."
+      },
+      {
+        "question": "Est-ce une plateforme légale et sécurisée en France ?",
+        "answer": "Oui, Bitstack est une société française enregistrée en tant que Prestataire de Services sur Actifs Numériques (PSAN) auprès de l'Autorité des Marchés Financiers (AMF). Elle respecte donc les normes les plus strictes en matière de sécurité bancaire et de lutte contre la fraude."
+      },
+      {
+        "question": "Puis-je retirer mes cryptomonnaies ou mon argent vers ma banque ?",
+        "answer": "Tout à fait. Bitstack vous permet de revendre votre épargne en Bitcoin à tout moment pour la convertir en euros et la récupérer sur votre compte courant (IBAN). Vous pouvez aussi transférer vos Bitcoins vers un portefeuille matériel (cold wallet) si vous êtes un utilisateur avancé."
+      }
+    ],
+    "review": {
+      "pros": [
+        "Investissement en Bitcoin totalement passif via les arrondis de vos achats quotidiens",
+        "Application française enregistrée PSAN auprès de l'AMF pour une sécurité maximale",
+        "Interface épurée et pédagogique pour les débutants en cryptomonnaies",
+        "Possibilité de programmer des achats récurrents (DCA) à partir de quelques euros"
+      ],
+      "longReview": "<p>Bitstack est sans doute la solution la plus simple pour ceux qui souhaitent investir dans le Bitcoin sans y passer des heures. Le concept de <strong>l'arrondi automatique</strong> est brillant : si vous achetez un café à 2,60€, Bitstack arrondit à 3€ et investit les 40 centimes restants pour vous. C'est une méthode indolore qui permet de se constituer un capital au fil du temps.</p><br/><p>En tant qu'acteur français régulé (PSAN), Bitstack offre une <strong>sérénité absolue</strong> quant à la conservation de vos actifs. L'application est conçue pour simplifier au maximum l'expérience utilisateur, loin de la complexité technique des bourses d'échange traditionnelles. En utilisant notre code parrainage lors de votre inscription, vous recevez un bonus de bienvenue directement en Bitcoin pour amorcer votre épargne.</p>"
+    },
+    "steps": [
+      {
+        "title": "Téléchargement de Bitstack",
+        "description": "Allez sur l'application iOS ou sur le Play Store pour récupérer l'appli. Vous pouvez également cliquer sur notre lien d'affiliation depuis votre smartphone."
+      },
+      {
+        "title": "Renseignez le code",
+        "description": "Lors des étapes d'enregistrement de votre numéro et de vos données, restez vigilant : collez le code parrain '2zJdvWnVNpanigOU2pFSHtWmV6H' dans la case adéquate pour valider votre éligibilité à la récompense en euros déposée en Bitcoin."
+      },
+      {
+        "title": "Liez votre banque et activez l'arrondi",
+        "description": "Terminez l'obligation réglementaire standard liée aux KYC (identité), puis connectez votre banque principale via l'agrégateur sécurisé. Cochez l'option d'arrondi sur vos achats et obtenez les primes prévues !"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Poulpeo",
+    "slug": "poulpeo",
+    "category": "Shopping",
+    "code": "YLf4ab",
+    "link": "https://www.poulpeo.com/p/YLf4ab",
+    "advantage": "5€ offerts à l'inscription",
+    "description": "Profitez de 5€ de bienvenue avec mon code de parrainage YLf4ab. 100% Gratuit, Poulpeo récompense tes achats en cashback toute l'année sur plus de 1600 boutiques partenaires.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=poulpeo.com&sz=128",
+    "review": {
+      "pros": [
+        "5€ de bonus immédiat à l'inscription (contre 3€ chez iGraal)",
+        "Cashback en magasin très développé (Poulpeo Instore)",
+        "Application mobile fluide pour activer le cashback sur smartphone",
+        "Retrait des gains dès 10€ accumulés"
+      ],
+      "longReview": "<p>Poulpeo est l'un des piliers du cashback en France, aux côtés d'iGraal et eBuyClub. Sa grande force réside dans son <strong>bonus de bienvenue de 5€</strong>, l'un des plus élevés du marché, qui permet de remplir sa cagnotte très rapidement dès l'inscription.</p><br/><p>L'application se distingue par sa facilité d'utilisation et ses taux souvent très compétitifs, notamment sur la mode et le high-tech. En utilisant le code <strong>YLf4ab</strong>, vous débloquez immédiatement votre prime et pouvez commencer à récupérer de l'argent sur chacun de vos achats en ligne ou en magasin avec Poulpeo Instore.</p>"
+    },
+    "faqs": [
+      {
+        "question": "Comment activer le bonus de 5€ sur Poulpeo ?",
+        "answer": "Il vous suffit de vous inscrire en utilisant le code 'YLf4ab' dans le champ parrainage lors de votre inscription ou de passer par notre lien direct. Le bonus sera crédité sur votre cagnotte dès la validation de votre compte."
+      },
+      {
+        "question": "À partir de quel montant peut-on retirer son argent ?",
+        "answer": "Contrairement à certains concurrents qui imposent 20€, Poulpeo permet de demander un virement bancaire ou PayPal dès que vous avez accumulé 10€ de cashback validé."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Inscription avec code",
+        "description": "Créez votre compte Poulpeo et renseignez le code YLf4ab pour débloquer les 5€ offerts."
+      },
+      {
+        "title": "Activez le cashback",
+        "description": "Avant de faire un achat, passez par l'application ou l'extension Poulpeo pour activer le remboursement."
+      },
+      {
+        "title": "Enclenchez le gain",
+        "description": "Une fois l'achat validé, votre cashback s'ajoute à vos 5€ initiaux. Retirez votre argent dès 10€ !"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "name": "iGraal",
+    "slug": "igraal",
+    "category": "Shopping",
+    "code": "AG_60be4aa258228",
+    "link": "https://fr.igraal.com/parrainage?parrain=AG_60be4aa258228&utm_medium=raf&utm_source=refer_friend",
+    "advantage": "3€ offerts à l'inscription",
+    "description": "iGraal est le leader du cashback en France. Le principe est simple : à chaque fois que vous achetez sur internet (Cdiscount, ASOS, Nike, Booking...), iGraal vous reverse une partie du montant de votre commande directement sur votre cagnotte. C'est de l'argent réel que vous pouvez ensuite virer sur votre compte bancaire ou PayPal dès 20€ cumulés.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=igraal.com&sz=128",
+    "review": {
+      "pros": [
+        "Plus de 1700 marchands partenaires dans tous les domaines (Mode, Voyage, High-tech...)",
+        "Extension navigateur très pratique qui vous alerte quand un cashback est disponible",
+        "Bonus de bienvenue de 3€ crédité instantanément avec notre lien de parrainage",
+        "Système de coupons de réduction cumulables avec le cashback pour doubler les économies"
+      ],
+      "cons": [
+        "Seuil de paiement fixé à 20€ minimum",
+        "Délai de validation du cashback par les marchands parfois long (plusieurs semaines)"
+      ],
+      "longReview": "<p>Dans l'univers des bons plans en ligne, <strong>iGraal s'impose comme l'outil indispensable pour quiconque souhaite réduire ses dépenses quotidiennes</strong>. Que vous fassiez vos courses, réserviez vos vacances ou renouveliez votre garde-robe, cette plateforme agit comme un véritable porte-monnaie virtuel qui se remplit à chaque clic. L'interface est intuitive et le catalogue de marchands est tout simplement le plus complet du marché français.</p><br/><p>Le point fort d'iGraal reste son <strong>extension pour navigateur</strong>. Elle vous évite d'oublier d'activer votre cashback : dès que vous arrivez sur un site partenaire, un petit bouton apparaît pour valider votre remboursement en un clic. C'est simple, sécurisé et totalement gratuit. Les gains s'accumulent sans effort et le virement vers PayPal ou votre banque est d'une fiabilité exemplaire une fois le seuil des 20€ atteint.</p><br/><p>Pour bien démarrer, n'oubliez pas d'utiliser notre <strong>lien de parrainage exclusif ('AG_60be4aa258228')</strong>. Il vous permet de débloquer immédiatement un bonus de 3€ dans votre cagnotte, vous rapprochant ainsi très vite de votre premier paiement. C'est l'astuce fondamentale pour transformer vos dépenses subies en une source de revenus bienvenue !</p>"
+    },
+    "faqs": [
+      {
+        "question": "Comment activer mon cashback iGraal ?",
+        "answer": "Pour que votre achat soit pris en compte, vous devez cliquer sur le bouton 'En profiter' depuis le site iGraal ou activer l'extension navigateur avant de mettre vos articles au panier. Assurez-vous d'avoir accepté les cookies sur le site du marchand pour que la traçabilité de votre achat soit garantie."
+      },
+      {
+        "question": "Est-ce que iGraal propose des codes promo ?",
+        "answer": "Oui ! En plus du cashback, iGraal répertorie tous les codes promotionnels valides chez les marchands. La plupart sont cumulables avec le cashback, ce qui vous permet de payer moins cher à la commande tout en recevant un remboursement après coup."
+      },
+      {
+        "question": "Quand vais-je recevoir mon argent ?",
+        "answer": "Une fois l'achat effectué, le cashback apparaît en statut 'En attente' dans un délai de 24h à 7 jours. Le marchand doit ensuite confirmer que vous n'avez pas retourné l'article. Cette validation prend généralement entre 1 et 3 mois selon les partenaires."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Inscription et Bonus",
+        "description": "Créez votre compte via notre lien de parrainage pour empocher vos 3€ de bienvenue instantanément."
+      },
+      {
+        "title": "Installez l'Extension",
+        "description": "Ajoutez l'extension iGraal à votre navigateur pour ne jamais rater un remboursement lors de vos achats."
+      },
+      {
+        "title": "Achetez et Cumulez",
+        "description": "Faites vos achats normalement. Votre cagnotte grimpe toute seule et vous pouvez retirer votre argent dès 20€ accumulés."
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "name": "eBuyClub",
+    "slug": "ebuyclub",
+    "category": "Shopping",
+    "code": "contactnacoaching",
+    "link": "https://www.ebuyclub.com/inscription?parrain=contactnacoaching",
+    "advantage": "3€ offerts à l'inscription",
+    "description": "eBuyClub est le challenger historique d'iGraal. Souvent plus généreux sur certains marchands spécifiques, il propose également un système unique de 'Cashback en magasin' grâce à sa carte bancaire connectée. C'est l'outil indispensable pour maximiser ses remboursements en complément des autres plateformes.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ebuyclub.com&sz=128",
+    "review": {
+      "pros": [
+        "Taux de cashback souvent supérieurs à la concurrence sur les grandes marques",
+        "Cashback en magasin (Retail) très développé avec des bons d'achat immédiats",
+        "Paiement ultra-rapide par virement, PayPal ou chèques cadeaux (dès 10€ parfois)",
+        "Bonus de bienvenue de 3€ cumulable avec des offres 'Flash' régulières"
+      ],
+      "cons": [
+        "Interface web un peu moins moderne qu'iGraal",
+        "Extension navigateur parfois un peu moins intuitive"
+      ],
+      "longReview": "<p>Si iGraal est le leader par la taille, <strong>eBuyClub est souvent le leader par la générosité</strong>. Cette plateforme française se bat sur chaque taux pour offrir souvent quelques centimes ou quelques euros de plus que ses concurrents. C'est la raison pour laquelle les 'pros du cashback' utilisent toujours les deux en parallèle pour comparer avant chaque achat.</p><br/><p>La grande force d'eBuyClub, c'est son innovation sur le <strong>cashback physique</strong>. Grâce à leur application, vous pouvez acheter des bons d'achat pour vos courses alimentaires (Carrefour, Auchan...) et recevoir du cashback instantanément. C'est une révolution pour le pouvoir d'achat au quotidien, car cela s'applique sur des dépenses obligatoires et non seulement sur le plaisir en ligne.</p><br/><p>En vous inscrivant avec notre lien <strong>'contactnacoaching'</strong>, vous sécurisez votre bonus de 3€ et accédez à une communauté de chasseurs de bons plans très active. eBuyClub n'est pas juste un site de plus, c'est votre allié numéro 1 pour faire baisser la facture de vos courses hebdomadaires.</p>"
+    },
+    "faqs": [
+      {
+        "question": "Puis-je utiliser iGraal et eBuyClub en même temps ?",
+        "answer": "Vous pouvez avoir des comptes sur les deux, mais pour un achat précis, vous ne pouvez activer qu'un seul cashback. L'astuce est de comparer les taux via leurs extensions respectives et de choisir le plus élevé au moment de payer."
+      },
+      {
+        "question": "Comment fonctionne le cashback en magasin eBuyClub ?",
+        "answer": "Il suffit d'acheter un bon d'achat pour l'enseigne de votre choix (par exemple une carte cadeau Carrefour de 100€) sur eBuyClub. Vous recevez immédiatement votre cashback (ex: 3€) dans votre cagnotte et vous payez vos courses en caisse avec le code barre du bon d'achat reçu."
+      },
+      {
+        "question": "Quel est le seuil de retrait sur eBuyClub ?",
+        "answer": "Le seuil classique est de 10€ pour les chèques cadeaux et souvent 10€ à 20€ pour les virements bancaires ou PayPal, ce qui le rend plus accessible que certains concurrents."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Création du compte",
+        "description": "Inscrivez-vous via notre lien pour activer votre bonus de 3€ immédiatement."
+      },
+      {
+        "title": "Testez le Cashback Magasin",
+        "description": "Essayez d'acheter un bon d'achat pour vos prochaines courses : c'est le gain le plus rapide."
+      },
+      {
+        "title": "Enclenchez l'alerte",
+        "description": "Installez l'extension pour comparer les taux en temps réel avec iGraal lors de votre navigation."
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "name": "WeWard",
+    "slug": "weward",
+    "category": "Jeux & Gains",
+    "code": "AncienIguane5070",
+    "link": "https://wewardapp.go.link/jrcOH?adj_label=AncienIguane5070",
+    "advantage": "50 Wards offerts",
+    "description": "WeWard est l'application numéro 1 en France qui vous récompense pour marcher ! Le principe est simple : plus vous marchez, plus vous accumulez des 'Wards' que vous pouvez ensuite convertir en argent réel par virement bancaire, en cadeaux ou en dons à des associations. Un excellent moyen de rester motivé et de prendre soin de sa santé tout en gagnant de l'argent.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=weward.fr&sz=128",
+    "faqs": [
+      {
+        "question": "Où faut-il rentrer le code de parrainage WeWard AncienIguane5070 ?",
+        "answer": "Une fois l'application WeWard téléchargée et votre compte créé, rendez-vous dans les paramètres de votre profil (l'icône engrenage). Vous y trouverez une section 'Entrer un code de parrainage'. Saisissez-y le code 'AncienIguane5070' pour recevoir instantanément vos 50 Wards de bienvenue gratuits."
+      },
+      {
+        "question": "WeWard permet-il vraiment de gagner de l'argent en marchant ?",
+        "answer": "Oui, tout à fait ! Plus vous marchez, plus vous accumulez des paliers de Wards chaque jour. Vous pouvez également augmenter vos gains en répondant à des sondages ou en validant des défis sur l'application. Une fois un certain seuil de Wards atteint, vous pouvez demander un véritable virement en euros sur votre compte bancaire."
+      },
+      {
+        "question": "Combien de pas faut-il faire pour optimiser ses gains journaliers ?",
+        "answer": "WeWard fonctionne par paliers de récompense. Le palier maximal s'atteint à 20 000 pas par jour, ce qui octroie le plus grand nombre de Wards (la monnaie virtuelle de l'application). Pour récupérer vos gains, il faut impérativement cliquer sur « Valider mes pas » avant minuit."
+      },
+      {
+        "question": "Comment puis-je dépenser l'argent accumulé sur WeWard ?",
+        "answer": "La boutique propose trois options principales : faire un virement bancaire direct en euros (généralement à partir de 20€ cumulés), convertir votre solde en bons d'achat dématérialisés dans de grandes enseignes physiques ou en ligne, ou choisir de faire un don à des associations caritatives."
+      },
+      {
+        "question": "L'application consomme-t-elle beaucoup de batterie avec le GPS ?",
+        "answer": "WeWard s'appuie principalement sur le podomètre physique intégré dans votre téléphone au lieu d'utiliser le tracker GPS en temps réel. Cette ingénierie permet de limiter considérablement la dépense en batterie tout en restant très fiable sur la distance parcourue à pied."
+      }
+    ],
+    "review": {
+      "pros": [
+        "Concept motivant qui encourage l'activité physique quotidienne de manière ludique",
+        "Possibilité de convertir ses gains en virement bancaire direct (cash)",
+        "Défis et challenges réguliers pour booster son solde de Wards",
+        "Application française avec une grande communauté et des partenaires prestigieux"
+      ],
+      "longReview": "<p>WeWard a réussi le pari de transformer une activité banale comme la marche en une source de revenus complémentaire. L'application utilise les capteurs de votre téléphone pour compter vos pas et les valide chaque soir. C'est un <strong>système gagnant-gagnant</strong> : vous améliorez votre santé et vous cumulez un pécule qui grandit jour après jour.</p><br/><p>L'interface est très agréable et propose de nombreuses façons d'accélérer ses gains, que ce soit en visitant des lieux partenaires, en répondant à des sondages ou en relevant des défis sportifs. En utilisant notre code de parrainage exclusif <strong>AncienIguane5070</strong> lors de votre inscription, vous commencez votre aventure avec un bonus de 50 Wards offerts immédiatement !</p>"
+    },
+    "steps": [
+      {
+        "title": "Installez et ouvrez WeWard",
+        "description": "Trouvez et lancez gratuitement la version officielle de WeWard sur la boutique de logiciels mobiles correspondant à votre constructeur (iOS, Android). Créez un profil avec Google ou Apple."
+      },
+      {
+        "title": "Liez le compteur de pas",
+        "description": "Donnez impérativement à l'application fraîchement lancée l'accès à vos données « Santé / Activité Physique » gérées par le téléphone pour détecter mécaniquement la secousse de la marche et les distances parcourues."
+      },
+      {
+        "title": "Insérez le code manuellement",
+        "description": "Dirigez-vous maintenant vers le menu (engrenage) en haut de l'index central de l'écran principal, cliquez spécifiquement l'option 'Saisir un de code de parrainage' et insérez la suite AncienIguane5070. Vos Wards d'encouragement surgiront illico !"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Macadam",
+    "slug": "macadam",
+    "category": "Jeux & Gains",
+    "code": "md2za4",
+    "link": "https://macadam.app/i/md2za4?v=1",
+    "advantage": "1000 Coins offerts",
+    "description": "En concurrence formelle ou d’alternative logique à très en aux mastodontes aux marcher argent, ce joli podomètre ludique et d'esprit amusant (qui donne l'argent en pour vos nombre marcher du pas) s’érige majestueusement en véritable poule ou en aux du de oeufs d'or ! S'allie parfaitement de au coude avec d’autre concurrent : utilisez la et d’ensemble aux sur du même temps l’ efforts pour gagner un d’Euro et par de double parcours très avec sans s’efforts en puces. Utilisez à et ou code macadam  Md2za4 en d'entrées d'app ou gagne de d'abord grand cadeau de dot à et et Coins l'activation !",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=macadam.app&sz=128",
+    "faqs": [
+      {
+        "question": "Où entrer le code de parrainage Macadam md2za4 ?",
+        "answer": "Contrairement à d'autres applications, il est conseillé de renseigner le code d'invitation 'md2za4' dès la création de votre compte Macadam. Si vous avez oublié, vous pouvez toujours vous rendre dans l'onglet 'Réglages' (la petite roue crantée) dans les 48 heures suivant l'installation pour l'ajouter et recevoir vos 1000 Coins."
+      },
+      {
+        "question": "Peut-on utiliser Macadam et WeWard en même temps ?",
+        "answer": "Absolument, et c'est même la stratégie la plus rentable ! Étant donné que les deux applications utilisent les capteurs de santé natifs de votre téléphone (Apple Health ou Google Fit) pour compter vos pas, vous pouvez 'valider' vos kilomètres sur les deux plateformes de manière totalement indépendante et ainsi doubler vos gains."
+      },
+      {
+        "question": "Peut-on être rémunéré pour d'autres sports que la marche ?",
+        "answer": "Son cœur de métier reste le comptage du nombre de pas quotidiens. Cependant, l'application Macadam prend l'initiative d'évaluer vos efforts si vous pratiquez la course à pied (running), ce qui accélérera la croissance de votre nombre de pas de façon extrêmement efficace."
+      },
+      {
+        "question": "Le compteur de marche fonctionne-t-il sur un tapis de course ?",
+        "answer": "Oui. À l'instar des meilleures applications podomètres, Macadam détecte les rebonds physiques de votre téléphone dans votre poche pour quantifier une foulée, peu importe que le décor autour de vous soit statique. Un tapis de course comptabilisera vos kilomètres de façon fiable."
+      },
+      {
+        "question": "Quels sont les avantages de scanner le code de parrainage à l'inscription ?",
+        "answer": "Entrer un code affilié lors de votre création de compte va garnir d'entrée de jeu votre solde d'un magot de « Coins » (environ la valeur de milliers de pas initiaux offets d'un coup). C'est fortement recommandé pour raccourcir le délai vers votre tout premier retrait bancaire ou PayPal."
+      }
+    ],
+    "review": {
+      "pros": [
+        "Interface fluide et ludique avec un système de progression motivant",
+        "Défis communautaires pour gagner des bonus de Coins",
+        "Seuil de paiement accessible et virements bancaires fiables",
+        "Totalement compatible avec les autres applications de marche (cumul de gains)"
+      ],
+      "longReview": "<p>Macadam s'est rapidement imposée comme une alternative sérieuse aux leaders du marché de la marche rémunérée. L'application mise sur un aspect social et ludique très réussi, où chaque kilomètre parcouru vous rapproche d'un gain concret. C'est l'outil parfait pour transformer vos trajets quotidiens ou vos promenades dominicales en une petite cagnotte qui grandit sans effort.</p><br/><p>Le fonctionnement est transparent et sécurisé. L'application récupère vos pas via Google Fit ou Apple Health sans jamais vider votre batterie. En utilisant notre code de parrainage exclusif <strong>md2za4</strong> lors de votre inscription, vous recevez un bonus de 1000 Coins offerts immédiatement, vous projetant directement vers votre premier retrait bancaire.</p>"
+    },
+    "steps": [
+      {
+        "title": "Obtenir l'application gratuite",
+        "description": "Passez virtuellement par la logithèque (Apple Store, Google Play) afin d'importer localement Macadam sur l'écran d'accueil principal, et procédez prudemment aux formalités classiques et usuelles d’identification."
+      },
+      {
+        "title": "Autorisations de lectures biométriques",
+        "description": "La pop-up de consentement va s'entrouvrir pour réclamer expressément un accord clair pour consulter l'APIs du capteur d'accélération. Validez ces clauses nécessaires sans le moindre compromis, la captation des points est corrélée à cette technique !"
+      },
+      {
+        "title": "Saisie formelle aux réglages",
+        "description": "Cliquez au bas du menu principal ou l'icône évoquant un rouage/réglage. Insérez soigneusement l'indicateur alpha-numérique officiel ('md2za4') du bonus affilié. Bravo, 1000 formidables Coins viendront instantanément renflouer d'office les caisses de l'avatar."
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Moonwalk",
+    "slug": "moonwalk",
+    "category": "Jeux & Gains",
+    "code": "64D2YYEC",
+    "link": "https://moonwalkapp.onelink.me/BanJ/xfxyqy5x",
+    "advantage": "600 Mooncoins offerts",
+    "description": "Moonwalk est une application innovante qui allie activité physique et avantages concrets. En marchant quotidiennement, vous accumulez des 'Mooncoins' que vous pouvez échanger contre des virements bancaires ou des cartes cadeaux. Avec son interface soignée et ses défis motivants, Moonwalk est l'outil idéal pour rester actif et être récompensé pour ses efforts.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=moonwalk.app&sz=128",
+    "faqs": [
+      {
+        "question": "Où entrer le code d'invitation Moonwalk 64D2YYEC ?",
+        "answer": "Après avoir téléchargé l'application Moonwalk et créé votre compte, allez dans l'onglet 'Profil' (en bas à droite), puis cliquez sur 'Parrainage'. Vous pourrez alors entrer le code '64D2YYEC' pour que vos 600 Mooncoins soient immédiatement crédités sur votre solde."
+      },
+      {
+        "question": "Moonwalk paie-t-il vraiment ses utilisateurs ?",
+        "answer": "Oui, Moonwalk est une application française très sérieuse. Dès que vous atteignez l'équivalent de 10 euros en Mooncoins en marchant tous les jours, vous pouvez demander un virement bancaire classique (SEPA) qui arrive généralement sous 48 à 72 heures."
+      },
+      {
+        "question": "Comment Moonwalk se différencie concrètement des autres podomètres iOS/Android ?",
+        "answer": "Outre son agréable ambiance visuelle intergalactique, la particularité de Moonwalk est de se concentrer sur des objectifs très clairs tout en proposant des paliers de retraits financiers (via virement IBAN ou carte cadeau) particulièrement avantageux pour récompenser rapidement l'effort."
+      },
+      {
+        "question": "Le versement de cet argent sur mon compte bancaire pose-t-il un problème de sécurité ?",
+        "answer": "Pas le moins du monde. Ce projet porté par une structure réglementée n'associe pas votre IBAN à une procédure de prélèvement. L'interface financière s'en sert uniquement comme d'un point de chute ciblé pour effectuer un ordre de libération des gains lorsque vous les réclamez."
+      },
+      {
+        "question": "Y a-t-il un plafond maximum de pas pris en compte pour éviter la triche ?",
+        "answer": "Puisque de nombreux algorithmes et de fausses machines physiques tentent de biaiser le monde des podomètres pour s'enrichir, Moonwalk se réserve le droit de plafonner prudemment la valorisation des pas journaliers à environ 10 000 par jour afin de privilégier les vrais utilisateurs."
+      }
+    ],
+    "review": {
+      "pros": [
+        "Interface moderne et futuriste très plaisante à utiliser au quotidien",
+        "Objectifs de pas clairs et système de récompense gratifiant",
+        "Paiements rapides et transparents via virement bancaire",
+        "Application développée par une équipe française dynamique"
+      ],
+      "longReview": "<p>Moonwalk apporte une touche de fraîcheur au segment des podomètres rémunérés. Avec son ambiance visuelle 'spatiale', l'application transforme vos objectifs de santé en une véritable mission intergalactique. C'est une application sérieuse, éditée en France, qui respecte ses engagements de paiement et offre une expérience utilisateur premium loin des clones publicitaires.</p><br/><p>Le système de parrainage de Moonwalk est particulièrement avantageux pour les nouveaux explorateurs. En renseignant le code <strong>64D2YYEC</strong> lors de la création de votre compte, vous recevez un bonus de 600 Mooncoins. C'est un coup de pouce immédiat qui vous rapproche significativement de votre premier retrait d'argent réel tout en vous motivant à franchir vos premiers 10 000 pas.</p>"
+    },
+    "steps": [
+      {
+        "title": "En route vers Moonwalk",
+        "description": "Employez sagement le lien ou l'accès aux boutiques (les fameux AppStore Apple/Google Play) pour rapatrier sur vos écrans personnels les toutes premières implémentation mobiles officielles logicielles estampillées Moonwalk."
+      },
+      {
+        "title": "Connexion sécurisée en soute",
+        "description": "Effectuez paisiblement une banale routine obligatoire d’inscription logicielle : adressez une adresse valide pour héberger son porte-monnaie spatial ou souscrivez avec vos identités virtuelles sécurisées. Activez inéluctablement le partage de géodonnées de base (pas)."
+      },
+      {
+        "title": "Injection massive des réacteurs",
+        "description": "Saisissez rapidement un petit laps de navigation en tapotant le pavé 'Profil' en base de navigation droite. Cherchez avec attention le panel 'Parrainage'. Dégainez promptement cette suite magique '64D2YYEC', validez fermement : 600 jolis Mooncoins explosent prodigieusement votre tableau de bord."
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Pawns App",
+    "slug": "pawns-app",
+    "category": "Jeux & Gains",
+    "code": "7328575",
+    "link": "https://pawns.app/?r=7328575",
+    "advantage": "3$ offerts au démarrage",
+    "description": "Transformez votre connexion internet dormante en véritables euros ou coupons cadeaux. Avec Pawns App (ancienne connue sous IPRoyal), vous gagnez de l'argent sur internet de manière 100% passive et sécurisée. Possibilité de répondre à des sondages rémunérés pour atteindre plus vite le seuil de retrait extra-rapide fixé à 5$ (via versement PayPal).",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=pawns.app&sz=128",
+    "faqs": [
+      {
+        "question": "Pawns App est-elle une application sécurisée ?",
+        "answer": "Oui, Pawns App se contente d'utiliser la bande passante internet inactive. Elle n'a aucun accès à vos fichiers personnels, vos données de navigation ou vos mots de passe. C'est une méthode de revenu passif transparente qui alimente des réseaux proxy d'entreprise sécurisés."
+      },
+      {
+        "question": "À partir de quel montant peut-on retirer ses gains sur Pawns App ?",
+        "answer": "Le seuil de paiement sur Pawns App est très bas, fixé à seulement 5$. Une fois ce montant atteint, vous pouvez retirer votre argent via PayPal, crypto-monnaies (Bitcoin) ou obtenir des cartes cadeaux virtuelles. L'utilisation du code d'invitation 7328575 vous donne une avance dès l'inscription."
+      },
+      {
+        "question": "La location de ma bande passante va-t-elle ralentir ma connexion internet ?",
+        "answer": "Non, Pawns App est conçu pour être particulièrement peu gourmand et transparent pour l'utilisateur. Le logiciel n'utilise qu'une fraction négligeable de votre bande passante excédentaire, ce qui n'aura aucun impact visible sur vos téléchargements ou le streaming."
+      },
+      {
+        "question": "Est-ce que l'application consulte mes données personnelles ?",
+        "answer": "Absolument pas. Pawns App utilise votre adresse IP uniquement pour router du trafic crypté (similaire à un VPN d'entreprise) pour que leurs clients puissent réaliser des études de marché géolocalisées. Le logiciel n'a aucun accès à vos fichiers personnels, mots de passe ou historiques de navigation."
+      },
+      {
+        "question": "Quel est le moyen le plus rapide de récupérer mon argent gagné ?",
+        "answer": "Le seuil de retrait est fixé à 5$ seulement. Une fois cette somme atteinte, vous pouvez demander un encaissement direct vers votre compte PayPal. Le traitement est généralement opéré très rapidement, sans frais cachés."
+      }
+    ],
+    "review": {
+      "pros": [
+        "Un moyen de gagner de l'argent sur internet 100 % passif de rémunération garantit silencieusement par simple location de votre bande passante internet inexploitée",
+        "Retrait quasi-immédiat grâce à un seuil à débloquer extrêmement bas (Payout à hauteur de 5$ très faciles à récolter)",
+        "Complétez vos confortables gains avec des sondages rémunérés ludiques pour maximiser le montant de vos cash-out de pécules virtuels",
+        "Multi-appareils total : installez le bot sans danger et légalement sur vos différents téléphones mobiles, et vos PC maison/travail sur des IP variées distinctes"
+      ],
+      "longReview": "<p>La promesse mirobolante d'un revenu véritablement inactif ou d'un apport monétaire gratuit circule en permanence aux détours des vidéos web aguicheuses sur les astuces pécuniaires pour gagner de l’argent, pourtant, <strong>Pawns App (qui a brillamment succédée au système très novateur IPRoyal Pawns) figure au sein du très sélect giron de plateformes fiables délivrant de façon réelle et concrète des dividendes sonnants sous format financier</strong> pour simplement avoir laissé ce micro logiciel de tâche de fond mouliner !</p><br/><p>L'utilisation ingénieuse du programme louant simplement une portion dormante de votre accès internet au profit et service exclusif d’infrastructures web des entreprises majeures cherchant à établir un routage d'identification d’études ou de streaming, cette fameuse manne s’annonce complètement anonyme, et indolore au niveau performance pour qui utilise l'installation d’arrière plan que les navigateurs. Pensez astucieusement et massivement à <strong>étendre de la base d'installation en implantant Pawns App légalement sur autant d’équipements que disponibles comportant leur propres abonnements IP internet</strong> afin d'orchestrer la spectaculaire évolution de la croissance de solde numérique passive de ce bot.</p><br/><p>On accordera une acclamation pour l’extrême souplesse et simplicité logistique quantifiée vis-à-vis des transferts pécuniaires inhérente à cette organisation très lucrative (cash-out minime limité à seuil inébranlable frôlant les 5 minuscules Dollars atteignables !). L'option très pragmatique et judicieuse consistera indubitablement, au grand démarrage des hostilités, d'employer <strong>notre robuste code de l’invitation (parrainage) qui octroiera illico une dot ou base pécule dès l’amorce</strong> permettant de précipiter ardemment l’encaissement d’enveloppe via virement Paypal ou du réseau Bitcoin crypto.</p>"
+    },
+    "steps": [
+      {
+        "title": "Installation de l'application",
+        "description": "Utilisez le lien d'invitation et téléchargez le logiciel léger Pawns App sur votre ordinateur (Windows/Mac) ou l'application sur votre smartphone (Android/iOS)."
+      },
+      {
+        "title": "Saisie de votre code boost",
+        "description": "Lors de la création de votre compte, assurez-vous d'entrer le code '7328575' (s'il n'est pas déjà pré-rempli grâce au lien d'affiliation) afin de recevoir immédiatement un bonus financier de départ."
+      },
+      {
+        "title": "Laissez la magie opérer",
+        "description": "Activez le partage dans les réglages et laissez simplement l'application tourner en tâche de fond. Vous pouvez également remplir quelques de formulaires courts (sondages) disponibles dans l'app pour débloquer votre retrait PayPal plus vite."
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Swagbucks",
+    "slug": "swagbucks",
+    "category": "Shopping",
+    "code": "rb=230806763",
+    "link": "https://www.swagbucks.com/p/register?rb=230806763",
+    "advantage": "300 SB offerts (≈3€)",
+    "description": "Swagbucks est la plateforme mondiale leader pour gagner de l'argent en ligne. Cumulez des 'SB' en répondant à des sondages, en testant des jeux ou en faisant vos achats, et convertissez-les en cash PayPal ou cartes cadeaux Amazon.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=swagbucks.com&sz=128",
+    "review": {
+      "pros": [
+        "Plateforme extrêmement fiable avec des millions de dollars reversés",
+        "Options de retrait variées (PayPal, Amazon, Zalando...)",
+        "Nombreuses façons de gagner (sondages, jeux, vidéos, cashback)",
+        "Bonus de parrainage attractif pour les nouveaux membres"
+      ],
+      "longReview": "<p>Swagbucks est le géant incontesté du 'Get Paid To' (GPT). Si vous cherchez un moyen sérieux et durable de générer un complément de revenu sur votre temps libre, c'est l'outil indispensable. Sa polyvalence est sa plus grande force : vous pouvez gagner de l'argent aussi bien en donnant votre avis sur des produits qu'en profitant de remises cashback sur vos achats habituels.</p><br/><p>L'interface est très complète et propose des objectifs quotidiens qui boostent vos gains. En vous inscrivant via notre lien de parrainage, vous intégrez une communauté active et bénéficiez des meilleures offres de bienvenue. C'est le partenaire idéal de Scrambly ou Pawns App pour maximiser vos revenus passifs et actifs chaque mois.</p>"
+    },
+    "faqs": [
+      {
+        "question": "Comment maximiser ses gains sur Swagbucks ?",
+        "answer": "Le secret est la régularité. Complétez la 'Daily List' (liste quotidienne) pour obtenir des bonus de SB supplémentaires. Concentrez-vous également sur les offres de jeux et le cashback pour les gains les plus importants."
+      },
+      {
+        "question": "Est-ce que Swagbucks est disponible en France ?",
+        "answer": "Oui, Swagbucks est entièrement disponible en France. La plupart des sondages et des offres de cashback sont localisés pour le marché français, tout comme les récompenses (cartes cadeaux enseignes françaises)."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Création du compte",
+        "description": "Utilisez notre lien d'invitation pour vous inscrire et valider votre adresse e-mail."
+      },
+      {
+        "title": "Complétez votre profil",
+        "description": "Remplissez les informations de profil pour recevoir des sondages correspondants à vos centres d'intérêt."
+      },
+      {
+        "title": "Encaissez vos SB",
+        "description": "Accumulez vos premiers SB et échangez-les dès 5€ ou 10€ contre du cash ou des cadeaux."
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Scrambly",
+    "slug": "scrambly",
+    "category": "Jeux & Gains",
+    "code": "qeKBFa",
+    "link": "https://go.scrambly.io/qeKBFa",
+    "advantage": "Bonus cash immédiat",
+    "description": "Transformez vos pas quotidiens en revenus réels avec Scrambly. Oubliez les processus compliqués : cette application ludique agit comme un podomètre rémunérateur qui convertit votre marche en argent cash retiré instantanément vers PayPal. Inscrivez-vous avec notre code bonus pour un coup de boost immédiat.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=scrambly.io&sz=128",
+    "faqs": [
+      {
+        "question": "Les gains sur Scrambly sont-ils transférables sur PayPal ?",
+        "answer": "Totalement. Scrambly se démarque par ses virements très rapides. Dès que vous atteignez le montant minimum requis, vous pouvez demander un paiement qui arrive instantanément sur votre compte PayPal, sans frais cachés. Pensez à utiliser le lien contenant 'qeKBFa' pour démarrer avec un léger avantage."
+      },
+      {
+        "question": "Est-ce que Scrambly est vraiment une application qui rémunère la marche ?",
+        "answer": "Scrambly a d'abord été conçue comme une plateforme pour gagner de l'argent en testant des applications et des jeux, mais elle inclut dorénavant des défis liés à la marche et au fitness. Elle compte vos pas tout au long de la journée pour vous récompenser avec sa monnaie virtuelle."
+      },
+      {
+        "question": "Puis-je utiliser Scrambly en même temps que WeWard ou Macadam ?",
+        "answer": "Oui, c'est l'un des gros avantages ! Vous pouvez accumuler les gains provenant de plusieurs applications de marche simultanément. Elles puisent toutes leurs informations dans l'outil interne de votre téléphone (Apple Health ou Google Fit) sans créer de conflits informatiques."
+      },
+      {
+        "question": "Comment convertir mes récompenses en argent réel ?",
+        "answer": "Une fois que vous avez complété assez de missions ou de kilomètres, Scrambly vous permet d'échanger vos jetons internes contre un versement instantané vers PayPal. Le retrait est très rapide, permettant de profiter de votre pécule quasiment dans la minute."
+      }
+    ],
+    "review": {
+      "pros": [
+        "Gagnez de l'argent en marchant grâce à un compteur de pas natif, fiable et économe en batterie",
+        "Seuil de paiement extrêmement bas et retraits PayPal d'une rapidité redoutable (traitement en minutes)",
+        "Complètement cumulable avec d'autres applications de marche (WeWard, Macadam) pour doubler vos gains de kilomètres",
+        "Options et missions secondaires lucratives disponibles directement via le navigateur web mobile sans installation lourde"
+      ],
+      "longReview": "<p>Dans le domaine très convoité des applications qui rémunèrent l'activité physique, <strong>Scrambly s'affirme brillamment comme une solution extrêmement rapide pour gagner de l'argent en marchant</strong>. Si vous cherchez un podomètre rémunérateur fiable qui ne vide pas la batterie de votre téléphone avec le GPS, l'interface sécurisée de Scrambly convertit vos pas quotidiens et vos kilomètres arpentés en monnaie sonnante et trébuchante de manière totalement transparente.</p><br/><p>Le véritable tour de force de l'écosystème Scrambly réside incontestablement dans <strong>la vélocité hallucinante de ses paiements par virement PayPal</strong>. Fini les attentes interminables de plusieurs semaines ou mois pour récupérer vos gains d'effort : dès que le petit seuil de retrait est coché, l'argent est transféré sur votre compte quasiment en temps réel. De plus, <em>le compteur de pas en arrière-plan se cumule sans aucune interférence avec vos autres applications de santé ou podomètres concurrents</em>, doublant méticuleusement vos revenus sur un seul et même trajet !</p><br/><p>Pour optimiser au maximum vos efforts et raccourcir drastiquement le temps nécessaire avant votre déblocage de premier retrait d'argent cash, inscrivez-vous impérativement <strong>via le lien de parrainage Scrambly ('qeKBFa') ou le code promo d'invitation initial</strong>. Cette astuce ajoute instantanément un véritable pécule bonus de bienvenue à votre solde vierge, vous offrant un formidable avantage d'avance avant même d'avoir enfilé vos chaussures de marche et entamé votre foulée !</p>"
+    },
+    "steps": [
+      {
+        "title": "Créer un profil Scrambly",
+        "description": "Suivez notre lien d'invitation 'qeKBFa'. Étant donné qu'il n'y a pas d'application native partout, la simple connexion web depuis le navigateur de votre smarphone suffit (Chrome, Safari)."
+      },
+      {
+        "title": "Autorisez le suivi d'activité",
+        "description": "Pour que Scrambly puisse constater avec certitude que vous avez bien installé et essayé les jeux, il est crucial d'activer l'option 'Autoriser le suivi' que vos appareils mobiles demandent au démarrage des nouvelles applications."
+      },
+      {
+        "title": "Lancez votre 1er jeu et encaissez",
+        "description": "Parmi la liste proposée (triée par affinités), appuyez sur 'Earn'. Installez le jeu imposé. Jouez une simple dizaine de minutes jusqu'au palier requis, revenez sur Scrambly et demandez immédiatement votre premier paiement express validé vers Paypal !"
+      }
+    ]
+  },
+  {
+    "id": "24",
     "name": "MyProtein",
     "slug": "myprotein",
     "category": "Shopping",
@@ -796,7 +1304,7 @@
     ]
   },
   {
-    "id": "15",
+    "id": "25",
     "name": "Dott",
     "slug": "dott",
     "category": "Shopping",
@@ -852,315 +1360,7 @@
     ]
   },
   {
-    "id": "16",
-    "name": "Uber Eats",
-    "slug": "uber-eats",
-    "category": "Shopping",
-    "code": "eats-zl6yno",
-    "link": "https://ubereats.com/feed?promoCode=eats-zl6yno",
-    "advantage": "10€ offerts",
-    "description": "Est-il encore nécessaire de présenter Uber Eats ? L'application de livraison de repas à domicile numéro 1 en France. Que ce soit pour une soirée pizza, des sushis improvisés ou même pour faire vos courses de dernière minute au supermarché du coin, le service est ultrarapide. Bonne nouvelle si vous n'avez pas encore de compte : notre code parrain vous offre une très belle réduction de 10€ sur votre toute première commande !",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=ubereats.com&sz=128",
-    "review": {
-      "pros": [
-        "Catalogue de restaurants gargantuesque, y compris les petits commerces locaux",
-        "Livraison extrêmement rapide dans les grandes agglomérations",
-        "Possibilité de se faire livrer des courses de supermarché",
-        "Interface fluide avec suivi GPS du livreur en direct"
-      ],
-      "cons": [
-        "Frais de service et de livraison qui font vite grimper l'addition finale",
-        "Les prix des plats sont souvent majorés par rapport à un achat sur place"
-      ],
-      "longReview": "<p>On ne présente presque plus Uber Eats, l'acteur hégémonique de la livraison de repas à domicile en France. Qu'il s'agisse d'une envie de sushis un dimanche soir pluvieux, de burgers à la pause déjeuner au bureau, ou même de courses d'appoint un jour férié, <strong>Uber Eats possède de loin la plus grande variété d'offres</strong> grâce à ses dizaines de milliers de restaurants partenaires.</p><br/><p>L'expérience utilisateur frôle la perfection : votre position est détectée, les temps estimés d'arrivée sont généralement précis, et <strong>le suivi en temps réel du livreur sur la carte</strong> apporte un confort évident. La fonctionnalité de livraison à la porte (pratique en télétravail ou sans contact) est aussi très appréciable.</p><br/><p>Cependant, le service a un coût notable (frais de livraison + frais de service + éventuelle majoration des prix initiaux). C'est pourquoi <strong>profiter d'un code de parrainage de 10€ pour sa première commande</strong> est essentiel. Cela permet d'absorber intégralement ces frais annexes et de savourer un bon plat chez soi, souvent pour moins cher que si l'on s'était déplacé au restaurant !</p>"
-    },
-    "steps": [
-      {
-        "title": "Installation de l'app",
-        "description": "Téléchargez l'application Uber Eats sur l'App Store ou Google Play, ou inscrivez-vous directement sur leur site web."
-      },
-      {
-        "title": "Saisie du code promo",
-        "description": "Avant même de choisir votre restaurant, allez dans votre compte, rubrique 'Promotions' et saisissez le code de parrainage eats-zl6yno. La pastille -10€ apparaîtra instantanément."
-      },
-      {
-        "title": "Passez votre première commande",
-        "description": "Faites votre choix de repas ! Au moment du paiement, assurez-vous que la promotion de 10€ de bienvenue soit bien cochée et appliquée sur le total de votre panier."
-      }
-    ],
-    "faqs": [
-      {
-        "question": "Comment utiliser le code promo Uber Eats eats-zl6yno ?",
-        "answer": "Pour profiter des 10€ de réduction, téléchargez l'application Uber Eats et créez un nouveau profil. Au moment de valider votre première commande (dans le panier), cherchez la section 'Ajouter un code promo' et saisissez 'eats-zl6yno'. La réduction s'appliquera instantanément sur le montant total."
-      },
-      {
-        "question": "Le code de parrainage Uber Eats est-il cumulable avec d'autres offres ?",
-        "answer": "Généralement, le bonus de 10€ réservé aux nouveaux utilisateurs (filleuls) ne peut pas être cumulé avec un autre code promotionnel classique sur la même commande. Cependant, il fonctionne très bien sur les restaurants proposant déjà des offres internes du type '1 acheté = 1 offert'."
-      }
-    ]
-  },
-  {
-    "id": "17",
-    "name": "iGraal",
-    "slug": "igraal",
-    "category": "Shopping",
-    "code": "AG_60be4aa258228",
-    "link": "https://fr.igraal.com/parrainage?parrain=AG_60be4aa258228&utm_medium=raf&utm_source=refer_friend",
-    "advantage": "3€ offerts à l'inscription",
-    "description": "iGraal est le leader du cashback en France. Le principe est simple : à chaque fois que vous achetez sur internet (Cdiscount, ASOS, Nike, Booking...), iGraal vous reverse une partie du montant de votre commande directement sur votre cagnotte. C'est de l'argent réel que vous pouvez ensuite virer sur votre compte bancaire ou PayPal dès 20€ cumulés.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=igraal.com&sz=128",
-    "review": {
-      "pros": [
-        "Plus de 1700 marchands partenaires dans tous les domaines (Mode, Voyage, High-tech...)",
-        "Extension navigateur très pratique qui vous alerte quand un cashback est disponible",
-        "Bonus de bienvenue de 3€ crédité instantanément avec notre lien de parrainage",
-        "Système de coupons de réduction cumulables avec le cashback pour doubler les économies"
-      ],
-      "cons": [
-        "Seuil de paiement fixé à 20€ minimum",
-        "Délai de validation du cashback par les marchands parfois long (plusieurs semaines)"
-      ],
-      "longReview": "<p>Dans l'univers des bons plans en ligne, <strong>iGraal s'impose comme l'outil indispensable pour quiconque souhaite réduire ses dépenses quotidiennes</strong>. Que vous fassiez vos courses, réserviez vos vacances ou renouveliez votre garde-robe, cette plateforme agit comme un véritable porte-monnaie virtuel qui se remplit à chaque clic. L'interface est intuitive et le catalogue de marchands est tout simplement le plus complet du marché français.</p><br/><p>Le point fort d'iGraal reste son <strong>extension pour navigateur</strong>. Elle vous évite d'oublier d'activer votre cashback : dès que vous arrivez sur un site partenaire, un petit bouton apparaît pour valider votre remboursement en un clic. C'est simple, sécurisé et totalement gratuit. Les gains s'accumulent sans effort et le virement vers PayPal ou votre banque est d'une fiabilité exemplaire une fois le seuil des 20€ atteint.</p><br/><p>Pour bien démarrer, n'oubliez pas d'utiliser notre <strong>lien de parrainage exclusif ('AG_60be4aa258228')</strong>. Il vous permet de débloquer immédiatement un bonus de 3€ dans votre cagnotte, vous rapprochant ainsi très vite de votre premier paiement. C'est l'astuce fondamentale pour transformer vos dépenses subies en une source de revenus bienvenue !</p>"
-    },
-    "faqs": [
-      {
-        "question": "Comment activer mon cashback iGraal ?",
-        "answer": "Pour que votre achat soit pris en compte, vous devez cliquer sur le bouton 'En profiter' depuis le site iGraal ou activer l'extension navigateur avant de mettre vos articles au panier. Assurez-vous d'avoir accepté les cookies sur le site du marchand pour que la traçabilité de votre achat soit garantie."
-      },
-      {
-        "question": "Est-ce que iGraal propose des codes promo ?",
-        "answer": "Oui ! En plus du cashback, iGraal répertorie tous les codes promotionnels valides chez les marchands. La plupart sont cumulables avec le cashback, ce qui vous permet de payer moins cher à la commande tout en recevant un remboursement après coup."
-      },
-      {
-        "question": "Quand vais-je recevoir mon argent ?",
-        "answer": "Une fois l'achat effectué, le cashback apparaît en statut 'En attente' dans un délai de 24h à 7 jours. Le marchand doit ensuite confirmer que vous n'avez pas retourné l'article. Cette validation prend généralement entre 1 et 3 mois selon les partenaires."
-      }
-    ],
-    "steps": [
-      {
-        "title": "Inscription et Bonus",
-        "description": "Créez votre compte via notre lien de parrainage pour empocher vos 3€ de bienvenue instantanément."
-      },
-      {
-        "title": "Installez l'Extension",
-        "description": "Ajoutez l'extension iGraal à votre navigateur pour ne jamais rater un remboursement lors de vos achats."
-      },
-      {
-        "title": "Achetez et Cumulez",
-        "description": "Faites vos achats normalement. Votre cagnotte grimpe toute seule et vous pouvez retirer votre argent dès 20€ accumulés."
-      }
-    ]
-  },
-  {
-    "id": "18",
-    "name": "Coinbase",
-    "slug": "coinbase",
-    "category": "Crypto",
-    "code": "92UZVUP",
-    "link": "https://coinbase.com/join/92UZVUP?src=ios-link",
-    "advantage": "10€ en Bitcoin offerts",
-    "description": "Coinbase est la plateforme de référence pour faire ses premiers pas dans le monde des crypto-monnaies. Cotée en bourse au NASDAQ, c'est l'une des plateformes les plus sécurisées et les plus simples d'utilisation pour acheter, vendre et stocker vos premiers Bitcoins, Ethereum et des centaines d'autres jetons. Leur interface 'Apprentissage' vous permet même de gagner des cryptos gratuitement en répondant à de simples quiz.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=coinbase.com&sz=128",
-    "review": {
-      "pros": [
-        "Interface extrêmement simple, idéale pour les débutants castrés par la technique",
-        "Sécurité de niveau institutionnel et régulation stricte (cotations en bourse US)",
-        "Programme 'Learn and Earn' pour gagner de la crypto gratuitement en apprenant",
-        "Carte bancaire Visa Coinbase pour dépenser ses cryptos dans la vie réelle"
-      ],
-      "cons": [
-        "Frais de transaction un peu plus élevés que sur des plateformes 'Pro'",
-        "Processus de vérification d'identité (KYC) obligatoire et complet"
-      ],
-      "longReview": "<p>S'il existe une porte d'entrée royale pour découvrir l'économie numérique, c'est incontestablement <strong>Coinbase</strong>. Là où d'autres plateformes perdent l'utilisateur sous des graphiques complexes, Coinbase mise sur une expérience épurée, proche d'une application bancaire classique. C'est l'outil parfait pour acheter ses premiers 10€ de Bitcoin sans stress.</p><br/><p>Le véritable génie de la plateforme réside dans son programme <strong>Coinbase Learning</strong>. Imaginez être payé pour apprendre ! En regardant de courtes vidéos sur de nouvelles technologies crypto, vous recevez directement des jetons dans votre portefeuille. C'est la méthode idéale pour amorcer son capital sans injecter d'argent personnel au début.</p><br/><p>En utilisant notre <strong>lien de parrainage exclusif ('92UZVUP')</strong>, vous bénéficiez d'un bonus de bienvenue en Bitcoin dès votre premier achat. C'est un coup de pouce immédiat qui vient s'ajouter à la sécurité d'une plateforme mondialement reconnue. Avec Coinbase, vous n'achetez pas seulement de la crypto, vous investissez sereinement dans l'avenir financier.</p>"
-    },
-    "faqs": [
-      {
-        "question": "Est-ce que Coinbase est adapté aux débutants ?",
-        "answer": "Oui, c'est sa force principale. L'application est conçue pour être aussi simple qu'une application de banque en ligne. Vous pouvez acheter vos premières cryptos par carte bancaire ou virement SEPA en quelques minutes seulement."
-      },
-      {
-        "question": "Comment gagner de la crypto gratuite sur Coinbase ?",
-        "answer": "Une fois votre compte validé, rendez-vous dans la section 'Apprentissage et gains'. Vous y trouverez des quiz rapides sur différents projets crypto. Chaque quiz réussi vous rapporte quelques dollars de la crypto concernée, que vous pouvez conserver ou échanger contre du Bitcoin."
-      },
-      {
-        "question": "Puis-je retirer mon argent sur mon compte bancaire ?",
-        "answer": "Tout à fait. Coinbase permet de revendre vos cryptomonnaies à tout moment et de virer les euros obtenus directement vers votre compte bancaire (virement SEPA instantané supporté) ou votre compte PayPal."
-      }
-    ],
-    "steps": [
-      {
-        "title": "Inscription sécurisée",
-        "description": "Utilisez notre lien pour créer votre compte et bénéficier du bonus de bienvenue."
-      },
-      {
-        "title": "Vérification d'identité",
-        "description": "Préparez une pièce d'identité pour valider votre compte. C'est une étape obligatoire pour la sécurité et la régulation."
-      },
-      {
-        "title": "Premier achat et Bonus",
-        "description": "Achetez pour le montant minimal requis et recevez vos Bitcoins gratuits directement dans votre portefeuille."
-      }
-    ]
-  },
-  {
-    "id": "19",
-    "name": "eBuyClub",
-    "slug": "ebuyclub",
-    "category": "Shopping",
-    "code": "contactnacoaching",
-    "link": "https://www.ebuyclub.com/inscription?parrain=contactnacoaching",
-    "advantage": "3€ offerts à l'inscription",
-    "description": "eBuyClub est le challenger historique d'iGraal. Souvent plus généreux sur certains marchands spécifiques, il propose également un système unique de 'Cashback en magasin' grâce à sa carte bancaire connectée. C'est l'outil indispensable pour maximiser ses remboursements en complément des autres plateformes.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=ebuyclub.com&sz=128",
-    "review": {
-      "pros": [
-        "Taux de cashback souvent supérieurs à la concurrence sur les grandes marques",
-        "Cashback en magasin (Retail) très développé avec des bons d'achat immédiats",
-        "Paiement ultra-rapide par virement, PayPal ou chèques cadeaux (dès 10€ parfois)",
-        "Bonus de bienvenue de 3€ cumulable avec des offres 'Flash' régulières"
-      ],
-      "cons": [
-        "Interface web un peu moins moderne qu'iGraal",
-        "Extension navigateur parfois un peu moins intuitive"
-      ],
-      "longReview": "<p>Si iGraal est le leader par la taille, <strong>eBuyClub est souvent le leader par la générosité</strong>. Cette plateforme française se bat sur chaque taux pour offrir souvent quelques centimes ou quelques euros de plus que ses concurrents. C'est la raison pour laquelle les 'pros du cashback' utilisent toujours les deux en parallèle pour comparer avant chaque achat.</p><br/><p>La grande force d'eBuyClub, c'est son innovation sur le <strong>cashback physique</strong>. Grâce à leur application, vous pouvez acheter des bons d'achat pour vos courses alimentaires (Carrefour, Auchan...) et recevoir du cashback instantanément. C'est une révolution pour le pouvoir d'achat au quotidien, car cela s'applique sur des dépenses obligatoires et non seulement sur le plaisir en ligne.</p><br/><p>En vous inscrivant avec notre lien <strong>'contactnacoaching'</strong>, vous sécurisez votre bonus de 3€ et accédez à une communauté de chasseurs de bons plans très active. eBuyClub n'est pas juste un site de plus, c'est votre allié numéro 1 pour faire baisser la facture de vos courses hebdomadaires.</p>"
-    },
-    "faqs": [
-      {
-        "question": "Puis-je utiliser iGraal et eBuyClub en même temps ?",
-        "answer": "Vous pouvez avoir des comptes sur les deux, mais pour un achat précis, vous ne pouvez activer qu'un seul cashback. L'astuce est de comparer les taux via leurs extensions respectives et de choisir le plus élevé au moment de payer."
-      },
-      {
-        "question": "Comment fonctionne le cashback en magasin eBuyClub ?",
-        "answer": "Il suffit d'acheter un bon d'achat pour l'enseigne de votre choix (par exemple une carte cadeau Carrefour de 100€) sur eBuyClub. Vous recevez immédiatement votre cashback (ex: 3€) dans votre cagnotte et vous payez vos courses en caisse avec le code barre du bon d'achat reçu."
-      },
-      {
-        "question": "Quel est le seuil de retrait sur eBuyClub ?",
-        "answer": "Le seuil classique est de 10€ pour les chèques cadeaux et souvent 10€ à 20€ pour les virements bancaires ou PayPal, ce qui le rend plus accessible que certains concurrents."
-      }
-    ],
-    "steps": [
-      {
-        "title": "Création du compte",
-        "description": "Inscrivez-vous via notre lien pour activer votre bonus de 3€ immédiatement."
-      },
-      {
-        "title": "Testez le Cashback Magasin",
-        "description": "Essayez d'acheter un bon d'achat pour vos prochaines courses : c'est le gain le plus rapide."
-      },
-      {
-        "title": "Enclenchez l'alerte",
-        "description": "Installez l'extension pour comparer les taux en temps réel avec iGraal lors de votre navigation."
-      }
-    ]
-  },
-  {
-    "id": "20",
-    "name": "Revolut",
-    "slug": "revolut",
-    "category": "Banque & Finance",
-    "code": "nalbanesi!FEB2-26-VR-FR-AE",
-    "link": "https://revolut.com/referral/?referral-code=nalbanesi!FEB2-26-VR-FR-AE&geo-redirect",
-    "advantage": "Entre 10€ et 200€ offerts",
-    "description": "Revolut est l'application financière leader en Europe avec plus de 70 millions de clients. Elle permet d'ouvrir un compte en quelques minutes, de gérer son budget avec précision et surtout de payer à l'étranger sans frais de change cachés. C'est le compagnon idéal des voyageurs et des digital nomads.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=revolut.com&sz=128",
-    "review": {
-      "pros": [
-        "Ouverture de compte ultra-rapide (moins de 5 minutes)",
-        "Paiements et retraits gratuits dans plus de 150 devises aux taux interbancaires",
-        "Cartes virtuelles éphémères pour des achats en ligne 100% sécurisés",
-        "Fonctionnalités avancées : cryptomonnaies, coffres-forts, cashback et assurances voyage"
-      ],
-      "cons": [
-        "Support client principalement via chat in-app",
-        "Limites de retraits gratuits selon le forfait choisi"
-      ],
-      "longReview": "<p>Dans le paysage des néo-banques, <strong>Revolut a révolutionné notre manière de consommer l'argent</strong>. Ce n'est pas seulement un compte bancaire, c'est un véritable couteau suisse financier. Son succès fulgurant (70 millions de clients) s'explique par une philosophie simple : supprimer les barrières et les frais inutiles, particulièrement lors des déplacements internationaux.</p><br/><p>Le point fort absolu de Revolut est sa <strong>gestion des devises</strong>. Vous pouvez détenir plusieurs monnaies simultanément et convertir vos euros en dollars, livres ou yens en un instant, au taux réel du marché. Fini les commissions opaques des bureaux de change à l'aéroport ! C'est l'économie réalisée sur ces transactions qui paye souvent vos petites folies en vacances.</p><br/><p>En utilisant notre <strong>lien de parrainage ('nalbanesi!FEB2-26-VR-FR-AE')</strong>, vous rejoignez une communauté mondiale de financiers malins. Revolut ne se contente pas de gérer votre argent, il vous aide à le faire fructifier via ses options d'investissement simples et ses récompenses de cashback quotidiennes. C'est l'outil indispensable pour quiconque veut reprendre le contrôle de ses finances en 2026.</p>"
-    },
-    "faqs": [
-      {
-        "question": "Comment profiter du parrainage Revolut ?",
-        "answer": "Utilisez notre lien exclusif pour télécharger l'application, créez votre compte, vérifiez votre identité et commandez une carte physique. Une fois ces étapes remplies et vos premiers achats effectués, la prime de parrainage (selon l'offre en cours) est activée."
-      },
-      {
-        "question": "Revolut est-elle une vraie banque ?",
-        "answer": "Oui, Revolut possède une licence bancaire européenne complète. Vos fonds sont protégés par le système de garantie des dépôts européen jusqu'à 100 000€, vous offrant la même sécurité qu'une banque traditionnelle avec la flexibilité d'une application moderne."
-      },
-      {
-        "question": "Quels sont les frais pour les retraits à l'étranger ?",
-        "answer": "Sur le plan standard, les retraits d'espèces sont gratuits jusqu'à 200€ par mois. Au-delà, une commission de 2% est appliquée. Pour les paiements directs par carte, il n'y a aucuns frais de change dans la limite des plafonds de votre forfait."
-      }
-    ],
-    "steps": [
-      {
-        "title": "Inscription Standard",
-        "description": "Utilisez le lien de parrainage pour vous enregistrer sur l'application en quelques clics."
-      },
-      {
-        "title": "Commande de Carte",
-        "description": "Commandez votre carte physique Revolut (souvent gratuite via parrainage) pour retirer de l'argent partout dans le monde."
-      },
-      {
-        "title": "Explorez l'App",
-        "description": "Activez les fonctionnalités de sécurité et commencez à payer sans frais pour profiter pleinement de votre nouvelle néo-banque."
-      }
-    ]
-  },
-  {
-    "id": "21",
-    "name": "SwissBorg",
-    "slug": "swissborg",
-    "category": "Crypto",
-    "code": "nolwenPV3C",
-    "link": "https://swissborg.com/fr/r/nolwenPV3C",
-    "advantage": "Jusqu'à 100€ offerts",
-    "description": "SwissBorg est la plateforme crypto leader en Europe, basée en Suisse. Elle se distingue par son 'Smart Engine' qui analyse les meilleurs prix sur plusieurs plateformes pour vous offrir les transactions les plus optimisées. Très sécurisée et conforme aux régulations, c'est l'alternative parfaite pour ceux qui cherchent la fiabilité suisse dans le monde de la blockchain.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=swissborg.com&sz=128",
-    "review": {
-      "pros": [
-        "Sécurité et régulation suisse de haut niveau",
-        "Smart Engine pour des meilleurs prix d'achat/vente",
-        "Interface épurée et très simple pour les débutants",
-        "Programme de Yield (rendements passifs) très performant"
-      ],
-      "cons": [
-        "Frais de retrait un peu élevés sur certains jetons",
-        "Bonus de parrainage aléatoire (système de ticket)"
-      ],
-      "longReview": "<p>La Suisse est réputée pour sa rigueur financière et <strong>SwissBorg transpose cette excellence dans l'univers des crypto-monnaies</strong>. Là où d'autres plateformes peuvent paraître complexes ou peu fiables, SwissBorg rassure par son interface soignée et son cadre régulatoire strict. C'est l'application idéale pour ceux qui veulent investir sur le long terme sans se soucier du bruit du marché.</p><br/><p>Leur innovation majeure, le <strong>Smart Engine</strong>, connecte votre compte à d'autres bourses mondiales (Binance, Kraken...) pour trouver le meilleur prix disponible en temps réel. C'est comme avoir un courtier personnel qui travaille pour vous. De plus, leur fonction 'Earn' permet de générer des intérêts quotidiens sur vos cryptos de manière très intuitive.</p><br/><p>En utilisant notre <strong>lien de parrainage ('nolwenPV3C')</strong>, vous recevez un 'Reward Ticket'. C'est un ticket à gratter digital qui vous offre un bonus aléatoire en crypto pouvant aller jusqu'à <strong>100€</strong> dès que vous effectuez votre premier dépôt de 50€ ou plus. C'est un excellent moyen de booster votre capital de départ avec une dose de chance !</p>"
-    },
-    "faqs": [
-      {
-        "question": "Comment obtenir mon bonus SwissBorg ?",
-        "answer": "Utilisez notre lien pour télécharger l'app, créez votre compte et validez votre identité (KYC). Dès que vous effectuez un premier dépôt (par carte ou virement) d'un montant égal ou supérieur à 50€, vous recevez un 'Reward Ticket' à gratter dans l'application."
-      },
-      {
-        "question": "Qu'est-ce que le Smart Engine ?",
-        "answer": "C'est une technologie propriétaire qui compare les prix de vente et d'achat sur les plus grandes bourses mondiales en quelques millisecondes pour vous garantir le meilleur taux possible au moment de votre transaction."
-      },
-      {
-        "question": "Est-ce que l'application est en français ?",
-        "answer": "Oui, SwissBorg est entièrement traduit en français et possède une équipe de support très efficace qui répond dans notre langue, ce qui est un gros plus par rapport aux plateformes américaines."
-      }
-    ],
-    "steps": [
-      {
-        "title": "Téléchargement et KYC",
-        "description": "Passez par notre lien pour installer l'application et validez votre compte avec une pièce d'identité."
-      },
-      {
-        "title": "Déposez 50€",
-        "description": "Faites un premier dépôt de 50€ minimum (par virement bancaire c'est gratuit) pour activer le parrainage."
-      },
-      {
-        "title": "Grattez votre Ticket",
-        "description": "Allez dans la section récompenses et grattez votre ticket pour découvrir votre bonus allant de 2€ à 100€ en Bitcoin ou CHSB."
-      }
-    ]
-  },
-  {
-    "id": "22",
+    "id": "26",
     "name": "Meria",
     "slug": "meria",
     "category": "Crypto",
@@ -1212,147 +1412,7 @@
     ]
   },
   {
-    "id": "23",
-    "name": "Robinhood",
-    "slug": "robinhood",
-    "category": "Crypto",
-    "code": "nolwena-12ee49",
-    "link": "https://join.robinhood.com/eu_crypto/nolwena-12ee49/",
-    "advantage": "40€ en cryptomonnaie",
-    "description": "Vous recevrez 40 € en cryptomonnaie en créant un compte Robinhood via mon lien et en déposant 20 € pour commencer à trader. Profitez de l'un des courtiers les plus célèbres au monde qui propose désormais son offre Crypto en Europe.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=robinhood.com&sz=128",
-    "review": {
-      "pros": [
-        "Réputation mondiale et interface extrêmement intuitive",
-        "Achat de crypto à partir de seulement 1€",
-        "Bonus de bienvenue généreux de 40€ pour seulement 20€ déposés",
-        "Zéro commission sur les trades crypto en Europe"
-      ],
-      "cons": [
-        "Moins de tokens disponibles que sur les bourses spécialisées",
-        "Interface parfois trop simplifiée pour les traders experts"
-      ],
-      "longReview": "<p>Robinhood a révolutionné l'investissement aux États-Unis et arrive maintenant en force sur le marché européen avec une offre Crypto particulièrement agressive. Son point fort ? <strong>Une simplicité d'utilisation inégalée</strong> qui rend l'achat de Bitcoin ou d'Ethereum aussi facile que l'envoi d'un message.</p><br/><p>L'offre actuelle est l'one des plus rentables du marché pour les nouveaux utilisateurs. En créant votre compte via le lien de parrainage et en <strong>déposant seulement 20€</strong>, vous recevez un bonus substantiel de <strong>40€ en cryptomonnaie</strong>. C'est un retour sur investissement immédiat de 200% simplement pour tester la plateforme.</p><br/><p>Que vous soyez un débutant total ou que vous cherchiez une plateforme secondaire pour vos achats récurrents, Robinhood offre une expérience fluide, sécurisée et désormais très accessible pour les résidents européens.</p>"
-    },
-    "faqs": [
-      {
-        "question": "Comment obtenir les 40€ de bonus Robinhood ?",
-        "answer": "Vous devez vous inscrire via le lien de parrainage, valider votre identité (KYC) et effectuer un dépôt initial de 20€ minimum sur votre compte Robinhood Crypto."
-      },
-      {
-        "question": "Puis-je retirer le bonus immédiatement ?",
-        "answer": "Le bonus est généralement crédité sous forme de cryptomonnaie. Vous pouvez le convertir en euros, mais une période de détention minimale peut être requise avant le retrait vers votre banque (consultez les conditions générales dans l'app)."
-      },
-      {
-        "question": "Robinhood Crypto est-il disponible dans toute l'Europe ?",
-        "answer": "Oui, Robinhood a lancé son application spécifique pour les résidents de l'Union Européenne, permettant d'acheter des dizaines de cryptomonnaies sans commission de trading."
-      }
-    ],
-    "steps": [
-      {
-        "title": "Téléchargement & Inscription",
-        "description": "Utilisez le lien de parrainage pour télécharger l'application Robinhood Crypto et créez votre profil."
-      },
-      {
-        "title": "Validation d'identité",
-        "description": "Complétez la vérification d'identité rapide requise par la réglementation européenne."
-      },
-      {
-        "title": "Dépôt & Récompense",
-        "description": "Déposez 20€ (par virement ou carte). Une fois le dépôt validé, vos 40€ de bonus crypto seront ajoutés à votre portefeuille."
-      }
-    ]
-  },
-  {
-    "id": "24",
-    "name": "Poulpeo",
-    "slug": "poulpeo",
-    "category": "Shopping",
-    "code": "YLf4ab",
-    "link": "https://www.poulpeo.com/p/YLf4ab",
-    "advantage": "5€ offerts à l'inscription",
-    "description": "Profitez de 5€ de bienvenue avec mon code de parrainage YLf4ab. 100% Gratuit, Poulpeo récompense tes achats en cashback toute l'année sur plus de 1600 boutiques partenaires.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=poulpeo.com&sz=128",
-    "review": {
-      "pros": [
-        "5€ de bonus immédiat à l'inscription (contre 3€ chez iGraal)",
-        "Cashback en magasin très développé (Poulpeo Instore)",
-        "Application mobile fluide pour activer le cashback sur smartphone",
-        "Retrait des gains dès 10€ accumulés"
-      ],
-      "longReview": "<p>Poulpeo est l'un des piliers du cashback en France, aux côtés d'iGraal et eBuyClub. Sa grande force réside dans son <strong>bonus de bienvenue de 5€</strong>, l'un des plus élevés du marché, qui permet de remplir sa cagnotte très rapidement dès l'inscription.</p><br/><p>L'application se distingue par sa facilité d'utilisation et ses taux souvent très compétitifs, notamment sur la mode et le high-tech. En utilisant le code <strong>YLf4ab</strong>, vous débloquez immédiatement votre prime et pouvez commencer à récupérer de l'argent sur chacun de vos achats en ligne ou en magasin avec Poulpeo Instore.</p>"
-    },
-    "faqs": [
-      {
-        "question": "Comment activer le bonus de 5€ sur Poulpeo ?",
-        "answer": "Il vous suffit de vous inscrire en utilisant le code 'YLf4ab' dans le champ parrainage lors de votre inscription ou de passer par notre lien direct. Le bonus sera crédité sur votre cagnotte dès la validation de votre compte."
-      },
-      {
-        "question": "À partir de quel montant peut-on retirer son argent ?",
-        "answer": "Contrairement à certains concurrents qui imposent 20€, Poulpeo permet de demander un virement bancaire ou PayPal dès que vous avez accumulé 10€ de cashback validé."
-      }
-    ],
-    "steps": [
-      {
-        "title": "Inscription avec code",
-        "description": "Créez votre compte Poulpeo et renseignez le code YLf4ab pour débloquer les 5€ offerts."
-      },
-      {
-        "title": "Activez le cashback",
-        "description": "Avant de faire un achat, passez par l'application ou l'extension Poulpeo pour activer le remboursement."
-      },
-      {
-        "title": "Enclenchez le gain",
-        "description": "Une fois l'achat validé, votre cashback s'ajoute à vos 5€ initiaux. Retirez votre argent dès 10€ !"
-      }
-    ]
-  },
-  {
-    "id": "25",
-    "name": "Swagbucks",
-    "slug": "swagbucks",
-    "category": "Shopping",
-    "code": "rb=230806763",
-    "link": "https://www.swagbucks.com/p/register?rb=230806763",
-    "advantage": "300 SB offerts (≈3€)",
-    "description": "Swagbucks est la plateforme mondiale leader pour gagner de l'argent en ligne. Cumulez des 'SB' en répondant à des sondages, en testant des jeux ou en faisant vos achats, et convertissez-les en cash PayPal ou cartes cadeaux Amazon.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=swagbucks.com&sz=128",
-    "review": {
-      "pros": [
-        "Plateforme extrêmement fiable avec des millions de dollars reversés",
-        "Options de retrait variées (PayPal, Amazon, Zalando...)",
-        "Nombreuses façons de gagner (sondages, jeux, vidéos, cashback)",
-        "Bonus de parrainage attractif pour les nouveaux membres"
-      ],
-      "longReview": "<p>Swagbucks est le géant incontesté du 'Get Paid To' (GPT). Si vous cherchez un moyen sérieux et durable de générer un complément de revenu sur votre temps libre, c'est l'outil indispensable. Sa polyvalence est sa plus grande force : vous pouvez gagner de l'argent aussi bien en donnant votre avis sur des produits qu'en profitant de remises cashback sur vos achats habituels.</p><br/><p>L'interface est très complète et propose des objectifs quotidiens qui boostent vos gains. En vous inscrivant via notre lien de parrainage, vous intégrez une communauté active et bénéficiez des meilleures offres de bienvenue. C'est le partenaire idéal de Scrambly ou Pawns App pour maximiser vos revenus passifs et actifs chaque mois.</p>"
-    },
-    "faqs": [
-      {
-        "question": "Comment maximiser ses gains sur Swagbucks ?",
-        "answer": "Le secret est la régularité. Complétez la 'Daily List' (liste quotidienne) pour obtenir des bonus de SB supplémentaires. Concentrez-vous également sur les offres de jeux et le cashback pour les gains les plus importants."
-      },
-      {
-        "question": "Est-ce que Swagbucks est disponible en France ?",
-        "answer": "Oui, Swagbucks est entièrement disponible en France. La plupart des sondages et des offres de cashback sont localisés pour le marché français, tout comme les récompenses (cartes cadeaux enseignes françaises)."
-      }
-    ],
-    "steps": [
-      {
-        "title": "Création du compte",
-        "description": "Utilisez notre lien d'invitation pour vous inscrire et valider votre adresse e-mail."
-      },
-      {
-        "title": "Complétez votre profil",
-        "description": "Remplissez les informations de profil pour recevoir des sondages correspondants à vos centres d'intérêt."
-      },
-      {
-        "title": "Encaissez vos SB",
-        "description": "Accumulez vos premiers SB et échangez-les dès 5€ ou 10€ contre du cash ou des cadeaux."
-      }
-    ]
-  },
-  {
-    "id": "26",
+    "id": "27",
     "name": "BoursoBank",
     "slug": "boursobank",
     "category": "Banque & Finance",
@@ -1388,66 +1448,6 @@
       {
         "title": "Préparez vos documents",
         "description": "Une fois l'offre active, munissez-vous de votre pièce d'identité et d'un RIB pour une ouverture en 5 minutes."
-      }
-    ]
-  },
-  {
-    "id": "27",
-    "name": "N26",
-    "slug": "n26",
-    "category": "Banque & Finance",
-    "code": "nolwenfa38970c",
-    "link": "https://n26.com/r/nolwenfa38970c?p=1601036b-185f-4cd9-8961-bac802addb94",
-    "advantage": "Jusqu'à 75€ offerts",
-    "description": "N26 est la néo-banque européenne qui a séduit plus de 8 millions de clients grâce à une gestion 100% mobile, sans frais cachés et avec une ouverture de compte en 8 minutes. Idéale pour le quotidien et les voyages, elle propose des paiements gratuits dans toutes les devises et des sous-comptes intelligents pour gérer votre budget. Profitez de notre lien pour recevoir un bonus généreux après votre premier achat.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=n26.com&sz=128",
-    "review": {
-      "pros": [
-        "Ouverture de compte 100% mobile en moins de 8 minutes",
-        "Paiements par carte gratuits dans toutes les devises du monde",
-        "Sous-comptes 'Espaces' pour organiser son budget et épargner automatiquement",
-        "Notifications instantanées à chaque transaction pour un contrôle total"
-      ],
-      "cons": [
-        "Pas de chéquier ni de dépôt d'espèces (banque 100% digitale)",
-        "Retraits gratuits limités selon le forfait (3 à 8 par mois)"
-      ],
-      "longReview": "<p>N26 a redéfini ce qu'une banque moderne devrait être. Née en Allemagne et détentrice d'une <strong>licence bancaire européenne complète</strong>, cette néo-banque a conquis plus de 8 millions de clients grâce à une philosophie radicale : simplicité, transparence et zéro paperasse. L'ouverture de compte se fait entièrement depuis votre smartphone en quelques minutes, sans jamais mettre les pieds dans une agence.</p><br/><p>L'un des atouts majeurs de N26 est sa <strong>gestion budgétaire intelligente</strong>. Les 'Espaces' (sous-comptes virtuels) vous permettent de compartimenter votre argent par objectif : vacances, épargne de précaution, projet immobilier. Couplés aux notifications push instantanées à chaque dépense, vous gardez un contrôle absolu sur vos finances au quotidien.</p><br/><p>Pour les voyageurs, N26 est un allié de taille : <strong>les paiements par carte sont gratuits dans toutes les devises</strong>, sans commission de change cachée. En utilisant notre <strong>lien de parrainage</strong>, vous bénéficiez d'un bonus pouvant atteindre 75€ après avoir effectué votre premier achat qualifiant avec votre nouvelle carte N26.</p>"
-    },
-    "steps": [
-      {
-        "title": "Inscrivez-vous via le lien",
-        "description": "Cliquez sur notre lien de parrainage pour accéder à l'inscription N26. Téléchargez l'application et créez votre compte en quelques minutes avec votre pièce d'identité."
-      },
-      {
-        "title": "Vérifiez votre identité",
-        "description": "Complétez la vérification vidéo (quelques minutes) directement depuis l'application. Votre compte sera activé dans la foulée."
-      },
-      {
-        "title": "Effectuez un achat qualifiant",
-        "description": "Réalisez un achat avec votre carte N26 (physique ou virtuelle) d'un montant suffisant pour valider le parrainage. Votre bonus sera crédité sous 60 jours maximum."
-      }
-    ],
-    "faqs": [
-      {
-        "question": "Comment recevoir le bonus de parrainage N26 ?",
-        "answer": "Pour toucher le bonus, vous devez ouvrir votre compte via le lien de parrainage, vérifier votre identité et effectuer un achat qualifiant avec votre carte N26. Le montant du bonus (jusqu'à 75€) est crédité directement sur votre compte N26 dans un délai pouvant aller jusqu'à 60 jours."
-      },
-      {
-        "question": "N26 est-elle une vraie banque sécurisée ?",
-        "answer": "Oui, N26 détient une licence bancaire allemande complète et est supervisée par la BCE et la BaFin. Vos dépôts sont garantis jusqu'à 100 000€ par le Fonds de garantie des dépôts européen, exactement comme dans une banque traditionnelle."
-      },
-      {
-        "question": "Quels sont les frais de la carte N26 ?",
-        "answer": "Le compte N26 Standard est entièrement gratuit : pas de frais de tenue de compte ni de cotisation carte. Il inclut une carte virtuelle Mastercard, les paiements gratuits partout dans le monde et 3 retraits gratuits par mois. Des forfaits premium (Smart, You, Metal) existent pour des avantages supplémentaires."
-      },
-      {
-        "question": "Peut-on utiliser N26 comme banque principale ?",
-        "answer": "Absolument. N26 dispose d'un IBAN français (ou allemand selon l'ouverture), accepte les virements SEPA, permet de domicilier ses revenus et de mettre en place des prélèvements automatiques. Des millions de clients l'utilisent comme banque unique au quotidien."
-      },
-      {
-        "question": "Les paiements à l'étranger sont-ils vraiment gratuits ?",
-        "answer": "Oui, tous les paiements par carte N26 sont gratuits quelle que soit la devise, même sur le compte Standard. Seul le taux de change appliqué est celui de Mastercard (très proche du taux interbancaire). Pour les retraits en devises étrangères, des frais de 1,7% peuvent s'appliquer selon votre forfait."
       }
     ]
   }
