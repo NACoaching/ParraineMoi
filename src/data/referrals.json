@@ -1570,5 +1570,65 @@
         "answer": "Oui, vous pouvez vendre vos cryptos et retirer les euros obtenus par virement SEPA vers votre compte bancaire. Les retraits sont traités rapidement et sans frais cachés."
       }
     ]
+  },
+  {
+    "id": "30",
+    "name": "Bricks",
+    "slug": "bricks",
+    "category": "Banque & Finance",
+    "code": "NOLALB16",
+    "link": "https://app.bricks.co/sign-up/NOLALB16",
+    "advantage": "1% de cashback sur vos investissements",
+    "description": "Bricks est la plateforme française d'investissement immobilier fractionné. Dès 10€, achetez des parts de biens immobiliers locatifs et percevez des revenus locatifs mensuels sans les contraintes de la gestion. Profitez du code parrainage pour recevoir 1% de cashback sur vos investissements pendant 3 mois.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=bricks.co&sz=128",
+    "review": {
+      "pros": [
+        "Investissement immobilier accessible dès 10€ seulement",
+        "Revenus locatifs versés mensuellement sur votre portefeuille",
+        "Plateforme française régulée avec transparence totale sur chaque bien",
+        "1% de cashback offert via le parrainage pendant 3 mois"
+      ],
+      "cons": [
+        "Liquidité limitée : revente des parts soumise au marché secondaire",
+        "Rendements variables selon les biens et l'occupation locative"
+      ],
+      "longReview": "<p>Bricks a révolutionné l'accès à l'investissement immobilier en France. Le concept est brillant : au lieu d'acheter un appartement entier (et ses contraintes), vous achetez des <strong>'bricks' (parts fractionnées) de biens immobiliers locatifs</strong> à partir de seulement 10€. Vous percevez ensuite votre quote-part des loyers chaque mois, directement sur votre compte.</p><br/><p>La plateforme se distingue par sa <strong>transparence exemplaire</strong> : chaque bien est présenté avec son adresse exacte, ses photos, son rendement estimé, l'état du locataire et un audit financier complet. Vous savez exactement dans quoi vous investissez, contrairement aux fonds immobiliers classiques opaques.</p><br/><p>En utilisant le <strong>code de parrainage 'NOLALB16'</strong>, vous bénéficiez d'un bonus de <strong>1% de cashback</strong> sur tous vos investissements réalisés pendant les 3 premiers mois. C'est un coup de pouce immédiat qui vient s'ajouter à vos revenus locatifs pour booster la rentabilité de votre portefeuille immobilier.</p>"
+    },
+    "steps": [
+      {
+        "title": "Créez votre compte",
+        "description": "Inscrivez-vous sur Bricks via notre lien de parrainage. Le code 'NOLALB16' sera automatiquement appliqué pour activer votre bonus de cashback."
+      },
+      {
+        "title": "Vérifiez votre identité",
+        "description": "Complétez la vérification KYC en fournissant une pièce d'identité. Cette étape est obligatoire pour pouvoir investir sur la plateforme."
+      },
+      {
+        "title": "Investissez et touchez vos loyers",
+        "description": "Parcourez les biens disponibles, choisissez ceux qui vous intéressent et achetez vos premières bricks dès 10€. Vous recevrez 1% de cashback + vos revenus locatifs mensuels !"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment fonctionne le cashback de parrainage Bricks ?",
+        "answer": "En vous inscrivant avec le code 'NOLALB16', vous recevez 1% de cashback en espèces sur chaque investissement réalisé pendant vos 3 premiers mois. Le bonus est crédité directement sur votre portefeuille Bricks et peut être réinvesti ou retiré."
+      },
+      {
+        "question": "Quel est le montant minimum pour investir sur Bricks ?",
+        "answer": "Vous pouvez acheter des parts à partir de 10€ seulement. C'est ce qui rend l'immobilier locatif accessible à tous les budgets, même les plus modestes. Vous diversifiez facilement en achetant des parts dans plusieurs biens différents."
+      },
+      {
+        "question": "Comment sont versés les loyers ?",
+        "answer": "Les loyers sont collectés par Bricks auprès des locataires et redistribués proportionnellement à chaque investisseur, mensuellement. Ils sont versés directement sur votre portefeuille Bricks depuis lequel vous pouvez les retirer par virement bancaire."
+      },
+      {
+        "question": "Puis-je revendre mes parts à tout moment ?",
+        "answer": "Bricks dispose d'un marché secondaire qui permet de revendre vos parts à d'autres investisseurs. Cependant, la liquidité dépend de la demande et la revente n'est pas garantie instantanément, contrairement à des actions en bourse."
+      },
+      {
+        "question": "Bricks est-elle une plateforme fiable et régulée ?",
+        "answer": "Oui, Bricks est une société française immatriculée et régulée. Chaque bien est détenu via une structure juridique dédiée (SAS ou SCI) et les fonds des investisseurs transitent par un prestataire de paiement agréé. La transparence sur chaque opération est totale."
+      }
+    ]
   }
 ]
