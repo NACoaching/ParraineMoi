@@ -1450,5 +1450,65 @@
         "description": "Une fois l'offre active, munissez-vous de votre pièce d'identité et d'un RIB pour une ouverture en 5 minutes."
       }
     ]
+  },
+  {
+    "id": "28",
+    "name": "Binance",
+    "slug": "binance",
+    "category": "Crypto",
+    "code": "CPA_00LRC1EJAM",
+    "link": "https://www.binance.com/activity/referral-entry/CPA?ref=CPA_00LRC1EJAM",
+    "advantage": "Jusqu'à 100 USDT offerts",
+    "description": "Binance est la plus grande plateforme d'échange de crypto-monnaies au monde par volume de transactions. Elle propose plus de 350 crypto-actifs, des frais parmi les plus bas du marché, et des outils avancés pour le trading spot, futures et le staking. Inscrivez-vous via notre lien pour recevoir un bon de réduction de frais pouvant atteindre 100 USDT.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=binance.com&sz=128",
+    "review": {
+      "pros": [
+        "Plus grande plateforme crypto au monde avec la liquidité la plus élevée du marché",
+        "Frais de trading parmi les plus bas (0,1% spot, réductions avec BNB)",
+        "Catalogue massif : +350 cryptos disponibles à l'achat et au trading",
+        "Fonctionnalités avancées : Staking, Launchpad, Earn, Copy Trading"
+      ],
+      "cons": [
+        "Interface complexe qui peut intimider les débutants",
+        "Vérification d'identité (KYC) obligatoire et parfois longue"
+      ],
+      "longReview": "<p>Binance est tout simplement <strong>le géant incontesté de l'industrie crypto mondiale</strong>. Avec des volumes d'échanges quotidiens se chiffrant en dizaines de milliards de dollars, la plateforme offre une liquidité inégalée qui garantit les meilleurs prix d'exécution pour vos ordres. C'est l'outil de référence aussi bien pour les investisseurs débutants que pour les traders les plus aguerris.</p><br/><p>Au-delà du simple achat-vente, Binance propose un écosystème complet : <strong>Binance Earn</strong> pour générer des intérêts passifs sur vos cryptos, le <strong>Launchpad</strong> pour accéder en avant-première aux nouveaux projets, et le <strong>Copy Trading</strong> pour répliquer automatiquement les stratégies des meilleurs traders. Les frais sont parmi les plus compétitifs du marché et peuvent être encore réduits en utilisant le token BNB.</p><br/><p>En vous inscrivant via notre <strong>lien de parrainage</strong>, vous bénéficiez d'un bon de réduction de frais de trading pouvant atteindre <strong>100 USDT</strong>. Pour l'activer, il suffit de vérifier votre identité et d'effectuer un premier achat crypto d'au moins 50$ dans les 14 jours suivant votre inscription.</p>"
+    },
+    "steps": [
+      {
+        "title": "Inscription via le lien",
+        "description": "Cliquez sur notre lien de parrainage pour accéder à Binance. Créez votre compte avec votre e-mail et sécurisez-le avec l'authentification à deux facteurs (2FA)."
+      },
+      {
+        "title": "Vérification d'identité (KYC)",
+        "description": "Complétez la vérification en fournissant une pièce d'identité et un selfie. Cette étape est obligatoire pour débloquer toutes les fonctionnalités et le bonus."
+      },
+      {
+        "title": "Premier achat de 50$",
+        "description": "Achetez pour au moins 50$ de cryptomonnaie (par carte bancaire ou virement) dans les 14 jours suivant votre inscription pour activer votre bon de réduction de frais."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment obtenir le bonus de parrainage Binance ?",
+        "answer": "Inscrivez-vous via notre lien, complétez la vérification d'identité (KYC) et achetez au moins 50$ de crypto dans les 14 jours. Le bon de réduction de frais (jusqu'à 100 USDT) sera crédité automatiquement sur votre compte, généralement sous 48 heures."
+      },
+      {
+        "question": "Binance est-elle autorisée en France ?",
+        "answer": "Oui, Binance France est enregistrée en tant que Prestataire de Services sur Actifs Numériques (PSAN) auprès de l'AMF depuis mai 2022. La plateforme est donc entièrement conforme aux réglementations françaises et européennes."
+      },
+      {
+        "question": "Quels sont les frais de trading sur Binance ?",
+        "answer": "Les frais de base sont de 0,1% par transaction en spot, ce qui est déjà parmi les plus bas du marché. Vous pouvez les réduire de 25% supplémentaires en payant vos frais avec le token BNB (Binance Coin). Les bons de réduction obtenus via le parrainage permettent de trader sans frais temporairement."
+      },
+      {
+        "question": "Puis-je retirer mes cryptos vers un portefeuille externe ?",
+        "answer": "Absolument. Binance supporte le retrait vers des portefeuilles matériels (Ledger, Trezor) ou logiciels. Vous pouvez également retirer vos gains en euros directement vers votre compte bancaire par virement SEPA gratuit."
+      },
+      {
+        "question": "Qu'est-ce que Binance Earn ?",
+        "answer": "C'est la section épargne de Binance. Vous pouvez y déposer vos cryptos pour générer des intérêts passifs via le staking, l'épargne flexible ou les produits à terme. C'est l'équivalent d'un livret d'épargne, mais pour vos actifs numériques, avec des taux souvent bien supérieurs aux produits bancaires classiques."
+      }
+    ]
   }
 ]
