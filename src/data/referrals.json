@@ -1232,7 +1232,7 @@
         "Moins de tokens disponibles que sur les bourses spécialisées",
         "Interface parfois trop simplifiée pour les traders experts"
       ],
-      "longReview": "<p>Robinhood a révolutionné l'investissement aux États-Unis et arrive maintenant en force sur le marché européen avec une offre Crypto particulièrement agressive. Son point fort ? <strong>Une simplicité d'utilisation inégalée</strong> qui rend l'achat de Bitcoin ou d'Ethereum aussi facile que l'envoi d'un message.</p><br/><p>L'offre actuelle est l'une des plus rentables du marché pour les nouveaux utilisateurs. En créant votre compte via le lien de parrainage et en <strong>déposant seulement 20€</strong>, vous recevez un bonus substantiel de <strong>40€ en cryptomonnaie</strong>. C'est un retour sur investissement immédiat de 200% simplement pour tester la plateforme.</p><br/><p>Que vous soyez un débutant total ou que vous cherchiez une plateforme secondaire pour vos achats récurrents, Robinhood offre une expérience fluide, sécurisée et désormais très accessible pour les résidents européens.</p>"
+      "longReview": "<p>Robinhood a révolutionné l'investissement aux États-Unis et arrive maintenant en force sur le marché européen avec une offre Crypto particulièrement agressive. Son point fort ? <strong>Une simplicité d'utilisation inégalée</strong> qui rend l'achat de Bitcoin ou d'Ethereum aussi facile que l'envoi d'un message.</p><br/><p>L'offre actuelle est l'one des plus rentables du marché pour les nouveaux utilisateurs. En créant votre compte via le lien de parrainage et en <strong>déposant seulement 20€</strong>, vous recevez un bonus substantiel de <strong>40€ en cryptomonnaie</strong>. C'est un retour sur investissement immédiat de 200% simplement pour tester la plateforme.</p><br/><p>Que vous soyez un débutant total ou que vous cherchiez une plateforme secondaire pour vos achats récurrents, Robinhood offre une expérience fluide, sécurisée et désormais très accessible pour les résidents européens.</p>"
     },
     "faqs": [
       {
@@ -1260,6 +1260,50 @@
       {
         "title": "Dépôt & Récompense",
         "description": "Déposez 20€ (par virement ou carte). Une fois le dépôt validé, vos 40€ de bonus crypto seront ajoutés à votre portefeuille."
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Poulpeo",
+    "slug": "poulpeo",
+    "category": "Shopping",
+    "code": "YLf4ab",
+    "link": "https://www.poulpeo.com/p/YLf4ab",
+    "advantage": "5€ offerts à l'inscription",
+    "description": "Profitez de 5€ de bienvenue avec mon code de parrainage YLf4ab. 100% Gratuit, Poulpeo récompense tes achats en cashback toute l'année sur plus de 1600 boutiques partenaires.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=poulpeo.com&sz=128",
+    "review": {
+      "pros": [
+        "5€ de bonus immédiat à l'inscription (contre 3€ chez iGraal)",
+        "Cashback en magasin très développé (Poulpeo Instore)",
+        "Application mobile fluide pour activer le cashback sur smartphone",
+        "Retrait des gains dès 10€ accumulés"
+      ],
+      "longReview": "<p>Poulpeo est l'un des piliers du cashback en France, aux côtés d'iGraal et eBuyClub. Sa grande force réside dans son <strong>bonus de bienvenue de 5€</strong>, l'un des plus élevés du marché, qui permet de remplir sa cagnotte très rapidement dès l'inscription.</p><br/><p>L'application se distingue par sa facilité d'utilisation et ses taux souvent très compétitifs, notamment sur la mode et le high-tech. En utilisant le code <strong>YLf4ab</strong>, vous débloquez immédiatement votre prime et pouvez commencer à récupérer de l'argent sur chacun de vos achats en ligne ou en magasin avec Poulpeo Instore.</p>"
+    },
+    "faqs": [
+      {
+        "question": "Comment activer le bonus de 5€ sur Poulpeo ?",
+        "answer": "Il vous suffit de vous inscrire en utilisant le code 'YLf4ab' dans le champ parrainage lors de votre inscription ou de passer par notre lien direct. Le bonus sera crédité sur votre cagnotte dès la validation de votre compte."
+      },
+      {
+        "question": "À partir de quel montant peut-on retirer son argent ?",
+        "answer": "Contrairement à certains concurrents qui imposent 20€, Poulpeo permet de demander un virement bancaire ou PayPal dès que vous avez accumulé 10€ de cashback validé."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Inscription avec code",
+        "description": "Créez votre compte Poulpeo et renseignez le code YLf4ab pour débloquer les 5€ offerts."
+      },
+      {
+        "title": "Activez le cashback",
+        "description": "Avant de faire un achat, passez par l'application ou l'extension Poulpeo pour activer le remboursement."
+      },
+      {
+        "title": "Enclenchez le gain",
+        "description": "Une fois l'achat validé, votre cashback s'ajoute à vos 5€ initiaux. Retirez votre argent dès 10€ !"
       }
     ]
   }
