@@ -1350,5 +1350,45 @@
         "description": "Accumulez vos premiers SB et échangez-les dès 5€ ou 10€ contre du cash ou des cadeaux."
       }
     ]
+  },
+  {
+    "id": "26",
+    "name": "BoursoBank",
+    "slug": "boursobank",
+    "category": "Banque & Finance",
+    "code": "Auncun en cours",
+    "link": "https://www.boursobank.com/",
+    "advantage": "Offre suspendue (reviens bientôt !)",
+    "description": "BoursoBank est la banque en ligne n°1 en France. Bien que leur programme de parrainage soit momentanément en pause par la banque elle-même, c'est l'établissement incontournable pour réduire ses frais et gérer son budget.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=boursobank.com&sz=128",
+    "review": {
+      "pros": [
+        "Frais bancaires parmi les plus bas du marché (0€ sur la carte Ultim)",
+        "Application mobile ultra-complète et sécurisée",
+        "Large choix de produits : PEA, Assurance Vie, Crédit immo",
+        "Service client réactif et 100% en ligne"
+      ],
+      "longReview": "<p>Anciennement Boursorama Banque, <strong>BoursoBank</strong> a révolutionné la banque en France avec une promesse simple : supprimer les frais inutiles. C'est aujourd'hui la banque principale de millions de Français qui cherchent un service premium sans payer de frais de tenue de compte.</p><br/><p><strong>Note sur le parrainage :</strong> BoursoBank a temporairement suspendu son programme de parrainage à l'échelle nationale début 2026. Nous surveillons quotidiennement la situation et mettrons à jour cette page avec notre lien exclusif dès que la banque réactivera les primes de bienvenue (qui montent souvent jusqu'à 150€ !).</p>"
+    },
+    "faqs": [
+      {
+        "question": "Pourquoi n'y a-t-il pas d'offre de parrainage BoursoBank actuellement ?",
+        "answer": "BoursoBank suspend occasionnellement ses campagnes de parrainage pour ajuster ses offres commerciales. Ces pauses sont généralement de courte durée."
+      },
+      {
+        "question": "Puis-je quand même ouvrir un compte BoursoBank ?",
+        "answer": "Absolument. Vous pouvez ouvrir un compte normalement sur leur site. Cependant, vous ne toucherez pas de prime de parrainage tant que le programme n'est pas officiellement relancé."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Vérifier la réactivation",
+        "description": "Enregistrez cette page dans vos favoris et revenez vérifier si le bouton 'Ouvrir l'offre' est réactivé."
+      },
+      {
+        "title": "Préparez vos documents",
+        "description": "Une fois l'offre active, munissez-vous de votre pièce d'identité et d'un RIB pour une ouverture en 5 minutes."
+      }
+    ]
   }
 ]
