@@ -1390,5 +1390,65 @@
         "description": "Une fois l'offre active, munissez-vous de votre pièce d'identité et d'un RIB pour une ouverture en 5 minutes."
       }
     ]
+  },
+  {
+    "id": "27",
+    "name": "N26",
+    "slug": "n26",
+    "category": "Banque & Finance",
+    "code": "nolwenfa38970c",
+    "link": "https://n26.com/r/nolwenfa38970c?p=1601036b-185f-4cd9-8961-bac802addb94",
+    "advantage": "Jusqu'à 75€ offerts",
+    "description": "N26 est la néo-banque européenne qui a séduit plus de 8 millions de clients grâce à une gestion 100% mobile, sans frais cachés et avec une ouverture de compte en 8 minutes. Idéale pour le quotidien et les voyages, elle propose des paiements gratuits dans toutes les devises et des sous-comptes intelligents pour gérer votre budget. Profitez de notre lien pour recevoir un bonus généreux après votre premier achat.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=n26.com&sz=128",
+    "review": {
+      "pros": [
+        "Ouverture de compte 100% mobile en moins de 8 minutes",
+        "Paiements par carte gratuits dans toutes les devises du monde",
+        "Sous-comptes 'Espaces' pour organiser son budget et épargner automatiquement",
+        "Notifications instantanées à chaque transaction pour un contrôle total"
+      ],
+      "cons": [
+        "Pas de chéquier ni de dépôt d'espèces (banque 100% digitale)",
+        "Retraits gratuits limités selon le forfait (3 à 8 par mois)"
+      ],
+      "longReview": "<p>N26 a redéfini ce qu'une banque moderne devrait être. Née en Allemagne et détentrice d'une <strong>licence bancaire européenne complète</strong>, cette néo-banque a conquis plus de 8 millions de clients grâce à une philosophie radicale : simplicité, transparence et zéro paperasse. L'ouverture de compte se fait entièrement depuis votre smartphone en quelques minutes, sans jamais mettre les pieds dans une agence.</p><br/><p>L'un des atouts majeurs de N26 est sa <strong>gestion budgétaire intelligente</strong>. Les 'Espaces' (sous-comptes virtuels) vous permettent de compartimenter votre argent par objectif : vacances, épargne de précaution, projet immobilier. Couplés aux notifications push instantanées à chaque dépense, vous gardez un contrôle absolu sur vos finances au quotidien.</p><br/><p>Pour les voyageurs, N26 est un allié de taille : <strong>les paiements par carte sont gratuits dans toutes les devises</strong>, sans commission de change cachée. En utilisant notre <strong>lien de parrainage</strong>, vous bénéficiez d'un bonus pouvant atteindre 75€ après avoir effectué votre premier achat qualifiant avec votre nouvelle carte N26.</p>"
+    },
+    "steps": [
+      {
+        "title": "Inscrivez-vous via le lien",
+        "description": "Cliquez sur notre lien de parrainage pour accéder à l'inscription N26. Téléchargez l'application et créez votre compte en quelques minutes avec votre pièce d'identité."
+      },
+      {
+        "title": "Vérifiez votre identité",
+        "description": "Complétez la vérification vidéo (quelques minutes) directement depuis l'application. Votre compte sera activé dans la foulée."
+      },
+      {
+        "title": "Effectuez un achat qualifiant",
+        "description": "Réalisez un achat avec votre carte N26 (physique ou virtuelle) d'un montant suffisant pour valider le parrainage. Votre bonus sera crédité sous 60 jours maximum."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment recevoir le bonus de parrainage N26 ?",
+        "answer": "Pour toucher le bonus, vous devez ouvrir votre compte via le lien de parrainage, vérifier votre identité et effectuer un achat qualifiant avec votre carte N26. Le montant du bonus (jusqu'à 75€) est crédité directement sur votre compte N26 dans un délai pouvant aller jusqu'à 60 jours."
+      },
+      {
+        "question": "N26 est-elle une vraie banque sécurisée ?",
+        "answer": "Oui, N26 détient une licence bancaire allemande complète et est supervisée par la BCE et la BaFin. Vos dépôts sont garantis jusqu'à 100 000€ par le Fonds de garantie des dépôts européen, exactement comme dans une banque traditionnelle."
+      },
+      {
+        "question": "Quels sont les frais de la carte N26 ?",
+        "answer": "Le compte N26 Standard est entièrement gratuit : pas de frais de tenue de compte ni de cotisation carte. Il inclut une carte virtuelle Mastercard, les paiements gratuits partout dans le monde et 3 retraits gratuits par mois. Des forfaits premium (Smart, You, Metal) existent pour des avantages supplémentaires."
+      },
+      {
+        "question": "Peut-on utiliser N26 comme banque principale ?",
+        "answer": "Absolument. N26 dispose d'un IBAN français (ou allemand selon l'ouverture), accepte les virements SEPA, permet de domicilier ses revenus et de mettre en place des prélèvements automatiques. Des millions de clients l'utilisent comme banque unique au quotidien."
+      },
+      {
+        "question": "Les paiements à l'étranger sont-ils vraiment gratuits ?",
+        "answer": "Oui, tous les paiements par carte N26 sont gratuits quelle que soit la devise, même sur le compte Standard. Seul le taux de change appliqué est celui de Mastercard (très proche du taux interbancaire). Pour les retraits en devises étrangères, des frais de 1,7% peuvent s'appliquer selon votre forfait."
+      }
+    ]
   }
 ]
