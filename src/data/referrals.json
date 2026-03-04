@@ -6,7 +6,7 @@
     "category": "Paris Sportifs & Poker",
     "code": "NOLYUN",
     "link": "",
-    "advantage": "Bonus de parrainage",
+    "advantage": "Jusqu'à 100€ de freebets",
     "description": "Pour vos paris sportifs ou le poker en ligne, c'est l'application de référence en France. Les cotes sportives y sont très souvent les meilleures du marché, idéal pour rentabiliser vos pronostics Ligue 1 ou NBA. Profitez de notre lien exclusif : votre premier pari gratuit est crédité s'il est perdant (jusqu'à 100€ de freebets).",
     "logoUrl": "https://www.google.com/s2/favicons?domain=winamax.fr&sz=128",
     "review": {
@@ -70,7 +70,7 @@
     "category": "Shopping",
     "code": "WENSAN10918109",
     "link": "",
-    "advantage": "Bonus de bienvenue",
+    "advantage": "10€ de réduction offerts",
     "description": "La plateforme révolutionnaire pour les achats de cartes Pokémon rares, boosters Lorcana et vêtements vintage aux enchères en direct. Connectez-vous sur les lives vidéos pour dénicher vos items préférés en interagissant avec la communauté. Le code VOGGT ci-dessous offre un bon de réduction immédiat très généreux valable sur votre premier panier d'achat.",
     "logoUrl": "https://www.google.com/s2/favicons?domain=voggt.com&sz=128",
     "faqs": [
@@ -126,7 +126,7 @@
     "category": "Banque & Finance",
     "code": "13649945",
     "link": "",
-    "advantage": "Prime de bienvenue",
+    "advantage": "Jusqu'à 130€ offerts",
     "description": "Idéale pour les voyageurs et pour réduire vos frais, Fortuneo est considérée comme l'une des meilleures banques en ligne gratuites. Obtenez la prestigieuse carte Gold Mastercard sans payer de cotisation annuelle, et ne subissez plus aucuns frais bancaires à l'étranger. Les primes exclusives à l'ouverture de compte atteignent régulièrement des sommets exceptionnels.",
     "logoUrl": "https://www.google.com/s2/favicons?domain=fortuneo.fr&sz=128",
     "review": {
@@ -243,7 +243,7 @@
     "category": "Jeux & Gains",
     "code": "7328575",
     "link": "https://pawns.app/?r=7328575",
-    "advantage": "Bonus de démarrage",
+    "advantage": "3$ offerts au démarrage",
     "description": "Transformez votre connexion internet dormante en véritables euros ou coupons cadeaux. Avec Pawns App (ancienne connue sous IPRoyal), vous gagnez de l'argent sur internet de manière 100% passive et sécurisée. Possibilité de répondre à des sondages rémunérés pour atteindre plus vite le seuil de retrait extra-rapide fixé à 5$ (via versement PayPal).",
     "logoUrl": "https://www.google.com/s2/favicons?domain=pawns.app&sz=128",
     "faqs": [
@@ -296,7 +296,7 @@
     "id": "6",
     "name": "PayPal",
     "slug": "paypal",
-    "category": "Paiement & Finance",
+    "category": "Banque & Finance",
     "code": "https://py.pl/1cPkc4",
     "link": "https://py.pl/1cPkc4",
     "advantage": "10€ offerts",
@@ -348,10 +348,10 @@
     "id": "7",
     "name": "Bitstack",
     "slug": "bitstack",
-    "category": "Crypto & Investissement",
+    "category": "Crypto",
     "code": "2zJdvWnVNpanigOU2pFSHtWmV6H",
     "link": "https://bitstack-app.com/referral/2zJdvWnVNpanigOU2pFSHtWmV6H",
-    "advantage": "Bonus en Bitcoin",
+    "advantage": "5€ offerts en Bitcoin",
     "description": "Vous voulez épargner et investir en crypto sans vous ruiner ni vous prendre la tête ? Bitstack, startup française enregistrée PSAN auprès de l'AMF, arrondit vos achats bancaires classiques et convertit ce surplus automatiquement en Bitcoin. C'est l'investissement programmé le plus facile de France pour les débutants. Entrez votre code parrain pour démarrer avec des cryptos offertes à l'inscription !",
     "logoUrl": "https://www.google.com/s2/favicons?domain=bitstack-app.com&sz=128",
     "faqs": [
@@ -407,7 +407,7 @@
     "category": "Jeux & Gains",
     "code": "qeKBFa",
     "link": "https://go.scrambly.io/qeKBFa",
-    "advantage": "Bonus de parrainage",
+    "advantage": "Bonus cash immédiat",
     "description": "Transformez vos pas quotidiens en revenus réels avec Scrambly. Oubliez les processus compliqués : cette application ludique agit comme un podomètre rémunérateur qui convertit votre marche en argent cash retiré instantanément vers PayPal. Inscrivez-vous avec notre code bonus pour un coup de boost immédiat.",
     "logoUrl": "https://www.google.com/s2/favicons?domain=scrambly.io&sz=128",
     "faqs": [
@@ -958,7 +958,7 @@
     "category": "Crypto",
     "code": "92UZVUP",
     "link": "https://coinbase.com/join/92UZVUP?src=ios-link",
-    "advantage": "Bonus en Bitcoin à l'inscription",
+    "advantage": "10€ en Bitcoin offerts",
     "description": "Coinbase est la plateforme de référence pour faire ses premiers pas dans le monde des crypto-monnaies. Cotée en bourse au NASDAQ, c'est l'une des plateformes les plus sécurisées et les plus simples d'utilisation pour acheter, vendre et stocker vos premiers Bitcoins, Ethereum et des centaines d'autres jetons. Leur interface 'Apprentissage' vous permet même de gagner des cryptos gratuitement en répondant à de simples quiz.",
     "logoUrl": "https://www.google.com/s2/favicons?domain=coinbase.com&sz=128",
     "review": {
@@ -1166,7 +1166,7 @@
     "category": "Crypto",
     "code": "nF5BGyev",
     "link": "https://meria.onelink.me/ktU9?af_xp=referral&pid=invite_friend_mobile&c=Affiliation&deep_link_value=nF5BGyev",
-    "advantage": "Bonus exclusifs & Réductions",
+    "advantage": "Réductions sur les frais",
     "description": "Meria (anciennement Just Mining) est la pépite française des revenus passifs en crypto. Fondée par Owen Simonin (Hasheur), la plateforme simplifie l'accès au Staking, aux Masternodes et aux investissements thématiques. C'est l'outil parfait pour ceux qui veulent faire travailler leurs cryptos sans avoir à gérer la complexité technique.",
     "logoUrl": "https://www.google.com/s2/favicons?domain=meria.com&sz=128",
     "review": {
@@ -1314,7 +1314,7 @@
     "category": "Shopping",
     "code": "rb=230806763",
     "link": "https://www.swagbucks.com/p/register?rb=230806763",
-    "advantage": "Bonus de bienvenue offert",
+    "advantage": "300 SB offerts (≈3€)",
     "description": "Swagbucks est la plateforme mondiale leader pour gagner de l'argent en ligne. Cumulez des 'SB' en répondant à des sondages, en testant des jeux ou en faisant vos achats, et convertissez-les en cash PayPal ou cartes cadeaux Amazon.",
     "logoUrl": "https://www.google.com/s2/favicons?domain=swagbucks.com&sz=128",
     "review": {
@@ -1358,7 +1358,7 @@
     "category": "Banque & Finance",
     "code": "Auncun en cours",
     "link": "https://www.boursobank.com/",
-    "advantage": "Offre suspendue (reviens bientôt !)",
+    "advantage": "Offre suspendue ⏸️",
     "description": "BoursoBank est la banque en ligne n°1 en France. Bien que leur programme de parrainage soit momentanément en pause par la banque elle-même, c'est l'établissement incontournable pour réduire ses frais et gérer son budget.",
     "logoUrl": "https://www.google.com/s2/favicons?domain=boursobank.com&sz=128",
     "review": {
