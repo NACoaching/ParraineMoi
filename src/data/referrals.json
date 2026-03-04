@@ -1510,5 +1510,65 @@
         "answer": "C'est la section épargne de Binance. Vous pouvez y déposer vos cryptos pour générer des intérêts passifs via le staking, l'épargne flexible ou les produits à terme. C'est l'équivalent d'un livret d'épargne, mais pour vos actifs numériques, avec des taux souvent bien supérieurs aux produits bancaires classiques."
       }
     ]
+  },
+  {
+    "id": "29",
+    "name": "Crypto.com",
+    "slug": "crypto-com",
+    "category": "Crypto",
+    "code": "u7nhbxrkkx",
+    "link": "https://crypto.com/app/u7nhbxrkkx",
+    "advantage": "Jusqu'à 65$ en CRO offerts",
+    "description": "Crypto.com est l'une des plateformes crypto les plus complètes au monde. Avec sa carte Visa crypto (cashback jusqu'à 5%), son application ultra-intuitive et ses rendements via le staking, elle s'impose comme un écosystème financier complet pour les passionnés de blockchain. Inscrivez-vous via notre lien et tradez pour débloquer vos bonus en CRO.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=crypto.com&sz=128",
+    "review": {
+      "pros": [
+        "Carte Visa Crypto avec cashback jusqu'à 5% sur tous vos achats du quotidien",
+        "Application mobile parmi les mieux notées et les plus intuitives du marché",
+        "Plus de 250 cryptomonnaies disponibles à l'achat, la vente et au staking",
+        "Rendements attractifs via Crypto Earn pour faire travailler vos actifs"
+      ],
+      "cons": [
+        "Frais de spread parfois élevés sur l'application (préférer l'Exchange)",
+        "Les meilleurs avantages carte nécessitent du staking de CRO"
+      ],
+      "longReview": "<p>Crypto.com s'est imposée comme <strong>l'un des acteurs les plus ambitieux de l'écosystème crypto</strong>. Ce qui la distingue de la concurrence, c'est sa vision d'un écosystème financier complet : ce n'est pas qu'une simple plateforme d'achat, c'est une véritable banque crypto. L'application regroupe l'achat-vente, le staking, les rendements passifs et surtout la célèbre carte Visa crypto.</p><br/><p>La <strong>carte Visa Crypto.com</strong> est sans doute le produit le plus emblématique de la marque. Selon le niveau de staking de CRO (le jeton natif), vous pouvez bénéficier d'un cashback allant de 1% à 5% sur absolument toutes vos dépenses du quotidien. C'est un moyen concret de gagner de la crypto simplement en faisant vos courses ou en payant vos abonnements.</p><br/><p>En utilisant notre <strong>code de parrainage 'u7nhbxrkkx'</strong>, vous débloquez des récompenses progressives en CRO en fonction de votre volume de trading dans les 30 premiers jours. Plus vous tradez, plus le bonus grimpe, jusqu'à <strong>65$ en CRO</strong>. C'est l'occasion parfaite de tester l'écosystème complet tout en empochant des récompenses généreuses.</p>"
+    },
+    "steps": [
+      {
+        "title": "Téléchargez l'application",
+        "description": "Cliquez sur notre lien de parrainage ou téléchargez l'application Crypto.com depuis l'App Store ou Google Play. Le code 'u7nhbxrkkx' sera automatiquement lié à votre inscription."
+      },
+      {
+        "title": "Vérifiez votre identité",
+        "description": "Complétez la procédure KYC en fournissant une pièce d'identité et un selfie. L'approbation est généralement rapide (quelques heures à 24h maximum)."
+      },
+      {
+        "title": "Tradez et débloquez vos bonus",
+        "description": "Effectuez vos premiers trades dans les 30 jours suivant l'approbation KYC. Vos récompenses en CRO augmentent par paliers : 5$ (100$ de volume), 10$ (500$), 20$ (1000$), jusqu'à 65$ (5000$)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment fonctionne le bonus de parrainage Crypto.com ?",
+        "answer": "Le bonus est progressif et basé sur votre volume de trading dans les 30 jours suivant la vérification de votre identité. Plus vous tradez, plus vous gagnez : de 5$ (pour 100$ de volume) jusqu'à 65$ (pour 5000$ de volume). Les récompenses sont versées en CRO, le jeton natif de la plateforme."
+      },
+      {
+        "question": "Comment obtenir la carte Visa Crypto.com ?",
+        "answer": "La carte basique (Midnight Blue) est gratuite et sans conditions. Pour les cartes supérieures offrant davantage de cashback (Ruby Steel, Jade Green, etc.), il faut immobiliser (staker) un certain montant de CRO pendant 180 jours. La carte Ruby Steel nécessite environ 350€ de CRO stakés."
+      },
+      {
+        "question": "Crypto.com est-elle autorisée en France ?",
+        "answer": "Oui, Crypto.com est enregistrée auprès de l'AMF en tant que Prestataire de Services sur Actifs Numériques (PSAN). La plateforme est donc entièrement conforme à la réglementation française et protège ses utilisateurs selon les normes les plus strictes."
+      },
+      {
+        "question": "Qu'est-ce que Crypto Earn ?",
+        "answer": "Crypto Earn vous permet de déposer vos cryptomonnaies pour générer des intérêts passifs. Vous choisissez une durée flexible ou fixe (1 ou 3 mois) et percevez des intérêts réguliers. Les taux varient selon la crypto et la durée d'immobilisation choisie."
+      },
+      {
+        "question": "Puis-je retirer mes euros vers ma banque ?",
+        "answer": "Oui, vous pouvez vendre vos cryptos et retirer les euros obtenus par virement SEPA vers votre compte bancaire. Les retraits sont traités rapidement et sans frais cachés."
+      }
+    ]
   }
 ]
