@@ -1306,5 +1306,49 @@
         "description": "Une fois l'achat validé, votre cashback s'ajoute à vos 5€ initiaux. Retirez votre argent dès 10€ !"
       }
     ]
+  },
+  {
+    "id": "25",
+    "name": "Swagbucks",
+    "slug": "swagbucks",
+    "category": "Shopping",
+    "code": "rb=230806763",
+    "link": "https://www.swagbucks.com/p/register?rb=230806763",
+    "advantage": "Bonus de bienvenue offert",
+    "description": "Swagbucks est la plateforme mondiale leader pour gagner de l'argent en ligne. Cumulez des 'SB' en répondant à des sondages, en testant des jeux ou en faisant vos achats, et convertissez-les en cash PayPal ou cartes cadeaux Amazon.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=swagbucks.com&sz=128",
+    "review": {
+      "pros": [
+        "Plateforme extrêmement fiable avec des millions de dollars reversés",
+        "Options de retrait variées (PayPal, Amazon, Zalando...)",
+        "Nombreuses façons de gagner (sondages, jeux, vidéos, cashback)",
+        "Bonus de parrainage attractif pour les nouveaux membres"
+      ],
+      "longReview": "<p>Swagbucks est le géant incontesté du 'Get Paid To' (GPT). Si vous cherchez un moyen sérieux et durable de générer un complément de revenu sur votre temps libre, c'est l'outil indispensable. Sa polyvalence est sa plus grande force : vous pouvez gagner de l'argent aussi bien en donnant votre avis sur des produits qu'en profitant de remises cashback sur vos achats habituels.</p><br/><p>L'interface est très complète et propose des objectifs quotidiens qui boostent vos gains. En vous inscrivant via notre lien de parrainage, vous intégrez une communauté active et bénéficiez des meilleures offres de bienvenue. C'est le partenaire idéal de Scrambly ou Pawns App pour maximiser vos revenus passifs et actifs chaque mois.</p>"
+    },
+    "faqs": [
+      {
+        "question": "Comment maximiser ses gains sur Swagbucks ?",
+        "answer": "Le secret est la régularité. Complétez la 'Daily List' (liste quotidienne) pour obtenir des bonus de SB supplémentaires. Concentrez-vous également sur les offres de jeux et le cashback pour les gains les plus importants."
+      },
+      {
+        "question": "Est-ce que Swagbucks est disponible en France ?",
+        "answer": "Oui, Swagbucks est entièrement disponible en France. La plupart des sondages et des offres de cashback sont localisés pour le marché français, tout comme les récompenses (cartes cadeaux enseignes françaises)."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Création du compte",
+        "description": "Utilisez notre lien d'invitation pour vous inscrire et valider votre adresse e-mail."
+      },
+      {
+        "title": "Complétez votre profil",
+        "description": "Remplissez les informations de profil pour recevoir des sondages correspondants à vos centres d'intérêt."
+      },
+      {
+        "title": "Encaissez vos SB",
+        "description": "Accumulez vos premiers SB et échangez-les dès 5€ ou 10€ contre du cash ou des cadeaux."
+      }
+    ]
   }
 ]
