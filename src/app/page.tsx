@@ -5,26 +5,54 @@ import { FaqAccordion } from "@/components/FaqAccordion";
 import guidesData from "@/data/guides.json";
 import Link from "next/link";
 import { ArrowRight, Search, Gift, Wallet } from "lucide-react";
+
+const generalFaqs = [
+  {
+    question: "Comment fonctionnent ces codes de parrainage et réductions ?",
+    answer: "Les codes et liens de parrainage listés sur ce site vous permettent de bénéficier d'avantages exclusifs (crédit offert, prime en euros, réductions) lors de l'ouverture d'un nouveau compte sur des applications partenaires (banque en ligne, applications crypto, shopping). Il vous suffit de cliquer sur nos liens ou de renseigner le code indiqué à l'inscription pour que le bonus s'applique automatiquement."
+  },
+  {
+    question: "Les offres de bienvenue sont-elles cumulables ?",
+    answer: "Oui, la magie du parrainage est que vous pouvez cumuler les offres de différents services ! Par exemple, vous pouvez obtenir une prime d'ouverture de compte chez Fortuneo, tout en profitant le même jour d'une offre cash chez PayPal ou d'un bonus d'inscription en crypto chez Bitstack. Seule règle : être un nouveau client de l'application."
+  },
+  {
+    question: "Pourquoi ces codes de parrainage sont-ils fiables et vérifiés ?",
+    answer: "Ce site agit comme un répertoire personnel. Je ne mets en ligne que les codes de parrainage des services que j'utilise activement au quotidien (pour payer, investir ou faire mes achats). Je vérifie manuellement chaque semaine que l'offre est toujours valide en 2026 afin de vous garantir que la prime sera bien versée sur votre profil."
+  }
+];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": generalFaqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer
+    }
+  }))
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Codes de Parrainages",
+  "url": "https://codes-de-parrainages.com"
+};
 export default function Home() {
   const referrals = referralsData as Referral[];
 
-  const generalFaqs = [
-    {
-      question: "Comment fonctionnent ces codes de parrainage et réductions ?",
-      answer: "Les codes et liens de parrainage listés sur ce site vous permettent de bénéficier d'avantages exclusifs (crédit offert, prime en euros, réductions) lors de l'ouverture d'un nouveau compte sur des applications partenaires (banque en ligne, applications crypto, shopping). Il vous suffit de cliquer sur nos liens ou de renseigner le code indiqué à l'inscription pour que le bonus s'applique automatiquement."
-    },
-    {
-      question: "Les offres de bienvenue sont-elles cumulables ?",
-      answer: "Oui, la magie du parrainage est que vous pouvez cumuler les offres de différents services ! Par exemple, vous pouvez obtenir une prime d'ouverture de compte chez Fortuneo, tout en profitant le même jour d'une offre cash chez PayPal ou d'un bonus d'inscription en crypto chez Bitstack. Seule règle : être un nouveau client de l'application."
-    },
-    {
-      question: "Pourquoi ces codes de parrainage sont-ils fiables et vérifiés ?",
-      answer: "Ce site agit comme un répertoire personnel. Je ne mets en ligne que les codes de parrainage des services que j'utilise activement au quotidien (pour payer, investir ou faire mes achats). Je vérifie manuellement chaque semaine que l'offre est toujours valide en 2026 afin de vous garantir que la prime sera bien versée sur votre profil."
-    }
-  ];
-
   return (
     <main className="flex flex-col items-center min-h-screen pb-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+      />
       <section className="w-full max-w-5xl px-4 sm:px-6 pt-16 pb-12 flex flex-col items-center text-center">
         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-6">
           Mes codes de <span className="text-primary">parrainage</span>

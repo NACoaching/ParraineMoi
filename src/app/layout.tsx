@@ -57,10 +57,8 @@ const jsonLd = {
   "@type": "Organization",
   "name": "Codes de Parrainages",
   "url": "https://codes-de-parrainages.com",
-  "logo": "https://codes-de-parrainages.com/icon",
-  "sameAs": [
-    "https://twitter.com/nacoaching", // Hypothesis based on user info
-  ],
+  "logo": "https://codes-de-parrainages.com/favicon.png",
+  "sameAs": [],
 };
 
 export default function RootLayout({

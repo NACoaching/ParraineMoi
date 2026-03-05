@@ -26,19 +26,19 @@ export function Footer() {
                         </div>
                     </div>
 
-                    {/* Colonne 2 : Top Catégories */}
+                    {/* Colonne 2 : Offres populaires */}
                     <div className="space-y-5 md:col-span-3">
                         <h3 className="font-semibold text-slate-900 dark:text-white flex items-center gap-2 text-sm uppercase tracking-wider">
                             <Zap size={16} className="text-amber-500" />
-                            Top Catégories
+                            Offres populaires
                         </h3>
                         <ul className="space-y-3 text-sm text-slate-500 dark:text-slate-400">
                             {[
-                                { name: "Banques & Néobanques", href: "/guides" },
-                                { name: "Crypto & Bourse", href: "/guides" },
-                                { name: "Énergie & Maison", href: "/guides" },
-                                { name: "Mobilité & Transports", href: "/guides" },
-                                { name: "Shopping & Food", href: "/guides" }
+                                { name: "Parrainage Fortuneo", href: "/parrainage-fortuneo" },
+                                { name: "Parrainage Revolut", href: "/parrainage-revolut" },
+                                { name: "Parrainage Binance", href: "/parrainage-binance" },
+                                { name: "Parrainage WeWard", href: "/parrainage-weward" },
+                                { name: "Parrainage Uber Eats", href: "/parrainage-uber-eats" }
                             ].map((link) => (
                                 <li key={link.name}>
                                     <Link href={link.href} className="group flex items-center gap-1.5 hover:text-primary transition-colors">
@@ -58,10 +58,9 @@ export function Footer() {
                         </h3>
                         <ul className="space-y-3 text-sm text-slate-500 dark:text-slate-400">
                             {[
-                                { name: "Bons Plans & Astuces", href: "/guides" },
-                                { name: "Comment ça marche ?", href: "/guides" },
+                                { name: "Guides & Bons Plans", href: "/guides" },
                                 { name: "Mentions légales", href: "/mentions-legales" },
-                                { name: "Politique de confidentialité", href: "/mentions-legales" }
+                                { name: "Politique de confidentialité", href: "/politique-de-confidentialite" }
                             ].map((link) => (
                                 <li key={link.name}>
                                     <Link href={link.href} className="group flex items-center gap-1.5 hover:text-primary transition-colors">

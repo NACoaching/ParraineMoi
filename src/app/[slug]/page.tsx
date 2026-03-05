@@ -42,7 +42,13 @@ export async function generateMetadata({
         description: `Profitez de ${referral.advantage} de bonus sur ${referral.name} avec mon code de parrainage ${referral.code} vérifié en ${currentYear}. Avis complet et tutoriel d'inscription.`,
         alternates: {
             canonical: `/parrainage-${referral.slug}`,
-        }
+        },
+        openGraph: {
+            title: `Code parrainage ${referral.name} : ${referral.advantage}`,
+            description: `${referral.advantage} offerts sur ${referral.name} avec le code ${referral.code}. Avis complet et tutoriel.`,
+            url: `https://codes-de-parrainages.com/parrainage-${referral.slug}`,
+            images: ["/og-image.png"],
+        },
     };
 }
 
@@ -85,22 +91,45 @@ export default async function ReferralPage({
         })) || []
     };
 
+    const categoryToAppType: Record<string, string> = {
+        "Banque & Finance": "FinanceApplication",
+        "Crypto": "FinanceApplication",
+        "Shopping": "ShoppingApplication",
+        "Jeux & Gains": "GameApplication",
+    };
+
+    const appCategory = categoryToAppType[referral.category] || "BusinessApplication";
+
     const reviewJsonLd = {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
         "name": referral.name,
         "operatingSystem": "iOS, Android, Web",
-        "applicationCategory": "FinanceApplication",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "reviewCount": "1250"
-        },
+        "applicationCategory": appCategory,
         "offers": {
             "@type": "Offer",
             "price": "0",
             "priceCurrency": "EUR"
         }
+    };
+
+    const breadcrumbJsonLd = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://codes-de-parrainages.com"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": `Parrainage ${referral.name}`,
+                "item": `https://codes-de-parrainages.com/parrainage-${referral.slug}`
+            }
+        ]
     };
 
     return (
@@ -112,6 +141,10 @@ export default async function ReferralPage({
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewJsonLd) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
             />
             <Link href="/" className="inline-flex items-center gap-2 text-sm font-medium text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors mb-8 group">
                 <ArrowLeft size={16} className="group-hover:-translate-x-1 transition-transform" />

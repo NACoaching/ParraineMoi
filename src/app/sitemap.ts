@@ -24,6 +24,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 0.3,
         },
         {
+            url: `${baseUrl}/politique-de-confidentialite`,
+            lastModified: new Date(),
+            changeFrequency: 'yearly',
+            priority: 0.3,
+        },
+        {
             url: `${baseUrl}/guides`,
             lastModified: new Date(),
             changeFrequency: 'weekly',

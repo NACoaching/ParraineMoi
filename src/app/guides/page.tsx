@@ -6,6 +6,9 @@ import { BookOpen, Calendar, Clock } from 'lucide-react';
 export const metadata: Metadata = {
     title: 'Guides & Bons Plans - Codes de Parrainages',
     description: 'Découvrez nos astuces, tutoriels et guides pratiques pour maximiser vos gains de parrainage, voyager sans frais et investir facilement.',
+    alternates: {
+        canonical: "/guides",
+    },
 };
 
 export default function GuidesPage() {

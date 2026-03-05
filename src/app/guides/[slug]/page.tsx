@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
     if (!guide) {
         return {
-            title: 'Guide Imrouvable - Codes de Parrainages',
+            title: 'Guide Introuvable - Codes de Parrainages',
         };
     }
 
