@@ -1630,5 +1630,65 @@
         "answer": "Oui, Bricks est une société française immatriculée et régulée. Chaque bien est détenu via une structure juridique dédiée (SAS ou SCI) et les fonds des investisseurs transitent par un prestataire de paiement agréé. La transparence sur chaque opération est totale."
       }
     ]
+  },
+  {
+    "id": "31",
+    "name": "Bybit",
+    "slug": "bybit",
+    "category": "Crypto",
+    "code": "2NLEX07",
+    "link": "https://www.bybit.eu/invite?ref=2NLEX07",
+    "advantage": "Jusqu'à 30 000 USDT de bonus",
+    "description": "Bybit est l'une des plus grandes plateformes d'échange de cryptomonnaies au monde. Reconnue pour sa rapidité d'exécution, ses frais ultra-compétitifs et ses outils de trading avancés, elle séduit aussi bien les débutants que les traders confirmés. Inscrivez-vous avec notre code de parrainage pour débloquer des récompenses de bienvenue et des réductions sur vos frais de trading.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=bybit.com&sz=128",
+    "review": {
+      "pros": [
+        "Plateforme parmi les plus rapides du marché avec une liquidité exceptionnelle",
+        "Frais de trading très compétitifs (0,1% spot) et réductibles via le programme VIP",
+        "Large catalogue de cryptomonnaies disponibles en spot et en dérivés",
+        "Outils avancés : Copy Trading, Bot de trading, Bybit Earn pour les revenus passifs"
+      ],
+      "cons": [
+        "Interface riche mais qui peut intimider les débutants complets",
+        "Vérification d'identité (KYC) obligatoire pour les utilisateurs européens"
+      ],
+      "longReview": "<p>Bybit s'est imposée comme <strong>l'une des plateformes crypto les plus performantes et fiables du marché mondial</strong>. Avec des millions d'utilisateurs dans plus de 160 pays, elle offre une infrastructure de trading robuste capable de traiter jusqu'à 100 000 transactions par seconde, garantissant une exécution instantanée même en période de forte volatilité.</p><br/><p>Au-delà du trading classique, Bybit propose un écosystème complet : <strong>Bybit Earn</strong> pour générer des rendements passifs sur vos cryptos, le <strong>Copy Trading</strong> pour répliquer automatiquement les stratégies des meilleurs traders, et le <strong>Launchpad</strong> pour accéder en avant-première aux nouveaux projets. La plateforme est conforme aux régulations européennes (MiCA) et accessible depuis la France via bybit.eu.</p><br/><p>En vous inscrivant via notre <strong>lien de parrainage avec le code '2NLEX07'</strong>, vous accédez au Centre de Récompenses où des bonus de bienvenue vous attendent. Complétez les missions proposées (vérification KYC, premier dépôt, premier trade) pour <strong>débloquer progressivement des récompenses pouvant atteindre plusieurs milliers d'USDT</strong> en coupons de trading et réductions de frais.</p>"
+    },
+    "steps": [
+      {
+        "title": "Inscription avec le code parrain",
+        "description": "Cliquez sur notre lien d'invitation pour accéder à Bybit. Le code '2NLEX07' sera automatiquement appliqué. Créez votre compte avec votre e-mail et activez l'authentification à deux facteurs (2FA) pour sécuriser votre compte."
+      },
+      {
+        "title": "Vérification d'identité (KYC)",
+        "description": "Complétez la vérification en fournissant une pièce d'identité et un selfie. Cette étape est obligatoire pour les utilisateurs européens et permet de débloquer l'ensemble des fonctionnalités et des bonus."
+      },
+      {
+        "title": "Déposez et commencez à trader",
+        "description": "Effectuez votre premier dépôt par virement SEPA ou carte bancaire. Rendez-vous ensuite dans le Centre de Récompenses pour compléter les missions et débloquer vos bonus de bienvenue progressivement."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment obtenir le bonus de parrainage Bybit avec le code 2NLEX07 ?",
+        "answer": "Inscrivez-vous via notre lien de parrainage (le code '2NLEX07' est appliqué automatiquement), puis complétez la vérification d'identité (KYC). Rendez-vous ensuite dans le Centre de Récompenses de Bybit pour découvrir et compléter les missions qui débloquent vos bonus : premier dépôt, premier trade spot, premier trade futures, etc."
+      },
+      {
+        "question": "Bybit est-elle autorisée en France et en Europe ?",
+        "answer": "Oui, Bybit opère en Europe via bybit.eu et se conforme aux réglementations européennes. La plateforme a obtenu les licences nécessaires pour opérer dans l'Espace Économique Européen et applique des procédures strictes de vérification d'identité (KYC) conformes aux normes anti-blanchiment."
+      },
+      {
+        "question": "Quels sont les frais de trading sur Bybit ?",
+        "answer": "Les frais de base sont de 0,1% en spot (maker et taker), ce qui est très compétitif. Ils peuvent être réduits davantage en fonction de votre volume de trading mensuel (programme VIP) ou grâce aux coupons de réduction obtenus via le programme de parrainage."
+      },
+      {
+        "question": "Puis-je retirer mes euros vers mon compte bancaire ?",
+        "answer": "Oui, Bybit prend en charge les retraits en euros par virement SEPA. Vous pouvez vendre vos cryptos et transférer vos euros directement vers votre compte bancaire. Les dépôts par virement SEPA sont également possibles et généralement sans frais."
+      },
+      {
+        "question": "Qu'est-ce que Bybit Earn ?",
+        "answer": "Bybit Earn est la section épargne de la plateforme. Vous pouvez y déposer vos cryptos pour générer des rendements passifs via l'épargne flexible (retrait à tout moment) ou l'épargne à terme (taux plus élevés). C'est un excellent moyen de faire travailler vos actifs entre deux trades."
+      }
+    ]
   }
 ]
