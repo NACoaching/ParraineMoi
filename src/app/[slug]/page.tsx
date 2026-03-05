@@ -193,9 +193,12 @@ export default async function ReferralPage({
                         <CompanyLogo url={referral.logoUrl} name={referral.name} priority={true} />
                     </div>
                     <div>
-                        <div className="inline-flex items-center rounded-full bg-slate-100 dark:bg-slate-800 px-3 py-1.5 text-xs font-semibold text-slate-600 dark:text-slate-300 mb-4">
+                        <Link
+                            href={`/categorie/${slugifyCategory(referral.category)}`}
+                            className="inline-flex items-center rounded-full bg-slate-100 dark:bg-slate-800 px-3 py-1.5 text-xs font-semibold text-slate-600 dark:text-slate-300 mb-4 hover:bg-primary/10 hover:text-primary transition-colors cursor-pointer"
+                        >
                             {referral.category}
-                        </div>
+                        </Link>
                         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 dark:text-white mb-3">
                             Avis et code parrainage <span className="text-primary">{referral.name}</span>
                         </h1>

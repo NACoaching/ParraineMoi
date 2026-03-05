@@ -3,46 +3,26 @@
 import { Search, Star } from "lucide-react";
 import { useState, useMemo } from "react";
 import { ReferralCard, Referral } from "./ReferralCard";
+import Link from "next/link";
+import { slugifyCategory } from "@/lib/utils";
+import referralsData from "@/data/referrals.json";
 
-export function ReferralGrid({ referrals }: { referrals: Referral[] }) {
+export function ReferralGrid({ referrals, activeCategoryName = "Toutes" }: { referrals: Referral[], activeCategoryName?: string }) {
     const [searchTerm, setSearchTerm] = useState("");
-    const [activeCategory, setActiveCategory] = useState("Toutes");
 
-    const categories = useMemo(() => {
-        const cats = Array.from(new Set(referrals.map(r => r.category)));
+    const allCategories = useMemo(() => {
+        const cats = Array.from(new Set((referralsData as Referral[]).map(r => r.category)));
         return ["Toutes", ...cats];
-    }, [referrals]);
+    }, []);
 
-    const filteredReferrals = useMemo(() => {
-        let result = referrals;
 
-        if (activeCategory !== "Toutes") {
-            result = result.filter(ref => ref.category === activeCategory);
-        }
-
-        if (searchTerm) {
-            const lowerSearch = searchTerm.toLowerCase();
-            result = result.filter(
-                (ref) =>
-                    ref.name.toLowerCase().includes(lowerSearch) ||
-                    ref.category.toLowerCase().includes(lowerSearch) ||
-                    ref.description.toLowerCase().includes(lowerSearch)
-            );
-        }
-        return result;
-    }, [searchTerm, activeCategory, referrals]);
 
     const spotlightIndex = referrals.findIndex(r => r.slug === 'fortuneo');
     const spotlightOfferRaw = spotlightIndex !== -1 ? referrals[spotlightIndex] : null;
 
     const { filteredGridOffers, spotlightOffer } = useMemo(() => {
-        // First, ensure uniqueness by ID to prevent any data-side duplication issues
         const uniqueReferrals = Array.from(new Map(referrals.map(item => [item.id, item])).values());
         let result = uniqueReferrals;
-
-        if (activeCategory !== "Toutes") {
-            result = result.filter(ref => ref.category === activeCategory);
-        }
 
         if (searchTerm) {
             const lowerSearch = searchTerm.toLowerCase();
@@ -54,7 +34,7 @@ export function ReferralGrid({ referrals }: { referrals: Referral[] }) {
             );
         }
 
-        const isDefault = !searchTerm && activeCategory === "Toutes";
+        const isDefault = !searchTerm && activeCategoryName === "Toutes";
         const currentSpotlight = isDefault ? spotlightOfferRaw : null;
 
         // Final grid offers: exclude spotlight if it's being shown separately
@@ -63,7 +43,7 @@ export function ReferralGrid({ referrals }: { referrals: Referral[] }) {
             : result;
 
         return { filteredGridOffers: gridResults, spotlightOffer: currentSpotlight };
-    }, [searchTerm, activeCategory, referrals, spotlightOfferRaw]);
+    }, [searchTerm, activeCategoryName, referrals, spotlightOfferRaw]);
 
     return (
         <div className="w-full">
@@ -84,18 +64,23 @@ export function ReferralGrid({ referrals }: { referrals: Referral[] }) {
 
             {/* Categories */}
             <div className="flex flex-wrap justify-center gap-2 mb-10">
-                {categories.map(cat => (
-                    <button
-                        key={cat}
-                        onClick={() => setActiveCategory(cat)}
-                        className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${activeCategory === cat
-                            ? "bg-slate-900 text-white dark:bg-white dark:text-slate-900 shadow-md"
-                            : "bg-white text-slate-600 border border-slate-200 hover:bg-slate-50 dark:bg-slate-900/50 dark:text-slate-400 dark:border-slate-800 dark:hover:bg-slate-800"
-                            }`}
-                    >
-                        {cat}
-                    </button>
-                ))}
+                {allCategories.map(cat => {
+                    const isActive = activeCategoryName === cat;
+                    const href = cat === "Toutes" ? "/" : `/categorie/${slugifyCategory(cat)}`;
+
+                    return (
+                        <Link
+                            key={cat}
+                            href={href}
+                            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${isActive
+                                ? "bg-slate-900 text-white dark:bg-white dark:text-slate-900 shadow-md"
+                                : "bg-white text-slate-600 border border-slate-200 hover:bg-slate-50 dark:bg-slate-900/50 dark:text-slate-400 dark:border-slate-800 dark:hover:bg-slate-800"
+                                }`}
+                        >
+                            {cat}
+                        </Link>
+                    );
+                })}
             </div>
 
             {spotlightOffer && (
@@ -119,10 +104,10 @@ export function ReferralGrid({ referrals }: { referrals: Referral[] }) {
                         Aucun parrainage trouvé pour vos critères.
                     </p>
                     <button
-                        onClick={() => { setSearchTerm(""); setActiveCategory("Toutes"); }}
+                        onClick={() => setSearchTerm("")}
                         className="mt-4 text-primary font-medium hover:underline"
                     >
-                        Réinitialiser les filtres
+                        Réinitialiser la recherche
                     </button>
                 </div>
             )}
