@@ -73,7 +73,10 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
             </div>
 
             <div className="w-full max-w-5xl">
-                <ReferralGrid referrals={categoryReferrals} />
+                <ReferralGrid
+                    referrals={categoryReferrals}
+                    activeCategoryName={originalCategory}
+                />
             </div>
         </main>
     );
