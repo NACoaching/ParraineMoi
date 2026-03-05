@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { ShieldCheck, TrendingUp, Clock, ArrowLeft, ExternalLink, Info } from 'lucide-react';
+import { ShieldCheck, TrendingUp, Clock, ArrowLeft, ExternalLink, Info, ChevronRight, Home } from 'lucide-react';
 import { CopyButton } from '@/components/CopyButton';
 import { CompanyLogo } from '@/components/CompanyLogo';
 import { FaqAccordion } from '@/components/FaqAccordion';
@@ -9,6 +9,7 @@ import { ReferralGrid } from '@/components/ReferralGrid';
 import referralsData from '@/data/referrals.json';
 import guidesData from '@/data/guides.json';
 import { Referral } from '@/components/ReferralCard';
+import { slugifyCategory } from '@/lib/utils';
 
 export async function generateStaticParams() {
     const referrals = referralsData as Referral[];
@@ -39,7 +40,7 @@ export async function generateMetadata({
     const currentYear = new Date().getFullYear();
 
     return {
-        title: `Code parrainage ${referral.name} : ${referral.advantage} en ${currentYear}`,
+        title: `Code parrainage ${referral.name} : ${referral.advantage} en ${currentYear} `,
         description: `Profitez de ${referral.advantage} de bonus sur ${referral.name} avec mon code de parrainage ${referral.code} vérifié en ${currentYear}. Avis complet et tutoriel d'inscription.`,
         alternates: {
             canonical: `/parrainage-${referral.slug}`,
@@ -169,16 +170,27 @@ export default async function ReferralPage({
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
                 />
             )}
-            <Link href="/" className="inline-flex items-center gap-2 text-sm font-medium text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors mb-8 group">
-                <ArrowLeft size={16} className="group-hover:-translate-x-1 transition-transform" />
-                Retour aux codes
-            </Link>
+            {/* Breadcrumb Visual */}
+            <nav className="flex items-center gap-2 text-sm font-medium text-slate-500 mb-8 overflow-x-auto whitespace-nowrap pb-2">
+                <Link href="/" className="flex items-center gap-1.5 hover:text-slate-900 dark:hover:text-white transition-colors">
+                    <Home size={16} />
+                    <span>Accueil</span>
+                </Link>
+                <ChevronRight size={14} className="text-slate-300 dark:text-slate-700 flex-shrink-0" />
+                <Link href={`/categorie/${slugifyCategory(referral.category)}`} className="hover:text-slate-900 dark:hover:text-white transition-colors">
+                    {referral.category}
+                </Link>
+                <ChevronRight size={14} className="text-slate-300 dark:text-slate-700 flex-shrink-0" />
+                <span className="text-slate-900 dark:text-slate-300 font-semibold truncate max-w-[150px] sm:max-w-none">
+                    {referral.name}
+                </span>
+            </nav>
 
             <article className="max-w-3xl mx-auto">
                 {/* Header with Visual Badges */}
                 <header className="flex flex-col sm:flex-row gap-6 items-start sm:items-center mb-10 pb-10 border-b border-slate-200 dark:border-slate-800">
                     <div className="h-28 w-28 shrink-0 overflow-hidden rounded-[2rem] border border-slate-200 dark:border-slate-800 bg-white shadow-sm ring-1 ring-slate-900/5 dark:ring-white/5 relative flex items-center justify-center p-5">
-                        <CompanyLogo url={referral.logoUrl} name={referral.name} />
+                        <CompanyLogo url={referral.logoUrl} name={referral.name} priority={true} />
                     </div>
                     <div>
                         <div className="inline-flex items-center rounded-full bg-slate-100 dark:bg-slate-800 px-3 py-1.5 text-xs font-semibold text-slate-600 dark:text-slate-300 mb-4">

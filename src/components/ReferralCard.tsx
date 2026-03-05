@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { CopyButton } from "./CopyButton";
 import { CompanyLogo } from "./CompanyLogo";
+import { slugifyCategory } from "@/lib/utils";
 
 export interface Referral {
   id: string;
@@ -21,20 +22,25 @@ export interface Referral {
   faqs?: { question: string; answer: string }[];
 }
 
-export function ReferralCard({ referral }: { referral: Referral }) {
+export function ReferralCard({ referral, isPriority = false }: { referral: Referral, isPriority?: boolean }) {
   return (
     <div className="group relative flex flex-col justify-between overflow-hidden rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm transition-all hover:shadow-md hover:-translate-y-1">
 
-      <div className="p-5 flex-1 flex flex-col items-start text-left">
+      <div className="p-5 pb-3">
         <div className="flex items-center gap-4 mb-4">
-          <div className="h-12 w-12 shrink-0 overflow-hidden rounded-xl border border-slate-100 dark:border-slate-800 bg-white shadow-sm ring-1 ring-slate-900/5 dark:ring-white/5 relative p-2 flex items-center justify-center">
-            <CompanyLogo url={referral.logoUrl} name={referral.name} />
-          </div>
+          <Link href={`/parrainage-${referral.slug}`} className="h-12 w-12 shrink-0 overflow-hidden rounded-xl border border-slate-100 dark:border-slate-800 bg-white shadow-sm ring-1 ring-slate-900/5 dark:ring-white/5 relative p-2 flex items-center justify-center hover:opacity-80 transition-opacity">
+            <CompanyLogo url={referral.logoUrl} name={referral.name} priority={isPriority} />
+          </Link>
           <div>
-            <h3 className="font-semibold text-slate-900 dark:text-white line-clamp-1">{referral.name}</h3>
-            <span className="inline-flex items-center rounded-full bg-slate-100 dark:bg-slate-800 px-2 py-1 text-xs font-medium text-slate-600 dark:text-slate-300">
+            <Link href={`/parrainage-${referral.slug}`}>
+              <h3 className="font-semibold text-slate-900 dark:text-white line-clamp-1 hover:text-primary transition-colors">{referral.name}</h3>
+            </Link>
+            <Link
+              href={`/categorie/${slugifyCategory(referral.category)}`}
+              className="inline-flex items-center rounded-full bg-slate-100 dark:bg-slate-800 px-2 py-1 text-xs font-medium text-slate-600 dark:text-slate-300 hover:bg-primary/10 hover:text-primary transition-colors"
+            >
               {referral.category}
-            </span>
+            </Link>
           </div>
         </div>
 

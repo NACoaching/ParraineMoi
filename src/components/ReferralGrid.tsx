@@ -71,7 +71,9 @@ export function ReferralGrid({ referrals }: { referrals: Referral[] }) {
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                     <Search className="h-5 w-5 text-slate-400" />
                 </div>
+                <label htmlFor="search-input" className="sr-only">Rechercher une marque ou une catégorie</label>
                 <input
+                    id="search-input"
                     type="text"
                     className="block w-full pl-10 pr-3 py-3 border border-slate-200 dark:border-slate-800 rounded-2xl bg-white dark:bg-slate-900 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-shadow shadow-sm"
                     placeholder="Rechercher une marque, une catégorie..."
@@ -101,7 +103,7 @@ export function ReferralGrid({ referrals }: { referrals: Referral[] }) {
                     <div className="absolute -top-3 -right-3 z-10 bg-yellow-400 text-yellow-900 text-xs font-bold px-3 py-1.5 rounded-full flex items-center gap-1 shadow-lg transform rotate-3">
                         <Star className="h-4 w-4 fill-yellow-900" /> L'offre du mois
                     </div>
-                    <ReferralCard referral={spotlightOffer} />
+                    <ReferralCard referral={spotlightOffer} isPriority={true} />
                 </div>
             )}
 

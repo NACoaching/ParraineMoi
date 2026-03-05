@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import referralsData from '@/data/referrals.json';
 import guidesData from '@/data/guides.json';
+import { slugifyCategory } from '@/lib/utils';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://codes-de-parrainages.com';
@@ -53,5 +54,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.7,
     }));
 
-    return [...homeSitemap, ...staticPagesSitemap, ...referralsSitemap, ...guidesSitemap];
+    // Dynamic category pages
+    const categories = Array.from(new Set(referralsData.map(r => r.category)));
+    const categoriesSitemap: MetadataRoute.Sitemap = categories.map((cat) => ({
+        url: `${baseUrl}/categorie/${slugifyCategory(cat)}`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+    }));
+
+    return [...homeSitemap, ...staticPagesSitemap, ...referralsSitemap, ...guidesSitemap, ...categoriesSitemap];
 }
