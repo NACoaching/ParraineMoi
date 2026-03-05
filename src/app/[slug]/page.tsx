@@ -1,12 +1,13 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowLeft, ExternalLink, ShieldCheck, Clock, Star, TrendingUp } from 'lucide-react';
+import { ShieldCheck, TrendingUp, Clock, ArrowLeft, ExternalLink, Info } from 'lucide-react';
 import { CopyButton } from '@/components/CopyButton';
 import { CompanyLogo } from '@/components/CompanyLogo';
 import { FaqAccordion } from '@/components/FaqAccordion';
 import { ReferralGrid } from '@/components/ReferralGrid';
 import referralsData from '@/data/referrals.json';
+import guidesData from '@/data/guides.json';
 import { Referral } from '@/components/ReferralCard';
 
 export async function generateStaticParams() {
@@ -78,6 +79,9 @@ export default async function ReferralPage({
         .filter((r) => r.category === referral.category && r.slug !== referral.slug)
         .slice(0, 3); // Get top 3
 
+    // Find guides that talk about this referral
+    const relatedGuides = guidesData.filter((g) => g.referralSlugs?.includes(referral.slug));
+
     const faqJsonLd = {
         "@context": "https://schema.org",
         "@type": "FAQPage",
@@ -132,6 +136,19 @@ export default async function ReferralPage({
         ]
     };
 
+    const howToJsonLd = referral.steps && referral.steps.length > 0 ? {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": `Comment profiter du code parrainage ${referral.name}`,
+        "description": `Tutoriel pour utiliser le code de parrainage ${referral.code} et obtenir ${referral.advantage} sur ${referral.name}.`,
+        "step": referral.steps.map((step, index) => ({
+            "@type": "HowToStep",
+            "position": index + 1,
+            "name": step.title,
+            "text": step.description
+        }))
+    } : null;
+
     return (
         <main className="min-h-screen px-4 py-8 sm:px-6 sm:py-16">
             <script
@@ -146,6 +163,12 @@ export default async function ReferralPage({
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
             />
+            {howToJsonLd && (
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
+                />
+            )}
             <Link href="/" className="inline-flex items-center gap-2 text-sm font-medium text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors mb-8 group">
                 <ArrowLeft size={16} className="group-hover:-translate-x-1 transition-transform" />
                 Retour aux codes
@@ -172,7 +195,9 @@ export default async function ReferralPage({
                         <div className="flex flex-wrap gap-2 sm:gap-4 mt-6">
                             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-green-50 dark:bg-green-500/10 text-green-700 dark:text-green-400 text-xs sm:text-sm font-medium border border-green-200 dark:border-green-500/20">
                                 <ShieldCheck size={16} />
-                                Code vérifié {currentYear}
+                                Vérifié le {referral.lastVerified
+                                    ? new Date(referral.lastVerified).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })
+                                    : currentYear}
                             </span>
                             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-500/10 text-blue-700 dark:text-blue-400 text-xs sm:text-sm font-medium border border-blue-200 dark:border-blue-500/20">
                                 <Clock size={16} />
@@ -188,9 +213,9 @@ export default async function ReferralPage({
                         <TrendingUp size={100} />
                     </div>
                     <div className="relative z-10">
-                        <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-3">
+                        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-3">
                             Comment profiter de l'offre ?
-                        </h3>
+                        </h2>
                         <p className="text-slate-500 dark:text-slate-400 mb-8 max-w-lg mx-auto text-lg">
                             C'est très simple ! Copiez le code ci-dessous et collez-le dans le champ "Code de parrainage / Promo" lors de votre inscription.
                         </p>
@@ -287,9 +312,42 @@ export default async function ReferralPage({
                                         <div className="absolute -top-5 left-6 w-10 h-10 bg-slate-900 text-white dark:bg-white dark:text-slate-900 rounded-xl flex items-center justify-center font-bold text-lg shadow-sm border border-slate-100 dark:border-slate-800">
                                             {index + 1}
                                         </div>
-                                        <h4 className="font-bold text-lg text-slate-900 dark:text-white mb-2">{step.title}</h4>
+                                        <h3 className="font-bold text-lg text-slate-900 dark:text-white mb-2">{step.title}</h3>
                                         <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">{step.description}</p>
                                     </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Related Guides Section */}
+                    {relatedGuides.length > 0 && (
+                        <div>
+                            <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3 mt-12">
+                                <span className="flex items-center justify-center p-2 rounded-xl bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-400">
+                                    <Info className="w-5 h-5" />
+                                </span>
+                                Lisez nos guides sur {referral.name}
+                            </h2>
+                            <div className="grid md:grid-cols-2 gap-4">
+                                {relatedGuides.map((guide) => (
+                                    <Link
+                                        key={guide.slug}
+                                        href={`/guides/${guide.slug}`}
+                                        className="group block p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-primary/50 dark:hover:border-primary/50 transition-all hover:shadow-md"
+                                    >
+                                        <div className="flex justify-between items-start mb-2">
+                                            <span className="text-xs font-medium px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400">
+                                                {guide.readingTime}
+                                            </span>
+                                        </div>
+                                        <h3 className="font-bold text-lg text-slate-900 dark:text-white group-hover:text-primary transition-colors mb-2 line-clamp-2">
+                                            {guide.title}
+                                        </h3>
+                                        <p className="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+                                            {guide.excerpt}
+                                        </p>
+                                    </Link>
                                 ))}
                             </div>
                         </div>

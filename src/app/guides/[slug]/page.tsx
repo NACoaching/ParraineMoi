@@ -84,9 +84,15 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
     const articleJsonLd = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": `https://codes-de-parrainages.com/guides/${guide.slug}`
+        },
         "headline": guide.title,
         "description": guide.excerpt,
         "datePublished": guide.date,
+        "dateModified": guide.date,
+        "wordCount": guide.content.split(/\s+/).length,
         "author": {
             "@type": "Person",
             "name": "Nolwen Albanesi",

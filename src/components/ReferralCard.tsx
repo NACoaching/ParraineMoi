@@ -12,6 +12,7 @@ export interface Referral {
   advantage: string;
   description: string;
   logoUrl: string;
+  lastVerified?: string;
   review?: {
     pros: string[];
     longReview: string;

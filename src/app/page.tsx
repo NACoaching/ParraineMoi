@@ -40,6 +40,19 @@ const websiteJsonLd = {
   "name": "Codes de Parrainages",
   "url": "https://codes-de-parrainages.com"
 };
+
+const itemListJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Codes de parrainage et offres de bienvenue",
+  "numberOfItems": referralsData.length,
+  "itemListElement": referralsData.map((ref, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": `Code parrainage ${ref.name} : ${ref.advantage}`,
+    "url": `https://codes-de-parrainages.com/parrainage-${ref.slug}`
+  }))
+};
 export default function Home() {
   const referrals = referralsData as Referral[];
 
@@ -52,6 +65,10 @@ export default function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
       />
       <section className="w-full max-w-5xl px-4 sm:px-6 pt-16 pb-12 flex flex-col items-center text-center">
         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-6">

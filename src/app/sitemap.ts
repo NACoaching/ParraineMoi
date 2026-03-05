@@ -37,10 +37,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         },
     ];
 
-    // Dynamic offer pages
-    const referralsSitemap: MetadataRoute.Sitemap = referralsData.map((referral) => ({
+    // Dynamic pages (referrals)
+    const referralsSitemap: MetadataRoute.Sitemap = referralsData.map((referral: any) => ({
         url: `${baseUrl}/parrainage-${referral.slug}`,
-        lastModified: new Date(),
+        lastModified: referral.lastVerified ? new Date(referral.lastVerified) : new Date(),
         changeFrequency: 'monthly',
         priority: 0.8,
     }));

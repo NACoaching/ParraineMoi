@@ -2,7 +2,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://codes-de-parrainages.com"),
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: "Les meilleurs codes de parrainage vérifiés en 2026 pour vos banques, crypto et shopping.",
     images: [
       {
-        url: "/og-image.png", // We'll need to ensure this exists or use a fallback
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Codes de Parrainages",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   verification: {
     google: "jhAld53ZzNbHKFOdtQiZ9bbwe6NyJkbUucGBcSHUkvc",
   },
-  themeColor: "#ffffff",
+
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
@@ -50,6 +50,10 @@ export const metadata: Metadata = {
       { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
     ],
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#ffffff",
 };
 
 const jsonLd = {
