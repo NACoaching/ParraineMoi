@@ -1690,5 +1690,65 @@
         "answer": "Bybit Earn est la section épargne de la plateforme. Vous pouvez y déposer vos cryptos pour générer des rendements passifs via l'épargne flexible (retrait à tout moment) ou l'épargne à terme (taux plus élevés). C'est un excellent moyen de faire travailler vos actifs entre deux trades."
       }
     ]
+  },
+  {
+    "id": "32",
+    "name": "Gate.io",
+    "slug": "gate-io",
+    "category": "Crypto",
+    "code": "50151490",
+    "link": "https://eu.gate.com/signup/50151490?ref_type=103",
+    "advantage": "40% de réduction sur les frais + bonus",
+    "description": "Gate.io est l'une des plus anciennes et des plus complètes plateformes d'échange de cryptomonnaies au monde, avec plus de 2 700 tokens listés. Réputée pour sa sécurité, ses frais parmi les plus bas du marché et son catalogue gigantesque de cryptos (y compris les pépites en avant-première), elle est le terrain de jeu favori des chasseurs de gems. Inscrivez-vous avec notre lien pour bénéficier de 40% de réduction permanente sur vos frais de trading.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=gate.io&sz=128",
+    "review": {
+      "pros": [
+        "Catalogue massif de plus de 2 700 cryptomonnaies, dont de nombreux tokens introuvables ailleurs",
+        "Réduction permanente de 40% sur les frais de trading via le parrainage",
+        "Plateforme historique (fondée en 2013) avec un excellent track record de sécurité",
+        "Fonctionnalités avancées : Copy Trading, Bot de trading, Lending, Staking et Launchpad"
+      ],
+      "cons": [
+        "Interface très riche qui peut sembler complexe pour les néophytes",
+        "Vérification d'identité (KYC) obligatoire pour les utilisateurs européens"
+      ],
+      "longReview": "<p>Fondée en 2013, <strong>Gate.io est l'un des exchanges crypto les plus anciens et les plus respectés de l'industrie</strong>. Avec plus de 20 millions d'utilisateurs et un catalogue dépassant les 2 700 cryptomonnaies, c'est la plateforme de référence pour accéder très tôt aux nouveaux projets et aux tokens qui ne sont pas encore disponibles sur les exchanges concurrents.</p><br/><p>La force de Gate.io réside dans sa <strong>diversité d'actifs et ses outils professionnels</strong>. Que vous souhaitiez faire du trading spot, des contrats futures, du Copy Trading ou générer des revenus passifs via le Lending et le Staking, tout est disponible sous un même toit. La plateforme propose également un Launchpad très actif qui permet de participer en avant-première aux ventes de nouveaux tokens à prix réduit.</p><br/><p>En vous inscrivant via notre <strong>lien de parrainage (code '50151490')</strong>, vous bénéficiez d'un avantage considérable : une <strong>réduction permanente de 40% sur tous vos frais de trading</strong>. C'est l'un des taux de réduction les plus élevés du marché, qui vous fera économiser significativement sur chaque transaction, que ce soit en spot ou en futures.</p>"
+    },
+    "steps": [
+      {
+        "title": "Inscription via le lien parrain",
+        "description": "Cliquez sur notre lien d'invitation pour accéder à Gate.io (eu.gate.com pour l'Europe). Le code '50151490' sera automatiquement appliqué pour activer votre réduction de 40% sur les frais. Créez votre compte avec votre e-mail."
+      },
+      {
+        "title": "Vérification d'identité (KYC)",
+        "description": "Complétez la vérification en fournissant une pièce d'identité et un selfie. Cette étape est obligatoire pour les utilisateurs européens et permet de débloquer toutes les fonctionnalités, les retraits et les bonus de bienvenue."
+      },
+      {
+        "title": "Explorez et tradez",
+        "description": "Effectuez votre premier dépôt par virement SEPA ou crypto. Profitez de vos 40% de réduction permanente sur les frais et explorez le catalogue immense de tokens pour dénicher les prochaines pépites."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment fonctionne la réduction de 40% sur les frais Gate.io ?",
+        "answer": "En vous inscrivant via notre lien de parrainage avec le code '50151490', une réduction permanente de 40% est appliquée automatiquement sur tous vos frais de trading (spot et futures). Cette réduction est active dès votre premier trade et reste valable à vie sur votre compte."
+      },
+      {
+        "question": "Gate.io est-elle accessible depuis la France ?",
+        "answer": "Oui, Gate.io est accessible en Europe via eu.gate.com. La plateforme se conforme aux réglementations européennes et propose une interface en français. La vérification d'identité (KYC) est obligatoire pour les résidents européens afin de respecter les normes anti-blanchiment."
+      },
+      {
+        "question": "Quels sont les frais de trading sur Gate.io ?",
+        "answer": "Les frais de base sont de 0,2% en spot (maker et taker). Avec notre code de parrainage, ces frais sont réduits de 40%, soit seulement 0,12% par transaction. Ils peuvent être encore réduits en détenant du token GT (Gate Token) ou en atteignant des paliers de volume VIP."
+      },
+      {
+        "question": "Pourquoi Gate.io est-elle populaire pour les altcoins ?",
+        "answer": "Gate.io est réputée pour lister les nouveaux tokens bien avant les autres grandes plateformes. Avec plus de 2 700 cryptos disponibles, c'est souvent le premier exchange majeur à proposer les nouvelles pépites. C'est pourquoi les chasseurs de gems et les early adopters la considèrent comme indispensable."
+      },
+      {
+        "question": "Puis-je retirer mes euros vers mon compte bancaire ?",
+        "answer": "Oui, Gate.io prend en charge les retraits en euros par virement SEPA pour les utilisateurs européens vérifiés. Vous pouvez vendre vos cryptos et transférer vos euros directement vers votre compte bancaire."
+      }
+    ]
   }
 ]
