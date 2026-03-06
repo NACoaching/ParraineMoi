@@ -14,9 +14,7 @@ export default function MethodologiePage() {
     return (
         <main className="min-h-screen px-4 py-8 sm:px-6 sm:py-16 max-w-4xl mx-auto">
             <div className="text-center mb-12">
-                <span className="inline-block py-1 px-3 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 font-medium text-sm mb-4 border border-emerald-200 dark:border-emerald-800/50">
-                    E-E-A-T : Notre Engagement
-                </span>
+
                 <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mb-6">
                     Notre Méthodologie
                 </h1>
@@ -32,13 +30,13 @@ export default function MethodologiePage() {
                         <div className="h-12 w-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
                             <Search size={24} />
                         </div>
-                        <h2 className="text-2xl font-bold m-0 text-slate-900 dark:text-white">Qui sommes-nous (L'Équipe Bons Plans) ?</h2>
+                        <h2 className="text-2xl font-bold m-0 text-slate-900 dark:text-white">Qui sommes-nous ?</h2>
                     </div>
                     <p className="text-slate-600 dark:text-slate-400 mb-4">
-                        Nous sommes un collectif de passionnés d'optimisation budgétaire, d'experts en finance personnelle et de "hackers" du pouvoir d'achat. Notre identité réelle importe moins que la qualité et la véracité des codes que nous dénichons.
+                        Nous sommes avant tout des consommateurs malins. On en avait assez de tomber sur des sites de codes promo remplis de liens expirés ou de fausses promesses justes là pour attirer des clics.
                     </p>
                     <p className="text-slate-600 dark:text-slate-400">
-                        Sur Internet, la majorité des sites de codes promo utilisent des robots pour scrapper des coupons souvent expirés depuis des mois. <strong>Ce n'est pas notre cas.</strong> Notre équipe s'inscrit, ouvre les comptes, et teste physiquement et financièrement 100% des produits répertoriés sur ce site.
+                        Notre but est simple : proposer un site clair et honnête où chaque offre a été réellement vérifiée. Nous mettons un point d'honneur à ouvrir nous-mêmes les comptes, tester les applications et nous assurer que les primes existent bel et bien avant de les partager avec vous.
                     </p>
                 </section>
 
@@ -76,17 +74,17 @@ export default function MethodologiePage() {
                         <h2 className="text-2xl font-bold m-0 text-slate-900 dark:text-white">Affiliation et Transparence totale</h2>
                     </div>
                     <p className="text-slate-600 dark:text-slate-400 mb-4">
-                        L'intégrité est notre moteur (et le SEO notre outil pour vous trouver). Ce site est 100% gratuit, sans publicité pop-up, sans inscription obligatoire, et il ne collecte aucune de vos données (voir notre <Link href="/politique-de-confidentialite" className="text-primary hover:underline">Politique de Confidentialité</Link>).
+                        Ce site est un projet 100% gratuit, sans publicité intrusive et sans inscription obligatoire. De plus, nous ne collectons aucune de vos données personnelles (voir notre <Link href="/politique-de-confidentialite" className="text-primary hover:underline">Politique de Confidentialité</Link>).
                     </p>
                     <p className="text-slate-600 dark:text-slate-400 mb-4">
-                        Alors, comment payons-nous l'hébergement de ce site ? C'est le principe même du parrainage : notre modèle est basé sur une situation "<strong>Gagnant - Gagnant</strong>".
+                        Pour faire vivre le site, nous utilisons simplement le principe du parrainage, sur un modèle totalement "<strong>Gagnant - Gagnant</strong>" :
                     </p>
                     <ul className="list-disc pl-5 text-slate-600 dark:text-slate-400 space-y-2 mb-4">
-                        <li>Vous récupérez la <strong>prime de bienvenue</strong> intégrale (ex: 80€ offerts).</li>
-                        <li>Nous récupérons une petite commission en tant que "Parrain", financée directement par l'application (et non déduite de votre budget).</li>
+                        <li>De votre côté, vous obtenez votre <strong>prime de bienvenue</strong> (souvent boostée grâce au lien de parrainage).</li>
+                        <li>Du nôtre, nous recevons une petite récompense de la part de l'application, sans que cela ne change quoi que ce soit pour vous.</li>
                     </ul>
                     <p className="text-sm italic text-slate-500 bg-slate-50 dark:bg-slate-800/50 p-4 rounded-xl border border-slate-100 dark:border-slate-800/80">
-                        *Attention : Notre indépendance passe avant notre rémunération. Si un établissement bancaire ou crypto modifie violemment ses frais cachés en notre connaissance (Exemple : facturation injustifiée pour non-utilisation de carte), le partenaire est immédiatement <strong>banni</strong> de notre grille, même s'il s'avérait lucratif à l'instant T.
+                        *Une précision importante : nous restons totalement libres de nos choix. Si une banque ou une appli ajoute des frais cachés ou modifie ses conditions à votre désavantage, nous la retirons immédiatement de nos recommandations, même si elle rapporte gros.
                     </p>
                 </section>
 
