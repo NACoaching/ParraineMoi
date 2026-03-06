@@ -11,56 +11,61 @@
     "logoUrl": "https://www.google.com/s2/favicons?domain=fortuneo.fr&sz=128",
     "review": {
       "pros": [
-        "Banque en ligne gratuite offrant la luxueuse carte Gold CB Mastercard (sous conditions de revenus)",
-        "zéro frais sur la totalité des paiements et retraits par carte bancaire à l'étranger",
-        "Création de cartes virtuelles éphémères jetables pour vos achats sur internet",
-        "Prime exceptionnelle d'ouverture de compte (jusqu'à plus de 130€ selon l'offre du mois)"
+        "Banque en ligne gratuite offrant la luxueuse carte Gold CB Mastercard (sous conditions de revenus de 1800€/mois net)",
+        "Zéro frais sur la totalité des paiements et retraits par carte bancaire à l'étranger (très rare sur le marché)",
+        "Création de cartes virtuelles éphémères jetables gratuites pour sécuriser totalement vos achats sur internet",
+        "Prime exceptionnelle d'ouverture de compte très généreuse (jusqu'à plus de 130€ selon l'offre du mois avec le code 13649945)",
+        "Plateforme de trading (Bourse) intégrée avec des tarifs ultra-compétitifs pour investir son épargne"
       ],
       "cons": [
-        "Le service client téléphonique complexe à joindre aux heures de pointe",
-        "Pas de dépôt d'espèces possible (100% en ligne)",
-        "Conditions de revenus exigées pour avoir la Gold Mastercard (1800€/mois)"
+        "Le service client téléphonique parfois difficile à joindre aux heures de pointe",
+        "Pas de dépôt d'espèces possible (100% en ligne), uniquement dépôts de chèques par courrier",
+        "Conditions de revenus exigées pour avoir la Gold Mastercard (sinon carte Fosfo sans condition de revenus mais moins premium)"
       ],
-      "longReview": "<p>Après avoir comparé les principaux acteurs du marché de la banque en ligne gratuite en France, <strong>Fortuneo Banque s'affirme comme le choix le plus redoutable pour remplacer sa banque traditionnelle payante</strong>. Sa force de conviction réside dans la clarté limpide de sa grille de tarifs et l'absence totale de coûts cachés qui minent habituellement l'épargne d'un compte courant.</p><br/><p>Le fer de lance technologique et commercial de Fortuneo n'est autre que <strong>sa fameuse carte bancaire gratuite, en particulier l'obtention de la prestigieuse Gold CB Mastercard sans aucune cotisation mensuelle</strong>. L'avantage dévastateur de ce moyen de paiement se mesure particulièrement si vous avez l'âme d'un voyageur : les conditions d'utilisation tarifaires suppriment purement et simplement tous les frais sur vos paiements, mais également sur l'ensemble de vos retraits en devises partout dans le monde entier !</p><br/><p>Pour protéger ses clients de la fraude, l'application est couplée à un générateur gratuit de cartes bancaires virtuelles éphémères idéales pour la protection des achats en ligne obscurs. Pour parfaire le tableau, utiliser avec réactivité les invitations et le fameux <strong>code d'opération de parrainage Fortuneo (actuellement 13649945) déclenche le déblocage et le versement de primes de bienvenue particulièrement opulentes</strong> qui varient suivant les campagnes trimestrielles, de quoi renflouer brillamment et significativement votre pécule !</p>"
+      "longReview": "<p>Après avoir comparé les principaux acteurs du marché de la banque en ligne gratuite en France, <strong>Fortuneo Banque s'affirme sans conteste comme le choix le plus redoutable pour remplacer sa banque traditionnelle payante</strong>. Sa force de conviction réside dans la clarté limpide de sa grille de tarifs et l'absence quasi-totale de coûts cachés qui minent habituellement l'épargne d'un compte courant classique.</p><br/><p>Le fer de lance technologique et commercial de Fortuneo n'est autre que <strong>sa fameuse carte bancaire gratuite, en particulier l'obtention de la prestigieuse Gold CB Mastercard sans aucune cotisation mensuelle</strong> (sous réserve de justifier 1800€ de revenus nets mensuels, sans obligation de domiciliation). À titre de comparaison, une carte équivalente coûte en moyenne entre 120€ et 150€ par an dans une banque de réseau classique.</p><br/><h3>Frais à l'étranger : Un paradis pour les voyageurs</h3><p>L'avantage dévastateur de ce moyen de paiement se mesure particulièrement si vous avez l'âme d'un voyageur ou si vous achetez régulièrement sur des sites étrangers : les conditions d'utilisation tarifaires suppriment purement et simplement tous les frais (zéro commission et zéro marge sur le taux de change) sur vos paiements, mais également sur l'ensemble de vos retraits en devises partout dans le monde entier ! Fini les mauvaises surprises au retour des États-Unis ou d'Asie.</p><br/><h3>Sécurité : La carte virtuelle éphémère (Virtualis)</h3><p>Pour protéger ses clients de la fraude en ligne, Fortuneo inclut gratuitement dans son application une fonctionnalité redoutable : la <strong>carte virtuelle éphémère (Protection Internet)</strong>. En un clic, vous générez un numéro de carte bancaire jetable. Vous définissez le montant exact de la transaction et sa durée de validité. Une fois l'achat effectué sur un site e-commerce, le numéro de carte devient invalide. Il est donc impossible pour un pirate de débiter votre compte si la base de données du marchand est compromise.</p><br/><h3>Une prime de bienvenue XXL avec notre parrainage</h3><p>Pour couronner le tout, ouvrir un compte via un système d'invitation est financièrement très attractif. En utilisant le fameux <strong>code d'opération de parrainage Fortuneo (actuellement 13649945)</strong> lors de l'ouverture de votre compte, vous déclenchez le déblocage et le versement de primes de bienvenue particulièrement opulentes. Ces montants varient suivant les campagnes trimestrielles de la banque (souvent entre 80€ et 130€), offrant ainsi un retour sur investissement immédiat et massif pour simplement changer de banque !</p>"
     },
     "steps": [
       {
-        "title": "Commencez l'ouverture",
-        "description": "Cliquez sur notre bouton et remplissez le formulaire de souscription en ligne. N'oubliez pas de bien vérifier que le code parrain 13649945 est bien présent dans la case 'Code Opération'."
+        "title": "1. Remplir le formulaire en ligne",
+        "description": "Cliquez sur notre bouton pour être redirigé vers la page sécurisée Fortuneo. Remplissez vos informations et, étape cruciale, vérifiez impérativement que le code parrain 13649945 est bien présent et validé dans la case 'Code Opération' (ou Code Parrainage)."
       },
       {
-        "title": "Déposez vos justificatifs",
-        "description": "Prenez en photo ou téléchargez vos documents (pièce d'identité, justificatif de domicile, RIB) directement depuis l'interface sécurisée de Fortuneo."
+        "title": "2. Dépôt des pièces justificatives",
+        "description": "Prenez en photo ou téléchargez vos documents (2 pièces d'identité valides, 1 justificatif de domicile de moins de 3 mois, votre dernier justificatif de revenus, et un RIB à votre nom) directement depuis l'interface cryptée de la banque."
       },
       {
-        "title": "Activez votre compte",
-        "description": "Une fois votre dossier accepté (généralement 48-72h), effectuez le premier virement initial pour valider l'ouverture du compte et déclencher l'envoi de votre carte bancaire ainsi que le versement de votre belle prime !"
+        "title": "3. Signature électronique & Virement initial",
+        "description": "Signez le contrat électroniquement. Une fois votre dossier vérifié et accepté par les conseillers (généralement sous 48 à 72h ouvrées), vous recevrez un email vous invitant à effectuer un premier virement initial (souvent 300€) depuis le RIB que vous avez fourni. Ce virement valide définitivement l'ouverture du compte. L'argent reste bien entendu le vôtre."
+      },
+      {
+        "title": "4. Réception de la CB et versement de la prime",
+        "description": "Vous recevrez votre carte bancaire par courrier sous quelques jours. Le bonus de parrainage sera crédité sur votre nouveau compte Fortuneo (généralement dans les 30 jours suivant l'ouverture effective du compte ou sous condition de réaliser quelques paiements, vérifiez les conditions en vigueur)."
       }
     ],
     "faqs": [
       {
-        "question": "Quelles sont les conditions pour toucher la prime Fortuneo avec le code 13649945 ?",
-        "answer": "Pour débloquer la prime de parrainage Fortuneo, il faut généralement ouvrir un compte courant avec une carte Gold CB Mastercard (sous réserve d'acceptation) et réaliser un minimum de 5 paiements avec cette carte dans les 90 jours. Les conditions exactes varient selon l'offre du mois, vérifiez bien le site officiel via notre lien."
+        "question": "Quelles sont les conditions exactes pour toucher la prime Fortuneo avec le code 13649945 ?",
+        "answer": "Pour débloquer la prime de parrainage maximale chez Fortuneo, il faut généralement ouvrir un compte courant avec une carte Gold CB Mastercard (sous réserve d'acceptation de votre dossier) et réaliser un minimum de 5 paiements avec cette nouvelle carte dans un délai de 90 jours (3 mois) après l'ouverture. Les conditions et montants exacts varient régulièrement (offres promotionnelles limitées), vérifiez bien les mentions légales sur le site officiel via notre lien."
       },
       {
-        "question": "Fortuneo est-elle vraiment sans frais à l'étranger ?",
-        "answer": "Absolument. C'est l'un des plus grands avantages de Fortuneo (avec les cartes Gold et Fosfo) : aucuns frais sur les paiements et les retraits par carte bancaire partout dans le monde, peu importe la devise. C'est idéal pour voyager sans se soucier du taux de change."
+        "question": "Fortuneo est-elle vraiment 100% sans frais à l'étranger ?",
+        "answer": "Absolument. C'est le plus grand point fort de Fortuneo (valable avec toutes ses cartes : Fosfo, Gold et World Elite). Le Crédit Mutuel Arkéa (maison mère de Fortuneo) ne prélève aucune commission fixe ni aucun pourcentage de commission sur vos paiements et vos retraits par carte bancaire, partout dans le monde et dans toutes les devises. Le taux de change appliqué est le taux réel Mastercard sans majoration."
       },
       {
-        "question": "Comment fonctionnent les cartes virtuelles Fortuneo ?",
-        "answer": "Depuis l'application, vous pouvez générer gratuitement un numéro de carte temporaire. Vous choisissez le montant maximum et la durée de validité de cette carte. Idéal pour faire un achat sur un site inconnu sans jamais transmettre vos véritables identifiants bancaires !"
+        "question": "Faut-il domicilier son salaire pour avoir accès à la carte Gold Mastercard gratuite ?",
+        "answer": "Non ! Contrairement à de nombreuses banques, Fortuneo n'impose aucune domiciliation obligatoire de vos revenus. Vous devez uniquement justifier d'un revenu net mensuel d'au moins 1 800€ lors de l'ouverture (fiche de paie). Vous pouvez donc garder votre salaire dans votre banque actuelle et utiliser Fortuneo comme banque secondaire pour les voyages et les achats internet sans payer de frais."
       },
       {
-        "question": "Quelles sont les conditions de revenus pour obtenir la carte Gold Mastercard gratuite ?",
-        "answer": "Pour bénéficier de la carte Gold Mastercard sans aucune cotisation annuelle, Fortuneo demande de justifier d'un revenu net mensuel d'au moins 1 800€, ou 2 700€ pour un compte joint. Il faut également réaliser au moins un paiement par mois avec la carte pour qu'elle reste gratuite."
+        "question": "Et si je n'utilise pas ma carte Gold Fortuneo, est-ce facturé ?",
+        "answer": "Il y a une condition d'utilisation très souple pour conserver la gratuité de la carte (hors carte World Elite) : vous devez réaliser au minimum 1 paiement par mois avec la carte (peu importe le montant, même un achat en boulangerie à 1€). Si vous ne faites aucune opération sur un mois entier, des frais d'inactivité de 9€ seront prélevés sur le mois concerné."
       },
       {
-        "question": "Puis-je déposer des chèques ou des espèces sur mon compte Fortuneo ?",
-        "answer": "Vous pouvez tout à fait encaisser des chèques en les envoyant par courrier affranchi à l'adresse de la banque. En revanche, Fortuneo étant une banque 100% en ligne, le dépôt d'espèces au guichet n'est pas pris en charge."
+        "question": "Puis-je déposer des chèques ou des espèces en liquide sur mon compte ?",
+        "answer": "En tant que pure-player numérique, Fortuneo ne dispose pas d'agences physiques pour les dépôts d'espèces (le dépôt de liquide est techniquement impossible). En revanche, vous pouvez tout à fait encaisser des chèques en les endossant puis en les envoyant par courrier (enveloppe non affranchie possible selon les conditions prévues par Fortuneo) au centre de traitement."
       },
       {
-        "question": "Les paiements et retraits à l'étranger sont-ils vraiment sans frais ?",
-        "answer": "Oui, c'est l'un des avantages majeurs de Fortuneo (avec les cartes Fosfo, Gold et World Elite). La banque ne prélève aucune commission supplémentaire sur vos paiements et vos retraits, quelle que soit la devise ou le pays dans lequel vous voyagez."
+        "question": "Puis-je ouvrir un compte commun/joint avec les avantages de la carte Gold ?",
+        "answer": "Oui. Pour un compte joint avec deux cartes Gold Mastercard distinctes et gratuites, les conditions de revenus exigées passent à 2 700€ nets mensuels pour le foyer (somme des deux revenus)."
       }
     ],
     "lastVerified": "2026-03-05"
@@ -77,43 +82,53 @@
     "logoUrl": "https://www.google.com/s2/favicons?domain=revolut.com&sz=128",
     "review": {
       "pros": [
-        "Ouverture de compte ultra-rapide (moins de 5 minutes)",
-        "Paiements et retraits gratuits dans plus de 150 devises aux taux interbancaires",
-        "Cartes virtuelles éphémères pour des achats en ligne 100% sécurisés",
-        "Fonctionnalités avancées : cryptomonnaies, coffres-forts, cashback et assurances voyage"
+        "Ouverture de compte ultra-rapide et 100% sur mobile en moins de 8 minutes chronos",
+        "Paiements par carte et retraits gratuits dans plus de 150 devises aux excellents taux interbancaires",
+        "Cartes virtuelles éphémères illimitées pour des achats en ligne 100% sécurisés",
+        "Fonctionnalités avancées intégrées : achat de cryptomonnaies, coffres-forts partagés d'épargne, cashback et assurances voyage",
+        "Transferts d'argent internationaux instantanés et quasi gratuits entre utilisateurs Revolut"
       ],
       "cons": [
-        "Support client principalement via chat in-app",
-        "Limites de retraits gratuits selon le forfait choisi"
+        "Support client joignable principalement via le chat in-app (parfois géré par des robots d'assistance en premier lieu)",
+        "Limites strictes de retraits gratuits aux distributeurs automatiques (DAB) selon le forfait souscrit (Standard gratuit = 200€/mois maximum)",
+        "Majoration de 1% sur les conversions de devises effectuées durant le week-end (lorsque les marchés de change sont fermés)"
       ],
-      "longReview": "<p>Dans le paysage des néo-banques, <strong>Revolut a révolutionné notre manière de consommer l'argent</strong>. Ce n'est pas seulement un compte bancaire, c'est un véritable couteau suisse financier. Son succès fulgurant (70 millions de clients) s'explique par une philosophie simple : supprimer les barrières et les frais inutiles, particulièrement lors des déplacements internationaux.</p><br/><p>Le point fort absolu de Revolut est sa <strong>gestion des devises</strong>. Vous pouvez détenir plusieurs monnaies simultanément et convertir vos euros en dollars, livres ou yens en un instant, au taux réel du marché. Fini les commissions opaques des bureaux de change à l'aéroport ! C'est l'économie réalisée sur ces transactions qui paye souvent vos petites folies en vacances.</p><br/><p>En utilisant notre <strong>lien de parrainage ('nalbanesi!FEB2-26-VR-FR-AE')</strong>, vous rejoignez une communauté mondiale de financiers malins. Revolut ne se contente pas de gérer votre argent, il vous aide à le faire fructifier via ses options d'investissement simples et ses récompenses de cashback quotidiennes. C'est l'outil indispensable pour quiconque veut reprendre le contrôle de ses finances en 2026.</p>"
+      "longReview": "<p>Dans le paysage extrêmement concurrentiel des néo-banques, <strong>Revolut a véritablement révolutionné notre manière de consommer et de gérer l'argent au quotidien</strong>. Ne la considérez plus seulement comme un compte bancaire annexe, c'est aujourd'hui un véritable couteau suisse financier qui regroupe tous vos besoins sous une seule et même application ultra-ergonomique. Son succès mondial fulgurant (qui a dépassé les 40 millions de clients) s'explique par une philosophie implacable conçue par ses fondateurs : foudroyer les barrières bancaires traditionnelles et anéantir les frais cachés inutiles, tout particulièrement lors des déplacements à l'international.</p><br/><h3>La reine des voyageurs et du multi-devises</h3><p>Le point fort absolu et incontesté de l'application Revolut réside dans <strong>son traitement des devises étrangères</strong>. Contrairement à une banque de détail classique, Revolut permet de détenir psychologiquement et techniquement plusieurs monnaies simultanément dans son portefeuille applicatif. Vous pouvez ainsi convertir très simplement vos euros en dollars américains, en livres sterling ou en yens japonais en un clin d'œil, et ce <strong>au taux de change en temps réel du marché interbancaire</strong> ! Exit les monstrueuses commissions opaques des kiosques et bureaux de change à l'aéroport ! C'est généralement l'économie financière réalisée sur ces transactions invisibles qui rembourse indirectement vos petits extras de vacances.</p><br/><h3>Au-delà de la banque : Investissement et Sécurité</h3><p>La plateforme ne s'arrête plus aux simples services de paiement. Les utilisateurs (même sans posséder de cartes Premium) ont directement accès à l'achat d'actions fractionnées américaines ou européennes, et à la négociation de dizaines de cryptomonnaies directement depuis l'application, rendant l'investissement boursier extrêmement démocratique. Par ailleurs, <strong>la sécurité est propulsée à son paroxysme</strong> grâce au système de création de cartes virtuelles éphémères : un numéro jetable est créé pour un achat sur un obscur site e-commerce, et il s'autodétruit dans la foulée, barrant totalement la route au piratage de vos données de facturation (carding).</p><br/><h3>Comment tirer profit de l'offre de Parrainage ?</h3><p>En utilisant notre <strong>lien d'invitation de parrainage exclusif ('nalbanesi!FEB2-26-VR-FR-AE')</strong> pour procéder à la création de votre compte en 2026, vous bénéficiez (selon la campagne promotionnelle mensuelle en cours de diffusion) d'une généreuse prime de bienvenue en euros sonnants et trébuchants. Cette récompense, pouvant parfois flirter et atteindre la centaine d'euros, vous sera créditée directement dans votre solde principal après avoir courageusement commandé votre carte de débit physique et réalisé un petit triumvirat de paiements. Revolut est définitivement l'outil gratuit et indispensable pour quiconque souhaite reprendre le contrôle de son destin financier avec panache et modernité.</p>"
     },
     "faqs": [
       {
-        "question": "Comment profiter du parrainage Revolut ?",
-        "answer": "Utilisez notre lien exclusif pour télécharger l'application, créez votre compte, vérifiez votre identité et commandez une carte physique. Une fois ces étapes remplies et vos premiers achats effectués, la prime de parrainage (selon l'offre en cours) est activée."
+        "question": "Quelles sont les étapes pour obtenir la prime de parrainage Revolut ?",
+        "answer": "La procédure est stricte mais simple : Vous devez cliquer sur notre lien partenaire pour télécharger l'application iOS ou Android. Il faut impérativement vérifier votre compte (Photo de votre Carte d'Identité ou Passeport + Selfie), lier un compte externe ou créditer votre compte Revolut par CB, puis commander une carte bancaire physique. Enfin, Revolut exige généralement que vous réalisiez 3 achats distincts de plus de 5€ (les conditions peuvent varier, référez-vous au descriptif dans l'application) avec votre carte physique ou virtuelle (ajoutée à Apple Pay/Google Pay) avant la date butoir."
       },
       {
-        "question": "Revolut est-elle une vraie banque ?",
-        "answer": "Oui, Revolut possède une licence bancaire européenne complète. Vos fonds sont protégés par le système de garantie des dépôts européen jusqu'à 100 000€, vous offrant la même sécurité qu'une banque traditionnelle avec la flexibilité d'une application moderne."
+        "question": "Revolut détient-elle l'agrément d'une vraie banque en France ?",
+        "answer": "Oui, absolument. Revolut (via son entité Revolut Bank UAB) possède aujourd'hui une licence bancaire européenne de plein exercice. Par conséquent, vos dépôts en liquidités (Euros) sont entièrement protégés par le système de garantie des dépôts européen (jusqu'à hauteur de 100 000€ par client), vous garantissant factuellement la même couverture de sécurité institutionnelle qu'une banque traditionnelle implantée sur le territoire français. Notez par ailleurs que Revolut fournit désormais des IBAN locaux français (commençant par FR)."
       },
       {
-        "question": "Quels sont les frais pour les retraits à l'étranger ?",
-        "answer": "Sur le plan standard, les retraits d'espèces sont gratuits jusqu'à 200€ par mois. Au-delà, une commission de 2% est appliquée. Pour les paiements directs par carte, il n'y a aucuns frais de change dans la limite des plafonds de votre forfait."
+        "question": "Combien coûtent réellement les retraits aux distributeurs à l'étranger ?",
+        "answer": "La tarification dépend de la formule de compte (le « Plan ») à laquelle vous avez souscrit. Sur le plan Standard (qui est 100% gratuit), vous avez le droit de retirer sans payer de commissions jusqu'à 200€ par mois glissant, ou de réaliser 5 retraits au guichet maximum. Une fois ce plafond relativement souple dépassé, une commission standardisée de 2% est automatiquement appliquée par Revolut sur le montant retiré."
+      },
+      {
+        "question": "Pourquoi Revolut prend des frais sur les devises pendant le week-end ?",
+        "answer": "C'est une spécificité technique que peu connaissent. Revolut se base sur le marché officiel des changes qui ouvre du lundi au vendredi. Lorsque ce marché financier mondial clôture le week-end, les taux de change peuvent parfois violemment fluctuer à son ouverture le lundi. Pour se couvrir face à ce risque financier, Revolut applique de son côté de façon forfaitaire une majoration systématique équivalente à 1% sur vos paiements en monnaie étrangère effectués les samedis et dimanches."
+      },
+      {
+        "question": "Dois-je déclarer mon compte Revolut aux impôts français ?",
+        "answer": "Depuis que Revolut attribue des IBAN français à ses clients de l'hexagone (la migration a eu lieu récemment), il n'est en principe plus obligatoire de déclarer l'ouverture de ce compte via le fastidieux formulaire fiscal annuel des comptes détenus à l'étranger (formulaire 3916). Cependant, vérifiez bien si votre IBAN par défaut au sein de l'application commence toujours par « LT » ou s'il commence par « FR »."
       }
     ],
     "steps": [
       {
-        "title": "Inscription Standard",
-        "description": "Utilisez le lien de parrainage pour vous enregistrer sur l'application en quelques clics."
+        "title": "Téléchargement & KYC Rapide",
+        "description": "Utilisez de préférence notre lien de parrainage depuis votre smartphone, et suivez la procédure pour enregistrer un compte d'une rapidité déconcertante (généralement bouclée en 5 petites minutes). Une vérification de vos documents d'identité sera exigée."
       },
       {
-        "title": "Commande de Carte",
-        "description": "Commandez votre carte physique Revolut (souvent gratuite via parrainage) pour retirer de l'argent partout dans le monde."
+        "title": "Recharge et Commande CB",
+        "description": "Ajoutez quelques dizaines d'euros sur votre nouveau compte (le rechargement par carte bancaire personnelle est totalement gratuit et instantané !) puis passez immédiatement à la commande de votre carte de débit physique internationale."
       },
       {
-        "title": "Explorez l'App",
-        "description": "Activez les fonctionnalités de sécurité et commencez à payer sans frais pour profiter pleinement de votre nouvelle néo-banque."
+        "title": "Jouez le jeu avec 3 paiements",
+        "description": "N'attendez pas de la recevoir : ajoutez la carte virtuelle immédiatement disponible sur votre Apple Wallet ou Google Pay et utilisez-la pour régler au moins 3 achats du quotidien (le minimum requis est souvent de 5€ par paiement). Félicitations, votre prime de parrainage devrait être libérée sous peu !"
       }
     ],
     "lastVerified": "2026-03-05"

@@ -30,15 +30,15 @@ export function Footer() {
                     <div className="space-y-5 md:col-span-3">
                         <h3 className="font-semibold text-slate-900 dark:text-white flex items-center gap-2 text-sm uppercase tracking-wider">
                             <Zap size={16} className="text-amber-500" />
-                            Offres populaires
+                            Catégories Populaires
                         </h3>
                         <ul className="space-y-3 text-sm text-slate-500 dark:text-slate-400">
                             {[
-                                { name: "Parrainage Fortuneo", href: "/parrainage-fortuneo" },
-                                { name: "Parrainage Revolut", href: "/parrainage-revolut" },
-                                { name: "Parrainage Binance", href: "/parrainage-binance" },
-                                { name: "Parrainage WeWard", href: "/parrainage-weward" },
-                                { name: "Parrainage Uber Eats", href: "/parrainage-uber-eats" }
+                                { name: "Banque & Finance", href: "/categorie/banque-finance" },
+                                { name: "Crypto & Investissement", href: "/categorie/crypto" },
+                                { name: "Shopping & Cashback", href: "/categorie/shopping" },
+                                { name: "Énergie & Internet", href: "/categorie/energie-internet" },
+                                { name: "Transports & Mobilité", href: "/categorie/transports" }
                             ].map((link) => (
                                 <li key={link.name}>
                                     <Link href={link.href} className="group flex items-center gap-1.5 hover:text-primary transition-colors">
@@ -58,6 +58,7 @@ export function Footer() {
                         </h3>
                         <ul className="space-y-3 text-sm text-slate-500 dark:text-slate-400">
                             {[
+                                { name: "Notre Méthodologie", href: "/notre-methodologie" },
                                 { name: "Guides & Bons Plans", href: "/guides" },
                                 { name: "Mentions légales", href: "/mentions-legales" },
                                 { name: "Politique de confidentialité", href: "/politique-de-confidentialite" }

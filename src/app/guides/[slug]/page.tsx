@@ -95,8 +95,8 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         "wordCount": guide.content.split(/\s+/).length,
         "author": {
             "@type": "Person",
-            "name": "Nolwen Albanesi",
-            "url": "https://codes-de-parrainages.com"
+            "name": "L'Équipe Bons Plans",
+            "url": "https://codes-de-parrainages.com/notre-methodologie"
         },
         "image": "https://codes-de-parrainages.com/og-image.png"
     };
