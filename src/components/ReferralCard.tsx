@@ -22,14 +22,16 @@ export interface Referral {
   faqs?: { question: string; answer: string }[];
 }
 
-export function ReferralCard({ referral, isPriority = false }: { referral: Referral, isPriority?: boolean }) {
+export function ReferralCard({ referral, isPriority = false, index }: { referral: Referral, isPriority?: boolean, index?: number }) {
+  const shouldPrioritize = isPriority || (index !== undefined && index < 4);
+
   return (
     <div className="group relative flex flex-col justify-between overflow-hidden rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm transition-all hover:shadow-md hover:-translate-y-1">
 
       <div className="p-5 pb-3">
         <div className="flex items-center gap-4 mb-4">
           <Link href={`/parrainage-${referral.slug}`} className="h-12 w-12 shrink-0 overflow-hidden rounded-xl border border-slate-100 dark:border-slate-800 bg-white shadow-sm ring-1 ring-slate-900/5 dark:ring-white/5 relative p-2 flex items-center justify-center hover:opacity-80 transition-opacity">
-            <CompanyLogo url={referral.logoUrl} name={referral.name} priority={isPriority} />
+            <CompanyLogo url={referral.logoUrl} name={referral.name} priority={shouldPrioritize} />
           </Link>
           <div>
             <Link href={`/parrainage-${referral.slug}`}>

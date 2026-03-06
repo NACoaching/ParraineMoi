@@ -2,6 +2,8 @@ import { ReferralGrid } from "@/components/ReferralGrid";
 import referralsData from "@/data/referrals.json";
 import { Referral } from "@/components/ReferralCard";
 import { slugifyCategory } from "@/lib/utils";
+import { ChevronRight, Home } from "lucide-react";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
@@ -54,13 +56,46 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         }))
     };
 
+    const breadcrumbJsonLd = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://codes-de-parrainages.com"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": `Catégorie ${originalCategory}`,
+                "item": `https://codes-de-parrainages.com/categorie/${slug}`
+            }
+        ]
+    };
+
     return (
         <main className="flex flex-col items-center min-h-screen pb-20 pt-16 px-4">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
             />
-            <div className="w-full max-w-5xl text-center mb-12">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+            />
+            <div className="w-full max-w-5xl text-center mb-12 relative">
+                <nav className="absolute top-0 left-0 -translate-y-12 flex items-center gap-2 text-sm font-medium text-slate-500 overflow-x-auto whitespace-nowrap hidden md:flex">
+                    <Link href="/" className="flex items-center gap-1.5 hover:text-slate-900 dark:hover:text-white transition-colors">
+                        <Home size={16} />
+                        <span>Accueil</span>
+                    </Link>
+                    <ChevronRight size={14} className="text-slate-300 dark:text-slate-700 flex-shrink-0" />
+                    <span className="text-slate-900 dark:text-slate-300 font-semibold">
+                        {originalCategory}
+                    </span>
+                </nav>
                 <span className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary font-medium text-sm mb-4">
                     Catégorie
                 </span>

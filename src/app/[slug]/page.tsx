@@ -152,10 +152,12 @@ export default async function ReferralPage({
 
     return (
         <main className="min-h-screen px-4 py-8 sm:px-6 sm:py-16">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-            />
+            {referral.faqs && referral.faqs.length > 0 && (
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+                />
+            )}
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewJsonLd) }}

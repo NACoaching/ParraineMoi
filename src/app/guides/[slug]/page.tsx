@@ -101,20 +101,48 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         "image": "https://codes-de-parrainages.com/og-image.png"
     };
 
+    const breadcrumbJsonLd = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://codes-de-parrainages.com"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Guides & Astuces",
+                "item": "https://codes-de-parrainages.com/guides"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": guide.title,
+                "item": `https://codes-de-parrainages.com/guides/${guide.slug}`
+            }
+        ]
+    };
+
     return (
         <main className="min-h-screen py-10 px-4">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
             />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+            />
             <article className="max-w-3xl mx-auto">
-                <Link
-                    href="/guides"
-                    className="inline-flex items-center gap-2 text-sm font-medium text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 transition-colors mb-10"
-                >
-                    <ArrowLeft size={16} />
-                    Retour aux guides
-                </Link>
+                <nav className="flex items-center gap-2 text-sm font-medium text-slate-500 mb-8 overflow-x-auto whitespace-nowrap pb-2">
+                    <Link href="/guides" className="flex items-center gap-1.5 hover:text-slate-900 dark:hover:text-white transition-colors">
+                        <ArrowLeft size={16} />
+                        Retour aux guides
+                    </Link>
+                </nav>
 
                 <header className="mb-12">
                     <div className="flex flex-wrap items-center gap-4 mb-6 text-sm font-medium text-slate-500 dark:text-slate-400">
