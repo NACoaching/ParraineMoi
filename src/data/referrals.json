@@ -1904,60 +1904,6 @@
     "lastVerified": "2026-03-07"
   },
   {
-    "id": "35",
-    "name": "EDF",
-    "slug": "edf",
-    "category": "Énergie & Internet",
-    "code": "A_REMPLIR_EDF",
-    "link": "https://particulier.edf.fr/fr/accueil/parrainage.html",
-    "advantage": "Jusqu'à 40€ sur votre facture",
-    "description": "Le fournisseur historique d'électricité en France propose enfin un programme de parrainage attractif en 2026. Souscrivez à une offre de marché EDF (hors Tarif Bleu réglementé) et réduisez immédiatement le montant de vos prochaines factures d'énergie grâce à la prime de bienvenue.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=edf.fr&sz=128",
-    "review": {
-      "pros": [
-        "Jusqu'à 40€ remboursés sur votre facture d'électricité (souvent doublé à 80€ lors des semaines spéciales)",
-        "Le fournisseur de confiance historique des Français",
-        "Espace client lissé et application EDF et Moi très pratique pour suivre sa conso",
-        "Possibilité de parrainer à votre tour jusqu'à 5 amis par an"
-      ],
-      "cons": [
-        "Uniquement valable sur les offres de marché (ne fonctionne pas sur le Tarif Bleu Réglementé)",
-        "Parrainage exclusif aux nouveaux contrats, pas aux anciens clients",
-        "Procédure de souscription parfois longue"
-      ],
-      "longReview": "<p>Face à la montée en puissance de la concurrence sur le marché de l'énergie, le fournisseur historique <strong>EDF a musclé son jeu avec son programme « Mission Parrainage »</strong>. Si EDF reste le pilier de confiance absolue pour des millions de Français, ce programme permet enfin d'adoucir la facture de régularisation : en utilisant le code de votre parrain, <strong>vous récupérez généralement 40€, directement déduits de votre facture d'électricité.</strong></p><br/><p>Attention toutefois à la seule condition majeure de ce bon plan : le parrainage ne s'applique <strong>uniquement qu'aux offres de marché d'EDF</strong> (comme l'offre Vert Électrique), et non au fameux « Tarif Bleu » réglementé par l'État. Mais les offres de marché d'EDF sont souvent plus compétitives pour ceux qui suivent de près leur consommation.</p><br/><p>Le fonctionnement est très sécurisant : le montant est crédité sous forme d'avoir sur votre compte client et vient s'imputer sur votre prochaine mensualité. Idéal pour un déménagement ou un changement de fournisseur !</p>"
-    },
-    "steps": [
-      {
-        "title": "Préparez les infos de votre parrain",
-        "description": "Pour bénéficier de la prime, vous devez obligatoirement renseigner notre code de parrainage ou nous mentionner lors de votre souscription."
-      },
-      {
-        "title": "Souscrivez à une offre de marché",
-        "description": "Sélectionnez votre offre d'électricité (hors Tarif Bleu réglementé et Zen Online) directement sur le site d'EDF ou par téléphone."
-      },
-      {
-        "title": "Validation & Réduction de facture",
-        "description": "Une fois votre contrat actif, la prime de 40€ sera versée sous forme d'avoir sur votre Espace Client et déduite de vos échéances."
-      }
-    ],
-    "faqs": [
-      {
-        "question": "Le parrainage EDF fonctionne-t-il sur le Tarif Bleu ?",
-        "answer": "Non, c'est la règle d'or d'EDF : le programme de parrainage est exclusivement réservé aux nouveaux contrats souscrits sur une « Offre de Marché » (comme l'offre Vert Électrique)."
-      },
-      {
-        "question": "Comment la prime est-elle versée ?",
-        "answer": "EDF ne vous fait pas de virement bancaire encaissable. La prime apparaît sous la forme d'un avoir dans votre Espace Client et est automatiquement déduite de votre prochaine facture d'énergie."
-      },
-      {
-        "question": "Puis-je parrainer à mon tour ?",
-        "answer": "Oui, une fois client d'une offre de marché EDF, vous pouvez parrainer jusqu'à 5 proches par an (ce qui vous permet de cumuler vous-même 100€ de réduction potentielle)."
-      }
-    ],
-    "lastVerified": "2026-03-07"
-  },
-  {
     "id": "36",
     "name": "RED by SFR",
     "slug": "red-by-sfr",
