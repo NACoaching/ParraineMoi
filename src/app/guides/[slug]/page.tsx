@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowLeft, Clock, Calendar, BookOpen } from 'lucide-react';
+import { ArrowLeft, Clock, Calendar, BookOpen, ChevronRight } from 'lucide-react';
 import guidesData from '@/data/guides.json';
 import referralsData from '@/data/referrals.json';
 import { ReferralCard, Referral } from '@/components/ReferralCard';
@@ -50,7 +50,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         return blocks.map((block, index) => {
             if (block.startsWith('## ')) {
                 return (
-                    <h2 key={index} className="text-2xl font-bold text-slate-900 dark:text-white mt-10 mb-4">
+                    <h2 key={index} className="text-3xl font-bold text-slate-900 dark:text-white mt-16 mb-8 tracking-tight border-l-4 border-primary pl-6">
                         {block.replace('## ', '')}
                     </h2>
                 );
@@ -136,41 +136,47 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
             />
-            <article className="max-w-3xl mx-auto">
-                <nav className="flex items-center gap-2 text-sm font-medium text-slate-500 mb-8 overflow-x-auto whitespace-nowrap pb-2">
+            <article className="max-w-4xl mx-auto">
+                <nav className="flex items-center justify-center gap-2 text-sm font-medium text-slate-500 mb-12 overflow-x-auto whitespace-nowrap">
                     <Link href="/guides" className="flex items-center gap-1.5 hover:text-slate-900 dark:hover:text-white transition-colors">
                         <ArrowLeft size={16} />
-                        Retour aux guides
+                        <span>Retour aux guides</span>
                     </Link>
+                    <ChevronRight size={14} className="text-slate-300 dark:text-slate-700 flex-shrink-0" />
+                    <span className="text-slate-900 dark:text-slate-300 font-bold uppercase tracking-widest text-xs">
+                        {guide.category}
+                    </span>
                 </nav>
 
-                <header className="mb-12">
-                    <div className="flex flex-wrap items-center gap-4 mb-6 text-sm font-medium text-slate-500 dark:text-slate-400">
-                        <span className="flex items-center gap-1.5 bg-primary/10 text-primary px-3 py-1.5 rounded-full">
+                <header className="mb-16 text-center">
+                    <div className="flex flex-wrap items-center justify-center gap-6 mb-8 text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400">
+                        <span className="flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-2xl">
                             <BookOpen size={16} />
                             {guide.category}
                         </span>
-                        <span className="flex items-center gap-1.5">
-                            <Calendar size={16} />
+                        <span className="flex items-center gap-2">
+                            <Calendar size={16} className="text-primary" />
                             {new Date(guide.date).toLocaleDateString('fr-FR', {
                                 year: 'numeric',
                                 month: 'long',
                                 day: 'numeric'
                             })}
                         </span>
-                        <span className="flex items-center gap-1.5">
-                            <Clock size={16} />
+                        <span className="flex items-center gap-2">
+                            <Clock size={16} className="text-primary" />
                             {guide.readingTime}
                         </span>
                     </div>
 
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-6 leading-tight">
+                    <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tighter text-slate-900 dark:text-white mb-10 leading-[1.1]">
                         {guide.title}
                     </h1>
 
-                    <p className="text-xl text-slate-600 dark:text-slate-300 leading-relaxed border-l-4 border-primary pl-6 py-2 italic bg-slate-50 dark:bg-slate-800/50 rounded-r-xl">
-                        {guide.excerpt}
-                    </p>
+                    <div className="glass-card p-8 bg-white/50 dark:bg-slate-900/50 mb-12 border-l-8 border-l-primary">
+                        <p className="text-xl text-slate-600 dark:text-slate-300 leading-relaxed italic">
+                            {guide.excerpt}
+                        </p>
+                    </div>
                 </header>
 
                 <div className="prose prose-slate dark:prose-invert max-w-none">

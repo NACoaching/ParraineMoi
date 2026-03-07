@@ -85,25 +85,25 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
             />
-            <div className="w-full max-w-5xl text-center mb-12 relative">
-                <nav className="absolute top-0 left-0 -translate-y-12 flex items-center gap-2 text-sm font-medium text-slate-500 overflow-x-auto whitespace-nowrap hidden md:flex">
+            <div className="w-full max-w-6xl text-center mb-16 relative">
+                <nav className="flex items-center justify-center gap-2 text-sm font-medium text-slate-500 mb-12 overflow-x-auto whitespace-nowrap">
                     <Link href="/" className="flex items-center gap-1.5 hover:text-slate-900 dark:hover:text-white transition-colors">
                         <Home size={16} />
                         <span>Accueil</span>
                     </Link>
                     <ChevronRight size={14} className="text-slate-300 dark:text-slate-700 flex-shrink-0" />
-                    <span className="text-slate-900 dark:text-slate-300 font-semibold">
+                    <span className="text-slate-900 dark:text-slate-300 font-bold uppercase tracking-widest text-xs">
                         {originalCategory}
                     </span>
                 </nav>
-                <span className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary font-medium text-sm mb-4">
-                    Catégorie
-                </span>
-                <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-6">
+                <div className="inline-block py-2 px-4 rounded-2xl bg-primary/10 text-primary font-bold text-xs uppercase tracking-widest mb-6">
+                    Explorer la catégorie
+                </div>
+                <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tighter text-slate-900 dark:text-white mb-8 leading-tight">
                     Parrainages <span className="text-primary">{originalCategory}</span>
                 </h1>
-                <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-                    Découvrez ma sélection des meilleures offres et primes de bienvenue pour la thématique {originalCategory}.
+                <p className="text-xl text-slate-500 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed">
+                    Comparez les meilleures offres et primes de bienvenue vérifiées par nos experts pour la thématique {originalCategory}.
                 </p>
             </div>
 
@@ -115,24 +115,29 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
             </div>
 
             {/* Texte SEO pour enrichir la page catégorie */}
-            <div className="w-full max-w-4xl mx-auto mt-16 p-8 bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 rounded-[2rem]">
-                <div className="prose prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-400">
-                    <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
-                        Pourquoi utiliser un code de parrainage {originalCategory} ?
+            <div className="w-full max-w-4xl mx-auto mt-24 p-10 glass-card bg-white/50 dark:bg-slate-900/50">
+                <div className="prose prose-lg prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 leading-relaxed">
+                    <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-8 tracking-tight border-l-4 border-primary pl-6">
+                        Expertise & Conseils : {originalCategory}
                     </h2>
                     <p>
-                        Le secteur de la thématique <strong>{originalCategory}</strong> est très concurrentiel. Pour se démarquer et attirer de nouveaux utilisateurs, la grande majorité des applications et plateformes proposent des programmes de parrainage très avantageux ou des codes promos de bienvenue exclusifs.
+                        Le secteur de la thématique <strong>{originalCategory}</strong> est en pleine mutation en 2026. Pour récompenser votre fidélité, les meilleures plateformes proposent des programmes de parrainage exclusifs.
                     </p>
                     <p>
-                        Notre catalogue liste les meilleures offres testées, mises à jour et vérifiées en temps réel pour l&apos;année {new Date().getFullYear()}. En utilisant ces liens de redirection ou en appliquant nos codes d&apos;invitation lors de votre inscription, vous pouvez bénéficier de :
+                        Notre catalogue liste les offres testées et vérifiées. En utilisant nos codes d&apos;invitation, vous profitez de :
                     </p>
-                    <ul>
-                        <li><strong>Primes d&apos;ouverture de compte :</strong> De l&apos;argent directement crédité sur votre nouveau compte.</li>
-                        <li><strong>Réductions immédiates :</strong> Un pourcentage de remise sur vos premiers achats ou abonnements.</li>
-                        <li><strong>Frais offerts :</strong> Gratuité sur des opérations normalement payantes (livraison, transactions, etc.).</li>
-                    </ul>
-                    <p className="text-sm italic mt-6">
-                        Attention : vérifiez toujours les conditions générales de chaque offre. Les primes {originalCategory} nécessitent souvent l&apos;activation d&apos;un compte, un premier dépôt minimum, ou la réalisation d&apos;un premier achat pour être débloquées.
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 my-10 not-prose">
+                        <div className="p-6 rounded-2xl bg-white/50 dark:bg-slate-950/50 border border-slate-200/50 dark:border-slate-800/50">
+                            <h3 className="font-bold text-slate-900 dark:text-white mb-2">💰 Primes de cash</h3>
+                            <p className="text-sm">Argent crédité immédiatement sur votre compte.</p>
+                        </div>
+                        <div className="p-6 rounded-2xl bg-white/50 dark:bg-slate-950/50 border border-slate-200/50 dark:border-slate-800/50">
+                            <h3 className="font-bold text-slate-900 dark:text-white mb-2">🛡️ Sécurité garantie</h3>
+                            <p className="text-sm">Toutes nos offres sont validées manuellement.</p>
+                        </div>
+                    </div>
+                    <p className="text-sm font-bold opacity-60 uppercase tracking-widest mt-12 bg-slate-100 dark:bg-slate-800 py-2 px-4 rounded-xl inline-block">
+                        ⚠️ Important : Offres limitées dans le temps
                     </p>
                 </div>
             </div>
