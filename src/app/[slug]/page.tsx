@@ -231,10 +231,10 @@ export default async function ReferralPage({
                     </div>
                     <div className="relative z-10">
                         <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-3">
-                            Comment profiter de l'offre ?
+                            Comment profiter de l&apos;offre ?
                         </h2>
                         <p className="text-slate-500 dark:text-slate-400 mb-8 max-w-lg mx-auto text-lg">
-                            C'est très simple ! Copiez le code ci-dessous et collez-le dans le champ "Code de parrainage / Promo" lors de votre inscription.
+                            C&apos;est très simple ! Copiez le code ci-dessous et collez-le dans le champ &quot;Code de parrainage / Promo&quot; lors de votre inscription.
                         </p>
 
                         <div className="flex flex-col md:flex-row gap-5 justify-center items-stretch max-w-2xl mx-auto">
@@ -290,27 +290,60 @@ export default async function ReferralPage({
                             )}
                         </div>
 
-                        {/* Pros */}
-                        {referral.review && referral.review.pros && referral.review.pros.length > 0 && (
-                            <div className="mb-8">
-                                <div className="bg-emerald-50/50 dark:bg-emerald-900/10 border border-emerald-100 dark:border-emerald-800/30 rounded-[1.5rem] p-6 shadow-sm">
-                                    <h3 className="text-lg font-bold text-emerald-800 dark:text-emerald-400 mb-4 flex items-center gap-2">
-                                        <span className="flex items-center justify-center p-1 bg-emerald-100 dark:bg-emerald-800/50 rounded-full">
-                                            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
-                                        </span>
-                                        Les points forts
-                                    </h3>
-                                    <ul className="space-y-3">
-                                        {referral.review.pros.map((pro, index) => (
-                                            <li key={index} className="flex items-start gap-3 text-slate-700 dark:text-slate-300">
-                                                <span className="text-emerald-500 mt-1 shrink-0">•</span>
-                                                <span>{pro}</span>
-                                            </li>
-                                        ))}
-                                    </ul>
+                        {/* Avantages du parrainage */}
+                        <div className="mb-12">
+                            <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
+                                <span className="flex items-center justify-center p-2 rounded-xl bg-emerald-100 text-emerald-600 dark:bg-emerald-900/50 dark:text-emerald-400">
+                                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                                </span>
+                                Les avantages du parrainage {referral.name}
+                            </h2>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div className="bg-emerald-50/50 dark:bg-emerald-900/10 border border-emerald-100 dark:border-emerald-800/30 rounded-2xl p-5 flex items-start gap-4">
+                                    <div className="h-10 w-10 shrink-0 rounded-xl bg-emerald-100 dark:bg-emerald-800/50 flex items-center justify-center text-emerald-600 dark:text-emerald-400 text-xl">
+                                        💰
+                                    </div>
+                                    <div>
+                                        <h3 className="font-bold text-slate-900 dark:text-white mb-1">Bonus immédiat</h3>
+                                        <p className="text-sm text-slate-600 dark:text-slate-400">Recevez {referral.advantage} dès votre inscription validée</p>
+                                    </div>
+                                </div>
+                                <div className="bg-emerald-50/50 dark:bg-emerald-900/10 border border-emerald-100 dark:border-emerald-800/30 rounded-2xl p-5 flex items-start gap-4">
+                                    <div className="h-10 w-10 shrink-0 rounded-xl bg-emerald-100 dark:bg-emerald-800/50 flex items-center justify-center text-emerald-600 dark:text-emerald-400 text-xl">
+                                        ✅
+                                    </div>
+                                    <div>
+                                        <h3 className="font-bold text-slate-900 dark:text-white mb-1">Code vérifié</h3>
+                                        <p className="text-sm text-slate-600 dark:text-slate-400">Mis à jour et testé en {currentYear}</p>
+                                    </div>
+                                </div>
+                                <div className="bg-emerald-50/50 dark:bg-emerald-900/10 border border-emerald-100 dark:border-emerald-800/30 rounded-2xl p-5 flex items-start gap-4">
+                                    <div className="h-10 w-10 shrink-0 rounded-xl bg-emerald-100 dark:bg-emerald-800/50 flex items-center justify-center text-emerald-600 dark:text-emerald-400 text-xl">
+                                        ⚡
+                                    </div>
+                                    <div>
+                                        <h3 className="font-bold text-slate-900 dark:text-white mb-1">Activation rapide</h3>
+                                        <p className="text-sm text-slate-600 dark:text-slate-400">Simple à utiliser, bonus crédité rapidement</p>
+                                    </div>
+                                </div>
+                                <div className="bg-emerald-50/50 dark:bg-emerald-900/10 border border-emerald-100 dark:border-emerald-800/30 rounded-2xl p-5 flex items-start gap-4">
+                                    <div className="h-10 w-10 shrink-0 rounded-xl bg-emerald-100 dark:bg-emerald-800/50 flex items-center justify-center text-emerald-600 dark:text-emerald-400 text-xl">
+                                        🔓
+                                    </div>
+                                    <div>
+                                        <h3 className="font-bold text-slate-900 dark:text-white mb-1">Sans engagement</h3>
+                                        <p className="text-sm text-slate-600 dark:text-slate-400">Profitez du bonus en testant simplement le service</p>
+                                    </div>
                                 </div>
                             </div>
-                        )}
+
+                            <div className="mt-8 bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800 rounded-2xl p-6">
+                                <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-3">Pourquoi mon code parrainage {referral.name} fonctionne-t-il ?</h3>
+                                <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                                    Tous nos codes de parrainage sont vérifiés régulièrement pour garantir leur validité. Le code <strong className="text-slate-900 dark:text-white">{referral.code}</strong> a été testé {referral.lastVerified ? `le ${new Date(referral.lastVerified).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}` : `récemment en ${currentYear}`} et fonctionne parfaitement. Si vous rencontrez un problème, vérifiez que vous remplissez bien toutes les conditions d&apos;éligibilité mentionnées dans la FAQ ci-dessous.
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
                     {/* Step by step guide */}
@@ -383,7 +416,7 @@ export default async function ReferralPage({
                     <section className="pt-16 border-t font-semibold border-slate-200 dark:border-slate-800">
                         <div className="text-center mb-10">
                             <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">
-                                D'autres offres <span className="text-primary">{referral.category}</span>
+                                D&apos;autres offres <span className="text-primary">{referral.category}</span>
                             </h2>
                             <p className="text-slate-500 dark:text-slate-400">
                                 Poursuivez vos économies avec ces codes promotionnels triés sur le volet.
