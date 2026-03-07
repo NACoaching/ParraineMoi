@@ -26,20 +26,19 @@ export function ReferralCard({ referral, isPriority = false, index }: { referral
   const shouldPrioritize = isPriority || (index !== undefined && index < 4);
 
   return (
-    <div className="group relative flex flex-col justify-between overflow-hidden rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm transition-all hover:shadow-md hover:-translate-y-1">
-
-      <div className="p-5 pb-3">
-        <div className="flex items-center gap-4 mb-4">
-          <Link href={`/parrainage-${referral.slug}`} className="h-12 w-12 shrink-0 overflow-hidden rounded-xl border border-slate-100 dark:border-slate-800 bg-white shadow-sm ring-1 ring-slate-900/5 dark:ring-white/5 relative p-2 flex items-center justify-center hover:opacity-80 transition-opacity">
+    <div className="glass-card flex flex-col justify-between h-full group">
+      <div className="p-6 pb-4">
+        <div className="flex items-center gap-4 mb-5">
+          <Link href={`/parrainage-${referral.slug}`} className="h-14 w-14 shrink-0 overflow-hidden rounded-2xl border border-slate-100 dark:border-slate-800 bg-white shadow-sm ring-1 ring-slate-900/5 dark:ring-white/5 relative p-2 flex items-center justify-center hover:scale-105 transition-transform">
             <CompanyLogo url={referral.logoUrl} name={referral.name} priority={shouldPrioritize} />
           </Link>
           <div>
             <Link href={`/parrainage-${referral.slug}`}>
-              <h3 className="font-semibold text-slate-900 dark:text-white line-clamp-1 hover:text-primary transition-colors">{referral.name}</h3>
+              <h3 className="font-bold text-slate-900 dark:text-white line-clamp-1 hover:text-primary transition-colors text-lg tracking-tight">{referral.name}</h3>
             </Link>
             <Link
               href={`/categorie/${slugifyCategory(referral.category)}`}
-              className="inline-flex items-center rounded-full bg-slate-100 dark:bg-slate-800 px-2 py-1 text-xs font-medium text-slate-600 dark:text-slate-300 hover:bg-primary/10 hover:text-primary transition-colors"
+              className="inline-flex items-center rounded-full bg-slate-100 dark:bg-slate-800 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 hover:bg-primary/10 hover:text-primary transition-colors"
             >
               {referral.category}
             </Link>
@@ -47,35 +46,33 @@ export function ReferralCard({ referral, isPriority = false, index }: { referral
         </div>
 
         <div className="mb-4">
-          <p className="text-sm font-medium text-primary bg-blue-50 dark:bg-blue-500/10 px-3 py-1.5 rounded-lg inline-block">
-            🎁 {referral.advantage}
-          </p>
+          <div className="bg-primary/5 dark:bg-primary/10 border border-primary/10 text-primary px-3 py-2 rounded-xl inline-flex items-center gap-2">
+            <span className="text-xl">🎁</span>
+            <span className="text-sm font-bold tracking-tight">{referral.advantage}</span>
+          </div>
         </div>
 
-        <p className="text-sm text-slate-500 dark:text-slate-400 line-clamp-2 mb-4">
+        <p className="text-sm text-slate-600 dark:text-slate-400 line-clamp-2 leading-relaxed">
           {referral.description}
         </p>
       </div>
 
-      <div className="p-4 pt-0 mt-auto flex flex-col gap-3">
+      <div className="p-6 pt-0 mt-auto flex flex-col gap-3">
         {/* Code Box */}
-        <div className="flex items-center justify-between gap-2 bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50 rounded-xl p-1.5 pl-2">
+        <div className="flex items-center justify-between gap-2 bg-slate-50/50 dark:bg-slate-800/20 border border-slate-200/50 dark:border-slate-700/30 rounded-2xl p-2 pl-3">
           <div className="flex items-center gap-3 overflow-hidden">
-            <div className="h-8 w-8 shrink-0 rounded-lg bg-white border border-slate-200 dark:border-slate-700 p-1 flex items-center justify-center overflow-hidden">
-              <CompanyLogo url={referral.logoUrl} name={referral.name} />
-            </div>
-            <span className="font-mono font-medium text-slate-700 dark:text-slate-300 text-sm truncate select-all">
+            <span className="font-mono font-bold text-slate-700 dark:text-slate-200 text-base tracking-wider truncate select-all">
               {referral.code}
             </span>
           </div>
-          <CopyButton code={referral.code} showText={true} className="shrink-0 h-10 px-3" />
+          <CopyButton code={referral.code} showText={false} className="shrink-0 h-10 w-10 p-0 rounded-[14px]" />
         </div>
 
         <Link
           href={`/parrainage-${referral.slug}`}
-          className="w-full flex items-center justify-center h-10 px-4 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white font-medium hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors text-sm"
+          className="w-full flex items-center justify-center h-12 rounded-2xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold hover:opacity-90 transition-all text-sm shadow-sm active:scale-[0.98]"
         >
-          Voir l&apos;offre
+          Profiter de l&apos;offre
         </Link>
       </div>
     </div>
