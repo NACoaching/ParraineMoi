@@ -10,10 +10,15 @@ import referralsData from "@/data/referrals.json";
 export function ReferralGrid({ referrals, activeCategoryName: initialCategory = "Toutes" }: { referrals: Referral[], activeCategoryName?: string }) {
     const [searchTerm, setSearchTerm] = useState("");
     const [activeCategory, setActiveCategory] = useState(initialCategory);
+    const [selectedOfferSlug, setSelectedOfferSlug] = useState("");
 
     const allCategories = useMemo(() => {
         const cats = Array.from(new Set((referralsData as Referral[]).map(r => r.category)));
         return ["Toutes", ...cats];
+    }, []);
+
+    const allOfferNames = useMemo(() => {
+        return (referralsData as Referral[]).map(r => ({ name: r.name, slug: r.slug })).sort((a, b) => a.name.localeCompare(b.name));
     }, []);
 
     const spotlightIndex = referrals.findIndex(r => r.slug === 'fortuneo');
@@ -28,6 +33,11 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
             result = result.filter(ref => ref.category === activeCategory);
         }
 
+        // Filter by specific offer selection
+        if (selectedOfferSlug) {
+            result = result.filter(ref => ref.slug === selectedOfferSlug);
+        }
+
         // Filter by search term
         if (searchTerm) {
             const lowerSearch = searchTerm.toLowerCase();
@@ -39,7 +49,7 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
             );
         }
 
-        const isDefault = !searchTerm && activeCategory === "Toutes";
+        const isDefault = !searchTerm && activeCategory === "Toutes" && !selectedOfferSlug;
         const currentSpotlight = isDefault ? spotlightOfferRaw : null;
 
         // Final grid offers: exclude spotlight if it's being shown separately
@@ -48,11 +58,11 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
             : result;
 
         return { filteredGridOffers: gridResults, spotlightOffer: currentSpotlight };
-    }, [searchTerm, activeCategory, referrals, spotlightOfferRaw]);
+    }, [searchTerm, activeCategory, selectedOfferSlug, referrals, spotlightOfferRaw]);
 
     return (
         <div className="w-full">
-            <div className="mb-10 flex flex-col sm:flex-row gap-4 max-w-2xl mx-auto">
+            <div className="mb-8 flex flex-col sm:flex-row gap-4 max-w-3xl mx-auto">
                 {/* Search Bar */}
                 <div className="relative flex-grow">
                     <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
@@ -65,20 +75,27 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
                         className="block w-full pl-11 pr-4 py-3.5 border border-slate-200 dark:border-slate-800 rounded-2xl bg-white dark:bg-slate-900 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all shadow-sm"
                         placeholder="Rechercher une marque..."
                         value={searchTerm}
-                        onChange={(e) => setSearchTerm(e.target.value)}
+                        onChange={(e) => {
+                            setSearchTerm(e.target.value);
+                            setSelectedOfferSlug(""); // Reset dropdown if typing
+                        }}
                     />
                 </div>
 
-                {/* Category Dropdown */}
-                <div className="relative min-w-[180px]">
+                {/* Offer Dropdown */}
+                <div className="relative min-w-[220px]">
                     <select
-                        aria-label="Filtrer par catégorie"
+                        aria-label="Toutes les offres"
                         className="appearance-none block w-full px-4 pr-10 py-3.5 border border-slate-200 dark:border-slate-800 rounded-2xl bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all shadow-sm cursor-pointer font-medium"
-                        value={activeCategory}
-                        onChange={(e) => setActiveCategory(e.target.value)}
+                        value={selectedOfferSlug}
+                        onChange={(e) => {
+                            setSelectedOfferSlug(e.target.value);
+                            setSearchTerm(""); // Reset search if selecting from dropdown
+                        }}
                     >
-                        {allCategories.map(cat => (
-                            <option key={cat} value={cat}>{cat}</option>
+                        <option value="">Toutes les offres</option>
+                        {allOfferNames.map(offer => (
+                            <option key={offer.slug} value={offer.slug}>{offer.name}</option>
                         ))}
                     </select>
                     <div className="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none text-slate-400">
@@ -87,6 +104,28 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
                         </svg>
                     </div>
                 </div>
+            </div>
+
+            {/* Categories Buttons (Restored) */}
+            <div className="flex flex-wrap justify-center gap-2 mb-10">
+                {allCategories.map(cat => {
+                    const isActive = activeCategory === cat;
+                    return (
+                        <button
+                            key={cat}
+                            onClick={() => {
+                                setActiveCategory(cat);
+                                setSelectedOfferSlug(""); // Optional: reset specific offer when changing category
+                            }}
+                            className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${isActive
+                                ? "bg-slate-900 text-white dark:bg-white dark:text-slate-900 shadow-md transform scale-105"
+                                : "bg-white text-slate-600 border border-slate-200 hover:bg-slate-50 dark:bg-slate-900/50 dark:text-slate-400 dark:border-slate-800 dark:hover:bg-slate-800"
+                                }`}
+                        >
+                            {cat}
+                        </button>
+                    );
+                })}
             </div>
 
             {spotlightOffer && (
@@ -108,12 +147,13 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
                 <div className="text-center py-16 px-4 rounded-[2.5rem] bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 border-dashed">
                     <div className="text-4xl mb-4 text-slate-300">🔍</div>
                     <p className="text-slate-500 dark:text-slate-400 font-medium">
-                        Aucun parrainage trouvé pour &quot;{searchTerm}&quot; dans la catégorie {activeCategory}.
+                        Aucun parrainage trouvé pour vos critères.
                     </p>
                     <button
                         onClick={() => {
                             setSearchTerm("");
                             setActiveCategory("Toutes");
+                            setSelectedOfferSlug("");
                         }}
                         className="mt-6 text-primary font-bold hover:underline bg-primary/10 px-6 py-2 rounded-full"
                     >
