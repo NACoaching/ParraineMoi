@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { ShieldCheck, Search, Award } from 'lucide-react';
 
 export const metadata: Metadata = {
-    title: 'À propos de Codes de Parrainages - Méthodologie & Indépendance',
-    description: 'Découvrez qui se cache derrière Codes de Parrainages, ma méthode de test sur 30 jours et pourquoi vous pouvez avoir confiance dans ces offres de bienvenue.',
+    title: 'Méthodologie & Indépendance - Codes de Parrainages',
+    description: 'Découvrez ma méthode de test sur 30 jours et pourquoi vous pouvez avoir confiance dans ces offres de bienvenue.',
     alternates: {
         canonical: "/a-propos",
     },
@@ -36,7 +36,7 @@ export default function AboutPage() {
             <div className="text-center mb-12">
 
                 <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mb-6">
-                    Notre Méthodologie
+                    Ma Méthodologie
                 </h1>
                 <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
                     Parce que la confiance ne s&apos;achète pas, elle se prouve. Voici comment je sélectionne et vérifie chaque offre.
