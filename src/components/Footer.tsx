@@ -58,7 +58,7 @@ export function Footer() {
                         </h3>
                         <ul className="space-y-3 text-sm text-slate-500 dark:text-slate-400">
                             {[
-                                { name: "Notre Méthodologie", href: "/notre-methodologie" },
+                                { name: "À Propos", href: "/a-propos" },
                                 { name: "Guides & Bons Plans", href: "/guides" },
                                 { name: "Mentions légales", href: "/mentions-legales" },
                                 { name: "Politique de confidentialité", href: "/politique-de-confidentialite" }

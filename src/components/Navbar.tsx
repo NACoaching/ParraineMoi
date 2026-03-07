@@ -18,8 +18,8 @@ export function Navbar() {
                     <Link href="/mentions-legales" className="text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 transition-colors">
                         Mentions Légales
                     </Link>
-                    <Link href="/notre-methodologie" className="text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 transition-colors">
-                        Notre Méthodologie
+                    <Link href="/a-propos" className="text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 transition-colors">
+                        À Propos (Méthodologie)
                     </Link>
                 </div>
             </div>
