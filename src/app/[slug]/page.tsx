@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { ShieldCheck, TrendingUp, Clock, ExternalLink, Info, ChevronRight, Home } from 'lucide-react';
+import { ShieldCheck, TrendingUp, Clock, ExternalLink, Info, ChevronRight, Home, Gift, ArrowRight } from 'lucide-react';
 import { CopyButton } from '@/components/CopyButton';
 import { CompanyLogo } from '@/components/CompanyLogo';
 import { FaqAccordion } from '@/components/FaqAccordion';
