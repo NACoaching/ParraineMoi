@@ -86,7 +86,7 @@ export function ReferralGrid({ referrals, activeCategoryName = "Toutes" }: { ref
             {spotlightOffer && (
                 <div className="mb-10 w-full lg:w-2/3 mx-auto relative">
                     <div className="absolute -top-3 -right-3 z-10 bg-yellow-400 text-yellow-900 text-xs font-bold px-3 py-1.5 rounded-full flex items-center gap-1 shadow-lg transform rotate-3">
-                        <Star className="h-4 w-4 fill-yellow-900" /> L'offre du mois
+                        <Star className="h-4 w-4 fill-yellow-900" /> L&apos;offre du mois
                     </div>
                     <ReferralCard referral={spotlightOffer} isPriority={true} />
                 </div>

@@ -11,7 +11,7 @@ export default function NotFound() {
                 Page introuvable
             </h1>
             <p className="text-lg text-slate-600 dark:text-slate-400 max-w-md mb-10">
-                Oups ! Cette page n'existe pas ou a été déplacée. Pas de panique, nos meilleurs codes de parrainage vous attendent.
+                Oups ! Cette page n&apos;existe pas ou a été déplacée. Pas de panique, nos meilleurs codes de parrainage vous attendent.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
                 <Link

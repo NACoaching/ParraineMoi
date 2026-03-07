@@ -39,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ];
 
     // Dynamic pages (referrals)
-    const referralsSitemap: MetadataRoute.Sitemap = referralsData.map((referral: any) => ({
+    const referralsSitemap: MetadataRoute.Sitemap = referralsData.map((referral) => ({
         url: `${baseUrl}/parrainage-${referral.slug}`,
         lastModified: referral.lastVerified ? new Date(referral.lastVerified) : new Date(),
         changeFrequency: 'monthly',

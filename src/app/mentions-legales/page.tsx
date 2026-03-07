@@ -19,7 +19,7 @@ export default function MentionsLegalesPage() {
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-slate-900 dark:text-white mb-4">1. Éditeur du site</h2>
                     <p>
-                        Ce site est édité à titre personnel. Les contenus présents (avis, descriptions) reflètent uniquement l'opinion de l'auteur.
+                        Ce site est édité à titre personnel. Les contenus présents (avis, descriptions) reflètent uniquement l&apos;opinion de l&apos;auteur.
                     </p>
                 </section>
 
@@ -34,16 +34,16 @@ export default function MentionsLegalesPage() {
                 </section>
 
                 <section className="mb-8">
-                    <h2 className="text-2xl font-semibold text-slate-900 dark:text-white mb-4">3. L'affiliation & Parrainage</h2>
+                    <h2 className="text-2xl font-semibold text-slate-900 dark:text-white mb-4">3. L&apos;affiliation & Parrainage</h2>
                     <p>
-                        Les liens et codes présents sur ce site sont des liens de parrainage. En utilisant ces codes lors de votre inscription sur les plateformes concernées, vous bénéficiez du bonus de bienvenue indiqué et l'éditeur du site peut recevoir une prime ou un avantage de la part de la plateforme. Cela ne change rien pour vous, et permet de soutenir le maintien de ce site gratuit.
+                        Les liens et codes présents sur ce site sont des liens de parrainage. En utilisant ces codes lors de votre inscription sur les plateformes concernées, vous bénéficiez du bonus de bienvenue indiqué et l&apos;éditeur du site peut recevoir une prime ou un avantage de la part de la plateforme. Cela ne change rien pour vous, et permet de soutenir le maintien de ce site gratuit.
                     </p>
                 </section>
 
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-slate-900 dark:text-white mb-4">4. Propriété intellectuelle</h2>
                     <p>
-                        Les marques, logos et noms de services cités sur ce site sont la propriété de leurs détenteurs respectifs. Ils ne sont utilisés qu'à des fins d'identification pour les offres de parrainage.
+                        Les marques, logos et noms de services cités sur ce site sont la propriété de leurs détenteurs respectifs. Ils ne sont utilisés qu&apos;à des fins d&apos;identification pour les offres de parrainage.
                     </p>
                 </section>
             </div>

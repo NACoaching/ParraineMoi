@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Gift, ShieldCheck, Zap, Mail, ChevronRight, ExternalLink } from "lucide-react";
+import { Gift, ShieldCheck, Zap, ChevronRight, ExternalLink } from "lucide-react";
 
 export function Footer() {
     return (

@@ -59,7 +59,7 @@ export default function GuidesPage() {
                                         day: 'numeric'
                                     })}
                                 </span>
-                                <span className="text-primary font-bold text-sm">Lire l'article →</span>
+                                <span className="text-primary font-bold text-sm">Lire l&apos;article →</span>
                             </div>
                         </Link>
                     ))}

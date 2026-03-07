@@ -75,7 +75,7 @@ export function ReferralCard({ referral, isPriority = false, index }: { referral
           href={`/parrainage-${referral.slug}`}
           className="w-full flex items-center justify-center h-10 px-4 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white font-medium hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors text-sm"
         >
-          Voir l'offre
+          Voir l&apos;offre
         </Link>
       </div>
     </div>

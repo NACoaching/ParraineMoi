@@ -75,7 +75,7 @@ export default function Home() {
           Comparateur des meilleurs codes de <span className="text-primary">parrainage</span> et offres
         </h1>
         <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mb-12">
-          Des offres testées et approuvées. Utilisez mes codes pour bénéficier d'avantages exclusifs lors de votre inscription.
+          Des offres testées et approuvées. Utilisez mes codes pour bénéficier d&apos;avantages exclusifs lors de votre inscription.
         </p>
 
         {/* Comment ça marche */}
@@ -92,14 +92,14 @@ export default function Home() {
               <Gift className="h-6 w-6" />
             </div>
             <div className="font-bold text-slate-900 dark:text-white mb-2 text-lg">2. Utilisez le code</div>
-            <p className="text-slate-600 dark:text-slate-400 text-sm">Copiez le code promo ou cliquez sur le lien de parrainage lors de votre inscription sur l'application.</p>
+            <p className="text-slate-600 dark:text-slate-400 text-sm">Copiez le code promo ou cliquez sur le lien de parrainage lors de votre inscription sur l&apos;application.</p>
           </div>
           <div className="flex flex-col items-center md:items-start text-center md:text-left bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
             <div className="h-12 w-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4">
               <Wallet className="h-6 w-6" />
             </div>
             <div className="font-bold text-slate-900 dark:text-white mb-2 text-lg">3. Gagnez votre prime</div>
-            <p className="text-slate-600 dark:text-slate-400 text-sm">Une fois votre compte validé, la prime de bienvenue ou la réduction s'applique automatiquement.</p>
+            <p className="text-slate-600 dark:text-slate-400 text-sm">Une fois votre compte validé, la prime de bienvenue ou la réduction s&apos;applique automatiquement.</p>
           </div>
         </div>
 
@@ -154,8 +154,8 @@ export default function Home() {
             <div>
               <h2 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Qui suis-je et pourquoi ces codes vérifiés ?</h2>
               <p className="text-sm text-slate-600 dark:text-slate-400">
-                L'idée de ce répertoire est très simple : plutôt que de laisser expirer mes invitations pour les excellents services que j'utilise au quotidien, je centralise ici les meilleurs bons plans. <br className="hidden sm:block" />
-                Je vous rassure, je <strong>teste personnellement</strong> chaque plateforme (banque en ligne, application crypto, shopping) pendant plusieurs mois avant de la lister ici. Mes avis partagés reflètent une expérience utilisateur 100% authentique. Si vous gagnez de l'argent de bienvenue grâce à ces affiliations, dites-vous que je touche également une petite prime transparente pour payer l'hébergement du site. Gagnant-gagnant ! 🤝
+                L&apos;idée de ce répertoire est très simple : plutôt que de laisser expirer mes invitations pour les excellents services que j&apos;utilise au quotidien, je centralise ici les meilleurs bons plans. <br className="hidden sm:block" />
+                Je vous rassure, je <strong>teste personnellement</strong> chaque plateforme (banque en ligne, application crypto, shopping) pendant plusieurs mois avant de la lister ici. Mes avis partagés reflètent une expérience utilisateur 100% authentique. Si vous gagnez de l&apos;argent de bienvenue grâce à ces affiliations, dites-vous que je touche également une petite prime transparente pour payer l&apos;hébergement du site. Gagnant-gagnant ! 🤝
               </p>
             </div>
           </div>
