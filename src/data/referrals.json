@@ -1960,5 +1960,58 @@
       }
     ],
     "lastVerified": "2026-03-07"
+  },
+  {
+    "id": "37",
+    "name": "Canva",
+    "slug": "canva",
+    "category": "Outils Numériques",
+    "code": "wrv-lwq-tlz",
+    "link": "https://www.canva.com/join/wrv-lwq-tlz",
+    "advantage": "1 crédit premium offert",
+    "description": "Canva est l'outil de design graphique en ligne leader mondial. Créez des visuels professionnels (logos, présentations, réseaux sociaux) facilement grâce à des milliers de modèles. En vous inscrivant via notre lien, vous recevez un crédit pour débloquer gratuitement un élément premium.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=canva.com&sz=128",
+    "review": {
+      "pros": [
+        "Interface glisser-déposer ultra-intuitive",
+        "Bibliothèque immense de templates et d'éléments",
+        "Fonctionnalités d'IA générative puissantes intégrées",
+        "Collaboration fluide en équipe sur le même projet"
+      ],
+      "cons": [
+        "Les meilleures fonctions sont réservées à Canva Pro",
+        "Dépendance à une connexion internet"
+      ],
+      "longReview": "<p>Dans l'univers de la création visuelle, <strong>Canva a littéralement démocratisé le design graphique</strong>. Que vous soyez un entrepreneur, un étudiant ou un créateur de contenu, cette plateforme permet de produire des résultats professionnels sans aucune compétence technique préalable. Son point fort réside dans son immense catalogue de modèles prêts à l'emploi qui couvrent tous les besoins imaginables.</p><br/><p>Le système de parrainage de Canva est basé sur la générosité : en rejoignant la communauté via un lien d'invitation, <strong>vous gagnez un crédit Canva</strong>. Ce crédit est précieux car il vous permet de télécharger gratuitement un élément normalement payant (image Premium, icône spécifique ou piste audio). C'est un excellent moyen de tester la puissance du catalogue payant sans sortir la carte bancaire.</p><br/><p>L'application mobile est également une réussite totale, permettant de retoucher ses visuels n'importe où. Entre l'IA qui détourne vos photos en un clic et les outils de mise en page automatique, Canva est l'outil indispensable de toute personne souhaitant soigner son image numérique.</p>"
+    },
+    "steps": [
+      {
+        "title": "Inscrivez-vous via notre lien",
+        "description": "Cliquez sur notre bouton d'invitation pour accéder à la page de création de compte Canva. Le parrainage est automatiquement détecté via le lien."
+      },
+      {
+        "title": "Créez votre premier design",
+        "description": "Inscrivez-vous gratuitement et commencez à explorer l'outil. Aucune carte bancaire n'est requise pour l'inscription classique."
+      },
+      {
+        "title": "Récupérez votre crédit",
+        "description": "Une fois votre première création lancée, vous devriez voir apparaître votre crédit gratuit dans votre compte, utilisable sur n'importe quel élément Premium du catalogue."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "À quoi sert le crédit Canva ?",
+        "answer": "Un crédit Canva vous permet d'acquérir un élément 'Premium' de la bibliothèque (habituellement facturé 1$) gratuitement pour un design. C'est idéal pour finaliser un projet important avec un élément de haute qualité."
+      },
+      {
+        "question": "Puis-je utiliser Canva gratuitement ?",
+        "answer": "Absolument. La version gratuite de Canva est extrêmement riche et suffit à 90% des utilisateurs. Le bonus de parrainage vient simplement ajouter une petite touche 'Pro' gratuite en plus."
+      },
+      {
+        "question": "Faut-il payer pour s'inscrire ?",
+        "answer": "Non, l'inscription est 100% gratuite. Le lien de parrainage fonctionne pour les nouveaux comptes qui n'ont jamais utilisé Canva auparavant."
+      }
+    ],
+    "lastVerified": "2026-03-07"
   }
 ]
