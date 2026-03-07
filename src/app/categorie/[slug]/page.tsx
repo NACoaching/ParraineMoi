@@ -113,6 +113,29 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
                     activeCategoryName={originalCategory}
                 />
             </div>
+
+            {/* Texte SEO pour enrichir la page catégorie */}
+            <div className="w-full max-w-4xl mx-auto mt-16 p-8 bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 rounded-[2rem]">
+                <div className="prose prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-400">
+                    <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
+                        Pourquoi utiliser un code de parrainage {originalCategory} ?
+                    </h2>
+                    <p>
+                        Le secteur de la thématique <strong>{originalCategory}</strong> est très concurrentiel. Pour se démarquer et attirer de nouveaux utilisateurs, la grande majorité des applications et plateformes proposent des programmes de parrainage très avantageux ou des codes promos de bienvenue exclusifs.
+                    </p>
+                    <p>
+                        Notre catalogue liste les meilleures offres testées, mises à jour et vérifiées en temps réel pour l&apos;année {new Date().getFullYear()}. En utilisant ces liens de redirection ou en appliquant nos codes d&apos;invitation lors de votre inscription, vous pouvez bénéficier de :
+                    </p>
+                    <ul>
+                        <li><strong>Primes d&apos;ouverture de compte :</strong> De l&apos;argent directement crédité sur votre nouveau compte.</li>
+                        <li><strong>Réductions immédiates :</strong> Un pourcentage de remise sur vos premiers achats ou abonnements.</li>
+                        <li><strong>Frais offerts :</strong> Gratuité sur des opérations normalement payantes (livraison, transactions, etc.).</li>
+                    </ul>
+                    <p className="text-sm italic mt-6">
+                        Attention : vérifiez toujours les conditions générales de chaque offre. Les primes {originalCategory} nécessitent souvent l&apos;activation d&apos;un compte, un premier dépôt minimum, ou la réalisation d&apos;un premier achat pour être débloquées.
+                    </p>
+                </div>
+            </div>
         </main>
     );
 }
