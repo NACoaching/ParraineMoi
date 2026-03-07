@@ -51,7 +51,7 @@ export function Footer() {
                         <ul className="space-y-4 text-sm text-slate-500 dark:text-slate-400">
                             {[
                                 { name: "Tous les Guides", href: "/guides" },
-                                { name: "Méthodologie E-E-A-T", href: "/a-propos" },
+                                { name: "Méthodologie", href: "/a-propos" },
                                 { name: "Cadre Légal", href: "/mentions-legales" },
                                 { name: "Confidentialité", href: "/politique-de-confidentialite" }
                             ].map((link) => (
