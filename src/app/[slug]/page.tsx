@@ -8,7 +8,7 @@ import { FaqAccordion } from '@/components/FaqAccordion';
 import { ReferralGrid } from '@/components/ReferralGrid';
 import referralsData from '@/data/referrals.json';
 import guidesData from '@/data/guides.json';
-import { Referral } from '@/components/ReferralCard';
+import { Referral, ReferralCard } from '@/components/ReferralCard';
 import { slugifyCategory } from '@/lib/utils';
 
 export async function generateStaticParams() {
@@ -418,7 +418,11 @@ export default async function ReferralPage({
                                 Poursuivez vos économies avec ces codes promotionnels triés sur le volet.
                             </p>
                         </div>
-                        <ReferralGrid referrals={relatedReferrals} />
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            {relatedReferrals.map((relatedOffer, index) => (
+                                <ReferralCard key={relatedOffer.slug} referral={relatedOffer} index={index} />
+                            ))}
+                        </div>
                     </section>
                 )}
             </article>
