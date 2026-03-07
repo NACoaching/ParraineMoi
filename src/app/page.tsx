@@ -84,21 +84,21 @@ export default function Home() {
             <div className="h-12 w-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4">
               <Search className="h-6 w-6" />
             </div>
-            <h3 className="font-bold text-slate-900 dark:text-white mb-2 text-lg">1. Cherchez une offre</h3>
+            <div className="font-bold text-slate-900 dark:text-white mb-2 text-lg">1. Cherchez une offre</div>
             <p className="text-slate-600 dark:text-slate-400 text-sm">Parcourez notre catalogue et filtrez par catégorie (Banque, Shopping...) pour trouver le bon plan idéal.</p>
           </div>
           <div className="flex flex-col items-center md:items-start text-center md:text-left bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
             <div className="h-12 w-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4">
               <Gift className="h-6 w-6" />
             </div>
-            <h3 className="font-bold text-slate-900 dark:text-white mb-2 text-lg">2. Utilisez le code</h3>
+            <div className="font-bold text-slate-900 dark:text-white mb-2 text-lg">2. Utilisez le code</div>
             <p className="text-slate-600 dark:text-slate-400 text-sm">Copiez le code promo ou cliquez sur le lien de parrainage lors de votre inscription sur l'application.</p>
           </div>
           <div className="flex flex-col items-center md:items-start text-center md:text-left bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
             <div className="h-12 w-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4">
               <Wallet className="h-6 w-6" />
             </div>
-            <h3 className="font-bold text-slate-900 dark:text-white mb-2 text-lg">3. Gagnez votre prime</h3>
+            <div className="font-bold text-slate-900 dark:text-white mb-2 text-lg">3. Gagnez votre prime</div>
             <p className="text-slate-600 dark:text-slate-400 text-sm">Une fois votre compte validé, la prime de bienvenue ou la réduction s'applique automatiquement.</p>
           </div>
         </div>
