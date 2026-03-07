@@ -1845,5 +1845,62 @@
       }
     ],
     "lastVerified": "2026-03-07"
+  },
+  {
+    "id": "34",
+    "name": "Nexo",
+    "slug": "nexo",
+    "category": "Crypto",
+    "code": "q27chyi7sc",
+    "link": "https://nexo.com/ref/q27chyi7sc?src=ios-link",
+    "advantage": "25$ en Bitcoin offerts",
+    "description": "Nexo est une plateforme financière tout-en-un pour vos cryptomonnaies. Elle vous permet d'acheter, d'échanger et de générer des intérêts attractifs versés quotidiennement. Déposez 100$ pour recevoir un bonus de bienvenue de 25$ en Bitcoin.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=nexo.com&sz=128",
+    "review": {
+      "pros": [
+        "Paiement quotidien des intérêts sur vos cryptomonnaies et monnaies fiat (Euros)",
+        "Nexo Card gratuite permettant de payer avec vos cryptos et de gagner du cashback",
+        "Interface web et mobile extrêmement fluide",
+        "Bonus de parrainage de 25$ en BTC très facile à débloquer"
+      ],
+      "cons": [
+        "Les meilleurs taux de rendement nécessitent de détenir une partie de son portefeuille en jetons NEXO",
+        "Blocage des fonds (dépôt) pendant 30 jours pour sécuriser le bonus de parrainage"
+      ],
+      "longReview": "<p>Nexo s'est rapidement imposée comme l'un des leaders mondiaux du <strong>prêt et de l'épargne crypto</strong>. Plus qu'une simple plateforme d'échange, c'est une véritable banque pour vos actifs numériques. Le fonctionnement est redoutablement séduisant : vous déposez vos cryptomonnaies ou même vos Euros classiques, et la plateforme vous verse des <strong>intérêts chaque jour</strong>. C'est le principe des revenus passifs poussé à son paroxysme.</p><br/><p>La sécurité est au cœur du modèle de Nexo, qui inclut des audits en temps réel de ses réserves de fonds (Proof of Reserves) et d'imposantes assurances couvrant les actifs en conservation. Par ailleurs, leur carte bancaire affiliée (la Nexo Card) permet de dépenser la valeur de vos jetons dans la vie de tous les jours, avec en prime du cashback sur chaque achat.</p><br/><p>Côté offre de bienvenue, le parrainage se montre très incitatif : en passant par notre <strong>lien d'invitation (code 'q27chyi7sc')</strong>, Nexo vous offre un bonus de <strong>25 dollars en Bitcoin</strong>. Pour l'obtenir, il vous suffit de déposer l'équivalent de 100$ (environ 95€) et de les laisser sur la plateforme pendant 30 jours. Après ce délai, le Bitcoin est crédité et vous pouvez le conserver ou le revendre !</p>"
+    },
+    "steps": [
+      {
+        "title": "Création de compte via le lien",
+        "description": "Utilisez impérativement notre lien d'invitation exclusif pour accéder au site de Nexo. C'est ce lien (comportant le code q27chyi7sc) qui active l'enregistrement de votre offre de 25$ en Bitcoin."
+      },
+      {
+        "title": "Vérification et Dépôt de 100$",
+        "description": "Passez la courte étape de vérification d'identité (KYC Avancé). Transférez ensuite l'équivalent d'au moins 100$ (environ 95 à 100€ pour être serein) en devises classiques (virement SEPA gratuit) ou en cryptomonnaies depuis un autre portefeuille."
+      },
+      {
+        "title": "Attente de 30 jours",
+        "description": "Laissez travailler votre dépôt de 100$ au chaud sur Nexo pendant 30 jours sans y toucher (il générera d'ailleurs des intérêts quotidiens). À l'issue de ce compte à rebours de 30 jours consécutifs, la prime de 25$ en Bitcoin sera automatiquement ajoutée à votre portefeuille !"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment obtenir la prime de 25$ sur Nexo ?",
+        "answer": "La marche à suivre est simple : inscrivez-vous avec le lien de parrainage, passez la vérification d'identité 'Avancée', puis déposez au minimum 100$ en valeur (fiat ou crypto). Vous devez maintenir ce solde au-dessus de 100$ pendant une durée de 30 jours consécutifs pour recevoir votre bonus en Bitcoin."
+      },
+      {
+        "question": "Puis-je déposer directement des Euros via un virement bancaire ?",
+        "answer": "Oui, absolument. Nexo vous permet de faire des virements SEPA classiques (et souvent instantanés) en Euros (EURx). C'est sans doute le moyen le plus simple et le moins coûteux pour atteindre le seuil de dépôt de 100$ requis pour le bonus."
+      },
+      {
+        "question": "Dois-je acheter des cryptomonnaies pour valider le bonus ?",
+        "answer": "Non ! L'offre stipule seulement qu'il faut transférer l'équivalent de 100$. Si vous déposez juste 100 Euros via virement bancaire et que vous ne faites absolument rien d'autre pendant 30 jours, votre bonus se débloquera tout de même."
+      },
+      {
+        "question": "Que se passe-t-il si la valeur de mon dépôt en crypto passe sous les 100$ ?",
+        "answer": "Si vous avez alimenté votre compte avec de la cryptomonnaie (comme du Bitcoin) et que le cours du Bitcoin chute soudainement, faisant tomber la valeur totale de votre portefeuille sous les 100$ avant la fin des 30 jours, votre bonus risque d'être annulé. Pour éviter ce scénario, préférez déposer de l'Euro, des Stablecoins (USDT/USDC) ou transférez une valeur d'au moins 110$ par sécurité."
+      }
+    ],
+    "lastVerified": "2026-03-07"
   }
 ]
