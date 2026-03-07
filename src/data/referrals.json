@@ -1902,5 +1902,117 @@
       }
     ],
     "lastVerified": "2026-03-07"
+  },
+  {
+    "id": "35",
+    "name": "EDF",
+    "slug": "edf",
+    "category": "Énergie & Internet",
+    "code": "A_REMPLIR_EDF",
+    "link": "https://particulier.edf.fr/fr/accueil/parrainage.html",
+    "advantage": "Jusqu'à 40€ sur votre facture",
+    "description": "Le fournisseur historique d'électricité en France propose enfin un programme de parrainage attractif en 2026. Souscrivez à une offre de marché EDF (hors Tarif Bleu réglementé) et réduisez immédiatement le montant de vos prochaines factures d'énergie grâce à la prime de bienvenue.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=edf.fr&sz=128",
+    "review": {
+      "pros": [
+        "Jusqu'à 40€ remboursés sur votre facture d'électricité (souvent doublé à 80€ lors des semaines spéciales)",
+        "Le fournisseur de confiance historique des Français",
+        "Espace client lissé et application EDF et Moi très pratique pour suivre sa conso",
+        "Possibilité de parrainer à votre tour jusqu'à 5 amis par an"
+      ],
+      "cons": [
+        "Uniquement valable sur les offres de marché (ne fonctionne pas sur le Tarif Bleu Réglementé)",
+        "Parrainage exclusif aux nouveaux contrats, pas aux anciens clients",
+        "Procédure de souscription parfois longue"
+      ],
+      "longReview": "<p>Face à la montée en puissance de la concurrence sur le marché de l'énergie, le fournisseur historique <strong>EDF a musclé son jeu avec son programme « Mission Parrainage »</strong>. Si EDF reste le pilier de confiance absolue pour des millions de Français, ce programme permet enfin d'adoucir la facture de régularisation : en utilisant le code de votre parrain, <strong>vous récupérez généralement 40€, directement déduits de votre facture d'électricité.</strong></p><br/><p>Attention toutefois à la seule condition majeure de ce bon plan : le parrainage ne s'applique <strong>uniquement qu'aux offres de marché d'EDF</strong> (comme l'offre Vert Électrique), et non au fameux « Tarif Bleu » réglementé par l'État. Mais les offres de marché d'EDF sont souvent plus compétitives pour ceux qui suivent de près leur consommation.</p><br/><p>Le fonctionnement est très sécurisant : le montant est crédité sous forme d'avoir sur votre compte client et vient s'imputer sur votre prochaine mensualité. Idéal pour un déménagement ou un changement de fournisseur !</p>"
+    },
+    "steps": [
+      {
+        "title": "Préparez les infos de votre parrain",
+        "description": "Pour bénéficier de la prime, vous devez obligatoirement renseigner notre code de parrainage ou nous mentionner lors de votre souscription."
+      },
+      {
+        "title": "Souscrivez à une offre de marché",
+        "description": "Sélectionnez votre offre d'électricité (hors Tarif Bleu réglementé et Zen Online) directement sur le site d'EDF ou par téléphone."
+      },
+      {
+        "title": "Validation & Réduction de facture",
+        "description": "Une fois votre contrat actif, la prime de 40€ sera versée sous forme d'avoir sur votre Espace Client et déduite de vos échéances."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Le parrainage EDF fonctionne-t-il sur le Tarif Bleu ?",
+        "answer": "Non, c'est la règle d'or d'EDF : le programme de parrainage est exclusivement réservé aux nouveaux contrats souscrits sur une « Offre de Marché » (comme l'offre Vert Électrique)."
+      },
+      {
+        "question": "Comment la prime est-elle versée ?",
+        "answer": "EDF ne vous fait pas de virement bancaire encaissable. La prime apparaît sous la forme d'un avoir dans votre Espace Client et est automatiquement déduite de votre prochaine facture d'énergie."
+      },
+      {
+        "question": "Puis-je parrainer à mon tour ?",
+        "answer": "Oui, une fois client d'une offre de marché EDF, vous pouvez parrainer jusqu'à 5 proches par an (ce qui vous permet de cumuler vous-même 100€ de réduction potentielle)."
+      }
+    ],
+    "lastVerified": "2026-03-07"
+  },
+  {
+    "id": "36",
+    "name": "RED by SFR",
+    "slug": "red-by-sfr",
+    "category": "Énergie & Internet",
+    "code": "A_REMPLIR_RED",
+    "link": "https://www.red-by-sfr.fr/parrainage",
+    "advantage": "Jusqu'à 15€ de crédit ou remise",
+    "description": "La filiale 'low-cost' premium de SFR (réseau 5G et Fibre) propose l'un des meilleurs systèmes de parrainage du marché français des télécoms. Souscrivez un forfait mobile sans engagement ou une RED Box Fibre et gagnez jusqu'à 15€ remboursés sur vos premières factures.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=red-by-sfr.fr&sz=128",
+    "review": {
+      "pros": [
+        "15€ de prime pour une souscription Box Fibre / ADSL",
+        "10€ de prime pour une souscription Forfait Mobile",
+        "Excellent réseau mobile et fibre (infrastructure SFR)",
+        "Forfaits modulables et strictement sans engagement",
+        "Prime versée dans une « cagnotte » utilisable sur vos factures ou options"
+      ],
+      "cons": [
+        "Service client 100% digital (pas d'assistance en boutique SFR)",
+        "La prime est perdue si elle n'est pas utilisée dans les 12 mois"
+      ],
+      "longReview": "<p>S'il y a bien un secteur où la fidélité paye peu, c'est celui des télécoms : c'est <strong>en changeant d'opérateur que l'on fait les vraies affaires</strong>. Dans cette guerre des prix, <strong>RED by SFR</strong> s'impose comme un mastodonte du forfait sans engagement et des abonnements internet ultra-agressifs (souvent à moins de 25€/mois pour la Fibre).</p><br/><p>Le programme de parrainage RED est un modèle d'efficacité. En utilisant le code de parrainage lors de la commande de votre carte SIM ou de votre Box Fibre, vous approvisionnez immédiatement une <strong>cagnotte fidélité</strong>. Elle vous rapporte <strong>10€ pour un forfait mobile, et 15€ pour un abonnement RED Box</strong>. 35 jours plus tard, vous pourrez utiliser cette cagnotte pour déduire purement et simplement le montant de la prime de vos futures factures téléphoniques.</p><br/><p>C'est tout simplement un voire deux mois d'abonnements rendus totalement gratuits pour le simple fait d'avoir inséré un code promotionnel. Aucune raison de s'en priver !</p>"
+    },
+    "steps": [
+      {
+        "title": "Souscrivez en ligne sur RED",
+        "description": "Choisissez votre forfait mobile ou votre offre fibre sans engagement sur le site officiel de RED by SFR."
+      },
+      {
+        "title": "Insérez le code promo unique",
+        "description": "Lors du récapitulatif de votre panier, juste avant le paiement de la carte SIM, saisissez notre code de parrainage dans la case 'Code promo / Code parrainage' et validez."
+      },
+      {
+        "title": "Payez votre première facture",
+        "description": "Le parrainage est définitivement validé une fois votre ligne activée et votre 1ère facture prélevée. 35 jours après l'activation, vous recevez vos 10€ ou 15€ dans votre cagnotte de l'espace client."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Où entrer le code de parrainage RED by SFR ?",
+        "answer": "Le code doit être renseigné précisément dans votre panier, lors de l'étape de validation de la commande sur le site RED by SFR (dans le champ prévu pour les codes promos)."
+      },
+      {
+        "question": "Quelles sont les montants exacts des primes RED ?",
+        "answer": "Vous gagnez 10€ pour toute souscription à un forfait mobile sans engagement, et 15€ de prime pour une souscription à une offre résidentielle RED Box."
+      },
+      {
+        "question": "Cette offre de parrainage concerne-t-elle les anciens clients ?",
+        "answer": "Non, le filleul doit être un nouveau client (ou du moins ne pas avoir eu de contrat actif avec RED by SFR au cours des 3 derniers mois)."
+      },
+      {
+        "question": "Comment puis-je dépenser ma prime de 10€ ou 15€ ?",
+        "answer": "La prime atterrit dans la 'cagnotte' de votre Espace Client RED. Elle est utilisable pour obtenir des remises sur vos factures mensuelles. Attention à bien l'utiliser, car cette cagnotte expire au bout de 12 mois !"
+      }
+    ],
+    "lastVerified": "2026-03-07"
   }
 ]
