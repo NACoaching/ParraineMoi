@@ -62,35 +62,35 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
 
     return (
         <div className="w-full">
-            <div className="mb-8 flex flex-col sm:flex-row gap-4 max-w-3xl mx-auto">
-                {/* Search Bar */}
-                <div className="relative flex-grow">
-                    <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-                        <Search className="h-5 w-5 text-slate-400" />
+            <div className="mb-12 flex flex-col sm:flex-row gap-6 max-w-4xl mx-auto">
+                {/* Search Bar - Premium Glass */}
+                <div className="relative flex-grow group">
+                    <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
+                        <Search className="h-5 w-5 text-primary group-focus-within:scale-110 transition-transform" />
                     </div>
                     <label htmlFor="search-input" className="sr-only">Rechercher une marque</label>
                     <input
                         id="search-input"
                         type="text"
-                        className="block w-full pl-11 pr-4 py-3.5 border border-slate-200 dark:border-slate-800 rounded-2xl bg-white dark:bg-slate-900 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all shadow-sm"
+                        className="glass-card block w-full pl-12 pr-6 py-4 bg-white/50 dark:bg-slate-900/50 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/50 transition-all text-base"
                         placeholder="Rechercher une marque..."
                         value={searchTerm}
                         onChange={(e) => {
                             setSearchTerm(e.target.value);
-                            setSelectedOfferSlug(""); // Reset dropdown if typing
+                            setSelectedOfferSlug("");
                         }}
                     />
                 </div>
 
-                {/* Offer Dropdown */}
-                <div className="relative min-w-[220px]">
+                {/* Offer Dropdown - Premium Glass */}
+                <div className="relative min-w-[240px]">
                     <select
                         aria-label="Toutes les offres"
-                        className="appearance-none block w-full px-4 pr-10 py-3.5 border border-slate-200 dark:border-slate-800 rounded-2xl bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all shadow-sm cursor-pointer font-medium"
+                        className="glass-card appearance-none block w-full px-6 pr-12 py-4 bg-white/50 dark:bg-slate-900/50 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/50 transition-all cursor-pointer font-bold text-sm uppercase tracking-wide"
                         value={selectedOfferSlug}
                         onChange={(e) => {
                             setSelectedOfferSlug(e.target.value);
-                            setSearchTerm(""); // Reset search if selecting from dropdown
+                            setSearchTerm("");
                         }}
                     >
                         <option value="">Toutes les offres</option>
@@ -98,16 +98,16 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
                             <option key={offer.slug} value={offer.slug}>{offer.name}</option>
                         ))}
                     </select>
-                    <div className="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none text-slate-400">
+                    <div className="absolute inset-y-0 right-0 pr-5 flex items-center pointer-events-none text-primary">
                         <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
                         </svg>
                     </div>
                 </div>
             </div>
 
-            {/* Categories Buttons (Restored) */}
-            <div className="flex flex-wrap justify-center gap-2 mb-10">
+            {/* Categories Buttons - Premium Glass pills */}
+            <div className="flex flex-wrap justify-center gap-3 mb-16">
                 {allCategories.map(cat => {
                     const isActive = activeCategory === cat;
                     return (
@@ -115,11 +115,11 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
                             key={cat}
                             onClick={() => {
                                 setActiveCategory(cat);
-                                setSelectedOfferSlug(""); // Optional: reset specific offer when changing category
+                                setSelectedOfferSlug("");
                             }}
-                            className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${isActive
-                                ? "bg-slate-900 text-white dark:bg-white dark:text-slate-900 shadow-md transform scale-105"
-                                : "bg-white text-slate-600 border border-slate-200 hover:bg-slate-50 dark:bg-slate-900/50 dark:text-slate-400 dark:border-slate-800 dark:hover:bg-slate-800"
+                            className={`px-6 py-2.5 rounded-2xl text-xs font-bold uppercase tracking-widest transition-all duration-300 border-2 ${isActive
+                                ? "bg-primary text-white border-primary shadow-lg shadow-primary/20 scale-105"
+                                : "glass-card bg-white/30 dark:bg-slate-900/30 text-slate-500 border-transparent hover:border-slate-200 dark:hover:border-slate-800"
                                 }`}
                         >
                             {cat}

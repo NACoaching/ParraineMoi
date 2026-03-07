@@ -188,83 +188,79 @@ export default async function ReferralPage({
                 </span>
             </nav>
 
-            <article className="max-w-3xl mx-auto">
+            <article className="max-w-4xl mx-auto">
                 {/* Header with Visual Badges */}
-                <header className="flex flex-col sm:flex-row gap-6 items-start sm:items-center mb-10 pb-10 border-b border-slate-200 dark:border-slate-800">
-                    <div className="h-28 w-28 shrink-0 overflow-hidden rounded-[2rem] border border-slate-200 dark:border-slate-800 bg-white shadow-sm ring-1 ring-slate-900/5 dark:ring-white/5 relative flex items-center justify-center p-5">
+                <header className="flex flex-col sm:flex-row gap-8 items-start sm:items-center mb-16 pb-12 border-b border-slate-200/50 dark:border-slate-800/50">
+                    <div className="glass-card h-32 w-32 shrink-0 relative flex items-center justify-center p-6 bg-white dark:bg-white">
                         <CompanyLogo url={referral.logoUrl} name={referral.name} priority={true} />
                     </div>
                     <div>
                         <Link
                             href={`/categorie/${slugifyCategory(referral.category)}`}
-                            className="inline-flex items-center rounded-full bg-slate-100 dark:bg-slate-800 px-3 py-1.5 text-xs font-semibold text-slate-600 dark:text-slate-300 mb-4 hover:bg-primary/10 hover:text-primary transition-colors cursor-pointer"
+                            className="inline-flex items-center rounded-2xl bg-primary/10 px-4 py-2 text-xs font-bold uppercase tracking-widest text-primary mb-4 hover:bg-primary/20 transition-colors"
                         >
                             {referral.category}
                         </Link>
-                        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 dark:text-white mb-3">
-                            Avis et code parrainage <span className="text-primary">{referral.name}</span>
+                        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tighter text-slate-900 dark:text-white mb-4 leading-tight">
+                            Avis <span className="text-primary">{referral.name}</span>
                         </h1>
-                        <p className="text-lg sm:text-xl font-bold text-slate-900 dark:text-slate-100 bg-emerald-50 dark:bg-emerald-500/10 border border-emerald-200 dark:border-emerald-500/20 px-5 py-2.5 rounded-xl inline-flex items-center gap-2 mt-2 shadow-sm">
-                            🎁 Avantage : {referral.advantage}
-                        </p>
 
                         {/* Trust Badges */}
-                        <div className="flex flex-wrap gap-2 sm:gap-4 mt-6">
-                            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-green-50 dark:bg-green-500/10 text-green-700 dark:text-green-400 text-xs sm:text-sm font-medium border border-green-200 dark:border-green-500/20">
+                        <div className="flex flex-wrap gap-3 mt-6">
+                            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-xs font-bold uppercase tracking-widest border border-emerald-500/20">
                                 <ShieldCheck size={16} />
-                                Vérifié le {referral.lastVerified
-                                    ? new Date(referral.lastVerified).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })
-                                    : currentYear}
+                                Vérifié {currentYear}
                             </span>
-                            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-500/10 text-blue-700 dark:text-blue-400 text-xs sm:text-sm font-medium border border-blue-200 dark:border-blue-500/20">
+                            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-blue-500/10 text-blue-600 dark:text-blue-400 text-xs font-bold uppercase tracking-widest border border-blue-500/20">
                                 <Clock size={16} />
-                                Actif immédiatement
+                                Actif
                             </span>
                         </div>
                     </div>
                 </header>
 
                 {/* Call to Action Sticky/Centered Block */}
-                <section className="bg-gradient-to-br from-slate-50 to-white dark:from-slate-800/80 dark:to-slate-900 border border-slate-200 dark:border-slate-800 rounded-[2.5rem] p-8 sm:p-10 text-center mb-12 shadow-sm relative overflow-hidden">
-                    <div className="absolute top-0 right-0 p-4 opacity-10">
-                        <TrendingUp size={100} />
+                <section className="glass-card p-8 sm:p-12 mb-20 relative overflow-hidden group">
+                    <div className="absolute -top-10 -right-10 p-4 opacity-5 group-hover:opacity-10 transition-opacity">
+                        <Gift size={200} />
                     </div>
-                    <div className="relative z-10">
-                        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-3">
-                            Comment profiter de l&apos;offre ?
+                    <div className="relative z-10 text-center">
+                        <div className="inline-flex items-center gap-2 bg-emerald-500 text-white px-4 py-2 rounded-2xl text-xs font-bold uppercase tracking-widest mb-6 shadow-lg shadow-emerald-500/20">
+                            🎁 Offre exclusive : {referral.advantage}
+                        </div>
+                        <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4 tracking-tight">
+                            Récupérez votre bonus maintenant
                         </h2>
-                        <p className="text-slate-500 dark:text-slate-400 mb-8 max-w-lg mx-auto text-lg">
-                            C&apos;est très simple ! Copiez le code ci-dessous et collez-le dans le champ &quot;Code de parrainage / Promo&quot; lors de votre inscription.
+                        <p className="text-slate-500 dark:text-slate-400 mb-10 max-w-lg mx-auto text-lg leading-relaxed">
+                            Utilisez le code vérifié ci-dessous lors de votre inscription pour débloquer vos avantages.
                         </p>
 
-                        <div className="flex flex-col md:flex-row gap-5 justify-center items-stretch max-w-2xl mx-auto">
+                        <div className="flex flex-col md:flex-row gap-6 justify-center items-stretch max-w-2xl mx-auto">
                             {/* Promo Code Box */}
-                            <div className="flex-1 flex items-center justify-between gap-4 bg-white dark:bg-slate-950 border-2 border-primary/20 hover:border-primary/50 transition-colors shadow-sm rounded-2xl p-3 pl-4">
-                                <div className="flex items-center gap-4 overflow-hidden">
-                                    <div className="h-12 w-12 shrink-0 rounded-xl bg-slate-50 border border-slate-100 dark:border-slate-800 p-2 flex items-center justify-center overflow-hidden">
-                                        <CompanyLogo url={referral.logoUrl} name={referral.name} />
-                                    </div>
-                                    <span className="font-mono font-bold text-slate-900 dark:text-white text-lg lg:text-xl truncate select-all tracking-tight">
-                                        {referral.code}
-                                    </span>
-                                </div>
-                                <CopyButton code={referral.code} className="shrink-0 h-12 px-6 font-semibold" showText={true} />
+                            <div className="flex-1 flex items-center justify-between gap-4 bg-white/50 dark:bg-slate-950/50 border-2 border-primary/20 hover:border-primary/50 transition-all rounded-3xl p-4 pl-6">
+                                <span className="font-mono font-bold text-slate-900 dark:text-white text-xl lg:text-2xl truncate select-all tracking-wider">
+                                    {referral.code}
+                                </span>
+                                <CopyButton code={referral.code} className="shrink-0 h-14 px-8 font-bold rounded-2xl shadow-lg shadow-primary/20" showText={true} />
                             </div>
+                        </div>
 
-                            {referral.link && referral.link !== "" && (
+                        {referral.link && referral.link !== "" && (
+                            <div className="mt-8">
                                 <a
                                     href={referral.link}
                                     target="_blank"
                                     rel="noopener noreferrer sponsored"
-                                    className="flex items-center justify-center gap-3 h-[72px] md:h-auto px-10 rounded-2xl bg-primary text-white font-bold text-lg hover:bg-primary/90 transition-all shadow-md hover:shadow-lg active:scale-95"
+                                    className="inline-flex items-center justify-center gap-3 px-12 py-5 rounded-3xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold text-lg hover:opacity-90 transition-all shadow-xl"
                                 >
                                     Ouvrir {referral.name}
                                     <ExternalLink size={20} />
                                 </a>
-                            )}
-                        </div>
-                        <p className="text-sm text-slate-400 dark:text-slate-500 mt-8 max-w-md mx-auto italic">
-                            En utilisant ce lien/code, je pourrais percevoir une petite commission de la part de {referral.name} pour entretenir le site. Merci pour votre soutien ! 🙏
+                            </div>
+                        )}
+
+                        <p className="text-[10px] text-slate-400 uppercase tracking-widest font-bold mt-10 opacity-50">
+                            Soutenez le site en parrainant via nos liens certifiés
                         </p>
                     </div>
                 </section>
