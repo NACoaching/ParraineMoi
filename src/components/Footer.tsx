@@ -13,7 +13,7 @@ export function Footer() {
                             <span className="p-2 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-xl shadow-md">
                                 <Gift size={24} />
                             </span>
-                            ParraineMoi
+                            Codes de Parrainages
                         </Link>
                         <p className="text-slate-500 dark:text-slate-400 leading-relaxed text-sm max-w-sm">
                             La plateforme de référence pour optimiser vos inscriptions. Tous les codes sont vérifiés manuellement par notre équipe pour vous garantir les meilleurs bonus.
@@ -70,7 +70,7 @@ export function Footer() {
                         Disclaimer: Codes Parrainage 2026. Nous ne sommes pas une institution financière. Les offres sont soumises aux conditions des partenaires.
                     </p>
                     <p className="text-xs font-bold text-slate-400 dark:text-slate-500 whitespace-nowrap tracking-tighter">
-                        &copy; {new Date().getFullYear()} PARRAINEMOI. STUDIO.
+                        &copy; {new Date().getFullYear()} CODES DE PARRAINAGES. STUDIO.
                     </p>
                 </div>
             </div>

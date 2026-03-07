@@ -72,7 +72,7 @@ export default function Home() {
       />
       <section className="w-full max-w-6xl px-6 pt-24 pb-20 flex flex-col items-center text-center">
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tighter text-slate-900 dark:text-white mb-8 leading-[1.1]">
-          Optimisez vos inscriptions avec <span className="text-primary">ParraineMoi</span>
+          Optimisez vos inscriptions avec <span className="text-primary line-clamp-1">Codes de Parrainages</span>
         </h1>
         <p className="text-xl text-slate-500 dark:text-slate-400 max-w-2xl mb-16 leading-relaxed">
           Le répertoire premium des meilleurs codes de parrainage vérifiés. Économisez et gagnez des bonus sur vos banques, cryptos et apps favorites.

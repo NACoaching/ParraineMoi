@@ -9,7 +9,7 @@ export function Navbar() {
                     <span className="p-2 bg-primary dark:bg-primary text-white rounded-xl shadow-lg ring-4 ring-primary/10 group-hover:scale-110 transition-transform">
                         <Gift size={24} />
                     </span>
-                    <span className="group-hover:text-primary transition-colors">ParraineMoi</span>
+                    <span className="group-hover:text-primary transition-colors">Codes de Parrainages</span>
                 </Link>
                 <div className="hidden md:flex items-center gap-8 text-sm font-bold uppercase tracking-widest text-slate-500">
                     <Link href="/guides" className="hover:text-primary transition-all hover:translate-y-[-1px]">
