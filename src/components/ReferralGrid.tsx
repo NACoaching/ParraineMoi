@@ -13,16 +13,21 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
     const [selectedOfferSlug, setSelectedOfferSlug] = useState("");
 
     const allCategories = useMemo(() => {
-        const cats = Array.from(new Set((referralsData as Referral[]).map(r => r.category)));
+        // If we are given a limited list and an initial category, prioritize that
+        const sourceData = initialCategory !== "Toutes" ? referrals : referralsData as Referral[];
+        const cats = Array.from(new Set(sourceData.map(r => r.category)));
         return ["Toutes", ...cats];
-    }, []);
+    }, [referrals, initialCategory]);
 
     const allOfferNames = useMemo(() => {
-        return (referralsData as Referral[]).map(r => ({ name: r.name, slug: r.slug })).sort((a, b) => a.name.localeCompare(b.name));
-    }, []);
+        // Build the dropdown from the provided referrals to avoid showing options that aren't in the list
+        return referrals.map(r => ({ name: r.name, slug: r.slug })).sort((a, b) => a.name.localeCompare(b.name));
+    }, [referrals]);
 
+    // Only show spotlight on "Toutes" and when no search/specific offer is active
+    const isDefaultView = !searchTerm && activeCategory === "Toutes" && !selectedOfferSlug;
     const spotlightIndex = referrals.findIndex(r => r.slug === 'fortuneo');
-    const spotlightOfferRaw = spotlightIndex !== -1 ? referrals[spotlightIndex] : null;
+    const spotlightOfferRaw = (spotlightIndex !== -1 && isDefaultView) ? referrals[spotlightIndex] : null;
 
     const { filteredGridOffers, spotlightOffer } = useMemo(() => {
         const uniqueReferrals = Array.from(new Map(referrals.map(item => [item.id, item])).values());
