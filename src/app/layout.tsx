@@ -73,7 +73,9 @@ const jsonLd = {
   "name": "Codes de Parrainages",
   "url": "https://codes-de-parrainages.com",
   "logo": "https://codes-de-parrainages.com/favicon.png",
-  "sameAs": [],
+  "sameAs": [
+    "https://www.linkedin.com/in/nolwen-albanesi"
+  ],
 };
 
 export default function RootLayout({

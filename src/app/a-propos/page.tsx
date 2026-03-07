@@ -16,6 +16,9 @@ const personJsonLd = {
     "name": "Nolwen Albanesi",
     "jobTitle": "Créateur & Testeur indépendant",
     "url": "https://codes-de-parrainages.com/a-propos",
+    "sameAs": [
+        "https://www.linkedin.com/in/nolwen-albanesi"
+    ],
     "worksFor": {
         "@type": "Organization",
         "name": "Codes de Parrainages"

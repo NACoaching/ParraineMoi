@@ -5,12 +5,13 @@ import { slugifyCategory } from '@/lib/utils';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://codes-de-parrainages.com';
+    const lastModified = new Date('2026-03-05'); // Fixed date for static content
 
     // Home page
     const homeSitemap: MetadataRoute.Sitemap = [
         {
             url: baseUrl,
-            lastModified: new Date(),
+            lastModified: lastModified,
             changeFrequency: 'weekly',
             priority: 1.0,
         },
@@ -20,19 +21,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const staticPagesSitemap: MetadataRoute.Sitemap = [
         {
             url: `${baseUrl}/mentions-legales`,
-            lastModified: new Date(),
+            lastModified: lastModified,
             changeFrequency: 'yearly',
             priority: 0.3,
         },
         {
             url: `${baseUrl}/politique-de-confidentialite`,
-            lastModified: new Date(),
+            lastModified: lastModified,
             changeFrequency: 'yearly',
             priority: 0.3,
         },
         {
             url: `${baseUrl}/guides`,
-            lastModified: new Date(),
+            lastModified: lastModified,
             changeFrequency: 'weekly',
             priority: 0.8,
         },
@@ -41,7 +42,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Dynamic pages (referrals)
     const referralsSitemap: MetadataRoute.Sitemap = referralsData.map((referral) => ({
         url: `${baseUrl}/parrainage-${referral.slug}`,
-        lastModified: referral.lastVerified ? new Date(referral.lastVerified) : new Date(),
+        lastModified: referral.lastVerified ? new Date(referral.lastVerified) : lastModified,
         changeFrequency: 'monthly',
         priority: 0.8,
     }));
@@ -58,7 +59,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const categories = Array.from(new Set(referralsData.map(r => r.category)));
     const categoriesSitemap: MetadataRoute.Sitemap = categories.map((cat) => ({
         url: `${baseUrl}/categorie/${slugifyCategory(cat)}`,
-        lastModified: new Date(),
+        lastModified: lastModified,
         changeFrequency: 'weekly',
         priority: 0.9,
     }));
