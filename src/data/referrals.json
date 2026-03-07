@@ -1797,5 +1797,53 @@
       }
     ],
     "lastVerified": "2026-03-05"
+  },
+  {
+    "id": "33",
+    "name": "Kraken",
+    "slug": "kraken",
+    "category": "Crypto",
+    "code": "ttq3spkf",
+    "link": "https://invite.kraken.com/JDNW/a2st80e0",
+    "advantage": "Jusqu'à 100€ offerts",
+    "description": "Inscrivez-vous à Kraken et recevez jusqu’à 100 € ! Kraken est l'une des plateformes d'échange de cryptomonnaies les plus anciennes et sécurisées au monde. Idéale pour investir sereinement.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=kraken.com&sz=128",
+    "review": {
+      "pros": [
+        "Plateforme historique (2011) extrêmement fiable et sécurisée",
+        "Frais de trading parmi les plus bas du marché mondial sur Kraken Pro",
+        "Service client reconnu pour sa réactivité (24/7)"
+      ],
+      "cons": [
+        "Frais plus élevés sur la fonction d'achat instantané de la version basique",
+        "Interface Pro moins intuitive pour les débutants complets"
+      ],
+      "longReview": "<p>Kraken figure parmi les pionniers de l'écosystème crypto, ayant bâti sa réputation sur une <strong>sécurité infaillible</strong> et une transparence à toute épreuve depuis plus d'une décennie. C'est l'une des rares plateformes à n'avoir jamais subi de piratage majeur, ce qui en fait un coffre-fort numérique de premier choix pour vos investissements.</p><br/><p>Si l'interface principale permet d'acheter rapidement du Bitcoin ou de l'Ethereum avec une carte bancaire, c'est sur la version <strong>Kraken Pro</strong> (accessible à tous) que la plateforme brille, offrant des outils d'analyse poussés et des <strong>frais de transaction dérisoires</strong>. En ouvrant votre compte avec le code d'invitation <strong>ttq3spkf</strong> (ou via notre lien) et en réalisant un premier achat ou trade qualifiant, vous débloquerez un beau bonus de bienvenue, pouvant s'élever jusqu'à <strong>100€</strong> !</p>"
+    },
+    "steps": [
+      {
+        "title": "Création de compte",
+        "description": "Cliquez sur notre lien d'invitation Kraken ou renseignez le code promo 'ttq3spkf' lors de votre inscription. Finalisez la vérification de votre identité (KYC) en quelques minutes."
+      },
+      {
+        "title": "Achat qualifiant",
+        "description": "Effectuez le montant minimal d'achat ou de trading de cryptomonnaies requis pour valider votre offre de bienvenue dans la période impartie."
+      },
+      {
+        "title": "Encaissement du bonus",
+        "description": "Après validation automatique de vos transactions, le bonus en cash ou en Bitcoin (pouvant aller jusqu'à 100€) sera crédité sur votre solde Kraken !"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Faut-il utiliser Kraken ou Kraken Pro ?",
+        "answer": "Pour un achat rapide et occasionnel, l'application classique Kraken est parfaite et intuitive. Cependant, pour réduire vos frais au strict minimum et trader activement, il est fortement conseillé de basculer sur Kraken Pro (la même plateforme, avec des outils d'expert)."
+      },
+      {
+        "question": "Kraken est-il légal et sûr ?",
+        "answer": "Oui, Kraken est l'un des exchanges les plus transparents du marché. La plateforme réalise régulièrement des \"Proof of Reserves\" et respecte scrupuleusement les régulations en vigueur, garantissant la sécurité maximale de vos fonds."
+      }
+    ],
+    "lastVerified": "2026-03-07"
   }
 ]
