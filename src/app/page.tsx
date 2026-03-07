@@ -70,37 +70,41 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
       />
-      <section className="w-full max-w-5xl px-4 sm:px-6 pt-16 pb-12 flex flex-col items-center text-center">
-        <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-6">
-          Comparateur des meilleurs codes de <span className="text-primary">parrainage</span> et offres
+      <section className="w-full max-w-6xl px-6 pt-24 pb-20 flex flex-col items-center text-center">
+        <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tighter text-slate-900 dark:text-white mb-8 leading-[1.1]">
+          Optimisez vos inscriptions avec <span className="text-primary">ParraineMoi</span>
         </h1>
-        <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mb-12">
-          Des offres testées et approuvées. Utilisez mes codes pour bénéficier d&apos;avantages exclusifs lors de votre inscription.
+        <p className="text-xl text-slate-500 dark:text-slate-400 max-w-2xl mb-16 leading-relaxed">
+          Le répertoire premium des meilleurs codes de parrainage vérifiés. Économisez et gagnez des bonus sur vos banques, cryptos et apps favorites.
         </p>
 
         {/* Comment ça marche */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 w-full max-w-4xl mx-auto text-left">
-          <div className="flex flex-col items-center md:items-start text-center md:text-left bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
-            <div className="h-12 w-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4">
-              <Search className="h-6 w-6" />
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24 w-full">
+          {[
+            {
+              icon: <Search className="h-6 w-6" />,
+              title: "1. Trouvez l'offre",
+              desc: "Parcourez notre catalogue trié sur le volet par notre équipe d'experts."
+            },
+            {
+              icon: <Gift className="h-6 w-6" />,
+              title: "2. Utilisez le code",
+              desc: "Copiez le code ou cliquez sur le lien pour activer votre bonus immédiat."
+            },
+            {
+              icon: <Wallet className="h-6 w-6" />,
+              title: "3. Encaissez !",
+              desc: "Recevez vos primes directement sur votre nouveau compte après validation."
+            }
+          ].map((step, i) => (
+            <div key={i} className="glass-card p-8 group">
+              <div className="h-14 w-14 rounded-2xl bg-primary text-white flex items-center justify-center mb-6 shadow-lg shadow-primary/20 group-hover:scale-110 transition-transform">
+                {step.icon}
+              </div>
+              <h3 className="font-bold text-slate-900 dark:text-white mb-3 text-xl tracking-tight">{step.title}</h3>
+              <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">{step.desc}</p>
             </div>
-            <div className="font-bold text-slate-900 dark:text-white mb-2 text-lg">1. Cherchez une offre</div>
-            <p className="text-slate-600 dark:text-slate-400 text-sm">Parcourez notre catalogue et filtrez par catégorie (Banque, Shopping...) pour trouver le bon plan idéal.</p>
-          </div>
-          <div className="flex flex-col items-center md:items-start text-center md:text-left bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
-            <div className="h-12 w-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4">
-              <Gift className="h-6 w-6" />
-            </div>
-            <div className="font-bold text-slate-900 dark:text-white mb-2 text-lg">2. Utilisez le code</div>
-            <p className="text-slate-600 dark:text-slate-400 text-sm">Copiez le code promo ou cliquez sur le lien de parrainage lors de votre inscription sur l&apos;application.</p>
-          </div>
-          <div className="flex flex-col items-center md:items-start text-center md:text-left bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
-            <div className="h-12 w-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4">
-              <Wallet className="h-6 w-6" />
-            </div>
-            <div className="font-bold text-slate-900 dark:text-white mb-2 text-lg">3. Gagnez votre prime</div>
-            <p className="text-slate-600 dark:text-slate-400 text-sm">Une fois votre compte validé, la prime de bienvenue ou la réduction s&apos;applique automatiquement.</p>
-          </div>
+          ))}
         </div>
 
         <ReferralGrid referrals={referrals} />

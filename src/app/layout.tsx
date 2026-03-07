@@ -81,7 +81,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={`${ibmPlexSans.variable} font-sans antialiased min-h-screen flex flex-col bg-background text-foreground`}>
+      <body className={`${ibmPlexSans.className} antialiased min-h-screen flex flex-col bg-background text-foreground`}>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
