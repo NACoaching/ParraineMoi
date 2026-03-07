@@ -16,7 +16,7 @@ export function Navbar() {
                         Guides
                     </Link>
                     <Link href="/a-propos" className="hover:text-primary transition-all hover:translate-y-[-1px]">
-                        À Propos
+                        Méthodologie
                     </Link>
                     <Link href="/mentions-legales" className="hover:text-primary transition-all hover:translate-y-[-1px]">
                         Légal
