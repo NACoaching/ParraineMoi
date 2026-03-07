@@ -7,7 +7,7 @@
   --foreground: #0f172a;
   --primary: #2563eb;
   --primary-foreground: #ffffff;
-  --font-sans: var(--font-plex-sans), system-ui, sans-serif;
+  --font-plex-sans: "IBM Plex Sans", system-ui, sans-serif;
 
   /* Glassmorphism Tokens */
   --glass-bg: rgba(255, 255, 255, 0.7);
@@ -24,10 +24,17 @@
   --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
 }
 
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --font-sans: var(--font-plex-sans);
+}
+
 @layer base {
   body {
     @apply bg-background text-foreground;
-    font-family: var(--font-sans);
+    font-family: var(--font-plex-sans);
   }
 }
 
