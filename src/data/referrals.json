@@ -1185,15 +1185,15 @@
         "description": "Activez le partage dans les réglages et laissez simplement l'application tourner en tâche de fond. Vous pouvez également remplir quelques de formulaires courts (sondages) disponibles dans l'app pour débloquer votre retrait PayPal plus vite."
       }
     ],
-    "lastVerified": "2026-03-05"
+    "lastVerified": "2026-03-11"
   },
   {
     "id": "22",
     "name": "Swagbucks",
     "slug": "swagbucks",
     "category": "Jeux & Gains",
-    "code": "rb=230806763",
-    "link": "https://www.swagbucks.com/p/register?rb=230806763",
+    "code": "Wensan10",
+    "link": "https://www.swagbucks.com/refer/Wensan10",
     "advantage": "300 SB offerts (≈3€)",
     "description": "Swagbucks est la plateforme mondiale leader pour gagner de l'argent en ligne. Cumulez des 'SB' en répondant à des sondages, en testant des jeux ou en faisant vos achats, et convertissez-les en cash PayPal ou cartes cadeaux Amazon.",
     "logoUrl": "https://www.google.com/s2/favicons?domain=swagbucks.com&sz=128",
