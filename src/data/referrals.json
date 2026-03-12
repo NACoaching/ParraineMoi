@@ -2013,5 +2013,40 @@
       }
     ],
     "lastVerified": "2026-03-07"
+  },
+  {
+    "id": "38",
+    "name": "Unibet",
+    "slug": "unibet",
+    "category": "Paris Sportifs & Poker",
+    "code": "",
+    "link": "",
+    "advantage": "Bientôt disponible",
+    "description": "L'un des leaders des paris sportifs, hippiques et du poker en ligne en France. Les offres de parrainage fluctuent au cours de l'année. Revenez bientôt pour découvrir si une offre est active !",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unibet.fr&sz=128",
+    "review": {
+      "pros": [
+        "Large catalogue de paris sportifs",
+        "Excellent système de streaming (Unibet TV)",
+        "Cotes compétitives sur les sports majeurs"
+      ],
+      "cons": [
+        "Pas d'offre de parrainage permanente de notre côté pour le moment"
+      ],
+      "longReview": "<p><strong>Unibet est l'un des piliers du pari sportif et du poker en France</strong>. La plateforme est très appréciée pour sa fiabilité et pour son service de streaming (Unibet TV) permettant de regarder et parier en direct sur des milliers d'événements sportifs chaque année.</p><br/><p>Bien que nous ne proposions <strong>aucune offre de parrainage pour le moment</strong>, Unibet reste un bookmaker incontournable. Nous mettrons à jour cette page dès qu'un bonus de parrainage ou une promotion intéressante sera disponible pour notre communauté.</p>"
+    },
+    "steps": [
+      {
+        "title": "Offre en attente",
+        "description": "Nous indiquerons les étapes précises dès qu'un code ou un lien de parrainage sera activé."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Y a-t-il un code promo de parrainage Unibet valide en ce moment ?",
+        "answer": "Actuellement, nous ne disposons d'aucune offre active pour Unibet. Cette page sera mise à jour dès le retour d'un programme de parrainage avantageux."
+      }
+    ],
+    "lastVerified": "2026-03-12"
   }
 ]
