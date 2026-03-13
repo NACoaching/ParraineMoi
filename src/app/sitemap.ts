@@ -5,7 +5,7 @@ import { slugifyCategory } from '@/lib/utils';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://codes-de-parrainages.com';
-    const lastModified = new Date('2026-03-05'); // Fixed date for static content
+    const lastModified = new Date(); // Dynamic date for freshness
 
     // Home page
     const homeSitemap: MetadataRoute.Sitemap = [

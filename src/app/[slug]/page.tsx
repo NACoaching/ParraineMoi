@@ -49,12 +49,20 @@ export async function generateMetadata({
             title: `Code parrainage ${referral.name} : ${referral.advantage} ✓`,
             description: `🎁 ${referral.advantage} offerts sur ${referral.name} avec le code ${referral.code}. Avis et tutoriel complet vérifié en ${currentYear}.`,
             url: `https://codes-de-parrainages.com/parrainage-${referral.slug}`,
-            images: ["/og-image.png"],
+            images: [
+                {
+                    url: referral.logoUrl,
+                    width: 400,
+                    height: 400,
+                    alt: referral.name,
+                }
+            ],
         },
         twitter: {
+            card: "summary",
             title: `Code parrainage ${referral.name} : ${referral.advantage} ✓`,
             description: `🎁 ${referral.advantage} offerts sur ${referral.name} avec le code ${referral.code}. Avis et tutoriel complet vérifié en ${currentYear}.`,
-            images: ["/og-image.png"],
+            images: [referral.logoUrl],
         },
     };
 }
@@ -110,16 +118,32 @@ export default async function ReferralPage({
 
     const appCategory = categoryToAppType[referral.category] || "BusinessApplication";
 
-    const reviewJsonLd = {
+    const reviewJsonLd = referral.category === "Banque & Finance" || referral.category === "Crypto" ? {
         "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
+        "@type": "FinancialService",
         "name": referral.name,
-        "operatingSystem": "iOS, Android, Web",
-        "applicationCategory": appCategory,
+        "description": referral.description,
+        "image": `https://codes-de-parrainages.com${referral.logoUrl}`,
+        "url": `https://codes-de-parrainages.com/parrainage-${referral.slug}`,
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "FR"
+        }
+    } : {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": referral.name,
+        "description": referral.description,
+        "image": `https://codes-de-parrainages.com${referral.logoUrl}`,
+        "brand": {
+            "@type": "Brand",
+            "name": referral.name
+        },
         "offers": {
             "@type": "Offer",
             "price": "0",
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
         }
     };
 
@@ -214,11 +238,11 @@ export default async function ReferralPage({
                         <div className="flex flex-wrap gap-3 mt-6">
                             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-xs font-bold uppercase tracking-widest border border-emerald-500/20">
                                 <ShieldCheck size={16} />
-                                Vérifié {currentYear}
+                                Vérifié {referral.lastVerified ? new Date(referral.lastVerified).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) : currentYear}
                             </span>
                             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-blue-500/10 text-blue-600 dark:text-blue-400 text-xs font-bold uppercase tracking-widest border border-blue-500/20">
                                 <Clock size={16} />
-                                Actif
+                                Offre Active
                             </span>
                         </div>
                     </div>

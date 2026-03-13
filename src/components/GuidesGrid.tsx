@@ -11,6 +11,8 @@ interface Guide {
     excerpt: string;
     date: string;
     readingTime: string;
+    content: string;
+    referralSlugs?: string[];
     category: string;
 }
 
@@ -41,15 +43,13 @@ export function GuidesGrid({ guides }: { guides: Guide[] }) {
             result = result.filter(guide => guide.slug === selectedGuideSlug);
         }
 
-        // Filter by search term
+        // Filter by search term (keywords based)
         if (searchTerm) {
-            const lowerSearch = searchTerm.toLowerCase();
-            result = result.filter(
-                (guide) =>
-                    guide.title.toLowerCase().includes(lowerSearch) ||
-                    guide.category.toLowerCase().includes(lowerSearch) ||
-                    guide.excerpt.toLowerCase().includes(lowerSearch)
-            );
+            const keywords = searchTerm.toLowerCase().split(/\s+/).filter(k => k.length > 0);
+            result = result.filter((guide) => {
+                const searchStr = `${guide.title} ${guide.category} ${guide.excerpt} ${guide.content} ${guide.referralSlugs?.join(" ")}`.toLowerCase();
+                return keywords.every(keyword => searchStr.includes(keyword));
+            });
         }
 
         return result;
