@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import guidesData from '@/data/guides.json';
+import { GuidesGrid } from '@/components/GuidesGrid';
 import { BookOpen, Calendar, Clock, ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -27,47 +28,7 @@ export default function GuidesPage() {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    {guidesData.map((guide) => (
-                        <Link
-                            href={`/guides/${guide.slug}`}
-                            key={guide.id}
-                            className="glass-card flex flex-col justify-between p-8 md:p-10 group bg-white/50 dark:bg-slate-900/50"
-                        >
-                            <div className="mb-8">
-                                <div className="flex items-center gap-4 mb-6 text-[10px] font-bold uppercase tracking-widest text-slate-500">
-                                    <span className="flex items-center gap-2 bg-primary/10 text-primary px-3 py-1.5 rounded-xl">
-                                        <BookOpen size={14} />
-                                        {guide.category}
-                                    </span>
-                                    <span className="flex items-center gap-2">
-                                        <Clock size={14} className="text-primary" />
-                                        {guide.readingTime}
-                                    </span>
-                                </div>
-                                <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4 group-hover:text-primary transition-colors leading-tight">
-                                    {guide.title}
-                                </h2>
-                                <p className="text-slate-500 dark:text-slate-400 mb-6 line-clamp-3 text-sm leading-relaxed">
-                                    {guide.excerpt}
-                                </p>
-                            </div>
-
-                            <div className="flex items-center justify-between mt-auto pt-8 border-t border-slate-200/50 dark:border-slate-800/50">
-                                <span className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase tracking-widest">
-                                    <Calendar size={14} />
-                                    {new Date(guide.date).toLocaleDateString('fr-FR', {
-                                        year: 'numeric',
-                                        month: 'long'
-                                    })}
-                                </span>
-                                <span className="h-10 w-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all shadow-sm">
-                                    <ArrowRight size={18} />
-                                </span>
-                            </div>
-                        </Link>
-                    ))}
-                </div>
+                <GuidesGrid guides={guidesData} />
             </section>
         </main>
     );
