@@ -40,15 +40,20 @@ export async function generateMetadata({
     const currentYear = new Date().getFullYear();
 
     return {
-        title: `Code parrainage ${referral.name} : ${referral.advantage} en ${currentYear} `,
-        description: `Profitez de ${referral.advantage} de bonus sur ${referral.name} avec mon code de parrainage ${referral.code} vérifié en ${currentYear}. Avis complet et tutoriel d'inscription.`,
+        title: `Code parrainage ${referral.name} en ${currentYear} : ${referral.advantage} ✓`,
+        description: `🎁 Profitez de ${referral.advantage} de bonus sur ${referral.name} avec le meilleur code de parrainage ${referral.code} vérifié en ${currentYear}. ★ Avis, test et tutoriel complet.`,
         alternates: {
             canonical: `/parrainage-${referral.slug}`,
         },
         openGraph: {
-            title: `Code parrainage ${referral.name} : ${referral.advantage}`,
-            description: `${referral.advantage} offerts sur ${referral.name} avec le code ${referral.code}. Avis complet et tutoriel.`,
+            title: `Code parrainage ${referral.name} : ${referral.advantage} ✓`,
+            description: `🎁 ${referral.advantage} offerts sur ${referral.name} avec le code ${referral.code}. Avis et tutoriel complet vérifié en ${currentYear}.`,
             url: `https://codes-de-parrainages.com/parrainage-${referral.slug}`,
+            images: ["/og-image.png"],
+        },
+        twitter: {
+            title: `Code parrainage ${referral.name} : ${referral.advantage} ✓`,
+            description: `🎁 ${referral.advantage} offerts sur ${referral.name} avec le code ${referral.code}. Avis et tutoriel complet vérifié en ${currentYear}.`,
             images: ["/og-image.png"],
         },
     };

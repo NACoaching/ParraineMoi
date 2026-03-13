@@ -28,7 +28,18 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         description: `Comparez les meilleures offres de bienvenue et codes promos de la catégorie ${originalCategory}. Des crédits offerts et primes vérifiées en 2026.`,
         alternates: {
             canonical: `/categorie/${slug}`
-        }
+        },
+        openGraph: {
+            title: `Codes Promo et Parrainages ${originalCategory} - 2026`,
+            description: `Comparez les meilleures offres de bienvenue et codes promos de la catégorie ${originalCategory}. Des crédits offerts et primes vérifiées en 2026.`,
+            url: `https://codes-de-parrainages.com/categorie/${slug}`,
+            images: ["/og-image.png"],
+        },
+        twitter: {
+            title: `Codes Promo et Parrainages ${originalCategory} - 2026`,
+            description: `Comparez les meilleures offres de bienvenue et codes promos de la catégorie ${originalCategory}. Des crédits offerts et primes vérifiées en 2026.`,
+            images: ["/og-image.png"],
+        },
     };
 }
 

@@ -26,7 +26,7 @@ export function CompanyLogo({ url, name, priority = false }: CompanyLogoProps) {
     return (
         <Image
             src={url}
-            alt={`Code Promo et Parrainage ${name}`}
+            alt={`Logo de ${name}`}
             width={128}
             height={128}
             className="h-full w-full object-contain"

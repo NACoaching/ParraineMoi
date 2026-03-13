@@ -22,12 +22,25 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         };
     }
 
+    const currentYear = new Date().getFullYear();
+
     return {
-        title: `${guide.title} - Astuces & Bons Plans`,
-        description: guide.excerpt,
+        title: `${guide.title} (${currentYear}) - Astuces & Bons Plans ✓`,
+        description: `★ ${guide.excerpt} Apprenez comment optimiser vos gains et parrainages en ${currentYear}. Guide complet étape par étape.`,
         alternates: {
             canonical: `/guides/${guide.slug}`,
-        }
+        },
+        openGraph: {
+            title: `${guide.title} (${currentYear}) - Astuces & Bons Plans ✓`,
+            description: `★ ${guide.excerpt} Guide complet et conseils d'experts pour maximiser vos bonus en ${currentYear}.`,
+            url: `https://codes-de-parrainages.com/guides/${guide.slug}`,
+            images: ["/og-image.png"],
+        },
+        twitter: {
+            title: `${guide.title} (${currentYear}) - Astuces & Bons Plans ✓`,
+            description: `★ ${guide.excerpt} Guide complet et conseils d'experts pour maximiser vos bonus en ${currentYear}.`,
+            images: ["/og-image.png"],
+        },
     };
 }
 
