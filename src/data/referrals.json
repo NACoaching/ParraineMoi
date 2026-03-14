@@ -2048,5 +2048,59 @@
       }
     ],
     "lastVerified": "2026-03-12"
+  },
+  {
+    "id": "39",
+    "name": "Coinpayu",
+    "slug": "coinpayu",
+    "category": "Crypto / Sondages",
+    "code": "",
+    "link": "https://www.coinpayu.com/?r=Wensan",
+    "advantage": "Gagnez des cryptos en regardant des pubs et répondant à des sondages",
+    "description": "Coinpayu est une plateforme performante pour gagner des cryptomonnaies gratuitement. Le principe est simple : vous êtes rémunéré pour visionner des publicités, répondre à des sondages rémunérés et accomplir des offres variées. C'est l'un des outils les plus fiables pour accumuler vos premières fractions de Bitcoin ou Altcoins sans aucun investissement.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=coinpayu.com&sz=128",
+    "review": {
+      "pros": [
+        "Plusieurs cryptomonnaies disponibles pour le retrait (BTC, DOGE, LTC, ETH, etc.)",
+        "Aucun investissement financier requis pour commencer à gagner",
+        "Programme de parrainage généreux et fiable",
+        "Interface simple et accessible aux débutants"
+      ],
+      "cons": [
+        "Les gains par publicité individuelle sont relativement faibles",
+        "Nécessite de désactiver votre AdBlocker pour fonctionner correctement",
+        "Le seuil de retrait peut varier selon la cryptomonnaie choisie"
+      ],
+      "longReview": "<p><strong>Coinpayu s'est imposé comme l'une des plateformes de référence dans l'univers des « faucets » et des sites PTC (Paid-To-Click)</strong>. Sa longévité et sa fiabilité en font un choix sûr pour quiconque souhaite découvrir l'économie des cryptomonnaies sans prendre de risque financier.</p><br/><p>Le fonctionnement est extrêmement limpide : en échange de quelques secondes de votre attention sur des publicités ou en répondant à des sondages ciblés, vous accumulez des « satoshis » (les plus petites unités du Bitcoin) ou d'autres jetons. La plateforme propose également un <strong>mur d'offres complet</strong> incluant des tests d'applications et des sondages rémunérés plus lucratifs.</p><br/><p>Ce qui distingue Coinpayu, c'est la <strong>variété des options de retrait</strong>. Vous n'êtes pas limité au Bitcoin ; vous pouvez choisir de recevoir vos gains en Dogecoin, Litecoin, Dash, ou encore en stablecoins comme l'USDT. En utilisant notre lien de parrainage exclusif, vous rejoignez une communauté active et profitez d'une plateforme qui récompense la régularité.</p>"
+    },
+    "steps": [
+      {
+        "title": "Inscription rapide",
+        "description": "Cliquez sur notre lien de parrainage pour vous rendre sur Coinpayu et créez votre compte avec une adresse email valide."
+      },
+      {
+        "title": "Commencez à gagner",
+        "description": "Rendez-vous dans la section 'View Ads' ou 'Offers' pour commencer à accumuler vos premières récompenses en quelques clics."
+      },
+      {
+        "title": "Configurez vos retraits",
+        "description": "Une fois le seuil minimal atteint, renseignez l'adresse de votre portefeuille crypto ou votre compte FaucetPay pour recevoir vos gains."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment maximiser ses gains sur Coinpayu ?",
+        "answer": "Pour gagner plus, ne vous contentez pas de regarder les publicités. Explorez la section 'Offers' et 'Surveys' qui sont nettement plus rémunératrices, et n'oubliez pas de réclamer vos bonus quotidiens dans la section 'Faucet'."
+      },
+      {
+        "question": "Quelles sont les méthodes de retrait disponibles ?",
+        "answer": "Coinpayu propose de nombreux modes de retrait : Bitcoin (direct ou via FaucetPay), Dogecoin, Litecoin, Ethereum, Dash, Bitcoin Cash, Tron, et bien d'autres. Les frais et minimums dépendent de la méthode choisie."
+      },
+      {
+        "question": "Faut-il un code de parrainage pour s'inscrire ?",
+        "answer": "Non, pour Coinpayu, il n'y a pas de code à saisir manuellement. Il suffit de passer par notre lien d'invitation pour que le parrainage soit correctement pris en compte lors de votre inscription."
+      }
+    ],
+    "lastVerified": "2026-03-14"
   }
 ]
