@@ -756,10 +756,10 @@
     "name": "Bitstack",
     "slug": "bitstack",
     "category": "Crypto",
-    "code": "2zJdvWnVNpanigOU2pFSHtWmV6H",
+    "code": "https://bitstack-app.com/referral/2zJdvWnVNpanigOU2pFSHtWmV6H",
     "link": "https://bitstack-app.com/referral/2zJdvWnVNpanigOU2pFSHtWmV6H",
     "advantage": "5€ offerts en Bitcoin",
-    "description": "Vous voulez épargner et investir en crypto sans vous ruiner ni vous prendre la tête ? Bitstack, startup française enregistrée PSAN auprès de l'AMF, arrondit vos achats bancaires classiques et convertit ce surplus automatiquement en Bitcoin. C'est l'investissement programmé le plus facile de France pour les débutants. Entrez votre code parrain pour démarrer avec des cryptos offertes à l'inscription !",
+    "description": "Vous voulez épargner et investir en crypto sans vous ruiner ni vous prendre la tête ? Bitstack, startup française enregistrée PSAN auprès de l'AMF, arrondit vos achats bancaires classiques et convertit ce surplus automatiquement en Bitcoin. C'est l'investissement programmé le plus facile de France pour les débutants. Passez par notre lien pour démarrer avec des cryptos offertes à l'inscription !",
     "logoUrl": "https://www.google.com/s2/favicons?domain=bitstack-app.com&sz=128",
     "faqs": [
       {
@@ -767,8 +767,12 @@
         "answer": "Pas du tout. Bitstack utilise des partenaires technologiques certifiés par la Banque de France (comme Tink ou Powens) pour lire vos transactions afin de calculer les arrondis. Ils ne peuvent en aucun cas initier des virements ou posséder vos identifiants bancaires. C'est un accès en lecture seule."
       },
       {
-        "question": "Que se passe-t-il une fois le code parrain Bitstack renseigné ?",
-        "answer": "Une fois le code '2zJdvWnVNpanigOU2pFSHtWmV6H' validé, vous devez connecter votre compte bancaire et activer l'arrondi automatique. Le bonus en Bitcoin (généralement 5€) sera ensuite crédité sur votre portefeuille Bitstack et vous pourrez le conserver ou le transférer."
+        "question": "Que se passe-t-il une fois inscrit via le lien Bitstack ?",
+        "answer": "Une fois inscrit via notre lien de parrainage, vous devez connecter votre compte bancaire et activer l'arrondi automatique. Le bonus en Bitcoin (généralement 5€) sera ensuite crédité sur votre portefeuille Bitstack et vous pourrez le conserver ou le transférer."
+      },
+      {
+        "question": "Faut-il un code de parrainage pour s'inscrire à Bitstack ?",
+        "answer": "Non, pour Bitstack, il n'y a pas de code à saisir manuellement. Il suffit de passer par notre lien d'invitation pour que le parrainage soit correctement pris en compte lors de votre inscription."
       },
       {
         "question": "Comment Bitstack arrondit-il mes achats pour investir en Bitcoin ?",
@@ -795,11 +799,7 @@
     "steps": [
       {
         "title": "Téléchargement de Bitstack",
-        "description": "Allez sur l'application iOS ou sur le Play Store pour récupérer l'appli. Vous pouvez également cliquer sur notre lien d'affiliation depuis votre smartphone."
-      },
-      {
-        "title": "Renseignez le code",
-        "description": "Lors des étapes d'enregistrement de votre numéro et de vos données, restez vigilant : collez le code parrain '2zJdvWnVNpanigOU2pFSHtWmV6H' dans la case adéquate pour valider votre éligibilité à la récompense en euros déposée en Bitcoin."
+        "description": "Passez obligatoirement par notre lien d'invitation depuis votre smartphone pour télécharger l'application. Cela garantit que le parrainage est bien activé pour votre compte."
       },
       {
         "title": "Liez votre banque et activez l'arrondi",
