@@ -33,7 +33,10 @@ export function Footer() {
                                 { name: "Néobanques", href: "/categorie/banque-finance" },
                                 { name: "Crypto", href: "/categorie/crypto" },
                                 { name: "Shopping", href: "/categorie/shopping" },
-                                { name: "Énergie", href: "/categorie/energie-internet" }
+                                { name: "Énergie", href: "/categorie/energie-internet" },
+                                { name: "Jeux & Gains", href: "/categorie/jeux-gains" },
+                                { name: "Outils Numériques", href: "/categorie/outils-numeriques" },
+                                { name: "Paris Sportifs", href: "/categorie/paris-sportifs-poker" }
                             ].map((link) => (
                                 <li key={link.name}>
                                     <Link href={link.href} className="hover:text-primary transition-colors flex items-center gap-2">

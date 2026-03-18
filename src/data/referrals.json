@@ -756,7 +756,7 @@
     "name": "Bitstack",
     "slug": "bitstack",
     "category": "Crypto",
-    "code": "https://bitstack-app.com/referral/2zJdvWnVNpanigOU2pFSHtWmV6H",
+    "code": "",
     "link": "https://bitstack-app.com/referral/2zJdvWnVNpanigOU2pFSHtWmV6H",
     "advantage": "5€ offerts en Bitcoin",
     "description": "Vous voulez épargner et investir en crypto sans vous ruiner ni vous prendre la tête ? Bitstack, startup française enregistrée PSAN auprès de l'AMF, arrondit vos achats bancaires classiques et convertit ce surplus automatiquement en Bitcoin. C'est l'investissement programmé le plus facile de France pour les débutants. Passez par notre lien pour démarrer avec des cryptos offertes à l'inscription !",
@@ -2054,7 +2054,7 @@
     "name": "Coinpayu",
     "slug": "coinpayu",
     "category": "Jeux & Gains",
-    "code": "https://www.coinpayu.com/?r=Wensan",
+    "code": "",
     "link": "https://www.coinpayu.com/?r=Wensan",
     "advantage": "Gagnez des cryptos en regardant des pubs et répondant à des sondages",
     "description": "Coinpayu est une plateforme performante pour gagner des cryptomonnaies gratuitement. Le principe est simple : vous êtes rémunéré pour visionner des publicités, répondre à des sondages rémunérés et accomplir des offres variées. C'est l'un des outils les plus fiables pour accumuler vos premières fractions de Bitcoin ou Altcoins sans aucun investissement.",
@@ -2102,5 +2102,59 @@
       }
     ],
     "lastVerified": "2026-03-14"
+  },
+  {
+    "id": "40",
+    "name": "Freecash",
+    "slug": "freecash",
+    "category": "Jeux & Gains",
+    "code": "",
+    "link": "https://freecash.com/r/US3S1",
+    "advantage": "10€ offerts",
+    "description": "Freecash est l'une des plateformes 'Get Paid To' les plus populaires au monde. Elle permet aux utilisateurs de gagner de l'argent en jouant à des jeux, en répondant à des sondages et en testant des applications. Avec des paiements rapides en cash, crypto ou cartes cadeaux, c'est un excellent moyen d'arrondir ses fins de mois tout en s'amusant.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=freecash.com&sz=128",
+    "review": {
+      "pros": [
+        "Récompenses parmi les plus élevées du marché GPT",
+        "Retraits instantanés via PayPal, Crypto ou Cartes Cadeaux",
+        "Interface moderne et ludique avec système de niveaux",
+        "Grande variété de tâches : jeux mobile, sondages, tests d'apps"
+      ],
+      "cons": [
+        "Certaines offres de jeux peuvent être chronophages",
+        "Disponibilité des sondages variable selon votre profil",
+        "Support client principalement en anglais"
+      ],
+      "longReview": "<p>Dans l'univers foisonnant des sites de récompenses, <strong>Freecash s'est imposé comme le leader incontesté grâce à une promesse simple : payer plus et plus vite que la concurrence</strong>. Que vous soyez un gamer passionné ou que vous cherchiez simplement à optimiser vos temps de pause, l'application transforme vos actions numériques en revenus concrets avec une efficacité redoutable.</p><br/><h3>Un catalogue d'offres massif et diversifié</h3><p>La force de Freecash réside dans son <strong>mur d'offres exceptionnellement riche</strong>. Contrairement à de nombreux sites qui se limitent aux sondages, Freecash propose des missions rémunérées sur des jeux mobiles populaires (atteindre un certain niveau), des tests d'applications de services financiers ou des inscriptions sur des plateformes partenaires. Les gains pour une seule mission de jeu peuvent parfois dépasser les 50€, ce qui est très rare sur le marché.</p><br/><h3>Paiements instantanés : La fin de l'attente</h3><p>L'argument qui achève de convaincre les utilisateurs est sans doute la <strong>rapidité de paiement</strong>. Une fois vos coins accumulés, vous pouvez les convertir instantanément en argent PayPal, en Bitcoin, Ethereum, Litecoin, ou en dizaines de cartes cadeaux (Amazon, Netflix, Steam, etc.). La plupart des retraits sont traités en moins de quelques minutes, offrant une gratification immédiate pour vos efforts.</p><br/><h3>Gagnez 10€ avec notre lien de parrainage</h3><p>En vous inscrivant via notre <strong>lien de parrainage exclusif (https://freecash.com/r/US3S1)</strong>, vous bénéficiez d'un avantage de départ de 10€ (sous forme de coffres ou bonus selon la campagne en cours) pour booster vos premiers gains. C'est le coup de pouce idéal pour découvrir pourquoi Freecash est aujourd'hui la plateforme favorite de millions de 'hustlers' numériques à travers le monde.</p>"
+    },
+    "steps": [
+      {
+        "title": "Inscription en 2 minutes",
+        "description": "Utilisez notre lien pour créer votre compte Freecash. Vous pouvez vous inscrire via Google, Steam ou simplement avec votre adresse email."
+      },
+      {
+        "title": "Choisissez vos missions",
+        "description": "Allez dans l'onglet 'Earn' et sélectionnez les offres qui vous intéressent. Privilégiez les jeux mobiles ou les tests d'applications pour les gains les plus rapides."
+      },
+      {
+        "title": "Encaissez vos gains",
+        "description": "Dès que vous avez atteint le seuil de retrait (souvent dès 2€ ou 5€), rendez-vous dans la section 'Cashout' pour recevoir votre argent via le mode de votre choix."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Est-ce que Freecash est vraiment gratuit ?",
+        "answer": "Oui, l'utilisation de Freecash est 100% gratuite. Vous ne débourserez jamais d'argent pour gagner des récompenses, sauf pour certaines offres spécifiques de partenaires qui pourraient nécessiter un achat (clairement indiqué)."
+      },
+      {
+        "question": "Combien peut-on espérer gagner par jour ?",
+        "answer": "Cela dépend énormément du temps investi et de votre localisation. Un utilisateur actif en France peut facilement gagner entre 5€ et 20€ par jour en se concentrant sur les offres à haute rémunération et les sondages qualifiés."
+      },
+      {
+        "question": "Quels sont les modes de retrait disponibles en France ?",
+        "answer": "En France, vous avez accès à tous les modes majeurs : PayPal (virement cash), Cryptomonnaies (BTC, ETH, LTC, DOGE), et une multitude de cartes cadeaux numériques livrées immédiatement par email."
+      }
+    ],
+    "lastVerified": "2026-03-18"
   }
 ]
