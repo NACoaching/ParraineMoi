@@ -261,7 +261,7 @@ export default async function ReferralPage({
                             Récupérez votre bonus maintenant
                         </h2>
                         <p className="text-slate-500 dark:text-slate-400 mb-10 max-w-lg mx-auto text-lg leading-relaxed">
-                            Utilisez le code vérifié ci-dessous lors de votre inscription pour débloquer vos avantages.
+                            Utilisez le {referral.code.startsWith('http') ? 'lien' : 'code'} vérifié ci-dessous lors de votre inscription pour débloquer vos avantages.
                         </p>
 
                         <div className="flex flex-col md:flex-row gap-6 justify-center items-stretch max-w-2xl mx-auto">
