@@ -378,7 +378,7 @@
     "name": "Robinhood",
     "slug": "robinhood",
     "category": "Crypto",
-    "code": "nolwena-12ee49",
+    "code": "https://join.robinhood.com/eu_crypto/nolwena-12ee49/",
     "link": "https://join.robinhood.com/eu_crypto/nolwena-12ee49/",
     "advantage": "40€ en cryptomonnaie",
     "description": "Vous recevrez 40 € en cryptomonnaie en créant un compte Robinhood via mon lien et en déposant 20 € pour commencer à trader. Profitez de l'un des courtiers les plus célèbres au monde qui propose désormais son offre Crypto en Europe.",
@@ -424,7 +424,7 @@
         "description": "Déposez 20€ (par virement ou carte). Une fois le dépôt validé, vos 40€ de bonus crypto seront ajoutés à votre portefeuille."
       }
     ],
-    "lastVerified": "2026-03-05"
+    "lastVerified": "2026-03-20"
   },
   {
     "id": "8",
