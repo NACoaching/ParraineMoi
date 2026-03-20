@@ -1681,10 +1681,10 @@
     "name": "Bybit",
     "slug": "bybit",
     "category": "Crypto",
-    "code": "2NLEX07",
+    "code": "https://www.bybit.eu/invite?ref=2NLEX07",
     "link": "https://www.bybit.eu/invite?ref=2NLEX07",
     "advantage": "Jusqu'à 115$ de bonus",
-    "description": "Bybit est l'une des plus grandes plateformes d'échange de cryptomonnaies au monde. Reconnue pour sa rapidité d'exécution, ses frais ultra-compétitifs et ses outils de trading avancés, elle séduit aussi bien les débutants que les traders confirmés. Inscrivez-vous avec notre code de parrainage pour débloquer des récompenses de bienvenue et des réductions sur vos frais de trading.",
+    "description": "Bybit est l'une des plus grandes plateformes d'échange de cryptomonnaies au monde. Reconnue pour sa rapidité d'exécution, ses frais ultra-compétitifs et ses outils de trading avancés, elle séduit aussi bien les débutants que les traders confirmés. Inscrivez-vous via notre lien de parrainage pour débloquer des récompenses de bienvenue et des réductions sur vos frais de trading.",
     "logoUrl": "https://www.google.com/s2/favicons?domain=bybit.com&sz=128",
     "review": {
       "pros": [
@@ -1697,12 +1697,12 @@
         "Interface riche mais qui peut intimider les débutants complets",
         "Vérification d'identité (KYC) obligatoire pour les utilisateurs européens"
       ],
-      "longReview": "<p>Bybit s'est imposée comme <strong>l'une des plateformes crypto les plus performantes et fiables du marché mondial</strong>. Avec des millions d'utilisateurs dans plus de 160 pays, elle offre une infrastructure de trading robuste capable de traiter jusqu'à 100 000 transactions par seconde, garantissant une exécution instantanée même en période de forte volatilité.</p><br/><p>Au-delà du trading classique, Bybit propose un écosystème complet : <strong>Bybit Earn</strong> pour générer des rendements passifs sur vos cryptos, le <strong>Copy Trading</strong> pour répliquer automatiquement les stratégies des meilleurs traders, et le <strong>Launchpad</strong> pour accéder en avant-première aux nouveaux projets. La plateforme est conforme aux régulations européennes (MiCA) et accessible depuis la France via bybit.eu.</p><br/><p>En vous inscrivant via notre <strong>lien de parrainage avec le code '2NLEX07'</strong>, vous accédez au Centre de Récompenses où des bonus de bienvenue vous attendent. Complétez les missions proposées (vérification KYC, premier dépôt, premier trade) pour <strong>débloquer progressivement des récompenses pouvant atteindre plusieurs milliers d'USDT</strong> en coupons de trading et réductions de frais.</p>"
+      "longReview": "<p>Bybit s'est imposée comme <strong>l'une des plateformes crypto les plus performantes et fiables du marché mondial</strong>. Avec des millions d'utilisateurs dans plus de 160 pays, elle offre une infrastructure de trading robuste capable de traiter jusqu'à 100 000 transactions par seconde, garantissant une exécution instantanée même en période de forte volatilité.</p><br/><p>Au-delà du trading classique, Bybit propose un écosystème complet : <strong>Bybit Earn</strong> pour générer des rendements passifs sur vos cryptos, le <strong>Copy Trading</strong> pour répliquer automatiquement les stratégies des meilleurs traders, et le <strong>Launchpad</strong> pour accéder en avant-première aux nouveaux projets. La plateforme est conforme aux régulations européennes (MiCA) et accessible depuis la France via bybit.eu.</p><br/><p>En vous inscrivant via notre <strong>lien de parrainage</strong>, vous accédez au Centre de Récompenses où des bonus de bienvenue vous attendent. Complétez les missions proposées (vérification KYC, premier dépôt, premier trade) pour <strong>débloquer progressivement des récompenses pouvant atteindre plusieurs milliers d'USDT</strong> en coupons de trading et réductions de frais.</p>"
     },
     "steps": [
       {
-        "title": "Inscription avec le code parrain",
-        "description": "Cliquez sur notre lien d'invitation pour accéder à Bybit. Le code '2NLEX07' sera automatiquement appliqué. Créez votre compte avec votre e-mail et activez l'authentification à deux facteurs (2FA) pour sécuriser votre compte."
+        "title": "Inscription avec le lien parrain",
+        "description": "Cliquez sur notre lien d'invitation pour accéder à Bybit. L'offre sera automatiquement appliquée. Créez votre compte avec votre e-mail et activez l'authentification à deux facteurs (2FA) pour sécuriser votre compte."
       },
       {
         "title": "Vérification d'identité (KYC)",
