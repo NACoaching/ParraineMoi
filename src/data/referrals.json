@@ -2156,5 +2156,58 @@
       }
     ],
     "lastVerified": "2026-03-18"
+  },
+  {
+    "id": "41",
+    "name": "Vinted",
+    "slug": "vinted",
+    "category": "Shopping",
+    "code": "https://www.vinted.fr/invite/wen-san",
+    "link": "https://www.vinted.fr/invite/wen-san",
+    "advantage": "Lien d'invitation exclusif",
+    "description": "Vinted est la plateforme leader en Europe pour l'achat et la vente de vêtements, chaussures et accessoires d'occasion. Avec des millions de membres, c'est l'endroit idéal pour vider son dressing tout en faisant des économies sur des articles de seconde main de qualité. Simplifiez-vous la vie avec une application intuitive et sécurisée.",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=vinted.fr&sz=128",
+    "review": {
+      "pros": [
+        "Immense choix d'articles de seconde main à prix réduits",
+        "Interface facile à utiliser pour uploader ses propres articles",
+        "Système de paiement sécurisé avec protection acheteur",
+        "Envois simplifiés via de nombreux points relais (Mondial Relay, Relais Colis, etc.)"
+      ],
+      "cons": [
+        "Frais de protection acheteur obligatoires sur chaque transaction",
+        "Le service client peut être lent à répondre en cas de litige"
+      ],
+      "longReview": "<p><strong>Vinted a radicalement changé notre façon de consommer la mode</strong>. En permettant à chacun de devenir vendeur ou acheteur en quelques clics, l'application a démocratisé la seconde main comme jamais auparavant. C'est l'outil parfait pour donner une seconde vie à ses vêtements tout en finançant ses futurs coups de cœur.</p><br/><p>Ce qui fait le succès de Vinted, c'est sa <strong>simplicité déconcertante</strong>. On prend une photo, on ajoute une description, et l'article est en ligne. Côté acheteur, les filtres précis permettent de dénicher la perle rare parmi des millions d'annonces. La protection acheteur intégrée apporte une sérénité appréciable lors des transactions entre particuliers.</p><br/><p>En utilisant notre <strong>lien d'invitation exclusif</strong> pour créer votre compte, vous rejoignez la plus grande communauté de mode circulaire en Europe. C'est un geste simple pour la planète et pour votre portefeuille. Bon shopping sur Vinted !</p>"
+    },
+    "steps": [
+      {
+        "title": "Inscrivez-vous via le lien",
+        "description": "Cliquez sur notre lien d'invitation pour être redirigé vers Vinted et créez votre compte."
+      },
+      {
+        "title": "Complétez votre profil",
+        "description": "Remplissez vos informations et validez votre adresse email pour activer votre compte."
+      },
+      {
+        "title": "Prêt à chiner ou vendre",
+        "description": "Vous pouvez maintenant commencer à acheter des articles ou mettre vos propres vêtements en vente !"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Le lien de parrainage Vinted offre-t-il un bonus ?",
+        "answer": "Le programme de parrainage de Vinted peut varier. Actuellement, l'utilisation du lien permet de s'inscrire via une invitation valide, ce qui peut débloquer des avantages spécifiques selon les campagnes en cours de Vinted."
+      },
+      {
+        "question": "Est-ce gratuit de vendre sur Vinted ?",
+        "answer": "Oui, la mise en vente est entièrement gratuite pour les vendeurs. Il n'y a pas de commission prélevée sur le prix de vente final. C'est l'acheteur qui paie les frais de service (Protection Acheteur)."
+      },
+      {
+        "question": "Comment fonctionnent les frais de port ?",
+        "answer": "Les frais de port sont à la charge de l'acheteur. Vinted propose des tarifs négociés avec de nombreux transporteurs. Le vendeur reçoit un bordereau d'envoi prépayé à imprimer et à coller sur le colis."
+      }
+    ],
+    "lastVerified": "2026-03-20"
   }
 ]
