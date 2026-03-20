@@ -1404,7 +1404,7 @@
     "name": "Meria",
     "slug": "meria",
     "category": "Crypto",
-    "code": "Nol6910",
+    "code": "https://meria.onelink.me/ktU9?af_xp=referral&pid=invite_friend_mobile&c=Affiliation&deep_link_value=Nol6910",
     "link": "https://meria.onelink.me/ktU9?af_xp=referral&pid=invite_friend_mobile&c=Affiliation&deep_link_value=Nol6910",
     "advantage": "Jusqu'à 20$ en USDC offerts",
     "description": "Meria (anciennement Just Mining) est la pépite française des revenus passifs en crypto. Fondée par Owen Simonin (Hasheur), la plateforme simplifie l'accès au Staking, aux Masternodes et aux investissements thématiques. C'est l'outil parfait pour ceux qui veulent faire travailler leurs cryptos sans avoir à gérer la complexité technique.",
@@ -1420,12 +1420,12 @@
         "Frais de gestion sur certains services de staking",
         "Moins de tokens disponibles que sur les bourses mondiales"
       ],
-      "longReview": "<p>Dans l'écosystème crypto, il y a ceux qui spéculent et ceux qui construisent. <strong>Meria appartient à la deuxième catégorie</strong>. Leur mission est de rendre les technologies de validation de blocs (comme le Proof of Stake) accessibles à tous. Au lieu de laisser vos cryptos dormir sur un portefeuille, Meria vous permet de les 'staker' pour participer à la sécurité du réseau et recevoir des récompenses régulières.</p><br/><p>La grande force de Meria, c'est son <strong>ancrage local et sa conformité</strong>. En tant que prestataire de services sur actifs numériques (PSAN) en France, ils offrent un niveau de garantie et de transparence que l'on ne retrouve pas toujours sur les plateformes offshore. C'est particulièrement rassurant lorsqu'on commence à investir des sommes significatives dans des Masternodes ou des solutions de rendement complexes.</p><br/><p>En vous inscrivant avec le <strong>code parrainage 'Nol6910'</strong>, vous bénéficiez de conditions préférentielles sur vos premiers investissements. Meria n'est pas qu'une plateforme d'achat, c'est un véritable gestionnaire de patrimoine numérique qui vous accompagne dans la durée pour générer des intérêts composés sur vos actifs préférés.</p>"
+      "longReview": "<p>Dans l'écosystème crypto, il y a ceux qui spéculent et ceux qui construisent. <strong>Meria appartient à la deuxième catégorie</strong>. Leur mission est de rendre les technologies de validation de blocs (comme le Proof of Stake) accessibles à tous. Au lieu de laisser vos cryptos dormir sur un portefeuille, Meria vous permet de les 'staker' pour participer à la sécurité du réseau et recevoir des récompenses régulières.</p><br/><p>La grande force de Meria, c'est son <strong>ancrage local et sa conformité</strong>. En tant que prestataire de services sur actifs numériques (PSAN) en France, ils offrent un niveau de garantie et de transparence que l'on ne retrouve pas toujours sur les plateformes offshore. C'est particulièrement rassurant lorsqu'on commence à investir des sommes significatives dans des Masternodes ou des solutions de rendement complexes.</p><br/><p>En vous inscrivant avec notre <strong>lien de parrainage</strong>, vous bénéficiez de conditions préférentielles sur vos premiers investissements. Meria n'est pas qu'une plateforme d'achat, c'est un véritable gestionnaire de patrimoine numérique qui vous accompagne dans la durée pour générer des intérêts composés sur vos actifs préférés.</p>"
     },
     "faqs": [
       {
         "question": "Comment activer le parrainage Meria ?",
-        "answer": "Utilisez le lien de parrainage pour créer votre compte ou saisissez le code 'Nol6910' lors de votre inscription. Le bonus s'active automatiquement sur vos premières opérations de staking ou d'investissement."
+        "answer": "Utilisez le lien de parrainage pour créer votre compte. L'offre ne fonctionne que via ce lien, il n'y a pas de code à saisir manuellement. Le bonus s'active automatiquement sur vos premières opérations de staking ou d'investissement."
       },
       {
         "question": "Qu'est-ce que le Staking chez Meria ?",
@@ -1439,7 +1439,7 @@
     "steps": [
       {
         "title": "Inscription Intelligente",
-        "description": "Créez votre compte Meria en vérifiant que le code parrainage est bien appliqué pour bénéficier des bonus."
+        "description": "Créez votre compte Meria en passant par notre lien pour bénéficier automatiquement de votre bonus de bienvenue."
       },
       {
         "title": "Choisissez votre stratégie",
@@ -1450,7 +1450,7 @@
         "description": "Déposez vos fonds et activez le staking. Vous verrez vos premières récompenses tomber directement sur votre tableau de bord."
       }
     ],
-    "lastVerified": "2026-03-05"
+    "lastVerified": "2026-03-20"
   },
   {
     "id": "27",
