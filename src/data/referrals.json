@@ -8,7 +8,7 @@
     "link": "https://www.fortuneo.fr",
     "advantage": "Jusqu'à 130€ offerts",
     "description": "Idéale pour les voyageurs, Fortuneo est l'une des meilleures banques en ligne gratuites (Gold Mastercard sans cotisation). Attention : pour bénéficier de la prime, vous devez impérativement saisir le code 13649945 lors de votre inscription via le lien ci-dessous.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=fortuneo.fr&sz=128",
+    "logoUrl": "/logos/fortuneo.png",
     "review": {
       "pros": [
         "Banque en ligne gratuite offrant la luxueuse carte Gold CB Mastercard (sous conditions de revenus de 1800€/mois net)",
@@ -79,7 +79,7 @@
     "link": "https://revolut.com/referral/?referral-code=nalbanesi!MAR1-26-AR-H2&geo-redirect",
     "advantage": "Entre 10€ et 200€ offerts",
     "description": "Revolut est l'application financière leader en Europe avec plus de 70 millions de clients. Elle permet d'ouvrir un compte en quelques minutes, de gérer son budget avec précision et surtout de payer à l'étranger sans frais de change cachés. C'est le compagnon idéal des voyageurs et des digital nomads.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=revolut.com&sz=128",
+    "logoUrl": "/logos/revolut.png",
     "review": {
       "pros": [
         "Ouverture de compte ultra-rapide et 100% sur mobile en moins de 8 minutes chronos",
@@ -142,7 +142,7 @@
     "link": "https://www.winamax.fr/parrain?code=NOLYUN",
     "advantage": "Jusqu'à 100€ de freebets",
     "description": "Pour vos paris sportifs ou le poker en ligne, c'est l'application de référence en France. Les cotes sportives y sont très souvent les meilleures du marché, idéal pour rentabiliser vos pronostics Ligue 1 ou NBA. Profitez de notre lien exclusif : votre premier pari gratuit est crédité s'il est perdant (jusqu'à 100€ de freebets).",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=winamax.fr&sz=128",
+    "logoUrl": "/logos/winamax.png",
     "review": {
       "pros": [
         "Meilleures cotes globales du marché français sur les paris sportifs majeurs",
@@ -207,7 +207,7 @@
     "link": "https://swissborg.com/fr/r/nolwenPV3C",
     "advantage": "Jusqu'à 100€ offerts",
     "description": "SwissBorg est la plateforme crypto leader en Europe, basée en Suisse. Elle se distingue par son 'Smart Engine' qui analyse les meilleurs prix sur plusieurs plateformes pour vous offrir les transactions les plus optimisées. Très sécurisée et conforme aux régulations, c'est l'alternative parfaite pour ceux qui cherchent la fiabilité suisse dans le monde de la blockchain.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=swissborg.com&sz=128",
+    "logoUrl": "/logos/swissborg.png",
     "review": {
       "pros": [
         "Sécurité et régulation suisse de haut niveau",
@@ -260,7 +260,7 @@
     "link": "https://n26.com/r/nolwenfa38970c?p=1601036b-185f-4cd9-8961-bac802addb94",
     "advantage": "Jusqu'à 75€ offerts",
     "description": "N26 est la néo-banque européenne qui a séduit plus de 8 millions de clients grâce à une gestion 100% mobile, sans frais cachés et avec une ouverture de compte en 8 minutes. Idéale pour le quotidien et les voyages, elle propose des paiements gratuits dans toutes les devises et des sous-comptes intelligents pour gérer votre budget. Profitez de notre lien pour recevoir un bonus généreux après votre premier achat.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=n26.com&sz=128",
+    "logoUrl": "/logos/n26.png",
     "review": {
       "pros": [
         "Ouverture de compte 100% mobile en moins de 8 minutes",
@@ -321,7 +321,7 @@
     "link": "https://finary.com/referral/YXY7MG",
     "advantage": "Jusqu'à 60€ en crypto",
     "description": "L'agrégateur de patrimoine leader en France pour suivre vos banques, cryptos, immobilier et investissements en temps réel. Profitez d'une prime de parrainage aléatoire allant jusqu'à 60€ en crypto.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=finary.com&sz=128",
+    "logoUrl": "/logos/finary.png",
     "review": {
       "pros": [
         "Meilleure interface d'agrégateur patrimonial en France",
@@ -382,7 +382,7 @@
     "link": "https://join.robinhood.com/eu_crypto/nolwena-12ee49/",
     "advantage": "40€ en cryptomonnaie",
     "description": "Vous recevrez 40 € en cryptomonnaie en créant un compte Robinhood via mon lien et en déposant 20 € pour commencer à trader. Profitez de l'un des courtiers les plus célèbres au monde qui propose désormais son offre Crypto en Europe.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=robinhood.com&sz=128",
+    "logoUrl": "/logos/robinhood.png",
     "review": {
       "pros": [
         "Réputation mondiale et interface extrêmement intuitive",
@@ -495,7 +495,7 @@
     "link": "https://py.pl/2GvAmL",
     "advantage": "10€ offerts",
     "description": "Bonjour ! Nous pouvons gagner un bon d'achat de 10 € si tu ouvres un compte PayPal et que tu dépenses 5 € dans les 30 jours. Utilise mon lien ci-dessous pour en profiter !",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=paypal.com&sz=128",
+    "logoUrl": "/logos/paypal.png",
     "faqs": [
       {
         "question": "Combien de temps faut-il pour recevoir la prime de parrainage PayPal de 10€ ?",
@@ -548,7 +548,7 @@
     "link": "https://ubereats.com/feed?promoCode=eats-zl6yno",
     "advantage": "10€ offerts",
     "description": "Est-il encore nécessaire de présenter Uber Eats ? L'application de livraison de repas à domicile numéro 1 en France. Que ce soit pour une soirée pizza, des sushis improvisés ou même pour faire vos courses de dernière minute au supermarché du coin, le service est ultrarapide. Bonne nouvelle si vous n'avez pas encore de compte : notre code parrain vous offre une très belle réduction de 10€ sur votre toute première commande !",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=ubereats.com&sz=128",
+    "logoUrl": "/logos/uber-eats.png",
     "review": {
       "pros": [
         "Catalogue de restaurants gargantuesque, y compris les petits commerces locaux",
@@ -597,7 +597,7 @@
     "link": "https://voggt.go.link?adj_t=1dmyxheg",
     "advantage": "10€ de réduction offerts",
     "description": "Tu connais Voggt ? Je t’offre 10€ de réduction sur ton 1er achat avec le code WENSAN10918109. Entre-le pendant ton inscription sur l’application via le lien ci-dessous pour en profiter !",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=voggt.com&sz=128",
+    "logoUrl": "/logos/voggt.png",
     "faqs": [
       {
         "question": "Où entrer le code de parrainage VOGGT WENSAN10918109 ?",
@@ -654,7 +654,7 @@
     "link": "https://coinbase.com/join/92UZVUP?src=ios-link",
     "advantage": "10€ en Bitcoin offerts",
     "description": "Coinbase est la plateforme de référence pour faire ses premiers pas dans le monde des crypto-monnaies. Cotée en bourse au NASDAQ, c'est l'une des plateformes les plus sécurisées et les plus simples d'utilisation pour acheter, vendre et stocker vos premiers Bitcoins, Ethereum et des centaines d'autres jetons. Leur interface 'Apprentissage' vous permet même de gagner des cryptos gratuitement en répondant à de simples quiz.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=coinbase.com&sz=128",
+    "logoUrl": "/logos/coinbase.png",
     "review": {
       "pros": [
         "Interface extrêmement simple, idéale pour les débutants castrés par la technique",
@@ -707,7 +707,7 @@
     "link": "https://whatnot.com/invite/wensan10",
     "advantage": "De 10€ à 200€ de crédit offert",
     "description": "La référence américaine du live shopping pour collectionneurs avertis (cartes Pokémon japonaises, sneakers limitées, rétrogaming introuvable, Lego et Funko Pops). Si l'article de collection rare n'est pas en France, il est probablement vendu aux enchères sur Whatnot. Bénéficiez d'un crédit d'achat cash offert via le lien d'invitation ci-dessous.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=whatnot.com&sz=128",
+    "logoUrl": "/logos/whatnot.png",
     "faqs": [
       {
         "question": "Comment obtenir les crédits gratuits sur Whatnot ?",
@@ -760,7 +760,7 @@
     "link": "https://bitstack-app.com/referral/2zJdvWnVNpanigOU2pFSHtWmV6H",
     "advantage": "5€ offerts en Bitcoin",
     "description": "Vous voulez épargner et investir en crypto sans vous ruiner ni vous prendre la tête ? Bitstack, startup française enregistrée PSAN auprès de l'AMF, arrondit vos achats bancaires classiques et convertit ce surplus automatiquement en Bitcoin. C'est l'investissement programmé le plus facile de France pour les débutants. Passez par notre lien pour démarrer avec des cryptos offertes à l'inscription !",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=bitstack-app.com&sz=128",
+    "logoUrl": "/logos/bitstack.png",
     "faqs": [
       {
         "question": "La connexion de Bitstack avec ma banque est-elle risquée ?",
@@ -817,7 +817,7 @@
     "link": "https://www.poulpeo.com/p/YLf4ab",
     "advantage": "5€ offerts à l'inscription",
     "description": "Profitez de 5€ de bienvenue avec mon code de parrainage YLf4ab. 100% Gratuit, Poulpeo récompense tes achats en cashback toute l'année sur plus de 1600 boutiques partenaires.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=poulpeo.com&sz=128",
+    "logoUrl": "/logos/poulpeo.png",
     "review": {
       "pros": [
         "5€ de bonus immédiat à l'inscription (contre 3€ chez iGraal)",
@@ -862,7 +862,7 @@
     "link": "https://fr.igraal.com/parrainage?parrain=AG_60be4aa258228&utm_medium=raf&utm_source=refer_friend",
     "advantage": "3€ offerts à l'inscription",
     "description": "iGraal est le leader du cashback en France. Le principe est simple : à chaque fois que vous achetez sur internet (Cdiscount, ASOS, Nike, Booking...), iGraal vous reverse une partie du montant de votre commande directement sur votre cagnotte. C'est de l'argent réel que vous pouvez ensuite virer sur votre compte bancaire ou PayPal dès 20€ cumulés.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=igraal.com&sz=128",
+    "logoUrl": "/logos/igraal.png",
     "review": {
       "pros": [
         "Plus de 1700 marchands partenaires dans tous les domaines (Mode, Voyage, High-tech...)",
@@ -915,7 +915,7 @@
     "link": "https://www.ebuyclub.com/inscription?parrain=contactnacoaching",
     "advantage": "3€ offerts à l'inscription",
     "description": "eBuyClub est le challenger historique d'iGraal. Souvent plus généreux sur certains marchands spécifiques, il propose également un système unique de 'Cashback en magasin' grâce à sa carte bancaire connectée. C'est l'outil indispensable pour maximiser ses remboursements en complément des autres plateformes.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=ebuyclub.com&sz=128",
+    "logoUrl": "/logos/ebuyclub.png",
     "review": {
       "pros": [
         "Taux de cashback souvent supérieurs à la concurrence sur les grandes marques",
@@ -968,7 +968,7 @@
     "link": "https://wewardapp.go.link/jrcOH?adj_label=AncienIguane5070",
     "advantage": "50 Wards offerts",
     "description": "WeWard est l'application numéro 1 en France qui vous récompense pour marcher ! Le principe est simple : plus vous marchez, plus vous accumulez des 'Wards' que vous pouvez ensuite convertir en argent réel par virement bancaire, en cadeaux ou en dons à des associations. Un excellent moyen de rester motivé et de prendre soin de sa santé tout en gagnant de l'argent.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=weward.fr&sz=128",
+    "logoUrl": "/logos/weward.png",
     "faqs": [
       {
         "question": "Où faut-il rentrer le code de parrainage WeWard AncienIguane5070 ?",
@@ -1025,7 +1025,7 @@
     "link": "https://macadam.app/i/md2za4?v=1",
     "advantage": "1000 Coins offerts",
     "description": "En concurrence formelle ou d’alternative logique à très en aux mastodontes aux marcher argent, ce joli podomètre ludique et d'esprit amusant (qui donne l'argent en pour vos nombre marcher du pas) s’érige majestueusement en véritable poule ou en aux du de oeufs d'or ! S'allie parfaitement de au coude avec d’autre concurrent : utilisez la et d’ensemble aux sur du même temps l’ efforts pour gagner un d’Euro et par de double parcours très avec sans s’efforts en puces. Utilisez à et ou code macadam  Md2za4 en d'entrées d'app ou gagne de d'abord grand cadeau de dot à et et Coins l'activation !",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=macadam.app&sz=128",
+    "logoUrl": "/logos/macadam.png",
     "faqs": [
       {
         "question": "Où entrer le code de parrainage Macadam md2za4 ?",
@@ -1082,7 +1082,7 @@
     "link": "https://moonwalkapp.onelink.me/BanJ/xfxyqy5x",
     "advantage": "600 Mooncoins offerts",
     "description": "Moonwalk est une application innovante qui allie activité physique et avantages concrets. En marchant quotidiennement, vous accumulez des 'Mooncoins' que vous pouvez échanger contre des virements bancaires ou des cartes cadeaux. Avec son interface soignée et ses défis motivants, Moonwalk est l'outil idéal pour rester actif et être récompensé pour ses efforts.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=moonwalk.app&sz=128",
+    "logoUrl": "/logos/moonwalk.png",
     "faqs": [
       {
         "question": "Où entrer le code d'invitation Moonwalk 64D2YYEC ?",
@@ -1139,7 +1139,7 @@
     "link": "https://discoverpawns.eu/7328575",
     "advantage": "3$ offerts au démarrage",
     "description": "Transformez votre connexion internet dormante en véritables euros ou coupons cadeaux. Avec Pawns App (ancienne connue sous IPRoyal), vous gagnez de l'argent sur internet de manière 100% passive et sécurisée. Possibilité de répondre à des sondages rémunérés pour atteindre plus vite le seuil de retrait extra-rapide fixé à 5$ (via versement PayPal).",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=pawns.app&sz=128",
+    "logoUrl": "/logos/pawns-app.png",
     "faqs": [
       {
         "question": "Pawns App est-elle une application sécurisée ?",
@@ -1196,7 +1196,7 @@
     "link": "https://www.swagbucks.com/refer/Wensan10",
     "advantage": "300 SB offerts (≈3€)",
     "description": "Swagbucks est la plateforme mondiale leader pour gagner de l'argent en ligne. Cumulez des 'SB' en répondant à des sondages, en testant des jeux ou en faisant vos achats, et convertissez-les en cash PayPal ou cartes cadeaux Amazon.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=swagbucks.com&sz=128",
+    "logoUrl": "/logos/swagbucks.png",
     "review": {
       "pros": [
         "Plateforme extrêmement fiable avec des millions de dollars reversés",
@@ -1241,7 +1241,7 @@
     "link": "https://go.scrambly.io/qeKBFa",
     "advantage": "5000 pièces offertes (5€)",
     "description": "Transformez vos pas quotidiens en revenus réels avec Scrambly. Oubliez les processus compliqués : cette application ludique agit comme un podomètre rémunérateur qui convertit votre marche en argent cash retiré instantanément vers PayPal. Inscrivez-vous avec notre code bonus pour un coup de boost immédiat.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=scrambly.io&sz=128",
+    "logoUrl": "/logos/scrambly.png",
     "faqs": [
       {
         "question": "Les gains sur Scrambly sont-ils transférables sur PayPal ?",
@@ -1294,7 +1294,7 @@
     "link": "https://fr.myprotein.com/referrals.list?applyCode=NOLWEN-R10",
     "advantage": "Livraison gratuite pendant 3 mois VIP",
     "description": "Le leader européen de la nutrition sportive et des compléments alimentaires. Profitez du meilleur rapport qualité-prix sur vos protéines, vitamines et vêtements de sport avec la livraison VIP offerte.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=myprotein.com&sz=128",
+    "logoUrl": "/logos/myprotein.png",
     "faqs": [
       {
         "question": "Ce code de parrainage fonctionne-t-il sur l'application MyProtein ?",
@@ -1351,7 +1351,7 @@
     "link": "https://referral.ridedott.com/VQ9DK6X",
     "advantage": "1 trajet gratuit",
     "description": "Déplacez-vous librement en ville avec les trottinettes et vélos électriques Dott. Un service de micro-mobilité écologique, fiable et facile à utiliser au quotidien.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=ridedott.com&sz=128",
+    "logoUrl": "/logos/dott.png",
     "faqs": [
       {
         "question": "Où entrer le code promo Dott VQ9DK6X ?",
@@ -1408,7 +1408,7 @@
     "link": "https://meria.onelink.me/ktU9?af_xp=referral&pid=invite_friend_mobile&c=Affiliation&deep_link_value=Nol6910",
     "advantage": "Jusqu'à 20$ en USDC offerts",
     "description": "Meria (anciennement Just Mining) est la pépite française des revenus passifs en crypto. Fondée par Owen Simonin (Hasheur), la plateforme simplifie l'accès au Staking, aux Masternodes et aux investissements thématiques. C'est l'outil parfait pour ceux qui veulent faire travailler leurs cryptos sans avoir à gérer la complexité technique.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=meria.com&sz=128",
+    "logoUrl": "/logos/meria.png",
     "review": {
       "pros": [
         "Plateforme française enregistrée PSAN auprès de l'AMF",
@@ -1461,7 +1461,7 @@
     "link": "https://www.boursobank.com/",
     "advantage": "Offre suspendue ⏸️",
     "description": "BoursoBank est la banque en ligne n°1 en France. Bien que leur programme de parrainage soit momentanément en pause par la banque elle-même, c'est l'établissement incontournable pour réduire ses frais et gérer son budget.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=boursobank.com&sz=128",
+    "logoUrl": "/logos/boursobank.png",
     "review": {
       "pros": [
         "Frais bancaires parmi les plus bas du marché (0€ sur la carte Ultim)",
@@ -1502,7 +1502,7 @@
     "link": "https://www.binance.com/activity/referral-entry/CPA?ref=CPA_00LRC1EJAM",
     "advantage": "20 USDC offerts",
     "description": "Binance est la plus grande plateforme d'échange de crypto-monnaies au monde par volume de transactions. Elle propose plus de 350 crypto-actifs, des frais parmi les plus bas du marché, et des outils avancés pour le trading spot, futures et le staking. Inscrivez-vous via notre lien pour gagner 20 USDC chacun en récompense de bienvenue.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=binance.com&sz=128",
+    "logoUrl": "/logos/binance.png",
     "review": {
       "pros": [
         "Plus grande plateforme crypto au monde avec la liquidité la plus élevée du marché",
@@ -1563,7 +1563,7 @@
     "link": "https://crypto.com/app/u7nhbxrkkx",
     "advantage": "Jusqu'à 65$ en CRO offerts",
     "description": "Crypto.com est l'une des plateformes crypto les plus complètes au monde. Avec sa carte Visa crypto (cashback jusqu'à 5%), son application ultra-intuitive et ses rendements via le staking, elle s'impose comme un écosystème financier complet pour les passionnés de blockchain. Inscrivez-vous via notre lien et tradez pour débloquer vos bonus en CRO.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=crypto.com&sz=128",
+    "logoUrl": "/logos/crypto-com.png",
     "review": {
       "pros": [
         "Carte Visa Crypto avec cashback jusqu'à 5% sur tous vos achats du quotidien",
@@ -1624,7 +1624,7 @@
     "link": "https://app.bricks.co/sign-up/NOLALB16",
     "advantage": "1% de cashback sur vos investissements",
     "description": "Bricks est la plateforme française d'investissement immobilier fractionné. Dès 10€, achetez des parts de biens immobiliers locatifs et percevez des revenus locatifs mensuels sans les contraintes de la gestion. Profitez du code parrainage pour recevoir 1% de cashback sur vos investissements pendant 3 mois.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=bricks.co&sz=128",
+    "logoUrl": "/logos/bricks.png",
     "review": {
       "pros": [
         "Investissement immobilier accessible dès 10€ seulement",
@@ -1685,7 +1685,7 @@
     "link": "https://www.bybit.eu/invite?ref=2NLEX07",
     "advantage": "Jusqu'à 115$ de bonus",
     "description": "Bybit est l'une des plus grandes plateformes d'échange de cryptomonnaies au monde. Reconnue pour sa rapidité d'exécution, ses frais ultra-compétitifs et ses outils de trading avancés, elle séduit aussi bien les débutants que les traders confirmés. Inscrivez-vous via notre lien de parrainage pour débloquer des récompenses de bienvenue et des réductions sur vos frais de trading.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=bybit.com&sz=128",
+    "logoUrl": "/logos/bybit.png",
     "review": {
       "pros": [
         "Plateforme parmi les plus rapides du marché avec une liquidité exceptionnelle",
@@ -1746,7 +1746,7 @@
     "link": "https://eu.gate.com/signup/VQCQUVLBAG?ref_type=103",
     "advantage": "40% de réduction sur les frais + bonus",
     "description": "Gate.io est l'une des plus anciennes et des plus complètes plateformes d'échange de cryptomonnaies au monde, avec plus de 2 700 tokens listés. Réputée pour sa sécurité, ses frais parmi les plus bas du marché et son catalogue gigantesque de cryptos (y compris les pépites en avant-première), elle est le terrain de jeu favori des chasseurs de gems. Inscrivez-vous avec notre lien pour bénéficier de 40% de réduction permanente sur vos frais de trading.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=gate.io&sz=128",
+    "logoUrl": "/logos/gate-io.png",
     "review": {
       "pros": [
         "Catalogue massif de plus de 2 700 cryptomonnaies, dont de nombreux tokens introuvables ailleurs",
@@ -1807,7 +1807,7 @@
     "link": "https://invite.kraken.com/JDNW/9pbvfz70",
     "advantage": "Jusqu'à 100€ offerts",
     "description": "Inscrivez-vous à Kraken et recevez jusqu’à 100 € ! Acceptez mon invitation via le lien ci-dessous pour obtenir un bonus de bienvenue.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=kraken.com&sz=128",
+    "logoUrl": "/logos/kraken.png",
     "review": {
       "pros": [
         "Plateforme historique (2011) extrêmement fiable et sécurisée",
@@ -1855,7 +1855,7 @@
     "link": "https://nexo.com/ref/q27chyi7sc?src=ios-link",
     "advantage": "Jusqu'à 2 500$ en Bitcoin !",
     "description": "Nexo est une plateforme financière tout-en-un pour vos cryptomonnaies. Elle vous permet d'acheter, d'échanger et de générer des intérêts attractifs versés quotidiennement. Inscrivez-vous avec notre lien pour obtenir un puissant bonus de bienvenue en Bitcoin pouvant aller jusqu'à 2 500$ (0,25% de votre solde moyen sur les 30 premiers jours).",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=nexo.com&sz=128",
+    "logoUrl": "/logos/nexo.png",
     "review": {
       "pros": [
         "Paiement quotidien des intérêts sur vos cryptomonnaies et monnaies fiat (Euros)",
@@ -1912,7 +1912,7 @@
     "link": "https://www.red-by-sfr.fr/?codeP=RED9FA6AAF",
     "advantage": "Jusqu'à 15€ de crédit ou remise",
     "description": "La filiale 'low-cost' premium de SFR (réseau 5G et Fibre) propose l'un des meilleurs systèmes de parrainage du marché français des télécoms. Souscrivez un forfait mobile sans engagement ou une RED Box Fibre et gagnez jusqu'à 15€ remboursés sur vos premières factures.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=red-by-sfr.fr&sz=128",
+    "logoUrl": "/logos/red-by-sfr.png",
     "review": {
       "pros": [
         "15€ de prime pour une souscription Box Fibre / ADSL",
@@ -1970,7 +1970,7 @@
     "link": "https://www.canva.com/join/wrv-lwq-tlz",
     "advantage": "1 crédit premium offert",
     "description": "Canva est l'outil de design graphique en ligne leader mondial. Créez des visuels professionnels (logos, présentations, réseaux sociaux) facilement grâce à des milliers de modèles. En vous inscrivant via notre lien, vous recevez un crédit pour débloquer gratuitement un élément premium.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=canva.com&sz=128",
+    "logoUrl": "/logos/canva.png",
     "review": {
       "pros": [
         "Interface glisser-déposer ultra-intuitive",
@@ -2023,7 +2023,7 @@
     "link": "",
     "advantage": "Bientôt disponible",
     "description": "L'un des leaders des paris sportifs, hippiques et du poker en ligne en France. Les offres de parrainage fluctuent au cours de l'année. Revenez bientôt pour découvrir si une offre est active !",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=unibet.fr&sz=128",
+    "logoUrl": "/logos/unibet.png",
     "review": {
       "pros": [
         "Large catalogue de paris sportifs",
@@ -2058,7 +2058,7 @@
     "link": "https://www.coinpayu.com/?r=3pp22M4D8Xfq",
     "advantage": "Gagnez des cryptos en regardant des pubs et répondant à des sondages",
     "description": "Coinpayu est une plateforme performante pour gagner des cryptomonnaies gratuitement. Le principe est simple : vous êtes rémunéré pour visionner des publicités, répondre à des sondages rémunérés et accomplir des offres variées. C'est l'un des outils les plus fiables pour accumuler vos premières fractions de Bitcoin ou Altcoins sans aucun investissement.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=coinpayu.com&sz=128",
+    "logoUrl": "/logos/coinpayu.png",
     "review": {
       "pros": [
         "Plusieurs cryptomonnaies disponibles pour le retrait (BTC, DOGE, LTC, ETH, etc.)",
@@ -2112,7 +2112,7 @@
     "link": "https://freecash.com/r/US3S1",
     "advantage": "10€ offerts",
     "description": "Freecash est l'une des plateformes 'Get Paid To' les plus populaires au monde. Elle permet aux utilisateurs de gagner de l'argent en jouant à des jeux, en répondant à des sondages et en testant des applications. Avec des paiements rapides en cash, crypto ou cartes cadeaux, c'est un excellent moyen d'arrondir ses fins de mois tout en s'amusant.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=freecash.com&sz=128",
+    "logoUrl": "/logos/freecash.png",
     "review": {
       "pros": [
         "Récompenses parmi les plus élevées du marché GPT",
@@ -2166,7 +2166,7 @@
     "link": "https://www.vinted.fr/invite/wen-san",
     "advantage": "Lien d'invitation exclusif",
     "description": "Vinted est la plateforme leader en Europe pour l'achat et la vente de vêtements, chaussures et accessoires d'occasion. Avec des millions de membres, c'est l'endroit idéal pour vider son dressing tout en faisant des économies sur des articles de seconde main de qualité. Simplifiez-vous la vie avec une application intuitive et sécurisée.",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=vinted.fr&sz=128",
+    "logoUrl": "/logos/vinted.png",
     "review": {
       "pros": [
         "Immense choix d'articles de seconde main à prix réduits",

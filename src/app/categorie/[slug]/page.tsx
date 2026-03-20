@@ -14,6 +14,29 @@ export async function generateStaticParams() {
     }));
 }
 
+const categorySeoContent: Record<string, { intro: string, subtitle: string }> = {
+    "Banque & Finance": {
+        intro: "Les banques en ligne et néobanques mènent une guerre féroce pour attirer de nouveaux clients professionnels comme particuliers. Pour se démarquer, des établissements comme Fortuneo, Boursorama ou Revolut proposent d'importantes primes d'ouverture de compte crédités directement sur votre nouveau solde.",
+        subtitle: "L'avantage de la finance numérique"
+    },
+    "Crypto": {
+        intro: "Les plateformes d'échange de cryptomonnaies (exchanges) et les courtiers (brokers) offrent des bonus d'inscription très attractifs. Souvent versés en Bitcoin ou en stablecoins lors de votre premier dépôt qualifiant, ces bonus en cashback ou crédits offerts sont un excellent tremplin pour lisser vos frais de trading initiaux.",
+        subtitle: "Boostez votre portefeuille crypto"
+    },
+    "Shopping": {
+        intro: "Le cashback et les bons plans d'affiliation e-commerce explosent. Les applications de shopping en ligne encouragent massivement les programmes de parrainage pour vous faire découvrir des marchands partenaires (Rakuten, eBuyClub, Poulpeo) ou vous offrir des réductions en cagnotte lors de votre première commande.",
+        subtitle: "Votre pouvoir d'achat optimisé"
+    },
+    "Énergie & Internet": {
+        intro: "Changer de fournisseur d'accès à Internet ou de contrat d'électricité est devenu le meilleur moyen de faire des économies mensuelles. Les fournisseurs récompensent systématiquement le bouche-à-oreille avec de généreuses réductions sur factures ou virements bancaires lors de la souscription avec un code parrain.",
+        subtitle: "Réduisez vos factures fixes"
+    },
+    "Jeux & Gains": {
+        intro: "Le secteur des jeux rémunérateurs, sondages et applications ludiques récompense très bien l'acquisition. Les offres d'inscription pour de nouveaux utilisateurs vous permettent souvent de recevoir des jetons, des tickets ou même de la monnaie fiat pour démarrer votre progression dans l'écosystème du jeu.",
+        subtitle: "Démarrage ludique accéléré"
+    }
+};
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
     const { slug } = await params;
     const categories = Array.from(new Set(referralsData.map(r => r.category)));
@@ -131,8 +154,11 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
                     <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-8 tracking-tight border-l-4 border-primary pl-6">
                         Expertise & Conseils : {originalCategory}
                     </h2>
+                    <h3 className="text-xl font-bold text-slate-800 dark:text-slate-200 mt-4 mb-2">
+                        {categorySeoContent[originalCategory]?.subtitle || `Les opportunités en ${originalCategory}`}
+                    </h3>
                     <p>
-                        Le secteur de la thématique <strong>{originalCategory}</strong> est en pleine mutation en 2026. Pour récompenser votre fidélité, les meilleures plateformes proposent des programmes de parrainage exclusifs.
+                        {categorySeoContent[originalCategory]?.intro || `Le secteur de la thématique ${originalCategory} est en pleine mutation en 2026. Pour récompenser votre fidélité, les meilleures plateformes proposent des programmes de parrainage exclusifs.`}
                     </p>
                     <p>
                         Notre catalogue liste les offres testées et vérifiées. En utilisant nos codes d&apos;invitation, vous profitez de :

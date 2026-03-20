@@ -57,9 +57,35 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         guide.referralSlugs.includes(ref.slug)
     );
 
-    // Naive Markdown parser for our specific use case (H2 and Paragraphs)
+    // Custom Markdown parser supporting H2, Lists, Bold, Links, and Images
     const renderContent = (content: string) => {
         const blocks = content.split('\n\n');
+        
+        // Helper to parse inline elements (bold, links, images)
+        const parseInline = (text: string) => {
+            // First parse images: ![alt](url)
+            const parts = text.split(/(!\[.*?\]\(.*?\)|\[.*?\]\(.*?\))/g);
+            return parts.map((part, i) => {
+                if (part.startsWith('![')) {
+                    const match = part.match(/!\[(.*?)\]\((.*?)\)/);
+                    if (match) {
+                        return <img key={i} src={match[2]} alt={match[1]} className="rounded-2xl max-w-full h-auto my-6 shadow-md border border-slate-200 dark:border-slate-800" loading="lazy" />;
+                    }
+                } else if (part.startsWith('[')) {
+                    const match = part.match(/\[(.*?)\]\((.*?)\)/);
+                    if (match) {
+                        return <a key={i} href={match[2]} className="text-primary hover:underline font-medium" target={match[2].startsWith('http') ? '_blank' : '_self'} rel={match[2].startsWith('http') ? 'noopener noreferrer' : ''}>{match[1]}</a>;
+                    }
+                }
+                
+                // Parse bold: **text** within the remaining text
+                const boldParts = part.split(/\*\*(.*?)\*\*/g);
+                return boldParts.map((bPart, j) => 
+                    j % 2 === 1 ? <strong key={`${i}-${j}`} className="text-slate-900 dark:text-white font-bold">{bPart}</strong> : bPart
+                );
+            });
+        };
+
         return blocks.map((block, index) => {
             if (block.startsWith('## ')) {
                 return (
@@ -72,23 +98,16 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                 const listItems = block.split('\n').map(item => item.replace('- ', ''));
                 return (
                     <ul key={index} className="list-disc pl-6 space-y-2 text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
-                        {listItems.map((li, i) => {
-                            // Bold parser
-                            const parts = li.split(/\*\*(.*?)\*\*/g);
-                            return (
-                                <li key={i}>
-                                    {parts.map((part, j) => j % 2 === 1 ? <strong key={j} className="text-slate-900 dark:text-white">{part}</strong> : part)}
-                                </li>
-                            );
-                        })}
+                        {listItems.map((li, i) => (
+                            <li key={i}>{parseInline(li)}</li>
+                        ))}
                     </ul>
                 );
             }
-            // Paragraph with bold parsing
-            const parts = block.split(/\*\*(.*?)\*\*/g);
+            // Paragraph
             return (
                 <p key={index} className="text-slate-600 dark:text-slate-400 leading-relaxed mb-6 text-lg">
-                    {parts.map((part, j) => j % 2 === 1 ? <strong key={j} className="text-slate-900 dark:text-white">{part}</strong> : part)}
+                    {parseInline(block)}
                 </p>
             );
         });

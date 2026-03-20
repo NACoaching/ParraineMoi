@@ -12,7 +12,7 @@ interface CompanyLogoProps {
 export function CompanyLogo({ url, name, priority = false }: CompanyLogoProps) {
     const [error, setError] = useState(false);
 
-    if (!url || error || !url.startsWith("http")) {
+    if (!url || error) {
         return (
             <span
                 className="text-lg font-bold text-slate-400 select-none uppercase"
