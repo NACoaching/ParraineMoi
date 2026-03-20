@@ -858,7 +858,7 @@
     "name": "iGraal",
     "slug": "igraal",
     "category": "Shopping",
-    "code": "AG_60be4aa258228",
+    "code": "https://fr.igraal.com/parrainage?parrain=AG_60be4aa258228&utm_medium=raf&utm_source=refer_friend",
     "link": "https://fr.igraal.com/parrainage?parrain=AG_60be4aa258228&utm_medium=raf&utm_source=refer_friend",
     "advantage": "3€ offerts à l'inscription",
     "description": "iGraal est le leader du cashback en France. Le principe est simple : à chaque fois que vous achetez sur internet (Cdiscount, ASOS, Nike, Booking...), iGraal vous reverse une partie du montant de votre commande directement sur votre cagnotte. C'est de l'argent réel que vous pouvez ensuite virer sur votre compte bancaire ou PayPal dès 20€ cumulés.",
@@ -904,14 +904,14 @@
         "description": "Faites vos achats normalement. Votre cagnotte grimpe toute seule et vous pouvez retirer votre argent dès 20€ accumulés."
       }
     ],
-    "lastVerified": "2026-03-05"
+    "lastVerified": "2026-03-20"
   },
   {
     "id": "17",
     "name": "eBuyClub",
     "slug": "ebuyclub",
     "category": "Shopping",
-    "code": "contactnacoaching",
+    "code": "https://www.ebuyclub.com/inscription?parrain=contactnacoaching",
     "link": "https://www.ebuyclub.com/inscription?parrain=contactnacoaching",
     "advantage": "3€ offerts à l'inscription",
     "description": "eBuyClub est le challenger historique d'iGraal. Souvent plus généreux sur certains marchands spécifiques, il propose également un système unique de 'Cashback en magasin' grâce à sa carte bancaire connectée. C'est l'outil indispensable pour maximiser ses remboursements en complément des autres plateformes.",
