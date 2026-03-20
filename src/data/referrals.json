@@ -491,10 +491,10 @@
     "name": "PayPal",
     "slug": "paypal",
     "category": "Banque & Finance",
-    "code": "https://py.pl/727KSwNdyHj",
-    "link": "https://py.pl/727KSwNdyHj",
+    "code": "https://py.pl/2GvAmL",
+    "link": "https://py.pl/2GvAmL",
     "advantage": "10€ offerts",
-    "description": "Bonjour ! Nous pouvons gagner un bon d'achat de 10 € si tu ouvres un compte PayPal et que tu dépenses 5 € dans les 30 jours. Utilise simplement mon lien d'invitation pour en profiter !",
+    "description": "Bonjour ! Nous pouvons gagner un bon d'achat de 10 € si tu ouvres un compte PayPal et que tu dépenses 5 € dans les 30 jours. Utilise mon lien ci-dessous pour en profiter !",
     "logoUrl": "https://www.google.com/s2/favicons?domain=paypal.com&sz=128",
     "faqs": [
       {
@@ -526,7 +526,7 @@
     "steps": [
       {
         "title": "Utilisez un lien qualifié",
-        "description": "Cliquez sans attendre sur le lien d'invitation que nous fournissons : https://py.pl/727KSwNdyHj. Il vous redirigera vers la procédure d'inscription officielle PayPal tout en validant votre éligibilité à la promotion de bienvenue."
+        "description": "Cliquez sans attendre sur le lien d'invitation que nous fournissons : https://py.pl/2GvAmL. Il vous redirigera vers la procédure d'inscription officielle PayPal tout en validant votre éligibilité à la promotion de bienvenue."
       },
       {
         "title": "Associez votre bancaire",
