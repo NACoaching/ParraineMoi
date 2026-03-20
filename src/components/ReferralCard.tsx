@@ -68,6 +68,24 @@ export function ReferralCard({ referral, isPriority = false, index }: { referral
           <CopyButton code={referral.code} showText={false} className="shrink-0 h-10 w-10 p-0 rounded-[14px]" />
         </div>
 
+        {/* Link Box */}
+        {referral.link && (
+          <div className="flex items-center justify-between gap-2 bg-slate-50/50 dark:bg-slate-800/20 border border-slate-200/50 dark:border-slate-700/30 rounded-2xl p-2 pl-3">
+            <div className="flex items-center gap-3 overflow-hidden">
+              <span className="font-mono font-bold text-slate-500 dark:text-slate-400 text-[10px] tracking-tight truncate select-all">
+                {referral.link}
+              </span>
+            </div>
+            <CopyButton 
+              code={referral.link} 
+              showText={false} 
+              className="shrink-0 h-10 w-10 p-0 rounded-[14px] bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-600 border-none" 
+              label="Lien"
+              successLabel="Copié !"
+            />
+          </div>
+        )}
+
         <Link
           href={`/parrainage-${referral.slug}`}
           className="w-full flex items-center justify-center h-12 rounded-2xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold hover:opacity-90 transition-all text-sm shadow-sm active:scale-[0.98]"

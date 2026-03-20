@@ -7,9 +7,17 @@ interface CopyButtonProps {
     code: string;
     className?: string;
     showText?: boolean;
+    label?: string;
+    successLabel?: string;
 }
 
-export function CopyButton({ code, className = "", showText = true }: CopyButtonProps) {
+export function CopyButton({ 
+    code, 
+    className = "", 
+    showText = true,
+    label = "Copier",
+    successLabel = "Copié !"
+}: CopyButtonProps) {
     const [copied, setCopied] = useState(false);
 
     const handleCopy = async () => {
@@ -29,17 +37,17 @@ export function CopyButton({ code, className = "", showText = true }: CopyButton
                 ? "bg-emerald-500 text-white hover:bg-emerald-600"
                 : "bg-primary text-white hover:bg-blue-700"
                 } ${className}`}
-            aria-label="Copier le code"
+            aria-label={label}
         >
             {copied ? (
                 <>
                     <Check size={16} />
-                    {showText && <span className="truncate">Copié !</span>}
+                    {showText && <span className="truncate">{successLabel}</span>}
                 </>
             ) : (
                 <>
                     <Copy size={16} />
-                    {showText && <span className="truncate">Copier</span>}
+                    {showText && <span className="truncate">{label}</span>}
                 </>
             )}
         </button>

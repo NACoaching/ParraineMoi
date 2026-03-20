@@ -264,7 +264,7 @@ export default async function ReferralPage({
                             Utilisez le {referral.code.startsWith('http') ? 'lien' : 'code'} vérifié ci-dessous lors de votre inscription pour débloquer vos avantages.
                         </p>
 
-                        <div className="flex flex-col md:flex-row gap-6 justify-center items-stretch max-w-2xl mx-auto">
+                        <div className="flex flex-col gap-4 justify-center items-stretch max-w-2xl mx-auto w-full">
                             {/* Promo Code Box */}
                             <div className="flex-1 flex items-center justify-between gap-4 bg-white/50 dark:bg-slate-950/50 border-2 border-primary/20 hover:border-primary/50 transition-all rounded-3xl p-4 pl-6">
                                 <span className="font-mono font-bold text-slate-900 dark:text-white text-xl lg:text-2xl truncate select-all tracking-wider">
@@ -272,6 +272,22 @@ export default async function ReferralPage({
                                 </span>
                                 <CopyButton code={referral.code} className="shrink-0 h-14 px-8 font-bold rounded-2xl shadow-lg shadow-primary/20" showText={true} />
                             </div>
+
+                            {/* Referral Link Box */}
+                            {referral.link && (
+                                <div className="flex-1 flex items-center justify-between gap-4 bg-white/50 dark:bg-slate-950/50 border-2 border-slate-200 dark:border-slate-800 hover:border-primary/50 transition-all rounded-3xl p-4 pl-6">
+                                    <span className="font-mono font-bold text-slate-500 dark:text-slate-400 text-sm lg:text-base truncate select-all tracking-tight">
+                                        {referral.link}
+                                    </span>
+                                    <CopyButton
+                                        code={referral.link}
+                                        className="shrink-0 h-14 px-8 font-bold rounded-2xl shadow-sm bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white hover:bg-slate-200 dark:hover:bg-slate-700 border-none"
+                                        label="Lien"
+                                        successLabel="Copié !"
+                                        showText={true}
+                                    />
+                                </div>
+                            )}
                         </div>
 
                         {referral.link && referral.link !== "" && (
