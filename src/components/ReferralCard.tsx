@@ -69,7 +69,7 @@ export function ReferralCard({ referral, isPriority = false, index }: { referral
         </div>
 
         {/* Link Box */}
-        {referral.link && (
+        {referral.link && referral.link !== referral.code && (
           <div className="flex items-center justify-between gap-2 bg-slate-50/50 dark:bg-slate-800/20 border border-slate-200/50 dark:border-slate-700/30 rounded-2xl p-2 pl-3">
             <div className="flex items-center gap-3 overflow-hidden">
               <span className="font-mono font-bold text-slate-500 dark:text-slate-400 text-[10px] tracking-tight truncate select-all">

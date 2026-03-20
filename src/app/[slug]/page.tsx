@@ -274,7 +274,7 @@ export default async function ReferralPage({
                             </div>
 
                             {/* Referral Link Box */}
-                            {referral.link && (
+                            {referral.link && referral.link !== referral.code && (
                                 <div className="flex-1 flex items-center justify-between gap-4 bg-white/50 dark:bg-slate-950/50 border-2 border-slate-200 dark:border-slate-800 hover:border-primary/50 transition-all rounded-3xl p-4 pl-6">
                                     <span className="font-mono font-bold text-slate-500 dark:text-slate-400 text-sm lg:text-base truncate select-all tracking-tight">
                                         {referral.link}
