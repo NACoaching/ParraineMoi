@@ -650,7 +650,7 @@
     "name": "Coinbase",
     "slug": "coinbase",
     "category": "Crypto",
-    "code": "92UZVUP",
+    "code": "https://coinbase.com/join/92UZVUP?src=ios-link",
     "link": "https://coinbase.com/join/92UZVUP?src=ios-link",
     "advantage": "10€ en Bitcoin offerts",
     "description": "Coinbase est la plateforme de référence pour faire ses premiers pas dans le monde des crypto-monnaies. Cotée en bourse au NASDAQ, c'est l'une des plateformes les plus sécurisées et les plus simples d'utilisation pour acheter, vendre et stocker vos premiers Bitcoins, Ethereum et des centaines d'autres jetons. Leur interface 'Apprentissage' vous permet même de gagner des cryptos gratuitement en répondant à de simples quiz.",
@@ -666,7 +666,7 @@
         "Frais de transaction un peu plus élevés que sur des plateformes 'Pro'",
         "Processus de vérification d'identité (KYC) obligatoire et complet"
       ],
-      "longReview": "<p>S'il existe une porte d'entrée royale pour découvrir l'économie numérique, c'est incontestablement <strong>Coinbase</strong>. Là où d'autres plateformes perdent l'utilisateur sous des graphiques complexes, Coinbase mise sur une expérience épurée, proche d'une application bancaire classique. C'est l'outil parfait pour acheter ses premiers 10€ de Bitcoin sans stress.</p><br/><p>Le véritable génie de la plateforme réside dans son programme <strong>Coinbase Learning</strong>. Imaginez être payé pour apprendre ! En regardant de courtes vidéos sur de nouvelles technologies crypto, vous recevez directement des jetons dans votre portefeuille. C'est la méthode idéale pour amorcer son capital sans injecter d'argent personnel au début.</p><br/><p>En utilisant notre <strong>lien de parrainage exclusif ('92UZVUP')</strong>, vous bénéficiez d'un bonus de bienvenue en Bitcoin dès votre premier achat. C'est un coup de pouce immédiat qui vient s'ajouter à la sécurité d'une plateforme mondialement reconnue. Avec Coinbase, vous n'achetez pas seulement de la crypto, vous investissez sereinement dans l'avenir financier.</p>"
+      "longReview": "<p>S'il existe une porte d'entrée royale pour découvrir l'économie numérique, c'est incontestablement <strong>Coinbase</strong>. Là où d'autres plateformes perdent l'utilisateur sous des graphiques complexes, Coinbase mise sur une expérience épurée, proche d'une application bancaire classique. C'est l'outil parfait pour acheter ses premiers 10€ de Bitcoin sans stress.</p><br/><p>Le véritable génie de la plateforme réside dans son programme <strong>Coinbase Learning</strong>. Imaginez être payé pour apprendre ! En regardant de courtes vidéos sur de nouvelles technologies crypto, vous recevez directement des jetons dans votre portefeuille. C'est la méthode idéale pour amorcer son capital sans injecter d'argent personnel au début.</p><br/><p>En utilisant notre <strong>lien de parrainage exclusif</strong>, vous bénéficiez d'un bonus de bienvenue en Bitcoin dès votre premier achat. C'est un coup de pouce immédiat qui vient s'ajouter à la sécurité d'une plateforme mondialement reconnue. Avec Coinbase, vous n'achetez pas seulement de la crypto, vous investissez sereinement dans l'avenir financier.</p>"
     },
     "faqs": [
       {
@@ -696,7 +696,7 @@
         "description": "Achetez pour le montant minimal requis et recevez vos Bitcoins gratuits directement dans votre portefeuille."
       }
     ],
-    "lastVerified": "2026-03-05"
+    "lastVerified": "2026-03-20"
   },
   {
     "id": "13",
