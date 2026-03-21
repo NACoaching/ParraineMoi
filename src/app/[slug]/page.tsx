@@ -446,6 +446,31 @@ export default async function ReferralPage({
                     )}
                 </section>
 
+                {/* Cross-selling Simulator Block */}
+                <section className="mb-16 bg-gradient-to-br from-emerald-500/10 to-primary/10 border border-emerald-500/20 rounded-[2rem] p-8 sm:p-10 text-center relative overflow-hidden">
+                    <div className="absolute top-0 right-0 p-4 opacity-10">
+                        <Gift size={120} />
+                    </div>
+                    <div className="relative z-10 max-w-2xl mx-auto flex flex-col items-center">
+                        <span className="inline-block px-3 py-1 bg-emerald-500 text-white text-xs font-bold uppercase tracking-widest rounded-full mb-4">
+                            Astuce Rentabilité
+                        </span>
+                        <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mb-4">
+                            Maximisez vos gains avec {referral.name} !
+                        </h2>
+                        <p className="text-slate-600 dark:text-slate-400 mb-8 leading-relaxed">
+                            Saviez-vous que vous pouviez cumuler l'offre de bienvenue de <strong>{referral.name}</strong> avec d'autres services pour récupérer des centaines d'euros ? Découvrez instantanément votre potentiel grâce à notre simulateur gratuit.
+                        </p>
+                        <Link 
+                            href="/simulateur"
+                            className="inline-flex items-center gap-2 px-8 py-4 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-2xl font-bold hover:scale-105 transition-transform shadow-xl"
+                        >
+                            <Gift size={20} />
+                            Calculer mes gains cumulés
+                        </Link>
+                    </div>
+                </section>
+
                 {/* FAQ SEO */}
                 {referral.faqs && referral.faqs.length > 0 && (
                     <div className="mb-20">

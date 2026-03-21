@@ -12,6 +12,9 @@ export function Navbar() {
                     <span className="group-hover:text-primary transition-colors">Codes de Parrainages</span>
                 </Link>
                 <div className="hidden md:flex items-center gap-8 text-sm font-bold uppercase tracking-widest text-slate-500">
+                    <Link href="/simulateur" className="flex items-center gap-2 text-emerald-500 dark:text-emerald-400 hover:text-emerald-600 dark:hover:text-emerald-300 transition-all hover:translate-y-[-1px]">
+                        💰 Simulateur
+                    </Link>
                     <Link href="/guides" className="hover:text-primary transition-all hover:translate-y-[-1px]">
                         Guides
                     </Link>

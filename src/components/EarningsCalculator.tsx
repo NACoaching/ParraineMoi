@@ -137,7 +137,11 @@ export function EarningsCalculator() {
                     
                     <button 
                         onClick={() => {
-                            document.getElementById('grid-offres')?.scrollIntoView({ behavior: 'smooth' });
+                            if (window.location.pathname === '/') {
+                                document.getElementById('grid-offres')?.scrollIntoView({ behavior: 'smooth' });
+                            } else {
+                                window.location.href = '/#grid-offres';
+                            }
                         }}
                         className="w-full py-4 px-6 bg-primary hover:bg-primary/90 text-white rounded-2xl font-bold flex justify-center items-center gap-2 transition-all active:scale-95"
                     >
