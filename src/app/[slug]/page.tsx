@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { ShieldCheck, TrendingUp, Clock, ExternalLink, Info, ChevronRight, Home, Gift, ArrowRight } from 'lucide-react';
 import { CopyButton } from '@/components/CopyButton';
 import { CompanyLogo } from '@/components/CompanyLogo';
+import { StickyCopyBar } from '@/components/StickyCopyBar';
 import { FaqAccordion } from '@/components/FaqAccordion';
 import { ReferralGrid } from '@/components/ReferralGrid';
 import referralsData from '@/data/referrals.json';
@@ -471,6 +472,15 @@ export default async function ReferralPage({
                     </section>
                 )}
             </article>
+
+            {/* Sticky Copy Bar for Conversion Optimization */}
+            <StickyCopyBar 
+                name={referral.name}
+                code={referral.code}
+                link={referral.link}
+                advantage={referral.advantage}
+                logoUrl={referral.logoUrl}
+            />
         </main>
     );
 }

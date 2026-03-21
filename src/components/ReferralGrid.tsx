@@ -11,6 +11,13 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
     const [searchTerm, setSearchTerm] = useState("");
     const [activeCategory, setActiveCategory] = useState(initialCategory);
     const [selectedOfferSlug, setSelectedOfferSlug] = useState("");
+    const [sortBy, setSortBy] = useState<"relevance" | "amount_desc" | "alpha">("relevance");
+
+    const extractValue = (advantage: string) => {
+        const numbers = advantage.replace(/\s/g, '').match(/\d+/g);
+        if (!numbers) return 0;
+        return Math.max(...numbers.map(Number));
+    };
 
     const allCategories = useMemo(() => {
         // If we are given a limited list and an initial category, prioritize that
@@ -54,7 +61,15 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
             );
         }
 
-        const isDefault = !searchTerm && activeCategory === "Toutes" && !selectedOfferSlug;
+        // Sort the results
+        if (sortBy === "alpha") {
+            result.sort((a, b) => a.name.localeCompare(b.name));
+        } else if (sortBy === "amount_desc") {
+            result.sort((a, b) => extractValue(b.advantage) - extractValue(a.advantage));
+        }
+        // "relevance" is the default order from JSON
+
+        const isDefault = !searchTerm && activeCategory === "Toutes" && !selectedOfferSlug && sortBy === "relevance";
         const currentSpotlight = isDefault ? spotlightOfferRaw : null;
 
         // Final grid offers: exclude spotlight if it's being shown separately
@@ -63,7 +78,7 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
             : result;
 
         return { filteredGridOffers: gridResults, spotlightOffer: currentSpotlight };
-    }, [searchTerm, activeCategory, selectedOfferSlug, referrals, spotlightOfferRaw]);
+    }, [searchTerm, activeCategory, selectedOfferSlug, sortBy, referrals, spotlightOfferRaw]);
 
     return (
         <div className="w-full">
@@ -109,6 +124,25 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
                         </svg>
                     </div>
                 </div>
+
+                {/* Sort Dropdown - Premium Glass */}
+                <div className="relative min-w-[200px]">
+                    <select
+                        aria-label="Trier par"
+                        className="glass-card appearance-none block w-full px-6 pr-12 py-4 bg-white/50 dark:bg-slate-900/50 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/50 transition-all cursor-pointer font-bold text-sm uppercase tracking-wide"
+                        value={sortBy}
+                        onChange={(e) => setSortBy(e.target.value as "relevance" | "amount_desc" | "alpha")}
+                    >
+                        <option value="relevance">Trier : Recommandé</option>
+                        <option value="amount_desc">Trier : + Rentable</option>
+                        <option value="alpha">Trier : A-Z</option>
+                    </select>
+                    <div className="absolute inset-y-0 right-0 pr-5 flex items-center pointer-events-none text-primary">
+                        <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M3 4h13M3 8h9m-9 4h6m4 0l4-4m0 0l4 4m-4-4v12" />
+                        </svg>
+                    </div>
+                </div>
             </div>
 
             {/* Categories Buttons - Premium Glass pills */}
@@ -144,9 +178,21 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
 
             {filteredGridOffers.length > 0 ? (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {filteredGridOffers.map((referral, index) => (
-                        <ReferralCard key={referral.slug} referral={referral} index={index} />
-                    ))}
+                    {filteredGridOffers.map((referral, index) => {
+                        const val = extractValue(referral.advantage);
+                        const isTopOffer = val >= 50 && sortBy !== "alpha"; // Mark as top offer if > 50€
+
+                        return (
+                            <div key={referral.slug} className="relative">
+                                {isTopOffer && (
+                                    <div className="absolute -top-3 -right-3 z-10 bg-gradient-to-r from-orange-400 to-red-500 text-white text-[10px] uppercase font-black tracking-widest px-3 py-1.5 rounded-full shadow-lg transform rotate-3 border-2 border-white dark:border-slate-900 pointer-events-none">
+                                        🔥 Top Offre
+                                    </div>
+                                )}
+                                <ReferralCard referral={referral} index={index} />
+                            </div>
+                        );
+                    })}
                 </div>
             ) : (
                 <div className="text-center py-16 px-4 rounded-[2.5rem] bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 border-dashed">

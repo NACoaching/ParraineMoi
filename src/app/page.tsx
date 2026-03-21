@@ -2,6 +2,7 @@ import { ReferralGrid } from "@/components/ReferralGrid";
 import referralsData from "@/data/referrals.json";
 import { Referral } from "@/components/ReferralCard";
 import { FaqAccordion } from "@/components/FaqAccordion";
+import { EarningsCalculator } from "@/components/EarningsCalculator";
 import guidesData from "@/data/guides.json";
 import Link from "next/link";
 import { ArrowRight, Search, Gift, Wallet } from "lucide-react";
@@ -107,7 +108,11 @@ export default function Home() {
           ))}
         </div>
 
-        <ReferralGrid referrals={referrals} />
+        <EarningsCalculator />
+
+        <div id="grid-offres" className="w-full pt-10">
+            <ReferralGrid referrals={referrals} />
+        </div>
 
       </section>
 
