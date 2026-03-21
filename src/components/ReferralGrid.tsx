@@ -180,7 +180,13 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {filteredGridOffers.map((referral, index) => {
                         const val = extractValue(referral.advantage);
-                        const isTopOffer = val >= 50 && sortBy !== "alpha"; // Mark as top offer if > 50€
+                        const forceTopOffers = ["trade-republic", "robinhood"];
+                        const excludeTopOffers = ["winamax", "finary"];
+                        
+                        const isTopOffer = (
+                            (val >= 50 && !excludeTopOffers.includes(referral.slug)) || 
+                            forceTopOffers.includes(referral.slug)
+                        ) && sortBy !== "alpha";
 
                         return (
                             <div key={referral.slug} className="relative">
