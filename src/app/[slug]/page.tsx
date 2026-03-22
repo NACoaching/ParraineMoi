@@ -144,7 +144,8 @@ export default async function ReferralPage({
             "@type": "Offer",
             "price": "0",
             "priceCurrency": "EUR",
-            "availability": "https://schema.org/InStock"
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": `${currentYear}-12-31`
         }
     };
 
