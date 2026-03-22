@@ -12,8 +12,49 @@ export const metadata: Metadata = {
 };
 
 export default function SimulateurPage() {
+    const breadcrumbJsonLd = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://codes-de-parrainages.com"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Simulateur de gains",
+                "item": "https://codes-de-parrainages.com/simulateur"
+            }
+        ]
+    };
+
+    const calculatorJsonLd = {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Simulateur de Gains ParraineMoi",
+        "operatingSystem": "All",
+        "applicationCategory": "FinanceApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "EUR"
+        },
+        "description": "Calculateur gratuit pour estimer vos gains potentiels avec les meilleures offres de parrainage du moment."
+    };
+
     return (
         <main className="min-h-screen px-4 py-8 sm:px-6 sm:py-16">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(calculatorJsonLd) }}
+            />
             <nav className="flex items-center gap-2 text-sm font-medium text-slate-500 mb-8 overflow-x-auto whitespace-nowrap pb-2 max-w-4xl mx-auto">
                 <Link href="/" className="flex items-center gap-1.5 hover:text-slate-900 dark:hover:text-white transition-colors">
                     <Home size={16} />
