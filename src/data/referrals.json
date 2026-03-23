@@ -2266,5 +2266,58 @@
       }
     ],
     "lastVerified": "2026-03-20"
+  },
+  {
+    "id": "1000",
+    "name": "Fiverr",
+    "slug": "fiverr",
+    "category": "Shopping",
+    "code": "",
+    "link": "https://www.fiverr.com/pe/Aya23DY",
+    "advantage": "10% de réduction sur votre 1ère commande",
+    "description": "Fiverr est la plateforme mondiale numéro 1 pour l'achat de services freelance. Design graphique, rédaction, développement web, marketing digital, doublage... Des milliers de freelances professionnels proposent leurs services à partir de 5€. Idéal pour booster un projet sans exploser son budget.",
+    "logoUrl": "/logos/fiverr.png",
+    "review": {
+      "pros": [
+        "Catalogue immense : des milliers de services disponibles dans tous les domaines",
+        "Système de filtres avancés pour trouver le bon prestataire (délai, note, budget)",
+        "Paiement sécurisé avec remboursement garanti si le service n'est pas livré",
+        "Tarifs adaptés à tous les budgets, y compris pour les particuliers"
+      ],
+      "cons": [
+        "Qualité variable selon les vendeurs, il faut lire les avis avec attention",
+        "Frais de service ajoutés au prix affiché lors du paiement"
+      ],
+      "longReview": "<p><strong>Fiverr est incontournable</strong> pour quiconque a besoin d'externaliser une tâche rapidement et à petit prix. Que ce soit pour la création d'un logo, la rédaction d'un texte SEO, la création d'une vidéo de présentation ou le développement d'un site web, des professionnels du monde entier sont disponibles en quelques clics.</p><br/><p>La plateforme fonctionne sur un principe simple : les freelances publient leurs services (appelés \"Gigs\"), vous choisissez celui qui correspond à vos besoins et vous procédez au paiement sécurisé. <strong>L'argent n'est libéré au freelance qu'une fois votre commande livrée et validée</strong>, ce qui garantit une protection optimale pour l'acheteur.</p><br/><p>En passant par notre <strong>lien de parrainage</strong>, bénéficiez d'une réduction sur votre première commande et découvrez pourquoi des millions d'entrepreneurs font confiance à Fiverr pour leurs projets.</p>"
+    },
+    "steps": [
+      {
+        "title": "Cliquez sur le lien",
+        "description": "Accédez à Fiverr via notre lien et créez votre compte gratuitement."
+      },
+      {
+        "title": "Trouvez votre freelance",
+        "description": "Parcourez les milliers de services disponibles et choisissez celui qui correspond à vos besoins."
+      },
+      {
+        "title": "Profitez de la réduction",
+        "description": "La réduction est automatiquement appliquée à votre première commande passée via notre lien."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Y a-t-il un code promo Fiverr ?",
+        "answer": "Pour Fiverr, le bonus s'active directement via notre lien d'affiliation – il n'y a pas de code à saisir. Cliquez simplement sur le lien et la réduction sur votre première commande sera appliquée automatiquement."
+      },
+      {
+        "question": "Quels types de services peut-on trouver sur Fiverr ?",
+        "answer": "Fiverr couvre plus de 500 catégories de services : graphisme, rédaction, traduction, développement, marketing, musique, vidéo, business... C'est une solution complète pour tous vos projets digitaux et créatifs."
+      },
+      {
+        "question": "Puis-je me faire rembourser si le résultat ne me convient pas ?",
+        "answer": "Oui. Le système de paiement sécurisé de Fiverr retient votre paiement jusqu'à la livraison. En cas de litige, le support Fiverr intervient et un remboursement peut être accordé si le prestataire n'a pas respecté le cahier des charges."
+      }
+    ],
+    "lastVerified": "2026-03-23"
   }
 ]
