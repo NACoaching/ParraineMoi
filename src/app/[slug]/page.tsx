@@ -132,21 +132,11 @@ export default async function ReferralPage({
         }
     } : {
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "Service",
         "name": referral.name,
         "description": referral.description,
         "image": `https://codes-de-parrainages.com${referral.logoUrl}`,
-        "brand": {
-            "@type": "Brand",
-            "name": referral.name
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "EUR",
-            "availability": "https://schema.org/InStock",
-            "priceValidUntil": `${currentYear}-12-31`
-        }
+        "url": `https://codes-de-parrainages.com/parrainage-${referral.slug}`
     };
 
     const breadcrumbJsonLd = {
