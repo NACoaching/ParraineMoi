@@ -4,18 +4,25 @@ import { useState, useEffect } from "react";
 import { CompanyLogo } from "./CompanyLogo";
 import { Check, Banknote, Sparkles } from "lucide-react";
 
-const selectedOffers = [
-    { slug: "boursobank", name: "BoursoBank", value: 130, logoUrl: "/logos/boursobank.png", desc: "Prime d'ouverture" },
-    { slug: "fortuneo", name: "Fortuneo", value: 80, logoUrl: "/logos/fortuneo.png", desc: "Prime d'ouverture" },
-    { slug: "revolut", name: "Revolut", value: 50, logoUrl: "/logos/revolut.png", desc: "Partage de prime" },
-    { slug: "igraal", name: "iGraal", value: 10, logoUrl: "/logos/igraal.png", desc: "Bonus inscription" },
-    { slug: "nexo", name: "Nexo", value: 25, logoUrl: "/logos/nexo.png", desc: "Bonus dépôt" },
-    { slug: "trade-republic", name: "Trade Rep.", value: 10, logoUrl: "/logos/trade-republic.png", desc: "Actions offertes" },
-];
+import referralsData from "@/data/referrals.json";
+
+const extractValue = (advantage: string) => {
+    const numbers = advantage.replace(/\s/g, '').match(/\d+/g);
+    if (!numbers) return 0;
+    return Math.max(...numbers.map(Number));
+};
+
+const dynamicOffers = referralsData.map((ref) => ({
+    slug: ref.slug,
+    name: ref.name,
+    value: extractValue(ref.advantage),
+    logoUrl: ref.logoUrl,
+    desc: ref.category
+})).sort((a, b) => b.value - a.value);
 
 export function EarningsCalculator() {
     // By default, assume the user has none of them, so all are checked
-    const [checkedState, setCheckedState] = useState<boolean[]>(new Array(selectedOffers.length).fill(true));
+    const [checkedState, setCheckedState] = useState<boolean[]>(new Array(dynamicOffers.length).fill(true));
     const [total, setTotal] = useState(0);
     const [animatedTotal, setAnimatedTotal] = useState(0);
 
@@ -30,7 +37,7 @@ export function EarningsCalculator() {
         const newTotal = checkedState.reduce(
             (sum, currentState, index) => {
                 if (currentState === true) {
-                    return sum + selectedOffers[index].value;
+                    return sum + dynamicOffers[index].value;
                 }
                 return sum;
             },
@@ -84,8 +91,8 @@ export function EarningsCalculator() {
                         Cochez les applications que vous <strong>n&apos;utilisez pas encore</strong> pour découvrir combien vous pourriez gagner en cumulé aujourd&apos;hui.
                     </p>
                     
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                        {selectedOffers.map((offer, index) => (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3">
+                        {dynamicOffers.map((offer, index) => (
                             <label
                                 key={index}
                                 className={`flex items-center p-3 rounded-2xl cursor-pointer transition-all border-2 ${
@@ -95,7 +102,7 @@ export function EarningsCalculator() {
                                 } hover:border-primary/30 group`}
                             >
                                 <div className="h-10 w-10 shrink-0 bg-white dark:bg-slate-950 rounded-xl p-2 mr-3 border border-slate-100 dark:border-slate-800 flex items-center justify-center overflow-hidden">
-                                     <CompanyLogo url={offer.logoUrl} name={offer.name} />
+                                    <CompanyLogo url={offer.logoUrl || ""} name={offer.name} />
                                 </div>
                                 <div className="flex-1">
                                     <div className="font-bold text-slate-900 dark:text-white text-sm group-hover:text-primary transition-colors">{offer.name}</div>

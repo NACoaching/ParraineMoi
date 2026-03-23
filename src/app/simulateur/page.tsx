@@ -83,10 +83,17 @@ export default function SimulateurPage() {
                 <section className="mt-16 bg-white dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 rounded-[2rem] p-8 sm:p-12 shadow-sm prose prose-lg prose-slate dark:prose-invert max-w-none">
                     <h2>Pourquoi utiliser un simulateur de gains de parrainage ?</h2>
                     <p>
-                        Il est souvent difficile d'avoir une vision claire du potentiel financier des offres de bienvenue. Entre les banques en ligne qui offrent jusqu'à 130€, les applications cryptos qui distribuent des bonus en Bitcoin, et les plateformes de cashback, les sommes s'accumulent vite.
+                        Il est souvent complexe d'avoir une réelle vision claire du potentiel financier des offres de bienvenue. Entre les banques en ligne avec des primes d'ouverture de compte conséquentes, les plateformes d'échange crypto qui distribuent des bonus en Bitcoin, et les applications de cashback quotidien, les montants s'accumulent extrêmement vite. Notre <strong>simulateur de gains parrainage</strong> vous permet de calculer avec précision et en temps réel le total des primes d'affiliation que vous pouvez obtenir.
                     </p>
+                    
+                    <h3>L'effet multiplicateur du cumul des codes promos</h3>
                     <p>
-                        Ce simulateur de gains est conçu pour vous montrer <strong>le pouvoir du cumul</strong>. En utilisant nos codes de parrainage vérifiés de manière stratégique (par exemple, ouvrir un compte BoursoBank puis le coupler à Revolut), vous générez un revenu complémentaire rapide et net d'impôts. N'attendez plus pour optimiser vos finances !
+                        Ce calculateur gratuit a été conçu pour vous démontrer la puissance du cumul. En validant vos inscriptions via nos <strong>codes de parrainage vérifiés de manière stratégique</strong>, vous générez un revenu complémentaire qui se chiffre très souvent en plusieurs centaines d'euros. L'astuce consiste à souscrire aux applications financières ou e-commerce que vous n'utilisez pas encore, activer la prime de bienvenue, et récupérer l'argent directement sur votre compte.
+                    </p>
+                    
+                    <h3>Une liste des primes parfaitement synchronisée</h3>
+                    <p>
+                        À la différence de certains simulateurs, notre calcul de rentabilité prend en compte <strong>l'intégralité des offres disponibles</strong> sur le site en 2026. Dès lors, si un nouveau bonus exceptionnel apparaît (comme par exemple l'offre de 500€ de Coinhouse), la liste d'intégration est automatiquement rafraîchie avec ce nouveau montant maximal. N'attendez plus : décochez les services que vous possédez déjà, et le solde s'ajustera pour afficher vos gains nets potentiels aujourd'hui.
                     </p>
                 </section>
             </article>
