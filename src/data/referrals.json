@@ -199,6 +199,63 @@
     "lastVerified": "2026-03-05"
   },
   {
+    "id": "15",
+    "name": "Coinhouse",
+    "slug": "coinhouse",
+    "category": "Crypto",
+    "code": "VEH0DX",
+    "link": "https://coinhouse.onelink.me/bCWk/tpvzeow2?deep_link_sub5=VEH0DX",
+    "advantage": "Jusqu'à 500€ en Bitcoin",
+    "description": "L'un des pionniers français de la crypto. Coinhouse est aujourd'hui une plateforme ultra-sécurisée (enregistrée PSAN auprès de l'AMF) parfaite pour débuter. La toute nouvelle application permet de décrocher un bonus d'inscription allant jusqu'à 500€ en achetant pour 100€ de cryptomonnaies dans les 7 jours.",
+    "logoUrl": "/logos/coinhouse.png",
+    "review": {
+      "pros": [
+        "Plateforme française historique, enregistrée PSAN (AMF) pour une sécurité totale",
+        "Nouvelle application mobile extrêmement intuitive et parfaite pour les débutants",
+        "Bonus de bienvenue très rémunérateur (allant jusqu'à 500€ en Bitcoin)",
+        "Service d'accompagnement client en français avec des experts dédiés"
+      ],
+      "cons": [
+        "Frais de transaction légèrement supérieurs à ceux des bourses internationales",
+        "Moins de cryptomonnaies exotiques disponibles (focus sur les valeurs sûres)"
+      ],
+      "longReview": "<p>Connue historiquement sous le nom de 'La Maison du Bitcoin', <strong>Coinhouse est la plateforme de référence pour investir de manière sécurisée en France</strong>. En 2026, l'entreprise a dévoilé une toute nouvelle application mobile repensée pour offrir l'expérience utilisateur la plus fluide possible, particulièrement pour les novices qui souhaitent franchir le pas sans risquer de se perdre dans des interfaces de trading complexes.</p><br/><p>Le point fort de Coinhouse réside incontestablement dans son <strong>cadre de confiance et de régulation</strong>. En tant qu'acteur enregistré PSAN auprès de l'AMF et basé à Paris, vos fonds bénéficient de garanties de sécurité exceptionnelles, loin des scandales de certaines bourses étrangères. Le revers de cette médaille est l'application de frais de transaction légèrement plus élevés (souvent autour de 1,49% par carte bancaire), qui sont largement justifiés par l'accompagnement premium et le support client francophone très réactif.</p><br/><p>Afin de propulser sa nouvelle application, <strong>Coinhouse lance une campagne de parrainage particulièrement agressive en 2026</strong>. En utilisant notre code exclusif <em>VEH0DX</em> lors de votre enregistrement, vous devenez éligible à un tirage au sort garanti (Reward Ticket) vous offrant entre 10€ et <strong>500€ en Bitcoin</strong> dès lors que vous effectuez un achat minimal de 100€ dans les 7 jours suivant votre inscription. C'est le moment idéal pour démarrer votre portefeuille crypto avec un solide bonus !</p>"
+    },
+    "steps": [
+      {
+        "title": "Téléchargement & Inscription",
+        "description": "Cliquez sur notre lien d'invitation pour télécharger la nouvelle application Coinhouse. Remplissez le formulaire d'inscription et assurez-vous que le code VEH0DX est bien renseigné."
+      },
+      {
+        "title": "Validation du compte (KYC)",
+        "description": "Coinhouse étant une plateforme régulée en France, vous devrez vérifier votre identité en prenant en photo votre pièce d'identité et en effectuant un selfie vidéo rapide."
+      },
+      {
+        "title": "Achat & Récompense",
+        "description": "Déposez des fonds et effectuez un achat minimal de 100€ de cryptomonnaie (Bitcoin, Ethereum...) dans les 7 jours maximum. Votre ticket bonus grattable s'affichera pour révéler votre prime en Bitcoin !"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Quelles sont les conditions pour débloquer le bonus Coinhouse de 500€ ?",
+        "answer": "Pour être éligible au bonus, vous devez ouvrir un compte avec le code VEH0DX, passer la vérification d'identité, puis investir au moins 100€ en cryptomonnaies dans les 7 jours (168 heures) suivant votre inscription. Le bonus distribué est aléatoire et peut atteindre la somme de 500€ en BTC."
+      },
+      {
+        "question": "L'application Coinhouse est-elle sécurisée en France ?",
+        "answer": "Oui, de manière absolue. Coinhouse est l'un des premiers acteurs historiques à avoir obtenu l'enregistrement obligatoire de Prestataire de Services sur Actifs Numériques (PSAN) délivré conjointement par l'Autorité des Marchés Financiers (AMF) et l'ACPR. La majorité des fonds clients sont stockés 'à froid' hors ligne pour éviter tout piratage."
+      },
+      {
+        "question": "Quels sont les frais moyens d'achat sur Coinhouse ?",
+        "answer": "Pour la simplicité et la sécurité offertes, les frais sont dans la moyenne des courtiers premium. Comptez entre 0,69% et 1,49% pour un achat selon la méthode (Virement SEPA direct ou Carte Bancaire classique)."
+      },
+      {
+        "question": "Puis-je gagner des revenus passifs sur mes cryptos ?",
+        "answer": "Oui, la dernière version de l'application Coinhouse permet aux utilisateurs français de placer très simplement et légalement certaines de leurs cryptomonnaies (comme l'Ethereum ou le Solana) en 'staking' pour générer des intérêts annuels perçus régulièrement."
+      }
+    ],
+    "lastVerified": "2026-03-23"
+  },
+  {
     "id": "4",
     "name": "SwissBorg",
     "slug": "swissborg",
@@ -2209,62 +2266,5 @@
       }
     ],
     "lastVerified": "2026-03-20"
-  },
-  {
-    "id": "15",
-    "name": "Coinhouse",
-    "slug": "coinhouse",
-    "category": "Crypto",
-    "code": "VEH0DX",
-    "link": "https://coinhouse.onelink.me/bCWk/tpvzeow2?deep_link_sub5=VEH0DX",
-    "advantage": "Jusqu'à 500€ en Bitcoin",
-    "description": "L'un des pionniers français de la crypto. Coinhouse est aujourd'hui une plateforme ultra-sécurisée (enregistrée PSAN auprès de l'AMF) parfaite pour débuter. La toute nouvelle application permet de décrocher un bonus d'inscription allant jusqu'à 500€ en achetant pour 100€ de cryptomonnaies dans les 7 jours.",
-    "logoUrl": "/logos/coinhouse.png",
-    "review": {
-      "pros": [
-        "Plateforme française historique, enregistrée PSAN (AMF) pour une sécurité totale",
-        "Nouvelle application mobile extrêmement intuitive et parfaite pour les débutants",
-        "Bonus de bienvenue très rémunérateur (allant jusqu'à 500€ en Bitcoin)",
-        "Service d'accompagnement client en français avec des experts dédiés"
-      ],
-      "cons": [
-        "Frais de transaction légèrement supérieurs à ceux des bourses internationales",
-        "Moins de cryptomonnaies exotiques disponibles (focus sur les valeurs sûres)"
-      ],
-      "longReview": "<p>Connue historiquement sous le nom de 'La Maison du Bitcoin', <strong>Coinhouse est la plateforme de référence pour investir de manière sécurisée en France</strong>. En 2026, l'entreprise a dévoilé une toute nouvelle application mobile repensée pour offrir l'expérience utilisateur la plus fluide possible, particulièrement pour les novices qui souhaitent franchir le pas sans risquer de se perdre dans des interfaces de trading complexes.</p><br/><p>Le point fort de Coinhouse réside incontestablement dans son <strong>cadre de confiance et de régulation</strong>. En tant qu'acteur enregistré PSAN auprès de l'AMF et basé à Paris, vos fonds bénéficient de garanties de sécurité exceptionnelles, loin des scandales de certaines bourses étrangères. Le revers de cette médaille est l'application de frais de transaction légèrement plus élevés (souvent autour de 1,49% par carte bancaire), qui sont largement justifiés par l'accompagnement premium et le support client francophone très réactif.</p><br/><p>Afin de propulser sa nouvelle application, <strong>Coinhouse lance une campagne de parrainage particulièrement agressive en 2026</strong>. En utilisant notre code exclusif <em>VEH0DX</em> lors de votre enregistrement, vous devenez éligible à un tirage au sort garanti (Reward Ticket) vous offrant entre 10€ et <strong>500€ en Bitcoin</strong> dès lors que vous effectuez un achat minimal de 100€ dans les 7 jours suivant votre inscription. C'est le moment idéal pour démarrer votre portefeuille crypto avec un solide bonus !</p>"
-    },
-    "steps": [
-      {
-        "title": "Téléchargement & Inscription",
-        "description": "Cliquez sur notre lien d'invitation pour télécharger la nouvelle application Coinhouse. Remplissez le formulaire d'inscription et assurez-vous que le code VEH0DX est bien renseigné."
-      },
-      {
-        "title": "Validation du compte (KYC)",
-        "description": "Coinhouse étant une plateforme régulée en France, vous devrez vérifier votre identité en prenant en photo votre pièce d'identité et en effectuant un selfie vidéo rapide."
-      },
-      {
-        "title": "Achat & Récompense",
-        "description": "Déposez des fonds et effectuez un achat minimal de 100€ de cryptomonnaie (Bitcoin, Ethereum...) dans les 7 jours maximum. Votre ticket bonus grattable s'affichera pour révéler votre prime en Bitcoin !"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "Quelles sont les conditions pour débloquer le bonus Coinhouse de 500€ ?",
-        "answer": "Pour être éligible au bonus, vous devez ouvrir un compte avec le code VEH0DX, passer la vérification d'identité, puis investir au moins 100€ en cryptomonnaies dans les 7 jours (168 heures) suivant votre inscription. Le bonus distribué est aléatoire et peut atteindre la somme de 500€ en BTC."
-      },
-      {
-        "question": "L'application Coinhouse est-elle sécurisée en France ?",
-        "answer": "Oui, de manière absolue. Coinhouse est l'un des premiers acteurs historiques à avoir obtenu l'enregistrement obligatoire de Prestataire de Services sur Actifs Numériques (PSAN) délivré conjointement par l'Autorité des Marchés Financiers (AMF) et l'ACPR. La majorité des fonds clients sont stockés 'à froid' hors ligne pour éviter tout piratage."
-      },
-      {
-        "question": "Quels sont les frais moyens d'achat sur Coinhouse ?",
-        "answer": "Pour la simplicité et la sécurité offertes, les frais sont dans la moyenne des courtiers premium. Comptez entre 0,69% et 1,49% pour un achat selon la méthode (Virement SEPA direct ou Carte Bancaire classique)."
-      },
-      {
-        "question": "Puis-je gagner des revenus passifs sur mes cryptos ?",
-        "answer": "Oui, la dernière version de l'application Coinhouse permet aux utilisateurs français de placer très simplement et légalement certaines de leurs cryptomonnaies (comme l'Ethereum ou le Solana) en 'staking' pour générer des intérêts annuels perçus régulièrement."
-      }
-    ],
-    "lastVerified": "2026-03-23"
   }
 ]
