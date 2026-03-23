@@ -139,14 +139,17 @@ export function EarningsCalculator() {
                 <div className="flex-shrink-0 w-full lg:w-80 bg-slate-900 dark:bg-slate-950 rounded-[2rem] p-8 text-center text-white relative overflow-hidden shadow-2xl">
                     <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-400 via-primary to-emerald-400"></div>
                     <div className="mb-2 opacity-80 text-sm font-medium uppercase tracking-widest text-slate-300 flex items-center justify-center gap-2">
-                        <Banknote size={16} /> Total potentiel
+                        <Banknote size={16} /> Total maximum estimé
                     </div>
                     <div className="text-6xl sm:text-7xl font-black mb-6 tracking-tighter bg-clip-text text-transparent bg-gradient-to-br from-white to-slate-400">
                         {animatedTotal}€
                     </div>
                     
-                    <p className="text-sm text-slate-400 mb-8 leading-relaxed">
-                        Ce montant n&apos;attend que vous ! Parcourez notre catalogue et utilisez nos codes certifiés pour récupérer ces primes.
+                    <p className="text-sm text-slate-400 mb-4 leading-relaxed">
+                        Ce montant correspond au <strong className="text-white">cumul maximum théorique</strong> de toutes les offres sélectionnées. Les primes réelles peuvent varier selon les conditions d&apos;obtention propres à chaque service.
+                    </p>
+                    <p className="text-xs text-slate-500 mb-8 leading-relaxed">
+                        Résultats à titre indicatif — non contractuels.
                     </p>
                     
                     <button 

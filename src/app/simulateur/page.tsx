@@ -167,6 +167,16 @@ export default function SimulateurPage() {
                             <strong>Mode d'emploi express :</strong> Décochez les services dont vous êtes déjà client dans l'encart ci-dessus. Le solde du grand panneau interactif s'ajustera instantanément à la seconde près.
                         </p>
                     </div>
+
+                    <div className="not-prose mt-10 bg-amber-50 dark:bg-amber-900/10 border border-amber-200 dark:border-amber-800/50 rounded-2xl p-5 flex gap-3">
+                        <span className="text-amber-500 shrink-0 text-lg">⚠️</span>
+                        <div>
+                            <p className="text-sm font-semibold text-amber-800 dark:text-amber-300 mb-1">Mention légale — Informations à titre indicatif</p>
+                            <p className="text-xs text-amber-700 dark:text-amber-400 leading-relaxed m-0">
+                                Le montant affiché par le simulateur représente un <strong>cumul maximum théorique</strong> basé sur les offres les plus avantageuses de chaque service. Les primes réelles varient en fonction des conditions d'éligibilité, des plafonds et des modalités propres à chaque plateforme. Certaines offres peuvent être suspendues, modifiées ou soumises à des conditions spécifiques (dépôt minimum, délai d'activation, etc.). Ce simulateur est fourni à titre d'information uniquement et ne constitue pas un engagement contractuel.
+                            </p>
+                        </div>
+                    </div>
                 </section>
 
                 {/* Section FAQ */}
