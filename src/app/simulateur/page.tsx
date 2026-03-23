@@ -118,34 +118,55 @@ export default function SimulateurPage() {
 
                 {/* Additional SEO text below */}
                 <section className="mt-16 bg-white dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 rounded-[2rem] p-8 sm:p-12 shadow-sm prose prose-lg prose-slate dark:prose-invert max-w-none">
-                    <h2>Pourquoi utiliser notre simulateur de gains de parrainage manuel ?</h2>
-                    <p>
-                        Il est souvent extrêmement complexe d'avoir une réelle vision claire du potentiel financier net des offres de bienvenue. Entre les banques en ligne qui proposent des primes d'ouverture de compte très alléchantes, les plateformes d'échange crypto qui distribuent des bonus en Bitcoin gratuits, et les applications mobiles de cashback quotidien, les montants s'accumulent incroyablement vite au cours d'une année. 
-                    </p>
-                    <p>
-                        Notre <strong>simulateur de gains de parrainage</strong> agit techniquement comme un puissant outil d'agrégation. Il vous permet de calculer avec précision, en toute transparence et en temps réel, le total exact des primes d'affiliation et des bonus d'inscription que vous pouvez débloquer aujourd'hui sans avancer de frais lourds. L'objectif premier est de vous aider à mesurer la rentabilité pure de la création de nouveaux comptes sur internet.
+                    <h2 className="mb-8">Pourquoi utiliser notre simulateur de gains de parrainage manuel ?</h2>
+                    
+                    <p className="mb-6 text-slate-700 dark:text-slate-300">
+                        Il est souvent extrêmement complexe d'avoir une vision claire du potentiel financier <strong>net</strong> des offres de bienvenue.
                     </p>
                     
-                    <h3>L'effet multiplicateur du cumul des codes promos</h3>
-                    <p>
-                        Ce calculateur gratuit a été spécifiquement codé pour vous démontrer d'un coup d'œil la puissance de l'effet cumulé. En validant vos diverses inscriptions quotidiennes via nos <strong>codes de parrainage certifiés de manière stratégique</strong>, vous générez un revenu d'appoint qui se chiffre très souvent en plusieurs certaines d'euros net. 
+                    <p className="mb-8 text-slate-700 dark:text-slate-300">
+                        Entre les banques en ligne (avec leurs lucratives primes d'ouverture), les plateformes d'échange crypto, et les applications mobiles de cashback : les montants s'accumulent incroyablement vite au fil de l'année. 
                     </p>
-                    <ul>
-                        <li><strong>Identifiez les opportunités :</strong> Scannez attentivement la liste des services disponibles dans le calculateur.</li>
-                        <li><strong>Ciblez les fortes rentabilités :</strong> Les catégories comme "Banque & Finance" et "Cryptomonnaie" offrent historiquement les primes les plus élevées (souvent bien au-delà de 100€ pour une simple souscription rapide et la vérification d'un profil).</li>
-                        <li><strong>Actionnez le cashback quotidien :</strong> Complétez ces gros montants avec des plateformes d'achat rémunéré pérennes pour générer de l'argent de poche sur tout le long terme.</li>
+                    
+                    <blockquote className="border-l-4 border-primary/50 pl-6 my-8 italic text-slate-600 dark:text-slate-400">
+                        Notre simulateur agit comme un puissant outil d'agrégation gratuit. Son rôle est de vous permettre de calculer le montant exact des primes d'affiliation déblocables <strong>immédiatement</strong>.
+                    </blockquote>
+                    
+                    <h3 className="mt-12 mb-6">L'effet multiplicateur du cumul des codes promos</h3>
+                    
+                    <p className="mb-6 text-slate-700 dark:text-slate-300">
+                        Ce calculateur gratuit a été spécifiquement pensé pour démontrer d'un coup d'œil la puissance de <strong>l'effet cumulé</strong>. 
+                    </p>
+                    
+                    <p className="mb-8 text-slate-700 dark:text-slate-300">
+                        En validant habilement une à deux inscriptions par semaine via nos <strong>codes vérifiés</strong>, vous générez un revenu qui se chiffre très rapidement en plusieurs centaines d'euros net.
+                    </p>
+                    
+                    <ul className="space-y-4 mb-10 bg-slate-50 dark:bg-slate-900/50 p-6 rounded-2xl border border-slate-100 dark:border-slate-800/50 list-none pl-6">
+                        <li className="flex gap-3 items-start"><span className="text-primary mt-1">✓</span> <span><strong>Identifiez les opportunités :</strong> Scannez la liste des services disponibles dans le calculateur.</span></li>
+                        <li className="flex gap-3 items-start"><span className="text-primary mt-1">✓</span> <span><strong>Ciblez les fortes rentabilités :</strong> Priorisez "Banque" et "Crypto" qui dépassent souvent les 100€ de prime unitaire.</span></li>
+                        <li className="flex gap-3 items-start"><span className="text-primary mt-1">✓</span> <span><strong>Actionnez le cashback quotidien :</strong> Complétez ces sommes d'argent avec des plateformes d'achat rémunéré pérennes.</span></li>
                     </ul>
-                    <p>
-                        L'astuce en maitrise d'affiliation consiste à souscrire aux meilleures applications financières ou plateformes e-commerce que vous n'utilisez pas encore. Vous activez la prime de bienvenue (souvent très facile, nécessitant parfois simplement un micro-dépôt ou la réception d'une carte gratuite), puis vous récupérez l'argent directement sur votre solde bancaire principal sous quelques jours.
+                    
+                    <p className="mb-12 text-slate-700 dark:text-slate-300">
+                        L'astuce en maîtrise d'affiliation consiste à souscrire aux fameuses applications que vous n'utilisez pas encore. Vous activez la prime de bienvenue, puis vous récupérez le cash directement sur votre compte bancaire principal sous quelques jours.
                     </p>
                     
-                    <h3>Une liste des primes parfaitement synchronisée en temps réel</h3>
-                    <p>
-                        À la nette différence de certains simulateurs statiques que l'on trouve sur le net, notre puissant algorithme de rentabilité extrait en direct <strong>l'intégralité des offres disponibles</strong> sur la plateforme. Dès lors, si un nouveau bonus de bienvenue exceptionnel fait son apparition sur un service (comme une promotion accélérée limitée dans le temps pour le Black Friday ou les Soldes), l'outil interactif de simulation est automatiquement rafraîchi avec l'annonce de ce nouveau record.
+                    <h3 className="mt-12 mb-6">Une liste des primes parfaitement synchronisée en temps réel</h3>
+                    
+                    <p className="mb-6 text-slate-700 dark:text-slate-300">
+                        À la nette différence des simulateurs statiques existants sur le net, notre puissant algorithme de rentabilité lit en direct l'intégralité des offres disponibles sur notre répertoire en 2026.
                     </p>
-                    <p>
-                        <strong>Mode d'emploi express :</strong> N'attendez plus ! Dans l'encart ergonomique situé en haut de page, nous vous conseillons de décocher unitairement les services dont vous êtes déjà client. Le solde du grand panneau noir interactif s'ajustera instantanément à la seconde près afin d'afficher la somme nette finale de vos futurs gains.
+                    
+                    <p className="mb-8 text-slate-700 dark:text-slate-300">
+                        Si un nouveau bonus de bienvenue exceptionnel fait son apparition (comme une hausse de prime temporaire de +150€), le simulateur est automatiquement mis à jour.
                     </p>
+                    
+                    <div className="bg-emerald-50 dark:bg-emerald-900/10 border-l-4 border-emerald-500 p-6 rounded-r-xl">
+                        <p className="font-semibold text-emerald-800 dark:text-emerald-300 m-0">
+                            <strong>Mode d'emploi express :</strong> Décochez les services dont vous êtes déjà client dans l'encart ci-dessus. Le solde du grand panneau interactif s'ajustera instantanément à la seconde près.
+                        </p>
+                    </div>
                 </section>
 
                 {/* Section FAQ */}
