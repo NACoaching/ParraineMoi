@@ -262,7 +262,7 @@ export default async function ReferralPage({
                                 <span className="font-mono font-bold text-slate-900 dark:text-white text-xl lg:text-2xl truncate select-all tracking-wider">
                                     {referral.code}
                                 </span>
-                                <CopyButton code={referral.code} className="shrink-0 h-14 px-8 font-bold rounded-2xl shadow-lg shadow-primary/20" showText={true} />
+                                <CopyButton code={referral.code} className="shrink-0 !h-14 px-8 font-bold rounded-2xl shadow-lg shadow-primary/20" showText={true} />
                             </div>
 
                             {/* Referral Link Box */}
@@ -273,7 +273,7 @@ export default async function ReferralPage({
                                     </span>
                                     <CopyButton
                                         code={referral.link}
-                                        className="shrink-0 h-14 px-8 font-bold rounded-2xl shadow-sm bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white hover:bg-slate-200 dark:hover:bg-slate-700 border-none"
+                                        className="shrink-0 !h-14 px-8 font-bold rounded-2xl shadow-sm bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white hover:bg-slate-200 dark:hover:bg-slate-700 border-none"
                                         label="Lien"
                                         successLabel="Copié !"
                                         showText={true}

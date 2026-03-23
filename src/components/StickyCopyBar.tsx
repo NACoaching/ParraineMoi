@@ -52,13 +52,13 @@ export function StickyCopyBar({ name, code, link, advantage, logoUrl }: StickyCo
 
                 <div className="flex items-center gap-2 flex-1 sm:flex-none justify-end">
                     {/* Copy Box */}
-                    <div className="flex bg-slate-800 dark:bg-slate-100 rounded-xl overflow-hidden border border-slate-700 dark:border-slate-300">
-                        <div className="px-3 py-2 flex items-center justify-center max-w-[120px] overflow-hidden">
+                    <div className="flex h-10 bg-slate-800 dark:bg-slate-100 rounded-xl overflow-hidden border border-slate-700 dark:border-slate-300">
+                        <div className="px-3 flex items-center justify-center max-w-[120px] overflow-hidden">
                             <span className="text-slate-200 dark:text-slate-800 font-mono font-bold text-sm truncate">
                                 {code}
                             </span>
                         </div>
-                        <CopyButton code={code} showText={false} className="rounded-none h-full bg-primary hover:bg-primary/90 text-white border-l border-slate-700 dark:border-slate-300 px-4" />
+                        <CopyButton code={code} showText={false} className="!h-full !rounded-none bg-primary hover:bg-primary/90 text-white border-l border-slate-700 dark:border-slate-300 px-4" />
                     </div>
 
                     {link && link !== code && (
