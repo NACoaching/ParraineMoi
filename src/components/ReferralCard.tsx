@@ -59,14 +59,16 @@ export function ReferralCard({ referral, isPriority = false, index }: { referral
 
       <div className="p-6 pt-0 mt-auto flex flex-col gap-3">
         {/* Code Box */}
-        <div className="flex items-center justify-between gap-2 bg-slate-50/50 dark:bg-slate-800/20 border border-slate-200/50 dark:border-slate-700/30 rounded-2xl p-2 pl-3">
-          <div className="flex items-center gap-3 overflow-hidden">
-            <span className="font-mono font-bold text-slate-700 dark:text-slate-200 text-base tracking-wider truncate select-all">
-              {referral.code}
-            </span>
+        {referral.code && (
+          <div className="flex items-center justify-between gap-2 bg-slate-50/50 dark:bg-slate-800/20 border border-slate-200/50 dark:border-slate-700/30 rounded-2xl p-2 pl-3">
+            <div className="flex items-center gap-3 overflow-hidden">
+              <span className="font-mono font-bold text-slate-700 dark:text-slate-200 text-base tracking-wider truncate select-all">
+                {referral.code}
+              </span>
+            </div>
+            <CopyButton code={referral.code} showText={false} className="shrink-0 h-10 w-10 p-0 rounded-[14px]" />
           </div>
-          <CopyButton code={referral.code} showText={false} className="shrink-0 h-10 w-10 p-0 rounded-[14px]" />
-        </div>
+        )}
 
         {/* Link Box */}
         {referral.link && referral.link !== referral.code && (
