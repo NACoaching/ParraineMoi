@@ -7,9 +7,16 @@ import { Check, Banknote, Sparkles } from "lucide-react";
 import referralsData from "@/data/referrals.json";
 
 const extractValue = (advantage: string) => {
-    const numbers = advantage.replace(/\s/g, '').match(/\d+/g);
-    if (!numbers) return 0;
-    return Math.max(...numbers.map(Number));
+    // Normalise les espaces entre les chiffres (ex: "2 500" -> "2500")
+    const cleaned = advantage.replace(/(\d)\s+(?=\d)/g, '$1');
+    // Cherche tous les nombres suivis d'une devise
+    const matches = cleaned.match(/(\d+)\s*(?:€|\$|USDC|£)/g);
+    
+    if (matches) {
+        const values = matches.map(m => parseInt(m.replace(/\D/g, ''), 10));
+        return Math.max(...values);
+    }
+    return 0;
 };
 
 const dynamicOffers = referralsData.map((ref) => ({
@@ -91,7 +98,7 @@ export function EarningsCalculator() {
                         Cochez les applications que vous <strong>n&apos;utilisez pas encore</strong> pour découvrir combien vous pourriez gagner en cumulé aujourd&apos;hui.
                     </p>
                     
-                    <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         {dynamicOffers.map((offer, index) => (
                             <label
                                 key={index}
