@@ -41,14 +41,14 @@ export async function generateMetadata({
     const currentYear = new Date().getFullYear();
 
     return {
-        title: `Code parrainage ${referral.name} en ${currentYear} : ${referral.advantage} ✓`,
-        description: `🎁 Profitez de ${referral.advantage} de bonus sur ${referral.name} avec le meilleur code de parrainage ${referral.code} vérifié en ${currentYear}. ★ Avis, test et tutoriel complet.`,
+        title: `Code Parrainage ${referral.name} ${currentYear} → ${referral.advantage} ✓`,
+        description: `Obtenez ${referral.advantage} sur ${referral.name} avec le code parrainage vérifié ${referral.code.startsWith('http') ? '' : referral.code + ' '}(mis à jour ${currentYear}). Guide complet + avis d’expert — Inscription en 5 min.`,
         alternates: {
             canonical: `/parrainage-${referral.slug}`,
         },
         openGraph: {
-            title: `Code parrainage ${referral.name} : ${referral.advantage} ✓`,
-            description: `🎁 ${referral.advantage} offerts sur ${referral.name} avec le code ${referral.code}. Avis et tutoriel complet vérifié en ${currentYear}.`,
+            title: `Code Parrainage ${referral.name} : ${referral.advantage} 🎁`,
+            description: `${referral.advantage} offerts sur ${referral.name} avec notre code vérifié en ${currentYear}. Profitez du bonus de bienvenue en quelques minutes.`,
             url: `https://codes-de-parrainages.com/parrainage-${referral.slug}`,
             images: [
                 {
@@ -61,8 +61,8 @@ export async function generateMetadata({
         },
         twitter: {
             card: "summary",
-            title: `Code parrainage ${referral.name} : ${referral.advantage} ✓`,
-            description: `🎁 ${referral.advantage} offerts sur ${referral.name} avec le code ${referral.code}. Avis et tutoriel complet vérifié en ${currentYear}.`,
+            title: `Code Parrainage ${referral.name} : ${referral.advantage} 🎁`,
+            description: `${referral.advantage} offerts sur ${referral.name} avec notre code vérifié en ${currentYear}.`,
             images: [referral.logoUrl],
         },
     };

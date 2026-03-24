@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Mentions Légales - Codes de Parrainages',
-    description: 'Mentions légales du site Codes de Parrainages.',
+    title: 'Mentions Légales — Codes de Parrainages',
+    description: 'Mentions légales du site codes-de-parrainages.com : éditeur, hébergement, affiliation et politique de transparence sur les liens de parrainage.',
     alternates: {
         canonical: "/mentions-legales",
     },

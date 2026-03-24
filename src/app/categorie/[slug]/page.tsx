@@ -46,21 +46,42 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         return {};
     }
 
+    const currentYear = new Date().getFullYear();
+
+    const categoryTitles: Record<string, string> = {
+        "Banque & Finance": `Codes Parrainage Banque en Ligne ${currentYear} → Jusqu’à 200€ Offerts`,
+        "Crypto": `Codes Parrainage Crypto ${currentYear} → Bonus Vérifiés BTC & Stablecoins`,
+        "Shopping": `Codes Parrainage Cashback ${currentYear} → Réductions & Cagnotte`,
+        "Énergie & Internet": `Codes Parrainage Énergie & Internet ${currentYear} → Factures Réduites`,
+        "Jeux & Gains": `Codes Parrainage Jeux ${currentYear} → Bonus et Gains Réels`,
+    };
+
+    const categoryDescs: Record<string, string> = {
+        "Banque & Finance": `Comparez les meilleures offres de parrainage pour banques en ligne et néobanques en ${currentYear} : Fortuneo, Revolut, N26, Sumeria, Boursorama. Jusqu’à 200€ de prime !`,
+        "Crypto": `Les meilleurs codes parrainage crypto en ${currentYear} : Binance, Bybit, Coinbase, Kraken, Bitstack. Bonus BTC, stablecoins et réductions de frais vérifiés.`,
+        "Shopping": `Codes parrainage cashback et e-commerce vérifiés en ${currentYear} : iGraal, eBuyClub, Poulpeo, Joko. Réductions immédiates sur vos achats.`,
+        "Énergie & Internet": `Codes parrainage énergie et fournisseurs internet ${currentYear} : économisez sur vos factures avec des primes de bienvenue vérifiées.`,
+        "Jeux & Gains": `Codes parrainage jeux et applications rémunératrices en ${currentYear} : bonus de démarrage vérifiés pour maximiser vos gains réels.`,
+    };
+
+    const title = categoryTitles[originalCategory] || `Parrainages ${originalCategory} ${currentYear} → Offres Vérifiées`;
+    const desc = categoryDescs[originalCategory] || `Meilleures offres de parrainage et codes promo ${originalCategory} en ${currentYear}. Primes de bienvenue testées et vérifiées.`;
+
     return {
-        title: `Codes Promo et Parrainages ${originalCategory} - 2026`,
-        description: `Comparez les meilleures offres de bienvenue et codes promos de la catégorie ${originalCategory}. Des crédits offerts et primes vérifiées en 2026.`,
+        title,
+        description: desc,
         alternates: {
             canonical: `/categorie/${slug}`
         },
         openGraph: {
-            title: `Codes Promo et Parrainages ${originalCategory} - 2026`,
-            description: `Comparez les meilleures offres de bienvenue et codes promos de la catégorie ${originalCategory}. Des crédits offerts et primes vérifiées en 2026.`,
+            title,
+            description: desc,
             url: `https://codes-de-parrainages.com/categorie/${slug}`,
             images: ["/og-image.png"],
         },
         twitter: {
-            title: `Codes Promo et Parrainages ${originalCategory} - 2026`,
-            description: `Comparez les meilleures offres de bienvenue et codes promos de la catégorie ${originalCategory}. Des crédits offerts et primes vérifiées en 2026.`,
+            title,
+            description: desc,
             images: ["/og-image.png"],
         },
     };

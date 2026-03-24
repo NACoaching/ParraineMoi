@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { ShieldCheck, Search, Award } from 'lucide-react';
 
 export const metadata: Metadata = {
-    title: 'Méthodologie & Indépendance - Codes de Parrainages',
-    description: 'Découvrez ma méthode de test sur 30 jours et pourquoi vous pouvez avoir confiance dans ces offres de bienvenue.',
+    title: 'Notre Méthodologie — Codes Parrainages Testés & Vérifiés',
+    description: 'Pourquoi ces codes de parrainage sont-ils fiables ? Découvrez la règle des 30 jours : je teste personnellement chaque offre avant de la publier. 100% indépendant et transparent.',
     alternates: {
         canonical: "/a-propos",
     },

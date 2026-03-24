@@ -25,20 +25,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const currentYear = new Date().getFullYear();
 
     return {
-        title: `${guide.title} (${currentYear}) - Astuces & Bons Plans ✓`,
-        description: `★ ${guide.excerpt} Apprenez comment optimiser vos gains et parrainages en ${currentYear}. Guide complet étape par étape.`,
+        title: `${guide.title} — Guide Complet ${currentYear}`,
+        description: `${guide.excerpt.length > 140 ? guide.excerpt.slice(0, 137) + '...' : guide.excerpt} → Téléchargez le guide gratuit, vérifié en ${currentYear}.`,
         alternates: {
             canonical: `/guides/${guide.slug}`,
         },
         openGraph: {
-            title: `${guide.title} (${currentYear}) - Astuces & Bons Plans ✓`,
-            description: `★ ${guide.excerpt} Guide complet et conseils d'experts pour maximiser vos bonus en ${currentYear}.`,
+            title: `${guide.title} — Guide ${currentYear}`,
+            description: guide.excerpt,
             url: `https://codes-de-parrainages.com/guides/${guide.slug}`,
             images: ["/og-image.png"],
         },
         twitter: {
-            title: `${guide.title} (${currentYear}) - Astuces & Bons Plans ✓`,
-            description: `★ ${guide.excerpt} Guide complet et conseils d'experts pour maximiser vos bonus en ${currentYear}.`,
+            title: `${guide.title} — Guide ${currentYear}`,
+            description: guide.excerpt,
             images: ["/og-image.png"],
         },
     };

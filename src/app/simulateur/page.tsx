@@ -5,8 +5,8 @@ import Link from 'next/link';
 import { ChevronRight, Home } from 'lucide-react';
 
 export const metadata: Metadata = {
-    title: 'Simulateur de Gains - Calculez vos primes de parrainage | ParraineMoi',
-    description: 'Découvrez combien vous pourriez gagner en cumulant les meilleures offres de parrainage (Banques, Crypto, Cashback). Calculez vos primes potentielles en quelques clics.',
+    title: 'Simulateur de Parrainage 💰 — Calculez Vos Gains Gratuits 2026',
+    description: 'Combien pouvez-vous gagner en cumulant les offres de parrainage ? Notre simulateur gratuit calcule votre potentiel réel (banques, crypto, cashback). Résultats immédiats, sans inscription.',
     alternates: {
         canonical: 'https://codes-de-parrainages.com/simulateur',
     },

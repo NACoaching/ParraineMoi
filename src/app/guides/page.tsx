@@ -5,8 +5,8 @@ import { GuidesGrid } from '@/components/GuidesGrid';
 import { BookOpen, Calendar, Clock, ArrowRight, Home, ChevronRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-    title: 'Guides & Bons Plans - Codes de Parrainages',
-    description: 'Découvrez nos astuces, tutoriels et guides pratiques pour maximiser vos gains de parrainage, voyager sans frais et investir facilement.',
+    title: 'Guides Bons Plans 📚 : Astuces Parrainage, Banque & Crypto 2026',
+    description: 'Tutoriels et guides pratiques pour maximiser vos bonus de parrainage en 2026. Comment ouvrir un compte Revolut, Fortuneo ou Sumeria — et toucher jusqu’à 200€ offerts.',
     alternates: {
         canonical: "/guides",
     },
