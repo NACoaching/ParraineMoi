@@ -2372,5 +2372,62 @@
       }
     ],
     "lastVerified": "2026-03-24"
+  },
+  {
+    "id": "55",
+    "name": "Sumeria",
+    "slug": "sumeria",
+    "category": "Banque & Finance",
+    "code": "XTEAAR6BF1",
+    "link": "https://sumeria.eu/parrainage/XTEAAR6BF1",
+    "advantage": "Bonus de bienvenue offert",
+    "description": "Sumeria (anciennement Lydia) est l'application financière de confiance avec plus de 5 millions de clients. Ouvre un compte en ligne sûr, efficace et rémunéré en quelques minutes. Utilise mon lien ou mon code de parrainage XTEAAR6BF1 dans l'écran « Parrainage » de l'application pour profiter de ton bonus !",
+    "logoUrl": "/logos/sumeria.png",
+    "review": {
+      "pros": [
+        "Plus de 5 millions de clients, acteur de confiance du marché français",
+        "Ouverture de compte rapide en quelques minutes depuis l'application",
+        "Compte rémunéré sur les liquidités disponibles",
+        "Application intuitive héritée de Lydia, connue pour sa fiabilité"
+      ],
+      "cons": [
+        "Moins connue que les néo-banques plus récentes comme Revolut ou N26",
+        "Offre de parrainage variable selon les périodes"
+      ],
+      "longReview": "<p>Sumeria, anciennement connue sous le nom de <strong>Lydia</strong>, est l'une des fintech françaises les plus solides avec plus de 5 millions de clients. La plateforme a su se réinventer en une véritable banque en ligne moderne, alliant la simplicité d'une application mobile à des comptes rémunérés et des outils financiers pensés pour le quotidien.</p><br/><p>L'un des grands atouts de Sumeria est la <strong>rémunération de vos liquidités</strong> : votre argent qui dort sur le compte génère des intérêts automatiquement, sans action de votre part. Couplé à une interface héritée de Lydia — réputée pour sa fluidité et sa prise en main instantanée — Sumeria s'impose comme une option sérieuse pour ceux qui cherchent une banque en ligne fiable et rémunératrice.</p><br/><p>En utilisant notre lien de parrainage ou en saisissant le code <strong>XTEAAR6BF1</strong> dans l'écran « Parrainage » de l'application lors de votre inscription, vous bénéficiez d'un bonus de bienvenue. C'est le moment idéal pour rejoindre les millions d'utilisateurs déjà conquis par Sumeria !</p>"
+    },
+    "steps": [
+      {
+        "title": "Téléchargez l'application Sumeria",
+        "description": "Rendez-vous sur l'App Store ou le Google Play Store et téléchargez l'application Sumeria (anciennement Lydia). Cliquez sur notre lien de parrainage pour partir du bon pied."
+      },
+      {
+        "title": "Créez votre compte",
+        "description": "Renseignez vos informations personnelles et vérifiez votre identité. L'ouverture de compte ne prend que quelques minutes directement depuis l'application."
+      },
+      {
+        "title": "Saisissez le code de parrainage",
+        "description": "Dans l'application, rendez-vous dans l'écran « Parrainage » et entrez le code XTEAAR6BF1 pour déclencher votre bonus de bienvenue."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment activer le code de parrainage Sumeria XTEAAR6BF1 ?",
+        "answer": "Deux façons d'activer le parrainage : soit vous cliquez sur notre lien d'invitation (https://sumeria.eu/parrainage/XTEAAR6BF1) qui pré-remplit tout automatiquement, soit vous ouvrez l'application et saisissez manuellement le code XTEAAR6BF1 dans la section « Parrainage » du menu."
+      },
+      {
+        "question": "Sumeria est-elle une banque sécurisée ?",
+        "answer": "Oui. Sumeria (anciennement Lydia) est une fintech française régulée, opérant sous licence d'établissement de paiement. Vos fonds sont protégés selon la réglementation européenne. Avec plus de 5 millions de clients, c'est l'un des acteurs les plus établis du marché français."
+      },
+      {
+        "question": "Quelle est la différence entre Lydia et Sumeria ?",
+        "answer": "Sumeria est le nouveau nom de Lydia depuis 2024. L'application a évolué pour proposer des comptes bancaires complets, rémunérés et des services financiers élargis, tout en conservant la fiabilité et l'ergonomie qui ont fait le succès de Lydia."
+      },
+      {
+        "question": "Le compte Sumeria est-il vraiment rémunéré ?",
+        "answer": "Oui, c'est l'un des points forts de Sumeria : les liquidités disponibles sur votre compte génèrent des intérêts automatiquement. Le taux peut varier, consultez les conditions en vigueur dans l'application."
+      }
+    ],
+    "lastVerified": "2026-03-24"
   }
 ]
