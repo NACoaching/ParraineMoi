@@ -2319,5 +2319,58 @@
       }
     ],
     "lastVerified": "2026-03-23"
+  },
+  {
+    "id": "1001",
+    "name": "Joko",
+    "slug": "joko",
+    "category": "Shopping",
+    "code": "jrypel",
+    "link": "https://home.joko.com",
+    "advantage": "3€ offerts à l'inscription",
+    "description": "Joko est l'application française de cashback automatique. Connectez votre carte bancaire et Joko détecte vos achats chez plus de 6 000 marques partenaires pour vous rembourser automatiquement une partie de vos dépenses. Utilisez le code pour recevoir 3€ à l'inscription.",
+    "logoUrl": "/logos/joko.png",
+    "review": {
+      "pros": [
+        "Cashback automatique : pas besoin d'activer manuellement chaque offre",
+        "Plus de 6 000 enseignes partenaires en ligne et en magasin",
+        "Extension navigateur pour appliquer les meilleurs codes promo automatiquement",
+        "Application 100% gratuite, sans abonnement"
+      ],
+      "cons": [
+        "Nécessite de connecter sa carte bancaire pour le cashback automatique",
+        "Seuil de retrait minimum à atteindre avant de transférer ses gains"
+      ],
+      "longReview": "<p><strong>Joko révolutionne le cashback</strong> en le rendant totalement passif. Là où d'autres applications demandent d'activer manuellement chaque offre avant chaque achat, Joko fonctionne en arrière-plan en analysant vos transactions bancaires. Dès qu'un achat est détecté chez un partenaire, le cashback est automatiquement crédité sur votre compte Joko.</p><br/><p>En plus du cashback, l'extension navigateur Joko teste et applique automatiquement les meilleurs codes promo disponibles lors de vos achats en ligne. Un gain de temps considérable pour payer moins cher sans effort.</p><br/><p>En utilisant le <strong>code de parrainage jrypel</strong>, vous recevez 3€ offerts dès votre inscription et la connexion de votre carte bancaire. Un excellent point de départ pour commencer à épargner automatiquement !</p>"
+    },
+    "steps": [
+      {
+        "title": "Téléchargez l'application Joko",
+        "description": "Rendez-vous sur home.joko.com ou directement dans l'App Store / Google Play pour télécharger l'application gratuitement."
+      },
+      {
+        "title": "Créez votre compte et saisissez le code",
+        "description": "Lors de l'inscription, entrez le code de parrainage jrypel pour débloquer votre bonus de 3€."
+      },
+      {
+        "title": "Connectez votre carte bancaire",
+        "description": "La connexion de votre carte active le cashback automatique et déclenche le versement des 3€ de bienvenue."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment utiliser le code Joko jrypel ?",
+        "answer": "Lors de votre inscription sur l'application Joko, une étape vous demande de saisir un code de parrainage. Entrez jrypel pour recevoir 3€ offerts une fois votre carte bancaire connectée."
+      },
+      {
+        "question": "Joko est-il vraiment gratuit ?",
+        "answer": "Oui, Joko est entièrement gratuit. L'application se rémunère via les commissions versées par les marques partenaires, une partie de laquelle est redistribuée aux utilisateurs sous forme de cashback."
+      },
+      {
+        "question": "Est-ce sécurisé de connecter sa banque à Joko ?",
+        "answer": "Joko utilise la technologie DSP2 (Directive européenne sur les services de paiement) pour la lecture seule de vos transactions. Joko ne peut ni faire de virements ni accéder à vos identifiants bancaires. La connexion est sécurisée via des partenaires agréés par l'ACPR."
+      }
+    ],
+    "lastVerified": "2026-03-24"
   }
 ]
