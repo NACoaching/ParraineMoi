@@ -2392,7 +2392,8 @@
       ],
       "cons": [
         "Moins connue que les néo-banques plus récentes comme Revolut ou N26",
-        "Offre de parrainage variable selon les périodes"
+        "Offre de parrainage variable selon les périodes",
+        "Frais d'inactivité appliqués si le compte n'est pas utilisé régulièrement"
       ],
       "longReview": "<p>Sumeria, anciennement connue sous le nom de <strong>Lydia</strong>, est l'une des fintech françaises les plus solides avec plus de 5 millions de clients. La plateforme a su se réinventer en une véritable banque en ligne moderne, alliant la simplicité d'une application mobile à des comptes rémunérés et des outils financiers pensés pour le quotidien.</p><br/><p>L'un des grands atouts de Sumeria est la <strong>rémunération de vos liquidités</strong> : votre argent qui dort sur le compte génère des intérêts automatiquement, sans action de votre part. Couplé à une interface héritée de Lydia — réputée pour sa fluidité et sa prise en main instantanée — Sumeria s'impose comme une option sérieuse pour ceux qui cherchent une banque en ligne fiable et rémunératrice.</p><br/><p>En utilisant notre lien de parrainage ou en saisissant le code <strong>XTEAAR6BF1</strong> dans l'écran « Parrainage » de l'application lors de votre inscription, vous bénéficiez d'un bonus de bienvenue. C'est le moment idéal pour rejoindre les millions d'utilisateurs déjà conquis par Sumeria !</p>"
     },
@@ -2426,6 +2427,10 @@
       {
         "question": "Le compte Sumeria est-il vraiment rémunéré ?",
         "answer": "Oui, c'est l'un des points forts de Sumeria : les liquidités disponibles sur votre compte génèrent des intérêts automatiquement. Le taux peut varier, consultez les conditions en vigueur dans l'application."
+      },
+      {
+        "question": "Y a-t-il des frais d'inactivité sur le compte Sumeria ?",
+        "answer": "Oui, c'est un point important à noter : Sumeria peut facturer des frais d'inactivité si le compte n'est pas utilisé pendant une période prolongée (souvent après 12 mois sans opération). Pensez à l'utiliser régulièrement pour conserver la gratuité totale."
       }
     ],
     "lastVerified": "2026-03-24"
