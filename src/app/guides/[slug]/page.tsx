@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft, Clock, Calendar, BookOpen, ChevronRight } from 'lucide-react';
+import Image from 'next/image';
 import guidesData from '@/data/guides.json';
 import referralsData from '@/data/referrals.json';
 import { ReferralCard, Referral } from '@/components/ReferralCard';
@@ -69,7 +70,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                 if (part.startsWith('![')) {
                     const match = part.match(/!\[(.*?)\]\((.*?)\)/);
                     if (match) {
-                        return <img key={i} src={match[2]} alt={match[1]} className="rounded-2xl max-w-full h-auto my-6 shadow-md border border-slate-200 dark:border-slate-800" loading="lazy" />;
+                        return <Image key={i} src={match[2]} alt={match[1]} width={800} height={450} className="rounded-2xl w-full h-auto my-6 shadow-md border border-slate-200 dark:border-slate-800" />;
                     }
                 } else if (part.startsWith('[')) {
                     const match = part.match(/\[(.*?)\]\((.*?)\)/);
