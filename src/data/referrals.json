@@ -2438,5 +2438,58 @@
       }
     ],
     "lastVerified": "2026-03-24"
+  },
+  {
+    "id": "150",
+    "name": "BforBank",
+    "slug": "bforbank",
+    "category": "Banque & Finance",
+    "code": "OFFRE SUSPENDUE",
+    "link": "https://www.bforbank.com/",
+    "advantage": "Jusqu'à 180€ offerts (Suspendu)",
+    "description": "BforBank est la banque en ligne du Crédit Agricole. Récemment repensée pour une expérience 100% mobile et humaine. Note : Le parrainage est temporairement suspendu par la banque, mais vous pouvez toujours profiter des offres de bienvenue classiques.",
+    "logoUrl": "/logos/bforbank.png",
+    "review": {
+      "pros": [
+        "Banque en ligne du Crédit Agricole, gage d'une sécurité maximale",
+        "Nouvelle application mobile 100% pensée pour l'usage quotidien",
+        "Offre BforBasic entièrement gratuite et sans condition",
+        "Service client humain basé en France et très réactif"
+      ],
+      "cons": [
+        "Parrainage actuellement suspendu pour les nouveaux clients",
+        "Moins de produits d'épargne que certaines banques traditionnelles"
+      ],
+      "longReview": "<p>Longtemps perçue comme la banque 'haut de gamme' avec ses cartes Visa Premier, <strong>BforBank a opéré un virage stratégique majeur en 2024</strong>. Désormais, la banque se positionne comme un acteur 100% mobile, accessible à tous, tout en conservant son ADN de qualité de service. L'offre a été simplifiée autour de deux comptes : BforBasic (gratuit) et BforZEN (4€/mois), permettant à chacun de trouver la formule qui lui correspond.</p><br/><p>L'expérience utilisateur a été radicalement transformée. L'application est fluide, moderne et intègre toutes les fonctionnalités attendues aujourd'hui : virements instantanés gratuits, blocage de carte, catégorisation des dépenses. C'est un excellent choix pour ceux qui cherchent la **solidité du Crédit Agricole** combinée à l'agilité d'une néobanque.</p><br/><p>Concernant le parrainage, <strong>BforBank a temporairement mis son programme en pause</strong>. Cela arrive souvent lors de phases de transition ou de forte affluence. Bien que nous ne puissions pas vous fournir de code parrainage actif pour le moment, vous pouvez tout de même bénéficier des primes de bienvenue classiques lors de votre première ouverture de compte. Nous surveillons quotidiennement la réactivation du programme pour vous proposer les meilleurs codes dès que possible !</p>"
+    },
+    "steps": [
+      {
+        "title": "Ouverture de compte",
+        "description": "Créez votre compte **BforBasic** ou **BforZEN** en quelques minutes depuis l'application mobile avec votre pièce d'identité."
+      },
+      {
+        "title": "Premier versement",
+        "description": "Effectuez un premier **dépôt** de **300€** pour **valider** votre compte sous **7 jours** maximum après l'ouverture."
+      },
+      {
+        "title": "Utilisation de la carte",
+        "description": "Réalisez au moins **15 paiements** avec votre nouvelle carte sous **90 jours** pour débloquer la **prime** de bienvenue habituelle (quand elle est active)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Pourquoi le parrainage BforBank est-il suspendu ?",
+        "answer": "BforBank ajuste régulièrement son programme de parrainage. Il est fréquent que la banque le suspende temporairement pour lancer de nouvelles offres de bienvenue directes. Nous garderons cette page à jour pour vous prévenir de sa réouverture."
+      },
+      {
+        "question": "Quelle est la différence entre BforBasic et BforZEN ?",
+        "answer": "BforBasic est l'offre gratuite sans condition de la banque. BforZEN (4€/mois) inclut davantage de retraits gratuits et la suppression des frais sur tous vos paiements à l'étranger hors zone euro."
+      },
+      {
+        "question": "Peut-on ouvrir un compte joint BforBank ?",
+        "answer": "Oui, BforBank permet d'ouvrir des comptes joints avec deux cartes bancaires distinctes, idéal pour gérer les dépenses communes d'un couple."
+      }
+    ],
+    "lastVerified": "2026-03-26"
   }
 ]
