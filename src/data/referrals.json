@@ -267,8 +267,8 @@
     "category": "Crypto",
     "code": "VEH0DX",
     "link": "https://coinhouse.onelink.me/bCWk/tpvzeow2?deep_link_sub5=VEH0DX",
-    "advantage": "25€ en Bitcoin offerts",
-    "description": "L'un des pionniers français de la crypto. Coinhouse est une plateforme ultra-sécurisée (enregistrée PSAN auprès de l'AMF) parfaite pour débuter. La nouvelle application vous offre 25€ en Bitcoin à l'inscription via le code de parrainage.",
+    "advantage": "25€ à 500€ en Bitcoin offerts",
+    "description": "L'un des pionniers français de la crypto (PSAN). Gagnez de 25€ à 500€ de Bitcoin en investissant seulement 100€ sous 7 jours. Astuce : vous pouvez retirer vos 100€ juste après avoir reçu le bonus !",
     "logoUrl": "/logos/coinhouse.png",
     "review": {
       "pros": [
@@ -281,7 +281,7 @@
         "Frais de transaction légèrement supérieurs à ceux des bourses internationales",
         "Moins de cryptomonnaies exotiques disponibles (focus sur les valeurs sûres)"
       ],
-      "longReview": "<p>Connue historiquement sous le nom de 'La Maison du Bitcoin', <strong>Coinhouse est la plateforme de référence pour investir de manière sécurisée en France</strong>. En 2026, l'entreprise a dévoilé une toute nouvelle application mobile repensée pour offrir l'expérience utilisateur la plus fluide possible, particulièrement pour les novices qui souhaitent franchir le pas sans risquer de se perdre dans des interfaces de trading complexes.</p><br/><p>Le point fort de Coinhouse réside incontestablement dans son <strong>cadre de confiance et de régulation</strong>. En tant qu'acteur enregistré PSAN auprès de l'AMF et basé à Paris, vos fonds bénéficient de garanties de sécurité exceptionnelles, loin des scandales de certaines bourses étrangères. Le revers de cette médaille est l'application de frais de transaction légèrement plus élevés (souvent autour de 1,49% par carte bancaire), qui sont largement justifiés par l'accompagnement premium et le support client francophone très réactif.</p><br/><p>Afin de propulser sa nouvelle application, <strong>Coinhouse lance une campagne de parrainage particulièrement agressive en 2026</strong>. En utilisant notre code exclusif <em>VEH0DX</em> lors de votre enregistrement, vous devenez éligible à un tirage au sort garanti (Reward Ticket) vous offrant entre 10€ et <strong>500€ en Bitcoin</strong> dès lors que vous effectuez un achat minimal de 100€ dans les 7 jours suivant votre inscription. C'est le moment idéal pour démarrer votre portefeuille crypto avec un solide bonus !</p>"
+      "longReview": "<p>Connue historiquement sous le nom de 'La Maison du Bitcoin', <strong>Coinhouse est la plateforme de référence pour investir de manière sécurisée en France</strong>. En 2026, l'entreprise a dévoilé une toute nouvelle application mobile repensée pour offrir l'expérience utilisateur la plus fluide possible, particulièrement pour les novices qui souhaitent franchir le pas sans risquer de se perdre dans des interfaces de trading complexes.</p><br/><p>Le point fort de Coinhouse réside incontestablement dans son <strong>cadre de confiance et de régulation</strong>. En tant qu'acteur enregistré PSAN auprès de l'AMF et basé à Paris, vos fonds bénéficient de garanties de sécurité exceptionnelles, loin des scandales de certaines bourses étrangères. Le revers de cette médaille est l'application de frais de transaction légèrement plus élevés (souvent autour de 1,49% par carte bancaire), qui sont largement justifiés par l'accompagnement premium et le support client francophone très réactif.</p><br/><p>Afin de propulser sa nouvelle application, <strong>Coinhouse lance une campagne de parrainage particulièrement agressive en 2026</strong>. En utilisant notre code exclusif <em>VEH0DX</em> lors de votre enregistrement, vous devenez éligible à un tirage au sort garanti (Reward Ticket) vous offrant entre 10€ et <strong>500€ en Bitcoin</strong> dès lors que vous effectuez un achat minimal de 100€ dans les 7 jours suivant votre inscription. </p><br/><p>💡 <strong>L'astuce de l'expert :</strong> Une fois que vous avez reçu votre bonus (visible dans vos récompenses), vous êtes libre de revendre vos 100€ de cryptomonnaies pour les retirer vers votre compte bancaire. Cela vous permet de profiter de la prime (25€ minimum, souvent plus) sans immobiliser votre capital sur le long terme. C'est le moment idéal pour démarrer votre portefeuille crypto avec un solide bonus !</p>"
     },
     "steps": [
       {
@@ -294,7 +294,7 @@
       },
       {
         "title": "Achat & Récompense",
-        "description": "Déposez des fonds et effectuez un achat minimal de 100€ de cryptomonnaie (Bitcoin, Ethereum...) dans les 7 jours maximum. Votre ticket bonus grattable s'affichera pour révéler votre prime en Bitcoin !"
+        "description": "Déposez des fonds et effectuez un achat minimal de 100€ de cryptomonnaie (Bitcoin, Ethereum...) dans les 7 jours maximum. Une fois le bonus reçu, vous pouvez retirer votre dépôt initial si vous le souhaitez !"
       }
     ],
     "faqs": [
@@ -313,6 +313,10 @@
       {
         "question": "Puis-je gagner des revenus passifs sur mes cryptos ?",
         "answer": "Oui, la dernière version de l'application Coinhouse permet aux utilisateurs français de placer très simplement et légalement certaines de leurs cryptomonnaies (comme l'Ethereum ou le Solana) en 'staking' pour générer des intérêts annuels perçus régulièrement."
+      },
+      {
+        "question": "Puis-je retirer mes 100€ d'investissement après avoir reçu le bonus ?",
+        "answer": "Oui, absolument. Une fois que votre ticket de parrainage a été gratté et que votre bonus en Bitcoin est crédité sur votre compte, rien ne vous empêche de revendre vos 100€ de cryptomonnaies et de les retirer vers votre compte bancaire. Vous conservez ainsi uniquement le bénéfice net du parrainage."
       }
     ],
     "lastVerified": "2026-03-23"
