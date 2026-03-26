@@ -381,8 +381,8 @@
     "category": "Banque & Finance",
     "code": "nolwenfa38970c",
     "link": "https://n26.com/r/nolwenfa38970c?p=1601036b-185f-4cd9-8961-bac802addb94",
-    "advantage": "Jusqu'à 75€ offerts",
-    "description": "N26 est la néo-banque européenne qui a séduit plus de 8 millions de clients grâce à une gestion 100% mobile, sans frais cachés et avec une ouverture de compte en 8 minutes. Idéale pour le quotidien et les voyages, elle propose des paiements gratuits dans toutes les devises et des sous-comptes intelligents pour gérer votre budget. Profitez de notre lien pour recevoir un bonus généreux après votre premier achat.",
+    "advantage": "Jusqu'à 75€ offerts (Retirables immédiatement)",
+    "description": "N26 est la néo-banque mobile leader en Europe. Obtenez un bonus allant jusqu'à 75€ en effectuant une seule transaction de 25€ avec votre nouvelle carte. Le bonus est crédité sous quelques jours et est immédiatement retirable !",
     "logoUrl": "/logos/n26.png",
     "review": {
       "pros": [
@@ -407,8 +407,8 @@
         "description": "Complétez la vérification vidéo (quelques minutes) directement depuis l'application. Votre compte sera activé dans la foulée."
       },
       {
-        "title": "Effectuez un achat qualifiant",
-        "description": "Réalisez un achat avec votre carte N26 (physique ou virtuelle) d'un montant suffisant pour valider le parrainage. Votre bonus sera crédité sous 60 jours maximum."
+        "title": "Effectuez un achat de 25€",
+        "description": "Réalisez un achat par carte (physique ou virtuelle) d'au moins 25€ pour valider définitivement le parrainage. Le bonus sera crédité sur votre compte et sera immédiatement retirable."
       }
     ],
     "faqs": [
