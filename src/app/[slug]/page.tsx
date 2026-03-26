@@ -302,6 +302,33 @@ export default async function ReferralPage({
                     </div>
                 </section>
 
+                {/* Step by step guide - MOVED UP */}
+                {referral.steps && referral.steps.length > 0 && (
+                    <section className="mb-16">
+                        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-8 flex items-center gap-3">
+                            <span className="flex items-center justify-center w-8 h-8 rounded-xl bg-primary/10 text-primary">
+                                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                            </span>
+                            Conditions d'obtention (Comment ça marche ?)
+                        </h2>
+                        <div className="grid md:grid-cols-3 gap-6 relative">
+                            <div className="hidden md:block absolute top-8 left-10 right-10 h-0.5 bg-slate-200 dark:bg-slate-800 z-0"></div>
+                            {referral.steps.map((step, index) => (
+                                <div key={index} className="relative z-10 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 shadow-sm flex flex-col pt-8 mt-4 md:mt-0">
+                                    <div className="absolute -top-5 left-6 w-10 h-10 bg-slate-900 text-white dark:bg-white dark:text-slate-900 rounded-xl flex items-center justify-center font-bold text-lg shadow-sm border border-slate-100 dark:border-slate-800">
+                                        {index + 1}
+                                    </div>
+                                    <h3 className="font-bold text-lg text-slate-900 dark:text-white mb-2">{step.title}</h3>
+                                    <p 
+                                        className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed" 
+                                        dangerouslySetInnerHTML={{ __html: step.description.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }} 
+                                    />
+                                </div>
+                            ))}
+                        </div>
+                    </section>
+                )}
+
                 {/* Structured Avis & Guide Section */}
                 <section className="mb-16 space-y-12">
                     <div>
@@ -379,29 +406,6 @@ export default async function ReferralPage({
                         </div>
                     </div>
 
-                    {/* Step by step guide */}
-                    {referral.steps && referral.steps.length > 0 && (
-                        <div>
-                            <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-8 flex items-center gap-3">
-                                <span className="flex items-center justify-center w-8 h-8 rounded-xl bg-primary/10 text-primary">
-                                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
-                                </span>
-                                Comment ça marche ? (Tutoriel)
-                            </h2>
-                            <div className="grid md:grid-cols-3 gap-6 relative">
-                                <div className="hidden md:block absolute top-8 left-10 right-10 h-0.5 bg-slate-200 dark:bg-slate-800 z-0"></div>
-                                {referral.steps.map((step, index) => (
-                                    <div key={index} className="relative z-10 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 shadow-sm flex flex-col pt-8 mt-4 md:mt-0">
-                                        <div className="absolute -top-5 left-6 w-10 h-10 bg-slate-900 text-white dark:bg-white dark:text-slate-900 rounded-xl flex items-center justify-center font-bold text-lg shadow-sm border border-slate-100 dark:border-slate-800">
-                                            {index + 1}
-                                        </div>
-                                        <h3 className="font-bold text-lg text-slate-900 dark:text-white mb-2">{step.title}</h3>
-                                        <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">{step.description}</p>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    )}
 
                     {/* Related Guides Section */}
                     {relatedGuides.length > 0 && (
