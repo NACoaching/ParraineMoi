@@ -2544,4 +2544,58 @@
     ],
     "lastVerified": "2026-03-26"
   }
+,
+  {
+    "id": "152",
+    "name": "FDJ (Française des Jeux)",
+    "slug": "fdj",
+    "category": "Jeux & Gains",
+    "code": "OFFRE SUSPENDUE",
+    "link": "https://www.fdj.fr",
+    "advantage": "Bonus de bienvenue (Suspendu)",
+    "description": "La Française des Jeux (FDJ) est l'opérateur historique de jeux de tirage et de grattage en France. Suite à des changements dans leur politique commerciale, le programme de parrainage direct est actuellement suspendu. Nous surveillons de près sa réouverture pour vous proposer les meilleurs avantages dès qu'ils seront de nouveau disponibles.",
+    "logoUrl": "/logos/fdj.png",
+    "review": {
+      "pros": [
+        "Opérateur historique et sécurisé sous licence d'État",
+        "Large catalogue de jeux : Loto, EuroDreams, grattage Illiko",
+        "Application mobile fluide pour jouer et vérifier ses gains",
+        "Retraits des gains rapides et garantis"
+      ],
+      "cons": [
+        "Parrainage actuellement indisponible pour les nouveaux joueurs",
+        "Limites de jeu responsables strictes"
+      ],
+      "longReview": "<p>La <strong>Française des Jeux (FDJ)</strong> n'est plus à présenter. En tant qu'institution du jeu en France, elle offre une plateforme ultra-sécurisée pour tous les amateurs de loterie et de jeux de hasard. Que vous soyez adepte du <strong>Loto</strong>, de l'<strong>EuroMillions</strong> ou des jeux de grattage plus rapides comme le <em>Cash</em> ou l'<em>Astro</em>, l'expérience est désormais optimale sur le web et mobile.</p><br/><p>Concernant le parrainage, la FDJ a fait le choix de <strong>suspendre temporairement son programme d'invitation</strong>. Cela arrive régulièrement lors de mises à jour de leur plateforme ou de changements de stratégie marketing. Bien qu'il ne soit pas possible de bénéficier d'un bonus de parrainage aujourd'hui, nous vous conseillons de rester attentifs aux offres de bienvenue directes qui peuvent être proposées lors de l'inscription.</p><br/><p>Dès que le système de parrainage sera réactivé, nous mettrons à jour cette page avec les codes et liens officiels pour vous permettre de maximiser vos avantages.</p>"
+    },
+    "steps": [
+      {
+        "title": "Création de compte",
+        "description": "Inscrivez-vous sur le site officiel fdj.fr avec vos informations personnelles et une pièce d'identité valide."
+      },
+      {
+        "title": "Validation du dossier",
+        "description": "Faites valider votre compte en envoyant vos justificatifs pour pouvoir retirer vos futurs gains."
+      },
+      {
+        "title": "Dépôt et Jeu",
+        "description": "Effectuez votre premier dépôt pour commencer à jouer de manière responsable aux différents jeux disponibles."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Pourquoi l'offre de parrainage FDJ est-elle suspendue ?",
+        "answer": "La FDJ ajuste ses campagnes promotionnelles tout au long de l'année. Le parrainage est l'un des leviers qu'ils activent périodiquement. Nous mettrons à jour cette section dès que le programme reprendra."
+      },
+      {
+        "question": "Peut-on quand même s'inscrire à la FDJ ?",
+        "answer": "Oui, vous pouvez créer un compte à tout moment sur fdj.fr. L'absence de parrainage ne vous empêche pas de profiter de l'ensemble des jeux et des services de la plateforme."
+      },
+      {
+        "question": "Quelles sont les conditions pour s'inscrire ?",
+        "answer": "Vous devez être majeur (18+ ans), résider en France (ou Monaco) et posséder un compte bancaire à votre nom pour percevoir vos gains."
+      }
+    ],
+    "lastVerified": "2026-03-27"
+  }
 ]
