@@ -2598,4 +2598,58 @@
     ],
     "lastVerified": "2026-03-27"
   }
+,
+  {
+    "id": "153",
+    "name": "Yoojo",
+    "slug": "yoojo",
+    "category": "Shopping",
+    "code": "LIEN DIRECT",
+    "link": "https://yoojo.fr/r/rzdvj",
+    "advantage": "3€ offerts sur votre 1er service",
+    "description": "Yoojo est la plateforme leader des services à domicile en ligne. Que vous ayez besoin d'un ménage, d'un coup de main pour du bricolage, d'un déménagement ou de garde d'enfants, Yoojo vous met en relation avec des prestataires qualifiés près de chez vous en quelques clics.",
+    "logoUrl": "/logos/yoojo.png",
+    "review": {
+      "pros": [
+        "Large choix de services (ménage, bricolage, jardinage, etc.)",
+        "Prestataires évalués par la communauté",
+        "Paiement sécurisé et assurance incluse",
+        "Réservation simple et rapide via l'application"
+      ],
+      "cons": [
+        "Frais de mise en relation variables",
+        "Disponibilité dépendant de la zone géographique"
+      ],
+      "longReview": "<p><strong>Yoojo</strong> (anciennement Youpijob) s'est imposé comme le spécialiste incontournable des services entre particuliers et professionnels à domicile. La force de la plateforme réside dans sa polyvalence : vous pouvez trouver de l'aide pour presque toutes les tâches du quotidien, du montage de meubles IKEA au nettoyage de printemps, en passant par le jardinage ou les petits travaux d'électricité.</p><br/><p>Le fonctionnement est transparent : vous postez votre besoin, vous recevez des offres de prestataires locaux (le 'jobbeur'), et vous choisissez celui qui vous convient selon ses notes et son tarif. Le paiement est bloqué sur la plateforme et n'est libéré qu'une fois le service rendu, ce qui garantit une sécurité maximale pour les deux parties.</p><br/><p>En passant par notre lien de parrainage, vous bénéficiez immédiatement de <strong>3€ de réduction sur votre toute première prestation</strong>. C'est l'occasion idéale de tester le service et de vous libérer de vos corvées à moindre coût !</p>"
+    },
+    "steps": [
+      {
+        "title": "Cliquez sur le lien de parrainage",
+        "description": "Utilisez notre lien exclusif pour vous rendre sur Yoojo.fr et activer automatiquement votre bonus."
+      },
+      {
+        "title": "Inscrivez-vous",
+        "description": "Créez votre compte en quelques secondes avec votre email ou vos réseaux sociaux."
+      },
+      {
+        "title": "Réservez votre premier service",
+        "description": "Postez votre demande de service. La **réduction** de **3€** sera appliquée lors de la validation de votre premier paiement."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment activer le code parrainage Yoojo ?",
+        "answer": "Il n'y a pas de code à saisir manuellement. Cliquez simplement sur notre lien de parrainage avant de vous inscrire, et le bonus de 3€ sera automatiquement lié à votre nouveau compte."
+      },
+      {
+        "question": "Le service Yoojo est-il assuré ?",
+        "answer": "Oui, Yoojo inclut une assurance AXA pour toutes les prestations réalisées via la plateforme. Vous et votre prestataire êtes protégés en cas de dommage accidentel pendant la mission."
+      },
+      {
+        "question": "Sur quels types de services puis-je utiliser mes 3€ ?",
+        "answer": "Les 3€ offerts sont valables sur n'importe quel type de service proposé sur Yoojo : ménage, bricolage, déménagement, aide informatique, etc."
+      }
+    ],
+    "lastVerified": "2026-03-27"
+  }
 ]
