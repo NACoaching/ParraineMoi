@@ -2286,7 +2286,7 @@
     "category": "Shopping",
     "code": "https://www.vinted.fr/invite/wen-san",
     "link": "https://www.vinted.fr/invite/wen-san",
-    "advantage": "Lien d'invitation exclusif",
+    "advantage": "Jusqu'à 15€ offerts",
     "description": "Vinted est la plateforme leader en Europe pour l'achat et la vente de vêtements, chaussures et accessoires d'occasion. Avec des millions de membres, c'est l'endroit idéal pour vider son dressing tout en faisant des économies sur des articles de seconde main de qualité. Simplifiez-vous la vie avec une application intuitive et sécurisée.",
     "logoUrl": "/logos/vinted.png",
     "review": {
@@ -2313,13 +2313,13 @@
       },
       {
         "title": "Prêt à chiner ou vendre",
-        "description": "Vous pouvez maintenant commencer à acheter des articles ou mettre vos propres vêtements en vente !"
+        "description": "Mettez au moins 3 articles en vente dans les 7 jours suivant votre inscription pour valider votre bonus parrainage !"
       }
     ],
     "faqs": [
       {
         "question": "Le lien de parrainage Vinted offre-t-il un bonus ?",
-        "answer": "Le programme de parrainage de Vinted peut varier. Actuellement, l'utilisation du lien permet de s'inscrire via une invitation valide, ce qui peut débloquer des avantages spécifiques selon les campagnes en cours de Vinted."
+        "answer": "Oui ! En vous inscrivant via notre lien et en mettant en vente 3 articles sous 7 jours, vous pouvez gagner jusqu'à 15€ de bonus (selon les offres en cours)."
       },
       {
         "question": "Est-ce gratuit de vendre sur Vinted ?",
@@ -2330,7 +2330,7 @@
         "answer": "Les frais de port sont à la charge de l'acheteur. Vinted propose des tarifs négociés avec de nombreux transporteurs. Le vendeur reçoit un bordereau d'envoi prépayé à imprimer et à coller sur le colis."
       }
     ],
-    "lastVerified": "2026-03-20"
+    "lastVerified": "2026-03-27"
   },
   {
     "id": "1000",
