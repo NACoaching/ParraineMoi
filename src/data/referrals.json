@@ -2391,7 +2391,7 @@
     "slug": "joko",
     "category": "Shopping",
     "code": "jrypel",
-    "link": "https://home.joko.com",
+    "link": "https://hellojoko.app.link/tyX38HoTyP",
     "advantage": "3€ offerts à l'inscription",
     "description": "Joko est l'application française de cashback automatique. Connectez votre carte bancaire et Joko détecte vos achats chez plus de 6 000 marques partenaires pour vous rembourser automatiquement une partie de vos dépenses. Utilisez le code pour recevoir 3€ à l'inscription.",
     "logoUrl": "/logos/joko.png",
@@ -2411,7 +2411,7 @@
     "steps": [
       {
         "title": "Téléchargez l'application Joko",
-        "description": "Rendez-vous sur home.joko.com ou directement dans l'App Store / Google Play pour télécharger l'application gratuitement."
+        "description": "Téléchargez l'application Joko via notre lien et créez votre compte gratuitement pour bénéficier de tous les avantages."
       },
       {
         "title": "Créez votre compte et saisissez le code",
@@ -2436,7 +2436,7 @@
         "answer": "Joko utilise la technologie DSP2 (Directive européenne sur les services de paiement) pour la lecture seule de vos transactions. Joko ne peut ni faire de virements ni accéder à vos identifiants bancaires. La connexion est sécurisée via des partenaires agréés par l'ACPR."
       }
     ],
-    "lastVerified": "2026-03-24"
+    "lastVerified": "2026-03-27"
   },
   {
     "id": "150",
