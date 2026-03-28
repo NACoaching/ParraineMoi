@@ -4,7 +4,7 @@
     "name": "AutoFull",
     "slug": "autofull",
     "category": "Shopping",
-    "code": "LIEN DIRECT",
+    "code": "",
     "link": "https://www.awin1.com/cread.php?awinmid=125332&awinaffid=2821736&clickref=https%3A%2F%2Fwww.autofull.eu%2F+&ued=https%3A%2F%2Fwww.autofull.eu%2F+",
     "advantage": "10% de réduction sur la première commande",
     "description": "AutoFull est une marque incontournable spécialisée dans les chaises gaming professionnelles, partenaires de nombreuses équipes e-sport. Profitez de 10% de réduction immédiate sur votre première commande en passant par notre lien partenaire exclusif.",
@@ -39,7 +39,7 @@
     "faqs": [
       {
         "question": "Comment activer les 10% de réduction sur AutoFull ?",
-        "answer": "La réduction s'active automatiquement en passant par notre lien partenaire (LIEN DIRECT). Vous n'avez pas de code promo spécifique à saisir, la remise de 10% s'appliquera directement sur le montant de votre première commande lors du passage en caisse."
+        "answer": "La réduction s'active automatiquement en passant par notre lien partenaire. Vous n'avez pas de code promo spécifique à saisir, la remise de 10% s'appliquera directement sur le montant de votre première commande lors du passage en caisse."
       },
       {
         "question": "Les chaises AutoFull sont-elles garanties ?",
@@ -2651,56 +2651,56 @@
     "lastVerified": "2026-03-27"
   },
   {
-    "id": "1002",
-    "name": "AutoFull",
-    "slug": "autofull",
+    "id": "153",
+    "name": "Yoojo",
+    "slug": "yoojo",
     "category": "Shopping",
-    "code": "LIEN DIRECT",
-    "link": "https://www.awin1.com/cread.php?awinmid=125332&awinaffid=2821736&clickref=https%3A%2F%2Fwww.autofull.eu%2F+&ued=https%3A%2F%2Fwww.autofull.eu%2F+",
-    "advantage": "10% de réduction sur la première commande",
-    "description": "AutoFull est une marque incontournable spécialisée dans les chaises gaming professionnelles, partenaires de nombreuses équipes e-sport. Profitez de 10% de réduction immédiate sur votre première commande en passant par notre lien partenaire exclusif.",
-    "logoUrl": "/logos/autofull.png",
+    "code": "https://yoojo.fr/r/rzdvj",
+    "link": "https://yoojo.fr/r/rzdvj",
+    "advantage": "3€ offerts sur votre 1er service",
+    "description": "Yoojo est la plateforme leader des services à domicile en ligne. Que vous ayez besoin d'un ménage, d'un coup de main pour du bricolage, d'un déménagement ou de garde d'enfants, Yoojo vous met en relation avec des prestataires qualifiés près de chez vous en quelques clics.",
+    "logoUrl": "/logos/yoojo.png",
     "review": {
       "pros": [
-        "Sièges ergonomiques de haute qualité conçus pour les longues sessions",
-        "Partenaire officiel de grandes équipes e-sport mondiales",
-        "Designs originaux et collaborations exclusives (mangas, e-sport)",
-        "Matériaux durables et confort optimal (coussins lombaires et cervicaux)"
+        "Large choix de services (ménage, bricolage, jardinage, etc.)",
+        "Prestataires évalués par la communauté",
+        "Paiement sécurisé et assurance incluse",
+        "Réservation simple et rapide via l'application"
       ],
       "cons": [
-        "Investissement initial important (mais justifié par la durabilité)",
-        "Montage de la chaise à réaliser soi-même à la livraison"
+        "Frais de mise en relation variables",
+        "Disponibilité dépendant de la zone géographique"
       ],
-      "longReview": "<p>Si vous passez de longues heures devant votre écran, que ce soit pour le télétravail ou le gaming, investir dans un siège de qualité n'est pas un luxe mais une nécessité orthopédique. <strong>AutoFull s'est imposée comme l'une des marques de référence mondiale dans l'univers des chaises gaming</strong>, en devenant le sponsor officiel de nombreuses compétitions d'e-sport d'envergure internationale.</p><br/><p>Leurs sièges se distinguent par une ergonomie poussée : accoudoirs réglables 3D ou 4D, inclinaison du dossier jusqu'à 155 degrés, et coussins de soutien lombaire et cervical à mémoire de forme. Au-delà du confort, AutoFull propose des designs uniques, incluant des éditions limitées très prisées par la communauté.</p><br/><p>En utilisant notre <strong>lien de partenariat officiel</strong>, la réduction de <strong>10% s'appliquera automatiquement</strong> sur votre premier achat. C'est l'occasion idéale d'améliorer votre setup tout en préservant votre dos, avec une remise immédiate substantielle sur du matériel haut de gamme.</p>"
+      "longReview": "<p><strong>Yoojo</strong> (anciennement Youpijob) s'est imposé comme le spécialiste incontournable des services entre particuliers et professionnels à domicile. La force de la plateforme réside dans sa polyvalence : vous pouvez trouver de l'aide pour presque toutes les tâches du quotidien, du montage de meubles IKEA au nettoyage de printemps, en passant par le jardinage ou les petits travaux d'électricité.</p><br/><p>Le fonctionnement est transparent : vous postez votre besoin, vous recevez des offres de prestataires locaux (le 'jobbeur'), et vous choisissez celui qui vous convient selon ses notes et son tarif. Le paiement est bloqué sur la plateforme et n'est libéré qu'une fois le service rendu, ce qui garantit une sécurité maximale pour les deux parties.</p><br/><p>En passant par notre lien de parrainage, vous bénéficiez immédiatement de <strong>3€ de réduction sur votre toute première prestation</strong>. C'est l'occasion idéale de tester le service et de vous libérer de vos corvées à moindre coût !</p>"
     },
     "steps": [
       {
-        "title": "Cliquez sur notre lien partenaire",
-        "description": "Utilisez notre lien exclusif pour vous rendre sur la boutique officielle européenne d'AutoFull. Ce lien active automatiquement votre éligibilité à la réduction."
+        "title": "Cliquez sur le lien de parrainage",
+        "description": "Utilisez notre lien exclusif pour vous rendre sur Yoojo.fr et activer automatiquement votre bonus."
       },
       {
-        "title": "Choisissez votre chaise gaming",
-        "description": "Naviguez parmi les différents modèles (versions pro, éditions spéciales) et ajoutez la chaise de vos rêves à votre panier."
+        "title": "Inscrivez-vous",
+        "description": "Créez votre compte en quelques secondes avec votre email ou vos réseaux sociaux."
       },
       {
-        "title": "Profitez de 10% de réduction",
-        "description": "Lors de la validation de votre première commande, la remise de **10%** sera automatiquement prise en compte grâce à votre passage via notre lien direct."
+        "title": "Réservez votre premier service",
+        "description": "Postez votre demande de service. La **réduction** de **3€** sera appliquée lors de la validation de votre premier paiement."
       }
     ],
     "faqs": [
       {
-        "question": "Comment activer les 10% de réduction sur AutoFull ?",
-        "answer": "La réduction s'active automatiquement en passant par notre lien partenaire (LIEN DIRECT). Vous n'avez pas de code promo spécifique à saisir, la remise de 10% s'appliquera directement sur le montant de votre première commande lors du passage en caisse."
+        "question": "Comment activer le code parrainage Yoojo ?",
+        "answer": "Il n'y a pas de code à saisir manuellement. Cliquez simplement sur notre lien de parrainage avant de vous inscrire, et le bonus de 3€ sera automatiquement lié à votre nouveau compte."
       },
       {
-        "question": "Les chaises AutoFull sont-elles garanties ?",
-        "answer": "Oui, AutoFull propose une garantie fabricant sur ses produits (généralement de 3 ans sur la structure et les pièces mécaniques), assurant un investissement durable et sécurisé."
+        "question": "Le service Yoojo est-il assuré ?",
+        "answer": "Oui, Yoojo inclut une assurance AXA pour toutes les prestations réalisées via la plateforme. Vous et votre prestataire êtes protégés en cas de dommage accidentel pendant la mission."
       },
       {
-        "question": "Puis-je utiliser cette offre si j'ai déjà commandé chez AutoFull ?",
-        "answer": "Non, cette réduction exclusive de 10% est réservée aux nouveaux clients effectuant leur toute première commande sur la boutique officielle AutoFull."
+        "question": "Sur quels types de services puis-je utiliser mes 3€ ?",
+        "answer": "Les 3€ offerts sont valables sur n'importe quel type de service proposé sur Yoojo : ménage, bricolage, déménagement, aide informatique, etc."
       }
     ],
-    "lastVerified": "2026-03-28"
+    "lastVerified": "2026-03-27"
   }
 ]
