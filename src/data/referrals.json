@@ -190,8 +190,8 @@
     "name": "Revolut",
     "slug": "revolut",
     "category": "Banque & Finance",
-    "code": "https://revolut.com/referral/?referral-code=nalbanesi!MAR1-26-AR-H2&geo-redirect",
-    "link": "https://revolut.com/referral/?referral-code=nalbanesi!MAR1-26-AR-H2&geo-redirect",
+    "code": "",
+    "link": "https://revolut.com/referral/?referral-code=nalbanesi!APR1-26-VR-FR&geo-redirect",
     "advantage": "Entre 10€ et 200€ offerts",
     "description": "Revolut est l'application financière leader en Europe avec plus de 70 millions de clients. Elle permet d'ouvrir un compte en quelques minutes, de gérer son budget avec précision et surtout de payer à l'étranger sans frais de change cachés. C'est le compagnon idéal des voyageurs et des digital nomads.",
     "logoUrl": "/logos/revolut.png",
@@ -245,7 +245,7 @@
         "description": "N'attendez pas de la recevoir : ajoutez la carte virtuelle immédiatement disponible sur votre Apple Wallet ou Google Pay et utilisez-la pour régler au moins 3 **achats** du quotidien (le **minimum** requis est souvent de **5€** par paiement). Félicitations, votre **prime** de parrainage devrait être libérée sous peu !"
       }
     ],
-    "lastVerified": "2026-03-20"
+    "lastVerified": "2026-04-01"
   },
   {
     "id": "3",
