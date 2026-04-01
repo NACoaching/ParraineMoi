@@ -258,12 +258,14 @@ export default async function ReferralPage({
 
                         <div className="flex flex-col gap-4 justify-center items-stretch max-w-2xl mx-auto w-full">
                             {/* Promo Code Box */}
-                            <div className="flex-1 flex items-center justify-between gap-4 bg-white/50 dark:bg-slate-950/50 border-2 border-primary/20 hover:border-primary/50 transition-all rounded-3xl p-4 pl-6">
-                                <span className="font-mono font-bold text-slate-900 dark:text-white text-xl lg:text-2xl truncate select-all tracking-wider">
-                                    {referral.code}
-                                </span>
-                                <CopyButton code={referral.code} className="shrink-0 !h-14 px-8 font-bold rounded-2xl shadow-lg shadow-primary/20" showText={true} />
-                            </div>
+                            {referral.code && referral.code.trim() !== "" && (
+                                <div className="flex-1 flex items-center justify-between gap-4 bg-white/50 dark:bg-slate-950/50 border-2 border-primary/20 hover:border-primary/50 transition-all rounded-3xl p-4 pl-6">
+                                    <span className="font-mono font-bold text-slate-900 dark:text-white text-xl lg:text-2xl truncate select-all tracking-wider">
+                                        {referral.code}
+                                    </span>
+                                    <CopyButton code={referral.code} className="shrink-0 !h-14 px-8 font-bold rounded-2xl shadow-lg shadow-primary/20" showText={true} />
+                                </div>
+                            )}
 
                             {/* Referral Link Box */}
                             {referral.link && referral.link !== referral.code && (
