@@ -5,7 +5,13 @@ import { slugifyCategory } from '@/lib/utils';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://codes-de-parrainages.com';
-    const lastModified = new Date(); // Dynamic date for freshness
+    
+    // Find the latest verification date across all referrals for global freshness
+    const lastModified = referralsData.reduce((latest, referral) => {
+        if (!referral.lastVerified) return latest;
+        const refDate = new Date(referral.lastVerified);
+        return refDate > latest ? refDate : latest;
+    }, new Date('2024-01-01'));
 
     // Home page
     const homeSitemap: MetadataRoute.Sitemap = [
