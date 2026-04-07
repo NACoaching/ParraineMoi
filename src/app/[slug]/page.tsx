@@ -94,8 +94,12 @@ export default async function ReferralPage({
         .filter((r) => r.category === referral.category && r.slug !== referral.slug)
         .slice(0, 3); // Get top 3
 
-    // Find guides that talk about this referral
-    const relatedGuides = guidesData.filter((g) => g.referralSlugs?.includes(referral.slug));
+    // Find guides that talk about this referral, fill with category guides if not enough
+    const explicitGuides = guidesData.filter((g) => g.referralSlugs?.includes(referral.slug));
+    const fallbackGuides = guidesData.filter(
+        (g) => g.category === referral.category && !g.referralSlugs?.includes(referral.slug)
+    );
+    const relatedGuides = [...explicitGuides, ...fallbackGuides].slice(0, 4);
 
     const faqJsonLd = {
         "@context": "https://schema.org",
@@ -416,13 +420,13 @@ export default async function ReferralPage({
                                 <span className="flex items-center justify-center p-2 rounded-xl bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-400">
                                     <Info className="w-5 h-5" />
                                 </span>
-                                Lisez nos guides sur {referral.name}
+                                Explorez nos guides experts
                             </h2>
                             <div className="grid md:grid-cols-2 gap-4">
                                 {relatedGuides.map((guide) => (
                                     <Link
                                         key={guide.slug}
-                                        href={`/guides/${guide.slug}`}
+                                        href={`/${guide.slug}`}
                                         className="group block p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-primary/50 dark:hover:border-primary/50 transition-all hover:shadow-md"
                                     >
                                         <div className="flex justify-between items-start mb-2">

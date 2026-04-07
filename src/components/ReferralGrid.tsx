@@ -1,6 +1,6 @@
 "use client";
 
-import { Search, Star } from "lucide-react";
+import { Search, Star, ArrowRight } from "lucide-react";
 import { useState, useMemo } from "react";
 import { ReferralCard, Referral } from "./ReferralCard";
 import Link from "next/link";
@@ -216,6 +216,16 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
                     >
                         Réinitialiser tous les filtres
                     </button>
+                </div>
+            )}            {activeCategory !== "Toutes" && !searchTerm && !selectedOfferSlug && filteredGridOffers.length > 0 && (
+                <div className="mt-12 text-center">
+                    <Link
+                        href={`/categorie/${slugifyCategory(activeCategory)}`}
+                        className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold tracking-wide hover:scale-105 transition-transform shadow-lg"
+                    >
+                        Voir tous nos conseils {activeCategory}
+                        <ArrowRight size={18} />
+                    </Link>
                 </div>
             )}
         </div>

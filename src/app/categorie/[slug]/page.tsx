@@ -1,8 +1,9 @@
 import { ReferralGrid } from "@/components/ReferralGrid";
 import referralsData from "@/data/referrals.json";
+import guidesData from "@/data/guides.json";
 import { Referral } from "@/components/ReferralCard";
 import { slugifyCategory } from "@/lib/utils";
-import { ChevronRight, Home } from "lucide-react";
+import { ChevronRight, Home, BookOpen } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -88,15 +89,18 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {
-    const { slug } = await params;
-    const categories = Array.from(new Set(referralsData.map(r => r.category)));
-    const originalCategory = categories.find(c => slugifyCategory(c) === slug);
+    const resolvedParams = await params;
+    const slug = resolvedParams.slug;
+    const originalCategory = Array.from(new Set(referralsData.map(r => r.category))).find(
+        cat => slugifyCategory(cat) === slug
+    );
 
     if (!originalCategory) {
         notFound();
     }
 
-    const categoryReferrals = (referralsData as Referral[]).filter(r => r.category === originalCategory);
+    const categoryReferrals = (referralsData as Referral[]).filter((r) => r.category === originalCategory);
+    const categoryGuides = guidesData.filter((g) => g.category === originalCategory);
 
     const itemListJsonLd = {
         "@context": "https://schema.org",
@@ -162,12 +166,37 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
                 </p>
             </div>
 
-            <div className="w-full max-w-5xl">
+            <div className="w-full max-w-5xl mt-24">
                 <ReferralGrid
                     referrals={categoryReferrals}
                     activeCategoryName={originalCategory}
                 />
             </div>
+
+            {/* Guides Section */}
+            {categoryGuides.length > 0 && (
+                <div className="w-full max-w-5xl mt-24 px-4 lg:px-0">
+                    <h2 className="text-3xl flex items-center gap-3 font-bold text-slate-900 dark:text-white mb-8 border-b border-slate-200 dark:border-slate-800 pb-4">
+                        <BookOpen className="text-primary" size={32} />
+                        Nos guides et astuces {originalCategory}
+                    </h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {categoryGuides.map((g) => (
+                            <Link href={`/${g.slug}`} key={g.slug} className="group glass-card bg-white/50 dark:bg-slate-900/50 p-8 rounded-[2rem] hover:border-primary/50 hover:shadow-xl hover:shadow-primary/5 transition-all block h-full border border-slate-200 dark:border-slate-800">
+                                <h3 className="text-xl font-bold text-slate-800 dark:text-slate-200 group-hover:text-primary mb-3">
+                                    {g.title}
+                                </h3>
+                                <p className="text-sm text-slate-500 mb-6 line-clamp-2">
+                                    {g.excerpt}
+                                </p>
+                                <div className="text-xs font-bold uppercase tracking-widest text-primary flex items-center gap-2">
+                                    Lire le guide <ChevronRight size={14} className="group-hover:translate-x-1 transition-transform"/>
+                                </div>
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            )}
 
             {/* Texte SEO pour enrichir la page catégorie */}
             <div className="w-full max-w-4xl mx-auto mt-24 p-10 glass-card bg-white/50 dark:bg-slate-900/50">
