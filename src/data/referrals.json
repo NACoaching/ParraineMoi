@@ -2549,10 +2549,10 @@
     "name": "Deblock",
     "slug": "deblock",
     "category": "Crypto",
-    "code": "CAMPAGNE EN PAUSE",
-    "link": "https://deblock.com/",
-    "advantage": "1 mois Premium offert (Bientôt de retour)",
-    "description": "Deblock est la néo-banque française qui réunit le meilleur de la banque traditionnelle et de la crypto-monnaie (non-custodial). Fondée par des anciens de Revolut et Ledger, elle offre une sécurité maximale. Le parrainage est cyclique, revenez vite pour profiter des prochains bonus !",
+    "code": "",
+    "link": "https://deblock.com/a-iuj371",
+    "advantage": "1 mois de Premium offert",
+    "description": "Deblock est la néo-banque française qui réunit le meilleur de la banque traditionnelle et de la crypto-monnaie (non-custodial). Fondée par des anciens de Revolut et Ledger, elle offre une sécurité maximale. Profitez dès maintenant d'un mois de Premium offert via notre lien de parrainage !",
     "logoUrl": "/logos/deblock.webp",
     "review": {
       "pros": [
@@ -2565,7 +2565,7 @@
         "Campagnes de parrainage temporaires et aléatoires",
         "Encore jeune, certaines fonctionnalités sont en cours de déploiement"
       ],
-      "longReview": "<p><strong>Deblock est l'une des pépites de la French Tech</strong> qui veut révolutionner notre rapport à l'argent. Contrairement aux banques classiques ou aux bourses crypto centralisées, Deblock vous permet de détenir réellement vos actifs grâce à un portefeuille 'non-custodial' intégré directement dans votre compte bancaire. Cela signifie que <strong>vous êtes le seul maître de vos clés et de vos fonds</strong>, tout en profitant des services d'une banque moderne (IBAN, carte Visa, Apple Pay).</p><br/><p>L'offre est particulièrement attractive pour ceux qui veulent une passerelle fluide entre l'euro et la crypto sans les tracas habituels. La sécurité est au cœur du produit, utilisant des technologies de pointe pour protéger vos transactions. C'est une solution robuste, régulée (enregistrée PSAN) et extrêmement prometteuse pour l'avenir de la finance décentralisée accessible à tous.</p><br/><p>Concernant le parrainage, <strong>Deblock fonctionne par vagues</strong>. Les campagnes sont activées puis mises en pause régulièrement par l'équipe. En général, le bonus offre au filleul <strong>un mois d'abonnement Premium gratuit</strong> pour tester l'intégralité des fonctionnalités. Bien que les codes soient actuellement en pause, nous surveillons de près la prochaine campagne pour vous permettre d'en profiter dès la première minute !</p>"
+      "longReview": "<p><strong>Deblock est l'une des pépites de la French Tech</strong> qui veut révolutionner notre rapport à l'argent. Contrairement aux banques classiques ou aux bourses crypto centralisées, Deblock vous permet de détenir réellement vos actifs grâce à un portefeuille 'non-custodial' intégré directement dans votre compte bancaire. Cela signifie que <strong>vous êtes le seul maître de vos clés et de vos fonds</strong>, tout en profitant des services d'une banque moderne (IBAN, carte Visa, Apple Pay).</p><br/><p>L'offre est particulièrement attractive pour ceux qui veulent une passerelle fluide entre l'euro et la crypto sans les tracas habituels. La sécurité est au cœur du produit, utilisant des technologies de pointe pour protéger vos transactions. C'est une solution robuste, régulée (enregistrée PSAN) et extrêmement prometteuse pour l'avenir de la finance décentralisée accessible à tous.</p><br/><p>Concernant le parrainage, <strong>Deblock fonctionne par vagues</strong>. Les campagnes sont activées puis mises en pause régulièrement par l'équipe. En général, le bonus offre au filleul <strong>un mois d'abonnement Premium gratuit</strong> pour tester l'intégralité des fonctionnalités. La campagne est actuellement active : profitez-en en passant par notre lien exclusif !</p>"
     },
     "steps": [
       {
@@ -2578,13 +2578,13 @@
       },
       {
         "title": "Activation du bonus",
-        "description": "Dès que la campagne est active, votre mois de **Premium** offert sera automatiquement appliqué après votre premier **achat** ou **transaction**."
+        "description": "Passez par notre lien d'invitation pour que votre mois de **Premium** offert soit automatiquement appliqué après votre premier **achat** ou **transaction**."
       }
     ],
     "faqs": [
       {
-        "question": "Pourquoi le parrainage Deblock n'est pas disponible aujourd'hui ?",
-        "answer": "Deblock choisit de lancer des campagnes de parrainage flash plutôt que de laisser un programme ouvert en permanence. Cela leur permet de proposer des primes plus importantes lors des périodes d'activation. Revenez régulièrement consulter cette page !"
+        "question": "Comment profiter de l'offre de parrainage Deblock ?",
+        "answer": "Pour bénéficier du bonus, il vous suffit de cliquer sur notre lien de parrainage avant de télécharger l'application et de créer votre compte. Il n'y a pas de code à saisir manuellement, tout est automatisé via le lien."
       },
       {
         "question": "Deblock est-elle une banque ou un échange crypto ?",
@@ -2595,7 +2595,7 @@
         "answer": "Le compte Premium permet notamment de réduire les frais de transaction crypto, de bénéficier de limites de retrait plus hautes et d'avoir accès à des designs de cartes exclusifs."
       }
     ],
-    "lastVerified": "2026-03-26"
+    "lastVerified": "2026-04-09"
   },
   {
     "id": "152",
