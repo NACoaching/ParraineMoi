@@ -14,9 +14,15 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
     const [sortBy, setSortBy] = useState<"relevance" | "amount_desc" | "alpha">("relevance");
 
     const extractValue = (advantage: string) => {
+        const lowerAdvantage = advantage.toLowerCase();
+        // Check for virtual currencies or percentages to penalize their sorting weight
+        const isVirtualCurrency = /(coin|pièce|piece|ward|sb|point|%|pourcent)/i.test(lowerAdvantage);
+
         const numbers = advantage.replace(/\s/g, '').match(/\d+/g);
         if (!numbers) return 0;
-        return Math.max(...numbers.map(Number));
+
+        const maxValue = Math.max(...numbers.map(Number));
+        return isVirtualCurrency ? maxValue / 10000 : maxValue;
     };
 
     const allCategories = useMemo(() => {
