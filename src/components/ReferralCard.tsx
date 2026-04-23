@@ -20,6 +20,9 @@ export interface Referral {
   };
   steps?: { title: string; description: string }[];
   faqs?: { question: string; answer: string }[];
+  isPaused?: boolean;
+  seoTitle?: string;
+  seoDescription?: string;
 }
 
 export function ReferralCard({ referral, isPriority = false, index }: { referral: Referral, isPriority?: boolean, index?: number }) {
@@ -46,10 +49,17 @@ export function ReferralCard({ referral, isPriority = false, index }: { referral
         </div>
 
         <div className="mb-4">
-          <div className="bg-primary/5 dark:bg-primary/10 border border-primary/10 text-primary px-3 py-2 rounded-xl inline-flex items-center gap-2">
-            <span className="text-xl">🎁</span>
-            <span className="text-sm font-bold tracking-tight">{referral.advantage}</span>
-          </div>
+          {referral.isPaused ? (
+            <div className="bg-amber-500/10 border border-amber-500/20 text-amber-600 dark:text-amber-400 px-3 py-2 rounded-xl inline-flex items-center gap-2">
+              <span className="text-xl">⚠️</span>
+              <span className="text-sm font-bold tracking-tight">Programme en pause</span>
+            </div>
+          ) : (
+            <div className="bg-primary/5 dark:bg-primary/10 border border-primary/10 text-primary px-3 py-2 rounded-xl inline-flex items-center gap-2">
+              <span className="text-xl">🎁</span>
+              <span className="text-sm font-bold tracking-tight">{referral.advantage}</span>
+            </div>
+          )}
         </div>
 
         <p className="text-sm text-slate-600 dark:text-slate-400 line-clamp-2 leading-relaxed">
@@ -88,12 +98,18 @@ export function ReferralCard({ referral, isPriority = false, index }: { referral
           </div>
         )}
 
-        <Link
-          href={`/parrainage-${referral.slug}`}
-          className="w-full flex items-center justify-center h-12 rounded-2xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold hover:opacity-90 transition-all text-sm shadow-sm active:scale-[0.98]"
-        >
-          Profiter de l&apos;offre
-        </Link>
+        {referral.isPaused ? (
+          <div className="w-full flex items-center justify-center h-12 rounded-2xl bg-slate-200 dark:bg-slate-800 text-slate-500 dark:text-slate-400 font-bold text-sm shadow-sm cursor-not-allowed">
+            Offre Suspendue
+          </div>
+        ) : (
+          <Link
+            href={`/parrainage-${referral.slug}`}
+            className="w-full flex items-center justify-center h-12 rounded-2xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold hover:opacity-90 transition-all text-sm shadow-sm active:scale-[0.98]"
+          >
+            Profiter de l&apos;offre
+          </Link>
+        )}
       </div>
     </div>
   );
