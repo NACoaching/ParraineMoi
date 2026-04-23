@@ -1636,10 +1636,10 @@
     "name": "BoursoBank",
     "slug": "boursobank",
     "category": "Banque & Finance",
-    "code": "Auncun en cours",
-    "link": "https://www.boursobank.com/",
-    "advantage": "Offre suspendue ⏸️",
-    "description": "BoursoBank est la banque en ligne n°1 en France. Bien que leur programme de parrainage soit momentanément en pause par la banque elle-même, c'est l'établissement incontournable pour réduire ses frais et gérer son budget.",
+    "code": "r3eeoCa192r",
+    "link": "https://bour.so/p/r3eeoCa192r",
+    "advantage": "Jusqu'à 130€ offerts",
+    "description": "BoursoBank est la banque en ligne n°1 en France. Profitez de notre lien de parrainage pour ouvrir votre compte et bénéficier d'une prime de bienvenue allant jusqu'à 130€ !",
     "logoUrl": "/logos/boursobank.png",
     "review": {
       "pros": [
@@ -1648,26 +1648,26 @@
         "Large choix de produits : PEA, Assurance Vie, Crédit immo",
         "Service client réactif et 100% en ligne"
       ],
-      "longReview": "<p>Anciennement Boursorama Banque, <strong>BoursoBank</strong> a révolutionné la banque en France avec une promesse simple : supprimer les frais inutiles. C'est aujourd'hui la banque principale de millions de Français qui cherchent un service premium sans payer de frais de tenue de compte.</p><br/><p><strong>Note sur le parrainage :</strong> BoursoBank a temporairement suspendu son programme de parrainage à l'échelle nationale début 2026. Nous surveillons quotidiennement la situation et mettrons à jour cette page avec notre lien exclusif dès que la banque réactivera les primes de bienvenue (qui montent souvent jusqu'à 150€ !).</p>"
+      "longReview": "<p>Anciennement Boursorama Banque, <strong>BoursoBank</strong> a révolutionné la banque en France avec une promesse simple : supprimer les frais inutiles. C'est aujourd'hui la banque principale de millions de Français qui cherchent un service premium sans payer de frais de tenue de compte.</p><br/><p>L'ouverture d'un compte se fait très facilement et vous permet de toucher une généreuse prime de bienvenue avec notre <strong>lien de parrainage exclusif</strong>.</p>"
     },
     "faqs": [
       {
-        "question": "Pourquoi n'y a-t-il pas d'offre de parrainage BoursoBank actuellement ?",
-        "answer": "BoursoBank suspend occasionnellement ses campagnes de parrainage pour ajuster ses offres commerciales. Ces pauses sont généralement de courte durée."
+        "question": "Comment profiter du bonus de bienvenue BoursoBank ?",
+        "answer": "Il suffit de cliquer sur notre lien partenaire. Vos informations de parrainage seront automatiquement préremplies lors de votre ouverture de compte. Une fois votre compte activé avec un premier versement, vous recevrez votre prime."
       },
       {
-        "question": "Puis-je quand même ouvrir un compte BoursoBank ?",
-        "answer": "Absolument. Vous pouvez ouvrir un compte normalement sur leur site. Cependant, vous ne toucherez pas de prime de parrainage tant que le programme n'est pas officiellement relancé."
+        "question": "Puis-je utiliser BoursoBank comme banque principale ?",
+        "answer": "Absolument. Avec son RIB français, sa carte Ultim gratuite, et ses services complets (PEA, assurance vie), c'est une excellente option pour remplacer votre banque traditionnelle."
       }
     ],
     "steps": [
       {
-        "title": "Vérifier la réactivation",
-        "description": "Enregistrez cette page dans vos favoris et revenez vérifier si le bouton 'Ouvrir l'offre' est réactivé."
+        "title": "Cliquez sur le lien partenaire",
+        "description": "Ouvrez la page de parrainage via notre lien pour que le code soit automatiquement appliqué."
       },
       {
         "title": "Préparez vos documents",
-        "description": "Une fois l'offre active, munissez-vous de votre pièce d'identité et d'un RIB pour une ouverture en 5 minutes."
+        "description": "Munissez-vous de votre pièce d'identité et d'un RIB pour une ouverture en 5 minutes. Effectuez ensuite le premier versement requis pour activer votre bonus."
       }
     ],
     "lastVerified": "2026-03-11"
