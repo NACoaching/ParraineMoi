@@ -2559,8 +2559,9 @@
     "category": "Crypto",
     "code": "",
     "link": "https://deblock.com/a-iuj371",
-    "advantage": "100€ offerts",
-    "description": "Deblock est la néo-banque française qui réunit le meilleur de la banque traditionnelle et de la crypto-monnaie (non-custodial). Fondée par des anciens de Revolut et Ledger, elle offre une sécurité maximale. Profitez dès maintenant de 100€ offerts via notre lien de parrainage !",
+    "advantage": "Offre suspendue ⏸️",
+    "isPaused": true,
+    "description": "[OFFRE EN PAUSE] Deblock est la néo-banque française qui réunit le meilleur de la banque traditionnelle et de la crypto-monnaie (non-custodial). Fondée par des anciens de Revolut et Ledger, elle offre une sécurité maximale. Le programme de parrainage est temporairement suspendu.",
     "logoUrl": "/logos/deblock.webp",
     "review": {
       "pros": [
@@ -2573,7 +2574,7 @@
         "Campagnes de parrainage temporaires et aléatoires",
         "Encore jeune, certaines fonctionnalités sont en cours de déploiement"
       ],
-      "longReview": "<p><strong>Deblock est l'une des pépites de la French Tech</strong> qui veut révolutionner notre rapport à l'argent. Contrairement aux banques classiques ou aux bourses crypto centralisées, Deblock vous permet de détenir réellement vos actifs grâce à un portefeuille 'non-custodial' intégré directement dans votre compte bancaire. Cela signifie que <strong>vous êtes le seul maître de vos clés et de vos fonds</strong>, tout en profitant des services d'une banque moderne (IBAN, carte Visa, Apple Pay).</p><br/><p>L'offre est particulièrement attractive pour ceux qui veulent une passerelle fluide entre l'euro et la crypto sans les tracas habituels. La sécurité est au cœur du produit, utilisant des technologies de pointe pour protéger vos transactions. C'est une solution robuste, régulée (enregistrée PSAN) et extrêmement prometteuse pour l'avenir de la finance décentralisée accessible à tous.</p><br/><p>Concernant le parrainage, <strong>Deblock fonctionne par vagues</strong>. Les campagnes sont activées puis mises en pause régulièrement par l'équipe. En ce moment, le bonus offre au filleul <strong>100€ offerts</strong> pour tester l'intégralité des fonctionnalités. La campagne est actuellement active : profitez-en en passant par notre lien exclusif !</p>"
+      "longReview": "<p><strong>Deblock est l'une des pépites de la French Tech</strong> qui veut révolutionner notre rapport à l'argent. Contrairement aux banques classiques ou aux bourses crypto centralisées, Deblock vous permet de détenir réellement vos actifs grâce à un portefeuille 'non-custodial' intégré directement dans votre compte bancaire. Cela signifie que <strong>vous êtes le seul maître de vos clés et de vos fonds</strong>, tout en profitant des services d'une banque moderne (IBAN, carte Visa, Apple Pay).</p><br/><p>L'offre est particulièrement attractive pour ceux qui veulent une passerelle fluide entre l'euro et la crypto sans les tracas habituels. La sécurité est au cœur du produit, utilisant des technologies de pointe pour protéger vos transactions. C'est une solution robuste, régulée (enregistrée PSAN) et extrêmement prometteuse pour l'avenir de la finance décentralisée accessible à tous.</p><br/><p>Concernant le parrainage, <strong>Deblock fonctionne par vagues</strong>. Les campagnes sont activées puis mises en pause régulièrement par l'équipe. Actuellement, le programme de parrainage est temporairement <strong>suspendu</strong> par Deblock. Nous mettrons cette page à jour dès que l'offre sera de nouveau disponible.</p>"
     },
     "steps": [
       {
