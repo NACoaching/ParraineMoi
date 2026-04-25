@@ -2201,9 +2201,9 @@
     "slug": "unibet",
     "category": "Paris Sportifs & Poker",
     "code": "",
-    "link": "",
-    "advantage": "Bientôt disponible",
-    "description": "L'un des leaders des paris sportifs, hippiques et du poker en ligne en France. Les offres de parrainage fluctuent au cours de l'année. Revenez bientôt pour découvrir si une offre est active !",
+    "link": "https://www.unibet.fr/inscription/?campaign=70426&parrain=BD9677B677549867",
+    "advantage": "40€ offerts",
+    "description": "L'un des leaders des paris sportifs, hippiques et du poker en ligne en France. Inscrivez-vous via notre lien de parrainage exclusif et profitez d'un bonus de bienvenue de 40€ pour démarrer vos paris dans les meilleures conditions.",
     "logoUrl": "/logos/unibet.png",
     "review": {
       "pros": [
@@ -2212,23 +2212,35 @@
         "Cotes compétitives sur les sports majeurs"
       ],
       "cons": [
-        "Pas d'offre de parrainage permanente de notre côté pour le moment"
+        "Le montant du bonus de parrainage peut varier selon les périodes"
       ],
-      "longReview": "<p><strong>Unibet est l'un des piliers du pari sportif et du poker en France</strong>. La plateforme est très appréciée pour sa fiabilité et pour son service de streaming (Unibet TV) permettant de regarder et parier en direct sur des milliers d'événements sportifs chaque année.</p><br/><p>Bien que nous ne proposions <strong>aucune offre de parrainage pour le moment</strong>, Unibet reste un bookmaker incontournable. Nous mettrons à jour cette page dès qu'un bonus de parrainage ou une promotion intéressante sera disponible pour notre communauté.</p>"
+      "longReview": "<p><strong>Unibet est l'un des piliers du pari sportif et du poker en France</strong>. La plateforme est très appréciée pour sa fiabilité et pour son service de streaming (Unibet TV) permettant de regarder et parier en direct sur des milliers d'événements sportifs chaque année.</p><br/><p>En passant par notre <strong>lien de parrainage exclusif</strong> lors de votre inscription, vous êtes éligible à une prime de <strong>40€</strong>. C'est un excellent tremplin pour booster votre bankroll de départ et tester les différentes fonctionnalités de l'application sans prendre trop de risques sur vos premiers paris.</p>"
     },
     "steps": [
       {
-        "title": "Offre en attente",
-        "description": "Nous indiquerons les étapes précises dès qu'un code ou un lien de parrainage sera activé."
+        "title": "Inscription via le lien",
+        "description": "Cliquez sur notre lien d'invitation pour accéder au site d'Unibet. L'offre de parrainage s'activera automatiquement, aucun code n'est nécessaire."
+      },
+      {
+        "title": "Premier dépôt et pari",
+        "description": "Finalisez la création de votre profil, effectuez un premier dépôt et placez un premier pari pour commencer à débloquer le bonus."
+      },
+      {
+        "title": "Validation du compte",
+        "description": "N'oubliez pas d'envoyer vos pièces justificatives (identité et RIB) pour valider définitivement votre compte et recevoir la totalité de vos gains."
       }
     ],
     "faqs": [
       {
-        "question": "Y a-t-il un code promo de parrainage Unibet valide en ce moment ?",
-        "answer": "Actuellement, nous ne disposons d'aucune offre active pour Unibet. Cette page sera mise à jour dès le retour d'un programme de parrainage avantageux."
+        "question": "Faut-il un code promo pour le parrainage Unibet ?",
+        "answer": "Non, avec la nouvelle procédure, il suffit de passer par notre lien d'invitation exclusif. Il contient déjà toutes les informations nécessaires pour lier votre compte au parrain et vous octroyer le bonus de 40€."
+      },
+      {
+        "question": "Comment le bonus de 40€ est-il versé ?",
+        "answer": "Les bonus de parrainage sur les sites de paris sportifs sont généralement versés sous forme de « paris gratuits » (freebets) suite à la validation définitive de votre compte et après un premier pari ou dépôt."
       }
     ],
-    "lastVerified": "2026-03-12"
+    "lastVerified": "2026-04-25"
   },
   {
     "id": "39",
