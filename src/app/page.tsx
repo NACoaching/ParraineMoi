@@ -124,7 +124,12 @@ export default function Home() {
           </Link>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {guidesData.slice(0, 3).map((guide) => (
+          {(() => {
+            const featuredSlugs = ["comparatif-meilleure-banque-en-ligne-2026"];
+            const featured = guidesData.filter((g) => featuredSlugs.includes(g.slug));
+            const others = guidesData.filter((g) => !featuredSlugs.includes(g.slug));
+            return [...featured, ...others].slice(0, 3);
+          })().map((guide) => (
             <Link key={guide.id} href={`/guides/${guide.slug}`} className="group flex flex-col h-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl overflow-hidden hover:shadow-lg hover:border-primary/50 transition-all duration-300">
               <div className="p-6 flex flex-col h-full">
                 <div className="flex items-center gap-2 mb-4">

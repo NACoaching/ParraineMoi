@@ -24,21 +24,25 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     }
 
     const currentYear = new Date().getFullYear();
+    // @ts-ignore
+    const seoTitle = guide.seoTitle || `${guide.title} — Guide Complet ${currentYear}`;
+    // @ts-ignore
+    const seoDescription = guide.seoDescription || `${guide.excerpt.length > 140 ? guide.excerpt.slice(0, 137) + '...' : guide.excerpt} → Téléchargez le guide gratuit, vérifié en ${currentYear}.`;
 
     return {
-        title: `${guide.title} — Guide Complet ${currentYear}`,
-        description: `${guide.excerpt.length > 140 ? guide.excerpt.slice(0, 137) + '...' : guide.excerpt} → Téléchargez le guide gratuit, vérifié en ${currentYear}.`,
+        title: seoTitle,
+        description: seoDescription,
         alternates: {
             canonical: `/guides/${guide.slug}`,
         },
         openGraph: {
-            title: `${guide.title} — Guide ${currentYear}`,
+            title: seoTitle,
             description: guide.excerpt,
             url: `https://codes-de-parrainages.com/guides/${guide.slug}`,
             images: ["/og-image.png"],
         },
         twitter: {
-            title: `${guide.title} — Guide ${currentYear}`,
+            title: seoTitle,
             description: guide.excerpt,
             images: ["/og-image.png"],
         },
