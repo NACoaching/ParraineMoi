@@ -453,7 +453,7 @@ export default async function ReferralPage({
                                 {relatedGuides.map((guide) => (
                                     <Link
                                         key={guide.slug}
-                                        href={`/${guide.slug}`}
+                                        href={`/guides/${guide.slug}`}
                                         className="group block p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-primary/50 dark:hover:border-primary/50 transition-all hover:shadow-md"
                                     >
                                         <div className="flex justify-between items-start mb-2">

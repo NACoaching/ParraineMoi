@@ -49,6 +49,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: 'weekly',
             priority: 0.9,
         },
+        {
+            url: `${baseUrl}/a-propos`,
+            lastModified: lastModified,
+            changeFrequency: 'yearly',
+            priority: 0.5,
+        },
+        {
+            url: `${baseUrl}/plan-du-site`,
+            lastModified: lastModified,
+            changeFrequency: 'monthly',
+            priority: 0.4,
+        },
     ];
 
     // Dynamic pages (referrals)

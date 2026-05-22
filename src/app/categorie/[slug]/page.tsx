@@ -182,7 +182,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {categoryGuides.map((g) => (
-                            <Link href={`/${g.slug}`} key={g.slug} className="group glass-card bg-white/50 dark:bg-slate-900/50 p-8 rounded-[2rem] hover:border-primary/50 hover:shadow-xl hover:shadow-primary/5 transition-all block h-full border border-slate-200 dark:border-slate-800">
+                            <Link href={`/guides/${g.slug}`} key={g.slug} className="group glass-card bg-white/50 dark:bg-slate-900/50 p-8 rounded-[2rem] hover:border-primary/50 hover:shadow-xl hover:shadow-primary/5 transition-all block h-full border border-slate-200 dark:border-slate-800">
                                 <h3 className="text-xl font-bold text-slate-800 dark:text-slate-200 group-hover:text-primary mb-3">
                                     {g.title}
                                 </h3>

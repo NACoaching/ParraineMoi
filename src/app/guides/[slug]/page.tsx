@@ -133,7 +133,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         "author": {
             "@type": "Person",
             "name": "L'Équipe Bons Plans",
-            "url": "https://codes-de-parrainages.com/notre-methodologie"
+            "url": "https://codes-de-parrainages.com/a-propos"
         },
         "image": "https://codes-de-parrainages.com/og-image.png"
     };

@@ -8,6 +8,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: 'Plan du Site | Codes de Parrainages',
     description: 'Retrouvez l\'intégralité de nos offres de parrainage, guides et catégories sur une seule page.',
+    alternates: {
+        canonical: '/plan-du-site',
+    },
 };
 
 export default function SitemapPage() {
