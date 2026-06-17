@@ -30,6 +30,8 @@ export function Footer() {
                         </h3>
                         <ul className="space-y-3 text-sm text-slate-500 dark:text-slate-400">
                             {[
+                                { name: "Fortuneo Banque", href: "/parrainage-fortuneo" },
+                                { name: "N26", href: "/parrainage-n26" },
                                 { name: "Sumeria (ex-Lydia)", href: "/parrainage-sumeria" },
                                 { name: "Trade Republic", href: "/parrainage-trade-republic" },
                                 { name: "Robinhood Crypto", href: "/parrainage-robinhood" },

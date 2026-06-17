@@ -115,6 +115,8 @@ export default function Home() {
           </h2>
           <div className="flex flex-wrap gap-2.5">
             {[
+              { name: "Fortuneo", slug: "fortuneo", reward: "130€" },
+              { name: "N26", slug: "n26", reward: "75€" },
               { name: "Sumeria", slug: "sumeria", reward: "30€" },
               { name: "Trade Republic", slug: "trade-republic", reward: "Offre active" },
               { name: "Robinhood Crypto", slug: "robinhood", reward: "40€" },
