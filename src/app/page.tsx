@@ -107,6 +107,34 @@ export default function Home() {
           ))}
         </div>
 
+        {/* Offres Tendances - SEO Internal Linking boost */}
+        <div className="w-full max-w-4xl mb-12 text-left bg-slate-50/50 dark:bg-slate-900/30 border border-slate-200/50 dark:border-slate-800/50 p-6 rounded-[2rem]">
+          <h2 className="text-sm font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-2 uppercase tracking-wider">
+            <span className="flex h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
+            Accès rapide aux parrainages populaires :
+          </h2>
+          <div className="flex flex-wrap gap-2.5">
+            {[
+              { name: "Sumeria", slug: "sumeria", reward: "30€" },
+              { name: "Trade Republic", slug: "trade-republic", reward: "Offre active" },
+              { name: "Robinhood Crypto", slug: "robinhood", reward: "40€" },
+              { name: "Vinted", slug: "vinted", reward: "Bonus" },
+              { name: "Winamax", slug: "winamax", reward: "Prime" },
+              { name: "Unibet", slug: "unibet", reward: "Bonus sport" },
+              { name: "Yoojo", slug: "yoojo", reward: "-3€" }
+            ].map((item) => (
+              <Link
+                key={item.slug}
+                href={`/parrainage-${item.slug}`}
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-primary/50 dark:hover:border-primary/50 hover:shadow-sm transition-all text-xs font-semibold text-slate-700 dark:text-slate-300"
+              >
+                <span className="font-bold text-slate-900 dark:text-white">{item.name}</span>
+                <span className="text-[10px] text-primary bg-primary/10 px-1.5 py-0.5 rounded font-black">{item.reward}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+
         <div id="grid-offres" className="w-full pt-10">
             <ReferralGrid referrals={referrals} />
         </div>

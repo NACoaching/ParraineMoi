@@ -8,7 +8,7 @@ export function Footer() {
 
             <div className="w-full max-w-6xl mx-auto px-6 py-20">
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-16">
-                    <div className="space-y-8 md:col-span-5">
+                    <div className="space-y-8 md:col-span-4">
                         <Link href="/" className="inline-flex items-center gap-3 font-bold text-2xl tracking-tighter text-slate-900 dark:text-white">
                             <span className="p-2 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-xl shadow-md">
                                 <Gift size={24} />
@@ -26,20 +26,21 @@ export function Footer() {
 
                     <div className="space-y-6 md:col-span-3">
                         <h3 className="font-bold text-slate-900 dark:text-white text-xs uppercase tracking-[0.2em]">
-                            Univers
+                            Offres Stars
                         </h3>
-                        <ul className="space-y-4 text-sm text-slate-500 dark:text-slate-400">
+                        <ul className="space-y-3 text-sm text-slate-500 dark:text-slate-400">
                             {[
-                                { name: "Néobanques", href: "/categorie/banque-finance" },
-                                { name: "Crypto", href: "/categorie/crypto" },
-                                { name: "Shopping", href: "/categorie/shopping" },
-                                { name: "Énergie", href: "/categorie/energie-internet" },
-                                { name: "Jeux & Gains", href: "/categorie/jeux-gains" },
-                                { name: "Outils Numériques", href: "/categorie/outils-numeriques" },
-                                { name: "Paris Sportifs", href: "/categorie/paris-sportifs-poker" }
+                                { name: "Sumeria (ex-Lydia)", href: "/parrainage-sumeria" },
+                                { name: "Trade Republic", href: "/parrainage-trade-republic" },
+                                { name: "Robinhood Crypto", href: "/parrainage-robinhood" },
+                                { name: "Vinted", href: "/parrainage-vinted" },
+                                { name: "Winamax", href: "/parrainage-winamax" },
+                                { name: "Yoojo", href: "/parrainage-yoojo" },
+                                { name: "Unibet", href: "/parrainage-unibet" }
                             ].map((link) => (
                                 <li key={link.name}>
                                     <Link href={link.href} className="hover:text-primary transition-colors flex items-center gap-2">
+                                        <ChevronRight size={12} className="text-slate-300 dark:text-slate-700" />
                                         {link.name}
                                     </Link>
                                 </li>
@@ -47,11 +48,32 @@ export function Footer() {
                         </ul>
                     </div>
 
-                    <div className="space-y-6 md:col-span-4">
+                    <div className="space-y-6 md:col-span-2">
+                        <h3 className="font-bold text-slate-900 dark:text-white text-xs uppercase tracking-[0.2em]">
+                            Catégories
+                        </h3>
+                        <ul className="space-y-3 text-sm text-slate-500 dark:text-slate-400">
+                            {[
+                                { name: "Néobanques", href: "/categorie/banque-finance" },
+                                { name: "Crypto", href: "/categorie/crypto" },
+                                { name: "Shopping", href: "/categorie/shopping" },
+                                { name: "Jeux & Gains", href: "/categorie/jeux-gains" }
+                            ].map((link) => (
+                                <li key={link.name}>
+                                    <Link href={link.href} className="hover:text-primary transition-colors flex items-center gap-2">
+                                        <ChevronRight size={12} className="text-slate-300 dark:text-slate-700" />
+                                        {link.name}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
+                    <div className="space-y-6 md:col-span-3">
                         <h3 className="font-bold text-slate-900 dark:text-white text-xs uppercase tracking-[0.2em]">
                             Navigation
                         </h3>
-                        <ul className="space-y-4 text-sm text-slate-500 dark:text-slate-400">
+                        <ul className="space-y-3 text-sm text-slate-500 dark:text-slate-400">
                             {[
                                 { name: "Tous les Guides", href: "/guides" },
                                 { name: "Plan du site", href: "/plan-du-site" },
@@ -61,6 +83,7 @@ export function Footer() {
                             ].map((link) => (
                                 <li key={link.name}>
                                     <Link href={link.href} className="hover:text-primary transition-colors flex items-center gap-2">
+                                        <ChevronRight size={12} className="text-slate-300 dark:text-slate-700" />
                                         {link.name}
                                     </Link>
                                 </li>
