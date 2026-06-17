@@ -116,14 +116,15 @@ export default function Home() {
           <div className="flex flex-wrap gap-2.5">
             {[
               { name: "Fortuneo", slug: "fortuneo", reward: "130€" },
+              { name: "BoursoBank", slug: "boursobank", reward: "130€" },
+              { name: "Revolut", slug: "revolut", reward: "200€" },
               { name: "N26", slug: "n26", reward: "75€" },
               { name: "Sumeria", slug: "sumeria", reward: "30€" },
               { name: "Trade Republic", slug: "trade-republic", reward: "Offre active" },
               { name: "Robinhood Crypto", slug: "robinhood", reward: "40€" },
-              { name: "Vinted", slug: "vinted", reward: "Bonus" },
+              { name: "Kraken", slug: "kraken", reward: "200€" },
               { name: "Winamax", slug: "winamax", reward: "Prime" },
-              { name: "Unibet", slug: "unibet", reward: "Bonus sport" },
-              { name: "Yoojo", slug: "yoojo", reward: "-3€" }
+              { name: "Unibet", slug: "unibet", reward: "Bonus sport" }
             ].map((item) => (
               <Link
                 key={item.slug}
