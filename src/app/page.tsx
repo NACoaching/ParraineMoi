@@ -120,11 +120,11 @@ export default function Home() {
               { name: "Revolut", slug: "revolut", reward: "200€" },
               { name: "N26", slug: "n26", reward: "75€" },
               { name: "Sumeria", slug: "sumeria", reward: "30€" },
-              { name: "Trade Republic", slug: "trade-republic", reward: "Offre active" },
+              { name: "Trade Republic", slug: "trade-republic", reward: "10€" },
               { name: "Robinhood Crypto", slug: "robinhood", reward: "40€" },
               { name: "Kraken", slug: "kraken", reward: "200€" },
-              { name: "Winamax", slug: "winamax", reward: "Prime" },
-              { name: "Unibet", slug: "unibet", reward: "Bonus sport" }
+              { name: "Winamax", slug: "winamax", reward: "100€" },
+              { name: "Unibet", slug: "unibet", reward: "140€" }
             ].map((item) => (
               <Link
                 key={item.slug}
