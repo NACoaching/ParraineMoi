@@ -35,6 +35,10 @@ const categorySeoContent: Record<string, { intro: string, subtitle: string }> = 
     "Jeux & Gains": {
         intro: "Le secteur des jeux rémunérateurs, sondages et applications ludiques récompense très bien l'acquisition. Les offres d'inscription pour de nouveaux utilisateurs vous permettent souvent de recevoir des jetons, des tickets ou même de la monnaie fiat pour démarrer votre progression dans l'écosystème du jeu.",
         subtitle: "Démarrage ludique accéléré"
+    },
+    "Paris Sportifs & Poker": {
+        intro: "Le secteur des paris sportifs et du poker en ligne propose des offres de bienvenue très attractives sous forme de premier pari remboursé (freebets) ou de bonus de premier dépôt. Profitez de nos codes de parrainage validés pour débuter sur Winamax ou Unibet.",
+        subtitle: "Optimisez vos premiers pronostics"
     }
 };
 
@@ -55,6 +59,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         "Shopping": `Codes Parrainage Cashback ${currentYear} → Réductions & Cagnotte`,
         "Énergie & Internet": `Codes Parrainage Énergie & Internet ${currentYear} → Factures Réduites`,
         "Jeux & Gains": `Codes Parrainage Jeux ${currentYear} → Bonus et Gains Réels`,
+        "Paris Sportifs & Poker": `Codes Parrainage Paris Sportifs & Poker ${currentYear} → Bonus Freebets`,
     };
 
     const categoryDescs: Record<string, string> = {
@@ -63,6 +68,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         "Shopping": `Codes parrainage cashback et e-commerce vérifiés en ${currentYear} : iGraal, eBuyClub, Poulpeo, Joko. Réductions immédiates sur vos achats.`,
         "Énergie & Internet": `Codes parrainage énergie et fournisseurs internet ${currentYear} : économisez sur vos factures avec des primes de bienvenue vérifiées.`,
         "Jeux & Gains": `Codes parrainage jeux et applications rémunératrices en ${currentYear} : bonus de démarrage vérifiés pour maximiser vos gains réels.`,
+        "Paris Sportifs & Poker": `Comparez les meilleures offres de parrainage pour paris sportifs et poker en ${currentYear} : Winamax et Unibet. Jusqu'à 140€ de bonus de bienvenue vérifiés !`,
     };
 
     const title = categoryTitles[originalCategory] || `Parrainages ${originalCategory} ${currentYear} → Offres Vérifiées`;
