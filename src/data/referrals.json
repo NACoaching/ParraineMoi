@@ -2632,53 +2632,59 @@
     "name": "FDJ (Française des Jeux)",
     "slug": "fdj",
     "category": "Jeux & Gains",
-    "code": "OFFRE SUSPENDUE",
-    "link": "https://www.fdj.fr",
-    "advantage": "Bonus de bienvenue (Suspendu)",
-    "description": "La Française des Jeux (FDJ) est l'opérateur historique de jeux de tirage et de grattage en France. Suite à des changements dans leur politique commerciale, le programme de parrainage direct est actuellement suspendu. Nous surveillons de près sa réouverture pour vous proposer les meilleurs avantages dès qu'ils seront de nouveau disponibles.",
+    "code": "https://www.fdj.fr/inscription/fdj?campaign=codeparrain&parrain=7E4D5-57E07-40E34",
+    "link": "https://www.fdj.fr/inscription/fdj?campaign=codeparrain&parrain=7E4D5-57E07-40E34",
+    "advantage": "10€ offerts",
+    "description": "Profitez de l'offre de parrainage FDJ active jusqu'au 12 juillet 2026 pour obtenir 10€ de bonus de bienvenue. Inscrivez-vous, transmettez votre pièce d'identité et jouez 5€ seulement pour débloquer votre cadeau.",
     "logoUrl": "/logos/fdj.jpeg",
+    "seoTitle": "Code Parrainage FDJ Juillet 2026 : 10€ Offerts à l'Inscription",
+    "seoDescription": "Profitez de l'offre de parrainage FDJ pour obtenir 10€ offerts. Validez votre compte avec votre pièce d'identité et jouez 5€ seulement. Offre valide en 2026 !",
     "review": {
       "pros": [
-        "Opérateur historique et sécurisé sous licence d'État",
-        "Large catalogue de jeux : Loto, EuroDreams, grattage Illiko",
-        "Application mobile fluide pour jouer et vérifier ses gains",
-        "Retraits des gains rapides et garantis"
+        "Opérateur historique, 100% légal et sécurisé sous licence d'État",
+        "Bonus de parrainage de 10€ très facile à débloquer (5€ de mise)",
+        "Catalogue de jeux complet (Loto, EuroMillions, EuroDreams, grattage Illiko)",
+        "Application mobile fluide pour jouer et vérifier ses gains en temps réel"
       ],
       "cons": [
-        "Parrainage actuellement indisponible pour les nouveaux joueurs",
-        "Limites de jeu responsables strictes"
+        "Offre à durée limitée (valable jusqu'au 12 juillet 2026)",
+        "Limites de jeu responsables strictes pour protéger les joueurs"
       ],
-      "longReview": "<p>La <strong>Française des Jeux (FDJ)</strong> n'est plus à présenter. En tant qu'institution du jeu en France, elle offre une plateforme ultra-sécurisée pour tous les amateurs de loterie et de jeux de hasard. Que vous soyez adepte du <strong>Loto</strong>, de l'<strong>EuroMillions</strong> ou des jeux de grattage plus rapides comme le <em>Cash</em> ou l'<em>Astro</em>, l'expérience est désormais optimale sur le web et mobile.</p><br/><p>Concernant le parrainage, la FDJ a fait le choix de <strong>suspendre temporairement son programme d'invitation</strong>. Cela arrive régulièrement lors de mises à jour de leur plateforme ou de changements de stratégie marketing. Bien qu'il ne soit pas possible de bénéficier d'un bonus de parrainage aujourd'hui, nous vous conseillons de rester attentifs aux offres de bienvenue directes qui peuvent être proposées lors de l'inscription.</p><br/><p>Dès que le système de parrainage sera réactivé, nous mettrons à jour cette page avec les codes et liens officiels pour vous permettre de maximiser vos avantages.</p>"
+      "longReview": "<p>La <strong>Française des Jeux (FDJ)</strong> vient de réactiver son programme de parrainage exclusif ! C'est l'opportunité idéale pour les nouveaux joueurs de découvrir la plateforme de loterie et de jeux de tirage préférée des Français tout en empochant un bonus de bienvenue.</p><br/><p>En passant par notre lien de parrainage officiel FDJ, vous bénéficiez de <strong>10€ offerts</strong> crédités directement sur votre compte de jeu. Cette offre promotionnelle a une validité strictement limitée dans le temps et prendra fin le <strong>12 juillet 2026</strong>. Ne tardez donc pas à en profiter !</p><br/><h3>Comment obtenir les 10€ de bonus FDJ ?</h3><p>Pour être éligible et recevoir vos 10€ de crédit de jeu gratuits, le processus est simple et rapide :</p><ul><li><strong>Étape 1 :</strong> Inscrivez-vous en cliquant directement sur notre lien de parrainage officiel.</li><li><strong>Étape 2 :</strong> Envoyez une copie de votre pièce d'identité (carte d'identité, passeport ou titre de séjour) sous 30 jours pour valider votre compte de jeu.</li><li><strong>Étape 3 :</strong> Effectuez un premier dépôt et jouez un montant minimum de 5€ sur les jeux de tirage (Loto, EuroMillions, Keno...) ou de grattage (Cash, Astro, Black Jack...).</li></ul><br/><p>Une fois ces trois conditions remplies, le bonus de 10€ sera versé sur votre compte FDJ sous forme de crédits de jeu non retirables immédiatement, parfaits pour tenter votre chance sur les prochains tirages !</p>"
     },
     "steps": [
       {
-        "title": "Création de compte",
-        "description": "Inscrivez-vous sur le site officiel fdj.fr avec vos informations personnelles et une pièce d'identité valide."
+        "title": "Inscription en ligne",
+        "description": "Inscrivez-vous sur le site officiel fdj.fr en passant directement par notre lien de parrainage exclusif."
       },
       {
-        "title": "Validation du dossier",
-        "description": "Faites valider votre compte en envoyant vos justificatifs pour pouvoir retirer vos futurs gains."
+        "title": "Envoi de la pièce d'identité",
+        "description": "Téléchargez votre pièce d'identité (CNI, Passeport) dans votre espace client sous 30 jours pour certifier votre compte."
       },
       {
-        "title": "Dépôt et Jeu",
-        "description": "Effectuez votre premier dépôt pour commencer à jouer de manière responsable aux différents jeux disponibles."
+        "title": "Dépôt et Jeu de 5€",
+        "description": "Faites un dépôt et jouez au moins **5€** sur le jeu de votre choix (Loto, grattage, etc.) pour recevoir vos **10€ offerts**."
       }
     ],
     "faqs": [
       {
-        "question": "Pourquoi l'offre de parrainage FDJ est-elle suspendue ?",
-        "answer": "La FDJ ajuste ses campagnes promotionnelles tout au long de l'année. Le parrainage est l'un des leviers qu'ils activent périodiquement. Nous mettrons à jour cette section dès que le programme reprendra."
+        "question": "Comment fonctionne le parrainage FDJ de 10€ ?",
+        "answer": "Pour obtenir les 10€ offerts, vous devez vous inscrire en passant par notre lien de parrainage officiel, transmettre votre carte d'identité sous 30 jours et jouer au moins 5€ sur la plateforme."
       },
       {
-        "question": "Peut-on quand même s'inscrire à la FDJ ?",
-        "answer": "Oui, vous pouvez créer un compte à tout moment sur fdj.fr. L'absence de parrainage ne vous empêche pas de profiter de l'ensemble des jeux et des services de la plateforme."
+        "question": "Quelle est la date limite pour profiter de l'offre parrainage FDJ ?",
+        "answer": "Cette campagne de parrainage FDJ a repris récemment et est valable jusqu'au 12 juillet 2026 inclus. Après cette date, l'offre ne sera plus disponible."
       },
       {
-        "question": "Quelles sont les conditions pour s'inscrire ?",
-        "answer": "Vous devez être majeur (18+ ans), résider en France (ou Monaco) et posséder un compte bancaire à votre nom pour percevoir vos gains."
+        "question": "Le bonus de 10€ est-il retirable directement ?",
+        "answer": "Le bonus de 10€ est versé sous forme de crédits de jeu. Vous devez les jouer sur le site FDJ. Les gains nets découlant de ces jeux sont quant à eux retirables vers votre compte bancaire."
+      },
+      {
+        "question": "Quelles sont les conditions pour s'inscrire sur FDJ.fr ?",
+        "answer": "Vous devez être une personne physique majeure (18 ans et plus), résider fiscalement en France (ou Monaco), et posséder un compte bancaire à votre nom pour le versement des gains."
       }
     ],
-    "lastVerified": "2026-06-17"
+    "lastVerified": "2026-06-30"
   },
   {
     "id": "153",
