@@ -1994,7 +1994,7 @@
     "code": "3yt99ybs",
     "link": "https://invite.kraken.com/JDNW/zoosbaje",
     "advantage": "Jusqu'à 200€ offerts",
-    "description": "Inscrivez-vous à Kraken et recevez jusqu’à 200 € ! Acceptez mon invitation via le lien ci-dessous pour obtenir un bonus de bienvenue.",
+    "description": "Inscrivez-vous sur Kraken et recevez jusqu’à 200 € ! Pour obtenir ce bonus de bienvenue, vous devez déposer au moins 200 € et acheter pour 200 € de cryptomonnaie.",
     "logoUrl": "/logos/kraken.png",
     "review": {
       "pros": [
@@ -2006,7 +2006,7 @@
         "Frais plus élevés sur la fonction d'achat instantané de la version basique",
         "Interface Pro moins intuitive pour les débutants complets"
       ],
-      "longReview": "<p>Kraken figure parmi les pionniers de l'écosystème crypto, ayant bâti sa réputation sur une <strong>sécurité infaillible</strong> et une transparence à toute épreuve depuis plus d'une décennie. C'est l'une des rares plateformes à n'avoir jamais subi de piratage majeur, ce qui en fait un coffre-fort numérique de premier choix pour vos investissements.</p><br/><p>En ouvrant votre compte avec notre lien d'invitation et en réalisant un premier achat ou trade qualifiant, vous débloquerez un beau bonus de bienvenue, pouvant s'élever jusqu'à <strong>200€</strong> !</p>"
+      "longReview": "<p>Kraken figure parmi les pionniers de l'écosystème crypto, ayant bâti sa réputation sur une <strong>sécurité infaillible</strong> et une transparence à toute épreuve depuis plus d'une décennie. C'est l'une des rares plateformes à n'avoir jamais subi de piratage majeur, ce qui en fait un coffre-fort numérique de premier choix pour vos investissements.</p><br/><p>En ouvrant votre compte avec notre lien d'invitation, en déposant un minimum de 200 € et en effectuant un achat de 200 € de cryptomonnaie, vous débloquerez un beau bonus de bienvenue pouvant s'élever jusqu'à <strong>200€</strong> !</p>"
     },
     "steps": [
       {
@@ -2014,8 +2014,8 @@
         "description": "Cliquez sur notre lien d'invitation ci-dessous pour accéder au site de Kraken. Finalisez la **vérification** de votre identité (**KYC**) en quelques minutes."
       },
       {
-        "title": "Achat qualifiant",
-        "description": "Effectuez le montant minimal d'**achat** ou de trading de cryptomonnaies requis pour **valider** votre offre de bienvenue dans la période impartie."
+        "title": "Dépôt et achat qualifiants",
+        "description": "Déposez au moins **200€** sur votre compte puis achetez pour **200€** de cryptomonnaies pour valider votre offre dans la période impartie."
       },
       {
         "title": "Encaissement du bonus",
