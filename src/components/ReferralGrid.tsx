@@ -5,7 +5,7 @@ import { useState, useMemo } from "react";
 import { ReferralCard, Referral } from "./ReferralCard";
 import Link from "next/link";
 import { slugifyCategory } from "@/lib/utils";
-import referralsData from "@/data/referrals.json";
+import { referrals as allReferrals } from "@/lib/data";
 
 export function ReferralGrid({ referrals, activeCategoryName: initialCategory = "Toutes" }: { referrals: Referral[], activeCategoryName?: string }) {
     const [searchTerm, setSearchTerm] = useState("");
@@ -27,7 +27,7 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
 
     const allCategories = useMemo(() => {
         // If we are given a limited list and an initial category, prioritize that
-        const sourceData = initialCategory !== "Toutes" ? referrals : referralsData as Referral[];
+        const sourceData = initialCategory !== "Toutes" ? referrals : allReferrals;
         const cats = Array.from(new Set(sourceData.map(r => r.category)));
         return ["Toutes", ...cats];
     }, [referrals, initialCategory]);

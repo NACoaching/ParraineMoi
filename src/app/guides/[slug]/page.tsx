@@ -3,19 +3,18 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft, Clock, Calendar, BookOpen, ChevronRight } from 'lucide-react';
 import Image from 'next/image';
-import guidesData from '@/data/guides.json';
-import referralsData from '@/data/referrals.json';
+import { referrals, guides } from '@/lib/data';
 import { ReferralCard, Referral } from '@/components/ReferralCard';
 
 export async function generateStaticParams() {
-    return guidesData.map((guide) => ({
+    return guides.map((guide) => ({
         slug: guide.slug,
     }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
     const { slug } = await params;
-    const guide = guidesData.find((g) => g.slug === slug);
+    const guide = guides.find((g) => g.slug === slug);
 
     if (!guide) {
         return {
@@ -51,14 +50,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function GuidePage({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params;
-    const guide = guidesData.find((g) => g.slug === slug);
+    const guide = guides.find((g) => g.slug === slug);
 
     if (!guide) {
         notFound();
     }
 
     // Get associated referrals for internal linking
-    const guideReferrals = (referralsData as Referral[]).filter(ref =>
+    const guideReferrals = referrals.filter(ref =>
         guide.referralSlugs.includes(ref.slug)
     );
 
@@ -239,7 +238,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                         À lire aussi sur le même sujet
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        {guidesData
+                        {guides
                             .filter(g => g.slug !== guide.slug && (g.category === guide.category))
                             .slice(0, 2)
                             .map((relatedGuide) => (

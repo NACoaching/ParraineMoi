@@ -1,6 +1,5 @@
 import { ReferralGrid } from "@/components/ReferralGrid";
-import referralsData from "@/data/referrals.json";
-import guidesData from "@/data/guides.json";
+import { referrals, guides } from "@/lib/data";
 import { Referral } from "@/components/ReferralCard";
 import { slugifyCategory } from "@/lib/utils";
 import { ChevronRight, Home, BookOpen } from "lucide-react";
@@ -9,7 +8,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 export async function generateStaticParams() {
-    const categories = Array.from(new Set(referralsData.map(r => r.category)));
+    const categories = Array.from(new Set(referrals.map(r => r.category)));
     return categories.map((category) => ({
         slug: slugifyCategory(category),
     }));
@@ -44,7 +43,7 @@ const categorySeoContent: Record<string, { intro: string, subtitle: string }> = 
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
     const { slug } = await params;
-    const categories = Array.from(new Set(referralsData.map(r => r.category)));
+    const categories = Array.from(new Set(referrals.map(r => r.category)));
     const originalCategory = categories.find(c => slugifyCategory(c) === slug);
 
     if (!originalCategory) {
@@ -97,7 +96,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {
     const resolvedParams = await params;
     const slug = resolvedParams.slug;
-    const originalCategory = Array.from(new Set(referralsData.map(r => r.category))).find(
+    const originalCategory = Array.from(new Set(referrals.map(r => r.category))).find(
         cat => slugifyCategory(cat) === slug
     );
 
@@ -105,8 +104,8 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         notFound();
     }
 
-    const categoryReferrals = (referralsData as Referral[]).filter((r) => r.category === originalCategory);
-    const categoryGuides = guidesData.filter((g) => g.category === originalCategory);
+    const categoryReferrals = referrals.filter((r) => r.category === originalCategory);
+    const categoryGuides = guides.filter((g) => g.category === originalCategory);
 
     const itemListJsonLd = {
         "@context": "https://schema.org",

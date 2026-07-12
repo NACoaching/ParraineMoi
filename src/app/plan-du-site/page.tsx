@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import referralsData from '@/data/referrals.json';
-import guidesData from '@/data/guides.json';
+import { referrals, guides } from '@/lib/data';
 import { slugifyCategory } from '@/lib/utils';
 import { Home, ChevronRight, List, BookOpen, Tag } from 'lucide-react';
 import { Metadata } from 'next';
@@ -14,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 export default function SitemapPage() {
-    const categories = Array.from(new Set(referralsData.map((r) => r.category))).sort();
+    const categories = Array.from(new Set(referrals.map((r) => r.category))).sort();
 
     return (
         <main className="min-h-screen px-4 py-12 sm:px-6 sm:py-20 max-w-4xl mx-auto">
@@ -55,7 +54,7 @@ export default function SitemapPage() {
                                     {cat}
                                 </Link>
                                 <ul className="space-y-2 border-l-2 border-slate-100 pl-4 ml-1">
-                                    {referralsData
+                                    {referrals
                                         .filter((r) => r.category === cat)
                                         .sort((a, b) => a.name.localeCompare(b.name))
                                         .map((ref) => (
@@ -82,7 +81,7 @@ export default function SitemapPage() {
                     </div>
                     
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-3">
-                        {guidesData.map((guide) => (
+                        {guides.map((guide) => (
                             <li key={guide.slug}>
                                 <Link 
                                     href={`/guides/${guide.slug}`}

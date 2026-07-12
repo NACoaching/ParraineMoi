@@ -1,13 +1,12 @@
 import { MetadataRoute } from 'next';
-import referralsData from '@/data/referrals.json';
-import guidesData from '@/data/guides.json';
+import { referrals, guides } from '@/lib/data';
 import { slugifyCategory } from '@/lib/utils';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://codes-de-parrainages.com';
     
     // Find the latest verification date across all referrals for global freshness
-    const lastModified = referralsData.reduce((latest, referral) => {
+    const lastModified = referrals.reduce((latest, referral) => {
         if (!referral.lastVerified) return latest;
         const refDate = new Date(referral.lastVerified);
         return refDate > latest ? refDate : latest;
@@ -64,7 +63,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ];
 
     // Dynamic pages (referrals)
-    const referralsSitemap: MetadataRoute.Sitemap = referralsData.map((referral) => ({
+    const referralsSitemap: MetadataRoute.Sitemap = referrals.map((referral) => ({
         url: `${baseUrl}/parrainage-${referral.slug}`,
         lastModified: referral.lastVerified ? new Date(referral.lastVerified) : lastModified,
         changeFrequency: 'monthly',
@@ -72,7 +71,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }));
 
     // Dynamic guide pages
-    const guidesSitemap: MetadataRoute.Sitemap = guidesData.map((guide) => ({
+    const guidesSitemap: MetadataRoute.Sitemap = guides.map((guide) => ({
         url: `${baseUrl}/guides/${guide.slug}`,
         lastModified: new Date(guide.date),
         changeFrequency: 'monthly',
@@ -80,7 +79,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }));
 
     // Dynamic category pages
-    const categories = Array.from(new Set(referralsData.map(r => r.category)));
+    const categories = Array.from(new Set(referrals.map(r => r.category)));
     const categoriesSitemap: MetadataRoute.Sitemap = categories.map((cat) => ({
         url: `${baseUrl}/categorie/${slugifyCategory(cat)}`,
         lastModified: lastModified,

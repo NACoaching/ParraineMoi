@@ -1,8 +1,7 @@
 import { ReferralGrid } from "@/components/ReferralGrid";
-import referralsData from "@/data/referrals.json";
+import { referrals, guides } from "@/lib/data";
 import { Referral } from "@/components/ReferralCard";
 import { FaqAccordion } from "@/components/FaqAccordion";
-import guidesData from "@/data/guides.json";
 import Link from "next/link";
 import { ArrowRight, Search, Gift, Wallet } from "lucide-react";
 
@@ -45,8 +44,8 @@ const itemListJsonLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
   "name": "Codes de parrainage et offres de bienvenue",
-  "numberOfItems": referralsData.length,
-  "itemListElement": referralsData.map((ref, index) => ({
+  "numberOfItems": referrals.length,
+  "itemListElement": referrals.map((ref, index) => ({
     "@type": "ListItem",
     "position": index + 1,
     "name": `Code parrainage ${ref.name} : ${ref.advantage}`,
@@ -54,7 +53,6 @@ const itemListJsonLd = {
   }))
 };
 export default function Home() {
-  const referrals = referralsData as Referral[];
 
   return (
     <main className="flex flex-col items-center min-h-screen pb-20">
@@ -157,8 +155,8 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {(() => {
             const featuredSlugs = ["comparatif-meilleure-banque-en-ligne-2026"];
-            const featured = guidesData.filter((g) => featuredSlugs.includes(g.slug));
-            const others = guidesData.filter((g) => !featuredSlugs.includes(g.slug));
+            const featured = guides.filter((g) => featuredSlugs.includes(g.slug));
+            const others = guides.filter((g) => !featuredSlugs.includes(g.slug));
             return [...featured, ...others].slice(0, 3);
           })().map((guide) => (
             <Link key={guide.id} href={`/guides/${guide.slug}`} className="group flex flex-col h-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl overflow-hidden hover:shadow-lg hover:border-primary/50 transition-all duration-300">

@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { CompanyLogo } from "./CompanyLogo";
 import { Check, Banknote, Sparkles } from "lucide-react";
 
-import referralsData from "@/data/referrals.json";
+import { referrals } from "@/lib/data";
 
 const extractValue = (advantage: string) => {
     // Normalise les espaces entre les chiffres (ex: "2 500" -> "2500")
@@ -19,7 +19,7 @@ const extractValue = (advantage: string) => {
     return 0;
 };
 
-const dynamicOffers = referralsData.map((ref) => ({
+const dynamicOffers = referrals.map((ref) => ({
     slug: ref.slug,
     name: ref.name,
     value: extractValue(ref.advantage),

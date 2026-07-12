@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import guidesData from '@/data/guides.json';
+import { guides } from '@/lib/data';
 import { GuidesGrid } from '@/components/GuidesGrid';
 import { BookOpen, Calendar, Clock, ArrowRight, Home, ChevronRight } from 'lucide-react';
 
@@ -61,7 +61,7 @@ export default function GuidesPage() {
                     </p>
                 </div>
 
-                <GuidesGrid guides={guidesData} />
+                <GuidesGrid guides={guides} />
             </section>
         </main>
     );

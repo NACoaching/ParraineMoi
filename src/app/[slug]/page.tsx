@@ -7,13 +7,11 @@ import { CompanyLogo } from '@/components/CompanyLogo';
 import { StickyCopyBar } from '@/components/StickyCopyBar';
 import { FaqAccordion } from '@/components/FaqAccordion';
 import { ReferralGrid } from '@/components/ReferralGrid';
-import referralsData from '@/data/referrals.json';
-import guidesData from '@/data/guides.json';
+import { referrals, guides } from '@/lib/data';
 import { Referral, ReferralCard } from '@/components/ReferralCard';
 import { slugifyCategory } from '@/lib/utils';
 
 export async function generateStaticParams() {
-    const referrals = referralsData as Referral[];
     return referrals.map((referral) => ({
         slug: `parrainage-${referral.slug}`,
     }));
@@ -31,7 +29,6 @@ export async function generateMetadata({
     }
 
     const brandSlug = slug.replace('parrainage-', '');
-    const referrals = referralsData as Referral[];
     const referral = referrals.find((r) => r.slug === brandSlug);
 
     if (!referral) {
@@ -80,7 +77,6 @@ export default async function ReferralPage({
     }
 
     const brandSlug = slug.replace('parrainage-', '');
-    const referrals = referralsData as Referral[];
     const referral = referrals.find((r) => r.slug === brandSlug);
 
     if (!referral) {
@@ -95,8 +91,8 @@ export default async function ReferralPage({
         .slice(0, 3); // Get top 3
 
     // Find guides that talk about this referral, fill with category guides if not enough
-    const explicitGuides = guidesData.filter((g) => g.referralSlugs?.includes(referral.slug));
-    const fallbackGuides = guidesData.filter(
+    const explicitGuides = guides.filter((g) => g.referralSlugs?.includes(referral.slug));
+    const fallbackGuides = guides.filter(
         (g) => g.category === referral.category && !g.referralSlugs?.includes(referral.slug)
     );
     const relatedGuides = [...explicitGuides, ...fallbackGuides].slice(0, 4);
@@ -439,6 +435,23 @@ export default async function ReferralPage({
                         </div>
                     </div>
 
+
+                    {/* Alternatives Recommandées */}
+                    {relatedReferrals.length > 0 && (
+                        <div>
+                            <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3 mt-12">
+                                <span className="flex items-center justify-center p-2 rounded-xl bg-primary/10 text-primary">
+                                    <Gift className="w-5 h-5" />
+                                </span>
+                                Alternatives populaires à {referral.name}
+                            </h2>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                                {relatedReferrals.slice(0, 3).map((altOffer, index) => (
+                                    <ReferralCard key={altOffer.slug} referral={altOffer} index={index} />
+                                ))}
+                            </div>
+                        </div>
+                    )}
 
                     {/* Related Guides Section */}
                     {relatedGuides.length > 0 && (
