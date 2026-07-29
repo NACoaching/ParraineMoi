@@ -18,6 +18,11 @@ const nextConfig: NextConfig = {
         destination: '/guides/guide-voyage-revolut-frais-bancaires-etranger',
         permanent: true,
       },
+      {
+        source: '/guide-voyage-revolut-frais-bancaires-etranger',
+        destination: '/guides/guide-voyage-revolut-frais-bancaires-etranger',
+        permanent: true,
+      },
     ]
   },
 };
