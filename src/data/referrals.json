@@ -2747,5 +2747,64 @@
       }
     ],
     "lastVerified": "2026-06-17"
+  },
+  {
+    "id": "1003",
+    "name": "Ledger",
+    "slug": "ledger",
+    "category": "Crypto",
+    "code": "QM0BTPEX9FN5W",
+    "link": "https://shop.ledger.com/fr/pages/referral-program?referral_code=QM0BTPEX9FN5W",
+    "advantage": "10$ de Bitcoin offerts",
+    "seoTitle": "Code Parrainage Ledger {{YEAR}} : 10$ en Bitcoin Gratuits 🛡️",
+    "seoDescription": "Profitez de l'offre de parrainage Ledger en {{YEAR}} et recevez 10$ en Bitcoin (BTC) à l'achat de votre Nano X ou Nano S Plus. Code vérifié et actif.",
+    "description": "Sécurisez vos crypto-monnaies avec Ledger, le leader mondial des portefeuilles physiques (hardware wallets). Achetez un Ledger Nano X ou Nano S Plus via notre lien de parrainage exclusif et recevez 10$ en Bitcoin gratuitement pour démarrer votre sécurisation.",
+    "logoUrl": "/logos/ledger.png",
+    "review": {
+      "pros": [
+        "Sécurité physique absolue (puce certifiée EAL6+ / Element sécurisé)",
+        "Support de plus de 5500 crypto-monnaies et jetons",
+        "Interface Ledger Live intuitive sur ordinateur et mobile",
+        "Possibilité de faire du staking et des achats directement dans l'application"
+      ],
+      "cons": [
+        "Coût d'achat initial (mais indispensable pour la sécurité de vos fonds)",
+        "Écran du Nano S Plus non tactile (contrairement au Ledger Stax ou Flex)"
+      ],
+      "longReview": "<p><strong>Ledger</strong> est la référence absolue en matière de sécurisation de crypto-actifs. Contrairement aux plateformes d'échange ou aux portefeuilles logiciels (hot wallets) constamment connectés à Internet, Ledger utilise un système de stockage à froid (cold wallet). Vos clés privées restent confinées hors ligne au sein d'une puce hautement sécurisée (EAL6+), rendant tout piratage à distance techniquement impossible. Comme le dit le célèbre adage crypto : <em>\"Not your keys, not your coins\"</em> — avec Ledger, vous possédez réellement vos actifs.</p><br/><p>L'écosystème Ledger s'appuie sur l'application <strong>Ledger Live</strong>, un outil extrêmement complet qui vous permet non seulement de visualiser vos soldes en temps réel, mais aussi d'acheter, vendre, échanger (swap) et même staker vos crypto-monnaies (Ethereum, Solana, Cardano, etc.) pour générer des revenus passifs, le tout en conservant une sécurité maximale.</p><br/><p>En utilisant notre <strong>lien de parrainage exclusif</strong> pour commander votre Ledger Nano X ou Nano S Plus sur la boutique officielle, vous rejoignez le programme \"Refer-a-Friend\". Dès la configuration de votre clé sur Ledger Live, vous recevrez un bonus de <strong>10$ en Bitcoin (BTC)</strong> directement crédités sur votre cagnotte. C'est l'occasion idéale d'allier sécurité et premier pas d'investissement offert !</p>"
+    },
+    "steps": [
+      {
+        "title": "Cliquez sur le lien de parrainage",
+        "description": "Utilisez notre lien d'invitation officiel pour être redirigé vers la boutique officielle de Ledger et activer le bonus de 10$."
+      },
+      {
+        "title": "Commandez votre hardware wallet",
+        "description": "Achetez le modèle de votre choix (Ledger Nano X ou Ledger Nano S Plus) directement sur le site."
+      },
+      {
+        "title": "Récupérez vos 10$ de Bitcoin",
+        "description": "Une fois votre clé Ledger configurée et l'application Ledger Live installée, accédez à la section parrainage pour réclamer vos **10$ en Bitcoin (BTC)**."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment activer le parrainage Ledger ?",
+        "answer": "Le processus est entièrement automatique : vous devez simplement cliquer sur notre lien d'invitation officiel avant de finaliser votre commande de Ledger Nano X ou Nano S Plus sur la boutique en ligne. Il n'y a aucun code promo à saisir manuellement dans votre panier."
+      },
+      {
+        "question": "Pourquoi préférer Ledger à une application comme Binance ou Coinbase ?",
+        "answer": "Laisser vos cryptomonnaies sur un échange centralisé (Binance, Coinbase, Kraken...) comporte un risque de blocage ou de faillite de la plateforme. En possédant une clé Ledger, vos cryptos sont stockées hors ligne. Vous êtes le seul détenteur des clés privées et gardez le contrôle total de votre argent."
+      },
+      {
+        "question": "Quel modèle de Ledger choisir ?",
+        "answer": "Le **Ledger Nano S Plus** est idéal pour débuter avec un excellent rapport qualité/prix (connexion USB uniquement). Le **Ledger Nano X** ajoute la connectivité Bluetooth, ce qui permet de gérer très facilement ses crypto-actifs en déplacement depuis un smartphone (iOS et Android) sans câble."
+      },
+      {
+        "question": "Quand reçoit-on les 10$ en Bitcoin ?",
+        "answer": "Le bonus de 10$ en BTC est disponible dans votre application Ledger Live dans un délai de 30 jours suivant l'expédition de votre commande, afin de couvrir la période de retour légale. Vous pourrez ensuite le transférer vers votre propre adresse Bitcoin."
+      }
+    ],
+    "lastVerified": "2026-08-02"
   }
 ]
