@@ -2747,56 +2747,5 @@
       }
     ],
     "lastVerified": "2026-06-17"
-  },
-  {
-    "id": "153",
-    "name": "Uphold",
-    "slug": "uphold",
-    "category": "Crypto",
-    "code": "A compléter",
-    "link": "https://uphold.com",
-    "advantage": "Bonus en crypto offert",
-    "seoTitle": "Code Parrainage Uphold {{YEAR}} : Bonus en Crypto Offert ✓",
-    "seoDescription": "Utilisez notre lien de parrainage Uphold en {{YEAR}}. Achetez et vendez des cryptos sur une plateforme multi-actifs sécurisée.",
-    "description": "Uphold is une plateforme financière multi-actifs qui vous permet d'échanger des cryptomonnaies, des métaux précieux et des devises fiduciaires. Sécurisée et simple à utiliser, elle est idéale pour diversifier votre portefeuille. Inscrivez-vous via notre lien de parrainage exclusif pour obtenir votre bonus de bienvenue.",
-    "logoUrl": "/logos/uphold.png",
-    "review": {
-      "pros": [
-        "Plateforme multi-actifs unique (crypto, métaux précieux, devises)",
-        "Sécurisée, transparente et entièrement régulée",
-        "Aucun frais de dépôt ou de retrait sur de nombreuses méthodes",
-        "Interface web et mobile fluide et moderne"
-      ],
-      "cons": [
-        "Frais de spread variables selon l'actif tradé",
-        "Support client principalement par formulaire en ligne"
-      ],
-      "longReview": "<p><strong>Uphold</strong> est une plateforme de trading multi-actifs qui se distingue par sa polyvalence. Elle permet non seulement d'acheter et de vendre des cryptomonnaies (plus de 250 actifs disponibles), mais également de négocier des métaux précieux comme l'or ou l'argent, ainsi que des devises traditionnelles. C'est l'un des rares acteurs qui vous permet de passer directement d'un actif à un autre (par exemple, échanger directement de l'or contre du Bitcoin) sans repasser par une monnaie fiduciaire.</p><br/><p>La sécurité et la transparence sont au cœur de la philosophie d'Uphold. La plateforme publie ses réserves en temps réel (Proof of Reserves 1:1), garantissant que chaque actif client est détenu intégralement et disponible à tout moment. Son interface simple d'utilisation en fait une plateforme de choix pour les investisseurs de tous niveaux.</p><br/><p>En vous inscrivant via notre <strong>lien de parrainage exclusif</strong>, vous devenez éligible aux bonus de bienvenue actifs de la plateforme. En tant que nouveau client, vous pouvez ainsi démarrer votre aventure d'investissement avec un coup de pouce immédiat en crypto-monnaies.</p>"
-    },
-    "steps": [
-      {
-        "title": "Création de compte via le lien",
-        "description": "Cliquez sur notre lien d'invitation pour accéder à la page d'inscription officielle d'Uphold. Le parrainage sera automatiquement lié à votre compte."
-      },
-      {
-        "title": "Vérification d'identité (KYC)",
-        "description": "Fournissez une pièce d'identité et validez votre compte pour sécuriser votre accès et débloquer les dépôts."
-      },
-      {
-        "title": "Effectuez votre transaction",
-        "description": "Déposez des fonds et réalisez votre première opération d'achat d'actifs pour activer définitivement votre compte et recevoir votre bonus."
-      }
-    ],
-    "faqs": [
-      {
-        "question": "Quels sont les frais sur Uphold ?",
-        "answer": "Uphold n'applique pas de frais de dépôt ou de retrait traditionnels pour la plupart des méthodes de paiement. À la place, la plateforme applique un spread (la différence entre le prix d'achat et le prix de vente) qui varie selon l'actif et les conditions de marché."
-      },
-      {
-        "question": "Uphold est-il sûr pour conserver ses cryptomonnaies ?",
-        "answer": "Oui. Uphold est un acteur régulé qui applique des standards de sécurité stricts (authentification 2FA, stockage à froid majoritaire). La plateforme se distingue par sa transparence totale en publiant ses réserves en direct."
-      }
-    ],
-    "lastVerified": "2026-07-12"
   }
 ]
