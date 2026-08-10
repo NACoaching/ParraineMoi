@@ -460,7 +460,7 @@ export default async function ReferralPage({
                                 <span className="flex items-center justify-center p-2 rounded-xl bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-400">
                                     <Info className="w-5 h-5" />
                                 </span>
-                                Explorez nos guides experts
+                                Guides & astuces experts pour {referral.name}
                             </h2>
                             <div className="grid md:grid-cols-2 gap-4">
                                 {relatedGuides.map((guide) => (
@@ -473,6 +473,9 @@ export default async function ReferralPage({
                                             <span className="text-xs font-medium px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400">
                                                 {guide.readingTime}
                                             </span>
+                                            <span className="text-xs font-bold text-primary group-hover:underline">
+                                                Lire le guide complet →
+                                            </span>
                                         </div>
                                         <h3 className="font-bold text-lg text-slate-900 dark:text-white group-hover:text-primary transition-colors mb-2 line-clamp-2">
                                             {guide.title}
@@ -482,6 +485,14 @@ export default async function ReferralPage({
                                         </p>
                                     </Link>
                                 ))}
+                            </div>
+                            <div className="mt-6 text-center">
+                                <Link
+                                    href={`/categorie/${slugifyCategory(referral.category)}`}
+                                    className="inline-flex items-center gap-2 text-sm font-bold text-primary hover:underline bg-primary/5 px-6 py-3 rounded-2xl border border-primary/10"
+                                >
+                                    Voir tous les codes promo et parrainages {referral.category} →
+                                </Link>
                             </div>
                         </div>
                     )}

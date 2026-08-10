@@ -5,6 +5,7 @@ import { ArrowLeft, Clock, Calendar, BookOpen, ChevronRight } from 'lucide-react
 import Image from 'next/image';
 import { referrals, guides } from '@/lib/data';
 import { ReferralCard, Referral } from '@/components/ReferralCard';
+import { slugifyCategory } from '@/lib/utils';
 
 export async function generateStaticParams() {
     return guides.map((guide) => ({
@@ -221,9 +222,9 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
 
                 {guideReferrals.length > 0 && (
                     <section className="mt-16 pt-10 border-t border-slate-200 dark:border-slate-800">
-                        <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">
-                            Les offres mentionnées dans ce guide :
-                        </h3>
+                        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">
+                            Codes de parrainage et offres vérifiées cités dans ce guide :
+                        </h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             {guideReferrals.map(ref => (
                                 <ReferralCard key={ref.id} referral={ref} />
@@ -234,9 +235,17 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
 
                 {/* Related Guides / Internal Linking */}
                 <section className="mt-16 pt-10 border-t border-slate-200 dark:border-slate-800">
-                    <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-8">
-                        À lire aussi sur le même sujet
-                    </h3>
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
+                        <h2 className="text-2xl font-bold text-slate-900 dark:text-white">
+                            Guides et comparatifs associés ({guide.category})
+                        </h2>
+                        <Link
+                            href={`/categorie/${slugifyCategory(guide.category)}`}
+                            className="text-sm font-bold text-primary hover:underline"
+                        >
+                            Tous les parrainages {guide.category} →
+                        </Link>
+                    </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {guides
                             .filter(g => g.slug !== guide.slug && (g.category === guide.category))
@@ -250,12 +259,15 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                                     <span className="text-xs font-bold text-primary mb-2 uppercase tracking-wide">
                                         {relatedGuide.category}
                                     </span>
-                                    <h4 className="text-lg font-bold text-slate-900 dark:text-white mb-2 group-hover:text-primary transition-colors">
+                                    <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-2 group-hover:text-primary transition-colors">
                                         {relatedGuide.title}
-                                    </h4>
-                                    <p className="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+                                    </h3>
+                                    <p className="text-sm text-slate-500 dark:text-slate-400 line-clamp-2 mb-4">
                                         {relatedGuide.excerpt}
                                     </p>
+                                    <span className="text-xs font-bold text-primary group-hover:underline mt-auto">
+                                        Lire le comparatif complet →
+                                    </span>
                                 </Link>
                             ))}
                     </div>

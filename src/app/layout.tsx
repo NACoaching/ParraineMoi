@@ -70,16 +70,29 @@ export const viewport: Viewport = {
   themeColor: "#ffffff",
 };
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Codes de Parrainages",
-  "url": "https://codes-de-parrainages.com",
-  "logo": "https://codes-de-parrainages.com/favicon.png",
-  "sameAs": [
-    "https://www.linkedin.com/in/nolwen-albanesi"
-  ],
-};
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Codes de Parrainages",
+    "url": "https://codes-de-parrainages.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://codes-de-parrainages.com/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Codes de Parrainages",
+    "url": "https://codes-de-parrainages.com",
+    "logo": "https://codes-de-parrainages.com/favicon.png",
+    "sameAs": [
+      "https://www.linkedin.com/in/nolwen-albanesi"
+    ]
+  }
+];
 
 export default function RootLayout({
   children,
