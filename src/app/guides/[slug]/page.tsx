@@ -25,25 +25,28 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
     const currentYear = new Date().getFullYear();
     // @ts-ignore
-    const seoTitle = guide.seoTitle || `${guide.title} — Guide Complet ${currentYear}`;
+    const rawTitle = guide.seoTitle || `${guide.title} — Guide ${currentYear}`;
+    const title = rawTitle.length <= 60 ? rawTitle : rawTitle.slice(0, 59).trim() + '…';
+
     // @ts-ignore
-    const seoDescription = guide.seoDescription || `${guide.excerpt.length > 140 ? guide.excerpt.slice(0, 137) + '...' : guide.excerpt} → Téléchargez le guide gratuit, vérifié en ${currentYear}.`;
+    const rawDesc = guide.seoDescription || guide.excerpt;
+    const description = rawDesc.length <= 150 ? rawDesc : rawDesc.slice(0, 149).trim() + '…';
 
     return {
-        title: seoTitle,
-        description: seoDescription,
+        title,
+        description,
         alternates: {
             canonical: `/guides/${guide.slug}`,
         },
         openGraph: {
-            title: seoTitle,
-            description: guide.excerpt,
+            title,
+            description,
             url: `https://codes-de-parrainages.com/guides/${guide.slug}`,
             images: ["/og-image.png"],
         },
         twitter: {
-            title: seoTitle,
-            description: guide.excerpt,
+            title,
+            description,
             images: ["/og-image.png"],
         },
     };

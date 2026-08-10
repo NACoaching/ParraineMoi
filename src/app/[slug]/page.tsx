@@ -37,15 +37,31 @@ export async function generateMetadata({
 
     const currentYear = new Date().getFullYear();
 
+    const rawTitle = referral.seoTitle || (
+        referral.code && referral.code.length <= 10 && !referral.code.startsWith('http')
+            ? `Code Parrainage ${referral.name} 2026 (${referral.code}) : ${referral.advantage}`
+            : `Code Parrainage ${referral.name} 2026 : ${referral.advantage} ✓`
+    );
+
+    const title = rawTitle.length <= 60 ? rawTitle : rawTitle.slice(0, 59).trim() + '…';
+
+    const rawDesc = referral.seoDescription || (
+        referral.code && !referral.code.startsWith('http')
+            ? `Utilisez le code parrainage ${referral.name} ${referral.code} vérifié en ${currentYear}. Obtenez ${referral.advantage} à l'inscription. Tuto simple en 5 min !`
+            : `Profitez de l'offre de parrainage ${referral.name} vérifiée en ${currentYear}. Obtenez ${referral.advantage} lors de votre inscription rapide !`
+    );
+
+    const description = rawDesc.length <= 150 ? rawDesc : rawDesc.slice(0, 149).trim() + '…';
+
     return {
-        title: referral.seoTitle || `Code Parrainage ${referral.name} ${currentYear} → ${referral.advantage} ✓`,
-        description: referral.seoDescription || `Obtenez ${referral.advantage} sur ${referral.name} avec le code parrainage vérifié ${referral.code.startsWith('http') ? '' : referral.code + ' '}(mis à jour ${currentYear}). Guide complet + avis d’expert — Inscription en 5 min.`,
+        title,
+        description,
         alternates: {
             canonical: `/parrainage-${referral.slug}`,
         },
         openGraph: {
-            title: `Code Parrainage ${referral.name} : ${referral.advantage} 🎁`,
-            description: `${referral.advantage} offerts sur ${referral.name} avec notre code vérifié en ${currentYear}. Profitez du bonus de bienvenue en quelques minutes.`,
+            title,
+            description,
             url: `https://codes-de-parrainages.com/parrainage-${referral.slug}`,
             images: [
                 {
@@ -58,8 +74,8 @@ export async function generateMetadata({
         },
         twitter: {
             card: "summary",
-            title: `Code Parrainage ${referral.name} : ${referral.advantage} 🎁`,
-            description: `${referral.advantage} offerts sur ${referral.name} avec notre code vérifié en ${currentYear}.`,
+            title,
+            description,
             images: [referral.logoUrl],
         },
     };

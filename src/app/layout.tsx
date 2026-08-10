@@ -14,10 +14,10 @@ const ibmPlexSans = IBM_Plex_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("https://codes-de-parrainages.com"),
   title: {
-    default: "Codes de Parrainage 🎁 Jusqu’à 200€ Offerts — Vérifiés 2026",
-    template: "%s | Codes de Parrainages"
+    default: "Codes de Parrainage 2026 🎁 Jusqu'à 200€ Offerts",
+    template: "%s"
   },
-  description: "Trouvez le meilleur code de parrainage pour votre banque en ligne, néo-banque ou appli crypto. Offres vérifiées en mars 2026 : Revolut, Fortuneo, N26, Sumeria... Jusqu’à 200€ de bonus !",
+  description: "Les meilleurs codes de parrainage vérifiés en 2026 : Fortuneo, Revolut, BoursoBank, N26, Coinhouse... Profitez de vos primes de bienvenue en 5 min !",
   alternates: {
     canonical: "/",
   },

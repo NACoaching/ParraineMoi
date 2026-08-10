@@ -53,25 +53,28 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const currentYear = new Date().getFullYear();
 
     const categoryTitles: Record<string, string> = {
-        "Banque & Finance": `Codes Parrainage Banque en Ligne ${currentYear} → Jusqu’à 200€ Offerts`,
-        "Crypto": `Codes Parrainage Crypto ${currentYear} → Bonus Vérifiés BTC & Stablecoins`,
-        "Shopping": `Codes Parrainage Cashback ${currentYear} → Réductions & Cagnotte`,
-        "Énergie & Internet": `Codes Parrainage Énergie & Internet ${currentYear} → Factures Réduites`,
-        "Jeux & Gains": `Codes Parrainage Jeux ${currentYear} → Bonus et Gains Réels`,
-        "Paris Sportifs & Poker": `Codes Parrainage Paris Sportifs & Poker ${currentYear} → Bonus Freebets`,
+        "Banque & Finance": `Codes Parrainage Banque en Ligne ${currentYear} : Primes Offertes`,
+        "Crypto": `Codes Parrainage Crypto ${currentYear} : Bonus & BTC Offerts`,
+        "Shopping": `Codes Parrainage Cashback ${currentYear} : Réductions Offertes`,
+        "Énergie & Internet": `Codes Parrainage Énergie & Internet ${currentYear} : Bons Plans`,
+        "Jeux & Gains": `Codes Parrainage Jeux ${currentYear} : Bonus & Gains Réels`,
+        "Paris Sportifs & Poker": `Codes Parrainage Paris Sportifs & Poker ${currentYear} : Freebets`,
     };
 
     const categoryDescs: Record<string, string> = {
-        "Banque & Finance": `Comparez les meilleures offres de parrainage pour banques en ligne et néobanques en ${currentYear} : Fortuneo, Revolut, N26, Sumeria, Boursorama. Jusqu’à 200€ de prime !`,
-        "Crypto": `Les meilleurs codes parrainage crypto en ${currentYear} : Binance, Bybit, Coinbase, Kraken, Bitstack. Bonus BTC, stablecoins et réductions de frais vérifiés.`,
+        "Banque & Finance": `Comparez les meilleurs codes de parrainage banque en ligne ${currentYear} : Fortuneo, Revolut, N26, Sumeria, BoursoBank. Jusqu'à 200€ de prime !`,
+        "Crypto": `Les meilleurs codes parrainage crypto ${currentYear} : Binance, Coinbase, Bitstack, SwissBorg, Coinhouse. Bonus BTC et réductions de frais.`,
         "Shopping": `Codes parrainage cashback et e-commerce vérifiés en ${currentYear} : iGraal, eBuyClub, Poulpeo, Joko. Réductions immédiates sur vos achats.`,
         "Énergie & Internet": `Codes parrainage énergie et fournisseurs internet ${currentYear} : économisez sur vos factures avec des primes de bienvenue vérifiées.`,
         "Jeux & Gains": `Codes parrainage jeux et applications rémunératrices en ${currentYear} : bonus de démarrage vérifiés pour maximiser vos gains réels.`,
-        "Paris Sportifs & Poker": `Comparez les meilleures offres de parrainage pour paris sportifs et poker en ${currentYear} : Winamax et Unibet. Jusqu'à 140€ de bonus de bienvenue vérifiés !`,
+        "Paris Sportifs & Poker": `Offres parrainage paris sportifs et poker ${currentYear} : Winamax et Unibet. Jusqu'à 140€ de bonus de bienvenue vérifiés !`,
     };
 
-    const title = categoryTitles[originalCategory] || `Parrainages ${originalCategory} ${currentYear} → Offres Vérifiées`;
-    const desc = categoryDescs[originalCategory] || `Meilleures offres de parrainage et codes promo ${originalCategory} en ${currentYear}. Primes de bienvenue testées et vérifiées.`;
+    const rawTitle = categoryTitles[originalCategory] || `Parrainages ${originalCategory} ${currentYear} : Offres Offertes`;
+    const rawDesc = categoryDescs[originalCategory] || `Meilleures offres de parrainage et codes promo ${originalCategory} en ${currentYear}. Primes de bienvenue testées et vérifiées.`;
+
+    const title = rawTitle.length <= 60 ? rawTitle : rawTitle.slice(0, 59).trim() + '…';
+    const desc = rawDesc.length <= 150 ? rawDesc : rawDesc.slice(0, 149).trim() + '…';
 
     return {
         title,
