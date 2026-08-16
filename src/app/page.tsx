@@ -33,12 +33,6 @@ const faqJsonLd = {
   }))
 };
 
-const websiteJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Codes de Parrainages",
-  "url": "https://codes-de-parrainages.com"
-};
 
 const itemListJsonLd = {
   "@context": "https://schema.org",
@@ -59,10 +53,6 @@ export default function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
       />
       <script
         type="application/ld+json"

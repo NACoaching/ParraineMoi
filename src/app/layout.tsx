@@ -14,7 +14,7 @@ const ibmPlexSans = IBM_Plex_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("https://codes-de-parrainages.com"),
   title: {
-    default: "Codes de Parrainage 2026 🎁 Jusqu'à 200€ Offerts",
+    default: "Codes de Parrainages 2026 🎁 Jusqu'à 200€ Offerts",
     template: "%s"
   },
   description: "Les meilleurs codes de parrainage vérifiés en 2026 : Fortuneo, Revolut, BoursoBank, N26, Coinhouse... Profitez de vos primes de bienvenue en 5 min !",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     locale: "fr_FR",
     url: "https://codes-de-parrainages.com",
     siteName: "Codes de Parrainages",
-    title: "Codes de Parrainage 🎁 Jusqu’à 200€ Offerts — Vérifiés 2026",
+    title: "Codes de Parrainages 🎁 Jusqu’à 200€ Offerts — Vérifiés 2026",
     description: "Comparez les meilleurs codes de parrainage 2026 : banques en ligne, crypto, cashback. Jusqu’à 200€ de bonus offerts — offres testées et vérifiées chaque semaine.",
     images: [
       {
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
   icons: {
     icon: [
-      { url: "/favicon.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.png", sizes: "512x512", type: "image/png" },
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
     ],
@@ -75,6 +75,12 @@ const jsonLd = [
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Codes de Parrainages",
+    "alternateName": [
+      "Codes de parrainages",
+      "Codes de Parrainage",
+      "Codes de parrainage",
+      "codes-de-parrainages.com"
+    ],
     "url": "https://codes-de-parrainages.com",
     "potentialAction": {
       "@type": "SearchAction",
