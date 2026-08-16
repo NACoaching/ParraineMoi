@@ -10,7 +10,7 @@ export function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-16">
                     <div className="space-y-8 md:col-span-4">
                         <Link href="/" className="inline-flex items-center gap-3 font-bold text-2xl tracking-tighter text-slate-900 dark:text-white">
-                            <span className="p-2 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-xl shadow-md">
+                            <span className="p-2 bg-slate-900 dark:bg-slate-950 text-amber-400 rounded-xl shadow-md ring-4 ring-cyan-500/20 dark:ring-cyan-400/10 border border-cyan-500/30 dark:border-cyan-400/20">
                                 <Gift size={24} />
                             </span>
                             Codes de Parrainages
