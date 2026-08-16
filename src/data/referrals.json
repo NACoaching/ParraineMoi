@@ -840,7 +840,7 @@
     "slug": "coinbase",
     "category": "Crypto",
     "code": "",
-    "link": "https://coinbase.com/join/92UZVUP?src=ios-link",
+    "link": "https://coinbase.com/join/92UZVUP?src=ios-share",
     "advantage": "10€ en Bitcoin offerts",
     "description": "Coinbase est la plateforme de référence pour faire ses premiers pas dans le monde des crypto-monnaies. Cotée en bourse au NASDAQ, c'est l'une des plateformes les plus sécurisées et les plus simples d'utilisation pour acheter, vendre et stocker vos premiers Bitcoins, Ethereum et des centaines d'autres jetons. Leur interface 'Apprentissage' vous permet même de gagner des cryptos gratuitement en répondant à de simples quiz.",
     "logoUrl": "/logos/coinbase.png",
@@ -885,7 +885,7 @@
         "description": "Achetez pour le montant minimal requis et recevez vos Bitcoins gratuits directement dans votre portefeuille."
       }
     ],
-    "lastVerified": "2026-08-02"
+    "lastVerified": "2026-08-16"
   },
   {
     "id": "13",
