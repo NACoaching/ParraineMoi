@@ -5,10 +5,29 @@ import Link from 'next/link';
 import { ChevronRight, Home } from 'lucide-react';
 
 export const metadata: Metadata = {
-    title: 'Simulateur de Parrainage 💰 — Calculez Vos Gains Gratuits 2026',
-    description: 'Combien pouvez-vous gagner en cumulant les offres de parrainage ? Notre simulateur gratuit calcule votre potentiel réel (banques, crypto, cashback). Résultats immédiats, sans inscription.',
+    title: 'Simulateur de Parrainage 💰 — Calculez Vos Primes Cumulées 2026',
+    description: 'Combien pouvez-vous gagner en cumulant les offres de parrainage ? Notre simulateur gratuit et interactif calcule votre potentiel réel (banques, crypto, cashback). 100% gratuit, sans inscription.',
     alternates: {
         canonical: 'https://codes-de-parrainages.com/simulateur',
+    },
+    openGraph: {
+        title: 'Simulateur de Parrainage 💰 — Calculez Vos Primes Cumulées 2026',
+        description: 'Combien pouvez-vous gagner en cumulant les offres de parrainage vérifiées ? Calculez votre potentiel en direct.',
+        url: 'https://codes-de-parrainages.com/simulateur',
+        images: [
+            {
+                url: '/og-image.png',
+                width: 1200,
+                height: 630,
+                alt: 'Simulateur de gains de parrainage',
+            }
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Simulateur de Parrainage 💰 — Calculez Vos Primes Cumulées',
+        description: 'Calculez combien vous pouvez empocher en cumulant les meilleures offres de bienvenue en France.',
+        images: ['/og-image.png'],
     },
 };
 
@@ -35,7 +54,7 @@ export default function SimulateurPage() {
     const calculatorJsonLd = {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
-        "name": "Simulateur de Gains ParraineMoi",
+        "name": "Simulateur de Primes Codes de Parrainages",
         "operatingSystem": "All",
         "applicationCategory": "FinanceApplication",
         "offers": {
@@ -43,7 +62,7 @@ export default function SimulateurPage() {
             "price": "0",
             "priceCurrency": "EUR"
         },
-        "description": "Calculateur gratuit pour estimer vos gains potentiels avec les meilleures offres de parrainage du moment."
+        "description": "Calculateur gratuit et interactif pour estimer vos primes de parrainage et offres de bienvenue cumulables en France."
     };
 
     const simulateurFaqs = [
