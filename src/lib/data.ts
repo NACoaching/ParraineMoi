@@ -40,11 +40,13 @@ export const referrals: Referral[] = (referralsData as any[]).map(r => ({
     })) : undefined
 }));
 
-export const guides: Guide[] = (guidesData as any[]).map(g => ({
-    ...g,
-    title: replaceDatePlaceholders(g.title),
-    seoTitle: g.seoTitle ? replaceDatePlaceholders(g.seoTitle) : undefined,
-    seoDescription: g.seoDescription ? replaceDatePlaceholders(g.seoDescription) : undefined,
-    excerpt: replaceDatePlaceholders(g.excerpt),
-    content: replaceDatePlaceholders(g.content)
-}));
+export const guides: Guide[] = (guidesData as any[])
+    .map(g => ({
+        ...g,
+        title: replaceDatePlaceholders(g.title),
+        seoTitle: g.seoTitle ? replaceDatePlaceholders(g.seoTitle) : undefined,
+        seoDescription: g.seoDescription ? replaceDatePlaceholders(g.seoDescription) : undefined,
+        excerpt: replaceDatePlaceholders(g.excerpt),
+        content: replaceDatePlaceholders(g.content)
+    }))
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
