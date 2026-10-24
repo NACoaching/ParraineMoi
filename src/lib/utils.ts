@@ -23,3 +23,14 @@ export function replaceDatePlaceholders(text: string): string {
         .replace(/\{\{YEAR\}\}/g, year);
 }
 
+export function formatVerifiedDate(dateStr?: string): string {
+    if (!dateStr) return "";
+    const [y, m, d] = dateStr.split("-").map(Number);
+    if (!y || !m || !d) return dateStr;
+    const months = [
+        "janvier", "février", "mars", "avril", "mai", "juin",
+        "juillet", "août", "septembre", "octobre", "novembre", "décembre"
+    ];
+    return `${d} ${months[m - 1]} ${y}`;
+}
+

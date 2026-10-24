@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { CopyButton } from "./CopyButton";
 import { CompanyLogo } from "./CompanyLogo";
-import { slugifyCategory } from "@/lib/utils";
+import { slugifyCategory, formatVerifiedDate } from "@/lib/utils";
 
 export interface Referral {
   id: string;
@@ -35,17 +35,25 @@ export function ReferralCard({ referral, isPriority = false, index }: { referral
           <Link href={`/parrainage-${referral.slug}`} className="h-14 w-14 shrink-0 overflow-hidden rounded-2xl border border-slate-100 dark:border-slate-800 bg-white shadow-sm ring-1 ring-slate-900/5 dark:ring-white/5 relative p-2 flex items-center justify-center hover:scale-105 transition-transform">
             <CompanyLogo url={referral.logoUrl} name={referral.name} priority={shouldPrioritize} />
           </Link>
-          <div>
-            <Link href={`/parrainage-${referral.slug}`}>
-              <h3 className="font-bold text-slate-900 dark:text-white line-clamp-1 hover:text-primary transition-colors text-lg tracking-tight">{referral.name}</h3>
-            </Link>
-            <Link
-              href={`/categorie/${slugifyCategory(referral.category)}`}
-              className="inline-flex items-center rounded-full bg-slate-100 dark:bg-slate-800 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 hover:bg-primary/10 hover:text-primary transition-colors"
-            >
-              {referral.category}
-            </Link>
-          </div>
+            <div>
+              <Link href={`/parrainage-${referral.slug}`}>
+                <h3 className="font-bold text-slate-900 dark:text-white line-clamp-1 hover:text-primary transition-colors text-lg tracking-tight">{referral.name}</h3>
+              </Link>
+              <div className="flex items-center gap-2 mt-1 flex-wrap">
+                <Link
+                  href={`/categorie/${slugifyCategory(referral.category)}`}
+                  className="inline-flex items-center rounded-full bg-slate-100 dark:bg-slate-800 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 hover:bg-primary/10 hover:text-primary transition-colors"
+                >
+                  {referral.category}
+                </Link>
+                {referral.lastVerified && (
+                  <span className="inline-flex items-center gap-1 text-[11px] font-medium text-emerald-600 dark:text-emerald-400">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                    Vérifié le {formatVerifiedDate(referral.lastVerified)}
+                  </span>
+                )}
+              </div>
+            </div>
         </div>
 
         <div className="mb-4">

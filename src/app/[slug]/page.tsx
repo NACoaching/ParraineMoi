@@ -9,7 +9,7 @@ import { FaqAccordion } from '@/components/FaqAccordion';
 import { ReferralGrid } from '@/components/ReferralGrid';
 import { referrals, guides } from '@/lib/data';
 import { Referral, ReferralCard } from '@/components/ReferralCard';
-import { slugifyCategory } from '@/lib/utils';
+import { slugifyCategory, formatVerifiedDate } from '@/lib/utils';
 
 export async function generateStaticParams() {
     return referrals.map((referral) => ({
@@ -246,7 +246,7 @@ export default async function ReferralPage({
                         <div className="flex flex-wrap gap-3 mt-6">
                             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-xs font-bold uppercase tracking-widest border border-emerald-500/20">
                                 <ShieldCheck size={16} />
-                                Vérifié {referral.lastVerified ? new Date(referral.lastVerified).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) : currentYear}
+                                Vérifié le {referral.lastVerified ? formatVerifiedDate(referral.lastVerified) : currentYear}
                             </span>
                             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-blue-500/10 text-blue-600 dark:text-blue-400 text-xs font-bold uppercase tracking-widest border border-blue-500/20">
                                 <Clock size={16} />
@@ -445,7 +445,7 @@ export default async function ReferralPage({
                             <div className="mt-8 bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800 rounded-2xl p-6">
                                 <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-3">Pourquoi mon code parrainage {referral.name} fonctionne-t-il ?</h3>
                                 <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
-                                    Tous nos codes de parrainage sont vérifiés régulièrement pour garantir leur validité. Le code <strong className="text-slate-900 dark:text-white">{referral.code}</strong> a été testé {referral.lastVerified ? `le ${new Date(referral.lastVerified).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}` : `récemment en ${currentYear}`} et fonctionne parfaitement. Si vous rencontrez un problème, vérifiez que vous remplissez bien toutes les conditions d&apos;éligibilité mentionnées dans la FAQ ci-dessous.
+                                    Tous nos codes de parrainage sont vérifiés régulièrement pour garantir leur validité. Le {referral.code && !referral.code.startsWith('http') ? <>code <strong className="text-slate-900 dark:text-white">{referral.code}</strong></> : "lien de parrainage"} a été testé {referral.lastVerified ? `le ${formatVerifiedDate(referral.lastVerified)}` : `récemment en ${currentYear}`} et fonctionne parfaitement. Si vous rencontrez un problème, vérifiez que vous remplissez bien toutes les conditions d&apos;éligibilité mentionnées dans la FAQ ci-dessous.
                                 </p>
                             </div>
                         </div>
