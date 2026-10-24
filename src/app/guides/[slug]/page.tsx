@@ -134,9 +134,17 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         "dateModified": guide.date,
         "wordCount": guide.content.split(/\s+/).length,
         "author": {
-            "@type": "Person",
-            "name": "L'Équipe Bons Plans",
+            "@type": "Organization",
+            "name": "La Rédaction Codes de Parrainages",
             "url": "https://codes-de-parrainages.com/a-propos"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Codes de Parrainages",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://codes-de-parrainages.com/favicon.png"
+            }
         },
         "image": "https://codes-de-parrainages.com/og-image.png"
     };

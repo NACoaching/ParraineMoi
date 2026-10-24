@@ -16,7 +16,7 @@ const generalFaqs = [
   },
   {
     question: "Pourquoi ces codes de parrainage sont-ils fiables et vérifiés ?",
-    answer: "Ce site agit comme un répertoire personnel. Je ne mets en ligne que les codes de parrainage des services que j'utilise activement au quotidien (pour payer, investir ou faire mes achats). Je vérifie manuellement chaque semaine que l'offre est toujours valide en 2026 afin de vous garantir que la prime sera bien versée sur votre profil."
+    answer: "Ce répertoire indépendant teste et contrôle les offres de bienvenue. Nous vérifions manuellement et régulièrement que chaque offre et code promo est toujours valide en 2026 afin de vous garantir que la prime sera bien versée sur votre profil."
   }
 ];
 
@@ -106,9 +106,13 @@ export default function Home() {
               { name: "Fortuneo", slug: "fortuneo", reward: "130€" },
               { name: "BoursoBank", slug: "boursobank", reward: "130€" },
               { name: "Revolut", slug: "revolut", reward: "200€" },
+              { name: "Trade Republic", slug: "trade-republic", reward: "10€" },
+              { name: "Bricks", slug: "bricks", reward: "1% Cashback" },
+              { name: "Poulpeo", slug: "poulpeo", reward: "5€" },
+              { name: "FDJ", slug: "fdj", reward: "10€" },
+              { name: "Bitstack", slug: "bitstack", reward: "5€" },
               { name: "N26", slug: "n26", reward: "75€" },
               { name: "Sumeria", slug: "sumeria", reward: "30€" },
-              { name: "Trade Republic", slug: "trade-republic", reward: "10€" },
               { name: "Robinhood Crypto", slug: "robinhood", reward: "40€" },
               { name: "Kraken", slug: "kraken", reward: "200€" },
               { name: "Winamax", slug: "winamax", reward: "100€" },

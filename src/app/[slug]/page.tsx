@@ -43,15 +43,15 @@ export async function generateMetadata({
             : `Code Parrainage ${referral.name} 2026 : ${referral.advantage} ✓`
     );
 
-    const title = rawTitle.length <= 60 ? rawTitle : rawTitle.slice(0, 59).trim() + '…';
+    const title = rawTitle.length <= 72 ? rawTitle : rawTitle.slice(0, 71).trim() + '…';
 
     const rawDesc = referral.seoDescription || (
         referral.code && !referral.code.startsWith('http')
-            ? `Utilisez le code parrainage ${referral.name} ${referral.code} vérifié en ${currentYear}. Obtenez ${referral.advantage} à l'inscription. Tuto simple en 5 min !`
-            : `Profitez de l'offre de parrainage ${referral.name} vérifiée en ${currentYear}. Obtenez ${referral.advantage} lors de votre inscription rapide !`
+            ? `Utilisez le code promo et parrainage ${referral.name} ${referral.code} vérifié en ${currentYear}. Obtenez ${referral.advantage} à l'inscription. Tuto simple en 5 min !`
+            : `Profitez de l'offre de parrainage et code promo ${referral.name} vérifiés en ${currentYear}. Obtenez ${referral.advantage} lors de votre inscription rapide !`
     );
 
-    const description = rawDesc.length <= 150 ? rawDesc : rawDesc.slice(0, 149).trim() + '…';
+    const description = rawDesc.length <= 160 ? rawDesc : rawDesc.slice(0, 159).trim() + '…';
 
     return {
         title,

@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
         rules: {
             userAgent: '*',
             allow: '/',
-            disallow: ['/api/', '/site.webmanifest'],
+            disallow: ['/api/'],
         },
         sitemap: 'https://codes-de-parrainages.com/sitemap.xml',
     };

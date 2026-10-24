@@ -10,19 +10,13 @@ export const metadata: Metadata = {
     },
 };
 
-const personJsonLd = {
+const organizationJsonLd = {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Nolwen Albanesi",
-    "jobTitle": "Créateur & Testeur indépendant",
+    "@type": "Organization",
+    "name": "Codes de Parrainages",
     "url": "https://codes-de-parrainages.com/a-propos",
-    "sameAs": [
-        "https://www.linkedin.com/in/nolwen-albanesi"
-    ],
-    "worksFor": {
-        "@type": "Organization",
-        "name": "Codes de Parrainages"
-    },
+    "logo": "https://codes-de-parrainages.com/favicon.png",
+    "description": "Répertoire indépendant et vérifié de codes de parrainage et offres de bienvenue.",
     "knowsAbout": ["Banques en ligne", "Finances personnelles", "Cryptomonnaies", "Programmes de parrainage"]
 };
 
@@ -31,7 +25,7 @@ export default function AboutPage() {
         <main className="min-h-screen px-4 py-8 sm:px-6 sm:py-16 max-w-4xl mx-auto">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
             />
             <div className="text-center mb-12">
 

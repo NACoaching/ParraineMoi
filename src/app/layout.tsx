@@ -93,10 +93,7 @@ const jsonLd = [
     "@type": "Organization",
     "name": "Codes de Parrainages",
     "url": "https://codes-de-parrainages.com",
-    "logo": "https://codes-de-parrainages.com/favicon.png",
-    "sameAs": [
-      "https://www.linkedin.com/in/nolwen-albanesi"
-    ]
+    "logo": "https://codes-de-parrainages.com/favicon.png"
   }
 ];
 
