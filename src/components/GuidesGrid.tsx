@@ -16,6 +16,32 @@ interface Guide {
     category: string;
 }
 
+const GUIDE_TOPICS: Record<string, string> = {
+    "top-parrainages-sans-depot-2026": "Parrainages Sans Dépôt",
+    "comment-toucher-100-euros-parrainage-rapide": "Gagner 100€ Rapidement",
+    "comparatif-meilleurs-parrainages-crypto-retrait-immediat": "Crypto & Retrait Immédiat",
+    "top-parrainage-prime-immediate-2026": "Primes Immédiates",
+    "comparatif-meilleure-banque-en-ligne-2026": "Comparatif Banques en Ligne",
+    "pourquoi-choisir-boursobank-meilleure-banque-en-ligne": "Avis BoursoBank",
+    "guide-voyage-revolut-frais-bancaires-etranger": "Voyage & Paiements Étranger (Revolut)",
+    "ouvrir-compte-n26-avantages-2026": "Avis N26",
+    "code-parrainage-sumeria-lydia-2026": "Avis Sumeria (Lydia)",
+    "meilleure-carte-payer-etranger-sans-frais-2026": "Cartes Sans Frais à l'Étranger",
+    "code-parrainage-paypal-comment-utiliser-2026": "Avis & Parrainage PayPal",
+    "debuter-en-bourse-petit-budget": "Débuter en Bourse dès 10€",
+    "guide-cashback-economiser-achats-igraal": "Cashback (iGraal vs eBuyClub)",
+    "comparatif-applications-marche-remuneree": "Marche Rémunérée (WeWard...)",
+    "revenu-passif-partage-connexion-internet": "Partage Connexion (Pawns App...)",
+    "sondages-remuneres-comparatif-meilleures-applications": "Sondages Rémunérés",
+    "investir-bitcoin-arrondis": "Investir Bitcoin par Arrondis",
+    "guide-crypto-debutant-acheter-premier-bitcoin-coinbase": "Guide Débutant Crypto",
+    "avis-coinhouse-bonus-500-euros-bitcoin": "Avis Coinhouse (Jusqu'à 500€)",
+    "avis-coinpayu-code-promo-crypto-gratuit": "Avis Coinpayu",
+    "achat-cartes-pokemon-encheres-live": "Cartes Pokémon & Enchères",
+    "astuces-vinted-gagner-plus-2026": "Astuces Vendeur Vinted",
+    "winamax-vs-unibet-meilleure-application-pari-sportif": "Paris Sportifs (Winamax vs Unibet)"
+};
+
 export function GuidesGrid({ guides }: { guides: Guide[] }) {
     const [searchTerm, setSearchTerm] = useState("");
     const [activeCategory, setActiveCategory] = useState("Toutes");
@@ -27,7 +53,12 @@ export function GuidesGrid({ guides }: { guides: Guide[] }) {
     }, [guides]);
 
     const allGuideNames = useMemo(() => {
-        return guides.map(g => ({ title: g.title, slug: g.slug })).sort((a, b) => a.title.localeCompare(b.title));
+        return guides
+            .map(g => ({
+                label: GUIDE_TOPICS[g.slug] || g.title,
+                slug: g.slug
+            }))
+            .sort((a, b) => a.label.localeCompare(b.label, "fr"));
     }, [guides]);
 
     const filteredGuides = useMemo(() => {
@@ -77,25 +108,25 @@ export function GuidesGrid({ guides }: { guides: Guide[] }) {
                     />
                 </div>
 
-                {/* Guide Dropdown - Premium Glass */}
+                {/* Guide Dropdown - Topic Keywords */}
                 <div className="relative min-w-[240px]">
                     <select
-                        aria-label="Tous les guides"
-                        className="glass-card appearance-none block w-full px-6 pr-12 py-4 bg-white/50 dark:bg-slate-900/50 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/50 transition-all cursor-pointer font-bold text-sm uppercase tracking-wide"
+                        aria-label="Filtrer par thème"
+                        className="glass-card appearance-none block w-full px-5 pr-11 py-4 bg-white/50 dark:bg-slate-900/50 text-slate-800 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/50 transition-all cursor-pointer font-medium text-sm normal-case [&>option]:bg-white dark:[&>option]:bg-slate-900 dark:[&>option]:text-white text-slate-800"
                         value={selectedGuideSlug}
                         onChange={(e) => {
                             setSelectedGuideSlug(e.target.value);
                             setSearchTerm("");
                         }}
                     >
-                        <option value="">Tous les articles</option>
+                        <option value="">📚 Tous les thèmes</option>
                         {allGuideNames.map(guide => (
-                            <option key={guide.slug} value={guide.slug}>{guide.title}</option>
+                            <option key={guide.slug} value={guide.slug}>{guide.label}</option>
                         ))}
                     </select>
-                    <div className="absolute inset-y-0 right-0 pr-5 flex items-center pointer-events-none text-primary">
-                        <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
+                    <div className="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none text-primary">
+                        <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
                         </svg>
                     </div>
                 </div>
