@@ -2661,10 +2661,10 @@
     "name": "Deblock",
     "slug": "deblock",
     "category": "Crypto",
-    "code": "N79AR5",
-    "link": "https://dl.deblock.com",
+    "code": "",
+    "link": "https://deblock.com/a-iuj371",
     "advantage": "3 mois de premium offerts",
-    "description": "Deblock est la néo-banque française qui réunit le meilleur de la banque traditionnelle et de la crypto-monnaie (non-custodial). Fondée par des anciens de Revolut et Ledger, elle offre une sécurité maximale. Utilisez le code N79AR5 à l'inscription pour bénéficier de 3 mois de premium offerts.",
+    "description": "Deblock est la néo-banque française qui réunit le meilleur de la banque traditionnelle et de la crypto-monnaie (non-custodial). Fondée par des anciens de Revolut et Ledger, elle offre une sécurité maximale. Passez par notre lien de parrainage à l'inscription pour bénéficier de 3 mois de premium offerts.",
     "logoUrl": "/logos/deblock.webp",
     "review": {
       "pros": [
@@ -2708,8 +2708,8 @@
       }
     ],
     "lastVerified": "2026-09-17",
-    "seoTitle": "Code Parrainage Deblock {{YEAR}} (N79AR5) : 3 Mois Premium Offerts 💳",
-    "seoDescription": "Inscrivez-vous sur Deblock avec le code N79AR5 en {{YEAR}} et profitez de 3 mois de compte Premium offerts + compte avec wallet crypto."
+    "seoTitle": "Lien Parrainage Deblock {{YEAR}} : 3 Mois Premium Offerts 💳",
+    "seoDescription": "Inscrivez-vous sur Deblock via notre lien de parrainage en {{YEAR}} et profitez de 3 mois de compte Premium offerts + compte avec wallet crypto."
   },
   {
     "id": "152",
