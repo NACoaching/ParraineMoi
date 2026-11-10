@@ -304,7 +304,13 @@ export default async function ReferralPage({
                                     <span className="font-mono font-bold text-slate-900 dark:text-white text-xl lg:text-2xl truncate select-all tracking-wider">
                                         {referral.code}
                                     </span>
-                                    <CopyButton code={referral.code} className="shrink-0 !h-14 px-8 font-bold rounded-2xl shadow-lg shadow-primary/20" showText={true} />
+                                    <CopyButton 
+                                        code={referral.code} 
+                                        referralName={referral.name}
+                                        advantage={referral.advantage}
+                                        className="shrink-0 !h-14 px-8 font-bold rounded-2xl shadow-lg shadow-primary/20" 
+                                        showText={true} 
+                                    />
                                 </div>
                             )}
 

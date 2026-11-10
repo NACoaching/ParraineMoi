@@ -59,7 +59,13 @@ export function StickyCopyBar({ name, code, link, advantage, logoUrl }: StickyCo
                                     {code}
                                 </span>
                             </div>
-                            <CopyButton code={code} showText={false} className="!h-full !rounded-none bg-primary hover:bg-primary/90 text-white border-l border-slate-700 dark:border-slate-300 px-4" />
+                            <CopyButton 
+                                code={code} 
+                                referralName={name} 
+                                advantage={advantage} 
+                                showText={false} 
+                                className="!h-full !rounded-none bg-primary hover:bg-primary/90 text-white border-l border-slate-700 dark:border-slate-300 px-4" 
+                            />
                         </div>
                     )}
 
@@ -68,6 +74,18 @@ export function StickyCopyBar({ name, code, link, advantage, logoUrl }: StickyCo
                             href={link} 
                             target="_blank" 
                             rel="noopener noreferrer" 
+                            data-referral-link="true"
+                            onClick={() => {
+                                if (typeof window !== "undefined" && (window as any).trackReferral) {
+                                    (window as any).trackReferral({
+                                        action: "click_link",
+                                        referralName: name,
+                                        referralCode: code,
+                                        advantage: advantage,
+                                        sourceComponent: "sticky_bar",
+                                    });
+                                }
+                            }}
                             className="h-10 w-10 flex shrink-0 items-center justify-center bg-slate-800 dark:bg-slate-100 text-slate-300 dark:text-slate-600 rounded-xl hover:text-white dark:hover:text-slate-900 transition-colors"
                             aria-label="Ouvrir le lien"
                         >

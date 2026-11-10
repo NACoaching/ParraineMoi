@@ -110,6 +110,12 @@ export default function RootLayout({
         </div>
         <Footer />
         <Analytics />
+        {/* Referral Pulse Tracker */}
+        <script
+          defer
+          src="https://affiliate-tracker-nacoachings-projects.vercel.app/tracker.js"
+          data-site="codes-de-parrainages.com"
+        />
       </body>
     </html>
   );

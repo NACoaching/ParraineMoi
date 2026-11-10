@@ -84,7 +84,13 @@ export function ReferralCard({ referral, isPriority = false, index }: { referral
                 {referral.code}
               </span>
             </div>
-            <CopyButton code={referral.code} showText={false} className="shrink-0 h-10 w-10 p-0 rounded-[14px]" />
+            <CopyButton 
+              code={referral.code} 
+              referralName={referral.name}
+              advantage={referral.advantage}
+              showText={false} 
+              className="shrink-0 h-10 w-10 p-0 rounded-[14px]" 
+            />
           </div>
         )}
 
@@ -98,6 +104,8 @@ export function ReferralCard({ referral, isPriority = false, index }: { referral
             </div>
             <CopyButton 
               code={referral.link} 
+              referralName={referral.name}
+              advantage={referral.advantage}
               showText={false} 
               className="shrink-0 h-10 w-10 p-0 rounded-[14px] bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-600 border-none" 
               label="Lien"
