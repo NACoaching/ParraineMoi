@@ -69,11 +69,36 @@ export function StickyCopyBar({ name, code, link, advantage, logoUrl }: StickyCo
                         </div>
                     )}
 
-                    {link && link !== code && (
+                    {/* Direct button if no code */}
+                    {(!code || code.trim() === "") && link && (
                         <a 
                             href={link} 
                             target="_blank" 
-                            rel="noopener noreferrer" 
+                            rel="noopener noreferrer sponsored" 
+                            data-referral-link="true"
+                            onClick={() => {
+                                if (typeof window !== "undefined" && (window as any).trackReferral) {
+                                    (window as any).trackReferral({
+                                        action: "click_link",
+                                        referralName: name,
+                                        referralCode: code,
+                                        advantage: advantage,
+                                        sourceComponent: "sticky_bar",
+                                    });
+                                }
+                            }}
+                            className="h-10 px-4 flex shrink-0 items-center gap-2 bg-primary hover:bg-primary/90 text-white font-bold text-xs rounded-xl shadow-md transition-all active:scale-95"
+                        >
+                            <span>Voir l&apos;offre</span>
+                            <ExternalLink size={14} />
+                        </a>
+                    )}
+
+                    {code && link && link !== code && (
+                        <a 
+                            href={link} 
+                            target="_blank" 
+                            rel="noopener noreferrer sponsored" 
                             data-referral-link="true"
                             onClick={() => {
                                 if (typeof window !== "undefined" && (window as any).trackReferral) {
