@@ -2903,5 +2903,70 @@
             }
         ],
         "lastVerified": "2026-10-24"
+    },
+    {
+        "id": "1004",
+        "name": "Nutripure",
+        "slug": "nutripure",
+        "category": "Shopping",
+        "code": "11106050611",
+        "link": "https://www.nutripure.fr/fr/?s=11106050611",
+        "advantage": "10% de réduction immédiate",
+        "description": "Nutripure est la marque française de référence en compléments alimentaires purs, écoresponsables et sans additifs chimiques. Fondée par le quintuple champion du monde Christophe Carrio, Nutripure privilégie les principes actifs brevetés les plus biodisponibles du marché mondial (Epax®, KSM-66®, Creapure®, Peptan®). Bénéficiez de 10% de réduction immédiate sur votre première commande avec le code parrain 11106050611.",
+        "logoUrl": "/logos/nutripure.png",
+        "seoTitle": "Code Parrainage Nutripure {{YEAR}} : 10% de Réduction (11106050611) 🌿",
+        "seoDescription": "Profitez du code parrainage Nutripure 11106050611 vérifié en {{YEAR}}. Obtenez 10% de réduction immédiate sur votre commande de compléments alimentaires et whey native !",
+        "lastVerified": "2026-11-11",
+        "review": {
+            "pros": [
+                "Pureté absolue : zéro additif controversé, sans stéarate de magnésium, sans dioxyde de titane",
+                "Matières premières brevetées d'excellence : Epax®, Creapure®, KSM-66®, Peptan®, Quali®-C",
+                "Whey Isolat native issue de lait frais de pâturages français (filtration membranaire à froid)",
+                "Transparence totale : certificats d'analyses indépendants consultables en libre accès par lot",
+                "Gélules 100% végétales en pullulan naturel issu de tapioca fermenté",
+                "Fondée par Christophe Carrio, quintuple champion du monde de karaté et préparateur physique"
+            ],
+            "cons": [
+                "Prix légèrement supérieur aux marques industrielles low-cost (qualité sans compromis)",
+                "Choix de saveurs volontairement épuré (arômes 100% naturels, zéro édulcorant chimique de synthèse)"
+            ],
+            "longReview": "<p>Dans un marché des compléments alimentaires saturé de formules bas de gamme chargées d'excipients chimiques, d'édulcorants agressifs et d'ingrédients d'origine inconnue, <strong>Nutripure</strong> s'est imposée comme la référence incontournable de la micronutrition santé et sportive en France.</p><br/><p>La marque a été fondée par <strong>Christophe Carrio</strong> (cinq fois champion du monde de karaté artistique, kinésithérapeute et préparateur physique) et son frère Florent Carrio. Leur mission est sans compromis : proposer des compléments alimentaires d'une pureté exemplaire, formulés avec les meilleures matières premières brevetées de la planète et strictement sans le moindre additif controversé.</p><br/><h3>Pourquoi Nutripure surclasse les marques traditionnelles ?</h3><ul><li><strong>Des principes actifs brevetés d'exception :</strong> Nutripure refuse systématiquement les matières premières génériques sans traçabilité. Leurs <strong>Oméga 3</strong> bénéficient du prestigieux label norvégien <em>Epax®</em> (indice TOTOX certifié inférieur à 5, garantissant une huile pure sans oxydation ni reflux de poisson). La créatine est la célèbre <em>Creapure®</em> allemande (pureté 99,99%), l'Ashwagandha est le label bio <em>KSM-66®</em>, et les peptides de collagène marin sont certifiés <em>Peptan®</em>.</li><li><strong>Une Whey Isolat Native française d'élite :</strong> Alors que 90% des protéines du commerce sont issues de résidus de fromagerie ayant subi de multiples cuissons et traitements chimiques, la Whey Isolat de Nutripure est issue directement de <strong>lait frais de pâturages français</strong>, filtrée à froid sur membranes céramiques pour préserver intacte la structure des protéines et immunoglobulines.</li><li><strong>Zéro additif chimique ni solvant :</strong> Pas de stéarate de magnésium, pas de dioxyde de titane ou de silice, pas d'arômes artificiels chimiques. Même les gélules sont en pullulan 100% végétal issu de tapioca.</li><li><strong>Transparence exemplaire :</strong> Pour chaque produit, les analyses microbiologiques et métaux lourds réalisées par des laboratoires indépendants accrédités sont consultables en libre accès sur chaque fiche produit.</li></ul><br/><h3>Comment bénéficier de 10% de réduction immédiate ?</h3><p>En commandant via notre <strong>lien de parrainage officiel</strong> ou en renseignant le code de parrainage exclusif <strong>11106050611</strong> lors de votre inscription, vous débloquez immédiatement <strong>10% de remise sur l'intégralité de votre panier</strong> pour votre premier achat. C'est l'opportunité idéale d'investir durablement dans votre santé et vos performances au meilleur tarif !</p>"
+        },
+        "steps": [
+            {
+                "title": "Cliquez sur notre lien de parrainage",
+                "description": "Accédez directement à la boutique officielle Nutripure via notre lien privilégié : https://www.nutripure.fr/fr/?s=11106050611. Ce lien active automatiquement votre éligibilité à l'offre."
+            },
+            {
+                "title": "Créez votre compte client",
+                "description": "Remplissez le formulaire d'inscription en vérifiant que le code parrain 11106050611 est bien renseigné dans la case 'Code de parrainage / E-mail de votre parrain'."
+            },
+            {
+                "title": "Profitez de 10% de remise immédiate",
+                "description": "Sélectionnez vos compléments alimentaires favoris (Oméga 3, Multivitamines, Whey, Magnésium...). La réduction de 10% s'applique automatiquement sur votre commande dès la validation du panier."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Comment activer les 10% de réduction sur Nutripure ?",
+                "answer": "Pour débloquer la remise de 10%, il vous suffit de vous inscrire sur Nutripure via notre lien partenaire direct (https://www.nutripure.fr/fr/?s=11106050611) ou de renseigner manuellement le code parrainage 11106050611 dans le champ prévu à cet effet lors de la création de votre compte client."
+            },
+            {
+                "question": "Le code parrainage Nutripure est-il valable sur tous les produits ?",
+                "answer": "Oui, la réduction de 10% s'applique sur l'ensemble du catalogue Nutripure : compléments santé, micronutrition, protéines (whey native, isolat, protéines végétales), super-aliments, barres énergétiques et accessoires."
+            },
+            {
+                "question": "Peut-on cumuler la remise de 10% avec la livraison offerte ?",
+                "answer": "Absolument ! La remise de 10% s'applique sur le montant de vos articles. Dès que votre panier atteint 50€ en point relais ou 70€ à domicile en France métropolitaine, les frais de livraison sont 100% offerts par Nutripure."
+            },
+            {
+                "question": "Quels sont les produits Nutripure recommandés pour une première commande ?",
+                "answer": "Nous vous recommandons tout particulièrement le 'Trépied de la santé' : les Oméga 3 Epax (haute concentration EPA/DHA et indice TOTOX < 5), le Magnésium Bisglycinate (assimilation optimale sans troubles digestifs) et le Multivitamines (formes coenzymées sans fer ni cuivre). Pour les sportifs, la Whey Isolat Native et la Créatine Creapure sont des références incontournables."
+            },
+            {
+                "question": "Les compléments Nutripure sont-ils garantis sans additifs chimiques ?",
+                "answer": "Oui, c'est l'ADN même de Nutripure : aucun stéarate de magnésium, aucun dioxyde de silicium ni de titane, pas de solvants chimiques ni de conservateurs, et des gélules exclusivement végétales en pullulan naturel issu de tapioca fermenté."
+            }
+        ]
     }
 ]
