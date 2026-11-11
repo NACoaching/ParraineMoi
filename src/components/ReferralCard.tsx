@@ -47,11 +47,6 @@ export function ReferralCard({ referral, isPriority = false, index }: { referral
                 >
                   {referral.category}
                 </Link>
-                {referral.isPartner && (
-                  <span className="inline-flex items-center rounded-full bg-amber-500/10 dark:bg-amber-500/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-amber-600 dark:text-amber-400">
-                    Partenaire
-                  </span>
-                )}
                 {referral.lastVerified && (
                   <span className="inline-flex items-center gap-1 text-[11px] font-medium text-emerald-600 dark:text-emerald-400">
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
@@ -67,11 +62,6 @@ export function ReferralCard({ referral, isPriority = false, index }: { referral
             <div className="bg-amber-500/10 border border-amber-500/20 text-amber-600 dark:text-amber-400 px-3 py-2 rounded-xl inline-flex items-center gap-2">
               <span className="text-xl">⚠️</span>
               <span className="text-sm font-bold tracking-tight">Programme en pause</span>
-            </div>
-          ) : referral.isPartner ? (
-            <div className="bg-amber-500/10 border border-amber-500/20 text-amber-600 dark:text-amber-400 px-3 py-2 rounded-xl inline-flex items-center gap-2">
-              <span className="text-xl">⭐</span>
-              <span className="text-sm font-bold tracking-tight">{referral.advantage}</span>
             </div>
           ) : (
             <div className="bg-primary/5 dark:bg-primary/10 border border-primary/10 text-primary px-3 py-2 rounded-xl inline-flex items-center gap-2">

@@ -178,8 +178,10 @@ export default async function ReferralPage({
     const howToJsonLd = referral.steps && referral.steps.length > 0 ? {
         "@context": "https://schema.org",
         "@type": "HowTo",
-        "name": `Comment profiter du code parrainage ${referral.name}`,
-        "description": `Tutoriel pour utiliser le code de parrainage ${referral.code} et obtenir ${referral.advantage} sur ${referral.name}.`,
+        "name": referral.code ? `Comment profiter du code parrainage ${referral.name}` : `Comment profiter de l'offre ${referral.name}`,
+        "description": referral.code
+            ? `Tutoriel pour utiliser le code de parrainage ${referral.code} et obtenir ${referral.advantage} sur ${referral.name}.`
+            : `Guide étape par étape pour profiter de l'offre ${referral.advantage} sur ${referral.name}.`,
         "step": referral.steps.map((step, index) => ({
             "@type": "HowToStep",
             "position": index + 1,
@@ -288,15 +290,15 @@ export default async function ReferralPage({
                         </>
                     ) : (
                         <>
-                            <div className={`inline-flex items-center gap-2 ${referral.isPartner ? 'bg-amber-500 shadow-amber-500/20' : 'bg-emerald-500 shadow-emerald-500/20'} text-white px-4 py-2 rounded-2xl text-xs font-bold uppercase tracking-widest mb-6 shadow-lg`}>
-                                {referral.isPartner ? '⭐ Offre Partenaire' : '🎁 Offre exclusive'} : {referral.advantage}
+                            <div className="inline-flex items-center gap-2 bg-emerald-500 shadow-emerald-500/20 text-white px-4 py-2 rounded-2xl text-xs font-bold uppercase tracking-widest mb-6 shadow-lg">
+                                🎁 Offre vérifiée : {referral.advantage}
                             </div>
                             <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4 tracking-tight">
-                                {referral.isPartner ? `Accédez à l'offre officielle ${referral.name}` : 'Récupérez votre bonus maintenant'}
+                                {referral.isPartner ? `Accédez à l'offre ${referral.name}` : 'Récupérez votre bonus maintenant'}
                             </h2>
                             <p className="text-slate-500 dark:text-slate-400 mb-10 max-w-lg mx-auto text-lg leading-relaxed">
                                 {referral.isPartner
-                                    ? `Profitez de la boutique officielle et des garanties constructeur en passant par notre lien certifié.`
+                                    ? `Profitez de l'offre certifiée en passant directement par notre lien partenaire.`
                                     : `Utilisez le ${referral.code.startsWith('http') ? 'lien' : 'code'} vérifié ci-dessous lors de votre inscription pour débloquer vos avantages.`}
                             </p>
 
@@ -342,14 +344,14 @@ export default async function ReferralPage({
                                     rel="noopener noreferrer sponsored"
                                     className="inline-flex items-center justify-center gap-3 px-12 py-5 rounded-3xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold text-lg hover:opacity-90 transition-all shadow-xl"
                                 >
-                                    {referral.isPartner ? `Accéder à la boutique officielle ${referral.name}` : `Ouvrir ${referral.name}`}
+                                    {referral.isPartner ? `Profiter de l'offre ${referral.name}` : `Ouvrir ${referral.name}`}
                                     <ExternalLink size={20} />
                                 </a>
                             </div>
                         )}
 
                         {referral.isPartner && (
-                            <div className="mt-8 max-w-xl mx-auto p-4 rounded-2xl bg-amber-500/10 border border-amber-500/20 text-xs text-amber-800 dark:text-amber-300 text-center leading-relaxed">
+                            <div className="mt-8 max-w-xl mx-auto p-4 rounded-2xl bg-slate-500/5 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 text-xs text-slate-500 dark:text-slate-400 text-center leading-relaxed">
                                 ⚖️ <strong>Transparence & Partenariat :</strong> Ce lien est un lien d'affiliation officiel. En passant par ce lien, vous accédez directement aux offres et garanties de la marque sans aucun surcoût sur votre commande, tout en soutenant notre site indépendant.
                             </div>
                         )}

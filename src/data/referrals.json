@@ -2859,8 +2859,8 @@
         "advantage": "10% de réduction immédiate",
         "description": "Nutripure est la marque française de référence en compléments alimentaires purs, écoresponsables et sans additifs chimiques. Fondée par le quintuple champion du monde Christophe Carrio, Nutripure privilégie les principes actifs brevetés les plus biodisponibles du marché mondial (Epax®, KSM-66®, Creapure®, Peptan®). Bénéficiez de 10% de réduction immédiate sur votre première commande avec le code parrain 11106050611.",
         "logoUrl": "/logos/nutripure.png",
-        "seoTitle": "Code Parrainage Nutripure {{YEAR}} : 10% de Réduction (11106050611) 🌿",
-        "seoDescription": "Profitez du code parrainage Nutripure 11106050611 vérifié en {{YEAR}}. Obtenez 10% de réduction immédiate sur votre commande de compléments alimentaires et whey native !",
+        "seoTitle": "Code Parrainage Nutripure {{YEAR}} : 10% Réduction 🌿",
+        "seoDescription": "Profitez du code parrainage Nutripure 11106050611 vérifié en {{YEAR}}. Obtenez 10% de réduction immédiate sur vos compléments alimentaires et whey bio !",
         "lastVerified": "2026-11-11",
         "review": {
             "pros": [
@@ -2921,13 +2921,13 @@
         "category": "Shopping",
         "code": "",
         "link": "https://www.awin1.com/cread.php?awinmid=122426&awinaffid=2821736&ued=https%3A%2F%2Fwww.imou.com%2Ffr",
-        "advantage": "Boutique Officielle",
-        "description": "Imou est une marque de référence mondiale dans la sécurité connectée et la maison intelligente (caméras de surveillance WiFi 360°, caméras extérieures sans fil, sonnettes vidéo). Accédez directement au catalogue et à la boutique officielle pour vous équiper avec la garantie constructeur 2 ans.",
+        "advantage": "Caméras & Sécurité Maison",
+        "description": "Imou est une marque de référence mondiale dans la sécurité connectée et la maison intelligente (caméras de surveillance WiFi 360°, caméras extérieures sans fil, sonnettes vidéo). Accédez directement au catalogue certifié pour vous équiper avec la garantie constructeur 2 ans.",
         "logoUrl": "/logos/imou.png",
         "isPartner": true,
         "lastVerified": "2026-11-11",
-        "seoTitle": "Avis Imou & Boutique Officielle {{YEAR}} : Caméras & Sécurité 🛡️",
-        "seoDescription": "Découvrez notre avis sur les caméras connectées Imou en {{YEAR}} : Ranger 2, Cruiser 2, sonnettes vidéo. Accès direct boutique officielle et garanties fabricant.",
+        "seoTitle": "Avis Imou {{YEAR}} : Caméras de Surveillance & Sécurité 🛡️",
+        "seoDescription": "Notre avis complet sur les caméras de sécurité Imou en {{YEAR}} : Ranger 2, Cruiser 2, sonnettes vidéo et caméras sans fil. Test, fonctionnalités et avis.",
         "review": {
             "pros": [
                 "Rapport qualité/prix réputé sur les caméras de sécurité intérieures et extérieures",
@@ -2945,16 +2945,16 @@
         },
         "steps": [
             {
-                "title": "Cliquez sur notre lien officiel",
-                "description": "Rendez-vous sur la boutique officielle Imou en passant par notre lien partenaire privilégié : https://www.awin1.com/cread.php?awinmid=122426&awinaffid=2821736&ued=https%3A%2F%2Fwww.imou.com%2Ffr."
+                "title": "Accédez au site Imou",
+                "description": "Rendez-vous sur le site certifié Imou en passant par notre lien partenaire privilégié : https://www.awin1.com/cread.php?awinmid=122426&awinaffid=2821736&ued=https%3A%2F%2Fwww.imou.com%2Ffr."
             },
             {
                 "title": "Choisissez votre équipement de sécurité",
                 "description": "Parcourez le catalogue officiel Imou (caméras d intérieur Ranger, caméras extérieures Cruiser, sonnettes connectées) et choisissez votre équipement."
             },
             {
-                "title": "Commandez avec les garanties officielles",
-                "description": "Validez votre commande sur la boutique officielle pour bénéficier des garanties officielles fabricant et de l assistance technique directe."
+                "title": "Commandez avec les garanties fabricant",
+                "description": "Validez votre commande en toute tranquillité pour bénéficier de la garantie fabricant officielle de 2 ans et de l assistance technique."
             }
         ],
         "faqs": [
@@ -2983,13 +2983,13 @@
         "category": "Shopping",
         "code": "",
         "link": "https://www.awin1.com/cread.php?awinmid=26009&awinaffid=2821736&ued=https%3A%2F%2Ffr.aliexpress.com%2F",
-        "advantage": "Marketplace Officielle",
-        "description": "AliExpress est la plus grande marketplace mondiale de commerce en ligne pour la tech, les gadgets, la maison, la mode et le bricolage. Accédez directement au catalogue officiel pour découvrir des millions d articles à prix direct fabricant avec la protection acheteur.",
+        "advantage": "Millions d'Articles & Bons Plans",
+        "description": "AliExpress est la plus grande marketplace mondiale de commerce en ligne pour la tech, les gadgets, la maison, la mode et le bricolage. Accédez directement au catalogue pour découvrir des millions d articles à prix direct fabricant avec la protection acheteur.",
         "logoUrl": "/logos/aliexpress.png",
         "isPartner": true,
         "lastVerified": "2026-11-11",
-        "seoTitle": "Avis AliExpress & Marketplace Officielle {{YEAR}} : Achats & Tech 🛍️",
-        "seoDescription": "Découvrez notre avis sur AliExpress en {{YEAR}} : gadgets tech, livraison rapide Choice, protection acheteur et accès au catalogue officiel.",
+        "seoTitle": "Avis AliExpress {{YEAR}} : Achats en Ligne & Produits Tech 🛍️",
+        "seoDescription": "Découvrez notre avis sur AliExpress en {{YEAR}} : catalogue tech, service livraison Choice, protection acheteur et astuces pour acheter au meilleur prix.",
         "review": {
             "pros": [
                 "Catalogue gigantesque de millions de produits à prix direct fabricant",
@@ -3007,8 +3007,8 @@
         },
         "steps": [
             {
-                "title": "Cliquez sur notre lien officiel",
-                "description": "Accédez directement à la boutique officielle AliExpress via notre lien partenaire certifié : https://www.awin1.com/cread.php?awinmid=26009&awinaffid=2821736&ued=https%3A%2F%2Ffr.aliexpress.com%2F."
+                "title": "Accédez à AliExpress",
+                "description": "Accédez directement à AliExpress via notre lien partenaire certifié : https://www.awin1.com/cread.php?awinmid=26009&awinaffid=2821736&ued=https%3A%2F%2Ffr.aliexpress.com%2F."
             },
             {
                 "title": "Explorez le catalogue officiel",
@@ -3045,13 +3045,13 @@
         "category": "Sport & Santé",
         "code": "",
         "link": "https://www.awin1.com/cread.php?awinmid=131783&awinaffid=2821736&ued=https%3A%2F%2Fwww.mibrofit.com%2F",
-        "advantage": "Boutique Officielle",
-        "description": "Mibro est une marque innovante de montres connectées sport et santé, membre clé de l écosystème Xiaomi. Reconnue pour ses montres GPS multisports, ses écrans AMOLED HD et son autonomie record de 10 à 60 jours, accédez directement au catalogue et à la boutique officielle pour vous équiper avec la garantie constructeur.",
+        "advantage": "Montres Connectées Sport & GPS",
+        "description": "Mibro est une marque réputée de montres connectées alliant design soigné, écrans AMOLED éclatants et capteurs biométriques avancés. Idéales pour le running, la natation et le suivi santé au quotidien, elles offrent jusqu à 20 jours d autonomie à un excellent rapport qualité-prix.",
         "logoUrl": "/logos/mibro.png",
         "isPartner": true,
         "lastVerified": "2026-11-11",
-        "seoTitle": "Avis Mibro & Boutique Officielle {{YEAR}} : Montres Connectées Sport ⌚",
-        "seoDescription": "Découvrez notre avis sur les montres connectées Mibro en {{YEAR}} : GS Pro, Lite 3, autonomie record, GPS multisports et accès boutique officielle.",
+        "seoTitle": "Avis Mibro {{YEAR}} : Montres Connectées Sport & AMOLED ⌚",
+        "seoDescription": "Avis complet sur les montres connectées Mibro en {{YEAR}} : GS Pro, Lite 3, autonomie longue durée, GPS multisports et application mobile Mibro Fit.",
         "review": {
             "pros": [
                 "Rapport qualité/prix exceptionnel sur les montres connectées sport et bien-être",
@@ -3069,8 +3069,8 @@
         },
         "steps": [
             {
-                "title": "Cliquez sur notre lien officiel",
-                "description": "Accédez directement à la boutique officielle Mibro via notre lien partenaire certifié : https://www.awin1.com/cread.php?awinmid=131783&awinaffid=2821736&ued=https%3A%2F%2Fwww.mibrofit.com%2F."
+                "title": "Accédez au site Mibro",
+                "description": "Accédez directement au site Mibro via notre lien partenaire certifié : https://www.awin1.com/cread.php?awinmid=131783&awinaffid=2821736&ued=https%3A%2F%2Fwww.mibrofit.com%2F."
             },
             {
                 "title": "Choisissez votre montre connectée",
@@ -3078,7 +3078,7 @@
             },
             {
                 "title": "Commandez en toute sérénité",
-                "description": "Finalisez votre achat sur la boutique officielle pour bénéficier des garanties officielles fabricant et de l assistance technique directe."
+                "description": "Finalisez votre achat en ligne pour bénéficier de la garantie fabricant et de l assistance technique directe."
             }
         ],
         "faqs": [
@@ -3107,13 +3107,13 @@
         "category": "Shopping",
         "code": "",
         "link": "https://www.awin1.com/cread.php?awinmid=123746&awinaffid=2821736&ued=https%3A%2F%2Fnavimow.segway.com%2Ffr",
-        "advantage": "Boutique Officielle",
-        "description": "Navimow par Segway est la marque pionnière des robots tondeuses nouvelle génération sans câble périmétrique. Grâce au système de positionnement satellite EFLS 2.0 et à l intelligence artificielle VisionFence, profitez d une tonte millimétrée entièrement autonome. Accédez directement au catalogue et à la boutique officielle pour vous équiper avec la garantie constructeur.",
+        "advantage": "Robots Tondeuses Sans Câble",
+        "description": "Navimow de Segway révolutionne l entretien du jardin avec ses robots tondeuses nouvelle génération sans câble périphérique. Grâce à la navigation satellite RTK combinée à une caméra intelligente avec évitement d obstacles par IA, Navimow tond votre pelouse avec une précision centimétrique.",
         "logoUrl": "/logos/navimow.png",
         "isPartner": true,
         "lastVerified": "2026-11-11",
-        "seoTitle": "Avis Navimow Segway & Boutique Officielle {{YEAR}} : Robots Tondeuses 🌿",
-        "seoDescription": "Découvrez notre avis sur les robots tondeuses sans fil Navimow Segway en {{YEAR}} : séries i (i105E, i108E) et H. Accès boutique officielle et garanties fabricant.",
+        "seoTitle": "Avis Navimow Segway {{YEAR}} : Robots Tondeuses Sans Fil 🌿",
+        "seoDescription": "Notre avis sur les robots tondeuses sans fil Navimow Segway en {{YEAR}} : séries i (i105E, i108E) et H, navigation satellite RTK et caméra IA d évitement.",
         "review": {
             "pros": [
                 "Zéro câble périphérique à enterrer : délimitation virtuelle des zones en quelques minutes via l application",
@@ -3130,16 +3130,16 @@
         },
         "steps": [
             {
-                "title": "Cliquez sur notre lien officiel",
-                "description": "Accédez directement à la boutique officielle Navimow via notre lien partenaire certifié : https://www.awin1.com/cread.php?awinmid=123746&awinaffid=2821736&ued=https%3A%2F%2Fnavimow.segway.com%2Ffr."
+                "title": "Accédez au site Navimow",
+                "description": "Accédez directement au site Navimow via notre lien partenaire certifié : https://www.awin1.com/cread.php?awinmid=123746&awinaffid=2821736&ued=https%3A%2F%2Fnavimow.segway.com%2Ffr."
             },
             {
                 "title": "Choisissez le modèle adapté à votre jardin",
                 "description": "Parcourez les séries i et H selon la superficie de votre pelouse (500m², 800m², 1500m² ou plus) et configurez vos accessoires."
             },
             {
-                "title": "Commandez avec les garanties officielles Segway",
-                "description": "Finalisez votre commande sur la boutique officielle pour bénéficier des garanties officielles constructeur et du support technique."
+                "title": "Commandez avec les garanties Segway",
+                "description": "Finalisez votre commande en toute sérénité pour bénéficier des garanties constructeur Segway et du support technique."
             }
         ],
         "faqs": [
@@ -3168,13 +3168,13 @@
         "category": "Banque & Finance",
         "code": "",
         "link": "https://www.awin1.com/cread.php?awinmid=130641&awinaffid=2821736&ued=https%3A%2F%2Fwww.capitalkoala.com%2F",
-        "advantage": "Site Officiel",
+        "advantage": "Épargne & Cashback Enfants",
         "description": "Capital Koala est la plateforme pionnière d épargne pour enfants grâce au cashback de vos achats du quotidien. En effectuant vos achats en ligne chez plus de 2 500 marchands partenaires (Fnac, Booking, La Redoute, Auchan), un pourcentage de chaque dépense est directement reversé sur le livret d épargne de vos enfants.",
         "logoUrl": "/logos/capital-koala.png",
         "isPartner": true,
         "lastVerified": "2026-11-11",
-        "seoTitle": "Avis Capital Koala & Site Officiel {{YEAR}} : Épargne & Cashback 🐨",
-        "seoDescription": "Découvrez notre avis sur Capital Koala en {{YEAR}} : épargne automatique pour enfants, plus de 2 500 marchands partenaires et accès au site officiel.",
+        "seoTitle": "Avis Capital Koala {{YEAR}} : Épargne & Cashback Enfants 🐨",
+        "seoDescription": "Découvrez notre avis sur Capital Koala en {{YEAR}} : transformez le cashback de vos achats chez 2 500 marchands partenaires en épargne pour vos enfants.",
         "review": {
             "pros": [
                 "Épargne 100% indolore pour l avenir des enfants financée par vos achats courants",
@@ -3192,8 +3192,8 @@
         },
         "steps": [
             {
-                "title": "Cliquez sur notre lien officiel",
-                "description": "Accédez directement au site officiel Capital Koala via notre lien partenaire certifié : https://www.awin1.com/cread.php?awinmid=130641&awinaffid=2821736&ued=https%3A%2F%2Fwww.capitalkoala.com%2F."
+                "title": "Accédez à Capital Koala",
+                "description": "Accédez directement au site Capital Koala via notre lien partenaire certifié : https://www.awin1.com/cread.php?awinmid=130641&awinaffid=2821736&ued=https%3A%2F%2Fwww.capitalkoala.com%2F."
             },
             {
                 "title": "Créez votre compte familial gratuit",
