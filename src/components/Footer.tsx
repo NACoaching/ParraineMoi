@@ -59,6 +59,7 @@ export function Footer() {
                             {[
                                 { name: "Néobanques", href: "/categorie/banque-finance" },
                                 { name: "Crypto", href: "/categorie/crypto" },
+                                { name: "Sport & Santé", href: "/categorie/sport-sante" },
                                 { name: "Shopping", href: "/categorie/shopping" },
                                 { name: "Jeux & Gains", href: "/categorie/jeux-gains" }
                             ].map((link) => (

@@ -27,6 +27,10 @@ const categorySeoContent: Record<string, { intro: string, subtitle: string }> = 
         intro: "Le cashback et les bons plans d'affiliation e-commerce explosent. Les applications de shopping en ligne encouragent massivement les programmes de parrainage pour vous faire découvrir des marchands partenaires (Rakuten, eBuyClub, Poulpeo) ou vous offrir des réductions en cagnotte lors de votre première commande.",
         subtitle: "Votre pouvoir d'achat optimisé"
     },
+    "Sport & Santé": {
+        intro: "La nutrition sportive, les compléments alimentaires et le bien-être physique connaissent une véritable révolution axée sur la santé et la pureté. Que vous recherchiez de la whey native française non dénaturée, des oméga 3 haute assimilation (Epax), de la créatine pure ou des vitamines biodisponibles, profitez de nos codes de parrainage validés pour obtenir des réductions immédiates et des avantages exclusifs chez Nutripure et MyProtein.",
+        subtitle: "Performance sportive & micronutrition santé"
+    },
     "Énergie & Internet": {
         intro: "Changer de fournisseur d'accès à Internet ou de contrat d'électricité est devenu le meilleur moyen de faire des économies mensuelles. Les fournisseurs récompensent systématiquement le bouche-à-oreille avec de généreuses réductions sur factures ou virements bancaires lors de la souscription avec un code parrain.",
         subtitle: "Réduisez vos factures fixes"
@@ -56,6 +60,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         "Banque & Finance": `Codes Parrainage Banque en Ligne ${currentYear} : Primes Offertes`,
         "Crypto": `Codes Parrainage Crypto ${currentYear} : Bonus & BTC Offerts`,
         "Shopping": `Codes Parrainage Cashback ${currentYear} : Réductions Offertes`,
+        "Sport & Santé": `Codes Parrainage Sport & Santé ${currentYear} : Réductions & Nutrition`,
         "Énergie & Internet": `Codes Parrainage Énergie & Internet ${currentYear} : Bons Plans`,
         "Jeux & Gains": `Codes Parrainage Jeux ${currentYear} : Bonus & Gains Réels`,
         "Paris Sportifs & Poker": `Codes Parrainage Paris Sportifs & Poker ${currentYear} : Freebets`,
@@ -65,6 +70,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         "Banque & Finance": `Comparez les meilleurs codes de parrainage banque en ligne ${currentYear} : Fortuneo, Revolut, N26, Sumeria, BoursoBank. Jusqu'à 200€ de prime !`,
         "Crypto": `Les meilleurs codes parrainage crypto ${currentYear} : Binance, Coinbase, Bitstack, SwissBorg, Coinhouse. Bonus BTC et réductions de frais.`,
         "Shopping": `Codes parrainage cashback et e-commerce vérifiés en ${currentYear} : iGraal, eBuyClub, Poulpeo, Joko. Réductions immédiates sur vos achats.`,
+        "Sport & Santé": `Meilleurs codes parrainage sport, fitness et compléments alimentaires en ${currentYear} : Nutripure, MyProtein. Réductions et livraison offerte.`,
         "Énergie & Internet": `Codes parrainage énergie et fournisseurs internet ${currentYear} : économisez sur vos factures avec des primes de bienvenue vérifiées.`,
         "Jeux & Gains": `Codes parrainage jeux et applications rémunératrices en ${currentYear} : bonus de démarrage vérifiés pour maximiser vos gains réels.`,
         "Paris Sportifs & Poker": `Offres parrainage paris sportifs et poker ${currentYear} : Winamax et Unibet. Jusqu'à 140€ de bonus de bienvenue vérifiés !`,

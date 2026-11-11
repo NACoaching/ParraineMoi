@@ -50,6 +50,7 @@ const CATEGORIES = [
     { label: "💳 Banques", value: "Banque & Finance" },
     { label: "🪙 Crypto", value: "Crypto" },
     { label: "🛍️ Shopping & Cashback", value: "Shopping" },
+    { label: "🏋️ Sport & Santé", value: "Sport & Santé" },
     { label: "🎮 Jeux & Paris", value: "Jeux & Gains|Paris Sportifs & Poker" },
 ];
 

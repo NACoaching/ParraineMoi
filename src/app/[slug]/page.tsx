@@ -131,6 +131,7 @@ export default async function ReferralPage({
         "Crypto": "FinanceApplication",
         "Shopping": "ShoppingApplication",
         "Jeux & Gains": "GameApplication",
+        "Sport & Santé": "HealthApplication",
     };
 
     const appCategory = categoryToAppType[referral.category] || "BusinessApplication";
