@@ -3160,5 +3160,67 @@
                 "answer": "Navimow intègre un capteur de pluie : dès les premières gouttes, il interrompt automatiquement sa tonte et retourne à sa station d accueil. De même, si sa batterie passe sous les 15%, il va se recharger seul et reprend son travail exactement là où il s était arrêté."
             }
         ]
+    },
+    {
+        "id": "1009",
+        "name": "Capital Koala",
+        "slug": "capital-koala",
+        "category": "Banque & Finance",
+        "code": "",
+        "link": "https://www.awin1.com/cread.php?awinmid=130641&awinaffid=2821736&ued=https%3A%2F%2Fwww.capitalkoala.com%2F",
+        "advantage": "Site Officiel",
+        "description": "Capital Koala est la plateforme pionnière d épargne pour enfants grâce au cashback de vos achats du quotidien. En effectuant vos achats en ligne chez plus de 2 500 marchands partenaires (Fnac, Booking, La Redoute, Auchan), un pourcentage de chaque dépense est directement reversé sur le livret d épargne de vos enfants.",
+        "logoUrl": "/logos/capital-koala.png",
+        "isPartner": true,
+        "lastVerified": "2026-11-11",
+        "seoTitle": "Avis Capital Koala & Site Officiel {{YEAR}} : Épargne & Cashback 🐨",
+        "seoDescription": "Découvrez notre avis sur Capital Koala en {{YEAR}} : épargne automatique pour enfants, plus de 2 500 marchands partenaires et accès au site officiel.",
+        "review": {
+            "pros": [
+                "Épargne 100% indolore pour l avenir des enfants financée par vos achats courants",
+                "Partenariat avec plus de 2 500 sites marchands majeurs (Fnac, Booking, Cdiscount, Vertbaudet...)",
+                "Compatible avec tous les livrets d épargne bancaires français (Livret A, Livret Jeune, etc.)",
+                "Possibilité d inviter toute la famille (grands-parents, oncles, tantes) dans la KOALAlliance",
+                "Bouton d activation automatique KOALA pour navigateur (Chrome, Firefox, Safari)",
+                "Service 100% gratuit et sans engagement"
+            ],
+            "cons": [
+                "Délais de validation du cashback dépendant des marchands (environ 30 à 60 jours)",
+                "Seuil de 20 € cumulés pour déclencher le virement automatique vers le livret de l enfant"
+            ],
+            "longReview": "<p>Préparer l avenir financier de ses enfants tout en faisant ses courses quotidiennes sur internet : c est l idée novatrice derrière <strong>Capital Koala</strong>, pionnier français du cashback solidaire et familial fondé en 2011.</p><br/><p>Le principe est d une simplicité remarquable : à chaque fois que vous réalisez un achat chez l un des <strong>2 500 marchands partenaires</strong> (Fnac, Booking.com, Auchan, Vertbaudet, Cdiscount, Sephora...), ces marchands reversent un pourcentage de votre commande. Capital Koala récolte cet argent et le verse automatiquement sur le <strong>livret d épargne bancaire de votre enfant</strong>.</p><br/><h3>Les atouts uniques de Capital Koala pour les familles :</h3><ul><li><strong>La KOALAlliance (Épargne collaborative) :</strong> Vous pouvez inviter les grands-parents, parrains, marraines, oncles et tantes à rejoindre votre cercle familial. Leurs achats habituels viendront gonfler la tirelire de vos enfants sans leur coûter un centime de plus !</li><li><strong>Compatible avec toutes les banques françaises :</strong> Que votre enfant possède un Livret A, un Livret Jeune ou une assurance-vie chez BoursoBank, Fortuneo, Crédit Agricole, La Banque Postale ou BNP Paribas, les virements sont 100% automatiques dès que la cagnotte atteint 20 €.</li><li><strong>L extension navigateur intelligente :</strong> Installez le bouton Koala sur votre navigateur web. Dès que vous naviguez sur un site partenaire, un pop-up discret vous permet d activer le remboursement en un clic.</li></ul><br/><h3>Pourquoi rejoindre Capital Koala via notre lien officiel ?</h3><p>En passant par notre lien certifié, vous accédez directement à la plateforme officielle Capital Koala pour ouvrir votre compte familial gratuitement et commencer à épargner pour vos enfants dès votre prochain achat en ligne.</p>"
+        },
+        "steps": [
+            {
+                "title": "Cliquez sur notre lien officiel",
+                "description": "Accédez directement au site officiel Capital Koala via notre lien partenaire certifié : https://www.awin1.com/cread.php?awinmid=130641&awinaffid=2821736&ued=https%3A%2F%2Fwww.capitalkoala.com%2F."
+            },
+            {
+                "title": "Créez votre compte familial gratuit",
+                "description": "Inscrivez-vous en quelques clics et renseignez le ou les livrets d épargne de vos enfants (Livret A, Livret Jeune...)."
+            },
+            {
+                "title": "Activez vos remboursements shopping",
+                "description": "Faites vos achats en ligne chez plus de 2 500 partenaires pour faire grandir automatiquement la cagnotte de vos enfants."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Comment fonctionne Capital Koala pour épargner pour mes enfants ?",
+                "answer": "À chaque fois que vous effectuez un achat sur internet chez l un des 2 500 marchands partenaires, le marchand reverse une commission. Capital Koala transforme cette commission en euros, puis les vire directement sur le compte ou livret bancaire de votre enfant dès 20 € cumulés."
+            },
+            {
+                "question": "Quels livrets bancaires sont compatibles avec Capital Koala ?",
+                "answer": "Capital Koala est compatible avec la totalité des banques françaises (banques traditionnelles et banques en ligne) et tous les types de comptes pour enfants : Livret A, Livret Jeune, Livret d Épargne Populaire ou compte courant."
+            },
+            {
+                "question": "L inscription à Capital Koala est-elle payante ?",
+                "answer": "Non, le service est 100% gratuit. Il n y a aucun frais d inscription, aucun abonnement et aucun frais prélevé lors des virements sur les livrets de vos enfants."
+            },
+            {
+                "question": "Qu est-ce que la KOALAlliance ?",
+                "answer": "La KOALAlliance est une fonctionnalité qui permet d inviter les membres de votre famille (grands-parents, parrains, marraines, oncles, tantes). Lorsqu ils font leurs propres achats sur internet, leurs remboursements sont également crédités sur le livret de vos enfants !"
+            }
+        ]
     }
 ]
