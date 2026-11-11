@@ -3099,5 +3099,66 @@
                 "answer": "Oui, les modèles équipés du Bluetooth 5.3 (comme la GS Pro ou la Lite 3) intègrent un microphone et un haut-parleur haute fidélité pour passer et recevoir des appels téléphoniques directement depuis votre poignet lorsqu elle est connectée à votre smartphone."
             }
         ]
+    },
+    {
+        "id": "1008",
+        "name": "Navimow (Segway)",
+        "slug": "navimow",
+        "category": "Shopping",
+        "code": "",
+        "link": "https://www.awin1.com/cread.php?awinmid=123746&awinaffid=2821736&ued=https%3A%2F%2Fnavimow.segway.com%2Ffr",
+        "advantage": "Boutique Officielle",
+        "description": "Navimow par Segway est la marque pionnière des robots tondeuses nouvelle génération sans câble périmétrique. Grâce au système de positionnement satellite EFLS 2.0 et à l intelligence artificielle VisionFence, profitez d une tonte millimétrée entièrement autonome. Accédez directement au catalogue et à la boutique officielle pour vous équiper avec la garantie constructeur.",
+        "logoUrl": "/logos/navimow.png",
+        "isPartner": true,
+        "lastVerified": "2026-11-11",
+        "seoTitle": "Avis Navimow Segway & Boutique Officielle {{YEAR}} : Robots Tondeuses 🌿",
+        "seoDescription": "Découvrez notre avis sur les robots tondeuses sans fil Navimow Segway en {{YEAR}} : séries i (i105E, i108E) et H. Accès boutique officielle et garanties fabricant.",
+        "review": {
+            "pros": [
+                "Zéro câble périphérique à enterrer : délimitation virtuelle des zones en quelques minutes via l application",
+                "Système de navigation satellite EFLS 2.0 et caméra IA VisionFence évitant les obstacles en temps réel",
+                "Gestion intelligente des terrains complexes, pentes jusqu à 30% et multi-zones de tonte indépendantes",
+                "Fonctionnement ultra-silencieux (54 dB) et retour automatique à la base de charge en cas de pluie",
+                "Garantie constructeur officielle avec accès direct au support et mises à jour logicielles OTA"
+            ],
+            "cons": [
+                "Investissement initial plus élevé qu une tondeuse manuelle classique (mais justifié par le gain de temps quotidien)",
+                "Nécessite un ciel dégagé pour la réception satellite optimale de l antenne GNSS/RTK"
+            ],
+            "longReview": "<p>Tondre sa pelouse le week-end est l une des corvées les plus chronophages de l entretien de la maison. Alors que les premiers robots tondeuses imposaient la corvée fastidieuse d enterrer des centaines de mètres de câble électrique autour du terrain, <strong>Navimow</strong> (conçu par le pionnier des technologies de mobilité <em>Segway</em>) a révolutionné le marché avec ses <strong>robots tondeuses 100% sans fil périmétrique</strong>.</p><br/><p>Fini les câbles sectionnés par un coup de bêche ou rongés par les rongeurs : la délimitation de votre terrain s effectue en moins de 10 minutes depuis votre smartphone, comme si vous pilotiez une voiture télécommandée.</p><br/><h3>Les séries phares de la gamme Segway Navimow :</h3><ul><li><strong>Navimow Série i (i105E & i108E) :</strong> Le modèle le plus populaire et abordable pour les jardins jusqu à 500 m² ou 800 m². Il intègre d origine la caméra intelligente VisionFence capable d identifier et d esquiver en temps réel les obstacles imprévus (arbres, jouets d enfants, tuyaux d arrosage, hérissons).</li><li><strong>Navimow Série H (H500E, H800E, H1500E, H3000E) :</strong> Conçue pour les vastes propriétés jusqu à 3 000 m². Ces modèles gèrent des pentes raides jusqu à 45% et disposent d un module 4G intégré avec géolocalisation antivol en temps réel.</li><li><strong>Tonte en bandes parallèles ordonnées :</strong> Contrairement aux anciens robots qui tondent de manière aléatoire et désordonnée, Navimow planifie des allers-retours méthodiques pour un gazon impeccable à la manière des terrains de football professionnels.</li></ul><br/><h3>Pourquoi commander sur la boutique officielle Navimow ?</h3><p>En passant par notre lien partenaire certifié, vous accédez directement à la boutique officielle Segway Navimow en France. Vous avez la garantie de recevoir du matériel d origine européenne, avec accessoires complets (antenne GNSS, alimentation, lames de rechange), garantie constructeur officielle et support technique dédié.</p>"
+        },
+        "steps": [
+            {
+                "title": "Cliquez sur notre lien officiel",
+                "description": "Accédez directement à la boutique officielle Navimow via notre lien partenaire certifié : https://www.awin1.com/cread.php?awinmid=123746&awinaffid=2821736&ued=https%3A%2F%2Fnavimow.segway.com%2Ffr."
+            },
+            {
+                "title": "Choisissez le modèle adapté à votre jardin",
+                "description": "Parcourez les séries i et H selon la superficie de votre pelouse (500m², 800m², 1500m² ou plus) et configurez vos accessoires."
+            },
+            {
+                "title": "Commandez avec les garanties officielles Segway",
+                "description": "Finalisez votre commande sur la boutique officielle pour bénéficier des garanties officielles constructeur et du support technique."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Comment fonctionne un robot tondeuse Navimow sans fil périmétrique ?",
+                "answer": "Contrairement aux robots classiques qui exigent d enterrer des centaines de mètres de fil électrique autour de la pelouse, Navimow utilise le positionnement par satellite (GNSS / RTK) combiné à une caméra avec intelligence artificielle (VisionFence). Vous tracez les limites virtuelles de votre jardin directement depuis votre smartphone en guidant le robot."
+            },
+            {
+                "question": "Quelle est la différence entre la série i (i105E / i108E) et la série H ?",
+                "answer": "La série Navimow i est optimisée pour les jardins urbains et périurbains jusqu à 500 ou 800 m², avec caméra IA intégrée d origine à un tarif très accessible. La série H est conçue pour les très grands terrains (jusqu à 3 000 m²) avec des pentes plus raides (jusqu à 45%) et une connectivité 4G antivol."
+            },
+            {
+                "question": "Comment le robot Navimow évite-t-il les obstacles ?",
+                "answer": "Grâce à sa caméra grand angle et son algorithme d IA VisionFence, Navimow analyse le terrain en direct. S il détecte un objet (jouet d enfant, animal domestique, outil de jardin), il le contourne automatiquement et reprend sa trajectoire de tonte sans interruption."
+            },
+            {
+                "question": "Que se passe-t-il en cas de pluie ou de batterie faible ?",
+                "answer": "Navimow intègre un capteur de pluie : dès les premières gouttes, il interrompt automatiquement sa tonte et retourne à sa station d accueil. De même, si sa batterie passe sous les 15%, il va se recharger seul et reprend son travail exactement là où il s était arrêté."
+            }
+        ]
     }
 ]
