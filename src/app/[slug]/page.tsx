@@ -296,7 +296,7 @@ export default async function ReferralPage({
                             </h2>
                             <p className="text-slate-500 dark:text-slate-400 mb-10 max-w-lg mx-auto text-lg leading-relaxed">
                                 {referral.isPartner
-                                    ? `Profitez de la boutique officielle, de la livraison offerte et des garanties constructeur en passant par notre lien certifié.`
+                                    ? `Profitez de la boutique officielle et des garanties constructeur en passant par notre lien certifié.`
                                     : `Utilisez le ${referral.code.startsWith('http') ? 'lien' : 'code'} vérifié ci-dessous lors de votre inscription pour débloquer vos avantages.`}
                             </p>
 
