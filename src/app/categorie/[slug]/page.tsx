@@ -149,7 +149,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
     };
 
     return (
-        <main className="flex flex-col items-center min-h-screen pb-20 pt-16 px-4">
+        <main className="flex flex-col items-center min-h-screen pb-16 pt-5 px-4 max-w-7xl mx-auto">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
@@ -158,29 +158,26 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
             />
-            <div className="w-full max-w-6xl text-center mb-16 relative">
-                <nav className="flex items-center justify-center gap-2 text-sm font-medium text-slate-500 mb-12 overflow-x-auto whitespace-nowrap">
-                    <Link href="/" className="flex items-center gap-1.5 hover:text-slate-900 dark:hover:text-white transition-colors">
-                        <Home size={16} />
+            <div className="w-full text-center mb-6 relative">
+                <nav className="flex items-center justify-center gap-1.5 text-xs font-medium text-slate-500 mb-4 overflow-x-auto whitespace-nowrap">
+                    <Link href="/" className="flex items-center gap-1 hover:text-blue-600 transition-colors">
+                        <Home size={13} />
                         <span>Accueil</span>
                     </Link>
-                    <ChevronRight size={14} className="text-slate-300 dark:text-slate-700 flex-shrink-0" />
-                    <span className="text-slate-900 dark:text-slate-300 font-bold uppercase tracking-widest text-xs">
+                    <ChevronRight size={12} className="text-slate-300 flex-shrink-0" />
+                    <span className="text-slate-900 font-bold uppercase tracking-wider text-[11px]">
                         {originalCategory}
                     </span>
                 </nav>
-                <div className="inline-block py-2 px-4 rounded-2xl bg-primary/10 text-primary font-bold text-xs uppercase tracking-widest mb-6">
-                    Explorer la catégorie
-                </div>
-                <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tighter text-slate-900 dark:text-white mb-8 leading-tight">
-                    Parrainages <span className="text-primary">{originalCategory}</span>
+                <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-slate-900 mb-2 leading-tight">
+                    Codes Parrainage <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">{originalCategory}</span>
                 </h1>
-                <p className="text-xl text-slate-500 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed">
-                    Comparez les meilleures offres et primes de bienvenue vérifiées par nos experts pour la thématique {originalCategory}.
+                <p className="text-xs sm:text-sm text-slate-500 max-w-xl mx-auto leading-relaxed">
+                    Comparez les meilleures offres et primes vérifiées en {currentYear} pour la thématique {originalCategory}.
                 </p>
             </div>
 
-            <div className="w-full max-w-5xl mt-24">
+            <div className="w-full">
                 <ReferralGrid
                     referrals={categoryReferrals}
                     activeCategoryName={originalCategory}
