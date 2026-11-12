@@ -24,7 +24,8 @@ export function CopyButton({
 }: CopyButtonProps) {
     const [copied, setCopied] = useState(false);
 
-    const handleCopy = async () => {
+    const handleCopy = async (e: React.MouseEvent) => {
+        e.stopPropagation();
         try {
             await navigator.clipboard.writeText(code);
             setCopied(true);
@@ -47,23 +48,26 @@ export function CopyButton({
 
     return (
         <button
+            type="button"
             onClick={handleCopy}
             data-action="copy"
             data-code={code}
-            className={`flex items-center justify-center gap-2 h-10 px-4 rounded-xl font-semibold text-sm transition-all active:scale-95 ${copied
-                ? "bg-emerald-500 text-white hover:bg-emerald-600"
-                : "bg-primary text-white hover:bg-blue-700"
-                } ${className}`}
+            title={copied ? successLabel : label}
             aria-label={label}
+            className={`inline-flex items-center justify-center font-semibold transition-all active:scale-90 cursor-pointer select-none ${
+                showText 
+                    ? `h-10 px-4 rounded-xl gap-2 text-sm ${copied ? "bg-emerald-600 text-white" : "bg-blue-600 hover:bg-blue-700 text-white shadow-xs"}`
+                    : `h-8 w-8 rounded-lg shrink-0 ${copied ? "bg-emerald-600 text-white shadow-xs" : "bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-white border border-blue-200/80 shadow-2xs"}`
+            } ${className}`}
         >
             {copied ? (
                 <>
-                    <Check size={16} />
+                    <Check className="h-4 w-4 shrink-0 stroke-[2.5]" />
                     {showText && <span className="truncate">{successLabel}</span>}
                 </>
             ) : (
                 <>
-                    <Copy size={16} />
+                    <Copy className="h-4 w-4 shrink-0 stroke-[2.2]" />
                     {showText && <span className="truncate">{label}</span>}
                 </>
             )}

@@ -82,7 +82,7 @@ export function ReferralCard({ referral, isPriority = false, index }: { referral
       <div className="pt-2 mt-auto flex flex-col gap-2 border-t border-slate-100">
         {/* Code Box */}
         {referral.code && (
-          <div className="flex items-center justify-between gap-1.5 bg-slate-50 border border-slate-200/90 rounded-lg py-1 px-2.5">
+          <div className="flex items-center justify-between gap-2 bg-slate-50 border border-slate-200/90 rounded-xl py-1 px-2.5">
             <span className="font-mono font-bold text-slate-800 text-xs tracking-wider truncate select-all">
               {referral.code}
             </span>
@@ -91,14 +91,15 @@ export function ReferralCard({ referral, isPriority = false, index }: { referral
               referralName={referral.name}
               advantage={referral.advantage}
               showText={false} 
-              className="shrink-0 h-7 w-7 p-0 rounded-md bg-white border border-slate-200 hover:bg-blue-50 hover:border-blue-300 text-slate-700 hover:text-blue-600 shadow-2xs" 
+              label="Copier le code"
+              successLabel="Copié !"
             />
           </div>
         )}
 
         {/* Link Box */}
         {referral.link && referral.link !== referral.code && (
-          <div className="flex items-center justify-between gap-1.5 bg-slate-50 border border-slate-200/90 rounded-lg py-1 px-2.5">
+          <div className="flex items-center justify-between gap-2 bg-slate-50 border border-slate-200/90 rounded-xl py-1 px-2.5">
             <span className="font-mono text-slate-500 text-[10px] truncate select-all">
               {referral.link}
             </span>
@@ -107,9 +108,8 @@ export function ReferralCard({ referral, isPriority = false, index }: { referral
               referralName={referral.name}
               advantage={referral.advantage}
               showText={false} 
-              className="shrink-0 h-7 w-7 p-0 rounded-md bg-white border border-slate-200 hover:bg-slate-100 text-slate-500 shadow-2xs" 
-              label="Lien"
-              successLabel="Copié"
+              label="Copier le lien"
+              successLabel="Copié !"
             />
           </div>
         )}
