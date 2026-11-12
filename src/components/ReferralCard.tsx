@@ -19,6 +19,7 @@ export interface Referral {
   lastVerified?: string;
   review?: {
     pros: string[];
+    cons?: string[];
     longReview: string;
   };
   steps?: { title: string; description: string }[];

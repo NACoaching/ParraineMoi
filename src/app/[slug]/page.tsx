@@ -7,6 +7,9 @@ import { StickyCopyBar } from '@/components/StickyCopyBar';
 import { FaqAccordion } from '@/components/FaqAccordion';
 import { DetailCodeBox } from '@/components/DetailCodeBox';
 import { ShareOfferButton } from '@/components/ShareOfferButton';
+import { ReminderButton } from '@/components/ReminderButton';
+import { CommunityValidation } from '@/components/CommunityValidation';
+import { QuickConditions } from '@/components/QuickConditions';
 import { referrals, guides } from '@/lib/data';
 import { Referral, ReferralCard } from '@/components/ReferralCard';
 import { slugifyCategory, formatVerifiedDate } from '@/lib/utils';
@@ -334,20 +337,35 @@ export default async function ReferralPage({
                                 </div>
                             )}
 
-                            <p className="text-[11px] text-slate-400 font-medium mt-4">
+                            <p className="text-[11px] text-slate-400 font-medium mt-3">
                                 ✓ Inscription directe et sécurisée sur le site officiel {referral.name}
                             </p>
 
-                            <ShareOfferButton 
-                                name={referral.name}
-                                advantage={referral.advantage}
-                                slug={referral.slug}
-                                code={hasRealCode ? referral.code : undefined}
-                            />
+                            {/* Practical Actions: Share + Reminder */}
+                            <div className="flex items-center justify-center gap-2 mt-4 pt-4 border-t border-slate-100 flex-wrap">
+                                <ShareOfferButton 
+                                    name={referral.name}
+                                    advantage={referral.advantage}
+                                    slug={referral.slug}
+                                    code={hasRealCode ? referral.code : undefined}
+                                />
+                                <ReminderButton 
+                                    name={referral.name}
+                                    advantage={referral.advantage}
+                                    slug={referral.slug}
+                                    code={hasRealCode ? referral.code : undefined}
+                                />
+                            </div>
+
+                            {/* Real Community Feedback (Google-safe) */}
+                            <CommunityValidation name={referral.name} slug={referral.slug} />
                         </>
                     )}
                 </div>
             </section>
+
+            {/* Quick Conditions - L'essentiel en 30 secondes (Anti-jargon) */}
+            <QuickConditions referral={referral} />
 
             {/* Step-by-step guide */}
             {referral.steps && referral.steps.length > 0 && (

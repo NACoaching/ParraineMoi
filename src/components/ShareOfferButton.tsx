@@ -47,11 +47,7 @@ export function ShareOfferButton({ name, advantage, slug, code }: ShareOfferButt
   const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareText)}`;
 
   return (
-    <div className="flex items-center justify-center gap-2 mt-5 pt-4 border-t border-slate-100 flex-wrap">
-      <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">
-        Faire profiter un ami :
-      </span>
-
+    <div className="inline-flex items-center gap-1.5">
       {/* WhatsApp direct button */}
       <a
         href={whatsappUrl}
