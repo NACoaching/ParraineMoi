@@ -46,7 +46,7 @@ export default function PolitiqueConfidentialitePage() {
                         1. Responsable du traitement
                     </h2>
                     <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                        Le site <strong>codes-de-parrainages.com</strong> est édité à titre personnel. Le responsable du traitement des données est l&apos;éditeur du site, joignable à l&apos;adresse : <strong className="text-blue-600">contact@codes-de-parrainages.com</strong>.
+                        Le site <strong>codes-de-parrainages.com</strong> est édité à titre personnel. Le responsable du traitement des données est l&apos;éditeur du site, joignable à l&apos;adresse : <a href="mailto:contact.nacoaching@gmail.com" className="text-blue-600 hover:underline font-bold">contact.nacoaching@gmail.com</a>.
                     </p>
                 </section>
 
@@ -130,7 +130,7 @@ export default function PolitiqueConfidentialitePage() {
                         Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, vous disposez d&apos;un droit d&apos;accès, de rectification et d&apos;opposition. Dans la mesure où notre site ne conserve aucun profil nominatif d&apos;utilisateur, ces demandes s&apos;appliquent à vos correspondances par email avec la rédaction.
                     </p>
                     <p className="text-xs text-slate-500 mt-3">
-                        Pour toute question relative à vos données : <strong>contact@codes-de-parrainages.com</strong>.
+                        Pour toute question relative à vos données : <a href="mailto:contact.nacoaching@gmail.com" className="text-blue-600 hover:underline font-bold">contact.nacoaching@gmail.com</a>.
                     </p>
                     <p className="text-[11px] text-slate-400 mt-4">
                         Dernière mise à jour : Novembre 2026.

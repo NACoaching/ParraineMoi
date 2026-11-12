@@ -55,7 +55,7 @@ export default function MentionsLegalesPage() {
                             Le site internet <strong>codes-de-parrainages.com</strong> est un service d&apos;information et de comparaison indépendant édité à titre personnel par son auteur.
                         </p>
                         <p>
-                            <strong>Contact :</strong> Pour toute question, demande de partenariat, proposition d&apos;offre ou signalement d&apos;un code expiré, vous pouvez contacter l&apos;éditeur via le formulaire de contact ou à l&apos;adresse de support du site.
+                            <strong>Contact :</strong> Pour toute question, demande de partenariat, proposition d&apos;offre ou signalement d&apos;un code expiré, vous pouvez contacter l&apos;éditeur à l&apos;adresse : <a href="mailto:contact.nacoaching@gmail.com" className="text-blue-600 hover:underline font-bold">contact.nacoaching@gmail.com</a>.
                         </p>
                     </div>
                 </section>
@@ -134,7 +134,7 @@ export default function MentionsLegalesPage() {
                             <li>Fiabilité légale de la structure (agrément ACPR, AMF, PSAN ou conformité européenne selon le secteur).</li>
                         </ul>
                         <p className="pt-1">
-                            Pour soumettre un programme d&apos;affiliation ou une proposition de sponsoring, contactez la rédaction à : <strong className="text-blue-600">contact@codes-de-parrainages.com</strong>.
+                            Pour soumettre un programme d&apos;affiliation ou une proposition de sponsoring, contactez la rédaction à : <a href="mailto:contact.nacoaching@gmail.com" className="text-blue-600 hover:underline font-bold">contact.nacoaching@gmail.com</a>.
                         </p>
                     </div>
                 </section>
