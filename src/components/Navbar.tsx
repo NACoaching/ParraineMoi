@@ -31,23 +31,24 @@ export function Navbar() {
     }, [isOpen]);
 
     return (
-        <nav className="sticky top-0 z-50 w-full backdrop-blur-md flex flex-col items-center border-b border-slate-200/50 dark:border-slate-800/50 bg-white/80 dark:bg-slate-950/80 transition-colors">
+        <nav className="sticky top-0 z-50 w-full backdrop-blur-md flex flex-col items-center border-b border-slate-200/80 bg-white/80 transition-colors shadow-[0_1px_3px_rgba(0,0,0,0.02)]">
             <div className="flex h-20 w-full max-w-6xl items-center justify-between px-6">
                 <Link 
                     href="/" 
-                    className="flex items-center gap-3 font-bold text-xl sm:text-2xl tracking-tighter text-slate-900 dark:text-white group"
+                    className="flex items-center gap-3 font-bold text-xl sm:text-2xl tracking-tight text-slate-900 group"
                     onClick={() => setIsOpen(false)}
                 >
-                    <span className="p-2 bg-slate-900 dark:bg-slate-950 text-amber-400 rounded-xl shadow-lg ring-4 ring-cyan-500/20 dark:ring-cyan-400/10 border border-cyan-500/30 dark:border-cyan-400/20 group-hover:scale-110 transition-transform">
-                        <Gift size={22} />
+                    <span className="p-2.5 bg-gradient-to-tr from-blue-600 to-indigo-600 text-white rounded-2xl shadow-md shadow-blue-500/20 group-hover:scale-105 group-hover:shadow-lg transition-all">
+                        <Gift size={22} className="text-white" />
                     </span>
-                    <span className="group-hover:text-primary transition-colors">Codes de Parrainages</span>
+                    <span className="group-hover:text-primary transition-colors tracking-tight">Codes de Parrainages</span>
                 </Link>
 
                 {/* Desktop navigation */}
-                <div className="hidden md:flex items-center gap-8 text-sm font-bold uppercase tracking-widest text-slate-500">
-                    <Link href="/simulateur" className="flex items-center gap-2 text-emerald-500 dark:text-emerald-400 hover:text-emerald-600 dark:hover:text-emerald-300 transition-all hover:translate-y-[-1px]">
+                <div className="hidden md:flex items-center gap-7 text-xs font-bold uppercase tracking-wider text-slate-600">
+                    <Link href="/simulateur" className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200/60 hover:bg-emerald-100 hover:text-emerald-800 transition-all hover:translate-y-[-1px] font-bold">
                         💰 Simulateur
+                        <span className="text-[9px] bg-emerald-600 text-white px-1.5 py-0.2 rounded-full uppercase">Top</span>
                     </Link>
                     <Link href="/guides" className="hover:text-primary transition-all hover:translate-y-[-1px]">
                         Guides
@@ -58,6 +59,13 @@ export function Navbar() {
                     <Link href="/mentions-legales" className="hover:text-primary transition-all hover:translate-y-[-1px]">
                         Légal
                     </Link>
+                    <Link 
+                        href="/#grid-offres"
+                        className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-slate-900 hover:bg-blue-600 text-white transition-all shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98] normal-case tracking-normal font-semibold text-sm"
+                    >
+                        <Sparkles className="h-4 w-4 text-amber-300" />
+                        Voir les offres
+                    </Link>
                 </div>
 
                 {/* Mobile hamburger button */}
@@ -66,7 +74,7 @@ export function Navbar() {
                     onClick={() => setIsOpen(!isOpen)}
                     aria-label={isOpen ? "Fermer le menu" : "Ouvrir le menu"}
                     aria-expanded={isOpen}
-                    className="md:hidden p-2.5 rounded-xl bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary/40 transition-colors"
+                    className="md:hidden p-2.5 rounded-xl bg-slate-100 text-slate-700 hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary/40 transition-colors"
                 >
                     {isOpen ? <X size={24} /> : <Menu size={24} />}
                 </button>

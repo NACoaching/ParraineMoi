@@ -104,8 +104,15 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        {/* Subtle ambient lighting / Mesh gradient - Fintech Lumineuse */}
+        <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none" aria-hidden="true">
+          <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-gradient-to-tr from-blue-400/12 via-indigo-300/10 to-emerald-400/10 blur-[130px] rounded-full" />
+          <div className="absolute top-[650px] -left-48 w-[500px] h-[500px] bg-gradient-to-br from-blue-400/6 to-cyan-300/6 blur-[120px] rounded-full" />
+          <div className="absolute top-[1400px] -right-48 w-[600px] h-[600px] bg-gradient-to-bl from-indigo-400/6 to-emerald-300/6 blur-[120px] rounded-full" />
+        </div>
+
         <Navbar />
-        <div className="flex-1 w-full max-w-5xl mx-auto">
+        <div className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6">
           {children}
         </div>
         <Footer />

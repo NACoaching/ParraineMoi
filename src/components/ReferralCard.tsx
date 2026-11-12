@@ -27,102 +27,101 @@ export interface Referral {
 }
 
 export function ReferralCard({ referral, isPriority = false, index }: { referral: Referral, isPriority?: boolean, index?: number }) {
-  const shouldPrioritize = isPriority || (index !== undefined && index < 4);
+  const shouldPrioritize = isPriority || (index !== undefined && index < 6);
 
   return (
-    <div className="glass-card flex flex-col justify-between h-full group">
-      <div className="p-6 pb-4">
-        <div className="flex items-center gap-4 mb-5">
-          <Link href={`/parrainage-${referral.slug}`} className="h-14 w-14 shrink-0 overflow-hidden rounded-2xl border border-slate-100 dark:border-slate-800 bg-white shadow-sm ring-1 ring-slate-900/5 dark:ring-white/5 relative p-2 flex items-center justify-center hover:scale-105 transition-transform">
+    <div className="flex flex-col justify-between h-full group bg-white border border-slate-200/90 rounded-2xl p-4 shadow-xs hover:border-blue-400 hover:shadow-lg hover:-translate-y-1 transition-all duration-200">
+      <div>
+        {/* Brand & Category Header */}
+        <div className="flex items-center gap-3 mb-3">
+          <Link href={`/parrainage-${referral.slug}`} className="h-11 w-11 shrink-0 overflow-hidden rounded-xl border border-slate-200/90 bg-white shadow-2xs relative p-1.5 flex items-center justify-center group-hover:scale-105 transition-transform">
             <CompanyLogo url={referral.logoUrl} name={referral.name} priority={shouldPrioritize} />
           </Link>
-            <div>
-              <Link href={`/parrainage-${referral.slug}`}>
-                <h3 className="font-bold text-slate-900 dark:text-white line-clamp-1 hover:text-primary transition-colors text-lg tracking-tight">{referral.name}</h3>
+          <div className="min-w-0 flex-1">
+            <Link href={`/parrainage-${referral.slug}`}>
+              <h3 className="font-bold text-slate-900 truncate hover:text-blue-600 transition-colors text-base tracking-tight leading-tight">{referral.name}</h3>
+            </Link>
+            <div className="flex items-center gap-1.5 mt-0.5 flex-wrap">
+              <Link
+                href={`/categorie/${slugifyCategory(referral.category)}`}
+                className="inline-flex items-center rounded-md bg-slate-100 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider text-slate-600 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+              >
+                {referral.category}
               </Link>
-              <div className="flex items-center gap-2 mt-1 flex-wrap">
-                <Link
-                  href={`/categorie/${slugifyCategory(referral.category)}`}
-                  className="inline-flex items-center rounded-full bg-slate-100 dark:bg-slate-800 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 hover:bg-primary/10 hover:text-primary transition-colors"
-                >
-                  {referral.category}
-                </Link>
-                {referral.lastVerified && (
-                  <span className="inline-flex items-center gap-1 text-[11px] font-medium text-emerald-600 dark:text-emerald-400">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
-                    Vérifié le {formatVerifiedDate(referral.lastVerified)}
-                  </span>
-                )}
-              </div>
+              {referral.lastVerified && (
+                <span className="inline-flex items-center gap-1 text-[10px] font-medium text-emerald-700">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                  Vérifié
+                </span>
+              )}
             </div>
+          </div>
         </div>
 
-        <div className="mb-4">
+        {/* Advantage Badge */}
+        <div className="mb-2.5">
           {referral.isPaused ? (
-            <div className="bg-amber-500/10 border border-amber-500/20 text-amber-600 dark:text-amber-400 px-3 py-2 rounded-xl inline-flex items-center gap-2">
-              <span className="text-xl">⚠️</span>
-              <span className="text-sm font-bold tracking-tight">Programme en pause</span>
+            <div className="w-full bg-amber-50 border border-amber-200 text-amber-800 px-2.5 py-1.5 rounded-lg inline-flex items-center gap-1.5 text-xs font-bold">
+              <span>⚠️</span>
+              <span className="truncate">Suspendu</span>
             </div>
           ) : (
-            <div className="bg-primary/5 dark:bg-primary/10 border border-primary/10 text-primary px-3 py-2 rounded-xl inline-flex items-center gap-2">
-              <span className="text-xl">🎁</span>
-              <span className="text-sm font-bold tracking-tight">{referral.advantage}</span>
+            <div className="w-full bg-emerald-50 border border-emerald-200/80 text-emerald-800 px-2.5 py-1.5 rounded-lg inline-flex items-center gap-1.5">
+              <span className="text-sm">🎁</span>
+              <span className="text-xs font-black tracking-tight truncate">{referral.advantage}</span>
             </div>
           )}
         </div>
 
-        <p className="text-sm text-slate-600 dark:text-slate-400 line-clamp-2 leading-relaxed">
+        {/* Description */}
+        <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed mb-3">
           {referral.description}
         </p>
       </div>
 
-      <div className="p-6 pt-0 mt-auto flex flex-col gap-3">
+      <div className="pt-2 mt-auto flex flex-col gap-2 border-t border-slate-100">
         {/* Code Box */}
         {referral.code && (
-          <div className="flex items-center justify-between gap-2 bg-slate-50/50 dark:bg-slate-800/20 border border-slate-200/50 dark:border-slate-700/30 rounded-2xl p-2 pl-3">
-            <div className="flex items-center gap-3 overflow-hidden">
-              <span className="font-mono font-bold text-slate-700 dark:text-slate-200 text-base tracking-wider truncate select-all">
-                {referral.code}
-              </span>
-            </div>
+          <div className="flex items-center justify-between gap-1.5 bg-slate-50 border border-slate-200/90 rounded-lg py-1 px-2.5">
+            <span className="font-mono font-bold text-slate-800 text-xs tracking-wider truncate select-all">
+              {referral.code}
+            </span>
             <CopyButton 
               code={referral.code} 
               referralName={referral.name}
               advantage={referral.advantage}
               showText={false} 
-              className="shrink-0 h-10 w-10 p-0 rounded-[14px]" 
+              className="shrink-0 h-7 w-7 p-0 rounded-md bg-white border border-slate-200 hover:bg-blue-50 hover:border-blue-300 text-slate-700 hover:text-blue-600 shadow-2xs" 
             />
           </div>
         )}
 
         {/* Link Box */}
         {referral.link && referral.link !== referral.code && (
-          <div className="flex items-center justify-between gap-2 bg-slate-50/50 dark:bg-slate-800/20 border border-slate-200/50 dark:border-slate-700/30 rounded-2xl p-2 pl-3">
-            <div className="flex items-center gap-3 overflow-hidden">
-              <span className="font-mono font-bold text-slate-500 dark:text-slate-400 text-[10px] tracking-tight truncate select-all">
-                {referral.link}
-              </span>
-            </div>
+          <div className="flex items-center justify-between gap-1.5 bg-slate-50 border border-slate-200/90 rounded-lg py-1 px-2.5">
+            <span className="font-mono text-slate-500 text-[10px] truncate select-all">
+              {referral.link}
+            </span>
             <CopyButton 
               code={referral.link} 
               referralName={referral.name}
               advantage={referral.advantage}
               showText={false} 
-              className="shrink-0 h-10 w-10 p-0 rounded-[14px] bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-600 border-none" 
+              className="shrink-0 h-7 w-7 p-0 rounded-md bg-white border border-slate-200 hover:bg-slate-100 text-slate-500 shadow-2xs" 
               label="Lien"
-              successLabel="Copié !"
+              successLabel="Copié"
             />
           </div>
         )}
 
         {referral.isPaused ? (
-          <div className="w-full flex items-center justify-center h-12 rounded-2xl bg-slate-200 dark:bg-slate-800 text-slate-500 dark:text-slate-400 font-bold text-sm shadow-sm cursor-not-allowed">
+          <div className="w-full flex items-center justify-center h-9 rounded-lg bg-slate-100 text-slate-400 font-bold text-xs cursor-not-allowed">
             Offre Suspendue
           </div>
         ) : (
           <Link
             href={`/parrainage-${referral.slug}`}
-            className="w-full flex items-center justify-center h-12 rounded-2xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold hover:opacity-90 transition-all text-sm shadow-sm active:scale-[0.98]"
+            className="w-full flex items-center justify-center h-9 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-xs shadow-xs hover:shadow-md hover:shadow-blue-500/20 active:scale-[0.98] transition-all"
           >
             Profiter de l&apos;offre
           </Link>
