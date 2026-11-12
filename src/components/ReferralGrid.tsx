@@ -11,13 +11,29 @@ const CATEGORY_ICONS: Record<string, string> = {
     "Toutes": "🌟",
     "Banque & Finance": "💳",
     "Crypto": "🪙",
-    "Shopping": "🛍️",
-    "Paris Sportifs & Poker": "⚽",
+    "Cashback": "💰",
+    "Shopping & Mode": "🛍️",
+    "Maison & Mobilité": "🚗",
     "Jeux & Gains": "🎮",
+    "Paris Sportifs & Poker": "⚽",
     "Sport & Santé": "🏃",
-    "Énergie & Internet": "⚡",
     "Outils Numériques": "💻",
+    "Énergie & Forfaits": "⚡",
 };
+
+const PREFERRED_CATEGORY_ORDER = [
+    "Toutes",
+    "Banque & Finance",
+    "Crypto",
+    "Cashback",
+    "Shopping & Mode",
+    "Maison & Mobilité",
+    "Jeux & Gains",
+    "Paris Sportifs & Poker",
+    "Sport & Santé",
+    "Outils Numériques",
+    "Énergie & Forfaits",
+];
 
 export function ReferralGrid({ referrals, activeCategoryName: initialCategory = "Toutes" }: { referrals: Referral[], activeCategoryName?: string }) {
     const [searchTerm, setSearchTerm] = useState("");
@@ -36,8 +52,13 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
 
     const allCategories = useMemo(() => {
         const sourceData = initialCategory !== "Toutes" ? referrals : allReferrals;
-        const cats = Array.from(new Set(sourceData.map(r => r.category)));
-        return ["Toutes", ...cats];
+        const existingCats = new Set(sourceData.map(r => r.category));
+        const ordered = PREFERRED_CATEGORY_ORDER.filter(cat => cat === "Toutes" || existingCats.has(cat));
+        // Add any remaining categories not explicitly in preferred list
+        existingCats.forEach(cat => {
+            if (!ordered.includes(cat)) ordered.push(cat);
+        });
+        return ordered;
     }, [referrals, initialCategory]);
 
     const allOfferNames = useMemo(() => {

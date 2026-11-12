@@ -57,10 +57,11 @@ export function Footer() {
                         </h3>
                         <ul className="space-y-2.5 text-sm text-slate-600">
                             {[
-                                { name: "Néobanques", href: "/categorie/banque-finance" },
+                                { name: "Banque & Finance", href: "/categorie/banque-finance" },
                                 { name: "Crypto", href: "/categorie/crypto" },
-                                { name: "Sport & Santé", href: "/categorie/sport-sante" },
-                                { name: "Shopping", href: "/categorie/shopping" },
+                                { name: "Cashback", href: "/categorie/cashback" },
+                                { name: "Shopping & Mode", href: "/categorie/shopping-mode" },
+                                { name: "Maison & Mobilité", href: "/categorie/maison-mobilite" },
                                 { name: "Jeux & Gains", href: "/categorie/jeux-gains" }
                             ].map((link) => (
                                 <li key={link.name}>

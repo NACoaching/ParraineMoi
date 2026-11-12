@@ -23,21 +23,33 @@ const categorySeoContent: Record<string, { intro: string, subtitle: string }> = 
         intro: "Les plateformes d'échange de cryptomonnaies (exchanges) et les courtiers (brokers) offrent des bonus d'inscription très attractifs. Souvent versés en Bitcoin ou en stablecoins lors de votre premier dépôt qualifiant, ces bonus en cashback ou crédits offerts sont un excellent tremplin pour lisser vos frais de trading initiaux.",
         subtitle: "Boostez votre portefeuille crypto"
     },
-    "Shopping": {
-        intro: "Le cashback et les bons plans d'affiliation e-commerce explosent. Les applications de shopping en ligne encouragent massivement les programmes de parrainage pour vous faire découvrir des marchands partenaires (Rakuten, eBuyClub, Poulpeo) ou vous offrir des réductions en cagnotte lors de votre première commande.",
-        subtitle: "Votre pouvoir d'achat optimisé"
+    "Cashback": {
+        intro: "Le cashback est le moyen le plus simple de récupérer de l'argent réel sur chacun de vos achats en ligne ou en magasin. En activant des applications leaders comme iGraal, Poulpeo, eBuyClub ou Joko avec un code parrain, vous touchez une prime de bienvenue immédiate dès votre inscription.",
+        subtitle: "Remboursements en cash sur vos achats"
+    },
+    "Shopping & Mode": {
+        intro: "Mode de seconde main, ventes aux enchères en live et bons plans e-commerce : profitez de nos codes de parrainage exclusifs pour débloquer des bons d'achat et crédits immédiats sur Vinted, Whatnot, Voggt ou AliExpress.",
+        subtitle: "Bons plans mode & e-commerce"
+    },
+    "Maison & Mobilité": {
+        intro: "Repas livrés à domicile, micro-mobilité urbaine (trottinettes et vélos électriques), services à la personne et maison connectée : réduisez vos dépenses quotidiennes avec les primes d'inscription Uber Eats, Dott, Yoojo, Navimow et Imou.",
+        subtitle: "Services pratiques pour le quotidien"
+    },
+    "Outils Numériques": {
+        intro: "Graphisme, créativité, freelance et productivité en ligne : profitez de crédits offerts et réductions exclusives sur les outils leaders comme Canva et Fiverr pour développer vos projets digitaux à moindre coût.",
+        subtitle: "Productivité & création digitale"
     },
     "Sport & Santé": {
-        intro: "La nutrition sportive, les compléments alimentaires et le bien-être physique connaissent une véritable révolution axée sur la santé et la pureté. Que vous recherchiez de la whey native française non dénaturée, des oméga 3 haute assimilation (Epax), de la créatine pure ou des vitamines biodisponibles, profitez de nos codes de parrainage validés pour obtenir des réductions immédiates et des avantages exclusifs chez Nutripure et MyProtein.",
+        intro: "La nutrition sportive, les compléments alimentaires et le bien-être physique connaissent une véritable révolution axée sur la santé et la pureté. Que vous recherchiez de la whey native française, des oméga 3 ou des vitamines biodisponibles, profitez de réductions exclusives chez Nutripure et MyProtein.",
         subtitle: "Performance sportive & micronutrition santé"
     },
-    "Énergie & Internet": {
-        intro: "Changer de fournisseur d'accès à Internet ou de contrat d'électricité est devenu le meilleur moyen de faire des économies mensuelles. Les fournisseurs récompensent systématiquement le bouche-à-oreille avec de généreuses réductions sur factures ou virements bancaires lors de la souscription avec un code parrain.",
+    "Énergie & Forfaits": {
+        intro: "Changer de forfait mobile ou de box internet est devenu le moyen le plus rapide d'alléger ses factures mensuelles. Les opérateurs récompensent le parrainage avec des remises directes sur factures dès l'activation de votre nouvelle ligne.",
         subtitle: "Réduisez vos factures fixes"
     },
     "Jeux & Gains": {
-        intro: "Le secteur des jeux rémunérateurs, sondages et applications ludiques récompense très bien l'acquisition. Les offres d'inscription pour de nouveaux utilisateurs vous permettent souvent de recevoir des jetons, des tickets ou même de la monnaie fiat pour démarrer votre progression dans l'écosystème du jeu.",
-        subtitle: "Démarrage ludique accéléré"
+        intro: "Le secteur des applications de marche rémunérée, sondages et jeux récompense l'activité des utilisateurs. Recevez des bonus de bienvenue en argent ou cartes cadeaux sur WeWard, Macadam, Freecash et Swagbucks dès votre inscription.",
+        subtitle: "Démarrage ludique & gains réels"
     },
     "Paris Sportifs & Poker": {
         intro: "Le secteur des paris sportifs et du poker en ligne propose des offres de bienvenue très attractives sous forme de premier pari remboursé (freebets) ou de bonus de premier dépôt. Profitez de nos codes de parrainage validés pour débuter sur Winamax ou Unibet.",
@@ -59,20 +71,26 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const categoryTitles: Record<string, string> = {
         "Banque & Finance": `Codes Parrainage Banque en Ligne ${currentYear} : Primes Offertes`,
         "Crypto": `Codes Parrainage Crypto ${currentYear} : Bonus & BTC Offerts`,
-        "Shopping": `Codes Parrainage Cashback ${currentYear} : Réductions Offertes`,
+        "Cashback": `Codes Parrainage Cashback ${currentYear} : iGraal, Poulpeo, Joko`,
+        "Shopping & Mode": `Codes Parrainage Shopping & Mode ${currentYear} : Vinted, Whatnot`,
+        "Maison & Mobilité": `Codes Parrainage Mobilité & Maison ${currentYear} : Uber Eats, Dott`,
+        "Outils Numériques": `Codes Parrainage Outils Numériques ${currentYear} : Canva, Fiverr`,
         "Sport & Santé": `Codes Parrainage Sport & Santé ${currentYear} : Réductions & Nutrition`,
-        "Énergie & Internet": `Codes Parrainage Énergie & Internet ${currentYear} : Bons Plans`,
-        "Jeux & Gains": `Codes Parrainage Jeux ${currentYear} : Bonus & Gains Réels`,
+        "Énergie & Forfaits": `Codes Parrainage Forfaits & Énergie ${currentYear} : Bons Plans`,
+        "Jeux & Gains": `Codes Parrainage Jeux & Marche ${currentYear} : Bonus & Gains Réels`,
         "Paris Sportifs & Poker": `Codes Parrainage Paris Sportifs & Poker ${currentYear} : Freebets`,
     };
 
     const categoryDescs: Record<string, string> = {
         "Banque & Finance": `Comparez les meilleurs codes de parrainage banque en ligne ${currentYear} : Fortuneo, Revolut, N26, Sumeria, BoursoBank. Jusqu'à 200€ de prime !`,
         "Crypto": `Les meilleurs codes parrainage crypto ${currentYear} : Binance, Coinbase, Bitstack, SwissBorg, Coinhouse. Bonus BTC et réductions de frais.`,
-        "Shopping": `Codes parrainage cashback et e-commerce vérifiés en ${currentYear} : iGraal, eBuyClub, Poulpeo, Joko. Réductions immédiates sur vos achats.`,
+        "Cashback": `Codes parrainage cashback vérifiés en ${currentYear} : iGraal, eBuyClub, Poulpeo, Joko. Touchez du cash réel immédiatement sur vos achats.`,
+        "Shopping & Mode": `Codes promo shopping, seconde main et enchères live en ${currentYear} : Vinted, Whatnot, Voggt, AliExpress. Bons d'achat vérifiés.`,
+        "Maison & Mobilité": `Codes parrainage livraison et mobilité urbaine en ${currentYear} : Uber Eats, Dott, Yoojo, Navimow. Réductions et trajets offerts.`,
+        "Outils Numériques": `Codes promo et parrainages outils digitaux et freelance en ${currentYear} : Canva, Fiverr. Crédits offerts pour vos projets.`,
         "Sport & Santé": `Meilleurs codes parrainage sport, fitness et compléments alimentaires en ${currentYear} : Nutripure, MyProtein. Réductions et livraison offerte.`,
-        "Énergie & Internet": `Codes parrainage énergie et fournisseurs internet ${currentYear} : économisez sur vos factures avec des primes de bienvenue vérifiées.`,
-        "Jeux & Gains": `Codes parrainage jeux et applications rémunératrices en ${currentYear} : bonus de démarrage vérifiés pour maximiser vos gains réels.`,
+        "Énergie & Forfaits": `Codes parrainage forfaits mobiles et box internet ${currentYear} : économisez sur vos factures avec des remises vérifiées.`,
+        "Jeux & Gains": `Codes parrainage marche rémunérée et applications de gains en ${currentYear} : WeWard, Freecash, Macadam. Bonus de bienvenue garantis.`,
         "Paris Sportifs & Poker": `Offres parrainage paris sportifs et poker ${currentYear} : Winamax et Unibet. Jusqu'à 140€ de bonus de bienvenue vérifiés !`,
     };
 

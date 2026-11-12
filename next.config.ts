@@ -32,6 +32,11 @@ const nextConfig: NextConfig = {
 
     return [
       {
+        source: '/categorie/shopping',
+        destination: '/categorie/shopping-mode',
+        permanent: true,
+      },
+      {
         source: '/guides/voyager-sans-frais-bancaires',
         destination: '/guides/guide-voyage-revolut-frais-bancaires-etranger',
         permanent: true,
