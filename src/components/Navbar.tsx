@@ -32,14 +32,14 @@ export function Navbar() {
 
     return (
         <nav className="sticky top-0 z-50 w-full backdrop-blur-md flex flex-col items-center border-b border-slate-200/80 bg-white/80 transition-colors shadow-[0_1px_3px_rgba(0,0,0,0.02)]">
-            <div className="flex h-20 w-full max-w-6xl items-center justify-between px-6">
+            <div className="flex h-16 w-full max-w-7xl items-center justify-between px-4 sm:px-6">
                 <Link 
                     href="/" 
-                    className="flex items-center gap-3 font-bold text-xl sm:text-2xl tracking-tight text-slate-900 group"
+                    className="flex items-center gap-2.5 font-bold text-lg sm:text-xl tracking-tight text-slate-900 group"
                     onClick={() => setIsOpen(false)}
                 >
-                    <span className="p-2.5 bg-gradient-to-tr from-blue-600 to-indigo-600 text-white rounded-2xl shadow-md shadow-blue-500/20 group-hover:scale-105 group-hover:shadow-lg transition-all">
-                        <Gift size={22} className="text-white" />
+                    <span className="p-2 bg-gradient-to-tr from-blue-600 to-indigo-600 text-white rounded-xl shadow-md shadow-blue-500/20 group-hover:scale-105 transition-all">
+                        <Gift size={18} className="text-white" />
                     </span>
                     <span className="group-hover:text-primary transition-colors tracking-tight">Codes de Parrainages</span>
                 </Link>

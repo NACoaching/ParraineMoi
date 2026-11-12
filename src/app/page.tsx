@@ -58,41 +58,26 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
       />
-      <section className="w-full max-w-7xl px-4 sm:px-6 pt-12 pb-8 flex flex-col items-center text-center">
-        {/* Pill Badge */}
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200/80 text-blue-700 text-xs sm:text-sm font-semibold mb-5 shadow-xs">
-          <Sparkles className="h-4 w-4 text-amber-500 fill-amber-400" />
-          <span>Le comparateur N°1 de parrainages vérifiés • Édition 2026</span>
-        </div>
-
-        {/* Main Title */}
-        <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-slate-900 mb-4 leading-[1.15] max-w-3xl">
+      <section className="w-full max-w-7xl px-4 sm:px-6 pt-5 pb-6 flex flex-col items-center text-center">
+        {/* Compact Title */}
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-slate-900 mb-1.5 leading-tight max-w-2xl">
           Gagnez jusqu’à <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 bg-clip-text text-transparent">200€ par inscription</span>
         </h1>
 
         {/* Subtitle */}
-        <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-xl mb-8 leading-relaxed font-normal">
-          Comparez banques, cryptos et cashback. Tous les codes et primes de bienvenue sont vérifiés et garantis valides.
+        <p className="text-xs sm:text-sm text-slate-500 max-w-lg mb-3 leading-normal font-normal">
+          Les meilleurs codes promo et liens bonus vérifiés (banques, cryptos, cashback).
         </p>
 
-        {/* Stats bar - Ultra compact & épuré */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 w-full max-w-3xl mb-10">
-          <div className="flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl bg-white border border-slate-200/80 shadow-xs">
-            <span className="text-base font-extrabold text-blue-600">+1 500 €</span>
-            <span className="text-xs text-slate-500 font-medium">cumulables</span>
-          </div>
-          <div className="flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl bg-white border border-slate-200/80 shadow-xs">
-            <span className="text-base font-extrabold text-slate-900">50+</span>
-            <span className="text-xs text-slate-500 font-medium">offres actives</span>
-          </div>
-          <div className="flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl bg-white border border-slate-200/80 shadow-xs">
-            <span className="text-base font-extrabold text-emerald-600">100%</span>
-            <span className="text-xs text-slate-500 font-medium">gratuit</span>
-          </div>
-          <div className="flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl bg-white border border-slate-200/80 shadow-xs">
-            <span className="text-base font-extrabold text-indigo-600">5 min</span>
-            <span className="text-xs text-slate-500 font-medium">par bonus</span>
-          </div>
+        {/* Stats bar - Ultra sleek mini bar */}
+        <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 text-[11px] font-medium text-slate-600 mb-4 bg-white/80 border border-slate-200/80 py-1 px-3.5 rounded-full shadow-2xs">
+          <span className="flex items-center gap-1">💰 <strong className="text-blue-600 font-bold">+1 500 €</strong> cumulables</span>
+          <span className="text-slate-300 hidden sm:inline">•</span>
+          <span className="flex items-center gap-1">⚡ <strong className="text-slate-900 font-bold">50+</strong> offres</span>
+          <span className="text-slate-300 hidden sm:inline">•</span>
+          <span className="flex items-center gap-1">🛡️ <strong className="text-emerald-600 font-bold">100%</strong> gratuit</span>
+          <span className="text-slate-300 hidden sm:inline">•</span>
+          <span className="flex items-center gap-1">⏱️ <strong className="text-indigo-600 font-bold">5 min</strong></span>
         </div>
 
         {/* Grille d'offres directement accessible */}
