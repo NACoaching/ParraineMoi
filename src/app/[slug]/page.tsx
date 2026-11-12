@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { ShieldCheck, TrendingUp, Clock, ExternalLink, Info, ChevronRight, Home, Gift, CheckCircle2 } from 'lucide-react';
+import { ShieldCheck, TrendingUp, Clock, ExternalLink, Info, ChevronRight, Home, Gift, CheckCircle2, BookOpen } from 'lucide-react';
 import { CompanyLogo } from '@/components/CompanyLogo';
 import { StickyCopyBar } from '@/components/StickyCopyBar';
 import { FaqAccordion } from '@/components/FaqAccordion';
@@ -159,6 +159,28 @@ export default async function ReferralPage({
         "url": `https://codes-de-parrainages.com/parrainage-${referral.slug}`
     };
 
+    const productOfferJsonLd = {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": `Offre de parrainage ${referral.name}`,
+        "description": referral.description,
+        "image": `https://codes-de-parrainages.com${referral.logoUrl}`,
+        "brand": {
+            "@type": "Brand",
+            "name": referral.name
+        },
+        "offers": {
+            "@type": "Offer",
+            "url": `https://codes-de-parrainages.com/parrainage-${referral.slug}`,
+            "price": "0",
+            "priceCurrency": "EUR",
+            "priceValidUntil": `${currentYear}-12-31`,
+            "availability": referral.isPaused ? "https://schema.org/Discontinued" : "https://schema.org/InStock",
+            "category": referral.category,
+            "description": `Prime de parrainage : ${referral.advantage}`
+        }
+    };
+
     const breadcrumbJsonLd = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
@@ -212,6 +234,10 @@ export default async function ReferralPage({
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewJsonLd) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(productOfferJsonLd) }}
             />
             <script
                 type="application/ld+json"
@@ -473,6 +499,53 @@ export default async function ReferralPage({
                 <div className="mb-10">
                     <FaqAccordion faqs={referral.faqs} title={`Foire aux questions — ${referral.name}`} />
                 </div>
+            )}
+
+            {/* Related Guides / Semantic Internal Mesh */}
+            {relatedGuides.length > 0 && (
+                <section className="mb-10 pt-8 border-t border-slate-200/90">
+                    <div className="flex items-center justify-between mb-4">
+                        <div>
+                            <h2 className="text-lg sm:text-xl font-bold text-slate-900 tracking-tight flex items-center gap-2">
+                                <BookOpen size={18} className="text-blue-600 shrink-0" />
+                                <span>Guides & Conseils Pratiques associés</span>
+                            </h2>
+                            <p className="text-xs text-slate-500">Pour tout comprendre et optimiser vos démarches</p>
+                        </div>
+                        <Link 
+                            href="/guides"
+                            className="text-xs font-bold text-blue-600 hover:underline"
+                        >
+                            Tous les guides →
+                        </Link>
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        {relatedGuides.map((guide) => (
+                            <Link
+                                key={guide.slug}
+                                href={`/guides/${guide.slug}`}
+                                className="group p-4 rounded-xl bg-white border border-slate-200/90 hover:border-blue-300 hover:shadow-md transition-all flex flex-col justify-between"
+                            >
+                                <div>
+                                    <div className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1.5">
+                                        <span className="text-blue-600 font-bold">{guide.category}</span>
+                                        <span>•</span>
+                                        <span>{guide.readingTime} de lecture</span>
+                                    </div>
+                                    <h3 className="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-blue-600 transition-colors line-clamp-2 leading-snug">
+                                        {guide.title.replace(/\{\{YEAR\}\}/g, String(currentYear))}
+                                    </h3>
+                                    <p className="text-[11px] text-slate-500 line-clamp-2 mt-1 leading-relaxed">
+                                        {guide.excerpt.replace(/\{\{YEAR\}\}/g, String(currentYear))}
+                                    </p>
+                                </div>
+                                <span className="inline-flex items-center gap-1 text-[11px] font-bold text-blue-600 group-hover:translate-x-0.5 transition-transform mt-3">
+                                    Lire le guide complet →
+                                </span>
+                            </Link>
+                        ))}
+                    </div>
+                </section>
             )}
 
             {/* Alternatives Recommandées */}

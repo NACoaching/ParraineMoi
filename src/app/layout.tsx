@@ -101,6 +101,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        <link rel="alternate" type="text/markdown" href="/llms.txt" title="LLM Context" />
+      </head>
       <body className={`${ibmPlexSans.className} antialiased min-h-screen flex flex-col bg-background text-foreground`}>
         <script
           type="application/ld+json"
