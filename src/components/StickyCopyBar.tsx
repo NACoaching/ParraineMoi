@@ -3,8 +3,7 @@
 import { useState, useEffect } from "react";
 import { CopyButton } from "./CopyButton";
 import { CompanyLogo } from "./CompanyLogo";
-import Link from "next/link";
-import { Copy, ExternalLink, Gift } from "lucide-react";
+import { ExternalLink, Gift } from "lucide-react";
 
 interface StickyCopyBarProps {
     name: string;
@@ -19,43 +18,44 @@ export function StickyCopyBar({ name, code, link, advantage, logoUrl }: StickyCo
 
     useEffect(() => {
         const toggleVisibility = () => {
-            if (window.scrollY > 500) {
+            if (window.scrollY > 400) {
                 setIsVisible(true);
             } else {
                 setIsVisible(false);
             }
         };
 
-        window.addEventListener("scroll", toggleVisibility);
-        // Initial check
+        window.addEventListener("scroll", toggleVisibility, { passive: true });
         toggleVisibility();
         
         return () => window.removeEventListener("scroll", toggleVisibility);
     }, []);
 
+    const hasRealCode = Boolean(code && code.trim() !== "" && !code.startsWith("http"));
+
     return (
-        <div className={`fixed bottom-4 left-4 right-4 sm:left-1/2 sm:right-auto sm:-translate-x-1/2 z-50 transition-all duration-500 transform ${
+        <div className={`fixed bottom-4 left-3 right-3 sm:left-1/2 sm:right-auto sm:-translate-x-1/2 z-50 transition-all duration-300 transform ${
             isVisible ? "translate-y-0 opacity-100 pointer-events-auto" : "translate-y-10 opacity-0 pointer-events-none"
         }`}>
-            <div className="bg-slate-900/95 dark:bg-white/95 backdrop-blur-md shadow-2xl rounded-2xl p-3 flex items-center justify-between gap-4 border border-slate-700/50 dark:border-slate-200/50 w-full max-w-lg mx-auto">
-                <div className="flex items-center gap-3 pl-1">
-                    <div className="h-10 w-10 shrink-0 bg-white rounded-xl p-1.5 flex items-center justify-center">
+            <div className="bg-white/95 backdrop-blur-md shadow-xl rounded-2xl p-2.5 sm:p-3 flex items-center justify-between gap-3 border border-slate-200/90 w-full max-w-lg mx-auto">
+                <div className="flex items-center gap-2.5 min-w-0">
+                    <div className="h-9 w-9 sm:h-10 sm:w-10 shrink-0 bg-white border border-slate-200 rounded-xl p-1 flex items-center justify-center overflow-hidden">
                         <CompanyLogo url={logoUrl} name={name} />
                     </div>
-                    <div className="flex flex-col hidden sm:flex">
-                        <span className="text-white dark:text-slate-900 font-bold text-sm leading-tight">{name}</span>
-                        <span className="text-emerald-400 dark:text-emerald-600 text-[10px] font-bold uppercase tracking-wider flex items-center gap-1">
-                            <Gift size={12} /> {advantage}
+                    <div className="flex flex-col min-w-0">
+                        <span className="text-slate-900 font-bold text-xs sm:text-sm truncate leading-tight">{name}</span>
+                        <span className="text-emerald-700 text-[10px] sm:text-[11px] font-bold truncate flex items-center gap-1">
+                            <Gift size={11} className="shrink-0" /> {advantage}
                         </span>
                     </div>
                 </div>
 
-                <div className="flex items-center gap-2 flex-1 sm:flex-none justify-end">
-                    {/* Copy Box */}
-                    {code && code.trim() !== "" && (
-                        <div className="flex h-10 bg-slate-800 dark:bg-slate-100 rounded-xl overflow-hidden border border-slate-700 dark:border-slate-300">
-                            <div className="px-3 flex items-center justify-center max-w-[120px] overflow-hidden">
-                                <span className="text-slate-200 dark:text-slate-800 font-mono font-bold text-sm truncate">
+                <div className="flex items-center gap-2 shrink-0">
+                    {/* Copy Box if code exists */}
+                    {hasRealCode && (
+                        <div className="flex h-9 bg-slate-50 rounded-xl overflow-hidden border border-slate-200">
+                            <div className="px-2.5 flex items-center justify-center max-w-[110px] overflow-hidden">
+                                <span className="text-slate-900 font-mono font-bold text-xs truncate">
                                     {code}
                                 </span>
                             </div>
@@ -64,13 +64,13 @@ export function StickyCopyBar({ name, code, link, advantage, logoUrl }: StickyCo
                                 referralName={name} 
                                 advantage={advantage} 
                                 showText={false} 
-                                className="!h-full !rounded-none bg-primary hover:bg-primary/90 text-white border-l border-slate-700 dark:border-slate-300 px-4" 
+                                className="!h-full !rounded-none bg-blue-600 hover:bg-blue-700 text-white border-none px-3" 
                             />
                         </div>
                     )}
 
-                    {/* Direct button if no code */}
-                    {(!code || code.trim() === "") && link && (
+                    {/* Direct button */}
+                    {link && (
                         <a 
                             href={link} 
                             target="_blank" 
@@ -87,34 +87,10 @@ export function StickyCopyBar({ name, code, link, advantage, logoUrl }: StickyCo
                                     });
                                 }
                             }}
-                            className="h-10 px-4 flex shrink-0 items-center gap-2 bg-primary hover:bg-primary/90 text-white font-bold text-xs rounded-xl shadow-md transition-all active:scale-95"
+                            className="h-9 px-3.5 sm:px-4 flex items-center gap-1.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-xs rounded-xl shadow-xs hover:shadow-md transition-all active:scale-95"
                         >
-                            <span>Voir l&apos;offre</span>
-                            <ExternalLink size={14} />
-                        </a>
-                    )}
-
-                    {code && link && link !== code && (
-                        <a 
-                            href={link} 
-                            target="_blank" 
-                            rel="noopener noreferrer sponsored" 
-                            data-referral-link="true"
-                            onClick={() => {
-                                if (typeof window !== "undefined" && (window as any).trackReferral) {
-                                    (window as any).trackReferral({
-                                        action: "click_link",
-                                        referralName: name,
-                                        referralCode: code,
-                                        advantage: advantage,
-                                        sourceComponent: "sticky_bar",
-                                    });
-                                }
-                            }}
-                            className="h-10 w-10 flex shrink-0 items-center justify-center bg-slate-800 dark:bg-slate-100 text-slate-300 dark:text-slate-600 rounded-xl hover:text-white dark:hover:text-slate-900 transition-colors"
-                            aria-label="Ouvrir le lien"
-                        >
-                            <ExternalLink size={18} />
+                            <span>Profiter de l&apos;offre</span>
+                            <ExternalLink size={13} />
                         </a>
                     )}
                 </div>

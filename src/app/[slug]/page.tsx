@@ -1,12 +1,11 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { ShieldCheck, TrendingUp, Clock, ExternalLink, Info, ChevronRight, Home, Gift, ArrowRight } from 'lucide-react';
-import { CopyButton } from '@/components/CopyButton';
+import { ShieldCheck, TrendingUp, Clock, ExternalLink, Info, ChevronRight, Home, Gift, CheckCircle2 } from 'lucide-react';
 import { CompanyLogo } from '@/components/CompanyLogo';
 import { StickyCopyBar } from '@/components/StickyCopyBar';
 import { FaqAccordion } from '@/components/FaqAccordion';
-import { ReferralGrid } from '@/components/ReferralGrid';
+import { DetailCodeBox } from '@/components/DetailCodeBox';
 import { referrals, guides } from '@/lib/data';
 import { Referral, ReferralCard } from '@/components/ReferralCard';
 import { slugifyCategory, formatVerifiedDate } from '@/lib/utils';
@@ -104,7 +103,7 @@ export default async function ReferralPage({
     // Determine related offers based on the same category
     const relatedReferrals = referrals
         .filter((r) => r.category === referral.category && r.slug !== referral.slug)
-        .slice(0, 3); // Get top 3
+        .slice(0, 3);
 
     // Find guides that talk about this referral, fill with category guides if not enough
     const explicitGuides = guides.filter((g) => g.referralSlugs?.includes(referral.slug));
@@ -169,6 +168,12 @@ export default async function ReferralPage({
             {
                 "@type": "ListItem",
                 "position": 2,
+                "name": referral.category,
+                "item": `https://codes-de-parrainages.com/categorie/${slugifyCategory(referral.category)}`
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
                 "name": `Parrainage ${referral.name}`,
                 "item": `https://codes-de-parrainages.com/parrainage-${referral.slug}`
             }
@@ -190,8 +195,10 @@ export default async function ReferralPage({
         }))
     } : null;
 
+    const hasRealCode = Boolean(referral.code && referral.code.trim() !== "" && !referral.code.startsWith("http"));
+
     return (
-        <main className="min-h-screen px-4 py-8 sm:px-6 sm:py-16">
+        <main className="min-h-screen px-4 py-4 sm:px-6 sm:py-8 max-w-4xl mx-auto">
             {referral.faqs && referral.faqs.length > 0 && (
                 <script
                     type="application/ld+json"
@@ -212,378 +219,261 @@ export default async function ReferralPage({
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
                 />
             )}
+
             {/* Breadcrumb Visual */}
-            <nav className="flex items-center gap-2 text-sm font-medium text-slate-500 mb-8 overflow-x-auto whitespace-nowrap pb-2">
-                <Link href="/" className="flex items-center gap-1.5 hover:text-slate-900 dark:hover:text-white transition-colors">
-                    <Home size={16} />
+            <nav className="flex items-center gap-1.5 text-xs font-medium text-slate-500 mb-6 overflow-x-auto whitespace-nowrap">
+                <Link href="/" className="flex items-center gap-1 hover:text-blue-600 transition-colors">
+                    <Home size={13} />
                     <span>Accueil</span>
                 </Link>
-                <ChevronRight size={14} className="text-slate-300 dark:text-slate-700 flex-shrink-0" />
-                <Link href={`/categorie/${slugifyCategory(referral.category)}`} className="hover:text-slate-900 dark:hover:text-white transition-colors">
+                <ChevronRight size={12} className="text-slate-300 shrink-0" />
+                <Link href={`/categorie/${slugifyCategory(referral.category)}`} className="hover:text-blue-600 transition-colors">
                     {referral.category}
                 </Link>
-                <ChevronRight size={14} className="text-slate-300 dark:text-slate-700 flex-shrink-0" />
-                <span className="text-slate-900 dark:text-slate-300 font-semibold truncate max-w-[150px] sm:max-w-none">
+                <ChevronRight size={12} className="text-slate-300 shrink-0" />
+                <span className="text-slate-900 font-semibold truncate max-w-[150px] sm:max-w-none">
                     {referral.name}
                 </span>
             </nav>
 
-            <article className="max-w-4xl mx-auto">
-                {/* Header with Visual Badges */}
-                <header className="flex flex-col sm:flex-row gap-8 items-start sm:items-center mb-16 pb-12 border-b border-slate-200/50 dark:border-slate-800/50">
-                    <div className="glass-card h-32 w-32 shrink-0 relative flex items-center justify-center p-6 bg-white dark:bg-white">
-                        <CompanyLogo url={referral.logoUrl} name={referral.name} priority={true} />
-                    </div>
-                    <div>
+            {/* Header Brand Card */}
+            <header className="bg-white border border-slate-200/90 rounded-2xl p-5 sm:p-6 mb-6 shadow-xs flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6">
+                <div className="h-14 w-14 sm:h-18 sm:w-18 shrink-0 rounded-xl border border-slate-200 bg-white shadow-2xs p-1.5 flex items-center justify-center overflow-hidden">
+                    <CompanyLogo url={referral.logoUrl} name={referral.name} priority={true} />
+                </div>
+                <div className="flex-1 min-w-0">
+                    <div className="flex flex-wrap items-center gap-2 mb-1.5">
                         <Link
                             href={`/categorie/${slugifyCategory(referral.category)}`}
-                            className="inline-flex items-center rounded-2xl bg-primary/10 px-4 py-2 text-xs font-bold uppercase tracking-widest text-primary mb-4 hover:bg-primary/20 transition-colors"
+                            className="inline-flex items-center rounded-md bg-slate-100 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-slate-600 hover:bg-blue-50 hover:text-blue-700 transition-colors"
                         >
                             {referral.category}
                         </Link>
-                        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tighter text-slate-900 dark:text-white mb-4 leading-tight">
-                            Avis <span className="text-primary">{referral.name}</span>
-                        </h1>
-
-                        {/* Trust Badges */}
-                        <div className="flex flex-wrap gap-3 mt-6">
-                            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-xs font-bold uppercase tracking-widest border border-emerald-500/20">
-                                <ShieldCheck size={16} />
-                                Vérifié le {referral.lastVerified ? formatVerifiedDate(referral.lastVerified) : currentYear}
-                            </span>
-                            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-blue-500/10 text-blue-600 dark:text-blue-400 text-xs font-bold uppercase tracking-widest border border-blue-500/20">
-                                <Clock size={16} />
-                                Offre Active
-                            </span>
-                        </div>
+                        <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 text-[10px] font-bold">
+                            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            Vérifié en Novembre {currentYear}
+                        </span>
+                        <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-blue-50 text-blue-700 border border-blue-200 text-[10px] font-bold">
+                            ⚡ Offre Active
+                        </span>
                     </div>
-                </header>
+                    <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight leading-tight">
+                        Avis & Code Parrainage <span className="text-blue-600">{referral.name}</span>
+                    </h1>
+                    <p className="text-xs sm:text-sm text-slate-500 mt-1 leading-relaxed">
+                        {referral.description}
+                    </p>
+                </div>
+            </header>
 
-                {/* Call to Action Sticky/Centered Block */}
-                <section className="glass-card p-8 sm:p-12 mb-20 relative overflow-hidden group">
-                    <div className="absolute -top-10 -right-10 p-4 opacity-5 group-hover:opacity-10 transition-opacity">
-                        <Gift size={200} />
-                    </div>
-                    <div className="relative z-10 text-center">
+            {/* Main Conversion CTA Card */}
+            <section className="bg-white border border-slate-200/90 rounded-2xl sm:rounded-3xl p-6 sm:p-8 mb-10 shadow-xs text-center relative overflow-hidden">
+                <div className="relative z-10 max-w-xl mx-auto">
                     {referral.isPaused ? (
                         <>
-                            <div className="inline-flex items-center gap-2 bg-amber-500 text-white px-4 py-2 rounded-2xl text-xs font-bold uppercase tracking-widest mb-6 shadow-lg shadow-amber-500/20">
+                            <div className="inline-flex items-center gap-1.5 bg-amber-50 border border-amber-200 text-amber-900 px-3 py-1 rounded-full text-xs font-bold mb-4">
                                 ⚠️ Programme Suspendu
                             </div>
-                            <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4 tracking-tight">
-                                Le parrainage {referral.name} est en pause
+                            <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-2">
+                                Le parrainage {referral.name} est temporairement en pause
                             </h2>
-                            <p className="text-slate-500 dark:text-slate-400 mb-10 max-w-lg mx-auto text-lg leading-relaxed">
-                                Le programme de parrainage de cette marque est temporairement indisponible. Ne partez pas les mains vides ! Voici d'excellentes offres alternatives actives :
+                            <p className="text-slate-500 text-sm mb-6 leading-relaxed">
+                                Le programme de parrainage de cette marque n&apos;accepte pas de nouveaux inscrits pour le moment.
                             </p>
-                            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
-                                {relatedReferrals.slice(0, 2).map(r => (
-                                    <Link key={r.slug} href={`/parrainage-${r.slug}`} className="flex flex-col items-center gap-3 bg-white dark:bg-slate-900 border-2 border-primary/20 p-6 rounded-2xl hover:border-primary/50 hover:bg-primary/5 transition-all text-slate-900 dark:text-white">
-                                        <CompanyLogo url={r.logoUrl} name={r.name} priority={false} />
-                                        <div className="text-center">
-                                            <div className="font-bold">Voir l'offre {r.name}</div>
-                                            <div className="text-primary text-sm font-bold">{r.advantage}</div>
-                                        </div>
-                                    </Link>
-                                ))}
-                            </div>
                         </>
                     ) : (
                         <>
-                            <div className="inline-flex items-center gap-2 bg-emerald-500 shadow-emerald-500/20 text-white px-4 py-2 rounded-2xl text-xs font-bold uppercase tracking-widest mb-6 shadow-lg">
-                                🎁 Offre vérifiée : {referral.advantage}
+                            {/* Advantage Banner */}
+                            <div className="inline-flex items-center gap-1.5 bg-emerald-50 border border-emerald-200 text-emerald-800 px-3.5 py-1.5 rounded-full text-xs font-bold mb-4 shadow-2xs">
+                                <span>🎁</span>
+                                <span>Prime garantie : <strong>{referral.advantage}</strong></span>
                             </div>
-                            <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4 tracking-tight">
-                                {referral.isPartner ? `Accédez à l'offre ${referral.name}` : 'Récupérez votre bonus maintenant'}
+
+                            <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 mb-2 tracking-tight">
+                                {hasRealCode 
+                                    ? `Votre code parrainage ${referral.name}`
+                                    : `Activez votre bonus de bienvenue ${referral.name}`}
                             </h2>
-                            <p className="text-slate-500 dark:text-slate-400 mb-10 max-w-lg mx-auto text-lg leading-relaxed">
-                                {referral.isPartner
-                                    ? `Profitez de l'offre certifiée en passant directement par notre lien partenaire.`
-                                    : `Utilisez le ${referral.code.startsWith('http') ? 'lien' : 'code'} vérifié ci-dessous lors de votre inscription pour débloquer vos avantages.`}
+
+                            <p className="text-xs sm:text-sm text-slate-500 mb-6 max-w-md mx-auto leading-relaxed">
+                                {hasRealCode 
+                                    ? "Copiez le code promo vérifié ci-dessous et collez-le lors de votre inscription pour débloquer votre prime."
+                                    : "Aucun code manuel n'est requis : votre prime est automatiquement activée en passant par notre lien officiel ci-dessous."}
                             </p>
 
-                            <div className="flex flex-col gap-4 justify-center items-stretch max-w-2xl mx-auto w-full">
-                                {/* Promo Code Box */}
-                            {referral.code && referral.code.trim() !== "" && (
-                                <div className="flex-1 flex items-center justify-between gap-4 bg-white/50 dark:bg-slate-950/50 border-2 border-primary/20 hover:border-primary/50 transition-all rounded-3xl p-4 pl-6">
-                                    <span className="font-mono font-bold text-slate-900 dark:text-white text-xl lg:text-2xl truncate select-all tracking-wider">
-                                        {referral.code}
-                                    </span>
-                                    <CopyButton 
-                                        code={referral.code} 
-                                        referralName={referral.name}
-                                        advantage={referral.advantage}
-                                        className="shrink-0 !h-14 px-8 font-bold rounded-2xl shadow-lg shadow-primary/20" 
-                                        showText={true} 
-                                    />
+                            {/* Promo Code Slot if applicable */}
+                            {hasRealCode && (
+                                <DetailCodeBox 
+                                    code={referral.code}
+                                    name={referral.name}
+                                    advantage={referral.advantage}
+                                />
+                            )}
+
+                            {/* Reassurance pill if no code */}
+                            {!hasRealCode && (
+                                <div className="max-w-md mx-auto mb-6 p-3 rounded-xl border border-blue-100 bg-blue-50/70 text-slate-700 text-xs sm:text-sm flex items-center justify-center gap-2">
+                                    <span className="text-base">✨</span>
+                                    <span><strong>Lien d&apos;invitation certifié</strong> • Réduction appliquée automatiquement</span>
                                 </div>
                             )}
 
-                            {/* Referral Link Box */}
-                            {referral.link && referral.link !== referral.code && (
-                                <div className="flex-1 flex items-center justify-between gap-4 bg-white/50 dark:bg-slate-950/50 border-2 border-slate-200 dark:border-slate-800 hover:border-primary/50 transition-all rounded-3xl p-4 pl-6">
-                                    <span className="font-mono font-bold text-slate-500 dark:text-slate-400 text-sm lg:text-base truncate select-all tracking-tight">
-                                        {referral.link}
-                                    </span>
-                                    <CopyButton
-                                        code={referral.link}
-                                        className="shrink-0 !h-14 px-8 font-bold rounded-2xl shadow-sm bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white hover:bg-slate-200 dark:hover:bg-slate-700 border-none"
-                                        label="Lien"
-                                        successLabel="Copié !"
-                                        showText={true}
-                                    />
+                            {/* Main CTA Button */}
+                            {referral.link && (
+                                <div>
+                                    <a
+                                        href={referral.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer sponsored"
+                                        className="inline-flex items-center justify-center gap-2.5 px-8 sm:px-10 py-3.5 sm:py-4 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-sm sm:text-base shadow-md hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all"
+                                    >
+                                        <span>{referral.isPartner ? `Profiter de l'offre ${referral.name}` : `Ouvrir ${referral.name} & Encaisser`}</span>
+                                        <ExternalLink size={16} />
+                                    </a>
                                 </div>
                             )}
-                        </div>
 
-                        {referral.link && referral.link !== "" && (
-                            <div className="mt-8">
-                                <a
-                                    href={referral.link}
-                                    target="_blank"
-                                    rel="noopener noreferrer sponsored"
-                                    className="inline-flex items-center justify-center gap-3 px-12 py-5 rounded-3xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold text-lg hover:opacity-90 transition-all shadow-xl"
-                                >
-                                    {referral.isPartner ? `Profiter de l'offre ${referral.name}` : `Ouvrir ${referral.name}`}
-                                    <ExternalLink size={20} />
-                                </a>
-                            </div>
-                        )}
-
-                        {referral.isPartner && (
-                            <div className="mt-8 max-w-xl mx-auto p-4 rounded-2xl bg-slate-500/5 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 text-xs text-slate-500 dark:text-slate-400 text-center leading-relaxed">
-                                ⚖️ <strong>Transparence & Partenariat :</strong> Ce lien est un lien d'affiliation officiel. En passant par ce lien, vous accédez directement aux offres et garanties de la marque sans aucun surcoût sur votre commande, tout en soutenant notre site indépendant.
-                            </div>
-                        )}
-
-                            <p className="text-[10px] text-slate-400 uppercase tracking-widest font-bold mt-10 opacity-50">
-                                Soutenez le site en parrainant via nos liens certifiés
+                            <p className="text-[11px] text-slate-400 font-medium mt-4">
+                                ✓ Inscription directe et sécurisée sur le site officiel {referral.name}
                             </p>
                         </>
                     )}
                 </div>
             </section>
 
-            {/* Step by step guide - MOVED UP */}
-                {referral.steps && referral.steps.length > 0 && (
-                    <section className="mb-16">
-                        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-8 flex items-center gap-3">
-                            <span className="flex items-center justify-center w-8 h-8 rounded-xl bg-primary/10 text-primary">
-                                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
-                            </span>
-                            Conditions d'obtention (Comment ça marche ?)
-                        </h2>
-                        <div className="grid md:grid-cols-3 gap-6 relative">
-                            <div className="hidden md:block absolute top-8 left-10 right-10 h-0.5 bg-slate-200 dark:bg-slate-800 z-0"></div>
-                            {referral.steps.map((step, index) => (
-                                <div key={index} className="relative z-10 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 shadow-sm flex flex-col pt-8 mt-4 md:mt-0">
-                                    <div className="absolute -top-5 left-6 w-10 h-10 bg-slate-900 text-white dark:bg-white dark:text-slate-900 rounded-xl flex items-center justify-center font-bold text-lg shadow-sm border border-slate-100 dark:border-slate-800">
-                                        {index + 1}
-                                    </div>
-                                    <h3 className="font-bold text-lg text-slate-900 dark:text-white mb-2">{step.title}</h3>
-                                    <p 
-                                        className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed" 
-                                        dangerouslySetInnerHTML={{ __html: step.description.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }} 
-                                    />
-                                </div>
-                            ))}
-                        </div>
-                    </section>
-                )}
-
-                {/* Structured Avis & Guide Section */}
-                <section className="mb-16 space-y-12">
-                    <div>
-                        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
-                            <TrendingUp className="text-primary" size={28} />
-                            Notre avis détaillé sur {referral.name}
-                        </h2>
-
-                        <div className="bg-white dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 rounded-[2rem] p-8 shadow-sm mb-8">
-                            {referral.review ? (
-                                <div
-                                    className="prose prose-lg prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 leading-relaxed"
-                                    dangerouslySetInnerHTML={{ __html: referral.review.longReview }}
-                                />
-                            ) : (
-                                <div className="prose prose-lg prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-400">
-                                    <p className="leading-relaxed">{referral.description}</p>
-                                </div>
-                            )}
-                        </div>
-
-                        {/* Avantages du parrainage */}
-                        <div className="mb-12">
-                            <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
-                                <span className="flex items-center justify-center p-2 rounded-xl bg-emerald-100 text-emerald-600 dark:bg-emerald-900/50 dark:text-emerald-400">
-                                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                                </span>
-                                Les avantages du parrainage {referral.name}
-                            </h2>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                <div className="bg-emerald-50/50 dark:bg-emerald-900/10 border border-emerald-100 dark:border-emerald-800/30 rounded-2xl p-5 flex items-start gap-4">
-                                    <div className="h-10 w-10 shrink-0 rounded-xl bg-emerald-100 dark:bg-emerald-800/50 flex items-center justify-center text-emerald-600 dark:text-emerald-400 text-xl">
-                                        💰
-                                    </div>
-                                    <div>
-                                        <h3 className="font-bold text-slate-900 dark:text-white mb-1">Bonus immédiat</h3>
-                                        <p className="text-sm text-slate-600 dark:text-slate-400">Recevez {referral.advantage} dès votre inscription validée</p>
-                                    </div>
-                                </div>
-                                <div className="bg-emerald-50/50 dark:bg-emerald-900/10 border border-emerald-100 dark:border-emerald-800/30 rounded-2xl p-5 flex items-start gap-4">
-                                    <div className="h-10 w-10 shrink-0 rounded-xl bg-emerald-100 dark:bg-emerald-800/50 flex items-center justify-center text-emerald-600 dark:text-emerald-400 text-xl">
-                                        ✅
-                                    </div>
-                                    <div>
-                                        <h3 className="font-bold text-slate-900 dark:text-white mb-1">Code vérifié</h3>
-                                        <p className="text-sm text-slate-600 dark:text-slate-400">Mis à jour et testé en {currentYear}</p>
-                                    </div>
-                                </div>
-                                <div className="bg-emerald-50/50 dark:bg-emerald-900/10 border border-emerald-100 dark:border-emerald-800/30 rounded-2xl p-5 flex items-start gap-4">
-                                    <div className="h-10 w-10 shrink-0 rounded-xl bg-emerald-100 dark:bg-emerald-800/50 flex items-center justify-center text-emerald-600 dark:text-emerald-400 text-xl">
-                                        ⚡
-                                    </div>
-                                    <div>
-                                        <h3 className="font-bold text-slate-900 dark:text-white mb-1">Activation rapide</h3>
-                                        <p className="text-sm text-slate-600 dark:text-slate-400">Simple à utiliser, bonus crédité rapidement</p>
-                                    </div>
-                                </div>
-                                <div className="bg-emerald-50/50 dark:bg-emerald-900/10 border border-emerald-100 dark:border-emerald-800/30 rounded-2xl p-5 flex items-start gap-4">
-                                    <div className="h-10 w-10 shrink-0 rounded-xl bg-emerald-100 dark:bg-emerald-800/50 flex items-center justify-center text-emerald-600 dark:text-emerald-400 text-xl">
-                                        🔓
-                                    </div>
-                                    <div>
-                                        <h3 className="font-bold text-slate-900 dark:text-white mb-1">Sans engagement</h3>
-                                        <p className="text-sm text-slate-600 dark:text-slate-400">Profitez du bonus en testant simplement le service</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="mt-8 bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800 rounded-2xl p-6">
-                                <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-3">Pourquoi mon code parrainage {referral.name} fonctionne-t-il ?</h3>
-                                <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
-                                    Tous nos codes de parrainage sont vérifiés régulièrement pour garantir leur validité. Le {referral.code && !referral.code.startsWith('http') ? <>code <strong className="text-slate-900 dark:text-white">{referral.code}</strong></> : "lien de parrainage"} a été testé {referral.lastVerified ? `le ${formatVerifiedDate(referral.lastVerified)}` : `récemment en ${currentYear}`} et fonctionne parfaitement. Si vous rencontrez un problème, vérifiez que vous remplissez bien toutes les conditions d&apos;éligibilité mentionnées dans la FAQ ci-dessous.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    {/* Alternatives Recommandées */}
-                    {relatedReferrals.length > 0 && (
-                        <div>
-                            <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3 mt-12">
-                                <span className="flex items-center justify-center p-2 rounded-xl bg-primary/10 text-primary">
-                                    <Gift className="w-5 h-5" />
-                                </span>
-                                Alternatives populaires à {referral.name}
-                            </h2>
-                            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                                {relatedReferrals.slice(0, 3).map((altOffer, index) => (
-                                    <ReferralCard key={altOffer.slug} referral={altOffer} index={index} />
-                                ))}
-                            </div>
-                        </div>
-                    )}
-
-                    {/* Related Guides Section */}
-                    {relatedGuides.length > 0 && (
-                        <div>
-                            <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3 mt-12">
-                                <span className="flex items-center justify-center p-2 rounded-xl bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-400">
-                                    <Info className="w-5 h-5" />
-                                </span>
-                                Guides & astuces experts pour {referral.name}
-                            </h2>
-                            <div className="grid md:grid-cols-2 gap-4">
-                                {relatedGuides.map((guide) => (
-                                    <Link
-                                        key={guide.slug}
-                                        href={`/guides/${guide.slug}`}
-                                        className="group block p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-primary/50 dark:hover:border-primary/50 transition-all hover:shadow-md"
-                                    >
-                                        <div className="flex justify-between items-start mb-2">
-                                            <span className="text-xs font-medium px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400">
-                                                {guide.readingTime}
-                                            </span>
-                                            <span className="text-xs font-bold text-primary group-hover:underline">
-                                                Lire le guide complet →
-                                            </span>
-                                        </div>
-                                        <h3 className="font-bold text-lg text-slate-900 dark:text-white group-hover:text-primary transition-colors mb-2 line-clamp-2">
-                                            {guide.title}
-                                        </h3>
-                                        <p className="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-                                            {guide.excerpt}
-                                        </p>
-                                    </Link>
-                                ))}
-                            </div>
-                            <div className="mt-6 text-center">
-                                <Link
-                                    href={`/categorie/${slugifyCategory(referral.category)}`}
-                                    className="inline-flex items-center gap-2 text-sm font-bold text-primary hover:underline bg-primary/5 px-6 py-3 rounded-2xl border border-primary/10"
-                                >
-                                    Voir tous les codes promo et parrainages {referral.category} →
-                                </Link>
-                            </div>
-                        </div>
-                    )}
-                </section>
-
-                {/* Cross-selling Simulator Block */}
-                <section className="mb-16 bg-gradient-to-br from-emerald-500/10 to-primary/10 border border-emerald-500/20 rounded-[2rem] p-8 sm:p-10 text-center relative overflow-hidden">
-                    <div className="absolute top-0 right-0 p-4 opacity-10">
-                        <Gift size={120} />
-                    </div>
-                    <div className="relative z-10 max-w-2xl mx-auto flex flex-col items-center">
-                        <span className="inline-block px-3 py-1 bg-emerald-500 text-white text-xs font-bold uppercase tracking-widest rounded-full mb-4">
-                            Astuce Rentabilité
+            {/* Step-by-step guide */}
+            {referral.steps && referral.steps.length > 0 && (
+                <section className="mb-10">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="flex items-center justify-center w-6 h-6 rounded-lg bg-blue-100 text-blue-600 font-bold text-xs">
+                            ✓
                         </span>
-                        <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mb-4">
-                            Maximisez vos gains avec {referral.name} !
+                        <h2 className="text-lg sm:text-xl font-bold text-slate-900 tracking-tight">
+                            Comment obtenir le bonus de parrainage (Étape par étape)
                         </h2>
-                        <p className="text-slate-600 dark:text-slate-400 mb-8 leading-relaxed">
-                            Saviez-vous que vous pouviez cumuler l'offre de bienvenue de <strong>{referral.name}</strong> avec d'autres services pour récupérer des centaines d'euros ? Découvrez instantanément votre potentiel grâce à notre simulateur gratuit.
-                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4">
+                        {referral.steps.map((step, index) => (
+                            <div key={index} className="bg-white border border-slate-200/90 rounded-xl p-4 sm:p-5 shadow-xs flex flex-col">
+                                <div className="flex items-center gap-2 mb-2">
+                                    <span className="w-6 h-6 rounded-md bg-blue-600 text-white flex items-center justify-center font-bold text-xs shrink-0">
+                                        {index + 1}
+                                    </span>
+                                    <h3 className="font-bold text-sm text-slate-900 leading-tight">
+                                        {step.title}
+                                    </h3>
+                                </div>
+                                <p 
+                                    className="text-slate-600 text-xs sm:text-sm leading-relaxed" 
+                                    dangerouslySetInnerHTML={{ __html: step.description.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }} 
+                                />
+                            </div>
+                        ))}
+                    </div>
+                </section>
+            )}
+
+            {/* Avis détaillé */}
+            <section className="mb-10">
+                <div className="flex items-center gap-2 mb-4">
+                    <TrendingUp className="text-blue-600 h-5 w-5" />
+                    <h2 className="text-lg sm:text-xl font-bold text-slate-900 tracking-tight">
+                        Notre avis d&apos;expert sur {referral.name}
+                    </h2>
+                </div>
+
+                <div className="bg-white border border-slate-200/90 rounded-2xl p-5 sm:p-7 shadow-xs mb-6">
+                    {referral.review ? (
+                        <div
+                            className="prose prose-slate max-w-none text-slate-700 leading-relaxed text-xs sm:text-sm"
+                            dangerouslySetInnerHTML={{ __html: referral.review.longReview }}
+                        />
+                    ) : (
+                        <p className="text-slate-700 leading-relaxed text-xs sm:text-sm">{referral.description}</p>
+                    )}
+                </div>
+
+                {/* 4 Avantages Clés */}
+                <h3 className="text-base font-bold text-slate-900 mb-3 flex items-center gap-2">
+                    <span>✨</span>
+                    <span>Les points forts du parrainage {referral.name}</span>
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+                    <div className="bg-white border border-slate-200/90 rounded-xl p-3.5 flex items-start gap-3 shadow-2xs">
+                        <span className="text-xl shrink-0">💰</span>
+                        <div>
+                            <h4 className="font-bold text-xs sm:text-sm text-slate-900">Prime immédiate</h4>
+                            <p className="text-xs text-slate-500">Recevez {referral.advantage} dès votre compte validé.</p>
+                        </div>
+                    </div>
+                    <div className="bg-white border border-slate-200/90 rounded-xl p-3.5 flex items-start gap-3 shadow-2xs">
+                        <span className="text-xl shrink-0">✅</span>
+                        <div>
+                            <h4 className="font-bold text-xs sm:text-sm text-slate-900">Offre vérifiée</h4>
+                            <p className="text-xs text-slate-500">Testée et garantie valide en {currentYear}.</p>
+                        </div>
+                    </div>
+                    <div className="bg-white border border-slate-200/90 rounded-xl p-3.5 flex items-start gap-3 shadow-2xs">
+                        <span className="text-xl shrink-0">⚡</span>
+                        <div>
+                            <h4 className="font-bold text-xs sm:text-sm text-slate-900">Activation rapide</h4>
+                            <p className="text-xs text-slate-500">Inscription fluide en moins de 5 minutes.</p>
+                        </div>
+                    </div>
+                    <div className="bg-white border border-slate-200/90 rounded-xl p-3.5 flex items-start gap-3 shadow-2xs">
+                        <span className="text-xl shrink-0">🛡️</span>
+                        <div>
+                            <h4 className="font-bold text-xs sm:text-sm text-slate-900">100% sans engagement</h4>
+                            <p className="text-xs text-slate-500">Profitez du bonus pour tester le service en toute liberté.</p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* FAQ de réassurance */}
+                <div className="bg-slate-50 border border-slate-200/90 rounded-xl p-4 sm:p-5 text-xs text-slate-600 leading-relaxed">
+                    <p className="font-bold text-slate-800 mb-1">
+                        🔒 Pourquoi notre parrainage {referral.name} est garanti 100% valide ?
+                    </p>
+                    <p>
+                        Tous nos codes et liens de parrainage sont testés manuellement chaque semaine. Le lien et le code pour {referral.name} ont été contrôlés et sont parfaitement actifs en {currentYear}. En cas de question, consultez la foire aux questions ci-dessous.
+                    </p>
+                </div>
+            </section>
+
+            {/* FAQs */}
+            {referral.faqs && referral.faqs.length > 0 && (
+                <div className="mb-10">
+                    <FaqAccordion faqs={referral.faqs} title={`Foire aux questions — ${referral.name}`} />
+                </div>
+            )}
+
+            {/* Alternatives Recommandées */}
+            {relatedReferrals.length > 0 && (
+                <section className="pt-8 border-t border-slate-200/90">
+                    <div className="flex items-center justify-between mb-4">
+                        <div>
+                            <h2 className="text-lg sm:text-xl font-bold text-slate-900 tracking-tight">
+                                D&apos;autres offres recommandées dans {referral.category}
+                            </h2>
+                            <p className="text-xs text-slate-500">Comparez et cumulez les primes de bienvenue</p>
+                        </div>
                         <Link 
-                            href="/simulateur"
-                            className="inline-flex items-center gap-2 px-8 py-4 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-2xl font-bold hover:scale-105 transition-transform shadow-xl"
+                            href={`/categorie/${slugifyCategory(referral.category)}`}
+                            className="text-xs font-bold text-blue-600 hover:underline"
                         >
-                            <Gift size={20} />
-                            Calculer mes gains cumulés
+                            Voir tout →
                         </Link>
                     </div>
-                </section>
-
-                {/* FAQ SEO */}
-                {referral.faqs && referral.faqs.length > 0 && (
-                    <div className="mb-20">
-                        <FaqAccordion faqs={referral.faqs} title={`Questions fréquentes - ${referral.name}`} />
+                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5 sm:gap-3.5">
+                        {relatedReferrals.map((relatedOffer, index) => (
+                            <ReferralCard key={relatedOffer.slug} referral={relatedOffer} index={index} />
+                        ))}
                     </div>
-                )}
+                </section>
+            )}
 
-                {/* Related Referrals / Cross-selling */}
-                {relatedReferrals.length > 0 && (
-                    <section className="pt-16 border-t font-semibold border-slate-200 dark:border-slate-800">
-                        <div className="text-center mb-10">
-                            <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">
-                                D&apos;autres offres <span className="text-primary">{referral.category}</span>
-                            </h2>
-                            <p className="text-slate-500 dark:text-slate-400">
-                                Poursuivez vos économies avec ces codes promotionnels triés sur le volet.
-                            </p>
-                        </div>
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {relatedReferrals.map((relatedOffer, index) => (
-                                <ReferralCard key={relatedOffer.slug} referral={relatedOffer} index={index} />
-                            ))}
-                        </div>
-                    </section>
-                )}
-            </article>
-
-            {/* Sticky Copy Bar for Conversion Optimization */}
+            {/* Sticky Copy Bar for Mobile and Desktop conversion */}
             {!referral.isPaused && (
                 <StickyCopyBar 
                     name={referral.name}
@@ -596,4 +486,3 @@ export default async function ReferralPage({
         </main>
     );
 }
-
