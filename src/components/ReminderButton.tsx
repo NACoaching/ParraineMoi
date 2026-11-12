@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { Calendar, Check, ChevronDown, Clock } from "lucide-react";
+import { useState, useRef, useEffect } from "react";
+import { Calendar, Check, ChevronDown, Clock, X } from "lucide-react";
 
 interface ReminderButtonProps {
   name: string;
@@ -13,6 +13,22 @@ interface ReminderButtonProps {
 export function ReminderButton({ name, advantage, slug, code }: ReminderButtonProps) {
   const [open, setOpen] = useState(false);
   const [added, setAdded] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  // Close when clicking outside
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (containerRef.current && !containerRef.current.contains(event.target as Node)) {
+        setOpen(false);
+      }
+    }
+    if (open) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [open]);
 
   const url = `https://codes-de-parrainages.com/parrainage-${slug}`;
   const title = `Activer l'offre ${name} (${advantage})`;
@@ -53,7 +69,7 @@ export function ReminderButton({ name, advantage, slug, code }: ReminderButtonPr
     setTimeout(() => {
       setAdded(false);
       setOpen(false);
-    }, 2500);
+    }, 2000);
   };
 
   const handleIcsDownload = () => {
@@ -94,11 +110,11 @@ export function ReminderButton({ name, advantage, slug, code }: ReminderButtonPr
     setTimeout(() => {
       setAdded(false);
       setOpen(false);
-    }, 2500);
+    }, 2000);
   };
 
   return (
-    <div className="relative inline-block text-left">
+    <div ref={containerRef} className="relative inline-block text-left">
       <button
         type="button"
         onClick={() => setOpen(!open)}
@@ -111,35 +127,45 @@ export function ReminderButton({ name, advantage, slug, code }: ReminderButtonPr
       </button>
 
       {open && (
-        <div className="absolute right-0 sm:left-0 sm:right-auto mt-2 w-64 rounded-xl bg-white border border-slate-200/90 shadow-xl p-2.5 z-30 animate-fadeIn">
-          <p className="text-[11px] font-bold text-slate-700 px-2 py-1 mb-1 border-b border-slate-100 flex items-center gap-1">
-            <Clock size={12} className="text-blue-600" />
-            <span>Rappel prévu à 20h00 :</span>
-          </p>
+        <div className="absolute bottom-full mb-2 right-0 sm:left-1/2 sm:-translate-x-1/2 sm:right-auto w-72 rounded-2xl bg-white border border-slate-200/90 shadow-2xl p-3 z-50 animate-fadeIn">
+          <div className="flex items-center justify-between pb-2 mb-2 border-b border-slate-100">
+            <p className="text-xs font-bold text-slate-800 flex items-center gap-1.5">
+              <Clock size={13} className="text-blue-600 shrink-0" />
+              <span>Rappel prévu à 20h00 ce soir :</span>
+            </p>
+            <button
+              type="button"
+              onClick={() => setOpen(false)}
+              className="text-slate-400 hover:text-slate-600 p-0.5 rounded-md cursor-pointer"
+              aria-label="Fermer"
+            >
+              <X size={13} />
+            </button>
+          </div>
 
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col gap-1.5">
             <button
               type="button"
               onClick={handleGoogleCalendar}
-              className="w-full flex items-center gap-2 px-2.5 py-2 rounded-lg text-xs font-semibold text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors text-left cursor-pointer"
+              className="w-full flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-bold text-slate-700 bg-slate-50 hover:bg-blue-50 hover:text-blue-700 border border-slate-200/80 hover:border-blue-200 transition-all text-left cursor-pointer active:scale-98"
             >
-              <span>📅</span>
+              <span className="text-base shrink-0">📅</span>
               <span className="flex-1">Google Agenda</span>
-              {added && <Check size={13} className="text-emerald-600" />}
+              {added && <Check size={14} className="text-emerald-600" />}
             </button>
 
             <button
               type="button"
               onClick={handleIcsDownload}
-              className="w-full flex items-center gap-2 px-2.5 py-2 rounded-lg text-xs font-semibold text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors text-left cursor-pointer"
+              className="w-full flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-bold text-slate-700 bg-slate-50 hover:bg-blue-50 hover:text-blue-700 border border-slate-200/80 hover:border-blue-200 transition-all text-left cursor-pointer active:scale-98"
             >
-              <span>🍏</span>
-              <span className="flex-1">Apple Calendrier / Outlook (.ics)</span>
-              {added && <Check size={13} className="text-emerald-600" />}
+              <span className="text-base shrink-0">🍏</span>
+              <span className="flex-1 truncate">Apple Calendrier / Outlook</span>
+              {added && <Check size={14} className="text-emerald-600 shrink-0" />}
             </button>
           </div>
 
-          <p className="text-[10px] text-slate-400 px-2 pt-1.5 border-t border-slate-100 mt-1">
+          <p className="text-[10px] text-slate-400 text-center pt-2 mt-1 border-t border-slate-100">
             Crée une alerte avec le lien & le code pour finaliser tranquillement chez vous.
           </p>
         </div>

@@ -271,7 +271,7 @@ export default async function ReferralPage({
             </header>
 
             {/* Main Conversion CTA Card */}
-            <section className="bg-white border border-slate-200/90 rounded-2xl sm:rounded-3xl p-6 sm:p-8 mb-10 shadow-xs text-center relative overflow-hidden">
+            <section className="bg-white border border-slate-200/90 rounded-2xl sm:rounded-3xl p-6 sm:p-8 mb-10 shadow-xs text-center relative">
                 <div className="relative z-10 max-w-xl mx-auto">
                     {referral.isPaused ? (
                         <>
