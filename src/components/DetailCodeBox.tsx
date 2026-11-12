@@ -7,9 +7,10 @@ interface DetailCodeBoxProps {
   code: string;
   name: string;
   advantage: string;
+  link?: string;
 }
 
-export function DetailCodeBox({ code, name, advantage }: DetailCodeBoxProps) {
+export function DetailCodeBox({ code, name, advantage, link }: DetailCodeBoxProps) {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async () => {
@@ -18,14 +19,21 @@ export function DetailCodeBox({ code, name, advantage }: DetailCodeBoxProps) {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
 
-      if (typeof window !== "undefined" && (window as any).trackReferral) {
-        (window as any).trackReferral({
-          action: "copy_code",
-          referralCode: code,
-          referralName: name,
-          advantage,
-          sourceComponent: "detail_code_box",
-        });
+      if (typeof window !== "undefined") {
+        window.dispatchEvent(
+          new CustomEvent("referral-code-copied", {
+            detail: { name, code, link },
+          })
+        );
+        if ((window as any).trackReferral) {
+          (window as any).trackReferral({
+            action: "copy_code",
+            referralCode: code,
+            referralName: name,
+            advantage,
+            sourceComponent: "detail_code_box",
+          });
+        }
       }
     } catch (err) {
       console.error("Failed to copy code: ", err);

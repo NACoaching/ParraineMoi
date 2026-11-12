@@ -311,6 +311,7 @@ export default async function ReferralPage({
                                     code={referral.code}
                                     name={referral.name}
                                     advantage={referral.advantage}
+                                    link={referral.link}
                                 />
                             )}
 

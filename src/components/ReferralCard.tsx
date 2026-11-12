@@ -34,10 +34,12 @@ function CodeSlot({
   code,
   referralName,
   advantage,
+  link,
 }: {
   code: string;
   referralName: string;
   advantage: string;
+  link?: string;
 }) {
   const [copied, setCopied] = useState(false);
 
@@ -49,14 +51,21 @@ function CodeSlot({
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
 
-      if (typeof window !== "undefined" && (window as any).trackReferral) {
-        (window as any).trackReferral({
-          action: "copy_code",
-          referralCode: code,
-          referralName,
-          advantage,
-          sourceComponent: "card_code_slot",
-        });
+      if (typeof window !== "undefined") {
+        window.dispatchEvent(
+          new CustomEvent("referral-code-copied", {
+            detail: { name: referralName, code, link },
+          })
+        );
+        if ((window as any).trackReferral) {
+          (window as any).trackReferral({
+            action: "copy_code",
+            referralCode: code,
+            referralName,
+            advantage,
+            sourceComponent: "card_code_slot",
+          });
+        }
       }
     } catch (err) {
       console.error("Failed to copy code: ", err);
@@ -199,6 +208,7 @@ export function ReferralCard({
             code={referral.code}
             referralName={referral.name}
             advantage={referral.advantage}
+            link={referral.link}
           />
         ) : (
           <div className="w-full h-7 sm:h-8 px-2 rounded-lg border border-slate-200/80 bg-slate-50/80 flex items-center justify-center gap-1 text-slate-500 select-none">
