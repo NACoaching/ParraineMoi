@@ -70,14 +70,17 @@ export default function Home() {
         </p>
 
         {/* Stats bar - Ultra sleek mini bar */}
-        <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 text-[11px] font-medium text-slate-600 mb-4 bg-white/80 border border-slate-200/80 py-1 px-3.5 rounded-full shadow-2xs">
+        <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 text-[11px] font-medium text-slate-600 mb-4 bg-white/90 border border-slate-200/90 py-1.5 px-3.5 rounded-full shadow-2xs">
+          <span className="flex items-center gap-1.5 text-emerald-700 font-bold">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+            Vérifié Novembre 2026
+          </span>
+          <span className="text-slate-300 hidden sm:inline">•</span>
           <span className="flex items-center gap-1">💰 <strong className="text-blue-600 font-bold">+1 500 €</strong> cumulables</span>
           <span className="text-slate-300 hidden sm:inline">•</span>
           <span className="flex items-center gap-1">⚡ <strong className="text-slate-900 font-bold">50+</strong> offres</span>
           <span className="text-slate-300 hidden sm:inline">•</span>
-          <span className="flex items-center gap-1">🛡️ <strong className="text-emerald-600 font-bold">100%</strong> gratuit</span>
-          <span className="text-slate-300 hidden sm:inline">•</span>
-          <span className="flex items-center gap-1">⏱️ <strong className="text-indigo-600 font-bold">5 min</strong></span>
+          <span className="flex items-center gap-1">🛡️ <strong className="text-slate-700 font-bold">100%</strong> gratuit</span>
         </div>
 
         {/* Grille d'offres directement accessible */}

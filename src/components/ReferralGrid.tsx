@@ -1,6 +1,6 @@
 "use client";
 
-import { Search, Star, ArrowRight, X } from "lucide-react";
+import { Search, ArrowRight, X, ChevronDown } from "lucide-react";
 import { useState, useMemo } from "react";
 import { ReferralCard, Referral } from "./ReferralCard";
 import Link from "next/link";
@@ -23,6 +23,7 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
     const [searchTerm, setSearchTerm] = useState("");
     const [activeCategory, setActiveCategory] = useState(initialCategory);
     const [selectedOfferSlug, setSelectedOfferSlug] = useState("");
+    const [sortBy, setSortBy] = useState<"recommended" | "highest_reward" | "alphabetical">("recommended");
 
     const extractValue = (advantage: string) => {
         const lowerAdvantage = advantage.toLowerCase();
@@ -70,18 +71,25 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
             );
         }
 
-        return result;
-    }, [searchTerm, activeCategory, selectedOfferSlug, referrals]);
+        // Sort
+        if (sortBy === "highest_reward") {
+            result = [...result].sort((a, b) => extractValue(b.advantage) - extractValue(a.advantage));
+        } else if (sortBy === "alphabetical") {
+            result = [...result].sort((a, b) => a.name.localeCompare(b.name));
+        }
 
-    const isFiltered = searchTerm !== "" || activeCategory !== "Toutes" || selectedOfferSlug !== "";
+        return result;
+    }, [searchTerm, activeCategory, selectedOfferSlug, sortBy, referrals]);
+
+    const isFiltered = searchTerm !== "" || activeCategory !== "Toutes" || selectedOfferSlug !== "" || sortBy !== "recommended";
 
     return (
         <div className="w-full">
-            {/* Search & All-Offers Dropdown Bar */}
-            <div className="mb-3 max-w-3xl mx-auto">
-                <div className="flex flex-col sm:flex-row gap-2.5 items-stretch">
+            {/* Search & Filters Bar */}
+            <div className="mb-3 max-w-4xl mx-auto">
+                <div className="grid grid-cols-1 sm:grid-cols-12 gap-2 sm:gap-2.5 items-stretch">
                     {/* Search Input */}
-                    <div className="relative flex-grow group">
+                    <div className="relative group sm:col-span-6">
                         <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
                             <Search className="h-4 w-4 text-slate-400 group-focus-within:text-blue-600 transition-colors" />
                         </div>
@@ -90,7 +98,7 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
                             id="search-input"
                             type="text"
                             className="block w-full pl-10 pr-9 py-2.5 bg-white border border-slate-200/90 text-slate-900 placeholder-slate-400 rounded-xl shadow-2xs focus:outline-none focus:ring-3 focus:ring-blue-500/10 focus:border-blue-500 transition-all text-xs sm:text-sm"
-                            placeholder="Rechercher une banque, crypto, app (ex: Fortuneo, Revolut)..."
+                            placeholder="Rechercher une banque, crypto, app..."
                             value={searchTerm}
                             onChange={(e) => {
                                 setSearchTerm(e.target.value);
@@ -109,33 +117,48 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
                         )}
                     </div>
 
-                    {/* All Offers Dropdown (replaced Trier) */}
-                    <div className="relative sm:min-w-[210px] shrink-0">
+                    {/* All Offers Dropdown */}
+                    <div className="relative sm:col-span-3">
                         <select
-                            aria-label="Toutes les offres"
-                            className="appearance-none block w-full h-full px-3.5 pr-8 py-2.5 bg-white border border-slate-200/90 text-slate-700 rounded-xl shadow-2xs focus:outline-none focus:ring-3 focus:ring-blue-500/10 focus:border-blue-500 transition-all cursor-pointer font-medium text-xs truncate"
+                            aria-label="Toutes les marques"
+                            className="appearance-none block w-full h-full px-3 pr-8 py-2.5 bg-white border border-slate-200/90 text-slate-700 rounded-xl shadow-2xs focus:outline-none focus:ring-3 focus:ring-blue-500/10 focus:border-blue-500 transition-all cursor-pointer font-medium text-xs truncate"
                             value={selectedOfferSlug}
                             onChange={(e) => {
                                 setSelectedOfferSlug(e.target.value);
                                 setSearchTerm("");
                             }}
                         >
-                            <option value="">Toutes les offres ({allOfferNames.length})</option>
+                            <option value="">Toutes les marques ({allOfferNames.length})</option>
                             {allOfferNames.map(offer => (
                                 <option key={offer.slug} value={offer.slug}>{offer.name}</option>
                             ))}
                         </select>
-                        <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none text-slate-400">
-                            <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                            </svg>
+                        <div className="absolute inset-y-0 right-0 pr-2.5 flex items-center pointer-events-none text-slate-400">
+                            <ChevronDown className="h-4 w-4" />
+                        </div>
+                    </div>
+
+                    {/* Sort Options */}
+                    <div className="relative sm:col-span-3">
+                        <select
+                            aria-label="Trier les offres"
+                            className="appearance-none block w-full h-full px-3 pr-8 py-2.5 bg-white border border-slate-200/90 text-slate-700 rounded-xl shadow-2xs focus:outline-none focus:ring-3 focus:ring-blue-500/10 focus:border-blue-500 transition-all cursor-pointer font-medium text-xs truncate"
+                            value={sortBy}
+                            onChange={(e) => setSortBy(e.target.value as "recommended" | "highest_reward" | "alphabetical")}
+                        >
+                            <option value="recommended">⭐ Recommandés</option>
+                            <option value="highest_reward">💰 Plus grosse prime (€)</option>
+                            <option value="alphabetical">🔤 De A à Z</option>
+                        </select>
+                        <div className="absolute inset-y-0 right-0 pr-2.5 flex items-center pointer-events-none text-slate-400">
+                            <ChevronDown className="h-4 w-4" />
                         </div>
                     </div>
                 </div>
             </div>
 
             {/* Category tabs */}
-            <div className="flex flex-wrap justify-center gap-1.5 mb-5 mt-2">
+            <div className="flex flex-wrap justify-center gap-1.5 mb-4 mt-2">
                 {allCategories.map(cat => {
                     const isActive = activeCategory === cat;
                     const icon = CATEGORY_ICONS[cat] || "🏷️";
@@ -160,12 +183,14 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
 
             {/* Filter feedback / reset */}
             {isFiltered && (
-                <div className="flex items-center justify-between max-w-5xl mx-auto mb-4 px-2 text-xs text-slate-500">
+                <div className="flex items-center justify-between max-w-5xl mx-auto mb-3 px-2 text-xs text-slate-500">
                     <span>
                         <strong>{filteredOffers.length}</strong> offre{filteredOffers.length > 1 ? "s" : ""} trouvée{filteredOffers.length > 1 ? "s" : ""}
                         {activeCategory !== "Toutes" && <> dans <strong>{activeCategory}</strong></>}
                         {selectedOfferSlug && <> pour <strong>{allOfferNames.find(o => o.slug === selectedOfferSlug)?.name}</strong></>}
                         {searchTerm && <> pour &ldquo;<strong>{searchTerm}</strong>&rdquo;</>}
+                        {sortBy === "highest_reward" && <> • triées par <strong>prime (€ décroissant)</strong></>}
+                        {sortBy === "alphabetical" && <> • triées <strong>de A à Z</strong></>}
                     </span>
                     <button
                         type="button"
@@ -173,6 +198,7 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
                             setSearchTerm("");
                             setSelectedOfferSlug("");
                             setActiveCategory("Toutes");
+                            setSortBy("recommended");
                         }}
                         className="text-blue-600 hover:underline font-semibold flex items-center gap-1"
                     >
@@ -196,20 +222,15 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
                             forceTopOffers.includes(referral.slug)
                         ) && !isFortuneoSpotlight;
 
+                        const badge = isFortuneoSpotlight ? "star" : isTopOffer ? "top" : undefined;
+
                         return (
-                            <div key={referral.slug} className="relative">
-                                {isFortuneoSpotlight && (
-                                    <div className="absolute -top-2 -right-1 sm:-top-2.5 sm:-right-2 z-10 bg-amber-400 text-amber-950 text-[8px] sm:text-[10px] uppercase font-black tracking-wider px-1.5 py-0.5 sm:px-2 sm:py-0.5 rounded-full shadow-xs flex items-center gap-0.5 sm:gap-1 pointer-events-none">
-                                        <Star className="h-2.5 w-2.5 sm:h-3 sm:w-3 fill-amber-950" /> Star
-                                    </div>
-                                )}
-                                {isTopOffer && (
-                                    <div className="absolute -top-2 -right-1 sm:-top-2.5 sm:-right-2 z-10 bg-gradient-to-r from-amber-500 to-orange-500 text-white text-[8px] sm:text-[10px] uppercase font-black tracking-wider px-1.5 py-0.5 sm:px-2 sm:py-0.5 rounded-full shadow-xs pointer-events-none">
-                                        🔥 Top
-                                    </div>
-                                )}
-                                <ReferralCard referral={referral} index={index} />
-                            </div>
+                            <ReferralCard
+                                key={referral.slug}
+                                referral={referral}
+                                index={index}
+                                badge={badge}
+                            />
                         );
                     })}
                 </div>
@@ -227,6 +248,7 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
                             setSearchTerm("");
                             setSelectedOfferSlug("");
                             setActiveCategory("Toutes");
+                            setSortBy("recommended");
                         }}
                         className="text-xs text-blue-600 font-bold hover:underline bg-blue-50 border border-blue-200/60 px-3.5 py-1.5 rounded-xl"
                     >

@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { ScrollToTop } from "@/components/ScrollToTop";
 import { Analytics } from "@vercel/analytics/react";
 import { IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
@@ -115,6 +116,7 @@ export default function RootLayout({
         <div className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6">
           {children}
         </div>
+        <ScrollToTop />
         <Footer />
         <Analytics />
         {/* Referral Pulse Tracker */}
