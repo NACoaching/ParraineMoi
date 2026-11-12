@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ShieldCheck, Search, Award } from 'lucide-react';
+import { ShieldCheck, Search, Award, Home, ChevronRight, CheckCircle2 } from 'lucide-react';
 
 export const metadata: Metadata = {
     title: 'Notre Méthodologie — Codes Parrainages Testés & Vérifiés',
@@ -22,91 +22,94 @@ const organizationJsonLd = {
 
 export default function AboutPage() {
     return (
-        <main className="min-h-screen px-4 py-8 sm:px-6 sm:py-16 max-w-4xl mx-auto">
+        <main className="min-h-screen px-4 py-5 sm:px-6 sm:py-10 max-w-4xl mx-auto">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
             />
-            <div className="text-center mb-12">
-
-                <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mb-6">
+            {/* Breadcrumb */}
+            <nav className="flex items-center gap-1.5 text-xs font-medium text-slate-500 mb-6 overflow-x-auto whitespace-nowrap">
+                <Link href="/" className="flex items-center gap-1 hover:text-blue-600 transition-colors">
+                    <Home size={13} />
+                    <span>Accueil</span>
+                </Link>
+                <ChevronRight size={12} className="text-slate-300 shrink-0" />
+                <span className="text-slate-900 font-semibold truncate">
                     Notre Méthodologie
-                </h1>
-                <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-                    Parce que la confiance ne s&apos;achète pas, elle se prouve. Voici comment je sélectionne et vérifie chaque offre.
-                </p>
-            </div>
+                </span>
+            </nav>
 
-            <div className="prose prose-lg prose-slate dark:prose-invert max-w-none">
-
-                <section className="mb-12 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 shadow-sm">
-                    <div className="flex items-center gap-4 mb-6">
-                        <div className="h-12 w-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
-                            <Search size={24} />
-                        </div>
-                        <h2 className="text-2xl font-bold m-0 text-slate-900 dark:text-white">Qui suis-je ?</h2>
-                    </div>
-                    <p className="text-slate-600 dark:text-slate-400 mb-4">
-                        Je suis avant tout un consommateur malin. J&apos;en avais assez de tomber sur des sites de codes promo remplis de liens expirés ou de fausses promesses juste là pour attirer des clics.
-                    </p>
-                    <p className="text-slate-600 dark:text-slate-400">
-                        Mon but est très simple : proposer un site clair et honnête où chaque offre a été réellement vérifiée. Je mets un point d&apos;honneur à ouvrir moi-même les comptes, tester les applications au quotidien, et m&apos;assurer que les primes existent bel et bien avant de les partager avec vous.
-                    </p>
-                </section>
-
-                <section className="mb-12 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 shadow-sm">
-                    <div className="flex items-center gap-4 mb-6">
-                        <div className="h-12 w-12 rounded-xl bg-blue-100 text-blue-600 dark:bg-blue-900/50 flex items-center justify-center">
-                            <ShieldCheck size={24} />
-                        </div>
-                        <h2 className="text-2xl font-bold m-0 text-slate-900 dark:text-white">Mon processus de Test (La Règle des 30 Jours)</h2>
-                    </div>
-                    <p className="text-slate-600 dark:text-slate-400 mb-6">
-                        Afin de garantir que les primes sont bien versées, et qu&apos;aucun frais caché (inactivité, gestion) ne vient piéger mes lecteurs, j&apos;applique une sélection stricte :
-                    </p>
-                    <ul className="space-y-4 text-slate-600 dark:text-slate-400 list-none pl-0">
-                        <li className="flex gap-3">
-                            <span className="text-blue-500 font-bold">1.</span>
-                            <span><strong>Ouverture réelle :</strong> Je télécharge l&apos;application sur mon vrai téléphone, passe le KYC (vérification d&apos;identité) et dépose les fonds minimums requis pour valider le parrainage.</span>
-                        </li>
-                        <li className="flex gap-3">
-                            <span className="text-blue-500 font-bold">2.</span>
-                            <span><strong>Période de quarantaine (30 jours) :</strong> J&apos;utilise l&apos;application pendant un mois pour mes propres achats. Si la prime est versée sans condition cachée, l&apos;offre passe à l&apos;étape suivante.</span>
-                        </li>
-                        <li className="flex gap-3">
-                            <span className="text-blue-500 font-bold">3.</span>
-                            <span><strong>Vérification continue :</strong> Des vérifications mensuelles sont effectuées pour m&apos;assurer que les conditions générales (montant de l&apos;offre, validité du code, introduction de nouveaux frais) n&apos;ont pas muté discrètement.</span>
-                        </li>
-                    </ul>
-                </section>
-
-                <section className="mb-12 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 shadow-sm">
-                    <div className="flex items-center gap-4 mb-6">
-                        <div className="h-12 w-12 rounded-xl bg-amber-100 text-amber-600 dark:bg-amber-900/50 flex items-center justify-center">
-                            <Award size={24} />
-                        </div>
-                        <h2 className="text-2xl font-bold m-0 text-slate-900 dark:text-white">Affiliation et Transparence totale</h2>
-                    </div>
-                    <p className="text-slate-600 dark:text-slate-400 mb-4">
-                        Ce site est un projet personnel 100% gratuit, sans publicité intrusive et sans inscription obligatoire. De plus, la plateforme ne collecte aucune de vos données personnelles (voir la <Link href="/politique-de-confidentialite" className="text-primary hover:underline">Politique de Confidentialité</Link>).
-                    </p>
-                    <p className="text-slate-600 dark:text-slate-400 mb-4">
-                        Pour payer l&apos;hébergement et le nom de domaine, j&apos;utilise tout simplement le principe du parrainage, sur un modèle totalement &quot;<strong>Gagnant - Gagnant</strong>&quot; :
-                    </p>
-                    <ul className="list-disc pl-5 text-slate-600 dark:text-slate-400 space-y-2 mb-4">
-                        <li>De votre côté, vous obtenez votre <strong>prime de bienvenue</strong> (souvent boostée grâce au lien d&apos;invitation que je partage).</li>
-                        <li>Du mien, je reçois une petite récompense de la part de l&apos;application, sans que cela ne change quoi que ce soit pour vous (c&apos;est l&apos;appli qui paie la prime).</li>
-                    </ul>
-                    <p className="text-sm italic text-slate-500 bg-slate-50 dark:bg-slate-800/50 p-4 rounded-xl border border-slate-100 dark:border-slate-800/80">
-                        *Une précision importante : je reste totalement libre de mes choix. Si une banque ou une appli ajoute des frais cachés ou modifie ses conditions à votre désavantage par la suite, je la retire immédiatement de mes recommandations, même si elle me rapporte de l&apos;argent.
-                    </p>
-                </section>
-
-                <div className="mt-12 text-center">
-                    <Link href="/" className="inline-flex items-center justify-center h-12 px-8 rounded-full bg-primary text-white font-bold hover:bg-primary/90 transition-colors shadow-md hover:shadow-lg">
-                        Retourner aux bons plans
-                    </Link>
+            <header className="mb-8 text-center max-w-2xl mx-auto">
+                <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 border border-blue-200/80 text-blue-700 text-xs font-bold mb-3">
+                    <ShieldCheck size={13} />
+                    <span>Transparence & Indépendance</span>
                 </div>
+                <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight mb-2">
+                    Notre <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Méthodologie</span> de Test
+                </h1>
+                <p className="text-xs sm:text-sm text-slate-500 leading-relaxed">
+                    Parce que la confiance ne s&apos;achète pas, elle se prouve. Découvrez comment chaque offre est rigoureusement testée avant d&apos;être recommandée.
+                </p>
+            </header>
+
+            <div className="space-y-6">
+                <section className="bg-white border border-slate-200/90 rounded-2xl p-5 sm:p-7 shadow-xs">
+                    <div className="flex items-center gap-3 mb-4">
+                        <div className="h-10 w-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
+                            <Search size={20} />
+                        </div>
+                        <h2 className="text-base sm:text-lg font-bold text-slate-900">
+                            La genèse du projet
+                        </h2>
+                    </div>
+                    <div className="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-3">
+                        <p>
+                            Comme beaucoup d&apos;internautes, j&apos;en avais assez de perdre mon temps sur des plateformes de coupons truffées de codes périmés, de liens d&apos;affiliation déguisés et de primes fantômes destinées uniquement à générer des clics.
+                        </p>
+                        <p>
+                            <strong>Codes de Parrainages</strong> a été créé avec une obsession : proposer un répertoire clair, ergonomique et 100% fiable, où chaque offre est vérifiée et maintenue à jour semaine après semaine.
+                        </p>
+                    </div>
+                </section>
+
+                <section className="bg-white border border-slate-200/90 rounded-2xl p-5 sm:p-7 shadow-xs">
+                    <div className="flex items-center gap-3 mb-4">
+                        <div className="h-10 w-10 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center shrink-0">
+                            <ShieldCheck size={20} />
+                        </div>
+                        <h2 className="text-base sm:text-lg font-bold text-slate-900">
+                            Le protocole de vérification des 30 jours
+                        </h2>
+                    </div>
+                    <div className="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-3">
+                        <p>
+                            Pour figurer sur ce comparateur, chaque service doit satisfaire 3 critères stricts :
+                        </p>
+                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
+                            <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80">
+                                <div className="font-bold text-slate-900 text-xs mb-1 flex items-center gap-1">
+                                    <CheckCircle2 size={13} className="text-emerald-600" />
+                                    1. Test Réel
+                                </div>
+                                <p className="text-[11px] text-slate-500">Ouverture de compte et versement effectif de la prime testés en conditions réelles.</p>
+                            </div>
+                            <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80">
+                                <div className="font-bold text-slate-900 text-xs mb-1 flex items-center gap-1">
+                                    <CheckCircle2 size={13} className="text-emerald-600" />
+                                    2. Veille Continue
+                                </div>
+                                <p className="text-[11px] text-slate-500">Mise à jour mensuelle des montants promotionnels et des conditions d&apos;éligibilité.</p>
+                            </div>
+                            <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80">
+                                <div className="font-bold text-slate-900 text-xs mb-1 flex items-center gap-1">
+                                    <CheckCircle2 size={13} className="text-emerald-600" />
+                                    3. Zéro Coût Caché
+                                </div>
+                                <p className="text-[11px] text-slate-500">Vérification de l&apos;absence de frais cachés ou de conditions d&apos;engagement abusives.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </main>
     );

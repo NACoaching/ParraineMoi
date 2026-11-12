@@ -115,6 +115,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
 
     const categoryReferrals = referrals.filter((r) => r.category === originalCategory);
     const categoryGuides = guides.filter((g) => g.category === originalCategory);
+    const currentYear = new Date().getFullYear();
 
     const itemListJsonLd = {
         "@context": "https://schema.org",
