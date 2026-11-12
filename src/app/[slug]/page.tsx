@@ -6,6 +6,7 @@ import { CompanyLogo } from '@/components/CompanyLogo';
 import { StickyCopyBar } from '@/components/StickyCopyBar';
 import { FaqAccordion } from '@/components/FaqAccordion';
 import { DetailCodeBox } from '@/components/DetailCodeBox';
+import { ShareOfferButton } from '@/components/ShareOfferButton';
 import { referrals, guides } from '@/lib/data';
 import { Referral, ReferralCard } from '@/components/ReferralCard';
 import { slugifyCategory, formatVerifiedDate } from '@/lib/utils';
@@ -336,6 +337,13 @@ export default async function ReferralPage({
                             <p className="text-[11px] text-slate-400 font-medium mt-4">
                                 ✓ Inscription directe et sécurisée sur le site officiel {referral.name}
                             </p>
+
+                            <ShareOfferButton 
+                                name={referral.name}
+                                advantage={referral.advantage}
+                                slug={referral.slug}
+                                code={hasRealCode ? referral.code : undefined}
+                            />
                         </>
                     )}
                 </div>
