@@ -182,9 +182,9 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
                 </div>
             )}
 
-            {/* Grid of Offers - 4 colonnes sur desktop pour compacité maximale */}
+            {/* Grid of Offers - 2 colonnes sur mobile, 3 sur tablette, 4 sur desktop */}
             {filteredOffers.length > 0 ? (
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3.5">
+                <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2.5 sm:gap-3.5">
                     {filteredOffers.map((referral, index) => {
                         const isFortuneoSpotlight = referral.slug === "fortuneo" && !isFiltered;
                         const val = extractValue(referral.advantage);
@@ -199,13 +199,13 @@ export function ReferralGrid({ referrals, activeCategoryName: initialCategory = 
                         return (
                             <div key={referral.slug} className="relative">
                                 {isFortuneoSpotlight && (
-                                    <div className="absolute -top-2.5 -right-2 z-10 bg-amber-400 text-amber-950 text-[10px] uppercase font-black tracking-wider px-2 py-0.5 rounded-full shadow-xs flex items-center gap-1 pointer-events-none">
-                                        <Star className="h-3 w-3 fill-amber-950" /> Star du mois
+                                    <div className="absolute -top-2 -right-1 sm:-top-2.5 sm:-right-2 z-10 bg-amber-400 text-amber-950 text-[8px] sm:text-[10px] uppercase font-black tracking-wider px-1.5 py-0.5 sm:px-2 sm:py-0.5 rounded-full shadow-xs flex items-center gap-0.5 sm:gap-1 pointer-events-none">
+                                        <Star className="h-2.5 w-2.5 sm:h-3 sm:w-3 fill-amber-950" /> Star
                                     </div>
                                 )}
                                 {isTopOffer && (
-                                    <div className="absolute -top-2.5 -right-2 z-10 bg-gradient-to-r from-amber-500 to-orange-500 text-white text-[10px] uppercase font-black tracking-wider px-2 py-0.5 rounded-full shadow-xs pointer-events-none">
-                                        🔥 Top Offre
+                                    <div className="absolute -top-2 -right-1 sm:-top-2.5 sm:-right-2 z-10 bg-gradient-to-r from-amber-500 to-orange-500 text-white text-[8px] sm:text-[10px] uppercase font-black tracking-wider px-1.5 py-0.5 sm:px-2 sm:py-0.5 rounded-full shadow-xs pointer-events-none">
+                                        🔥 Top
                                     </div>
                                 )}
                                 <ReferralCard referral={referral} index={index} />

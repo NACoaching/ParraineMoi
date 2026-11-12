@@ -57,17 +57,17 @@ export function CopyButton({
             className={`inline-flex items-center justify-center font-semibold transition-all active:scale-90 cursor-pointer select-none ${
                 showText 
                     ? `h-10 px-4 rounded-xl gap-2 text-sm ${copied ? "bg-emerald-600 text-white" : "bg-blue-600 hover:bg-blue-700 text-white shadow-xs"}`
-                    : `h-8 w-8 rounded-lg shrink-0 ${copied ? "bg-emerald-600 text-white shadow-xs" : "bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-white border border-blue-200/80 shadow-2xs"}`
+                    : `h-6 w-6 sm:h-7 sm:w-7 rounded-md shrink-0 ${copied ? "bg-emerald-600 text-white shadow-xs" : "bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-white border border-blue-200/80 shadow-2xs"}`
             } ${className}`}
         >
             {copied ? (
                 <>
-                    <Check className="h-4 w-4 shrink-0 stroke-[2.5]" />
+                    <Check className="h-3 w-3 sm:h-3.5 sm:w-3.5 shrink-0 stroke-[2.5]" />
                     {showText && <span className="truncate">{successLabel}</span>}
                 </>
             ) : (
                 <>
-                    <Copy className="h-4 w-4 shrink-0 stroke-[2.2]" />
+                    <Copy className="h-3 w-3 sm:h-3.5 sm:w-3.5 shrink-0 stroke-[2.2]" />
                     {showText && <span className="truncate">{label}</span>}
                 </>
             )}
