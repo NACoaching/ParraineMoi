@@ -74,6 +74,16 @@ const BRAND_CONDITIONS: Record<
     delay: "Réduction appliquée instantanément sur le total de votre commande.",
     caution: "Valable uniquement sur la toute première commande avec un panier minimum requis.",
   },
+  hollyland: {
+    action: "Passer par notre lien partenaire certifié pour accéder à la boutique officielle Hollyland.",
+    delay: "Remises constructeur et promotions appliquées automatiquement dans votre panier sans code promo.",
+    caution: "Garantie constructeur internationale et support technique direct réservés aux achats officiels.",
+  },
+  autofull: {
+    action: "Accéder à la boutique officielle européenne AutoFull via notre lien partenaire d'affiliation.",
+    delay: "Réductions et offres e-sport automatiquement déduites lors de la validation du panier.",
+    caution: "Livraison suivie depuis les entrepôts européens avec garantie fabricant de 3 ans.",
+  },
 };
 
 export function QuickConditions({ referral }: QuickConditionsProps) {

@@ -162,7 +162,7 @@ export default async function ReferralPage({
     const productOfferJsonLd = {
         "@context": "https://schema.org",
         "@type": "Product",
-        "name": `Offre de parrainage ${referral.name}`,
+        "name": referral.isPartner ? `Offre partenaire ${referral.name}` : `Offre de parrainage ${referral.name}`,
         "description": referral.description,
         "image": `https://codes-de-parrainages.com${referral.logoUrl}`,
         "brand": {
@@ -177,7 +177,7 @@ export default async function ReferralPage({
             "priceValidUntil": `${currentYear}-12-31`,
             "availability": referral.isPaused ? "https://schema.org/Discontinued" : "https://schema.org/InStock",
             "category": referral.category,
-            "description": `Prime de parrainage : ${referral.advantage}`
+            "description": referral.isPartner ? `Avantage partenaire officiel : ${referral.advantage}` : `Prime de parrainage : ${referral.advantage}`
         }
     };
 
@@ -200,7 +200,7 @@ export default async function ReferralPage({
             {
                 "@type": "ListItem",
                 "position": 3,
-                "name": `Parrainage ${referral.name}`,
+                "name": referral.isPartner ? `Partenaire ${referral.name}` : `Parrainage ${referral.name}`,
                 "item": `https://codes-de-parrainages.com/parrainage-${referral.slug}`
             }
         ]
@@ -209,7 +209,11 @@ export default async function ReferralPage({
     const howToJsonLd = referral.steps && referral.steps.length > 0 ? {
         "@context": "https://schema.org",
         "@type": "HowTo",
-        "name": referral.code ? `Comment profiter du code parrainage ${referral.name}` : `Comment profiter de l'offre ${referral.name}`,
+        "name": referral.code 
+            ? `Comment profiter du code parrainage ${referral.name}` 
+            : referral.isPartner
+                ? `Comment profiter de l'offre partenaire ${referral.name}`
+                : `Comment profiter de l'offre ${referral.name}`,
         "description": referral.code
             ? `Tutoriel pour utiliser le code de parrainage ${referral.code} et obtenir ${referral.advantage} sur ${referral.name}.`
             : `Guide étape par étape pour profiter de l'offre ${referral.advantage} sur ${referral.name}.`,
