@@ -283,8 +283,12 @@ export default async function ReferralPage({
                             <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
                             Vérifié le {referral.lastVerified ? new Date(referral.lastVerified).toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric' }) : `13/11/${currentYear}`}
                         </span>
-                        <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-blue-50 text-blue-700 border border-blue-200 text-[10px] font-bold">
-                            ⚡ Offre Active
+                        <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-bold ${
+                            referral.isPartner 
+                                ? "bg-indigo-50 text-indigo-700 border border-indigo-200" 
+                                : "bg-blue-50 text-blue-700 border border-blue-200"
+                        }`}>
+                            {referral.isPartner ? "🤝 Partenaire d'Affiliation" : "⚡ Offre Active"}
                         </span>
                     </div>
                     <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight leading-tight">
@@ -344,8 +348,8 @@ export default async function ReferralPage({
                             {/* Reassurance pill if no code */}
                             {!hasRealCode && (
                                 <div className="max-w-md mx-auto mb-6 p-3 rounded-xl border border-blue-100 bg-blue-50/70 text-slate-700 text-xs sm:text-sm flex items-center justify-center gap-2">
-                                    <span className="text-base">✨</span>
-                                    <span><strong>Lien d&apos;invitation certifié</strong> • Réduction appliquée automatiquement</span>
+                                    <span className="text-base">{referral.isPartner ? "🤝" : "✨"}</span>
+                                    <span><strong>{referral.isPartner ? "Lien partenaire officiel (Affiliation)" : "Lien d'invitation certifié"}</strong> • Réduction appliquée automatiquement</span>
                                 </div>
                             )}
 
@@ -358,14 +362,17 @@ export default async function ReferralPage({
                                         rel="noopener noreferrer sponsored"
                                         className="inline-flex items-center justify-center gap-2.5 px-8 sm:px-10 py-3.5 sm:py-4 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-sm sm:text-base shadow-md hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all"
                                     >
-                                        <span>{referral.isPartner ? `Profiter de l'offre ${referral.name}` : `Ouvrir ${referral.name} & Encaisser`}</span>
+                                        <span>{referral.isPartner ? `Profiter de l'offre partenaire ${referral.name}` : `Ouvrir ${referral.name} & Encaisser`}</span>
                                         <ExternalLink size={16} />
                                     </a>
                                 </div>
                             )}
 
                             <p className="text-[11px] text-slate-400 font-medium mt-3">
-                                ✓ Inscription directe et sécurisée sur le site officiel {referral.name}
+                                {referral.isPartner 
+                                    ? `✓ Partenaire d'affiliation vérifié • Redirection directe vers la boutique officielle ${referral.name}`
+                                    : `✓ Inscription directe et sécurisée sur le site officiel ${referral.name}`
+                                }
                             </p>
 
                             {/* Practical Actions: Share + Reminder */}

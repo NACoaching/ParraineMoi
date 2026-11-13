@@ -153,6 +153,11 @@ export function ReferralCard({
                 >
                   {referral.category}
                 </Link>
+                {referral.isPartner && (
+                  <span className="inline-flex items-center rounded-md bg-indigo-50 px-1.5 py-0.5 text-[8px] sm:text-[9px] font-bold uppercase tracking-wider text-indigo-700 border border-indigo-200 shrink-0">
+                    Partenaire
+                  </span>
+                )}
                 {referral.lastVerified && (
                   <span className="inline-flex items-center gap-1 text-[9px] sm:text-[10px] font-semibold text-emerald-700 shrink-0">
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
@@ -212,9 +217,9 @@ export function ReferralCard({
           />
         ) : (
           <div className="w-full h-7 sm:h-8 px-2 rounded-lg border border-slate-200/80 bg-slate-50/80 flex items-center justify-center gap-1 text-slate-500 select-none">
-            <span className="text-[10px] sm:text-xs">✨</span>
+            <span className="text-[10px] sm:text-xs">{referral.isPartner ? "🤝" : "✨"}</span>
             <span className="text-[9px] sm:text-[10px] font-semibold text-slate-600 truncate">
-              Lien direct • Pas de code requis
+              {referral.isPartner ? "Lien partenaire • Pas de code requis" : "Lien direct • Pas de code requis"}
             </span>
           </div>
         )}
