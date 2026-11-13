@@ -329,25 +329,29 @@ export default async function ReferralPage({
 
                             <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 mb-2 tracking-tight">
                                 {hasRealCode 
-                                    ? `Votre code parrainage ${referral.name}`
+                                    ? `Votre code & lien parrainage ${referral.name}`
                                     : `Activez votre bonus de bienvenue ${referral.name}`}
                             </h2>
 
                             <p className="text-xs sm:text-sm text-slate-500 mb-6 max-w-md mx-auto leading-relaxed">
                                 {hasRealCode 
-                                    ? "Copiez le code promo vérifié ci-dessous et collez-le lors de votre inscription pour débloquer votre prime."
+                                    ? "Copiez le code promo ou utilisez le lien officiel ci-dessous lors de votre inscription pour débloquer votre prime."
                                     : "Aucun code manuel n'est requis : votre prime est automatiquement activée en passant par notre lien officiel ci-dessous."}
                             </p>
 
-                            {/* Promo Code Slot or Official Referral Link Slot */}
-                            {hasRealCode ? (
+                            {/* 1. Official Promo Code Slot (if applicable) */}
+                            {hasRealCode && (
                                 <DetailCodeBox 
                                     code={referral.code}
                                     name={referral.name}
                                     advantage={referral.advantage}
                                     link={referral.link}
+                                    className="mb-3"
                                 />
-                            ) : referral.link ? (
+                            )}
+
+                            {/* 2. Official Referral / Partner Link Slot (for all offers with a link) */}
+                            {referral.link && (
                                 <DetailCodeBox 
                                     code={referral.link}
                                     name={referral.name}
@@ -355,8 +359,9 @@ export default async function ReferralPage({
                                     link={referral.link}
                                     isLink={true}
                                     isPartner={referral.isPartner}
+                                    className={hasRealCode ? "mb-6" : "mb-4"}
                                 />
-                            ) : null}
+                            )}
 
                             {/* Reassurance pill if no code */}
                             {!hasRealCode && (

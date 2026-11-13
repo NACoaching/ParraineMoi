@@ -10,6 +10,7 @@ interface DetailCodeBoxProps {
   link?: string;
   isLink?: boolean;
   isPartner?: boolean;
+  className?: string;
 }
 
 export function DetailCodeBox({
@@ -19,6 +20,7 @@ export function DetailCodeBox({
   link,
   isLink = false,
   isPartner = false,
+  className = "mb-3",
 }: DetailCodeBoxProps) {
   const [copied, setCopied] = useState(false);
 
@@ -56,7 +58,7 @@ export function DetailCodeBox({
     : "Code Parrainage Officiel";
 
   return (
-    <div className="max-w-md mx-auto mb-4 w-full">
+    <div className={`max-w-md mx-auto w-full ${className}`}>
       <button
         type="button"
         onClick={handleCopy}

@@ -86,6 +86,16 @@ export function StickyCopyBar({ name, code, link, advantage, logoUrl }: StickyCo
                     ) : null}
 
                     {/* Direct button */}
+                    {hasRealCode && link && (
+                        <CopyButton 
+                            code={link} 
+                            referralName={name} 
+                            advantage={advantage} 
+                            showText={false} 
+                            label="Copier le lien"
+                            className="!h-9 !w-9 !rounded-xl bg-slate-100 hover:bg-blue-50 text-slate-600 hover:text-blue-600 border border-slate-200 hidden sm:inline-flex" 
+                        />
+                    )}
                     {link && (
                         <a 
                             href={link} 
