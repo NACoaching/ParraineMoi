@@ -339,15 +339,24 @@ export default async function ReferralPage({
                                     : "Aucun code manuel n'est requis : votre prime est automatiquement activée en passant par notre lien officiel ci-dessous."}
                             </p>
 
-                            {/* Promo Code Slot if applicable */}
-                            {hasRealCode && (
+                            {/* Promo Code Slot or Official Referral Link Slot */}
+                            {hasRealCode ? (
                                 <DetailCodeBox 
                                     code={referral.code}
                                     name={referral.name}
                                     advantage={referral.advantage}
                                     link={referral.link}
                                 />
-                            )}
+                            ) : referral.link ? (
+                                <DetailCodeBox 
+                                    code={referral.link}
+                                    name={referral.name}
+                                    advantage={referral.advantage}
+                                    link={referral.link}
+                                    isLink={true}
+                                    isPartner={referral.isPartner}
+                                />
+                            ) : null}
 
                             {/* Reassurance pill if no code */}
                             {!hasRealCode && (

@@ -51,8 +51,8 @@ export function StickyCopyBar({ name, code, link, advantage, logoUrl }: StickyCo
                 </div>
 
                 <div className="flex items-center gap-2 shrink-0">
-                    {/* Copy Box if code exists */}
-                    {hasRealCode && (
+                    {/* Copy Box for code or link */}
+                    {hasRealCode ? (
                         <div className="flex h-9 bg-slate-50 rounded-xl overflow-hidden border border-slate-200">
                             <div className="px-2.5 flex items-center justify-center max-w-[110px] overflow-hidden">
                                 <span className="text-slate-900 font-mono font-bold text-xs truncate">
@@ -67,7 +67,23 @@ export function StickyCopyBar({ name, code, link, advantage, logoUrl }: StickyCo
                                 className="!h-full !rounded-none bg-blue-600 hover:bg-blue-700 text-white border-none px-3" 
                             />
                         </div>
-                    )}
+                    ) : link ? (
+                        <div className="flex h-9 bg-slate-50 rounded-xl overflow-hidden border border-slate-200">
+                            <div className="px-2.5 flex items-center justify-center max-w-[100px] sm:max-w-[130px] overflow-hidden">
+                                <span className="text-slate-700 font-mono text-[11px] truncate">
+                                    {link}
+                                </span>
+                            </div>
+                            <CopyButton 
+                                code={link} 
+                                referralName={name} 
+                                advantage={advantage} 
+                                showText={false} 
+                                label="Lien"
+                                className="!h-full !rounded-none bg-blue-600 hover:bg-blue-700 text-white border-none px-3" 
+                            />
+                        </div>
+                    ) : null}
 
                     {/* Direct button */}
                     {link && (

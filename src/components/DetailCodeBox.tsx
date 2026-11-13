@@ -1,16 +1,25 @@
 "use client";
 
 import { useState } from "react";
-import { Check, Copy } from "lucide-react";
+import { Check, Copy, Link as LinkIcon } from "lucide-react";
 
 interface DetailCodeBoxProps {
   code: string;
   name: string;
   advantage: string;
   link?: string;
+  isLink?: boolean;
+  isPartner?: boolean;
 }
 
-export function DetailCodeBox({ code, name, advantage, link }: DetailCodeBoxProps) {
+export function DetailCodeBox({
+  code,
+  name,
+  advantage,
+  link,
+  isLink = false,
+  isPartner = false,
+}: DetailCodeBoxProps) {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async () => {
@@ -22,41 +31,54 @@ export function DetailCodeBox({ code, name, advantage, link }: DetailCodeBoxProp
       if (typeof window !== "undefined") {
         window.dispatchEvent(
           new CustomEvent("referral-code-copied", {
-            detail: { name, code, link },
+            detail: { name, code, link: link || code },
           })
         );
         if ((window as any).trackReferral) {
           (window as any).trackReferral({
-            action: "copy_code",
+            action: isLink ? "copy_link" : "copy_code",
             referralCode: code,
             referralName: name,
             advantage,
-            sourceComponent: "detail_code_box",
+            sourceComponent: isLink ? "detail_link_box" : "detail_code_box",
           });
         }
       }
     } catch (err) {
-      console.error("Failed to copy code: ", err);
+      console.error("Failed to copy: ", err);
     }
   };
 
+  const label = isLink
+    ? isPartner
+      ? "Lien Partenaire Officiel"
+      : "Lien de Parrainage Officiel"
+    : "Code Parrainage Officiel";
+
   return (
-    <div className="max-w-md mx-auto mb-5 w-full">
+    <div className="max-w-md mx-auto mb-4 w-full">
       <button
         type="button"
         onClick={handleCopy}
-        title="Cliquer pour copier le code promo"
+        title={isLink ? "Cliquer pour copier le lien" : "Cliquer pour copier le code promo"}
         className={`w-full flex items-center justify-between p-3.5 sm:p-4 rounded-xl border transition-all cursor-pointer group text-left select-none ${
           copied
-            ? "bg-emerald-50 border-emerald-300 text-emerald-800"
+            ? "bg-emerald-50 border-emerald-300 text-emerald-800 shadow-2xs"
             : "bg-slate-50 hover:bg-blue-50/70 border-slate-200/90 hover:border-blue-300 text-slate-800 shadow-2xs"
         }`}
       >
-        <div className="flex flex-col min-w-0 pr-2">
-          <span className="text-[10px] uppercase font-bold text-slate-400 group-hover:text-blue-600 transition-colors">
-            Code Parrainage Officiel
+        <div className="flex flex-col min-w-0 pr-2 flex-1">
+          <span className="text-[10px] uppercase font-bold text-slate-400 group-hover:text-blue-600 transition-colors flex items-center gap-1">
+            {isLink && <LinkIcon size={11} className="shrink-0" />}
+            <span>{label}</span>
           </span>
-          <span className="font-mono font-bold text-base sm:text-xl text-slate-900 tracking-wider group-hover:text-blue-700 transition-colors truncate">
+          <span
+            className={`font-mono font-bold text-slate-900 group-hover:text-blue-700 transition-colors truncate select-all ${
+              isLink
+                ? "text-xs sm:text-sm tracking-tight"
+                : "text-base sm:text-xl tracking-wider"
+            }`}
+          >
             {code}
           </span>
         </div>

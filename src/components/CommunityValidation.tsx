@@ -31,7 +31,7 @@ export function CommunityValidation({ name, slug }: CommunityValidationProps) {
     <div className="flex items-center justify-between gap-2 py-3 px-4 rounded-xl bg-slate-50 border border-slate-200/80 text-xs mt-3 flex-wrap">
       <span className="text-slate-600 font-medium flex items-center gap-1.5">
         <CheckCircle2 size={14} className="text-emerald-600 shrink-0" />
-        <span>Ce code a-t-il fonctionné pour vous ?</span>
+        <span>Cette offre a-t-elle fonctionné pour vous ?</span>
       </span>
 
       {voted === null ? (

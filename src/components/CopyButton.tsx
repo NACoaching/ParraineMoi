@@ -31,15 +31,26 @@ export function CopyButton({
             setCopied(true);
             setTimeout(() => setCopied(false), 2000);
 
-            // Track referral copy event
-            if (typeof window !== "undefined" && (window as any).trackReferral) {
-                (window as any).trackReferral({
-                    action: "copy_code",
-                    referralCode: code,
-                    referralName: referralName,
-                    advantage: advantage,
-                    sourceComponent: label === "Lien" ? "link_box" : "copy_button",
-                });
+            // Track and notify referral copy event
+            if (typeof window !== "undefined") {
+                window.dispatchEvent(
+                    new CustomEvent("referral-code-copied", {
+                        detail: {
+                            name: referralName || "",
+                            code,
+                            link: code.startsWith("http") ? code : undefined,
+                        },
+                    })
+                );
+                if ((window as any).trackReferral) {
+                    (window as any).trackReferral({
+                        action: code.startsWith("http") ? "copy_link" : "copy_code",
+                        referralCode: code,
+                        referralName: referralName,
+                        advantage: advantage,
+                        sourceComponent: label === "Lien" ? "link_box" : "copy_button",
+                    });
+                }
             }
         } catch (err) {
             console.error("Failed to copy code: ", err);

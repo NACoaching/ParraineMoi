@@ -49,7 +49,7 @@ export function CopyToast() {
           </div>
           <div className="flex flex-col min-w-0 flex-1">
             <span className="text-xs font-bold text-white truncate leading-tight">
-              Code {toast.name} copié !
+              {toast.code.startsWith("http") ? `Lien ${toast.name} copié !` : `Code ${toast.name} copié !`}
             </span>
             <span className="text-[10px] text-slate-400 font-mono truncate">
               {toast.code}
