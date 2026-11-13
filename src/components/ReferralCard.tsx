@@ -156,7 +156,7 @@ export function ReferralCard({
                 {referral.lastVerified && (
                   <span className="inline-flex items-center gap-1 text-[9px] sm:text-[10px] font-semibold text-emerald-700 shrink-0">
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
-                    <span className="hidden sm:inline">Vérifié</span>
+                    <span className="hidden sm:inline">Vérifié le {new Date(referral.lastVerified).toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric' })}</span>
                   </span>
                 )}
               </div>

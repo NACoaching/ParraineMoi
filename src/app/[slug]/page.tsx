@@ -281,7 +281,7 @@ export default async function ReferralPage({
                         </Link>
                         <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 text-[10px] font-bold">
                             <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
-                            Vérifié en Novembre {currentYear}
+                            Vérifié le {referral.lastVerified ? new Date(referral.lastVerified).toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric' }) : `13/11/${currentYear}`}
                         </span>
                         <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-blue-50 text-blue-700 border border-blue-200 text-[10px] font-bold">
                             ⚡ Offre Active
