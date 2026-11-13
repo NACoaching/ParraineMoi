@@ -3222,5 +3222,71 @@
         "answer": "La KOALAlliance est une fonctionnalité qui permet d inviter les membres de votre famille (grands-parents, parrains, marraines, oncles, tantes). Lorsqu ils font leurs propres achats sur internet, leurs remboursements sont également crédités sur le livret de vos enfants !"
       }
     ]
+  },
+  {
+    "id": "1010",
+    "name": "Hollyland",
+    "slug": "hollyland",
+    "category": "Outils Numériques",
+    "code": "",
+    "link": "https://www.awin1.com/cread.php?awinmid=128051&awinaffid=2821736",
+    "advantage": "Micros sans fil & Vidéo Pro",
+    "description": "Hollyland est la marque de référence mondiale pour les créateurs de contenu, vidéastes, streamers et journalistes. Spécialiste des microphones sans fil professionnels ultra-compacts (Lark M2, Lark Max) et des systèmes de transmission vidéo haute fidélité, Hollyland offre un son de qualité broadcast pour sublimer vos vidéos YouTube, TikTok et tournages pro.",
+    "logoUrl": "/logos/hollyland.png",
+    "isPartner": true,
+    "lastVerified": "2026-11-13",
+    "seoTitle": "Avis Hollyland {{YEAR}} : Micros Sans Fil Lark M2 & Vidéo Pro 🎙️",
+    "seoDescription": "Notre avis complet sur Hollyland en {{YEAR}} : micros sans fil Lark M2, Lark Max, transmetteurs vidéo sans fil et intercoms. Test, fonctionnalités et boutique officielle.",
+    "review": {
+      "pros": [
+        "Qualité audio studio de niveau broadcast avec annulation de bruit active (ENC)",
+        "Micros cravates sans fil ultra-légers et miniatures (le Lark M2 pèse seulement 9g !)",
+        "Portée sans fil exceptionnelle jusqu à 300 mètres en champ libre",
+        "Compatibilité universelle plug-and-play : iPhone (Lightning et USB-C), Android, appareils photo hybrides et ordinateurs",
+        "Autonomie remarquable jusqu à 40 heures grâce au boîtier de charge rapide compact",
+        "Boutique officielle fabricant avec garantie constructeur internationale"
+      ],
+      "cons": [
+        "Positionnement tarifaire premium justifié par la technologie professionnelle",
+        "Nombreux accessoires inclus nécessitant de bien choisir le pack adapté à son usage (Combo, Mobile ou Caméra)"
+      ],
+      "longReview": "<p>Dans l univers de la création de contenu vidéo, le son représente plus de 50% de la perception de qualité d une vidéo. C est sur ce constat que <strong>Hollyland s est imposé comme le leader incontesté des systèmes de microphones sans fil et de transmission vidéo</strong> pour les créateurs exigeants, les vidéastes de mariage, les podcasteurs et les journalistes mobiles.</p><br/><p>Que vous tourniez des vlogs avec votre smartphone, des vidéos TikTok dynamiques ou des interviews professionnelles avec un boîtier hybride (Sony, Canon, Panasonic), la gamme de microphones <strong>Hollyland Lark</strong> rivalise directement avec les marques historiques tout en proposant un design plus compact et des fonctionnalités plus poussées.</p><br/><h3>Les équipements phares Hollyland à découvrir :</h3><ul><li><strong>Hollyland Lark M2 :</strong> Le microphone sans fil bouton le plus léger du marché (seulement 9 grammes). Discret, aimanté ou clippé, il offre un son 48kHz / 24-bit de qualité studio et une réduction de bruit environnementale (ENC) en un clic.</li><li><strong>Hollyland Lark Max :</strong> La référence ultime pour les professionnels. Équipé de la technologie MaxTimbre, d un enregistrement de secours intégré de 8 Go (jusqu à 14 heures d audio en interne) et d une portée de 250 mètres.</li><li><strong>Hollyland Mars 4K & Mars M1 :</strong> Systèmes de transmission vidéo HDMI/SDI sans fil à très faible latence pour le monitoring en temps réel sur plateau de tournage.</li><li><strong>Hollyland Solidcom C1 Pro :</strong> Casques intercom sans fil avec annulation de bruit pour les équipes de production et les tournages multicaméras.</li></ul><br/><h3>Pourquoi commander via la boutique officielle Hollyland ?</h3><p>En passant par notre lien partenaire certifié, vous accédez directement à la boutique officielle Hollyland. Vous bénéficiez ainsi des derniers modèles d origine certifiée, des mises à jour logicielles officielles et de la garantie constructeur complète.</p>"
+    },
+    "steps": [
+      {
+        "title": "Accédez à la boutique officielle Hollyland",
+        "description": "Rendez-vous sur la boutique certifiée Hollyland via notre lien partenaire privilégié : https://www.awin1.com/cread.php?awinmid=128051&awinaffid=2821736."
+      },
+      {
+        "title": "Choisissez votre équipement audio ou vidéo",
+        "description": "Parcourez la gamme Hollyland (Lark M2 pour smartphone, Lark Max pour caméra, systèmes de transmission Mars) et sélectionnez la configuration adaptée à vos appareils."
+      },
+      {
+        "title": "Commandez avec la garantie constructeur",
+        "description": "Finalisez votre commande directement auprès de la marque pour bénéficier du support technique officiel et de la garantie fabricant internationale."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Les microphones Hollyland Lark sont-ils compatibles avec mon smartphone ?",
+        "answer": "Oui, absolument. Hollyland propose des déclinaisons adaptées à tous les smartphones : versions USB-C pour les smartphones Android et iPhone 15/16 récents, versions Lightning pour les anciens iPhone, ou version Combo compatible à la fois avec les smartphones et les appareils photo reflex/hybrides via câble Jack 3.5mm."
+      },
+      {
+        "question": "Quelle est la différence entre le Lark M2 et le Lark Max ?",
+        "answer": "Le Lark M2 mise sur une miniaturisation record (9g sous forme de petit bouton aimanté) idéal pour le vlog nomade, le fitness et TikTok. Le Lark Max offre en plus un enregistrement de sécurité interne de 8 Go par émetteur (pour ne jamais perdre un enregistrement même en cas de coupure sans fil) et une qualité sonore professionnelle MaxTimbre."
+      },
+      {
+        "question": "Comment fonctionne la réduction de bruit sur les micros Hollyland ?",
+        "answer": "Les microphones Hollyland intègrent une technologie d annulation de bruit active (ENC) activable d une simple pression sur le bouton jaune de l émetteur. L algorithme filtre efficacement les bruits de circulation, de vent et de climatisation pour isoler la voix avec clarté."
+      },
+      {
+        "question": "Faut-il installer une application pour faire fonctionner le micro ?",
+        "answer": "Le système est 100% plug-and-play : vous branchez le récepteur, allumez le micro et il fonctionne immédiatement dans l application caméra native de votre smartphone. L application gratuite LarkSound permet des réglages plus avancés (gain, égaliseur, intensité de la réduction de bruit)."
+      },
+      {
+        "question": "Y a-t-il un code promo Hollyland à saisir ?",
+        "answer": "Pour cette offre partenaire, aucun code n est requis : notre lien officiel applique directement les remises constructeur en cours et vous donne accès aux promotions officielles du fabricant."
+      }
+    ]
   }
 ]
