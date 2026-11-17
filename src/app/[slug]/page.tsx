@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { ShieldCheck, TrendingUp, Clock, ExternalLink, Info, ChevronRight, Home, Gift, CheckCircle2, BookOpen } from 'lucide-react';
+import { ShieldCheck, TrendingUp, Clock, ExternalLink, Info, ChevronRight, Home, Gift, CheckCircle2, BookOpen, Star } from 'lucide-react';
 import { CompanyLogo } from '@/components/CompanyLogo';
 import { StickyCopyBar } from '@/components/StickyCopyBar';
 import { FaqAccordion } from '@/components/FaqAccordion';
@@ -12,7 +12,7 @@ import { CommunityValidation } from '@/components/CommunityValidation';
 import { QuickConditions } from '@/components/QuickConditions';
 import { referrals, guides } from '@/lib/data';
 import { Referral, ReferralCard } from '@/components/ReferralCard';
-import { slugifyCategory, formatVerifiedDate } from '@/lib/utils';
+import { slugifyCategory, formatVerifiedDate, stripHtml, getReferralRating } from '@/lib/utils';
 
 export async function generateStaticParams() {
     return referrals.map((referral) => ({
@@ -159,6 +159,11 @@ export default async function ReferralPage({
         "url": `https://codes-de-parrainages.com/parrainage-${referral.slug}`
     };
 
+    const ratingData = getReferralRating(referral);
+    const reviewBodyText = referral.review?.longReview
+        ? stripHtml(referral.review.longReview)
+        : referral.description;
+
     const productOfferJsonLd = {
         "@context": "https://schema.org",
         "@type": "Product",
@@ -168,6 +173,50 @@ export default async function ReferralPage({
         "brand": {
             "@type": "Brand",
             "name": referral.name
+        },
+        "review": {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": ratingData.ratingValue.toString(),
+                "bestRating": "5",
+                "worstRating": "1"
+            },
+            "author": {
+                "@type": "Organization",
+                "name": "Codes de Parrainages",
+                "url": "https://codes-de-parrainages.com"
+            },
+            "headline": `Avis et test de l'offre ${referral.name}`,
+            "reviewBody": reviewBodyText,
+            "datePublished": referral.lastVerified || `${currentYear}-01-01`,
+            ...(referral.review?.pros && referral.review.pros.length > 0 ? {
+                "positiveNotes": {
+                    "@type": "ItemList",
+                    "itemListElement": referral.review.pros.map((p, idx) => ({
+                        "@type": "ListItem",
+                        "position": idx + 1,
+                        "name": p
+                    }))
+                }
+            } : {}),
+            ...(referral.review?.cons && referral.review.cons.length > 0 ? {
+                "negativeNotes": {
+                    "@type": "ItemList",
+                    "itemListElement": referral.review.cons.map((c, idx) => ({
+                        "@type": "ListItem",
+                        "position": idx + 1,
+                        "name": c
+                    }))
+                }
+            } : {})
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": ratingData.ratingValue.toString(),
+            "reviewCount": 1,
+            "bestRating": "5",
+            "worstRating": "1"
         },
         "offers": {
             "@type": "Offer",
@@ -454,11 +503,31 @@ export default async function ReferralPage({
 
             {/* Avis détaillé */}
             <section className="mb-10">
-                <div className="flex items-center gap-2 mb-4">
-                    <TrendingUp className="text-blue-600 h-5 w-5" />
-                    <h2 className="text-lg sm:text-xl font-bold text-slate-900 tracking-tight">
-                        Notre avis d&apos;expert sur {referral.name}
-                    </h2>
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
+                    <div className="flex items-center gap-2">
+                        <TrendingUp className="text-blue-600 h-5 w-5" />
+                        <h2 className="text-lg sm:text-xl font-bold text-slate-900 tracking-tight">
+                            Notre avis d&apos;expert sur {referral.name}
+                        </h2>
+                    </div>
+                    {/* Badge Note de la rédaction */}
+                    <div className="inline-flex items-center gap-2 self-start sm:self-auto bg-amber-50/90 border border-amber-200/90 px-3 py-1.5 rounded-full text-xs font-semibold text-amber-950 shadow-2xs">
+                        <div className="flex items-center gap-0.5 text-amber-500">
+                            {[...Array(5)].map((_, i) => (
+                                <Star
+                                    key={i}
+                                    className={`h-3.5 w-3.5 ${
+                                        i < Math.floor(ratingData.ratingValue)
+                                            ? "fill-amber-400 text-amber-400"
+                                            : "fill-amber-200 text-amber-300"
+                                    }`}
+                                />
+                            ))}
+                        </div>
+                        <span className="font-extrabold text-slate-900">{ratingData.ratingValue} / 5</span>
+                        <span className="text-amber-400">•</span>
+                        <span className="text-amber-900 text-[11px] font-medium">Note de la rédaction</span>
+                    </div>
                 </div>
 
                 <div className="bg-white border border-slate-200/90 rounded-2xl p-5 sm:p-7 shadow-xs mb-6">

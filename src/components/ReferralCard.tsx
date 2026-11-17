@@ -21,7 +21,9 @@ export interface Referral {
     pros: string[];
     cons?: string[];
     longReview: string;
+    rating?: number;
   };
+  rating?: number;
   steps?: { title: string; description: string }[];
   faqs?: { question: string; answer: string }[];
   isPaused?: boolean;

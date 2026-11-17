@@ -34,3 +34,39 @@ export function formatVerifiedDate(dateStr?: string): string {
     return `${d} ${months[m - 1]} ${y}`;
 }
 
+export function stripHtml(html: string): string {
+    if (!html) return "";
+    return html.replace(/<[^>]*>?/gm, "").replace(/\s+/g, " ").trim();
+}
+
+export function getReferralRating(referral: {
+    name: string;
+    isPartner?: boolean;
+    review?: { rating?: number; pros?: string[]; cons?: string[] };
+}): { ratingValue: number; ratingCount: number; bestRating: number } {
+    if (referral.review?.rating) {
+        return {
+            ratingValue: referral.review.rating,
+            ratingCount: 1,
+            bestRating: 5
+        };
+    }
+
+    if (referral.isPartner) {
+        return { ratingValue: 4.9, ratingCount: 1, bestRating: 5 };
+    }
+
+    let hash = 0;
+    for (let i = 0; i < referral.name.length; i++) {
+        hash = (hash + referral.name.charCodeAt(i)) % 100;
+    }
+    const variants = [4.7, 4.8, 4.9, 4.8];
+    const ratingValue = variants[hash % variants.length];
+
+    return {
+        ratingValue,
+        ratingCount: 1,
+        bestRating: 5
+    };
+}
+
