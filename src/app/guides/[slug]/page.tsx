@@ -234,8 +234,8 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
 
                     {/* BLOC PETITES ANNONCES EN HAUT DU GUIDE */}
                     {guideReferrals.length > 0 && (
-                        <div className="text-left bg-gradient-to-b from-blue-50/70 via-slate-50/50 to-white dark:from-slate-900/60 dark:to-slate-900/40 border border-blue-200/80 dark:border-slate-800 rounded-2xl sm:rounded-3xl p-3 sm:p-5 shadow-2xs mb-6 sm:mb-8">
-                            <div className="flex flex-wrap items-center justify-between gap-2 mb-3 px-1">
+                        <div className="text-left bg-gradient-to-b from-blue-50/70 via-slate-50/50 to-white dark:from-slate-900/60 dark:to-slate-900/40 border border-blue-200/80 dark:border-slate-800 rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 shadow-2xs mb-6 sm:mb-8">
+                            <div className="flex flex-wrap items-center justify-between gap-2 mb-3.5 px-1">
                                 <div className="flex items-center gap-2">
                                     <span className="flex h-2.5 w-2.5 rounded-full bg-emerald-500 animate-pulse" />
                                     <h2 className="text-xs sm:text-sm font-extrabold text-slate-900 dark:text-white uppercase tracking-wider">
@@ -250,14 +250,18 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                                 </span>
                             </div>
 
-                            {/* Grille d'annonces de taille strictement identique à la page principale */}
-                            <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2.5 sm:gap-3.5">
+                            {/* Grille d'annonces centrée de taille strictement identique à la page principale */}
+                            <div className="flex flex-wrap justify-center gap-2.5 sm:gap-3.5">
                                 {guideReferrals.map((ref, index) => (
-                                    <ReferralCard
+                                    <div
                                         key={`top-${ref.slug}`}
-                                        referral={ref}
-                                        index={index}
-                                    />
+                                        className={`${guideReferrals.length === 1 ? 'w-full max-w-[270px]' : 'w-[calc(50%-5px)]'} sm:w-[260px] max-w-[270px] flex-shrink-0 flex flex-col`}
+                                    >
+                                        <ReferralCard
+                                            referral={ref}
+                                            index={index}
+                                        />
+                                    </div>
                                 ))}
                             </div>
                         </div>
@@ -270,12 +274,17 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
 
                 {guideReferrals.length > 0 && (
                     <section className="mt-16 pt-10 border-t border-slate-200 dark:border-slate-800">
-                        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">
+                        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6 text-center sm:text-left">
                             Codes de parrainage et offres vérifiées cités dans ce guide :
                         </h2>
-                        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2.5 sm:gap-3.5">
+                        <div className="flex flex-wrap justify-center sm:justify-start gap-2.5 sm:gap-3.5">
                             {guideReferrals.map((ref, index) => (
-                                <ReferralCard key={`bottom-${ref.slug}`} referral={ref} index={index} />
+                                <div
+                                    key={`bottom-${ref.slug}`}
+                                    className={`${guideReferrals.length === 1 ? 'w-full max-w-[270px]' : 'w-[calc(50%-5px)]'} sm:w-[260px] max-w-[270px] flex-shrink-0 flex flex-col`}
+                                >
+                                    <ReferralCard referral={ref} index={index} />
+                                </div>
                             ))}
                         </div>
                     </section>
