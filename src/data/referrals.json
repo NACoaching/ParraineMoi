@@ -740,7 +740,8 @@
     ],
     "lastVerified": "2026-11-13",
     "seoTitle": "Code Promo Uber Eats {{YEAR}} (eats-zl6yno) : 10€ Offerts 🍔",
-    "seoDescription": "Profitez du code promo Uber Eats eats-zl6yno en {{YEAR}} et obtenez 10€ de réduction sur votre première commande de repas."
+    "seoDescription": "Profitez du code promo Uber Eats eats-zl6yno en {{YEAR}} et obtenez 10€ de réduction sur votre première commande de repas.",
+    "isPaused": true
   },
   {
     "id": "12",
