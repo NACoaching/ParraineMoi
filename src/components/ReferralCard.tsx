@@ -209,7 +209,7 @@ export function ReferralCard({
       </div>
 
       <div className="pt-2 mt-auto flex flex-col gap-1.5 sm:gap-2 border-t border-slate-100">
-        {/* Slot 1: Code promo cliquable OU Badge Lien Direct (Hauteur strictement identique) */}
+        {/* Slot 1: Code promo cliquable OU Lien Direct Cliquable (Hauteur strictement identique) */}
         {referral.code && referral.code !== referral.link ? (
           <CodeSlot
             code={referral.code}
@@ -217,11 +217,37 @@ export function ReferralCard({
             advantage={referral.advantage}
             link={referral.link}
           />
+        ) : referral.link ? (
+          <a
+            href={referral.link}
+            target="_blank"
+            rel="noopener noreferrer sponsored"
+            data-referral-link="true"
+            onClick={(e) => {
+              e.stopPropagation();
+              if (typeof window !== "undefined" && (window as any).trackReferral) {
+                (window as any).trackReferral({
+                  action: "click_link",
+                  referralName: referral.name,
+                  referralCode: referral.link,
+                  advantage: referral.advantage,
+                  sourceComponent: "card_link_slot",
+                });
+              }
+            }}
+            className="w-full h-7 sm:h-8 px-2 rounded-lg border border-slate-200/90 bg-slate-50 hover:bg-blue-50/80 hover:border-blue-300 flex items-center justify-center gap-1 text-slate-600 hover:text-blue-700 transition-all select-none group/slot"
+            title={`Activer le lien de l'offre ${referral.name}`}
+          >
+            <span className="text-[10px] sm:text-xs">{referral.isPartner ? "🤝" : "✨"}</span>
+            <span className="text-[9px] sm:text-[10px] font-semibold truncate group-hover/slot:underline">
+              {referral.isPartner ? "Lien partenaire officiel ↗" : "Lien direct activé ↗"}
+            </span>
+          </a>
         ) : (
           <div className="w-full h-7 sm:h-8 px-2 rounded-lg border border-slate-200/80 bg-slate-50/80 flex items-center justify-center gap-1 text-slate-500 select-none">
-            <span className="text-[10px] sm:text-xs">{referral.isPartner ? "🤝" : "✨"}</span>
+            <span className="text-[10px] sm:text-xs">✨</span>
             <span className="text-[9px] sm:text-[10px] font-semibold text-slate-600 truncate">
-              {referral.isPartner ? "Lien partenaire • Pas de code requis" : "Lien direct • Pas de code requis"}
+              Offre automatique
             </span>
           </div>
         )}
@@ -234,6 +260,17 @@ export function ReferralCard({
         ) : (
           <Link
             href={`/parrainage-${referral.slug}`}
+            onClick={() => {
+              if (typeof window !== "undefined" && (window as any).trackReferral) {
+                (window as any).trackReferral({
+                  action: "view_offer_details",
+                  referralName: referral.name,
+                  referralCode: referral.code,
+                  advantage: referral.advantage,
+                  sourceComponent: "card_cta",
+                });
+              }
+            }}
             className="w-full flex items-center justify-center h-7 sm:h-8 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-[10px] sm:text-xs shadow-2xs hover:shadow-sm active:scale-[0.98] transition-all"
           >
             Profiter de l&apos;offre

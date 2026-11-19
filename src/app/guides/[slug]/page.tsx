@@ -60,10 +60,16 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         notFound();
     }
 
-    // Get associated referrals for internal linking
-    const guideReferrals = referrals.filter(ref =>
-        guide.referralSlugs.includes(ref.slug)
+    // Get associated referrals for internal linking and offer cards
+    const contentMatches = Array.from(
+        new Set([...guide.content.matchAll(/\/parrainage-([a-z0-9-]+)/g)].map(m => m[1]))
     );
+    const combinedSlugs = Array.from(
+        new Set([...(guide.referralSlugs || []), ...contentMatches])
+    );
+    const guideReferrals = combinedSlugs
+        .map(refSlug => referrals.find(r => r.slug === refSlug))
+        .filter((r): r is Referral => Boolean(r));
 
     // Custom Markdown parser supporting H2, Lists, Bold, Links, and Images
     const renderContent = (content: string) => {
@@ -185,7 +191,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
             />
             <article className="max-w-4xl mx-auto">
-                <nav className="flex items-center justify-center gap-2 text-sm font-medium text-slate-500 mb-12 overflow-x-auto whitespace-nowrap">
+                <nav className="flex items-center justify-center gap-2 text-sm font-medium text-slate-500 mb-6 sm:mb-10 overflow-x-auto whitespace-nowrap">
                     <Link href="/guides" className="flex items-center gap-1.5 hover:text-slate-900 dark:hover:text-white transition-colors">
                         <ArrowLeft size={16} />
                         <span>Retour aux guides</span>
@@ -196,9 +202,9 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                     </span>
                 </nav>
 
-                <header className="mb-16 text-center">
-                    <div className="flex flex-wrap items-center justify-center gap-6 mb-8 text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400">
-                        <span className="flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-2xl">
+                <header className="mb-10 sm:mb-14 text-center">
+                    <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 mb-6 sm:mb-8 text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400">
+                        <span className="flex items-center gap-2 bg-primary/10 text-primary px-3.5 py-1.5 rounded-2xl">
                             <BookOpen size={16} />
                             {guide.category}
                         </span>
@@ -216,15 +222,46 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                         </span>
                     </div>
 
-                    <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tighter text-slate-900 dark:text-white mb-10 leading-[1.1]">
+                    <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-6 sm:mb-8 leading-tight">
                         {guide.title}
                     </h1>
 
-                    <div className="glass-card p-8 bg-white/50 dark:bg-slate-900/50 mb-12 border-l-8 border-l-primary">
-                        <p className="text-xl text-slate-600 dark:text-slate-300 leading-relaxed italic">
+                    <div className="glass-card p-5 sm:p-7 bg-white/70 dark:bg-slate-900/70 mb-8 sm:mb-10 border-l-4 border-l-primary rounded-2xl text-left">
+                        <p className="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed italic">
                             {guide.excerpt}
                         </p>
                     </div>
+
+                    {/* BLOC PETITES ANNONCES EN HAUT DU GUIDE */}
+                    {guideReferrals.length > 0 && (
+                        <div className="text-left bg-gradient-to-b from-blue-50/70 via-slate-50/50 to-white dark:from-slate-900/60 dark:to-slate-900/40 border border-blue-200/80 dark:border-slate-800 rounded-2xl sm:rounded-3xl p-3 sm:p-5 shadow-2xs mb-6 sm:mb-8">
+                            <div className="flex flex-wrap items-center justify-between gap-2 mb-3 px-1">
+                                <div className="flex items-center gap-2">
+                                    <span className="flex h-2.5 w-2.5 rounded-full bg-emerald-500 animate-pulse" />
+                                    <h2 className="text-xs sm:text-sm font-extrabold text-slate-900 dark:text-white uppercase tracking-wider">
+                                        {guideReferrals.length > 1
+                                            ? `Offres & codes promo cités dans ce guide (${guideReferrals.length})`
+                                            : `Offre & code promo cité dans ce guide`
+                                        }
+                                    </h2>
+                                </div>
+                                <span className="inline-flex items-center gap-1 text-[10px] sm:text-xs font-bold text-emerald-700 dark:text-emerald-400 bg-emerald-100/80 dark:bg-emerald-950/40 border border-emerald-200/80 dark:border-emerald-800/60 px-2.5 py-0.5 rounded-full">
+                                    ✓ Codes & Liens vérifiés 2026
+                                </span>
+                            </div>
+
+                            {/* Grille d'annonces de taille strictement identique à la page principale */}
+                            <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2.5 sm:gap-3.5">
+                                {guideReferrals.map((ref, index) => (
+                                    <ReferralCard
+                                        key={`top-${ref.slug}`}
+                                        referral={ref}
+                                        index={index}
+                                    />
+                                ))}
+                            </div>
+                        </div>
+                    )}
                 </header>
 
                 <div className="prose prose-slate dark:prose-invert max-w-none">
@@ -236,9 +273,9 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                         <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">
                             Codes de parrainage et offres vérifiées cités dans ce guide :
                         </h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            {guideReferrals.map(ref => (
-                                <ReferralCard key={ref.id} referral={ref} />
+                        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2.5 sm:gap-3.5">
+                            {guideReferrals.map((ref, index) => (
+                                <ReferralCard key={`bottom-${ref.slug}`} referral={ref} index={index} />
                             ))}
                         </div>
                     </section>
