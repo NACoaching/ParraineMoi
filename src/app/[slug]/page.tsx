@@ -56,6 +56,10 @@ export async function generateMetadata({
 
     const description = rawDesc.length <= 160 ? rawDesc : rawDesc.slice(0, 159).trim() + '…';
 
+    const ogImageUrl = referral.logoUrl
+        ? (referral.logoUrl.startsWith('http') ? referral.logoUrl : `https://codes-de-parrainages.com${referral.logoUrl}`)
+        : 'https://codes-de-parrainages.com/og-image.png';
+
     return {
         title,
         description,
@@ -68,7 +72,7 @@ export async function generateMetadata({
             url: `https://codes-de-parrainages.com/parrainage-${referral.slug}`,
             images: [
                 {
-                    url: referral.logoUrl,
+                    url: ogImageUrl,
                     width: 400,
                     height: 400,
                     alt: referral.name,
@@ -79,7 +83,7 @@ export async function generateMetadata({
             card: "summary",
             title,
             description,
-            images: [referral.logoUrl],
+            images: [ogImageUrl],
         },
     };
 }
@@ -139,12 +143,16 @@ export default async function ReferralPage({
 
     const appCategory = categoryToAppType[referral.category] || "BusinessApplication";
 
+    const structuredDataImage = referral.logoUrl
+        ? (referral.logoUrl.startsWith('http') ? referral.logoUrl : `https://codes-de-parrainages.com${referral.logoUrl}`)
+        : "https://codes-de-parrainages.com/og-image.png";
+
     const reviewJsonLd = referral.category === "Banque & Finance" || referral.category === "Crypto" ? {
         "@context": "https://schema.org",
         "@type": "FinancialService",
         "name": referral.name,
         "description": referral.description,
-        "image": `https://codes-de-parrainages.com${referral.logoUrl}`,
+        "image": structuredDataImage,
         "url": `https://codes-de-parrainages.com/parrainage-${referral.slug}`,
         "address": {
             "@type": "PostalAddress",
@@ -155,7 +163,7 @@ export default async function ReferralPage({
         "@type": "Service",
         "name": referral.name,
         "description": referral.description,
-        "image": `https://codes-de-parrainages.com${referral.logoUrl}`,
+        "image": structuredDataImage,
         "url": `https://codes-de-parrainages.com/parrainage-${referral.slug}`
     };
 
@@ -169,7 +177,7 @@ export default async function ReferralPage({
         "@type": "Product",
         "name": referral.isPartner ? `Offre partenaire ${referral.name}` : `Offre de parrainage ${referral.name}`,
         "description": referral.description,
-        "image": `https://codes-de-parrainages.com${referral.logoUrl}`,
+        "image": structuredDataImage,
         "brand": {
             "@type": "Brand",
             "name": referral.name
