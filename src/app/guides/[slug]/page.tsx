@@ -101,15 +101,27 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         };
 
         return blocks.map((block, index) => {
-            if (block.startsWith('## ')) {
+            const trimmed = block.trim();
+            if (!trimmed || trimmed === '---') return null;
+
+            if (trimmed.startsWith('## ')) {
                 return (
                     <h2 key={index} className="text-3xl font-bold text-slate-900 dark:text-white mt-16 mb-8 tracking-tight border-l-4 border-primary pl-6">
-                        {block.replace('## ', '')}
+                        {parseInline(trimmed.replace('## ', ''))}
                     </h2>
                 );
             }
-            if (block.startsWith('- ')) {
-                const listItems = block.split('\n').map(item => item.replace('- ', ''));
+
+            if (trimmed.startsWith('### ')) {
+                return (
+                    <h3 key={index} className="text-2xl font-bold text-slate-900 dark:text-white mt-10 mb-4 tracking-tight border-l-2 border-primary/60 pl-4">
+                        {parseInline(trimmed.replace('### ', ''))}
+                    </h3>
+                );
+            }
+
+            if (trimmed.startsWith('- ') || trimmed.startsWith('* ')) {
+                const listItems = trimmed.split('\n').map(item => item.replace(/^[*-]\s*/, ''));
                 return (
                     <ul key={index} className="list-disc pl-6 space-y-2 text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
                         {listItems.map((li, i) => (
@@ -118,13 +130,14 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                     </ul>
                 );
             }
+
             // Paragraph
             return (
                 <p key={index} className="text-slate-600 dark:text-slate-400 leading-relaxed mb-6 text-lg">
-                    {parseInline(block)}
+                    {parseInline(trimmed)}
                 </p>
             );
-        });
+        }).filter(Boolean);
     };
 
     const articleJsonLd = {
