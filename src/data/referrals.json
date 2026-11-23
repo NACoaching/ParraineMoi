@@ -142,7 +142,7 @@
     "slug": "revolut",
     "category": "Banque & Finance",
     "code": "",
-    "link": "https://revolut.com/referral/?referral-code=nalbanesi!NOV1-26-AR-SAV-H1&geo-redirect",
+    "link": "https://revolut.com/referral/?referral-code=nalbanesi!NOV2-26-AR-SAV-H2&geo-redirect",
     "advantage": "Jusqu'à 200€ offerts (Testé et Vérifié)",
     "description": "Revolut est l'application financière leader en Europe avec plus de 80 millions de clients. Elle permet d'ouvrir un compte en quelques minutes, de gérer son budget avec précision et surtout de payer à l'étranger sans frais de change cachés. C'est le compagnon idéal des voyageurs et des digital nomads.",
     "logoUrl": "/logos/revolut.png",
@@ -196,7 +196,7 @@
         "description": "N'attendez pas de la recevoir : ajoutez la carte virtuelle immédiatement disponible sur votre Apple Wallet ou Google Pay et utilisez-la pour régler au moins 3 **achats** du quotidien (le **minimum** requis est souvent de **5€** par paiement). Félicitations, votre **prime** de parrainage devrait être libérée sous peu !"
       }
     ],
-    "lastVerified": "2026-11-13",
+    "lastVerified": "2026-11-23",
     "seoTitle": "Code Promo & Parrainage Revolut {{YEAR}} : Jusqu’à 200€ Offerts 🚀",
     "seoDescription": "Activez votre code promo et parrainage Revolut en {{YEAR}}. Jusqu’à 200€ de prime de bienvenue offerts lors de l’ouverture de votre compte gratuit."
   },
@@ -2270,13 +2270,13 @@
     "slug": "deblock",
     "category": "Crypto",
     "code": "IUJ371",
-    "link": "https://deblock.com/a-iuj371",
+    "link": "https://dl.deblock.com",
     "advantage": "3 mois de premium offerts",
-    "description": "Deblock est la néo-banque française qui réunit le meilleur de la banque traditionnelle et de la crypto-monnaie (non-custodial). Fondée par des anciens de Revolut et Ledger, elle offre une sécurité maximale. Passez par notre lien de parrainage à l'inscription pour bénéficier de 3 mois de premium offerts.",
+    "description": "Deblock est la néo-banque française gratuite qui réunit un compte rémunéré à 4 %, un IBAN français et un véritable wallet crypto (non-custodial). Téléchargez l'application sur dl.deblock.com et saisissez le code de parrainage IUJ371 à l'inscription pour profiter de vos avantages de bienvenue.",
     "logoUrl": "/logos/deblock.webp",
     "review": {
       "pros": [
-        "Compte courant avec IBAN français et portefeuille crypto non-custodial",
+        "Compte courant rémunéré à 4 % avec IBAN français et portefeuille crypto non-custodial",
         "Fondé par des experts du secteur (ex-Revolut, ex-Ledger)",
         "Application fluide et ultra-sécurisée par la technologie MPC",
         "Paiements par carte et virements instantanés SEPA gratuits"
@@ -2285,7 +2285,7 @@
         "Campagnes de parrainage temporaires et aléatoires",
         "Encore jeune, certaines fonctionnalités sont en cours de déploiement"
       ],
-      "longReview": "<p><strong>Deblock est l'une des pépites fintech les plus innovantes de France</strong>. Contrairement aux banques traditionnelles ou aux plateformes d'échange crypto classiques, Deblock fusionne un compte bancaire avec IBAN français et un véritable portefeuille crypto non-custodial. Cela signifie que <strong>vous restez le propriétaire exclusif de vos clés privées</strong>, tout en bénéficiant de tous les services d'une néobanque moderne (carte Visa physique et virtuelle, virements instantanés, Apple Pay).</p><br/><p>L'application fait particulièrement parler d'elle grâce à son <strong>offre de bienvenue pouvant atteindre 100€ offerts</strong> lors des campagnes promotionnelles, complétée par <strong>3 mois d'abonnement Premium gratuits</strong>. Ce statut Premium supprime les commissions de change sur les cryptos et réduit considérablement vos frais au quotidien.</p><br/><p>En matière de sécurité, Deblock est enregistrée en tant que <strong>PSAN auprès de l'Autorité des Marchés Financiers (AMF)</strong> et régulée en tant qu'établissement de paiement par l'ACPR. C'est l'outil parfait pour ceux qui souhaitent faire fructifier leur épargne entre euros et Bitcoin sans risque technique.</p>"
+      "longReview": "<p><strong>Deblock est l'une des pépites fintech les plus innovantes de France</strong>. Contrairement aux banques traditionnelles ou aux plateformes d'échange crypto classiques, Deblock fusionne un compte bancaire avec IBAN français <strong>rémunéré à 4 %</strong> et un véritable portefeuille crypto non-custodial. Cela signifie que <strong>vous restez le propriétaire exclusif de vos clés privées</strong>, tout en bénéficiant de tous les services d'une néobanque moderne (carte Visa physique et virtuelle, virements instantanés, Apple Pay).</p><br/><p>L'application fait particulièrement parler d'elle grâce à son <strong>offre de bienvenue pouvant atteindre 100€ offerts</strong> lors des campagnes promotionnelles, complétée par <strong>3 mois d'abonnement Premium gratuits</strong>. Ce statut Premium supprime les commissions de change sur les cryptos et réduit considérablement vos frais au quotidien.</p><br/><p>En matière de sécurité, Deblock est enregistrée en tant que <strong>PSAN auprès de l'Autorité des Marchés Financiers (AMF)</strong> et régulée en tant qu'établissement de paiement par l'ACPR. C'est l'outil parfait pour ceux qui souhaitent faire fructifier leur épargne entre euros et Bitcoin sans risque technique.</p>"
     },
     "steps": [
       {
@@ -2319,7 +2319,7 @@
         "answer": "Le compte Premium permet notamment de réduire les frais de transaction crypto, de bénéficier de limites de retrait plus hautes et d'avoir accès à des designs de cartes exclusifs."
       }
     ],
-    "lastVerified": "2026-11-13",
+    "lastVerified": "2026-11-23",
     "seoTitle": "Code Promo Deblock {{YEAR}} : 100€ Offerts + 3 Mois Premium ✓",
     "seoDescription": "Profitez de l'offre de bienvenue Deblock en {{YEAR}} : jusqu'à 100€ offerts et 3 mois de compte Premium. Compte bancaire français avec wallet crypto sécurisé."
   },
