@@ -2,6 +2,8 @@ import { MetadataRoute } from 'next';
 import { referrals, guides } from '@/lib/data';
 import { slugifyCategory } from '@/lib/utils';
 
+export const dynamic = 'force-static';
+
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://codes-de-parrainages.com';
     

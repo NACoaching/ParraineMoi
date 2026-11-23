@@ -2,7 +2,6 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { CopyToast } from "@/components/CopyToast";
-import { Analytics } from "@vercel/analytics/react";
 import { IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
 import type { Metadata, Viewport } from "next";
@@ -123,7 +122,6 @@ export default function RootLayout({
         <ScrollToTop />
         <CopyToast />
         <Footer />
-        <Analytics />
         {/* Referral Pulse Tracker */}
         <script
           defer

@@ -73,9 +73,9 @@ export default function MentionsLegalesPage() {
                     <div className="text-xs sm:text-sm text-slate-600 leading-relaxed">
                         <p>
                             Le site est hébergé sur l&apos;infrastructure sécurisée de :<br />
-                            <strong>Vercel Inc.</strong><br />
-                            440 N Barranca Ave #4133, Covina, CA 91723, États-Unis<br />
-                            Site web : <a href="https://vercel.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">https://vercel.com</a>
+                            <strong>Cloudflare, Inc.</strong><br />
+                            101 Townsend St, San Francisco, CA 94107, États-Unis<br />
+                            Site web : <a href="https://www.cloudflare.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">https://www.cloudflare.com</a>
                         </p>
                     </div>
                 </section>
