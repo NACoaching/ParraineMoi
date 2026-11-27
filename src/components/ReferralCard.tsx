@@ -17,6 +17,7 @@ export interface Referral {
   description: string;
   logoUrl: string;
   lastVerified?: string;
+  expiresAt?: string;
   review?: {
     pros: string[];
     cons?: string[];
@@ -164,6 +165,12 @@ export function ReferralCard({
                   <span className="inline-flex items-center gap-1 text-[9px] sm:text-[10px] font-semibold text-emerald-700 shrink-0">
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
                     <span className="hidden sm:inline">Vérifié le {new Date(referral.lastVerified).toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric' })}</span>
+                  </span>
+                )}
+                {referral.expiresAt && (
+                  <span className="inline-flex items-center gap-1 text-[9px] sm:text-[10px] font-bold text-amber-800 bg-amber-50 border border-amber-200/80 px-1.5 py-0.5 rounded shrink-0">
+                    <span>⏳</span>
+                    <span>Fin : {new Date(referral.expiresAt).toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit' })}</span>
                   </span>
                 )}
               </div>

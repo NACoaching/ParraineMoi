@@ -142,7 +142,7 @@
     "name": "Revolut",
     "slug": "revolut",
     "category": "Banque & Finance",
-    "code": "",
+    "code": "nalbanesi!NOV2-26-AR-SAV-H2",
     "link": "https://revolut.com/referral/?referral-code=nalbanesi!NOV2-26-AR-SAV-H2&geo-redirect",
     "advantage": "Jusqu'à 200€ offerts (Testé et Vérifié)",
     "description": "Revolut est l'application financière leader en Europe avec plus de 80 millions de clients. Elle permet d'ouvrir un compte en quelques minutes, de gérer son budget avec précision et surtout de payer à l'étranger sans frais de change cachés. C'est le compagnon idéal des voyageurs et des digital nomads.",
@@ -199,7 +199,8 @@
     ],
     "lastVerified": "2026-11-23",
     "seoTitle": "Code Promo & Parrainage Revolut {{YEAR}} : Jusqu’à 200€ Offerts 🚀",
-    "seoDescription": "Activez votre code promo et parrainage Revolut en {{YEAR}}. Jusqu’à 200€ de prime de bienvenue offerts lors de l’ouverture de votre compte gratuit."
+    "seoDescription": "Activez votre code promo et parrainage Revolut en {{YEAR}}. Jusqu’à 200€ de prime de bienvenue offerts lors de l’ouverture de votre compte gratuit.",
+    "expiresAt": "2026-12-08"
   },
   {
     "id": "3",

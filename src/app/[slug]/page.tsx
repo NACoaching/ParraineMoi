@@ -351,6 +351,12 @@ export default async function ReferralPage({
                         }`}>
                             {referral.isPartner ? "🤝 Partenaire d'Affiliation" : "⚡ Offre Active"}
                         </span>
+                        {referral.expiresAt && (
+                            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-amber-50 text-amber-900 border border-amber-200 text-[10px] font-bold">
+                                <span>⏳</span>
+                                <span>Offre valable jusqu&apos;au {new Date(referral.expiresAt).toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric' })}</span>
+                            </span>
+                        )}
                     </div>
                     <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight leading-tight">
                         Avis & Code Parrainage <span className="text-blue-600">{referral.name}</span>
@@ -379,9 +385,17 @@ export default async function ReferralPage({
                     ) : (
                         <>
                             {/* Advantage Banner */}
-                            <div className="inline-flex items-center gap-1.5 bg-emerald-50 border border-emerald-200 text-emerald-800 px-3.5 py-1.5 rounded-full text-xs font-bold mb-4 shadow-2xs">
-                                <span>🎁</span>
-                                <span>Prime garantie : <strong>{referral.advantage}</strong></span>
+                            <div className="flex flex-wrap items-center justify-center gap-2 mb-4">
+                                <div className="inline-flex items-center gap-1.5 bg-emerald-50 border border-emerald-200 text-emerald-800 px-3.5 py-1.5 rounded-full text-xs font-bold shadow-2xs">
+                                    <span>🎁</span>
+                                    <span>Prime garantie : <strong>{referral.advantage}</strong></span>
+                                </div>
+                                {referral.expiresAt && (
+                                    <div className="inline-flex items-center gap-1.5 bg-amber-50 border border-amber-200 text-amber-900 px-3.5 py-1.5 rounded-full text-xs font-bold shadow-2xs">
+                                        <span>⏳</span>
+                                        <span>Expire le <strong>{new Date(referral.expiresAt).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}</strong></span>
+                                    </div>
+                                )}
                             </div>
 
                             <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 mb-2 tracking-tight">
